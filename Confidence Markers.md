@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-09
-lifecycle: draft
+last-reviewed: 2026-03-10
+lifecycle: active
 confidence: emerging
 tags:
   - seed-extension
