@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+verification-status: community-validated
 ---
 
 # Weekly Review Process
@@ -93,5 +94,4 @@ review-count: 42
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
 - [[Measuring Knowledge Base Success]]
-- [[The Forgetting Curve]]
 - [[The Forgetting Curve]]
