@@ -184,9 +184,9 @@ pre:hover > .expand-button {
 <span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">condition</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">what symptom or state triggers this</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
 <span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">next-steps</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">:</span></span>
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  - </span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">condition A</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
-<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">    then</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [[</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">Note A</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]]</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">    then</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">link to branch note A</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">  - </span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">if</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">condition B</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]  </span></span>
-<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">    then</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [[</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">Note B</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]]</span></span>
+<span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">    then</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: [</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">link to branch note B</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">]</span></span>
 <span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">---</span></span>
 <span data-line> </span>
 <span data-line><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;"># Troubleshooting: [Problem Name]</span></span>
@@ -199,10 +199,10 @@ pre:hover > .expand-button {
 <span data-line> </span>
 <span data-line><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">## Branching Outcomes</span></span>
 <span data-line><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### If [Outcome A]</span></span>
-<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">→ See [[Note for Outcome A]]</span></span>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">→ Link to note explaining how to handle outcome A</span></span>
 <span data-line> </span>
 <span data-line><span style="--shiki-light:#005CC5;--shiki-light-font-weight:bold;--shiki-dark:#79B8FF;--shiki-dark-font-weight:bold;">### If [Outcome B]</span></span>
-<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">→ See [[Note for Outcome B]]</span></span></code></pre></figure>
+<span data-line><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">→ Link to note explaining how to handle outcome B</span></span></code></pre></figure>
 <h3 id="seed-rule-proposal">Seed Rule Proposal<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#seed-rule-proposal" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p><strong>Rule:</strong> For conditional/troubleshooting knowledge with 3+ branches, create a decision-point hub that links to each branch as separate atomic notes — do not embed all branches in one note.
 <strong>Why:</strong> Embedding 3+ branches violates atomicity and makes the note unusable; splitting without a hub loses the decision context.
