@@ -10,19 +10,13 @@
     <link>https://quartz.jzhao.xyz/Stress-Test---Every-Link-Must-Be-Explainable-in-Legal-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Stress-Test---Every-Link-Must-Be-Explainable-in-Legal-Knowledge</guid>
     <description><![CDATA[ Stress Test: Every Link Must Be Explainable in Legal Knowledge Seed Rule Being Tested Rule: Every link must be explainable in one sentence — no decorative or keyword-match links. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 08:24:57 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 08:34:24 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Capturing AI Prompt Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? The Problem Prompt engineering is a form of procedural knowledge, but it has unique characteristics that existing Seed rules don’t fully address: Exa... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 08:24:57 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Temporally Stale But Historically Accurate Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Temporally-Stale-But-Historically-Accurate-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Temporally-Stale-But-Historically-Accurate-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Temporally Stale But Historically Accurate Knowledge How to handle knowledge that was true when captured but is now stale — without being “wrong” The Problem The Seed distinguishes between: Time-sensitive data (stock prices, weather) — embed transient data separately Disproven ... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 08:17:39 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 08:34:24 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -64,6 +58,12 @@
     <link>https://quartz.jzhao.xyz/Emergence-in-Knowledge-Graphs</link>
     <guid>https://quartz.jzhao.xyz/Emergence-in-Knowledge-Graphs</guid>
     <description><![CDATA[ Emergence in Knowledge Graphs Emergence occurs when a system exhibits properties its individual components don’t have alone. ]]></description>
+    <pubDate>Wed, 11 Mar 2026 07:11:48 GMT</pubDate>
+  </item><item>
+    <title>Forward References and Planned Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</guid>
+    <description><![CDATA[ Forward References and Planned Knowledge When building a knowledge base, you often need to reference concepts that don’t exist yet — future topics, planned projects, or ideas you’ll develop later. ]]></description>
     <pubDate>Wed, 11 Mar 2026 07:11:48 GMT</pubDate>
   </item>
     </channel>
