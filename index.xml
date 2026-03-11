@@ -7,63 +7,63 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Stress Test - Confidence Markers Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Confidence-Markers-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Confidence-Markers-Rule-Across-Domains</guid>
+    <link>https://quartz.jzhao.xyz/content/Stress-Test---Confidence-Markers-Rule-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/content/Stress-Test---Confidence-Markers-Rule-Across-Domains</guid>
     <description><![CDATA[ Stress Test: Confidence Markers Rule Across Domains Testing Seed rule: “Use confidence markers (high/emerging/disputed/obsolete) to signal reliability of knowledge.” This note consolidates stress tests from multiple domains (Legal, Scientific Research) to provide a comprehensive view of the Confiden... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 04:05:58 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 04:16:10 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Sensory Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Sensory-Knowledge-Capture</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
     <description><![CDATA[ Frontier Exploration: Sensory Knowledge Capture How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base? The Problem Some knowledge domains are fundamentally sensory: Cooking — taste, texture, aroma, mouthfeel Wine/coffee — flavor profiles, aroma c... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 04:05:58 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 04:16:10 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Personal Experience Contradiction</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Experience-Contradiction</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Experience-Contradiction</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Personal-Experience-Contradiction</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Personal-Experience-Contradiction</guid>
     <description><![CDATA[ Frontier Exploration - Personal Experience Contradiction When your personal experience contradicts published sources, how should you capture this in your knowledge base? The Problem You read that a technique, approach, or method is “best” according to sources. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 04:05:58 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 04:16:10 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Ethics and Exclusion</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Ethics and Exclusion When should a knowledge base choose NOT to capture knowledge? What wisdom lies in what we choose not to record? The Problem The Seed has extensive rules about: What to capture (atomicity, sourcing, verification) How to structure (linking, navigati... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 04:05:58 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 04:16:10 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Equipment and Tool Dependencies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Equipment-and-Tool-Dependencies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Equipment-and-Tool-Dependencies</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Equipment-and-Tool-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Equipment-and-Tool-Dependencies</guid>
     <description><![CDATA[ Frontier Exploration - Equipment and Tool Dependencies in Knowledge Bases The Gap The Seed covers: Learning prerequisites — what knowledge you need BEFORE learning something new (prerequisites: []) Software version dependencies — which software version knowledge applies to (version:, eol-estimate) B... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 04:05:58 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 04:16:10 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Conditional and Troubleshooting Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Conditional and Troubleshooting Knowledge How should a knowledge base capture knowledge that depends on conditions, outcomes, or “if X then Y” decision trees? The Problem Consider building a knowledge base about: Troubleshooting: “If the car won’t start, check battery; if batt... ]]></description>
     <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Multiple Equivalent Approaches</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multiple-Equivalent-Approaches</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multiple-Equivalent-Approaches</guid>
+    <link>https://quartz.jzhao.xyz/content/Frontier-Exploration---Multiple-Equivalent-Approaches</link>
+    <guid>https://quartz.jzhao.xyz/content/Frontier-Exploration---Multiple-Equivalent-Approaches</guid>
     <description><![CDATA[ Frontier Exploration - Multiple Equivalent Approaches When there are multiple valid ways to achieve the same goal, how should a knowledge base present this? This frontier explores the gap between “contradictory sources” (one is wrong) and “subjective preferences” (all are valid). ]]></description>
     <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
   </item><item>
+    <title>README</title>
+    <link>https://quartz.jzhao.xyz/README</link>
+    <guid>https://quartz.jzhao.xyz/README</guid>
+    <description><![CDATA[ Quartz v4 “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming Quartz is a set of tools that helps you publish your digital garden and notes as a website for free. ]]></description>
+    <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
+  </item><item>
     <title>AI Assistance Quality Criteria</title>
-    <link>https://quartz.jzhao.xyz/AI-Assistance-Quality-Criteria</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assistance-Quality-Criteria</guid>
+    <link>https://quartz.jzhao.xyz/content/AI-Assistance-Quality-Criteria</link>
+    <guid>https://quartz.jzhao.xyz/content/AI-Assistance-Quality-Criteria</guid>
     <description><![CDATA[ AI Assistance Quality Criteria This note provides an overview of AI-assistance capabilities for knowledge base quality evaluation. ]]></description>
     <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Connection Suggestion</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Connection-Suggestion</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Connection-Suggestion</guid>
+    <link>https://quartz.jzhao.xyz/content/AI-Assisted-Connection-Suggestion</link>
+    <guid>https://quartz.jzhao.xyz/content/AI-Assisted-Connection-Suggestion</guid>
     <description><![CDATA[ AI-Assisted Connection Suggestion AI can suggest meaningful connections between notes that humans might miss. ]]></description>
-    <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
     <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
   </item>
     </channel>
