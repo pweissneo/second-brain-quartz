@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
     <description><![CDATA[ Frontier Exploration: Sensory Knowledge Capture How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base? The Problem Some knowledge domains are fundamentally sensory: Cooking — taste, texture, aroma, mouthfeel Wine/coffee — flavor profiles, aroma c... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 01:20:14 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 01:34:14 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Personal Experience Contradiction</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Experience-Contradiction</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Experience-Contradiction</guid>
     <description><![CDATA[ Frontier Exploration - Personal Experience Contradiction When your personal experience contradicts published sources, how should you capture this in your knowledge base? The Problem You read that a technique, approach, or method is “best” according to sources. ]]></description>
-    <pubDate>Wed, 11 Mar 2026 01:20:14 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 01:34:14 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Ethics and Exclusion</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Ethics and Exclusion When should a knowledge base choose NOT to capture knowledge? What wisdom lies in what we choose not to record? The Problem The Seed has extensive rules about: What to capture (atomicity, sourcing, verification) How to structure (linking, navigati... ]]></description>
-    <pubDate>Wed, 11 Mar 2026 01:20:14 GMT</pubDate>
+    <pubDate>Wed, 11 Mar 2026 01:34:14 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Equipment and Tool Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Equipment-and-Tool-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Equipment-and-Tool-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - Equipment and Tool Dependencies in Knowledge Bases The Gap The Seed covers: Learning prerequisites — what knowledge you need BEFORE learning something new (prerequisites: []) Software version dependencies — which software version knowledge applies to (version:, eol-estimate) B... ]]></description>
+    <pubDate>Wed, 11 Mar 2026 01:34:14 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Multiple Equivalent Approaches</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multiple-Equivalent-Approaches</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/AI-Assisted-Link-Quality-Evaluation</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Link-Quality-Evaluation</guid>
     <description><![CDATA[ AI-Assisted Link Quality Evaluation AI can automatically evaluate link quality in a knowledge base. ]]></description>
-    <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Note Splitting</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Note-Splitting</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Note-Splitting</guid>
-    <description><![CDATA[ AI-Assisted Note Splitting AI can identify and split oversized notes into atomic units. ]]></description>
     <pubDate>Tue, 10 Mar 2026 20:51:11 GMT</pubDate>
   </item>
     </channel>
