@@ -46,3 +46,4 @@ When you combine notes, new insights emerge:
 - [[Emergence in Knowledge Graphs]]
 - [[Writing as Thinking]]
 - [[The Extended Mind]]
+- [[The Last Skill]]

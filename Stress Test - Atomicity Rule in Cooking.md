@@ -1,8 +1,11 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: emerging
+lifecycle: active
 confidence: emerging
-tags: [seed-refinement, domain-specific, stress-test]
+tags:
+  - seed-refinement
+  - domain-specific
+  - stress-test
 ---
 
 # Stress Test: Atomicity Rule in Cooking
@@ -68,10 +71,28 @@ This is one coherent topic but inherently broad - it's a navigation hub, not an 
 #### Edge Case 5: Menu Planning and Meal Composition
 **Problem:** Notes about composing a multi-course meal (appetizer → main → dessert) naturally discuss flavor balancing, timing coordination, portion considerations, and wine pairing. A comprehensive note might exceed 400 words.
 
+#### Edge Case 6: Domain Unit Concepts (From Music Theory Stress Test)
+
+**Problem:** Some domains have concepts that are inherently brief by definition - they CANNOT be expanded without losing meaning:
+
+- **Music:** Dynamic markings (piano=f, forte=f), tempo markings (Largo, Allegro)
+- **Cooking:** Basic techniques that are definition-atomic (blanch, sauté, sous vide)
+- **Science:** SI units (meter, kilogram), chemical elements
+
+The rule assumes every concept can be expanded to 100 words without fluff. Domain unit concepts are fundamentally atomic - their brevity IS the point.
+
+**The Test Fails:** An AI applying the 100-300 word rule strictly would either merge all unit concepts into one note (violating atomicity!) or create bloated notes with useless padding.
+
+**Recommendation:** Notes should be 100-300 words UNLESS the concept is a:
+- Standard unit of the domain (dynamics in music, SI units in science, basic techniques in cooking)
+- Definition-atomic concept (cannot be split without losing meaning)
+- Notation element (symbols that have fixed meanings)
+
+**Test:** For notes <100 words: (1) Is this a standard unit/notation element? (2) Does splitting it make the domain's logic incoherent? (3) Is the brevity intentional, not lazy? Accept if yes to any.
+
 ## Related
 - [[Atomic Note Principle]]
-- [[Stress Test - Atomicity Rule in Music Theory]]
 - [[Domain-Specific Knowledge Bases]]
-- [[Note Thickness Balance]]
+- [[AI-Assisted Knowledge Management Seed]] — see "Domain unit concepts" edge case in Atomicity section
 
-> Note: Merged content from "Stress Test - Word Count Rule in Cooking" (deprecated 2026-03-10) - see git history for original.
+> Note: Merged content from "Stress Test - Atomicity Rule in Music Theory.md" (deprecated 2026-03-10) - see git history for original.

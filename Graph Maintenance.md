@@ -50,6 +50,7 @@ Every 15 minutes:
 ## Related
 - [[Atomic Note Principle]]
 - [[Graph Traversal Efficiency]]
-- [[Graph Density Management]]
+- [[Graph Navigation MCP]]
 - [[Knowledge Visualization]]
 - [[Self-Improvement Cycle]]
+- [[Weekly Review Process]]

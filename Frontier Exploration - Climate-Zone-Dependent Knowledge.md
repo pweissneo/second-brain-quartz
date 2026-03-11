@@ -6,6 +6,7 @@ tags:
   - frontier-exploration
   - domain-agnostic
   - scope-metadata
+level: pattern
 ---
 
 # Frontier Exploration: Climate-Zone-Dependent Knowledge
@@ -50,6 +51,7 @@ But there's no explicit `climate-zone` or `hardiness-zone` tag, and no guidance 
 
 ## Related Notes
 
-- [[Frontier Exploration - Jurisdiction and Region-Dependent Knowledge]]
+- [[AI-Assisted Knowledge Management Seed]] (jurisdiction/region rules)
 - [[Handling Temporal Knowledge]]
-- [[Stress Test - Atomicity Rule in Cooking]] — Cooking has similar climate dependencies (high-altitude baking adjustments)
+- [[Stress Test - Atomicity Rule Across Domains]] — Domain stress tests including climate-dependent knowledge handling
+- [[Frontier Exploration - Framework-Dependent Knowledge]] — Similar scope-tag pattern for conceptual frameworks

@@ -1,7 +1,12 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+tags:
+  - mcp
+  - graph
+  - navigation
+  - tools
 ---
 
 # Graph Navigation MCP
@@ -98,7 +103,19 @@ Unlike folders, you search by **connection**, not location:
 - **Searching by folder** — There are no folders (see [[Knowledge Graph Structure]])
 - **Only using full-text** — Relationship search finds better results
 
+## Graph Density Management
+
+Link density management is covered in the Seed. Key principles:
+
+- **Optimal density:** 2-7 links per note (minimum 2, target 3-5, maximum 7)
+- **Quality over quantity:** Each link should add unique navigational or conceptual value
+- **Hub capping:** When a hub exceeds 10+ outgoing links, create intermediary hub notes
+- **Prune ruthlessly:** Remove decorative links that don't serve a navigation purpose
+
+See [[AI-Assisted Knowledge Management Seed]] for the full rules on graph density.
+
 ## Related
 - [[Note Insertion Strategy]]
 - [[Graph Traversal Efficiency]]
 - [[Graph Maintenance]]
+- [[AI-Assisted Knowledge Management Seed]]

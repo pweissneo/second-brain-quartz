@@ -1,4 +1,5 @@
 ---
+protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
@@ -41,6 +42,8 @@ See [[Emergence in Knowledge Graphs]] for how connections generate insights.
 
 ## Graph Metrics
 
+These targets are defined in [[AI-Assisted Knowledge Management Seed]]:
+
 | Metric | Target |
 |--------|--------|
 | Average links per node | 3-5 |
@@ -82,7 +85,7 @@ Knowledge/
 ```
 [[Atomic Note Principle]] ←→ [[Linking Principle]] ←→ [[Note Insertion Strategy]]
        ↓                  ↓                  ↓
-   [[Note Types]]    [[Graph Maintenance]] [[Note Templates]]
+   [[Note Types and Templates]]    [[Graph Maintenance]] [[Note Types and Templates]]
 ```
 
 **Characteristics:**

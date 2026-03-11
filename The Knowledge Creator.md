@@ -69,5 +69,4 @@ You don't need to be an expert:
 - [[Knowledge Base Workflow]]
 - [[Systems Over Goals]]
 - [[The Knowledge Identity]]
-- [[The Knowledge Legacy]]
 - [[AI-Assisted Knowledge Management Seed]]

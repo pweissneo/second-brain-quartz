@@ -47,7 +47,7 @@ Different notes serve different functions:
 - **Project Notes** - Time-bound, outcome-focused
 - **Reference Notes** - External source storage
 
-**Demonstrated by:** [[Note Types]]
+**Demonstrated by:** [[Note Types and Templates]]
 
 ---
 
@@ -127,8 +127,9 @@ See [[Graph Navigation MCP]] for tool details.
 - [[Frontier Exploration - Illustrative vs Factual Examples]] - Example types
 - [[Frontier Exploration - Vault Boundaries]] - What to include/exclude
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
-- [[Frontier Exploration - Multi-Audience Knowledge Bases]] - Different expertise levels
+- [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
 - [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
+- [[Frontier Exploration - Cross-Domain Knowledge]] - Multi-domain topics
 
 ---
 
@@ -137,7 +138,7 @@ See [[Graph Navigation MCP]] for tool details.
 This note synthesizes guidance from the following vault notes:
 - [[AI-Assisted Knowledge Management Seed]] - Core ruleset this document exports
 - [[Atomic Note Principle]] - Atomicity definition
-- [[Note Types]] - Note type categorization
+- [[Note Types and Templates]] - Note type categorization
 - [[Self-Improvement Cycle]] - Maintenance cadence
 - [[Graph Maintenance]] - Health check procedures
 - [[Note Insertion Strategy]] - Knowledge integration process

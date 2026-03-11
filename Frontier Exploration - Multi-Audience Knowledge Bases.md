@@ -39,16 +39,18 @@ But it lacks guidance on:
 
 ## Strategy 1: Tiered Entry Points
 
+> **Note:** The following are illustrative examples of multi-audience structure.
+
 Create separate hub notes for each audience:
 
 ```
-[[Programming Index]]          → For beginners
+Programming Index *[illustrative]*         → For beginners
   → Links to basic concepts
   
-[[Advanced Programming]]      → For experts  
+Advanced Programming *[illustrative]*      → For experts  
   → Links to deep dives, patterns
 
-[[Programming Gateway]]       → For everyone
+Programming Gateway *[illustrative]*       → For everyone
   → Links to both entry points
 ```
 
@@ -61,13 +63,13 @@ Add frontmatter to signal intended level:
 ```yaml
 ---
 audience: [beginner|intermediate|advanced|all]
-prerequisites: [[Basic Concept 1]], [[Basic Concept 2]]
+prerequisites: Basic Concept 1 *[illustrative]*, Basic Concept 2 *[illustrative]*
 ---
 
 For example:
-- [[Variables]] → audience: beginner
-- [[Monads]] → audience: advanced
-- [[Control Flow]] → audience: all
+- Variables *[illustrative]* → audience: beginner
+- Monads *[illustrative]* → audience: advanced
+- Control Flow *[illustrative]* → audience: all
 ```
 
 ## Strategy 3: Layered Notes
@@ -75,10 +77,10 @@ For example:
 For complex topics, create layered notes:
 
 ```
-[[Database Index]]           → Overview (all audiences)
-  → [[SQL Basics]]          → audience: beginner
-  → [[Query Optimization]]  → audience: advanced
-  → [[Database Theory]]     → audience: intermediate
+Database Index *[illustrative]*            → Overview (all audiences)
+  → SQL Basics *[illustrative]*           → audience: beginner
+  → Query Optimization *[illustrative]*   → audience: advanced
+  → Database Theory *[illustrative]*      → audience: intermediate
 ```
 
 The index links to all layers; readers self-select their entry point.
@@ -122,17 +124,19 @@ Use horizontal rules or clear headings to separate layers.
 
 ## Stress Test: Medical Vault
 
+> **Note:** The following are illustrative examples — hypothetical notes for a medical knowledge base.
+
 **Scenario:** Building a knowledge base about heart disease
 
 **Without this rule:**
-- One note on "Myocardial Infarction" trying to serve everyone
+- One note on "Myocardial Infarction" *[illustrative]* trying to serve everyone
 - Patients confused by clinical jargon
 - Doctors frustrated by oversimplification
 
 **With this rule:**
-- [[Heart Disease Gateway]] → links to all entry points
-- [[Heart Disease for Patients]] → plain language, links to [[Heart Disease for Professionals]]
-- [[Heart Disease for Professionals]] → clinical terminology, links to [[Heart Disease for Patients]] for patient education
+- Heart Disease Gateway *[illustrative]* → links to all entry points
+- Heart Disease for Patients *[illustrative]* → plain language, links to Heart Disease for Professionals *[illustrative]*
+- Heart Disease for Professionals *[illustrative]* → clinical terminology, links to Heart Disease for Patients *[illustrative]* for patient education
 
 Both audiences served; atomic notes shared.
 

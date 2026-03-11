@@ -49,6 +49,7 @@ This note expands on that rule with specific guidelines.
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Atomic Note Principle]]
-- [[Note Types]]
+- [[Note Types and Templates]]
 - [[Graph Navigation MCP]]
 - [[Zettelkasten Method]]
+- [[Forward References and Planned Knowledge]]

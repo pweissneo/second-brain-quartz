@@ -33,7 +33,7 @@ Software development is an excellent stress test for lifecycle rules because:
 
 **Analysis:**
 - Lifecycle stage: **deprecated** (Python 2 reached end of life)
-- Should point to: [[Python 3 Migration Guide]]
+- Should point to: Python 3 Migration Guide
 - Does this pass? YES — properly marked as historical
 
 ### Scenario 2: Framework Documentation
@@ -43,7 +43,7 @@ Software development is an excellent stress test for lifecycle rules because:
 
 **Analysis:**
 - Lifecycle: **deprecated** (React hooks replaced class components)
-- Should point to: [[React Functional Components]] or [[React Hooks Guide]]
+- Should point to: React Functional Components or React Hooks Guide
 - Problem: Is this note marked as deprecated? If not, violates the rule
 
 ### Scenario 3: Tutorial for Deprecated Tool
@@ -73,7 +73,7 @@ Software development is an excellent stress test for lifecycle rules because:
 
 **Analysis:**
 - Lifecycle: **deprecated** (modern frameworks made jQuery largely obsolete)
-- Should point to: [[Vanilla JavaScript DOM]] or [[Modern Frontend Frameworks]]
+- Should point to: Vanilla JavaScript DOM or Modern Frontend Frameworks
 - This is borderline: It's historical knowledge, not necessarily deprecated
 
 ## Edge Cases Discovered

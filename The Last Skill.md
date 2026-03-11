@@ -52,4 +52,6 @@ Specific Skills (coding, writing, etc.)
 ## Related
 - [[The Extended Mind]]
 - [[Self-Improvement Cycle]]
-- [[The Extended Mind]]
+- [[The Forgetting Curve]]
+- [[Note Prioritization Strategy]]
+- [[The First-Principle Thinker]]

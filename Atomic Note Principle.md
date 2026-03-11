@@ -90,16 +90,54 @@ If yes to 1-2 → keep together. If yes to 3 → consider splitting.
 | Legal contract template | Keep as one | Full document needed for validity |
 | "How to learn Python" | Split | Each resource/tip is independently useful |
 
+## The Thickness Spectrum
+
+Notes can be too thin as easily as too thick. Finding the sweet spot:
+
+```
+Too Thin (<50 words)    →    Optimal (100-300)    →    Too Long (>300)
+                                                                
+- No substance          →    Self-contained       →    Multiple ideas
+- Can't stand alone    →    Adds unique value    →    Needs splitting
+- Waste of graph space →    Perfect atomicity    →    Violates atomicity
+```
+
+## When Thin Is Acceptable
+
+- **Redirects** — Notes that point to a renamed/moved note (temporary)
+- **Stubs** — Notes intentionally marked as TODO with clear intent to expand
+- **Hubs** — Navigation notes that intentionally stay light (under 200 words)
+
+A stub must have:
+1. A clear `status: stub` or `todo: true` marker
+2. Explicit intent in comments or body
+3. A planned expansion path
+
+A hub must:
+1. Be primarily links with brief context (under 200 words)
+2. Not contain substantial content itself
+3. Serve a navigation purpose only
+
+## The Synthesis Principle
+
+Every note should contribute something unique — either:
+1. **New information** not found in linked notes, OR
+2. **New synthesis** combining ideas from multiple sources, OR  
+3. **Concrete examples** that make abstract concepts tangible
+
+If a note just restates what links already contain, it's redundant.
+
 ## Related
 - [[Linking Principle]]
 - [[Graph Traversal Efficiency]]
-- [[Note Types]]
+- [[Note Types and Templates]]
+- [[Note Types and Templates]] — Template for consistent note structure
 
 
 ## Stress Tests
 This rule has been validated across multiple domains:
 
-- [[Stress Test - Atomicity Rule in Music Theory]] — Tests edge cases for domain unit concepts (dynamics, tempo markings)
+- [[Stress Test - Atomicity Rule Across Domains]] — Tests edge cases across cooking, gardening, programming domains
 - [[Stress Test - Minimum Link Rule in Cooking]] — Tests minimum link requirements in recipe-based vaults
 - [[Stress Test - 3-Hops Rule in Medicine]] — Tests navigation depth in medical taxonomies
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Tests temporal data handling

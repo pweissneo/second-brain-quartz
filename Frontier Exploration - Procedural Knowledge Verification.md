@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: draft
 confidence: emerging
 tags:
 - frontier-exploration
@@ -59,8 +59,9 @@ The AI must trust procedural content - but the Seed doesn't acknowledge this lim
 Rather than requiring verification (which may be impossible for AI agents), tag procedural notes with `audience: intermediate` or `audience: expert` to signal that some knowledge may require external verification.
 
 ## Related
-- [[Trust and Verify]]
 - [[Source Validation Over Time]]
 - [[Stress Test - Minimum Link Rule in Cooking]]
 - [[Confidence Markers]]
+- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — For branching procedures with multiple outcomes
 - [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Temporal and Sequential Knowledge]] — Related: sequential knowledge structure

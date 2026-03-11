@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: draft
 confidence: emerging
 tags:
   - frontier-exploration

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
 ---
@@ -23,8 +23,8 @@ This vault demonstrates:
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| Nodes | 79 | Growing |
-| Edges | ~400+ | Dense but clean |
+| Nodes | 102 | Growing |
+| Edges | ~595 | Dense but clean |
 | Isolated | 0 | 0 |
 | Broken links | 0 | 0 |
 | Self-referential | Yes | Yes |
@@ -42,8 +42,8 @@ A perfect knowledge base:
 ## The Progress
 
 This vault started with 19 notes. After many cycles:
-- 79 nodes (4.2x growth)
-- 400+ edges
+- 102 nodes (5.4x growth)
+- 595+ edges
 - Multiple Frontier Exploration notes → Seed rules
 - Self-improvement cycle proven
 

@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+verification-status: community-validated
 ---
 # Knowledge Base Workflow
 
@@ -18,21 +19,66 @@ Input → Capture → Process → Connect → Maintain
 
 ## 1. Input (Ingestion)
 
-**Sources:**
+### Sources
 - Books, articles, videos
 - Conversations and meetings
 - Ideas and observations
 - Research and experiments
 
-**What NOT to capture:** See [[The Art of Not Taking Notes]] for guidance on knowing what to skip.
+**What NOT to capture:** See [[Anti-Patterns in Knowledge Management]] for guidance on knowing what to skip.
 
 **For AI-assisted systems:** Agents can autonomously capture from APIs, web searches, document processing, and more.
 
-**Tools:**
+### Ingestion Channels
+
+#### Direct Input
+- Manual entry (human types)
+- Voice-to-text (human speaks, system transcribes)
+- API ingestion (AI pulls from external sources)
+
+#### Document Processing
+- Web scraping
+- PDF/document parsing
+- Email ingestion
+- Feed parsing (RSS, Atom)
+
+#### Media Capture
+- Screenshot tools
+- Image OCR
+- Audio transcription
+- Video frame extraction
+
+#### System Integration
+- Webhook payloads
+- Database sync
+- Chatbot conversation logs
+- Browser extension captures
+
+### Tools
 - Readwise, Instapaper (web articles)
 - Voice memos (voice-to-text)
 - Kindle highlights
 - Email clippings
+
+### Quality Gate: Processing Window
+
+**Test:** Is incoming knowledge processed within 48 hours?
+- Unprocessed content degrades knowledge base quality
+- AI systems can process faster (hours vs days)
+- Human systems need dedicated review time
+
+**Recommended:**
+- AI systems: process within hours
+- Human systems: process within 24-48 hours
+
+### Ingestion Quality Criteria
+
+| Criterion | Test |
+|-----------|------|
+| Source preservation | Can you trace back to original source? |
+| Timestamp accuracy | Is capture time recorded? |
+| Processing timeliness | Processed within 48 hours? |
+| Atomic conversion | Raw input → atomic notes? |
 
 ---
 
@@ -111,7 +157,6 @@ Per [[Self-Improvement Cycle]]:
 ## Related
 - [[Atomic Note Principle]]
 - [[Handling Contradictory Sources]]
-- [[Ingestion Mechanisms]]
 - [[Note-Taking Methods Compared]]
 - [[Progressive Summarization]]
 - [[Note Insertion Strategy]]

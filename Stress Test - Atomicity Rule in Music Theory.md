@@ -78,6 +78,6 @@ The atomicity rule should explicitly address **unit concepts**:
 
 ## Related
 - [[Atomic Note Principle]]
-- [[Note Thickness Balance]]
+- [[Atomic Note Principle]]
 - [[Domain-Specific Knowledge Bases]]
 - [[AI-Assisted Knowledge Management Seed]] — see "Domain unit concepts" edge case in Atomicity section

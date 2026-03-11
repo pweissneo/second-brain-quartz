@@ -60,5 +60,5 @@ Knowledge is fleeting. Without mechanisms to capture it, insights are lost.
 ## Related
 - [[Knowledge Base Workflow]]
 - [[Atomic Note Principle]]
-- [[Note Templates]]
+- [[Note Types and Templates]]
 - [[Sources Provenance MCP]]

@@ -61,3 +61,5 @@ Entry point for PKM methodologies.
 - [[Graph Maintenance]]
 - [[Linking Principle]]
 - [[Knowledge Graph Structure]]
+- [[Frontier Exploration - Cross-Domain Knowledge]]
+- [[AI-Assisted Knowledge Management Seed]] — Foundation rules for hub creation and graph navigation

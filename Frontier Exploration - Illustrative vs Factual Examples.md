@@ -84,6 +84,24 @@ The problem: Illustrative examples can be generic; factual examples must be accu
 3. **Statistical examples** — "In a 2023 study..." are factual and must be dated.
 4. **Tutorial examples** — Step-by-step guides are typically illustrative unless linking to real documentation. Mark as "example tutorial" rather than "how to."
 
+## Domain-Specific Edge Cases
+
+### Legal Knowledge
+
+The legal domain provides particularly important edge cases due to high stakes:
+
+1. **Teaching Hypotheticals** — Law school materials use hypotheticals extensively (e.g., "If Dr. Smith leaves a clamp in a patient's abdomen..."). These look like case summaries but never happened. Must be marked as illustrative.
+
+2. **Modified Real Cases** — Teachers sometimes modify real cases for classroom discussion ("In a case *similar to* Johnson v. Hospital Corp..."). The base case may be real but the modification makes it hypothetical.
+
+3. **Common Law Principles** — Notes citing multiple cases (e.g., "*Palsgraf v. Long Island Railroad* (1928) and *Bolitho v. Dodds* (1997)") are factual but may not apply in all jurisdictions.
+
+4. **Model Laws and Uniform Acts** — Model laws (e.g., "The Uniform Commercial Code Section 2-207") aren't actual law yet. Mark with `status: proposed` or `status: pending`.
+
+5. **International Law** — Comparative legal analysis (e.g., "Under English common law, consideration is required; under French civil code, it is not") is neither illustrative nor factual in the case-law sense—it's comparative. Mark with `example-type: comparative`.
+
+6. **Pending Legislation** — Proposed laws (e.g., "The proposed EU AI Regulation would require...") are factual about the proposal but not about enacted law. Mark with `status: pending`.
+
 ## The Test (Combined)
 
 1. Pick 5 random notes containing examples
@@ -110,3 +128,4 @@ With this distinction:
 - [[Source Validation Over Time]] — Temporal data handling
 - [[Confidence Markers]] — Signaling reliability
 - [[Knowledge Base Workflow]] — How new knowledge enters
+- [[Stress Test - Confidence Markers Rule Across Domains]] — Cross-domain stress test

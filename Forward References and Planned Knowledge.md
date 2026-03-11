@@ -1,8 +1,13 @@
 ---
 last-reviewed: 2026-03-09
-tags: [type:principle, process:workflow, aspect:structure]
+tags:
+  - forward-reference
+  - planned
+  - stub
+  - workflow
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
+level: principle
 ---
 
 # Forward References and Planned Knowledge
@@ -35,6 +40,8 @@ Treating them the same loses planning information.
 ## Rule
 
 **Use stub notes with explicit `status: planned` for known future topics.** Don't leave dangling wikilinks that appear broken.
+
+This aligns with Seed rule for stub notes: notes under 50 words must be marked with `status: stub` or `todo: true` to signal intentional incompleteness.
 
 ### When to create a stub:
 - You know the topic will exist (planned project, identified gap)
@@ -75,6 +82,9 @@ depends-on: [Atomic Note Principle, Linking Principle]
 
 ## Related
 
+- [[AI-Assisted Knowledge Management Seed]] — Core rules including stub note requirements
 - [[Atomic Note Principle]]
 - [[Note Lifecycle Management]]
 - [[Graph Traversal Efficiency]]
+- [[Note Insertion Strategy]]
+- [[Wikilinks]]

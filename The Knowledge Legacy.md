@@ -1,10 +1,15 @@
 ---
-last-reviewed: 2026-03-08
-lifecycle: evergreen
+last-reviewed: 2026-03-10
+lifecycle: deprecated
 confidence: high
+deprecated: true
+replacement: [[Knowledge Sharing]]
+status: deprecated
 ---
 
 # The Knowledge Legacy
+
+> **DEPRECATED:** This note has been deprecated. The useful content about documenting, sharing, and updating knowledge has been integrated into [[Knowledge Sharing]].
 
 Building something that outlasts you.
 

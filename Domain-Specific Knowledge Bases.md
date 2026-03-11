@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+level: principle
 ---
 
 # Domain-Specific Knowledge Bases
@@ -135,3 +136,4 @@ The difference is **content**, not structure.
 ## Related
 - [[Knowledge Base Workflow]]
 - [[Atomic Note Principle]]
+- [[Frontier Exploration - Multi-Vault Architecture]]

@@ -1,8 +1,12 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
 verification-status: community-validated
+sources:
+  - title: "Building a Second Brain"
+    author: "Tiago Forte"
+    link: "https://www.buildingasecondbrain.com/"
 ---
 
 # Weekly Review Process

@@ -12,7 +12,7 @@ Notes must be **interconnected** through [[Wikilinks]] to form a knowledge graph
 ## Core Rule
 - Every note should link to at least **2-3 related notes**
 - Links should be **content-driven** — only link when there's a meaningful connection
-- Use descriptive link text: `[[Concept|Display Text]]` when appropriate
+- Use descriptive link text: &#91;&#91;Target Note|Display Text&#93;&#93; when appropriate (example syntax)
 - Always consider: "What does this note relate to?"
 
 ## Quality Criteria
@@ -32,7 +32,7 @@ Notes must be **interconnected** through [[Wikilinks]] to form a knowledge graph
 - **Minimum**: 2-3 links per note (ensures connectivity)
 - **Maximum**: Avoid over-linking (dilutes meaning)
 - **Target**: Links that add genuine value
-- See [[Graph Density Management]] for detailed strategies on managing link quality and quantity
+- See [[Graph Navigation MCP]] for detailed strategies on managing link quality and quantity
 
 ## Connection Types
 Make diverse connections:
@@ -50,7 +50,7 @@ Make diverse connections:
 | Contrast | [[Progressive Summarization]] → [[Zettelkasten Method]] |
 | Analogy | [[Progressive Summarization]] → [[Active Reading]] |
 | Cause/Effect | [[The Forgetting Curve]] → (retention via active recall) |
-| Category | [[Note Types]] → [[Atomic Note Principle]] |
+| Category | [[Note Types and Templates]] → [[Atomic Note Principle]] |
 
 ## How to Find Connections
 

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: active
 confidence: emerging
 tags:
 - seed-stress-test
@@ -17,9 +17,9 @@ tags:
 ## Application to Woodworking Knowledge Base
 
 ### Where the Rule Works Well
-- **Woodworking Tools** → links to [[Hand Tools]], [[Power Tools]], [[Jigs]], [[Safety Equipment]]
-- **Wood Types** → links to [[Hardwoods]], [[Softwoods]], [[Exotic Woods]], [[Wood Grain]]
-- **Finishing Techniques** → links to [[Sanding]], [[Staining]], [[Varnishing]], [[Oil Finishes]]
+- **Woodworking Tools** → links to Hand Tools, Power Tools, Jigs, Safety Equipment
+- **Wood Types** → links to Hardwoods, Softwoods, Exotic Woods, Wood Grain
+- **Finishing Techniques** → links to Sanding, Staining, Varnishing, Oil Finishes
 
 ### Edge Case: Hub as Introduction
 
@@ -33,14 +33,14 @@ and decorative layer to wood surfaces. It enhances
 durability, appearance, and resistance to moisture.
 
 ## Types of Finishes
-- [[Oil Finishes]] - Penetrate and protect
-- [[Film Finishes]] - Create surface barrier
-- [[Wax Finishes]] - Natural sheen
+- Oil Finishes - Penetrate and protect
+- Film Finishes - Create surface barrier
+- Wax Finishes - Natural sheen
 
 ## Selection Criteria
-- [[Food Safety Finishes]]
-- [[Outdoor Durability]]
-- [[Maintenance Requirements]]
+- Food Safety Finishes
+- Outdoor Durability
+- Maintenance Requirements
 ```
 
 The hub contains 50 words of substantive content + 6 links. Is this a violation?
@@ -57,19 +57,19 @@ The hub contains 50 words of substantive content + 6 links. Is this a violation?
 Start with these project categories based on skill level:
 
 ## Beginner Projects
-- [[Cutting Boards]]
-- [[Simple Boxes]]
-- [[Workbenches]]
+- Cutting Boards
+- Simple Boxes
+- Workbenches
 
 ## Intermediate Projects
-- [[Furniture Building]]
-- [[Joinery Practice]]
-- [[Lathe Turning]]
+- Furniture Building
+- Joinery Practice
+- Lathe Turning
 
 ## Advanced Projects
-- [[Fine Furniture]]
-- [[Custom Cabinetry]]
-- [[Restoration Work]]
+- Fine Furniture
+- Custom Cabinetry
+- Restoration Work
 ```
 
 The hub is primarily links, but includes skill-level categorization (3 sentences, ~40 words). This seems valuable but adds content beyond pure navigation.
@@ -84,19 +84,19 @@ The hub is primarily links, but includes skill-level categorization (3 sentences
 The table saw is the centerpiece of most woodworking shops.
 
 ## Essential Topics
-- [[Blade Selection]]
-- [[Table Saw Jigs]]
-- [[Rip Cut Techniques]]
-- [[Cross Cut Techniques]]
+- Blade Selection
+- Table Saw Jigs
+- Rip Cut Techniques
+- Cross Cut Techniques
 
 ## Safety Critical
-- [[Kickback Prevention]]
-- [[Push Stick Usage]]
-- [[Blade Guard]]
+- Kickback Prevention
+- Push Stick Usage
+- Blade Guard
 
 ## Maintenance
-- [[Blade Alignment]]
-- [[Motor Care]]
+- Blade Alignment
+- Motor Care
 ```
 
 The "Safety Critical" section is arguably substantive content, not just links.
@@ -111,17 +111,17 @@ The "Safety Critical" section is arguably substantive content, not just links.
 Hardwoods come in various grades based on defects and clarity.
 
 ## Grade Hierarchy
-- [[Clear Grade]] - No defects
-- [[Select Grade]] - Minimal defects
-- [[Common Grade]] - More defects, less expensive
+- Clear Grade - No defects
+- Select Grade - Minimal defects
+- Common Grade - More defects, less expensive
 
 ## Species
-- [[Oak]], [[Maple]], [[Cherry]], [[Walnut]], [[Mahogany]]
+- Oak, Maple, Cherry, Walnut, Mahogany
 
 ## Purchasing
-- [[Lumber Yard Selection]]
-- [[Board Foot Calculation]]
-- [[Moisture Content]]
+- Lumber Yard Selection
+- Board Foot Calculation
+- Moisture Content
 ```
 
 The grading explanation (~25 words) adds essential context for understanding links.
@@ -148,6 +148,5 @@ In woodworking specifically:
 - [[Hub Node Creation]]
 - [[Graph Navigation MCP]]
 - [[Graph Traversal Efficiency]]
-- [[Note Thickness Balance]]
 - [[Atomic Note Principle]]
 - [[Knowledge Graph Structure]]

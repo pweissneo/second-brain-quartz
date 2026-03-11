@@ -1,11 +1,11 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: active
 confidence: emerging
 tags:
-- seed-stress-test
-- cooking-domain
-- edge-case
+  - seed-stress-test
+  - cooking-domain
+  - edge-case
 ---
 
 # Stress Test: Minimum Link Rule in Cooking Domain
@@ -20,9 +20,9 @@ tags:
 
 > **Illustrative examples** (hypothetical notes in a cooking knowledge base):
 
-- **Techniques**: "Searing" → links to [[Maillard Reaction]], [[Cast Iron Pan]], [[Temperature Management]]
-- **Ingredients**: "Shallots" → links to [[Alliums]], [[French Cuisine]], [[Flavor Base]]
-- **Equipment**: "Dutch Oven" → links to [[Braising]], [[Cast Iron Cookware]], [[One-Pot Meals]]
+- **Techniques**: "Searing" → links to Maillard Reaction, Cast Iron Pan, Temperature Management
+- **Ingredients**: "Shallots" → links to Alliums, French Cuisine, Flavor Base
+- **Equipment**: "Dutch Oven" → links to Braising, Cast Iron Cookware, One-Pot Meals
 
 ### Edge Case: Foundational Elements
 
@@ -30,14 +30,14 @@ tags:
 
 1. **Salt** - The most fundamental ingredient. Where does it link? To every recipe? That's not useful navigation.
 2. **Heat** - Too generic to link meaningfully to specific notes.
-3. **Water** - Basic cooking medium, but linking to [[Boiling]], [[Steaming]], [[Stock]] feels forced.
+3. **Water** - Basic cooking medium, but linking to Boiling, Steaming, Stock feels forced.
 
-> **Illustrative example** (hypothetical): An AI might create artificial links like salt → [[Ocean]], [[Sodium]] that don't help navigation.
+> **Illustrative example** (hypothetical): An AI might create artificial links like salt → Ocean, Sodium that don't help navigation.
 
 ### Edge Case: Regional/Historical Dishes
 
-**Problem:** A note for "Haggis" or " Lutefisk" in a general cooking vault:
-- May genuinely have only 1-2 relevant links (to [[Scottish Food]] or [[Nordic Cuisine]])
+**Problem:** A note for "Haggis" or "Lutefisk" in a general cooking vault:
+- May genuinely have only 1-2 relevant links (to Scottish Food or Nordic Cuisine)
 - Forcing 2+ links creates decorative connections that confuse rather than help
 
 ### The Real Issue

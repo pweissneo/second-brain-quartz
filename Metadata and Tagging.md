@@ -76,4 +76,4 @@ LIST FROM #note WHERE date > date(today - 7 days)
 ## Related
 - [[Atomic Note Principle]]
 - [[Graph Navigation MCP]]
-- [[Note Templates]]
+- [[Note Types and Templates]]

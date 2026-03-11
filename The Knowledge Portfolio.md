@@ -1,7 +1,11 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+sources:
+  - title: "Building a Second Brain"
+    author: "Tiago Forte"
+    link: "https://www.buildingasecondbrain.com/"
 ---
 
 # The Knowledge Portfolio
@@ -61,4 +65,4 @@ Periodically adjust:
 - [[The Ownership Mindset]]
 - [[The Extended Mind]]
 - [[Domain-Specific Knowledge Bases]]
-- [[The Knowledge Legacy]]
+- [[Knowledge Sharing]]

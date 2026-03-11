@@ -1,7 +1,10 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+tags:
+  - learning
+  - mindset
 ---
 
 # The Ownership Mindset
@@ -53,3 +56,5 @@ When you own your knowledge:
 - [[The Knowledge Portfolio]]
 - [[Writing as Thinking]]
 - [[The Last Skill]]
+- [[Active Reading]] - Connect this to active processing
+- [[Note Insertion Strategy]] - Apply ownership to note creation

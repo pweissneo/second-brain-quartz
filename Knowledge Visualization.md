@@ -75,7 +75,7 @@ This note relates to several Seed rules:
 - **Graph Maintenance** — supports the "Run structural health checks regularly" rule
 - **Graph Traversal Efficiency** — visualization helps verify the "3 hops or fewer" rule
 - **Hub Node Creation** — visualization reveals potential hub notes
-- **Graph Density Management** — visualization exposes density issues
+- **Graph Navigation MCP** — visualization exposes density issues
 
 ---
 
@@ -83,4 +83,4 @@ This note relates to several Seed rules:
 - [[Graph Maintenance]]
 - [[Graph Traversal Efficiency]]
 - [[Hub Node Creation]]
-- [[Graph Density Management]]
+- [[Graph Navigation MCP]]

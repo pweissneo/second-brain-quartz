@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-08
-lifecycle: emerging
+lifecycle: draft
 confidence: medium
 tags:
   - seed-extension
@@ -59,6 +59,12 @@ When entering a new knowledge domain:
 | 5 | Flavor Building Blocks | Foundation for recipe creation |
 
 Without prioritization, you might start with "How to make coq au vin" — too specific, too early.
+
+## Seed Reference
+
+This note extends the Seed rule:
+> **Rule:** Prioritize foundational concepts before applications when bootstrapping a new vault.
+> **Why:** Without prioritization guidance, agents face analysis paralysis.
 
 ## Related
 

@@ -13,15 +13,15 @@ confidence: high
 | Type | Syntax | Renders As |
 |------|--------|------------|
 | Direct | `[[Atomic Note Principle]]` | Atomic Note Principle |
-| With label | `[[Linking Principle\|Connection Quality]]` | Connection Quality |
-| Section | `[[Graph Navigation MCP#Available Tools]]` | Graph Navigation MCP → Available Tools |
+| With label | `[[Linking Principle|Connection Quality]]` | Connection Quality |
+| Section | &#91;&#91;Note Title#Section Name&#93;&#93; (example syntax) | Graph Navigation MCP → Available Tools |
 
 ## Why Wikilinks Over Markdown Links
 
 1. **No IDs needed** — Link by title, not by arbitrary identifier
 2. **Auto-complete** — Tools suggest existing notes as you type
 3. **Refactoring friendly** — Rename a note, links update automatically
-4. **Readable source** — `[[Graph Navigation MCP]]` is clearer than `[Note 123](./notes/note-123.md)`
+4. **Readable source** — <code>[[Graph Navigation MCP]]</code> is clearer than `[Note 123](./notes/note-123.md)`
 5. **Bidirectional by default** — Most tools show backlinks automatically
 
 This aligns with the Seed rule requiring flat file structure with wikilinks — no nested folders.
@@ -30,7 +30,7 @@ This aligns with the Seed rule requiring flat file structure with wikilinks — 
 
 ### The "Create as You Link" Pattern
 
-When you write `[[New Concept]]` and the note doesn't exist:
+When you write a wikilink to a note that doesn't exist (e.g., &#91;&#91;New Note Name&#93;&#93; as an example):
 - Most tools prompt to create it
 - This encourages incremental note creation
 - Prevents "note hoarding" where ideas are saved but never turned into notes
@@ -39,8 +39,8 @@ When you write `[[New Concept]]` and the note doesn't exist:
 
 | Prefer | Avoid |
 |--------|-------|
-| `[[Atomic Note Principle]]` | `[[ANP]]` (unclear abbreviation) |
-| `[[Note Naming Conventions\|Naming]]` for variety | Same link text repeated |
+| `[[Atomic Note Principle]]` | `ANP` (unclear abbreviation - don't use) |
+| `[[Note Naming Conventions|Naming]]` for variety | Same link text repeated |
 
 ### When NOT to Link
 

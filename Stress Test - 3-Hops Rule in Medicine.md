@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: active
 confidence: emerging
 tags:
 - seed-stress-test
@@ -19,7 +19,7 @@ tags:
 ### Where the Rule Works Well
 - **Clinical notes**: Patient symptoms → diagnostic categories → treatment protocols
 - **Practical workflows**: Admission → assessment → treatment plan
-- **Common conditions**: Hypertension → [[Cardiovascular System]] → [[_root]]
+- **Common conditions**: Hypertension → Cardiovascular System → _root
 
 ### Edge Case: Natural Medical Hierarchies
 

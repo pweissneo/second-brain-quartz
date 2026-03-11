@@ -1,7 +1,8 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-09
 lifecycle: active
 confidence: emerging
+level: principle
 tags:
   - seed-extension
   - metadata
@@ -104,10 +105,33 @@ Source tier and confidence are complementary but distinct:
 
 **Other Domains:** Many fields lack formal evidence hierarchies. Use source-tier metadata only if meaningful; otherwise rely on confidence markers alone.
 
+### Extended Tier Tables
+
+#### Legal Domains
+| Tier | Description |
+|------|-------------|
+| Case Law | Court decisions |
+| Statutory Law | Legislation |
+| Regulatory Guidance | Agency rules |
+| Legal Commentary | Expert analysis |
+
+#### General Knowledge
+| Tier | Description |
+|------|-------------|
+| Primary Source | Direct evidence, original publication |
+| Secondary Source | Analysis, synthesis |
+| Tertiary Source | Summaries, encyclopedias |
+
+## When Source Tier Matters
+
+Source tier matters most when:
+- Knowledge will inform decisions with significant consequences
+- Multiple sources of varying quality exist
+- Readers need to assess reliability themselves
+
 ## Related
 
 - [[Handling Contradictory Sources]] — Using confidence markers when sources disagree
-- [[Trust and Verify]] — Source verification process
 - [[Source Validation Over Time]] — Keeping sources accessible
 - [[Note Lifecycle Management]] — Note stages and progression
-- [[Stress Test - Confidence Markers Rule in Legal Knowledge]] — Stress testing confidence markers in legal domain
+- [[Stress Test - Confidence Markers Rule Across Domains]] — Stress testing confidence markers across multiple domains

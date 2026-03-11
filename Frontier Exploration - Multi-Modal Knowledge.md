@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: draft
 confidence: emerging
 tags:
   - frontier-exploration
@@ -63,6 +63,6 @@ An AI building a music theory vault using only current Seed rules would:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
-- [[Knowledge Processing]] - How new knowledge enters the vault
+- [[Knowledge Base Workflow]] - How new knowledge enters the vault
 - [[Source Validation Over Time]] - Media links rot too
 - [[Frontier Exploration - Jargon vs Plain Language]]

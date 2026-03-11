@@ -1,8 +1,11 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
+tags:
+  - methodology
+  - capture
 ---
 
 # Active Reading

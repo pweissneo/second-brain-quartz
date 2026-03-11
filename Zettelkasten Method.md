@@ -52,7 +52,7 @@ Reality: Luhmann used **links**, not IDs. The ID system was a later interpretati
 
 We use wikilinks instead of IDs:
 ```
-[[Concept]] instead of "Note 1a"
+Concept instead of "Note 1a"
 ```
 
 This is actually closer to Luhmann's original method than the ID system.

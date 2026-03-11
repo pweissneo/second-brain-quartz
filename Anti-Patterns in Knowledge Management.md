@@ -5,6 +5,7 @@ confidence: high
 tags:
   - anti-pattern
   - quality
+level: principle
 ---
 
 # Anti-Patterns in Knowledge Management
@@ -142,6 +143,36 @@ Negative knowledge should still follow atomicity - one failure/anti-pattern per 
 
 ---
 
+## 10. Capturing What Should Be Skipped
+
+**Problem:** Saving information that has no long-term value.
+
+**Signs:**
+- Notes on easily retrievable information (phone numbers, addresses, facts a web search can find)
+- Ephemeral conversation notes that won't be referenced again
+- Duplicate knowledge already covered by existing notes
+- Capturing during momentum instead of staying in the flow
+
+**Solution:** Apply the reverse test before creating any note:
+- Will I need this in 6 months?
+- Does this connect to something I already know?
+- Is this my insight or someone else's?
+
+If no → skip. Your second brain will thank you.
+
+### What NOT to Capture
+
+| Type | Why Skip | Alternative |
+|------|----------|-------------|
+| Easily retrievable info | Web search finds it in 5 seconds | Don't capture |
+| Ephemeral conversations | One-off, won't be referenced | Process if it creates insight |
+| Duplicate knowledge | Already exists | Update existing note |
+| Momentum capture | Breaks flow, capture later | Jot quick note, process later |
+
+This is the inverse of [[Note Insertion Strategy]] — knowing what NOT to capture is as important as knowing what to capture.
+
+---
+
 ## Related
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
@@ -149,3 +180,4 @@ Negative knowledge should still follow atomicity - one failure/anti-pattern per 
 - [[Self-Improvement Cycle]]
 - [[Handling Contradictory Sources]]
 - [[Note Lifecycle Management]]
+- [[Note Insertion Strategy]]

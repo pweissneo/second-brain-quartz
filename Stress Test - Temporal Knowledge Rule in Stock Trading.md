@@ -2,7 +2,10 @@
 last-reviewed: 2026-03-09
 lifecycle: draft
 confidence: emerging
-tags: [seed-stress-test, temporal-knowledge, domain-trading]
+tags:
+  - seed-stress-test
+  - temporal-knowledge
+  - domain-trading
 ---
 
 # Stress Test: Temporal Knowledge Rule in Stock Trading

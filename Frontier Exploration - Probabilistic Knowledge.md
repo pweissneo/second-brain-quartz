@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: emerging
+lifecycle: draft
 confidence: emerging
 tags:
   - frontier-exploration
@@ -82,5 +82,7 @@ An AI building a medical vault using only current Seed rules would:
 ## Related
 
 - [[Confidence Markers]] - Current confidence framework
-- [[Source Quality Tier]] - Evidence hierarchies
+- [[Stress Test - Probabilistic Knowledge Rule Across Domains]] - Domain stress tests for probabilistic knowledge
+- [[Handling Temporal Knowledge]] - For updating probabilistic knowledge over time
+- [[Domain-Specific Knowledge Bases]] - For domain-specific handling
 - [[AI-Assisted Knowledge Management Seed]] - The Seed this explores
