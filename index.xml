@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+    <title>Frontier Exploration - API and External Service Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Confidence Markers</title>
-    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
-    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
-    <description><![CDATA[ Confidence Markers Signal the reliability of knowledge in your vault through structured confidence levels. The Problem Not all knowledge is equal. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+    <title>Frontier Exploration - Climate-Zone-Dependent Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Climate-Zone-Dependent-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Climate-Zone-Dependent-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Climate-Zone-Dependent Knowledge The Gap The Seed includes rules for jurisdiction-dependent knowledge (legal, medical, financial knowledge that varies by country/region) and general temporal knowledge (knowledge that changes over time). ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Interpretive Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Interpretive Knowledge When knowledge requires judgment, taste, or personal perspective — and there’s no single right answer. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+    <title>Frontier Exploration - Probabilistic Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Probabilistic-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Probabilistic-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Probabilistic Knowledge How do we handle knowledge that is true “most of the time” but has exceptions? The Problem The Seed has confidence markers (high/emerging/disputed/obsolete), but these don’t capture inherent probabilistic knowledge - knowledge that is legitimately uncert... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Iterative Creative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Iterative Creative Knowledge Knowledge that involves cyclic evaluation and decision-making, not just linear sequences. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+    <title>Frontier Exploration - Sensory Knowledge Capture</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
+    <description><![CDATA[ Frontier Exploration: Sensory Knowledge Capture How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base? The Problem Some knowledge domains are fundamentally sensory: Cooking — taste, texture, aroma, mouthfeel Wine/coffee — flavor profiles, aroma c... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Anti-Patterns in Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
-    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Frontier Exploration - Temporal and Sequential Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Temporal-and-Sequential-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Temporal-and-Sequential-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Temporal and Sequential Knowledge How do we handle knowledge where the sequence itself is the core knowledge? The Problem The Seed covers: Static knowledge: Facts, concepts, definitions (true at any point in time) Procedural knowledge: How-to steps, recipes, code (action-orient... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Atomic Note Principle</title>
-    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
-    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
-    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Graph Traversal Efficiency</title>
+    <link>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</link>
+    <guid>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</guid>
+    <description><![CDATA[ Graph Traversal Efficiency The agent must be able to quickly navigate from any note to find requested information. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>CLAUDE</title>
-    <link>https://quartz.jzhao.xyz/CLAUDE</link>
-    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Note Lifecycle Management</title>
+    <link>https://quartz.jzhao.xyz/Note-Lifecycle-Management</link>
+    <guid>https://quartz.jzhao.xyz/Note-Lifecycle-Management</guid>
+    <description><![CDATA[ Note Lifecycle Management Notes have a lifecycle. Knowing when to archive or delete is as important as knowing when to create. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Claude Knowledge Base Setup</title>
-    <link>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</link>
-    <guid>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</guid>
-    <description><![CDATA[ Claude Knowledge Base Setup How to bootstrap an AI-friendly knowledge base for Claude, Codex, Gemini, and other AI agents. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Seed Stress Test - Cooking Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Cooking-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Cooking-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Cooking Knowledge Base Testing all Seed rules in the cooking domain reveals where general rules break down for culinary knowledge. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Domain-Specific Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</guid>
-    <description><![CDATA[ Domain-Specific Knowledge Bases A knowledge base can be customized for any field. Here’s how to adapt for different domains. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Stress Test - Probabilistic Knowledge Rule Across Domains</title>
+    <link>https://quartz.jzhao.xyz/Stress-Test---Probabilistic-Knowledge-Rule-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Stress-Test---Probabilistic-Knowledge-Rule-Across-Domains</guid>
+    <description><![CDATA[ Stress Test: Probabilistic Knowledge Rule Across Domains Testing the Seed’s probabilistic knowledge rule across multiple domains to identify edge cases and refinements. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Capturing AI Prompt Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? The Problem Prompt engineering is a form of procedural knowledge, but it has unique characteristics that existing Seed rules don’t fully address: Exa... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
+    <title>Stress Test - Self-Contained Notes Rule Across Domains</title>
+    <link>https://quartz.jzhao.xyz/Stress-Test---Self-Contained-Notes-Rule-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Stress-Test---Self-Contained-Notes-Rule-Across-Domains</guid>
+    <description><![CDATA[ Stress Test: Self-Contained Notes Rule Across Domains Testing Seed rule: “Every note must be self-contained — readable without clicking any links.” This note consolidates stress tests from multiple domains (Legal, Music Composition) to provide a comprehensive view of the Self-Contained Notes rule’s ... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
   </item>
     </channel>
   </rss>
