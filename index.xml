@@ -6,17 +6,29 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+  </item><item>
+    <title>Confidence Markers</title>
+    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
+    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
+    <description><![CDATA[ Confidence Markers Signal the reliability of knowledge in your vault through structured confidence levels. The Problem Not all knowledge is equal. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Interpretive Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Interpretive Knowledge When knowledge requires judgment, taste, or personal perspective — and there’s no single right answer. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:18:21 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Iterative Creative Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Iterative Creative Knowledge Knowledge that involves cyclic evaluation and decision-making, not just linear sequences. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 11:18:21 GMT</pubDate>
+    <pubDate>Thu, 12 Mar 2026 11:19:12 GMT</pubDate>
   </item><item>
     <title>Anti-Patterns in Knowledge Management</title>
     <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? The Problem Prompt engineering is a form of procedural knowledge, but it has unique characteristics that existing Seed rules don’t fully address: Exa... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Tool-Interface Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-Interface-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-Interface-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Tool-Interface Knowledge Knowledge that exists in the mechanics of how we interact with systems rather than as declarative content we capture in notes. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
-  </item><item>
-    <title>Graph Maintenance</title>
-    <link>https://quartz.jzhao.xyz/Graph-Maintenance</link>
-    <guid>https://quartz.jzhao.xyz/Graph-Maintenance</guid>
-    <description><![CDATA[ Graph Maintenance Regular maintenance keeps the knowledge base healthy and navigable. ]]></description>
     <pubDate>Thu, 12 Mar 2026 10:48:10 GMT</pubDate>
   </item>
     </channel>
