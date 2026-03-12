@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-12
+lifecycle: evergreen
 confidence: emerging
 tags:
   - frontier-exploration
