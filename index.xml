@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Knowledge Context Frames</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Context-Frames</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Context-Frames</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Context Frames When does the same core knowledge need different presentations for different contexts? How do you handle purpose-specific variants without fragmenting the vault? The Problem The Seed addresses expertise levels (beginner/intermediate/advanced) and user ... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 13:37:25 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — a system where an AI agent autonomously: Collects data from various sources (research, conversations, readings, observations) Processes and structure... ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:51 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Experiential vs Documented Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Experiential-vs-Documented-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Experiential-vs-Documented-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Experiential vs Documented Knowledge The Gap When stress-testing the Seed against music composition, a significant gap emerges: the Seed has no rule for handling knowledge that is fundamentally experiential vs. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 13:37:25 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - API and External Service Dependencies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
-    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Climate-Zone-Dependent Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Climate-Zone-Dependent-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Climate-Zone-Dependent-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Climate-Zone-Dependent Knowledge The Gap The Seed includes rules for jurisdiction-dependent knowledge (legal, medical, financial knowledge that varies by country/region) and general temporal knowledge (knowledge that changes over time). ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Probabilistic Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Probabilistic-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Probabilistic-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Probabilistic Knowledge How do we handle knowledge that is true “most of the time” but has exceptions? The Problem The Seed has confidence markers (high/emerging/disputed/obsolete), but these don’t capture inherent probabilistic knowledge - knowledge that is legitimately uncert... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Sensory Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration: Sensory Knowledge Capture How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base? The Problem Some knowledge domains are fundamentally sensory: Cooking — taste, texture, aroma, mouthfeel Wine/coffee — flavor profiles, aroma c... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>The Ownership Mindset</title>
+    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
+    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
+    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Temporal and Sequential Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Temporal-and-Sequential-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Temporal-and-Sequential-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Temporal and Sequential Knowledge How do we handle knowledge where the sequence itself is the core knowledge? The Problem The Seed covers: Static knowledge: Facts, concepts, definitions (true at any point in time) Procedural knowledge: How-to steps, recipes, code (action-orient... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal What the second brain is trying to achieve. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Graph Traversal Efficiency</title>
-    <link>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</link>
-    <guid>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</guid>
-    <description><![CDATA[ Graph Traversal Efficiency The agent must be able to quickly navigate from any note to find requested information. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>The Last Skill</title>
+    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
+    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
+    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Note Lifecycle Management</title>
-    <link>https://quartz.jzhao.xyz/Note-Lifecycle-Management</link>
-    <guid>https://quartz.jzhao.xyz/Note-Lifecycle-Management</guid>
-    <description><![CDATA[ Note Lifecycle Management Notes have a lifecycle. Knowing when to archive or delete is as important as knowing when to create. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>The Knowledge Portfolio</title>
+    <link>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</link>
+    <guid>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</guid>
+    <description><![CDATA[ The Knowledge Portfolio Diversify your knowledge like financial investments. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Cooking Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Cooking-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Cooking-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: Cooking Knowledge Base Testing all Seed rules in the cooking domain reveals where general rules break down for culinary knowledge. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 12:19:40 GMT</pubDate>
+    <title>The Knowledge Identity</title>
+    <link>https://quartz.jzhao.xyz/The-Knowledge-Identity</link>
+    <guid>https://quartz.jzhao.xyz/The-Knowledge-Identity</guid>
+    <description><![CDATA[ The Knowledge Identity Your knowledge base changes how you think — and the Seed rules make that change measurable. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 13:43:46 GMT</pubDate>
   </item>
     </channel>
   </rss>
