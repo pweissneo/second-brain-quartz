@@ -242,7 +242,8 @@ Every rule is domain-agnostic — works for any topic.</p>
 <strong>Test:</strong> Before creating a note, search the vault. Does a note covering this idea already exist?</p>
 <p><strong>Rule:</strong> Use tags for broad categorization and filtering; use links for essential relationships and navigation.
 <strong>Why:</strong> Tags and links serve different purposes — tags enable faceted search across independent dimensions, links create navigable graph structure. Conflating them loses both benefits.
-<strong>Test:</strong> Can you explain why each tag represents a category (not a specific relationship)? Can you explain why each link represents an essential connection (not just categorical membership)?</p>
+<strong>Test:</strong> Can you explain why each tag represents a category (not a specific relationship)? Can you explain why each link represents an essential connection (not just categorical membership)?
+<strong>Edge case:</strong> When a category IS also a note in the vault (e.g., “Herbs” exists as a hub note), prefer linking to that note rather than adding a tag. Tags work best when filtering is needed AND no note exists for the category. Example: Use <code>[[Hardiness Zone 7]]</code> link when the hub note exists; use <code>#hardiness-zone-7</code> tag only when no hub note exists.</p>
 <p><strong>Rule:</strong> A note should rarely need more than 5 tags; it should link to as many notes as meaningful connections require.
 <strong>Why:</strong> Tags represent facets — too many dilute meaning. Links represent relationships — the right number depends on the note’s connectivity.
 <strong>Test:</strong> Count tags on 10 random notes. Are most under 5? Do links exceed tags in quantity for well-connected notes?</p>
