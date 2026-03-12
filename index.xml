@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Stress Test - Probabilistic Knowledge Rule in Psychology</title>
+    <link>https://quartz.jzhao.xyz/Stress-Test---Probabilistic-Knowledge-Rule-in-Psychology</link>
+    <guid>https://quartz.jzhao.xyz/Stress-Test---Probabilistic-Knowledge-Rule-in-Psychology</guid>
+    <description><![CDATA[ Stress Test: Probabilistic Knowledge Rule in Psychology Testing the Seed’s probabilistic knowledge rule in psychology/therapy domain — where outcome probabilities are often misunderstood, individual differences dominate, and the rule needs significant refinement. ]]></description>
+    <pubDate>Thu, 12 Mar 2026 06:42:10 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration: AI-Optimized Knowledge Bases How should knowledge bases be structured when the primary consumer is an AI agent rather than a human? The Problem Space The current Seed assumes human readers who can: Follow natural language explanations Ask clarifying questions when confused Infe... ]]></description>
-    <pubDate>Thu, 12 Mar 2026 05:10:43 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - API and External Service Dependencies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
-    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
     <pubDate>Thu, 12 Mar 2026 05:10:43 GMT</pubDate>
   </item>
     </channel>
