@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:09 GMT</pubDate>
+    <title>Frontier Exploration - Tool and Equipment Maintenance Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-and-Equipment-Maintenance-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-and-Equipment-Maintenance-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Tool and Equipment Maintenance Knowledge The Gap The Seed covers equipment dependencies (what tools you need to execute knowledge) but doesn’t address equipment maintenance knowledge — the ongoing care required to keep tools functional. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 20:25:23 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Frontier Exploration - Game Design Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Game Design Knowledge Game design knowledge has unique properties that stress-test Seed assumptions about atomicity, verification, and experiential capture. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 20:25:23 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Frontier Exploration - Embodied and Performative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Performative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Performative-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Embodied and Performative Knowledge The Seed covers tacit knowledge (knowledge that resists articulation), but there’s a category that goes further: embodied knowledge — knowledge that exists only in physical execution, not in text at all. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 20:25:23 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Advanced Pattern Matching</title>
+    <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
+    <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
+    <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal What the second brain is trying to achieve. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Anti-Pattern - Capture-Process Confusion</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</guid>
+    <description><![CDATA[ Anti-Pattern: Capture-Process Confusion Trying to fully process notes at capture time breaks the workflow. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>The Ownership Mindset</title>
-    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
-    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
-    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Anti-Pattern - Capturing What Should Be Skipped</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Capturing-What-Should-Be-Skipped</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capturing-What-Should-Be-Skipped</guid>
+    <description><![CDATA[ Anti-Pattern: Capturing What Should Be Skipped Saving information with no long-term value clutters the vault. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Anti-Pattern - Link Inflation</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
+    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>The Knowledge Portfolio</title>
-    <link>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</link>
-    <guid>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</guid>
-    <description><![CDATA[ The Knowledge Portfolio Diversify your knowledge like financial investments. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item><item>
-    <title>The Knowledge Identity</title>
-    <link>https://quartz.jzhao.xyz/The-Knowledge-Identity</link>
-    <guid>https://quartz.jzhao.xyz/The-Knowledge-Identity</guid>
-    <description><![CDATA[ The Knowledge Identity Your knowledge base changes how you think — and the Seed rules make that change measurable. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 20:12:05 GMT</pubDate>
+    <title>Anti-Pattern - Neglecting Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</guid>
+    <description><![CDATA[ Anti-Pattern: Neglecting Maintenance Only adding content, never reviewing, leads to vault decay. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item>
     </channel>
   </rss>
