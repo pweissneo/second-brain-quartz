@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-12
 tags:
   - forward-reference
   - planned
@@ -8,6 +8,7 @@ tags:
 confidence: emerging
 lifecycle: evergreen
 level: principle
+author-type: ai
 ---
 
 # Forward References and Planned Knowledge
@@ -19,7 +20,7 @@ When building a knowledge base, you often need to reference concepts that don't 
 You write a note that would naturally link to a concept you're planning to create:
 
 ```
-This approach requires understanding [[Advanced Pattern Matching]]
+This approach requires understanding "Advanced Regex Patterns"
 but we'll cover that in a future note.
 ```
 
@@ -63,7 +64,7 @@ summary: Pattern matching techniques beyond basic regex
 depends-on: [Atomic Note Principle, Linking Principle]
 ---
 
-# Advanced Pattern Matching
+# Advanced Regex Patterns
 
 > This note is planned. stub: planned
 

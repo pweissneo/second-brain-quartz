@@ -1,14 +1,19 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
   - knowledge-types
+  - historical
 ---
 
-# Frontier Exploration: Learning vs Reference Knowledge Bases
+# Frontier Exploration - Learning vs Reference Knowledge Bases
+
+> **Status:** This exploration contributed to the Seed rule in Section 1: "Distinguish knowledge base purpose — learning vs reference"
+> See: [[AI-Assisted Knowledge Management Seed]] for the current rule.
 
 ## The Question
 
@@ -54,29 +59,22 @@ These goals can conflict. A learning KB might benefit from spaced repetition pro
 
 ## Key Insight
 
-The Seed's rules are optimized for **reference** knowledge bases. Learning knowledge bases need modifications:
+**This exploration has been incorporated into the Seed.** The Seed now includes a comprehensive rule addressing this topic in Section 1 (Foundation).
 
+The Seed's rule covers:
 1. **Atomicity exception:** Learning content that builds understanding may legitimately exceed 300 words without being "procedural content"
 2. **Link requirements:** Foundational notes in learning chains may have <2 outgoing links — that's intentional
 3. **Hop tolerance:** Prerequisite chains in learning KBs may exceed 3 hops — pedagogical depth matters
 4. **Hub caution:** Don't over-hub learning content — learners need to dive deep, not bounce between overview notes
 
-## Proposed Seed Addition
+## Historical Context
 
-**Rule:** Distinguish knowledge base purpose — learning vs reference — and adjust Seed rules accordingly:
+This note was created during frontier exploration to investigate whether the Seed's rules apply equally well to learning vs reference knowledge bases. The exploration confirmed that different KB types need different rule applications, and this insight was incorporated into the Seed.
 
-| Rule | Reference KB | Learning KB |
-|------|-------------|-------------|
-| Atomicity | Strict (100-300 words) | Flexible for explanatory content |
-| Links | Minimum 2 required | Allow prerequisite chains with <2 links |
-| Hubs | Dense (5+ connections) | Sparse (avoid overview overload) |
-| 3-Hops | Strict | Allow pedagogical depth |
-
-## Test for AI Agents
-
-1. What is this vault's primary purpose: learning or reference?
-2. If learning: Are prerequisite chains preserved even if they exceed 3 hops?
-3. If reference: Is findability optimized with hub density?
+The analysis remains useful as a record of:
+- The stress testing process used
+- Specific examples applied to different domains
+- How frontier exploration leads to Seed improvements
 
 ## Related
 

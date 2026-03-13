@@ -1,14 +1,15 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - probabilistic-knowledge
   - uncertainty
 ---
 
-# Frontier Exploration: Probabilistic Knowledge
+# Frontier Exploration - Probabilistic Knowledge
 
 > How do we handle knowledge that is true "most of the time" but has exceptions?
 
@@ -38,11 +39,14 @@ Probabilistic knowledge IS true - we just need to express the probability.
 
 ## Domains Where This Matters Most
 
+> These are examples - the rule applies to ANY domain with probabilistic knowledge
+
 - **Medicine**: Treatment efficacy rates, side effect probabilities
-- **Finance**: Historical returns, risk metrics, default probabilities
+- **Finance**: Historical returns, risk metrics, default probabilities  
 - **Weather/Climate**: Forecast probabilities, climate model predictions
 - **Engineering**: Failure rates, reliability metrics
 - **Science**: Measurement uncertainty, confidence intervals
+- **Any Domain**: Any knowledge claim that is "true most of the time" but has exceptions
 
 ## Emerging Rule Suggestions
 
@@ -70,19 +74,18 @@ Probabilistic knowledge IS true - we just need to express the probability.
 
 **Test:** For probabilistic claims, is there a refresh date or trigger condition for update?
 
-## Test Case: Medical Knowledge Base
+## Test Case: Domain-Agnostic Example
 
-An AI building a medical vault using only current Seed rules would:
-- ✓ Capture treatment efficacy
+An AI building a knowledge base using only current Seed rules would:
+- ✓ Capture knowledge claims
 - ✓ Mark confidence as "high" or "emerging"
 - ✗ Not express that "works 60% of the time" is different from "works 90% of the time"
 - ✗ Not distinguish between "we don't know" (disputed) and "it works this often" (probabilistic)
-- ✗ Not know when to present treatment as options vs probability
+- ✗ Not know when to present as balanced options vs probability
+
+The same gap applies whether the domain is medicine, finance, engineering, or any field with probabilistic claims.
 
 ## Related
 
+- [[Stress Test - Probabilistic Knowledge Rule Across Domains]] — Comprehensive domain stress tests covering cooking, medicine, AND psychology (consolidated from separate psychology stress test)
 - [[Confidence Markers]] - Current confidence framework
-- [[Stress Test - Probabilistic Knowledge Rule Across Domains]] - Domain stress tests for probabilistic knowledge
-- [[Handling Temporal Knowledge]] - For updating probabilistic knowledge over time
-- [[Domain-Specific Knowledge Bases]] - For domain-specific handling
-- [[AI-Assisted Knowledge Management Seed]] - The Seed this explores

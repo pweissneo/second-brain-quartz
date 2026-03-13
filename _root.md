@@ -1,8 +1,9 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
+author-type: ai
 ---
 # Knowledge Base Vault
 
@@ -62,7 +63,7 @@ The complete set of rules for maintaining this knowledge base:
 - **[[Note Insertion Strategy]]** — Where to add new knowledge
 - **[[Graph Traversal Efficiency]]** — Maximum 3 hops navigation
 - **[[Graph Maintenance]]** — Regular health checks
-- **[[Graph Density Management]]** — Balancing connections
+- **[[Graph Navigation MCP]]** — Balancing connections
 - **[[Self-Improvement Cycle]]** — Iteration loop for continuous improvement
 - **[[Exportable Rules]]** — Distilled rules for bootstrapping new vaults
 - **[[Domain-Specific Knowledge Bases]]** — Adapting for different fields
@@ -71,17 +72,16 @@ The complete set of rules for maintaining this knowledge base:
 - **[[The Knowledge Creator]]** — Building a personal knowledge practice
 - **[[The Knowledge Portfolio]]** — Diversify knowledge like investments
 - **[[The Last Skill]]** — The meta-skill of learning
-- **[[Stress Test - Atomicity Rule in Cooking]]** — Testing atomicity in culinary domain
-- **[[Stress Test - Atomicity Rule in Gardening]]** — Testing atomicity in gardening domain
-- **[[Stress Test - Note Lifecycle Rule in Software Development]]** — Testing lifecycle rules in software
-- **[[Stress Test - Operational vs Synthesized Knowledge in Cooking]]** — Testing knowledge type distinction
-- **[[Stress Test - Prerequisites Rule in Mathematics]]** — Testing prerequisites in math education
+- **[[Stress Test - Atomicity Rule Across Domains]]** — Testing atomicity across cooking, gardening, programming
+- **[[Stress Test - Note Lifecycle Rule Across Domains]]** — Testing lifecycle rules across personal finance and software
+- **[[Stress Test - Prerequisites Rule in Framework Learning]]** — Testing prerequisites across domains (consolidated from math + framework)
 - **[[Stress Test - Probabilistic Knowledge Rule Across Domains]]** — Testing confidence markers across fields
-- **[[Stress Test - Self-Contained Notes Rule in Legal Knowledge]]** — Testing self-containment in law
-- **[[Stress Test - Self-Contained Notes Rule in Music Composition]]** — Testing self-containment in music
+- **[[Stress Test - Knowledge-Type Rule in Investing]]** — Testing knowledge-type tagging in finance domain
+- **[[Stress Test - Self-Contained Notes Rule Across Domains]]** — Testing self-containment across domains (law, music, etc.)
 - **[[Stress Test - Source Quality Hierarchy in Medical Knowledge]]** — Testing source quality in medicine
 - **[[Stress Test - Tags vs Links Rule in Gardening]]** — Testing tag vs link distinction in gardening
-- **[[Stress Test - Terminology Consistency Rule in Cooking]]** — Testing terminology consistency in culinary arts
+- **[[Seed Stress Test - Cooking Knowledge Base]]** — Comprehensive stress testing of all Seed rules in culinary domain
+- **[[Stress Test - Every Link Must Be Explainable in Legal Knowledge]]** — Testing link explainability in legal domain
 - **[[Claude Knowledge Base Setup]]** — Technical setup for AI-assisted vaults
 
 ## Frontier Explorations
@@ -92,11 +92,24 @@ Advanced topics exploring the boundaries of AI-assisted knowledge management:
 - **[[Frontier Exploration - Knowledge Abstraction Levels]]** — Tiered knowledge organization
 - **[[Frontier Exploration - Knowledge Without Sources]]** — Handling undocumented knowledge
 - **[[Frontier Exploration - Professional Credentialing Requirements]]** — Scope tagging for regulated domains
+- **[[Frontier Exploration - Collaborative Knowledge Creation]]** — Handling multi-author knowledge bases
+- **[[Frontier Exploration - Discredited and Historically Superseded Knowledge]]** — Handling proven-wrong theories
+- **[[Frontier Exploration - Myths, Misconceptions, and Folk Knowledge]]** — Handling never-accurate beliefs that persist
+- **[[Frontier Exploration - Multi-Vault Architecture]]** — When to create separate vaults
+- **[[Handling Contradictory Sources]]** — Handling personal vs. documented knowledge
+- **[[Frontier Exploration - Canonical vs Analysis Knowledge]]** — Distinguishing authoritative knowledge from personal analysis
+- **[[Frontier Exploration - Single-Work Knowledge vs General Principles]]** — Creative works as atomic units
 - **[[Handling Temporal Knowledge]]** — Managing temporal and version-dependent knowledge
 - **[[Forward References and Planned Knowledge]]** — Forward references and stub notes
 - **[[Prerequisite Knowledge Tracking]]** — Learning path construction
 - **[[Advanced Pattern Matching]]** — Graph pattern detection for vault health
 - **[[CLAUDE]]** — AI agent instructions for vault maintenance
+- **[[Frontier Exploration - Emergency and Crisis Knowledge]]** — Safety-critical emergency content
+- **[[Frontier Exploration - Knowledge Base Onboarding]]** — Onboarding guidance for human and AI users
+- **[[Frontier Exploration - Knowledge Domain Completeness]]** — When is a knowledge domain "complete"?
+- **[[Frontier Exploration - Knowledge Originality Assessment]]** — Distinguishing original insights from restatable facts
+- **[[Frontier Exploration - Parenting Knowledge Capture]]** — Capturing experiential parenting knowledge
+- **[[Frontier Exploration - Real-Time and Sensor-Based Knowledge]]** — Continuous data streams vs static knowledge
 
 ---
 

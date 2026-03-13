@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - anti-pattern
   - quality
@@ -141,6 +142,32 @@ Common mistakes that undermine a second brain's effectiveness.
 
 Negative knowledge should still follow atomicity - one failure/anti-pattern per note. Tag with `type: negative-knowledge` for filtering.
 
+### Distinction: Anti-Patterns vs Domain-Specific Negative Knowledge
+
+- **Anti-patterns** (this note) cover knowledge **MANAGEMENT** mistakes: creating duplicate notes, over-organizing, link inflation, etc.
+- **Domain-specific negative knowledge** covers failures within a domain: "searing meat too long makes it tough," "common bugs in language X," "why tomatoes die in cold weather"
+
+Both are valuable but serve different purposes. Anti-patterns keep the vault healthy; domain negative knowledge makes content more useful.
+
+### The Constructive Balance Problem
+
+Too much negative knowledge can:
+- Discourage users
+- Create analysis paralysis
+- Make the vault feel pessimistic
+
+**Guideline:** For every dedicated negative knowledge note, there should be a corresponding positive note showing the right approach. Don't let the negative overwhelm the positive.
+
+### Capturing Domain Negative Knowledge
+
+When capturing domain-specific failures, structure with:
+1. What goes wrong
+2. Why it goes wrong 
+3. How to recognize it
+4. How to prevent or recover
+
+Tag with `type: negative-knowledge` to enable filtering — let users choose whether to see pitfalls.
+
 ---
 
 ## 10. Capturing What Should Be Skipped
@@ -181,3 +208,4 @@ This is the inverse of [[Note Insertion Strategy]] — knowing what NOT to captu
 - [[Handling Contradictory Sources]]
 - [[Note Lifecycle Management]]
 - [[Note Insertion Strategy]]
+- [[AI-Assisted Knowledge Management Seed]]

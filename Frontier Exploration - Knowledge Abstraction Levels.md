@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
   - abstraction-levels
 ---
 
-# Frontier Exploration: Knowledge Abstraction Levels
+# Frontier Exploration - Knowledge Abstraction Levels
 
 > **Status:** This exploration has been incorporated into the Seed (Section 4: Navigation - Abstraction Levels rule). This note now serves as a validated example and deeper exploration.
 
@@ -125,3 +126,4 @@ This extends:
 - [[Note Types and Templates]]
 - [[Prerequisite Knowledge Tracking]]
 - [[AI-Assisted Knowledge Management Seed]]
+- [[Stress Test - Knowledge Abstraction Levels Rule in Philosophy]]

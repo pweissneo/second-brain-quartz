@@ -1,119 +1,176 @@
 ---
-created: 2026-03-11
 last-reviewed: 2026-03-11
-confidence: high
-lifecycle: deprecated
+lifecycle: draft
+confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
-  - structure
-  - conditional
+  - conditional-knowledge
   - troubleshooting
-  - superseded
+  - decision-tree
 ---
-
-> **⚠️ DEPRECATED:** These proposed rules have been incorporated into the Seed.
-> See: [[AI-Assisted Knowledge Management Seed]] → Rules: "For conditional/troubleshooting knowledge with 3+ branches", "Include exit criteria in troubleshooting notes"
 
 # Frontier Exploration - Conditional and Troubleshooting Knowledge
 
-> How should a knowledge base capture knowledge that depends on conditions, outcomes, or "if X then Y" decision trees?
-
----
+> How should a knowledge base handle if-then branches, decision trees, and troubleshooting guidance?
 
 ## The Problem
 
-Consider building a knowledge base about:
-- **Troubleshooting**: "If the car won't start, check battery; if battery is good, check starter"
-- **Diagnostics**: "If fever + cough, consider pneumonia; if fever + rash, consider measles"
-- **Conditional procedures**: "Apply method A; if results are X, proceed to B; if results are Y, try C"
+Some knowledge is inherently conditional:
+- "If X, then do Y"
+- "When troubleshooting, check A, then B, then C"
+- "Conditional logic: if/else/elseif branches"
 
-The current Seed handles:
-- **Linear procedures** → Atomic notes with clear steps
-- **Prerequisites** → `prerequisites` field for required prior knowledge
-- **Sequential knowledge** → `temporal-type: sequence` for ordered knowledge
+The Seed has rules for:
+- Atomicity (one idea per note)
+- Linking (meaningful connections)
+- Sequential knowledge (where order IS the knowledge)
 
-But none of these capture **branching logic** — knowledge where the next step depends on the current outcome.
+But it's missing guidance on HOW to structure conditional/troubleshooting knowledge that involves branching logic.
 
-## Why This Matters
+## Where AI Agents Get Stuck
 
-Without guidance, AIs treat all knowledge as linear:
-- Notes become massive "if-then-else" chains that violate atomicity
-- OR branches get split into separate notes that lose context
-- Troubleshooting knowledge becomes unusable because you can't track where you are in the decision tree
+When building troubleshooting guides using only current Seed rules:
 
-Common failures:
-- **Procedural notes with 20+ conditional branches** — violates atomicity, impossible to use
-- **Every branch as a separate note** — loses the overall flow/context
-- **No way to track "where am I" in a troubleshooting flow**
+1. Do you embed all branches in one note or split them?
+2. How do you represent if/then/else logic in a linear note?
+3. When does a decision tree become too complex for one note?
+4. How do you handle exit criteria (when is the problem solved)?
+
+## Types of Conditional Knowledge
+
+### Diagnostic Trees
+"Symptom → Possible Cause → Resolution"
+- "Computer won't turn on" → Check power → Check outlet → etc.
+- "Garden plants dying" → Check water → Check soil → Check pests
+
+### Decision Trees
+"Condition → Option A vs Option B"
+- "Server down" → "Check status page" → "If red, alert on-call; if green, user error"
+- "Recipe too salty" → "Add acid" vs "Add fat" vs "Dilute"
+
+### Troubleshooting Sequences
+"Try these steps in order"
+- Reboot → Check logs → Check config → Contact support
+
+### Conditional Recommendations
+"It depends on X"
+- "If beginner, use X; if advanced, use Y"
+- "If on Mac, do X; if Windows, do Y"
 
 ## Proposed Approach
 
-### Structure Options for Conditional Knowledge
+### For Simple Conditionals (2-3 branches)
+Embed in a single note with clear formatting:
 
-| Scenario | Recommended Structure |
-|----------|---------------------|
-| Simple 2-branch (if/else) | Single note with clearly marked sections |
-| 3+ branches | Separate note per branch condition, hub for decision point |
-| Multi-step with branches at each step | Hub + linked decision tree, NOT linear notes |
-| Troubleshooting with multiple failure points | Problem/solution pairs, linked by "if this then try that" |
+```markdown
+# Troubleshooting: Sauce Too Salty
 
-### Key Distinction
+## Possible Fixes
 
-**Linear procedure** → Do A, then B, then C (always the same path)
-**Conditional procedure** → Do A; if result X, do B; if result Y, do C (path varies)
+### Add Acid
+- Works by: acid counteracts salt perception
+- Best for: tomato-based sauces
+- How: add lemon juice or vinegar
 
-### Template for Troubleshooting Notes
+### Add Fat
+- Works by: fat dissolves salt particles
+- Best for: cream-based sauces  
+- How: add butter or heavy cream
+
+### Dilute
+- Works by: reduces salt concentration
+- Best for: soups and stews
+- How: add more liquid (will change consistency)
+```
+
+### For Complex Conditionals (4+ branches)
+Create a decision-point hub that links to each branch as separate atomic notes:
+
+```markdown
+> ⚠️ *Illustrative example — hypothetical notes for demonstration*
+
+# Troubleshooting: Database Connection Errors [Hub]
+
+This hub organizes database error troubleshooting paths.
+
+## Common Errors
+
+### Connection Refused
+- Troubleshooting: Connection Refused (hypothetical)
+- Usually: port, firewall, or service down
+
+### Timeout Errors  
+- Troubleshooting: Connection Timeout (hypothetical)
+- Usually: network or query performance
+
+### Authentication Failed
+- Troubleshooting: Auth Errors (hypothetical)
+- Usually: credentials, permissions, or token expiry
+```
+
+### For Linear Sequences
+Tag with `temporal-type: sequence` and structure as ordered steps:
 
 ```markdown
 ---
-type: troubleshooting
-condition: [what symptom or state triggers this]
-next-steps:
-  - if: [condition A]
-    then: [link to branch note A]
-  - if: [condition B]  
-    then: [link to branch note B]
+temporal-type: sequence
+prerequisites: []
 ---
 
-# Troubleshooting: [Problem Name]
+# Troubleshooting: Application Won't Start
 
-## Symptoms
-[What to look for]
+## Step 1: Check Logs
+Look at the most recent log entries...
 
-## Initial Check
-[First diagnostic step]
+## Step 2: Verify Dependencies
+Check if all required services are running...
 
-## Branching Outcomes
-### If [Outcome A]
-→ Link to note explaining how to handle outcome A
+## Step 3: Test Configuration
+Run the config validation command...
 
-### If [Outcome B]
-→ Link to note explaining how to handle outcome B
+## Exit Criteria
+Problem is resolved when: application starts without errors
 ```
 
-### Seed Rule Proposal
+## Key Principles
+
+### 1. Atomic Branches
+Each branch (each "if" path) should be its own atomic note when:
+- It needs more than 50 words to explain
+- It's referenced elsewhere independently
+- It has its own sub-branches
+
+### 2. Typed Relationships
+Distinguish relationship types:
+- **Diagnostic**: "if symptom, then try this"
+- **Fallback**: "if first attempt doesn't work, try this instead"
+- **Prerequisite**: "you must do X before Y"
+
+### 3. Exit Criteria
+Every troubleshooting note should define:
+- What success looks like
+- When to stop trying branches
+- When to escalate or seek help
+
+## Test for AI Agents
+
+1. Does this note have 3+ conditional branches? → Consider splitting to hub + spoke
+2. Can you identify the relationship type for each branch? (diagnostic, fallback, prerequisite)
+3. Are exit criteria defined? Can users tell when they're done?
+4. Is each branch atomic (one idea) or does it contain sub-conditionals?
+
+## Rule Proposal
 
 **Rule:** For conditional/troubleshooting knowledge with 3+ branches, create a decision-point hub that links to each branch as separate atomic notes — do not embed all branches in one note.
-**Why:** Embedding 3+ branches violates atomicity and makes the note unusable; splitting without a hub loses the decision context.
-**Test:** Pick a note with conditional branches. (1) Does it have 3+ branches? (2) If yes, is there a hub note explaining the decision point? (3) Are branches linked from the hub?
 
-**Rule:** Use typed links or frontmatter to clarify the relationship between troubleshooting steps — distinguish "if symptom then try" from "if that doesn't work then try" (sequential vs. fallback).
-**Why:** Readers need to know whether to try all options or stop at the first success.
-**Test:** For troubleshooting notes with multiple steps: (1) Can you distinguish primary attempts from fallback attempts? (2) Is the relationship between steps explicit?
+**Why:** Embedding 3+ conditional branches violates atomicity and makes the note unusable. Splitting without a hub loses the decision context.
 
-**Rule:** For conditional knowledge, include an "exit criteria" — how do you know the problem is solved or that you've reached a dead end?
-**Why:** Without exit criteria, users don't know when to stop trying branches.
-**Test:** Pick a troubleshooting note. Can you identify: (1) What success looks like? (2) When to escalate or seek help?
+**Test:** Pick a troubleshooting note. (1) Does it have 3+ branches? → Hub + spoke. (2) Can you distinguish primary attempts from fallback attempts? → Typed relationships. (3) Is exit criteria defined? → Clear success conditions.
 
-## Testing the Gap
-
-A knowledge base has a gap in handling conditional knowledge if:
-1. You find notes with "if...then...else...if...then" structures longer than 300 words
-2. Troubleshooting flows require reading multiple notes without understanding the decision tree
-3. Users can't determine which branch applies to their situation
-
-## Related Notes
-
-- [[Atomic Note Principle]] — When splitting is appropriate
-- [[Frontier Exploration - Temporal and Sequential Knowledge]] — For ordered knowledge without branching
-- [[Frontier Exploration - Procedural Knowledge Verification]] — For testing procedures
+## Related
+- [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Atomic Note Principle]]
+- [[Note Types and Templates]]
+- [[AI-Assisted Knowledge Management Seed]]

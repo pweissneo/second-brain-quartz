@@ -2,6 +2,8 @@
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
+knowledge-type: analysis
 tags:
 - seed-stress-test
 - confidence-markers

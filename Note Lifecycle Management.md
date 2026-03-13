@@ -132,6 +132,7 @@ Most notes should become evergreen. Be conservative:
 
 ## Related
 - [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Knowledge Cascade Effects]] - How to handle cascading updates across notes
 - [[Anti-Patterns in Knowledge Management]]
 - [[Graph Maintenance]]
 - [[The Forgetting Curve]]

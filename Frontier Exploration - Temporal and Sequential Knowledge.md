@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - temporal-knowledge
@@ -9,7 +10,7 @@ tags:
   - knowledge-types
 ---
 
-# Frontier Exploration: Temporal and Sequential Knowledge
+# Frontier Exploration - Temporal and Sequential Knowledge
 
 > How do we handle knowledge where the sequence itself is the core knowledge?
 
@@ -105,5 +106,7 @@ An AI building a history vault using only current Seed rules would:
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Atomic Note Principle]] — How current atomicity works
+- [[Frontier Exploration - Iterative Creative Knowledge]] — Cyclic evaluation and decision-making processes
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
+- [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential

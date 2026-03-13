@@ -1,8 +1,9 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+author-type: ai
 ---
 # AI-Assisted Knowledge Management Vault
 
@@ -24,3 +25,15 @@ This vault develops and refines a universal "Seed" — a portable ruleset that l
 ## MCP Servers
 - **vault-graph**: query vault structure (graph_isolated_nodes, graph_hubs, etc.)
 - **vault-sources**: search and manage source references
+
+##
+
+This Heartbeat Review vault undergoes regular heartbeat reviews that check for:
+- REDUNDANCY_SCAN: Finding and merging duplicate notes
+- FLUFF_DETECTOR: Removing off-topic or empty notes
+- FRONTIER_EXPLORATION: Identifying gaps in Seed rules
+- SEED_STRESS_TEST: Testing rules against new domains
+- COMPLIANCE_AUDIT: Verifying notes follow Seed rules
+- STRUCTURAL_HEALTH: Checking graph connectivity
+
+See the workspace HEARTBEAT.md for full protocol.

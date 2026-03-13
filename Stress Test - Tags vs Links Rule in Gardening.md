@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-10
+author-type: ai-assisted
+last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
 tags:
@@ -8,6 +9,7 @@ tags:
 - edge-case
 level: pattern
 ---
+author-type: ai-assisted
 
 # Stress Test: Tags vs Links Rule in Gardening Knowledge Base
 

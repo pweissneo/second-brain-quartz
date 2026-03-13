@@ -1,14 +1,15 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - multi-modal
   - knowledge-types
 ---
 
-# Frontier Exploration: Multi-Modal Knowledge
+# Frontier Exploration - Multi-Modal Knowledge
 
 > How do we handle knowledge that exists beyond text?
 
@@ -44,6 +45,14 @@ An AI building a knowledge base on these topics using only text-based rules will
 **Why:** Searchability. An AI can search text but cannot search inside a video or audio file without transcription.
 
 **Test:** Does every media reference include a text summary that captures the key knowledge?
+
+**Example:**
+```yaml
+media:
+  - type: audio
+    url: https://example.com/chord-progression.mp3
+    summary: "Demonstrates ii-V-I progression in C major, 4 bars each"
+```
 
 ### Rule: Use domain-appropriate media formats
 

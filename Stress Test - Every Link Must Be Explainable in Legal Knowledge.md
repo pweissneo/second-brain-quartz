@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
@@ -7,6 +8,7 @@ tags:
   - legal-domain
   - linking
 ---
+author-type: ai-assisted
 
 # Stress Test: Every Link Must Be Explainable in Legal Knowledge
 
@@ -84,6 +86,8 @@ All explainable — but the note might be too dense with links.
 
 ### What Works ✓
 
+> **Note:** The links below are illustrative examples demonstrating the linking patterns — they are hypothetical notes showing how to structure legal knowledge links, not links to existing notes.
+
 1. **Case-to-principle links:** "This case established [[judicial review]]"
 2. **Statute-to-regulation links:** "[[Rule 10b-5]] implements [[Section 10(b)]]"
 3. **Concept-to-example links:** "The doctrine of [[promissory estoppel]] is illustrated by [[Greene v. Commissioner]]"
@@ -136,6 +140,6 @@ Given a link in a legal note:
 
 ## Related
 - [[Linking Principle]]
-- [[Stress Test - Minimum Link Rule in Cooking]]
+- [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing (includes link rules)
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Domain-Specific Knowledge Bases]]

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - domain-agnostic
@@ -9,7 +10,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: Climate-Zone-Dependent Knowledge
+# Frontier Exploration - Climate-Zone-Dependent Knowledge
 
 ## The Gap
 
@@ -52,6 +53,7 @@ But there's no explicit `climate-zone` or `hardiness-zone` tag, and no guidance 
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]] (jurisdiction/region rules)
+- [[Frontier Exploration - User Situational Constraints]] — Related: scope metadata for user context
 - [[Handling Temporal Knowledge]]
 - [[Stress Test - Atomicity Rule Across Domains]] — Domain stress tests including climate-dependent knowledge handling
 - [[Frontier Exploration - Framework-Dependent Knowledge]] — Similar scope-tag pattern for conceptual frameworks

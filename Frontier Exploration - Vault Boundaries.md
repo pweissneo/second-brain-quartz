@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-09
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - vault-boundaries
   - architecture
 ---
 
-# Frontier Exploration: Vault Boundaries — What Belongs in a Knowledge Base
+# Frontier Exploration - Vault Boundaries — What Belongs in a Knowledge Base
 
 > "Not everything you know belongs in your second brain. But how do you decide?"
 

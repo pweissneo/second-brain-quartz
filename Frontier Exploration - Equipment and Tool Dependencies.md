@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags: [frontier-exploration, equipment, tool-dependency, domain-agnostic]
 ---
 
@@ -87,4 +88,4 @@ For a knowledge base about home repair:
 - [[Prerequisite Knowledge Tracking]] — Learning prerequisites (what knowledge you need BEFORE)
 - [[Frontier Exploration - Framework-Dependent Knowledge]] — Software/framework version dependencies
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Equipment cost as vault boundary criterion
-- [[AI-Assisted Knowledge Management Seed]] — The Seed rule on equipment dependencies (Rule 421)
+- [[AI-Assisted Knowledge Management Seed]] — The Seed covers equipment dependencies in the "Knowledge Processing" section

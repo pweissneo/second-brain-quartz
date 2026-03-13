@@ -1,7 +1,8 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-refinement
   - domain-specific
@@ -20,6 +21,7 @@ Testing the atomic note principle across multiple knowledge domains to find univ
 | Cooking | Simple techniques, ingredients, basic recipes | Complex recipes, composite dishes, regional cuisine | Technique vs Recipe distinction |
 | Gardening | Sequential procedures (planting, building beds) | Seasonal knowledge, plant-specific guides | Temporal cycles + hub pattern |
 | Programming | Code+explanation, API groups, error handling | - | Code is inseparable from explanation |
+| Philosophy | Single concepts, thinkers, arguments | Contested concepts, historical overviews | Opposition pairs + perspectives structure |
 
 ---
 
@@ -126,6 +128,48 @@ Much knowledge is experiential/tacit — cannot be fully captured in text.
 
 **Test:** Does the note describe what experience would teach? Are failure modes captured?
 
+### Edge Case 6: Opposition-Dependent Concepts (Philosophy)
+
+Philosophy often thinks in thesis/antithesis pairs. Some concepts only exist in opposition to another concept.
+
+**Test:** Does the note make sense only in opposition to another concept? → Create bidirectional pairs
+
+**Examples:**
+- Materialism ↔ Idealism — linked bidirectionally
+- Determinism ↔ Free Will — linked bidirectionally
+- Empiricism ↔ Rationalism — linked bidirectionally
+
+### Edge Case 7: Argument Structures (Philosophy)
+
+A philosophical argument (premises + conclusion) is a valid atomic unit even if it references multiple other concepts.
+
+**Test:** Is this a single inferential structure? → Keep as one note, link to component premises
+
+### Edge Case 8: Contested Concepts (Philosophy)
+
+Concepts with 3+ major competing accounts need perspectives structure, not single definitions.
+
+**Test:** Do experts fundamentally disagree on what this IS? → Use perspectives structure
+
+```
+## Perspectives
+
+### Viewpoint 1
+[description + key proponents]
+
+### Viewpoint 2
+[description + key proponents]
+```
+
+### Edge Case 9: Historical Development (Philosophy)
+
+For concepts that evolved significantly over time:
+
+- **Hub:** "Concept of X" — links to each historical version
+- **Spokes:** "X in Ancient Philosophy", "X in Modern Philosophy"
+
+**Test:** Has this concept changed meaning over 50+ years? → Hub + spokes pattern
+
 ---
 
 ## Recommendations for Seed
@@ -148,6 +192,7 @@ Given any note:
 | Cooking | Recipe = atomic | By cuisine/ingredient type |
 | Gardening | Technique = atomic | By plant AND by season |
 | Programming | Code+explanation = atomic | By framework/language |
+| Philosophy | Concept + opposition pair | By school + by problem |
 
 ### Updated Seed Rule
 
@@ -166,4 +211,4 @@ Given any note:
 - [[AI-Assisted Knowledge Management Seed]] — Core atomicity rules
 - [[Domain-Specific Knowledge Bases]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
-- [[Stress Test - Prerequisites Rule in Mathematics]]
+- [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test

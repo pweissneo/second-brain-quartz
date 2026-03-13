@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+tags:
+  - thinking
+  - methodology
+  - meta-learning
 ---
 
 # The First-Principle Thinker

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ethics
@@ -9,7 +10,7 @@ tags:
   - sensitive-information
 ---
 
-# Frontier Exploration: Knowledge Ethics and Exclusion
+# Frontier Exploration - Knowledge Ethics and Exclusion
 
 > When should a knowledge base choose NOT to capture knowledge? What wisdom lies in what we choose not to record?
 
@@ -119,4 +120,5 @@ An AI building a personal health vault using only current Seed rules would:
 - [[Frontier Exploration - Probabilistic Knowledge]] - Handling uncertainty in captured knowledge
 - [[Note Lifecycle Management]] - When to deprecate (partial overlap)
 - [[Confidence Markers]] - Current confidence framework
+- [[Frontier Exploration - Professional Advice Disclaimer Requirements]] - When knowledge becomes advice requiring disclaimers
 - [[AI-Assisted Knowledge Management Seed]] - The Seed this explores

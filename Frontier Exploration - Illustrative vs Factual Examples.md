@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-09
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - examples
   - knowledge-processing
 ---
 
-# Frontier Exploration: Illustrative vs. Factual Examples
+# Frontier Exploration - Illustrative vs. Factual Examples
 
 > How should a knowledge base distinguish between examples that illustrate a concept versus examples that demonstrate real-world application?
 

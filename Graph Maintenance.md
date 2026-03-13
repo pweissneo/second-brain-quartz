@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 ---
 
 # Graph Maintenance
@@ -51,6 +52,6 @@ Every 15 minutes:
 - [[Atomic Note Principle]]
 - [[Graph Traversal Efficiency]]
 - [[Graph Navigation MCP]]
-- [[Knowledge Visualization]]
 - [[Self-Improvement Cycle]]
 - [[Weekly Review Process]]
+- [[Advanced Pattern Matching]]

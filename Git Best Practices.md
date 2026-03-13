@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+tags:
+  - workflow
+  - git
+  - maintenance
 ---
 
 # Git Best Practices for Knowledge Bases

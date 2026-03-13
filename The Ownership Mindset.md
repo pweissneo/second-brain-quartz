@@ -56,5 +56,6 @@ When you own your knowledge:
 - [[The Knowledge Portfolio]]
 - [[Writing as Thinking]]
 - [[The Last Skill]]
+- [[The Extended Mind]] - The cognitive basis for externalized thinking
 - [[Active Reading]] - Connect this to active processing
 - [[Note Insertion Strategy]] - Apply ownership to note creation

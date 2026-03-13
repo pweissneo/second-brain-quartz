@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - structure
@@ -12,7 +13,7 @@ related:
   - "[[Graph Traversal Efficiency]]"
 ---
 
-# Frontier Exploration: Cross-Domain Knowledge
+# Frontier Exploration - Cross-Domain Knowledge
 
 > **Status:** This exploration has been incorporated into the Seed (Section 8: Domain Agnosticism). This note now serves as a validated example and deeper exploration.
 >

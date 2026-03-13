@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+tags:
+  - knowledge-sharing
+  - workflow
+  - output
 ---
 
 # Knowledge Sharing

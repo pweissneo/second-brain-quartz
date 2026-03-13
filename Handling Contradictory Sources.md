@@ -7,6 +7,7 @@ tags:
   - synthesis
   - contradiction
   - sources
+author-type: ai
 ---
 
 # Handling Contradictory Sources
@@ -88,6 +89,8 @@ Consider adding frontmatter to notes:
 
 This helps readers understand the reliability of each piece of knowledge without reading the full source chain.
 
+See [[Confidence Markers]] for the full confidence marker specification.
+
 ## Parallel Valid Alternatives
 
 The Seed also addresses a related but distinct case: **parallel valid alternatives** — when multiple approaches are ALL valid, NONE is deprecated, and the choice between them is context-dependent, not about correctness.
@@ -117,7 +120,12 @@ Without guidance on parallel alternatives:
 3. AI presents context-dependent choices as absolute rules
 4. Knowledge base becomes opinionated when it should be neutral
 
-### Handling Parallel Alternatives
+### Testing the Gap
+
+A knowledge base has a gap in handling equivalents if:
+1. You find notes that claim one approach is "best" when alternatives exist
+2. Notes about techniques don't acknowledge that other techniques achieve similar results
+3. A learner cannot find guidance on which equivalent approach to use when
 
 ### Handling Parallel Valid Alternatives
 

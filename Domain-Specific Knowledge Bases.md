@@ -1,8 +1,13 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 level: principle
+tags:
+  - domain
+  - adaptation
+  - seed-extension
 ---
 
 # Domain-Specific Knowledge Bases
@@ -46,7 +51,6 @@ The difference is **content**, not structure.
 - Document why (not just what)
 - Track stack decisions
 - Connect to [[Self-Improvement Cycle]] for tech updates
-- The software development section above provides detailed guidance.
 
 **Hub nodes:**
 - Architecture Patterns

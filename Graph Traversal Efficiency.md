@@ -57,3 +57,5 @@ Regularly check:
 - [[Hub Node Creation]]
 - [[Graph Maintenance]]
 - [[Note Insertion Strategy]]
+- [[Frontier Exploration - Vault Structure and Discovery Bias]] — How structure affects what gets discovered
+- [[Stress Test - 3-Hops Rule in Genealogy]]

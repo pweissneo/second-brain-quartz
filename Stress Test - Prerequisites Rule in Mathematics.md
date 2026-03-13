@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - mathematics-domain

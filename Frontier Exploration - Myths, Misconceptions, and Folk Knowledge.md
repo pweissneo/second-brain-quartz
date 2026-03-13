@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - myths
@@ -10,7 +11,7 @@ tags:
   - negative-knowledge
 ---
 
-# Frontier Exploration: Handling Myths, Misconceptions, and Folk Knowledge
+# Frontier Exploration - Handling Myths, Misconceptions, and Folk Knowledge
 
 ## The Gap
 
@@ -139,7 +140,7 @@ An AI building a cooking vault using only current Seed rules would:
 
 ## Related Notes
 
-- [[Frontier Exploration - Negative Knowledge Capture]] — Anti-patterns and failure modes (related approach)
+- [[Anti-Patterns in Knowledge Management]] — Anti-patterns and failure modes (related approach)
 - [[Frontier Exploration - Tacit Knowledge Capture]] — Knowledge that resists capture (complementary)
 - [[Handling Contradictory Sources]] — Sources that disagree (partial overlap)
 - [[Confidence Markers]] — Current confidence framework

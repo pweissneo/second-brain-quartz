@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+tags:
+  - mindset
+  - identity
+  - reflection
 ---
 
 # The Knowledge Identity

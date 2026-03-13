@@ -1,14 +1,19 @@
 ---
-last-reviewed: 2026-03-09
-lifecycle: draft
-confidence: emerging
+author-type: ai-assisted
+last-reviewed: 2026-03-12
+lifecycle: evergreen
+confidence: high
 tags:
   - seed-stress-test
   - temporal-knowledge
   - domain-trading
+  - validated-2026-03-12
 ---
+author-type: ai-assisted
 
 # Stress Test: Temporal Knowledge Rule in Stock Trading
+
+> Validated: 2026-03-12 - Rule handles trading domain well. Edge cases identified are already covered by existing Seed guidance.
 
 ## The Rule Under Test
 

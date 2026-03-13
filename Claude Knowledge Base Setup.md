@@ -3,6 +3,10 @@ last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
 level: concrete
+tags:
+  - setup
+  - ai
+  - tooling
 ---
 
 # Claude Knowledge Base Setup

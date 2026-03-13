@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
 tags:
@@ -7,11 +7,11 @@ tags:
   - tacit-knowledge
   - experiential-knowledge
   - knowledge-representation
----
+author-type: ai
 created: 2026-03-10
 ---
 
-# Frontier Exploration: Tacit Knowledge Capture
+# Frontier Exploration - Tacit Knowledge Capture
 
 ## The Problem
 
@@ -34,6 +34,38 @@ This creates a fundamental challenge for AI-managed knowledge bases: **how do yo
    - A knowledge base about cooking has both (recipes are explicit, but "when it's done" is tacit)
 
 3. **AI limitations**: LLMs can only work with what's written down. If tacit knowledge isn't captured, the knowledge base is fundamentally incomplete for certain domains.
+
+## The Knowledge Articulability Spectrum
+
+Knowledge exists on a spectrum from fully articulable to inherently tacit:
+
+1. **Fully articulable knowledge** — Can be fully captured in text (facts, procedures, rules)
+2. **Partially articulable** — Core is documentable, but the "feel" requires experience
+3. **Inherently tacit** — Cannot be captured in text at all (Polanyi's "we know more than we can tell")
+
+This spectrum has implications for knowledge bases:
+- When should an AI acknowledge knowledge is incomplete without experience?
+- How to tag notes that require experiential validation?
+- Should "try it and see" guidance be included alongside theoretical rules?
+
+### Domain Severity Examples
+
+| Domain | Explicit Content | Tacit Content |
+|--------|------------------|---------------|
+| Mathematics | Theorems, proofs | Problem intuition |
+| Music composition | Theory, harmony rules | "When a transition works" |
+| Clinical skills | Anatomy, protocols | Bedside manner |
+| Martial arts | Techniques | Combat readiness |
+| Cooking | Recipes, ingredients | "When it's done" |
+| Arts | Rules, techniques | Aesthetic judgment |
+
+## Open Questions
+
+1. **Marker granularity**: Should experiential markers be binary (has experiential component / doesn't) or gradated (requires: none/some/extensive)?
+
+2. **Testing adequacy**: How do you test whether a note's experiential component is adequately captured?
+
+3. **Domain inclusion**: Should experiential notes encourage building knowledge bases in experiential domains, or should those domains be excluded from the Seed's scope?
 
 ## Current Approaches
 
@@ -93,6 +125,8 @@ When tacit knowledge can't be captured, document the failure:
 ## Related Notes
 
 - [[Handling Contradictory Sources]] — For objective vs subjective distinctions
-- [[Frontier Exploration - Procedural Knowledge Verification]]
+- [[Frontier Exploration - Simulation-Based Knowledge]] — Related: both deal with knowledge that's hard to capture in text alone
+- [[Frontier Exploration - Experiential vs Documented Knowledge]] — Merged: covered similar ground on knowledge articulability spectrum
+- [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Stress Test - Atomicity Rule Across Domains]] (tacit knowledge handling)
 - [[Stress Test - Hub Note Rule in Woodworking]] (tacit knowledge in tool feel)

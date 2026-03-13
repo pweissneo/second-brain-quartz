@@ -130,14 +130,13 @@ If a note just restates what links already contain, it's redundant.
 ## Related
 - [[Linking Principle]]
 - [[Graph Traversal Efficiency]]
-- [[Note Types and Templates]]
 - [[Note Types and Templates]] — Template for consistent note structure
 
 
 ## Stress Tests
 This rule has been validated across multiple domains:
 
-- [[Stress Test - Atomicity Rule Across Domains]] — Tests edge cases across cooking, gardening, programming domains
-- [[Stress Test - Minimum Link Rule in Cooking]] — Tests minimum link requirements in recipe-based vaults
-- [[Stress Test - 3-Hops Rule in Medicine]] — Tests navigation depth in medical taxonomies
+- [[Stress Test - Atomicity Rule Across Domains]] — Tests edge cases across cooking, gardening, programming, philosophy domains
+- [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing of Seed rules in culinary domain
+- [[Stress Test - 3-Hops Rule in Genealogy]] — Tests navigation depth in medical taxonomies
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Tests temporal data handling

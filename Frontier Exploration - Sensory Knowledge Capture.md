@@ -2,13 +2,18 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
-tags: [frontier-exploration, sensory, tacit-knowledge, domain-agnostic]
+author-type: ai-assisted
+tags:
+  - frontier-exploration
+  - sensory
+  - tacit-knowledge
+  - domain-agnostic
 related-notes:
   - "[[Frontier Exploration - Tacit Knowledge Capture]]"
   - "[[Frontier Exploration - Multi-Modal Knowledge]]"
 ---
 
-# Frontier Exploration: Sensory Knowledge Capture
+# Frontier Exploration - Sensory Knowledge Capture
 
 > How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base?
 

@@ -7,6 +7,10 @@ sources:
   - title: "Building a Second Brain"
     author: "Tiago Forte"
     link: "https://www.buildingasecondbrain.com/"
+tags:
+  - process
+  - review
+  - maintenance
 ---
 
 # Weekly Review Process
@@ -97,5 +101,5 @@ review-count: 42
 ## Related
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
-- [[Measuring Knowledge Base Success]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 - [[The Forgetting Curve]]

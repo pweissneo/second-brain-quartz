@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - seed-rule
   - terminology
@@ -10,7 +11,7 @@ tags:
   - multi-audience
 ---
 
-# Jargon vs Plain Language in Knowledge Bases
+# Frontier Exploration - Jargon vs Plain Language in Knowledge Bases
 
 > This note elaborates on Seed rules about terminology and multi-audience vaults. See [[AI-Assisted Knowledge Management Seed]] for the authoritative rules.
 

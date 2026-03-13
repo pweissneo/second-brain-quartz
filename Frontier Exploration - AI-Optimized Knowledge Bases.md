@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-optimization
@@ -10,7 +11,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: AI-Optimized Knowledge Bases
+# Frontier Exploration - AI-Optimized Knowledge Bases
 
 > How should knowledge bases be structured when the primary consumer is an AI agent rather than a human?
 
@@ -136,8 +137,10 @@ When multiple AI agents access the vault:
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Stress Test - Atomicity Rule Across Domains]]
-- [[Frontier Exploration - Procedural Knowledge Verification]]
-- [[RAG (Retrieval-Augmented Generation)]]
+- [[AI-Assisted Knowledge Management Seed]] — verification-status rule for procedural content
+- [[AI-Assisted Knowledge Management Seed]] — verification-status field
+- [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Skill-level tagging for AI content serving
+- [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
 
 ---
 

@@ -38,7 +38,7 @@ How to evaluate if your second brain is working.
 ### Utility
 - Can you find information when you need it?
 - Do notes connect to form insights?
-- Is your writing/pthinking enhanced?
+- Is your writing/thinking enhanced?
 
 ### Engagement
 - Are you adding notes regularly?
@@ -48,12 +48,14 @@ How to evaluate if your second brain is working.
 ## Tools for Measurement
 
 ```bash
-# Graph health
-npx mcporter call vault-graph.graph_hubs
-npx mcporter call vault-graph.graph_isolated_nodes
+# Graph health - find most connected nodes
+graph_hubs(limit: 10)
 
-# Growth tracking
-# Track note count over time
+# Graph health - find isolated nodes
+graph_isolated_nodes()
+
+# Search for concepts
+graph_search(query: "keyword", limit: 5)
 ```
 
 ## Warning Signs

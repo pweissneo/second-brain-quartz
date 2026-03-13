@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - creative-knowledge
@@ -9,7 +10,7 @@ tags:
   - atomicity
 ---
 
-# Frontier Exploration: Single-Work Knowledge vs. General Principles
+# Frontier Exploration - Single-Work Knowledge vs. General Principles
 
 > How to handle knowledge about individual creative works (compositions, books, paintings) as atomic units versus extracting general principles
 
@@ -118,5 +119,5 @@ An AI building a music vault with current Seed rules would:
 - [[Atomic Note Principle]]
 - [[Frontier Exploration - Multi-Modal Knowledge]]
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
-- [[Stress Test - Self-Contained Notes Rule in Music Composition]]
+- Stress Test - Self-Contained Notes Rule in Music Composition (note does not exist)
 - [[AI-Assisted Knowledge Management Seed]]

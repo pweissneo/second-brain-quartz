@@ -85,7 +85,7 @@ Knowledge/
 ```
 [[Atomic Note Principle]] ←→ [[Linking Principle]] ←→ [[Note Insertion Strategy]]
        ↓                  ↓                  ↓
-   [[Note Types and Templates]]    [[Graph Maintenance]] [[Note Types and Templates]]
+   [[Note Types and Templates]]    [[Graph Maintenance]] [[Emergence in Knowledge Graphs]]
 ```
 
 **Characteristics:**

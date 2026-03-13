@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-09
-lifecycle: active
-confidence: emerging
+lifecycle: evergreen
+confidence: high
+author-type: ai-assisted
 level: principle
 tags:
   - seed-extension
@@ -12,6 +13,8 @@ tags:
 # Confidence Markers
 
 Signal the reliability of knowledge in your vault through structured confidence levels.
+
+This note extends the [[AI-Assisted Knowledge Management Seed]] with confidence metadata for notes.
 
 ## The Problem
 
@@ -131,6 +134,7 @@ Source tier matters most when:
 
 ## Related
 
+- [[AI-Assisted Knowledge Management Seed]] — Core ruleset this note extends
 - [[Handling Contradictory Sources]] — Using confidence markers when sources disagree
 - [[Source Validation Over Time]] — Keeping sources accessible
 - [[Note Lifecycle Management]] — Note stages and progression

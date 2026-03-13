@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-interaction
@@ -10,7 +11,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: Capturing AI Prompt Knowledge
+# Frontier Exploration - Capturing AI Prompt Knowledge
 
 > How should a knowledge base structure knowledge about interacting with AI systems through prompts?
 
@@ -64,6 +65,38 @@ Existing confidence markers (high/emerging/disputed/obsolete) don't capture what
 **Why:** Prompts are not universal — effectiveness varies dramatically across models. A prompt that works for GPT-4 may produce poor results from Claude. Without explicit model scope, readers and AIs cannot assess applicability.
 
 **Test:** Can you identify which model(s) this prompt was designed for? Is there a `model-scope:` field?
+
+#### Refinement: Add Tested Date
+
+**Rule:** For prompt knowledge, include both model scope AND the date when testing was performed.
+**Why:** Prompts can become stale as models update. A prompt tested in 2023 may not work on 2024 model versions.
+**Test:** For prompt notes: (1) Is there model-scope? (2) Is there a tested-on date or last-verified date?
+
+#### Refinement: Handle Cross-Model Variance
+
+**Rule:** Document when a prompt works on some models but not others, using positive and negative scope.
+**Why:** "Works on Claude" is different from "doesn't work on GPT." Both are useful.
+**Test:** Can you identify: (a) which models work? (b) which models failed? (c) which models are unknown?
+
+#### Refinement: Distinguish Standard vs. Reasoning Models
+
+**Rule:** For reasoning models (o1, o3, DeepSeek-R1), note that prompting patterns may differ fundamentally from standard LLMs.
+**Why:** Chain-of-thought, few-shot, and system prompts work differently for reasoning models.
+**Test:** Are reasoning-model prompts clearly tagged with `model-type: reasoning`?
+
+#### Refinement: Parameter Sensitivity
+
+**Rule:** For prompts that require specific parameters (temperature, top_p), document recommended settings.
+**Why:** A prompt may "work" at default settings but fail at optimal settings, or vice versa.
+**Test:** For parameter-sensitive prompts, is there a recommended-settings field or note?
+
+#### Refined Test for Prompt Knowledge
+
+1. Does the note have `model-scope:` field?
+2. Are specific model names listed (not just "all models")?
+3. Is there a date when the prompt was last verified?
+4. For reasoning model prompts, is model-type specified?
+5. For parameter-sensitive prompts, are recommended settings documented?
 
 ### Rule: Track Prompt Version
 
@@ -153,6 +186,76 @@ Some prompts assume context (previous messages, system prompts). Document requir
 - What system instructions are assumed?
 - How does context affect output?
 
+### Cross-Model Prompt Edge Cases
+
+**Edge Case 1: Cross-Model Prompts**
+
+Some prompts work across multiple models. How to represent this?
+
+> **Illustrative example:** A prompt for "summarization" might work on GPT-4, Claude, Gemini, and Llama.
+
+**Resolution:** Use `model-scope: [gpt-4, claude-3, gemini-pro, llama-3]` to list tested models. Don't use "all" — it will be wrong for the next model release. Add `model-scope-note: tested on listed models, expected to work on similar architectures`.
+
+**Edge Case 2: Model Family Scope**
+
+Prompts often work across a family but not the entire family.
+
+> **Illustrative example:** A prompt works on GPT-4 and GPT-4o but not GPT-4 Turbo, or works on Claude 3 Opus but not Claude 3 Haiku.
+
+**Resolution:** Use specific model names when known. If family-wide, use `model-family: [claude-3, gpt-4]` and note which specific versions were tested.
+
+**Edge Case 3: Prompt Version Mismatches**
+
+Prompts designed for a model may fail on newer versions.
+
+> **Illustrative example:** A prompt designed for GPT-4 (June 2023) may not work on GPT-4o (May 2024).
+
+**Resolution:** Include `tested-on:` with specific model names AND dates. Example: `tested-on: gpt-4 (2024-01)`.
+
+**Edge Case 4: Reasoning Models vs. Standard LLMs**
+
+The o1/o3 family has completely different prompting patterns.
+
+> **Illustrative example:** Chain-of-thought prompting helps o1 but confuses standard GPT-4.
+
+**Resolution:** Add distinction: `model-type: standard | reasoning | embedding`. The rule should clarify that reasoning models (o1, o3, DeepSeek-R1) may require fundamentally different prompting approaches.
+
+**Edge Case 5: Failed Prompt Scope**
+
+Sometimes we know what doesn't work.
+
+> **Illustrative example:** "This prompt was tested on Claude 3.5 Sonnet but failed on GPT-4o."
+
+**Resolution:** Add `model-scope:` for what works, and optionally `model-excluded:` for known failures. Example:
+```
+model-scope: [claude-3.5-sonnet]
+model-excluded: [gpt-4o, gemini-2.0]
+```
+
+**Edge Case 6: API vs. Web Interface Differences**
+
+The same model behaves differently via API vs. web interface.
+
+> **Illustrative example:** Claude via API may have different rate limits and system prompt behavior than Claude.ai web interface.
+
+**Resolution:** Add `interface: [api | web | mobile]` field, or note in `model-scope-note:` that the prompt was tested on a specific interface.
+
+**Edge Case 7: Temperature and Parameter Sensitivity**
+
+Some prompts depend on specific model parameters.
+
+> **Illustrative example:** A "creative writing" prompt requires `temperature: 0.9` to work well.
+
+**Resolution:** Add `recommended-settings:` field with temperature, top_p, etc. The test should verify: if the prompt is parameter-sensitive, are settings documented?
+
+**Edge Case 8: Prompt Evolution**
+
+Prompts change over time as they are refined.
+
+> **Illustrative example:** v1 of a prompt didn't work, v2 worked on Claude, v3 worked on both Claude and GPT.
+
+**Resolution:** The existing Seed rule about prompt version history applies. Include `prompt-version:` and potentially `changelog:`. The model scope should be tied to specific prompt versions.
+
 ### Multi-Step Prompt Chains
 
 When multiple prompts must run in sequence:
@@ -172,7 +275,7 @@ When multiple prompts must run in sequence:
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed being extended
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — Related AI-native structure
-- [[Frontier Exploration - Procedural Knowledge Verification]] — Verification principles
+- [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Confidence Markers]] — Reliability signaling
 
 ---

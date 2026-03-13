@@ -2,6 +2,11 @@
 last-reviewed: 2026-03-08
 lifecycle: active
 confidence: high
+author-type: ai-assisted
+tags:
+  - linking
+  - syntax
+  - convention
 ---
 
 # Wikilinks
@@ -66,7 +71,7 @@ The Seed requires every note be reachable from [[_root]] in 3 hops or fewer. Wik
 Most modern knowledge management tools support wikilinks:
 - **Obsidian**, **Logseq**, **RemNote** — Native support
 - **Roam Research** — Uses double bracket syntax
-- **Quartz**, **A庐山** — Static site generators parse wikilinks
+- **Quartz**, **Ara** — Static site generators parse wikilinks
 
 This vault's [[Graph Navigation MCP]] can query the link structure programmatically.
 

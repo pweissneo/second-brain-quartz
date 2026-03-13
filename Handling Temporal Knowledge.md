@@ -1,12 +1,14 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
 tags:
   - seed-extension
   - temporal
   - time-sensitive
+  - sequential-knowledge
 level: principle
+author-type: ai
 ---
 
 # Handling Temporal and Outdated Knowledge
@@ -186,6 +188,80 @@ staleness: confirmed
 
 ---
 
+## Part 3: Sequential Knowledge — Where Order IS the Knowledge
+
+*Content integrated from Frontier Exploration on sequential knowledge*
+
+The Seed covers static knowledge, procedural knowledge, and time-sensitive data. But there's a critical gap: **knowledge where sequence itself is the core knowledge**.
+
+### Examples of Sequential Knowledge
+
+1. **Historical narratives**: The causes and effects that led to an event
+   - "Why did World War I start?" requires understanding a sequence of diplomatic failures
+
+2. **Musical composition**: The arrangement of notes in time
+   - "How does this symphony work?" requires understanding the sequence, not just the chords
+
+3. **Story structure**: Narrative arcs, plot points in order
+   - "How does this story build tension?" requires temporal understanding
+
+4. **Scientific discovery history**: The sequence of experiments and insights
+   - "How did we discover the structure of DNA?" is a temporal narrative
+
+5. **Biological processes**: Metabolic pathways, cell division, ecosystems
+   - The ORDER of steps IS the knowledge being captured
+
+6. **Learning progressions**: Concepts that MUST be learned in sequence
+   - "What prerequisites are required for calculus?" is about temporal dependency
+
+### Key Question: Sequential vs. Static?
+
+| Type | Question | Example |
+|------|----------|---------|
+| Static | "What is X?" | Photosynthesis definition |
+| Sequential | "How did X happen?" OR "How does X unfold?" | Photosynthesis discovery history |
+
+### Emerging Rules for Sequential Knowledge
+
+**Rule:** Distinguish prerequisite links from relevance links
+
+- "You need to understand A before B" is a different relationship than "A relates to B"
+- Prerequisite links create learning paths; relevance links create understanding web
+- Test: Can you identify which links represent temporal dependencies (must learn first) vs. conceptual relationships (related but not sequential)?
+
+**Rule:** For sequential knowledge, capture both the sequence AND the key moments
+
+- A sequence without key moments is overwhelming
+- Key moments without sequence loses causal structure
+- Test: For a historical event note: (1) Can you identify the key moments? (2) Can you trace the causal chain between them?
+
+**Rule:** Tag temporal scope — is this knowledge about a point in time, a period, or a sequence?
+
+- "The Battle of Hastings" (point), "The Renaissance" (period), "How photosynthesis evolved" (sequence)
+- Test: Can you categorize each temporal note as: point-in-time | period | sequence | cyclical?
+
+### Test Case: Building a Music Theory Knowledge Base
+
+An AI building a music theory vault using only current Seed rules would:
+- ✓ Create atomic notes on chords, scales, harmony
+- ✓ Link between concepts
+- ✗ Not know how to capture a chord progression (sequence IS the knowledge)
+- ✗ Not know whether to link to "the notes" or "the order of notes"
+- ✗ Not distinguish between harmonic theory (static) and compositional form (sequential)
+
+The AI would create excellent static knowledge but miss the sequential essence of music.
+
+### Test Case: Building a History Knowledge Base
+
+An AI building a history vault using only current Seed rules would:
+- ✓ Create atomic notes on events, figures, dates
+- ✓ Link related events
+- ✗ Not know how to present causes and effects as connected narrative
+- ✗ Might fragment the narrative into atomic facts, losing the temporal chain
+- ✗ Not distinguish between "what happened" (fact) and "why it happened" (causal sequence)
+
+---
+
 ## The Test
 
 For any note containing time-specific data:
@@ -238,7 +314,11 @@ This note provides comprehensive implementation guidance, covering both:
 - [[Source Validation Over Time]]
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Temporal and Sequential Knowledge]] — Related: covers sequential knowledge where order is intrinsic
+- [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time
+- [[Frontier Exploration - Iterative Creative Knowledge]] — Related: covers cyclic evaluation and decision-making processes
+- [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
+- [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
+- [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential
 
 ---
 

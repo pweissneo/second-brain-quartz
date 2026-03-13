@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - vault-architecture
   - multi-vault
 ---
 
-# Frontier Exploration: When to Create a New Vault
+# Frontier Exploration - When to Create a New Vault
 
 > "One vault to rule them all?" — When separate vaults make more sense than one mega-vault.
 

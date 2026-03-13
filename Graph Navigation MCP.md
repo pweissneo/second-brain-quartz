@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+author-type: human
 tags:
   - mcp
   - graph
@@ -113,6 +114,44 @@ Link density management is covered in the Seed. Key principles:
 - **Prune ruthlessly:** Remove decorative links that don't serve a navigation purpose
 
 See [[AI-Assisted Knowledge Management Seed]] for the full rules on graph density.
+
+## Graph Visualization
+
+Visualizing knowledge graphs helps spot patterns, find gaps, and navigate efficiently.
+
+### Why Visualize
+
+Graph visualization helps:
+- Identify hub nodes and clusters
+- Find isolated notes
+- Understand connection patterns
+- Spot structural issues
+
+### Visualization Tools
+
+| Tool | Purpose |
+|------|---------|
+| Obsidian Graph View | Built-in 3D graph visualization |
+| Mermaid | Inline diagrams in notes |
+| Draw.io | External diagrams |
+| NetworkX + Python | Custom visualizations |
+
+### Mermaid Examples
+
+```mermaid
+graph LR
+    A[Input] --> B[Capture]
+    B --> C[Process]
+    C --> D[Connect]
+    D --> E[Maintain]
+```
+
+### Graph Metrics to Visualize
+
+- **Hub score** — Most connected notes; navigation anchors
+- **Clustering** — Topic groups of dense connections
+- **Path length** — Navigation distance (shorter is better)
+- **Isolation** — Notes with few connections, hard to discover
 
 ## Related
 - [[Note Insertion Strategy]]
