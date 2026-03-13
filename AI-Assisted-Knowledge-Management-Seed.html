@@ -391,6 +391,11 @@ When applying the test, first check if the deep path reflects a recognized domai
 <p><strong>Rule:</strong> Capture first, process second — never try to write a perfect note on the first pass.
 <strong>Why:</strong> Perfectionism at capture time slows input and loses ideas; separate capture from refinement.
 <strong>Test:</strong> Is there an inbox or staging area? Do notes go through at least two passes before being considered complete?</p>
+<p><strong>Rule:</strong> Use explicit staging for incomplete knowledge — capture fragments, drafts, and hypotheses in marked transitional states rather than only complete notes.
+<strong>Why:</strong> Knowledge exists in transitional states (whispers, drafts, probes) that are valuable but not ready for full integration. Without staging, you either lose fleeting insights or bloat the vault with incomplete content.
+<strong>Test:</strong> Can you identify notes in transitional states (whisper/draft/probe)? Do they have explicit review dates? Do they graduate to complete status through defined workflows?
+<strong>Edge case:</strong> Staging is orthogonal to confidence — a draft can have high confidence on core claims while acknowledging incompleteness. A probe represents hypothesis, not low confidence.
+<strong>Implementation:</strong> Use <code>status: whisper|draft|probe</code> frontmatter with <code>review-by:</code> date. Whisper (fragment, review in 48h), Draft (in-progress, review weekly), Probe (hypothesis, explicit uncertainty).</p>
 <p><strong>Rule:</strong> Process incoming knowledge into atomic notes within 48 hours.
 <strong>Why:</strong> Unprocessed captures degrade in value as context fades; a growing inbox signals a broken pipeline.
 <strong>Test:</strong> Count unprocessed captures. Are there more than 10? If yes, the processing pipeline is stalled.</p>
