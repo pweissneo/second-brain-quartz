@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Personal Relationship Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Relationship-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Relationship-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Personal Relationship Knowledge Knowledge about specific people in your life, built from shared experience rather than external sources. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 02:34:07 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Incomplete and Provisional Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Incomplete-and-Provisional-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Incomplete-and-Provisional-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Incomplete and Provisional Knowledge How to capture knowledge that isn’t fully formed — sketches, hypotheses, partial insights, and work-in-progress ideas that are worth saving but not ready for prime time. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 02:23:57 GMT</pubDate>
+    <pubDate>Fri, 13 Mar 2026 02:34:07 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
     <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Access-Controlled Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Access-Controlled Knowledge How do we handle knowledge that requires payment, subscription, or authentication to access? The Problem An increasing amount of valuable knowledge exists behind access controls: Paid courses (Udemy, MasterClass, Skillshare) Members-only content (Su... ]]></description>
     <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
   </item>
     </channel>
