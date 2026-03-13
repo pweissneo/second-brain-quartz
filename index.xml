@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Refinement - 3-Hop Rule Medical Domain</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---3-Hop-Rule-Medical-Domain</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---3-Hop-Rule-Medical-Domain</guid>
-    <description><![CDATA[ Seed Refinement: 3-Hop Rule Stress Test (Medical Domain) Original Rule Rule: Every note must be reachable from _root.md in 3 hops or fewer. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 01:35:09 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Professional Advice Disclaimer Requirements</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Professional-Advice-Disclaimer-Requirements</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Professional-Advice-Disclaimer-Requirements</guid>
-    <description><![CDATA[ Frontier Exploration: Professional Advice Disclaimer Requirements When does knowledge become “advice” requiring disclaimers? How should knowledge bases handle liability-sensitive content? The Problem The Seed provides excellent guidance on knowledge quality, confidence markers, and source attributio... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 01:35:09 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Access-Controlled Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Access-Controlled Knowledge How do we handle knowledge that requires payment, subscription, or authentication to access? The Problem An increasing amount of valuable knowledge exists behind access controls: Paid courses (Udemy, MasterClass, Skillshare) Members-only content (Su... ]]></description>
-    <pubDate>Fri, 13 Mar 2026 01:35:09 GMT</pubDate>
-  </item><item>
-    <title>AI Assistance Quality Criteria</title>
-    <link>https://quartz.jzhao.xyz/AI-Assistance-Quality-Criteria</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assistance-Quality-Criteria</guid>
-    <description><![CDATA[ AI Assistance Quality Criteria This note provides an overview of AI-assistance capabilities for knowledge base quality evaluation. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Connection Suggestion</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Connection-Suggestion</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Connection-Suggestion</guid>
-    <description><![CDATA[ AI-Assisted Connection Suggestion AI can suggest meaningful connections between notes that humans might miss. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
-  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Link Quality Evaluation</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Link-Quality-Evaluation</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Link-Quality-Evaluation</guid>
-    <description><![CDATA[ AI-Assisted Link Quality Evaluation AI can automatically evaluate link quality in a knowledge base. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Note Splitting</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Note-Splitting</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Note-Splitting</guid>
-    <description><![CDATA[ AI-Assisted Note Splitting AI can identify and split oversized notes into atomic units. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Orphan Detection</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Orphan-Detection</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Orphan-Detection</guid>
-    <description><![CDATA[ AI-Assisted Orphan Detection AI can automatically detect orphaned notes in a knowledge base. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
   </item><item>
     <title>Advanced Pattern Matching</title>
     <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
     <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
     <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
-    <pubDate>Thu, 12 Mar 2026 23:38:18 GMT</pubDate>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Anti-Patterns in Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
+    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Confidence Markers</title>
+    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
+    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
+    <description><![CDATA[ Confidence Markers Signal the reliability of knowledge in your vault through structured confidence levels. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Domain-Specific Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</guid>
+    <description><![CDATA[ Domain-Specific Knowledge Bases A knowledge base can be customized for any field. Here’s how to adapt for different domains. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Forward References and Planned Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</guid>
+    <description><![CDATA[ Forward References and Planned Knowledge When building a knowledge base, you often need to reference concepts that don’t exist yet — future topics, planned projects, or ideas you’ll develop later. ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - AI-Generated Content Verification</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</guid>
+    <description><![CDATA[ Frontier Exploration - AI-Generated Content Verification The Gap The Seed covers: Source citation requirements Confidence markers Procedural knowledge verification AI-optimized knowledge structures But there’s no explicit guidance on: How to verify that content generated by AI assistants is accurate... ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - API and External Service Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Access-Controlled Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Access-Controlled Knowledge How do we handle knowledge that requires payment, subscription, or authentication to access? The Problem An increasing amount of valuable knowledge exists behind access controls: Paid courses (Udemy, MasterClass, Skillshare) Members-only content (Su... ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Canonical vs Analysis Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Canonical-vs-Analysis-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Canonical-vs-Analysis-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Canonical vs Analysis Knowledge The Gap The Seed includes rules for: Primary sources vs secondary sources (legal knowledge) Illustrative vs factual examples Subjective vs objective claims Source quality hierarchy However, there’s a gap: distinguishing canonical/authoritative k... ]]></description>
+    <pubDate>Fri, 13 Mar 2026 01:46:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
