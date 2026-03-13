@@ -8,6 +8,12 @@ tags:
   - knowledge-completeness
   - prioritization
 level: principle
+completeness-target: principle
+completeness-indicators:
+  - Hub exists for topic area
+  - Prerequisites identified
+  - Multiple entry points established
+  - Common questions can be answered
 ---
 
 # Frontier Exploration: Knowledge Domain Completeness Criteria

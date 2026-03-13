@@ -1,5 +1,4 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging

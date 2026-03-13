@@ -3,7 +3,12 @@ last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
 author-type: ai-assisted
-tags: [frontier-exploration, visual-knowledge, aesthetic-judgment, photography, creative-domain]
+tags:
+  - frontier-exploration
+  - visual-knowledge
+  - aesthetic-judgment
+  - photography
+  - creative-domain
 ---
 
 # Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge

@@ -126,7 +126,7 @@ With this distinction:
 
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
 - [[Handling Contradictory Sources]] — Related to source quality
-- [[Source Validation Over Time]] — Temporal data handling
+- [[Handling Temporal Knowledge]] — Temporal data handling
 - [[Confidence Markers]] — Signaling reliability
 - [[Knowledge Base Workflow]] — How new knowledge enters
 - [[Stress Test - Confidence Markers Rule Across Domains]] — Cross-domain stress test

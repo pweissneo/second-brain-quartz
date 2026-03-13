@@ -236,5 +236,5 @@ Defer to sources when:
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
 - [[Knowledge Base Workflow]] — How new knowledge enters the vault
 - [[Self-Improvement Cycle]] — Continuous improvement process
-- [[Source Validation Over Time]] — Source verification and reliability
+- [[Handling Temporal Knowledge]] — Source verification and reliability
 - [[Confidence Markers]] — Signaling reliability

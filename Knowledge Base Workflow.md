@@ -4,7 +4,11 @@ last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
 verification-status: community-validated
-tags: [workflow, process, methodology, ai-assisted]
+tags:
+  - workflow
+  - process
+  - methodology
+  - ai-assisted
 author-type: human
 ---
 # Knowledge Base Workflow
@@ -166,6 +170,7 @@ Per [[Self-Improvement Cycle]]:
 - [[Active Reading]]
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
+- [[Frontier Exploration - Vault Query Patterns for Decision-Making]]
 
 ## The Feedback Loop
 

@@ -1,7 +1,8 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - vision
   - goals
@@ -10,50 +11,42 @@ tags:
 
 # The Ultimate Goal
 
-What the second brain is trying to achieve.
+The self-referential purpose of a knowledge base that documents how to build knowledge bases.
 
 ## The Vision
 
-A perfect knowledge base that describes how to build a perfect knowledge base.
+> A perfect knowledge base that describes how to build a perfect knowledge base.
+
+This self-referential loop is the vault's core purpose: the vault demonstrates the principles it documents.
 
 ## The Self-Referential Loop
 
-This vault demonstrates:
-1. **Principles** - Rules for knowledge management
-2. **Practice** - Living example of those rules
-3. **Documentation** - Exportable Rules explaining both
+The vault demonstrates:
+1. **Principles** - Rules for knowledge management (the Seed)
+2. **Practice** - Living example of applying those rules
+3. **Documentation** - Exportable rules explaining both
 
-## Key Metrics
+## Rule
+
+> The ultimate test of a knowledge management system is whether it can document itself — every structural choice should be explainable by the rules it follows.
+
+**Why:** A self-referential vault validates its own principles in practice, building credibility through demonstration rather than assertion.
+
+**Test:** Can you trace every structural choice in the vault to an explicit Seed rule? Can every Seed rule be demonstrated by a note in the vault?
+
+## Progress Tracking
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| Nodes | 117 | Growing |
-| Edges | ~157 | Dense but clean |
+| Nodes | 148 | Growing |
+| Edges | ~200+ | Dense but clean |
 | Isolated | 0 | 0 |
 | Broken links | 0 | 0 |
-| Self-referential | Yes | Yes |
 
-## The Perfect Knowledge Base
-
-A perfect knowledge base:
-- ✅ Every note follows [[Atomic Note Principle]]
-- ✅ Every note has meaningful links per [[Linking Principle]]
-- ✅ All notes reachable in ≤3 hops per [[Graph Traversal Efficiency]]
-- ✅ No isolated notes (except config)
-- ✅ Terminology is consistent
-- ✅ Self-referential accuracy: notes follow their own rules
-
-## The Progress
-
-This vault started with 19 notes. After many cycles:
-- 102 nodes (5.4x growth)
-- 595+ edges
-- Multiple Frontier Exploration notes → Seed rules
-- Self-improvement cycle proven
+This vault started with 19 notes. After many cycles: 148 nodes (7.8x growth), 200+ edges, multiple Frontier Exploration notes → Seed rules.
 
 ## Related
 - [[Self-Improvement Cycle]]
 - [[Exportable Rules]]
-- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 - [[Emergence in Knowledge Graphs]]
 - [[The Extended Mind]]

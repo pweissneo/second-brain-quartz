@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - methods
   - comparison
@@ -78,3 +79,6 @@ Different approaches to capturing and organizing knowledge.
 - [[Zettelkasten Method]]
 - [[Atomic Note Principle]]
 - [[Knowledge Base Workflow]]
+- [[Note Types and Templates]] — Types of notes
+- [[Progressive Summarization]] — Summarization technique
+- [[The Extended Mind]] — External cognition theory

@@ -95,5 +95,5 @@ For a home automation knowledge base:
 - [[Frontier Exploration - Framework-Dependent Knowledge]] — Software/framework version dependencies
 - [[Stress Test - Version Scope Rule in Data Science ML]] — Version dependencies in ML workflows
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Physical tool dependencies
-- [[Source Validation Over Time]] — URLs rot; service dependencies rot faster
+- [[Handling Temporal Knowledge]] — URLs rot; service dependencies rot faster
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends

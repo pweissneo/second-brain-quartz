@@ -109,6 +109,6 @@ Given a note in a domain with canonical/analysis knowledge:
 
 ## Related Notes
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Handling Contradictory Sources]]
 - [[Confidence Markers]]

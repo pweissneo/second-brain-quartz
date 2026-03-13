@@ -96,6 +96,6 @@ An AI building a knowledge base on a topic like "advanced cooking techniques" us
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
-- [[Source Validation Over Time]] — Related to keeping sources accessible
+- [[Handling Temporal Knowledge]] — Related to keeping sources accessible
 - [[Frontier Exploration - API and External Service Dependencies]] — Related but about functionality, not content
 - [[Frontier Exploration - Knowledge Debt]] — Access loss creates debt

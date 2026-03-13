@@ -209,7 +209,8 @@ Use a meta-layer for cross-vault search:
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Note Types and Templates]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Hub Node Creation]]
 - [[Note Prioritization Strategy]]
 - [[Domain-Specific Knowledge Bases]]
+- [[Frontier Exploration - Living Documents]]

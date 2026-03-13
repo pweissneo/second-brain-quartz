@@ -2,7 +2,10 @@
 protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
+tags:
+  - structure
 confidence: high
+author-type: ai-assisted
 ---
 
 # Knowledge Graph Structure
@@ -56,7 +59,7 @@ See [[Graph Traversal Efficiency]] for navigation rules.
 
 We combine:
 - [[Zettelkasten Method]] (atomic notes)
-- [[Graph Navigation MCP]] (agent capability)
+- [[Graph Navigation Best Practices]] (agent capability)
 - [[Hub Node Creation]] (entry points)
 
 ## Visual Comparison

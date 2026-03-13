@@ -39,7 +39,7 @@ Without explicit context frame handling:
 
 - **Expertise-level** — addresses "who can understand this"
 - **User situational constraints** — addresses "what can the user do"
-- **Knowledge-type (canonical/analysis/personal)** — addresses "what kind of knowledge is this"
+- **Knowledge-type ([[Frontier Exploration - Canonical vs Analysis Knowledge]])** — addresses "what kind of knowledge is this"
 
 Context frames are different: they address **"for what purpose is this knowledge being presented?"**
 

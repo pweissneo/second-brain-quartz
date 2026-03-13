@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: human
 level: concrete
 tags:
   - setup
@@ -92,7 +93,7 @@ For Codex or multi-agent setups.
 
 ## Detailed Guides
 
-- [[Graph Navigation MCP]] - Graph query tools
+- [[Graph Navigation Best Practices]] - Graph query tools
 - [[Sources Provenance MCP]] - Source tracking
 - [[Git Best Practices]] - Branching, commits for AI agents
 
@@ -122,4 +123,4 @@ Configure `.mcp.json` for vault navigation:
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Self-Improvement Cycle]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]

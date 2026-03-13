@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - methodology
   - strategy
@@ -70,3 +71,5 @@ Periodically adjust:
 - [[The Extended Mind]]
 - [[Domain-Specific Knowledge Bases]]
 - [[Knowledge Sharing]]
+- [[Frontier Exploration - Knowledge Originality Assessment]]
+- [[Frontier Exploration - Access-Controlled Knowledge]]

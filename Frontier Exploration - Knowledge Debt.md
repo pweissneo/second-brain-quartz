@@ -199,7 +199,7 @@ Knowledge debt is different from natural evolution:
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Graph Maintenance]] — Structural health checks
 - [[Note Lifecycle Management]] — Evolution stages
-- [[Source Validation Over Time]] — Citation debt
+- [[Handling Temporal Knowledge]] — Citation debt
 - [[Seed Stress Test - Cooking Knowledge Base]] — Terminology consistency stress test (includes cooking domain examples)
 - [[Self-Improvement Cycle]] — Continuous improvement
 

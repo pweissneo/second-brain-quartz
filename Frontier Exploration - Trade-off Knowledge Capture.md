@@ -253,3 +253,9 @@ Add to Seed section on Knowledge Types:
 **Rule:** Distinguish inherent trade-offs from skill/knowledge limits — apparent trade-offs that can be overcome with practice should be marked as such.
 **Why:** False trade-outs create unnecessary hesitation. Recognizing when a trade-off is illusory empowers decision-making.
 **Test:** For each trade-off: (1) Is this fundamentally a limit or a skill gap? (2) Can the "trade-off" be eliminated with learning/practice? (3) If yes, mark as "developable skill" rather than inherent trade-off.
+
+## Related
+
+- [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
+- [[Frontier Exploration - Knowledge Abstraction Levels]] — Related knowledge organization
+- [[Frontier Exploration - User Situational Constraints]] — Related contextual knowledge

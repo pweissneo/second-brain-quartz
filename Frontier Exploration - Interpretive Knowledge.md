@@ -199,7 +199,7 @@ alternative-views: included  # included | referenced | omitted
 - [Other perspective]: [How it differs]
 
 ## For Further Reading
-[[Critic A's view]] | [[Critic B's view]]
+[[Frontier Exploration - Comparative Knowledge Structures]] | [[Handling Contradictory Sources]]
 ```
 
 ## What AI Agents Should Do

@@ -1,14 +1,13 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: emerging
+knowledge-type: analysis
 tags:
   - seed-stress-test
   - cooking-domain
   - edge-case
 ---
-author-type: ai-assisted
 
 # Seed Stress Test: Cooking Knowledge Base
 
@@ -25,7 +24,6 @@ Cooking knowledge bases face unique challenges:
 - Regional terminology variations are all "correct"
 
 ---
-author-type: ai-assisted
 
 ## 1. Word Count Rule
 
@@ -44,7 +42,6 @@ author-type: ai-assisted
 **Related:** [[Atomic Note Principle]], [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
 
 ---
-author-type: ai-assisted
 
 ## 2. "At Least 2 Links" Rule
 
@@ -64,7 +61,6 @@ Recipes naturally connect to ingredients, techniques, equipment, flavor profiles
 Use explicit metadata: `foundational: true` tag makes test fully executable.
 
 ---
-author-type: ai-assisted
 
 ## 3. No Zero Backlinks Rule
 
@@ -84,7 +80,6 @@ author-type: ai-assisted
 > Every note must be reachable from `_root.md` in ≤3 hops AND should have ≥1 backlink UNLESS: (a) universal/primitive element, (b) navigation hub, (c) foundational reference.
 
 ---
-author-type: ai-assisted
 
 ## 4. Operational vs Synthesized Knowledge
 
@@ -111,7 +106,6 @@ author-type: ai-assisted
 - Transferable techniques = synthesized
 
 ---
-author-type: ai-assisted
 
 ## 5. Sequential Knowledge Rule
 
@@ -142,7 +136,6 @@ sensory-cues: "Cook until edges pull away from pan"
 ```
 
 ---
-author-type: ai-assisted
 
 ## 6. Terminology Consistency Rule
 
@@ -173,7 +166,6 @@ author-type: ai-assisted
 > Terminology consistent UNLESS: (a) distinct terms represent different techniques, (b) regional variations both valid, (c) common + technical serve different audiences.
 
 ---
-author-type: ai-assisted
 
 ## Summary of Edge Cases
 
@@ -187,12 +179,12 @@ author-type: ai-assisted
 | Terminology | Regional variants | Allow both with context |
 
 ---
-author-type: ai-assisted
 
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Seed Stress Test - Chess Knowledge Base]] - Another domain stress test
+- [[Seed Stress Test - Woodworking Knowledge Base]] - Craft domain stress test
 - [[Domain-Specific Knowledge Bases]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]

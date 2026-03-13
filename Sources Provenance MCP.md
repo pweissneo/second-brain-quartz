@@ -65,7 +65,7 @@ The vault-sources MCP maintains a separate SQLite database (`.vault-sources.sqli
 This enables **provenance tracking** — knowing the origin of every piece of knowledge in your vault.
 
 ## Related
-- [[Graph Navigation MCP]] - For navigating the knowledge graph
+- [[Graph Navigation Best Practices]] - For navigating the knowledge graph
 - [[AI-Assisted Knowledge Management]] - AI-powered knowledge management
 - [[Claude Knowledge Base Setup]] - Setting up AI agents with MCP servers
 - [[Exportable Rules]] - Rules that can be exported to other AI agents

@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: ai
 ---
 
 # Linking Principle
@@ -32,7 +33,7 @@ Notes must be **interconnected** through [[Wikilinks]] to form a knowledge graph
 - **Minimum**: 2-3 links per note (ensures connectivity)
 - **Maximum**: Avoid over-linking (dilutes meaning)
 - **Target**: Links that add genuine value
-- See [[Graph Navigation MCP]] for detailed strategies on managing link quality and quantity
+- See [[Graph Navigation Best Practices]] for detailed strategies on managing link quality and quantity
 
 ## Connection Types
 Make diverse connections:

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-13
 lifecycle: draft
 confidence: emerging
 author-type: ai-assisted
@@ -15,7 +15,9 @@ tags:
 
 ## The Problem
 
-The Seed provides extensive guidance on HOW to structure notes, but offers no guidance on WHAT should enter the vault in the first place. This creates ambiguity:
+The Seed provides extensive guidance on HOW to structure notes, and has added guidance on WHAT should enter the vault. This note captures the exploration that led to those rules being incorporated.
+
+**Correction (2026-03-13):** The Seed now includes explicit vault boundary rules. This frontier exploration note is preserved for historical context but the proposed rules have been integrated into the Seed.
 
 - Should I save that random thought about tomorrow's meeting?
 - What about project files, code snippets, or raw data?

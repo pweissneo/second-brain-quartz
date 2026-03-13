@@ -170,4 +170,4 @@ Building a legal knowledge base:
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Handling Contradictory Sources]] — relevant when circuits split
 - [[Handling Temporal Knowledge]] — relevant for case law evolution
-- [[Source Validation Over Time]] — critical for legal citation checking
+- [[Handling Temporal Knowledge]] — critical for legal citation checking

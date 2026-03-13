@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - mindset
   - identity
@@ -59,7 +60,7 @@ Your second brain becomes part of who you are:
 
 ## Related
 - [[The Extended Mind]]
-- [[The First-Principle Thinker]]
+- [[The Last Skill]]
 - [[Knowledge Base Workflow]]
 - [[Self-Improvement Cycle]]
 - [[Atomic Note Principle]]

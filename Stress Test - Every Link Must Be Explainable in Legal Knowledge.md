@@ -1,5 +1,4 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
@@ -8,7 +7,6 @@ tags:
   - legal-domain
   - linking
 ---
-author-type: ai-assisted
 
 # Stress Test: Every Link Must Be Explainable in Legal Knowledge
 

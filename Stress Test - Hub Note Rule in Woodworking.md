@@ -1,5 +1,4 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-09
 lifecycle: active
 confidence: emerging
@@ -8,7 +7,6 @@ tags:
 - woodworking-domain
 - edge-case
 ---
-author-type: ai-assisted
 
 # Stress Test: Hub Note Rule in Woodworking Domain
 
@@ -148,7 +146,7 @@ In woodworking specifically:
 
 ## Related
 - [[Hub Node Creation]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Graph Traversal Efficiency]]
 - [[Atomic Note Principle]]
 - [[Knowledge Graph Structure]]

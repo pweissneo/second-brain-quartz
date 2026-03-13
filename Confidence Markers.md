@@ -136,6 +136,8 @@ Source tier matters most when:
 
 - [[AI-Assisted Knowledge Management Seed]] — Core ruleset this note extends
 - [[Handling Contradictory Sources]] — Using confidence markers when sources disagree
-- [[Source Validation Over Time]] — Keeping sources accessible
+- [[Handling Temporal Knowledge]] — Keeping sources accessible
 - [[Note Lifecycle Management]] — Note stages and progression
 - [[Stress Test - Confidence Markers Rule Across Domains]] — Stress testing confidence markers across multiple domains
+- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]]
+- [[Frontier Exploration - Self-Contradiction and Evolved Perspective]]

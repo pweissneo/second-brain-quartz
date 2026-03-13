@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
+verification: human-reviewed
 tags:
   - seed-extension
   - temporal
@@ -34,6 +35,49 @@ Notes become outdated over time:
 - Understanding evolves
 - Facts become incorrect
 - Links break
+
+---
+
+## Source Validation and Confidence
+
+*Guidance merged from Source Validation Over Time*
+
+### Source Confidence Signaling
+
+When citing sources, include source-specific confidence metadata in frontmatter or inline:
+
+- `source: live` — URL verified working within last 30 days
+- `source: archived` — Only archive.org snapshot available  
+- `source: unavailable` — Source no longer accessible (citation preserved for provenance)
+
+### Freshness Thresholds by Content Type
+
+Different content types need different review frequencies:
+
+| Content Type | Review Interval |
+|--------------|-----------------|
+| Tech/Software | Every 6 months |
+| Concepts/Theory | Every 1 year |
+| History/Facts | Every 2 years |
+
+### Red Flags for Source Quality
+
+Watch for these warning signs in your notes:
+
+| Flag | Action |
+|------|--------|
+| Old `created` date | Verify accuracy |
+| No sources | Add or mark unverified |
+| Contradiction found | Add context from multiple sources |
+| Broken links | Fix or deprecate note |
+
+### The Verification Habit
+
+1. When using a note, glance at frontmatter `last-reviewed` date
+2. If older than the freshness threshold for its type, schedule verification
+3. When verifying, check that all source URLs still work
+4. Update `last-reviewed` to current date after verification
+5. For dead sources, add archive.org fallback or mark as unavailable
 
 ---
 
@@ -311,7 +355,7 @@ This note provides comprehensive implementation guidance, covering both:
 - [[Note Types and Templates]]
 - [[Note Lifecycle Management]]
 - [[Metadata and Tagging]]
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time
@@ -319,6 +363,7 @@ This note provides comprehensive implementation guidance, covering both:
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential
+- [[Frontier Exploration - Predictive Knowledge Capture]] — Related: predictions are a specific type of temporal knowledge that cannot be verified at capture time
 
 ---
 

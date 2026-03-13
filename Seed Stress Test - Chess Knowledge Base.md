@@ -1,14 +1,13 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: emerging
+knowledge-type: analysis
 tags:
   - seed-stress-test
   - chess-domain
   - edge-case
 ---
-author-type: ai-assisted
 
 # Seed Stress Test: Chess Knowledge Base
 
@@ -24,7 +23,6 @@ Chess knowledge bases face distinct challenges:
 - Judgment-heavy content (evaluation, annotations)
 
 ---
-author-type: ai-assisted
 
 ## 1. Word Count / Atomicity Rule
 
@@ -47,7 +45,6 @@ author-type: ai-assisted
 > For reference KBs (like endgames): notes >300 are acceptable when covering one coherent theme at depth. For learning KBs (like annotated games): apply strict 100-300 limit.
 
 ---
-author-type: ai-assisted
 
 ## 2. At Least 2 Links Rule
 
@@ -68,7 +65,6 @@ author-type: ai-assisted
 Add "Algebraic Notation" equivalent to foundational primitives list.
 
 ---
-author-type: ai-assisted
 
 ## 3. Foundational Primitives in Chess
 
@@ -81,7 +77,6 @@ The Seed mentions cooking primitives (salt, oil, water). Chess equivalents:
 These should all have `foundational: true`.
 
 ---
-author-type: ai-assisted
 
 ## 4. Sequential Knowledge - Game Recording
 
@@ -109,7 +104,6 @@ analysis-tree: true   # for notes with multiple branches
 ```
 
 ---
-author-type: ai-assisted
 
 ## 5. Personal vs. Canonical Knowledge
 
@@ -130,7 +124,6 @@ author-type: ai-assisted
 3. **Historical games**: "Morphy vs Anderssen" — canonical (historical record)
 
 ---
-author-type: ai-assisted
 
 ## 6. Expertise Level Tagging
 
@@ -151,7 +144,6 @@ prerequisites: ["Piece Movement", "Checkmate Patterns"]
 ```
 
 ---
-author-type: ai-assisted
 
 ## 7. Verification Status
 
@@ -168,7 +160,6 @@ author-type: ai-assisted
 2. **Human annotations**: "Magnus says +0.5" — analysis, not verified fact
 
 ---
-author-type: ai-assisted
 
 ## 8. Time-Sensitive Knowledge
 
@@ -185,7 +176,6 @@ author-type: ai-assisted
 > For rapidly-evolving domains (chess openings, tech), include `review-frequency:` field indicating how often note needs updating.
 
 ---
-author-type: ai-assisted
 
 ## 9. External Service Dependencies
 
@@ -198,7 +188,6 @@ author-type: ai-assisted
 - **Database references**: Chessgames.com, 365chess.com
 
 ---
-author-type: ai-assisted
 
 ## 10. Multi-Modal Knowledge
 
@@ -216,7 +205,6 @@ Chess is inherently multi-modal:
 > For visual domains (chess, diagrams, maps), include `diagram-required: true` when text cannot convey the knowledge alone.
 
 ---
-author-type: ai-assisted
 
 ## Summary of Chess-Specific Metadata
 
@@ -233,7 +221,6 @@ diagram-required: true    # Visual position essential
 ```
 
 ---
-author-type: ai-assisted
 
 ## Related
 
@@ -243,3 +230,7 @@ author-type: ai-assisted
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Knowledge-Type Canonical vs Analysis]]
+- [[Seed Stress Test - Experiential Knowledge Rule in Pottery]]
+- [[Seed Stress Test - Self-Contained Notes in Photography]]
+- [[Stress Test - AI Optimization Rule in Legal Knowledge Base]]
+- [[Stress Test - Knowledge-Type Rule in Investing]]

@@ -1,14 +1,17 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+tags:
+  - seed-stress-test
+  - expertise-level
+  - language-learning
+  - foreign-language
 domain: language-learning
 test-type: stress-test
 seed-rule: Tag expertise-level for knowledge that is only appropriate at certain skill levels
 test-domain: Foreign Language Learning
 ---
-author-type: ai-assisted
 
 # Stress Test: Expertise-Level Rule in Foreign Language Learning
 
@@ -24,7 +27,6 @@ Foreign language learning has distinct expertise levels with fundamentally diffe
 The same advice can be correct for one level but harmful at another.
 
 ---
-author-type: ai-assisted
 
 ## Edge Cases Discovered
 
@@ -41,7 +43,6 @@ author-type: ai-assisted
 **Verdict**: This claim needs `expertise-level: intermediate` minimum tag. Presenting it as universal truth misleads beginners.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 2: "Use Flashcards for Vocabulary"
 
@@ -56,7 +57,6 @@ author-type: ai-assisted
 **Verdict**: This claim works for beginner-intermediate but fails at advanced. Needs scope: `expertise-level: [beginner, intermediate]`.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 3: "Speak from Day 1"
 
@@ -71,7 +71,6 @@ author-type: ai-assisted
 **Verdict**: Needs conditional scope: `expertise-level: [intermediate, advanced]` AND `constraint: has-speaking-partner`. Without partner, beginners should focus on input first.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 4: "Avoid Translation"
 
@@ -86,7 +85,6 @@ author-type: ai-assisted
 **Verdict**: Should be framed as aspirational for beginners, with translation as acceptable scaffold. Tag: `expertise-level: [intermediate, advanced]` for strict interpretation.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 5: "Watch Movies Without Subtitles"
 
@@ -101,7 +99,6 @@ author-type: ai-assisted
 **Verdict**: Needs expertise-level AND format constraints. Beginner: no value. Intermediate: L1 subtitles help. Advanced: TL subtitles or none.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 6: Grammar Rule: "Avoid Passive Voice"
 
@@ -116,7 +113,6 @@ author-type: ai-assisted
 **Verdict**: This rule is actually `expertise-level: [beginner, intermediate]` — advanced learners need the opposite advice in specific contexts.
 
 ---
-author-type: ai-assisted
 
 ### Edge Case 7: "Read Graded Readers"
 
@@ -131,7 +127,6 @@ author-type: ai-assisted
 **Verdict**: Needs upper bound: `expertise-level: [beginner, intermediate]`. Not for advanced.
 
 ---
-author-type: ai-assisted
 
 ## Cross-Level Knowledge (Does NOT Need Tagging)
 
@@ -145,7 +140,6 @@ Some language learning knowledge IS universal:
 These don't need expertise-level tags because they're universally true.
 
 ---
-author-type: ai-assisted
 
 ## Structural Implications for the Seed
 
@@ -170,7 +164,6 @@ Current test:
 - Check for "inverted" advice that becomes false at higher levels
 
 ---
-author-type: ai-assisted
 
 ## Vault Compliance Check
 
@@ -193,7 +186,6 @@ grep -r "expertise-level" *.md | wc -l
 If the vault has language learning notes without proper tagging, they need updating.
 
 ---
-author-type: ai-assisted
 
 ## Test Result
 
@@ -212,10 +204,12 @@ The rule correctly identifies that expertise-level tagging is needed. However, s
 **Recommendation**: Add edge cases to the Seed rule. The current "Edge case" section should include these three patterns specific to expertise-level tagging.
 
 ---
-author-type: ai-assisted
 
 ## Related Notes
 
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — The Frontier Exploration note this stress test validates
 - [[Note Types and Templates]] — Should include expertise-level in frontmatter template
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — AI agents need to understand expertise-level for content serving
+- [[Knowledge Graph Structure]] — Structuring knowledge
+- [[Frontier Exploration - User Situational Constraints]] — User constraint handling
+- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test

@@ -24,7 +24,7 @@ The Seed has confidence markers (high/emerging/disputed/obsolete), but these don
 - Engineering: "This design has a 0.1% failure rate"
 
 This is different from:
-- **Disputed knowledge**: We don't know what's true
+- **Disputed knowledge**: We don't know what's true (see [[Handling Contradictory Sources]] for handling conflicting studies)
 - **Emerging knowledge**: We think we know but are still gathering evidence
 - **Obsolete knowledge**: We once thought this was true but were wrong
 
@@ -35,11 +35,11 @@ Probabilistic knowledge IS true - we just need to express the probability.
 1. **No guidance on expressing probability** - How to represent "usually works" vs "always works"?
 2. **No guidance on probability distributions** - Not just point estimates but ranges and confidence intervals
 3. **No guidance on when to present options vs probabilities** - If probability is ~50%, present as options; if 80/20, present probability
-4. **No guidance on updating probabilistic knowledge** - When new data comes in, how to update?
+4. **No guidance on updating probabilistic knowledge** - When new data comes in, how to update? (See [[Handling Temporal Knowledge]] for temporal update patterns)
 
 ## Domains Where This Matters Most
 
-> These are examples - the rule applies to ANY domain with probabilistic knowledge
+> These are examples - the rule applies to ANY domain with probabilistic knowledge (see [[Domain-Specific Knowledge Bases]] for handling domain-specific variations)
 
 - **Medicine**: Treatment efficacy rates, side effect probabilities
 - **Finance**: Historical returns, risk metrics, default probabilities  

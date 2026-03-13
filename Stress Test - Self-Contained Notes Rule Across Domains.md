@@ -1,5 +1,4 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
@@ -11,7 +10,6 @@ tags:
 - legal-knowledge
 - music-composition
 ---
-author-type: ai-assisted
 
 # Stress Test: Self-Contained Notes Rule Across Domains
 
@@ -28,7 +26,6 @@ This note consolidates stress tests from multiple domains (Legal, Music Composit
 **Test:** Read the note in isolation. Does it make sense without following any links?
 
 ---
-author-type: ai-assisted
 
 ## Domain 1: Legal Knowledge
 
@@ -87,7 +84,6 @@ Apply the Seed's existing edge case:
 - **Citations**: Required for factual claims but may link for full source
 
 ---
-author-type: ai-assisted
 
 ## Domain 2: Music Composition
 
@@ -149,7 +145,6 @@ For Music Composition, refine to:
 **Additional test for experiential concepts:** For notes about sound/performance: (1) Is there an audio example or reference? (2) Is the tacit nature acknowledged? (3) Are there analogical descriptions (e.g., "like waves crashing")?
 
 ---
-author-type: ai-assisted
 
 ## Unified Refinements
 
@@ -183,7 +178,6 @@ For experiential concepts (music, cooking, physical skills):
 - Acknowledge that some knowledge cannot be fully conveyed in text
 
 ---
-author-type: ai-assisted
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]

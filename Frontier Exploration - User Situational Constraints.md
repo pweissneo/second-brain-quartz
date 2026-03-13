@@ -139,6 +139,7 @@ This extends:
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
 - [[Frontier Exploration - Emergency and Crisis Knowledge]] - Extreme case of time constraint
 - [[Frontier Exploration - Parenting Knowledge Capture]] - Extremely context-dependent
+- [[Frontier Exploration - Ingredient Substitution Knowledge]] - Substitutions as missing-ingredient constraints
 - [[Note Types and Templates]]
 - [[Metadata and Tagging]]
 - [[AI-Assisted Knowledge Management Seed]]

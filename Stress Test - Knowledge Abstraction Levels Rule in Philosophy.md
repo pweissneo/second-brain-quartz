@@ -1,5 +1,4 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 confidence: emerging
 lifecycle: active
@@ -9,7 +8,6 @@ tags:
   - domain-challenge
 domain: Philosophy
 ---
-author-type: ai-assisted
 
 # Stress Test - Knowledge Abstraction Levels Rule in Philosophy
 
@@ -24,7 +22,6 @@ author-type: ai-assisted
 **Test:** (1) Can you identify 3+ abstraction levels in your domain? (2) Are notes tagged with level metadata? (3) Can you filter notes by level? (4) Do notes link to adjacent abstraction levels?
 
 ---
-author-type: ai-assisted
 
 ## Domain Challenge: Philosophy Inverts the Hierarchy
 
@@ -44,7 +41,6 @@ In most domains (cooking, medicine, programming), higher abstraction levels repr
 This inverts the Seed's assumption that Level 4 is "advanced" and Level 1 is "foundational."
 
 ---
-author-type: ai-assisted
 
 ## Test Case 1: Can We Identify Abstraction Levels in Philosophy?
 
@@ -67,7 +63,6 @@ Does the Seed's abstraction level framework account for domains where:
 **The Seed rule FAILS for philosophy** — the abstraction hierarchy doesn't match the expertise hierarchy.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 2: Can We Apply the Level Tagging Test?
 
@@ -87,7 +82,6 @@ Should philosophy vaults invert the tagging: `level: beginner-accessible` vs `le
 **The Seed rule needs modification for philosophy** — use domain-appropriate level names that reflect accessibility rather than abstraction.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 3: Can Beginners Find Beginner Content?
 
@@ -108,7 +102,6 @@ Should philosophy vaults create explicit beginner hubs that don't use philosophe
 **The Seed rule needs domain-specific naming conventions** — level-appropriate titles matter for discoverability.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 4: Edge Cases in Philosophy
 
@@ -134,7 +127,6 @@ This creates a temporal dimension that intersects with abstraction levels.
 **Question:** Should philosophy vaults also tag with `era:` or `period:` in addition to abstraction levels?
 
 ---
-author-type: ai-assisted
 
 ## Proposed Seed Rule Refinements
 
@@ -157,7 +149,6 @@ author-type: ai-assisted
 **Test:** Can domain experts identify with the level naming? Do the levels match how practitioners categorize knowledge?
 
 ---
-author-type: ai-assisted
 
 ## Stress Test Summary
 
@@ -171,7 +162,6 @@ author-type: ai-assisted
 | Expert finds deep content | ⚠️ Works | But requires filtering out Level 4 notes |
 
 ---
-author-type: ai-assisted
 
 ## Recommendations
 
@@ -180,10 +170,12 @@ author-type: ai-assisted
 3. **Add to Seed:** `accessibility` metadata as orthogonal to `level` — not all Level 1 notes are beginner-accessible
 
 ---
-author-type: ai-assisted
 
 ## Related Notes
 
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] (another domain with complex accessibility mapping)
+- [[Domain-Specific Knowledge Bases]] — Adapting for domains
+- [[Frontier Exploration - Cross-Domain Knowledge]] — Cross-domain connections
+- [[Stress Test - Atomicity Rule in Astronomy Knowledge Base]] — Another domain stress test

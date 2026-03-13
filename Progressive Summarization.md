@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - note-taking
   - methodology

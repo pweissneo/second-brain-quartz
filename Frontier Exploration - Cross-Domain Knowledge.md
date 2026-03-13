@@ -100,5 +100,6 @@ If any answer is "no", the cross-domain structure needs work.
 ## Related Notes
 
 - [[Frontier Exploration - Jargon vs Plain Language]] — related to serving different reader types
+- [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] — deeper exploration of domain interactions
 - [[Hub Node Creation]] — structural guidance
 - [[Atomic Note Principle]] — still applies to cross-domain notes

@@ -3,6 +3,7 @@ last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
 verification-status: community-validated
+author-type: ai-assisted
 sources:
   - title: "Building a Second Brain"
     author: "Tiago Forte"
@@ -11,6 +12,10 @@ tags:
   - process
   - review
   - maintenance
+related:
+  - "[[AI-Assisted Knowledge Management Seed]]"
+  - "[[Self-Improvement Cycle]]"
+  - "[[Graph Maintenance]]"
 ---
 
 # Weekly Review Process

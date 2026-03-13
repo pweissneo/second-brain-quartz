@@ -19,14 +19,14 @@ tags:
 |------|--------|------------|
 | Direct | `[[Atomic Note Principle]]` | Atomic Note Principle |
 | With label | `[[Linking Principle|Connection Quality]]` | Connection Quality |
-| Section | &#91;&#91;Note Title#Section Name&#93;&#93; (example syntax) | Graph Navigation MCP → Available Tools |
+| Section | &#91;&#91;Note Title#Section Name&#93;&#93; (example syntax) | Graph Navigation Best Practices → MCP Tools Reference |
 
 ## Why Wikilinks Over Markdown Links
 
 1. **No IDs needed** — Link by title, not by arbitrary identifier
 2. **Auto-complete** — Tools suggest existing notes as you type
 3. **Refactoring friendly** — Rename a note, links update automatically
-4. **Readable source** — <code>[[Graph Navigation MCP]]</code> is clearer than `[Note 123](./notes/note-123.md)`
+4. **Readable source** — <code>[[Graph Navigation Best Practices]]</code> is clearer than `[Note 123](./notes/note-123.md)`
 5. **Bidirectional by default** — Most tools show backlinks automatically
 
 This aligns with the Seed rule requiring flat file structure with wikilinks — no nested folders.
@@ -73,7 +73,7 @@ Most modern knowledge management tools support wikilinks:
 - **Roam Research** — Uses double bracket syntax
 - **Quartz**, **Ara** — Static site generators parse wikilinks
 
-This vault's [[Graph Navigation MCP]] can query the link structure programmatically.
+This vault's [[Graph Navigation Best Practices]] can query the link structure programmatically.
 
 ## Best Practices Summary
 
@@ -82,6 +82,37 @@ This vault's [[Graph Navigation MCP]] can query the link structure programmatica
 3. Bidirectional is automatic — most tools show backlinks
 4. Test every link with the "why follow?" test from [[Linking Principle]]
 5. Avoid over-linking — each link should add genuine value
+
+## Handling Edge Cases
+
+### Broken Links
+
+When a linked note is deleted or renamed:
+- **Don't ignore broken links** — They indicate missing knowledge or outdated references
+- **Use deprecation pattern** — Replace with a note explaining what happened
+- **Search before creating** — Verify the note doesn't already exist under a different name
+
+### Alias Patterns
+
+Use aliases to avoid duplicate notes:
+```markdown
+# This note covers the same topic as [[Alternative Title]]
+# Use this canonical note instead
+```
+This prevents fragmentation when the same concept has multiple names.
+
+### Link Text Diversity
+
+While consistency matters, vary link text to avoid repetition:
+- First use: `[[Atomic Note Principle]]`  
+- Later mentions: `the atomicity principle`, `that note on single ideas`
+
+### Case Sensitivity
+
+Most wikilink implementations are case-insensitive but title-sensitive:
+- `[[Atomic Note]]` and `[[atomic note]]` typically resolve to the same note
+- `[[Atomic Note Principle]]` and `[[Atomic note principle]]` may be different
+- Use consistent casing matching the target note's title
 
 ## Related
 - [[Linking Principle]] — Quality criteria for meaningful connections

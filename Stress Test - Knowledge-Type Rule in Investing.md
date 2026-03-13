@@ -223,7 +223,7 @@ Applying the refined rules to an investing vault:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Confidence Markers]]
 - [[Frontier Exploration - Probabilistic Knowledge]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]

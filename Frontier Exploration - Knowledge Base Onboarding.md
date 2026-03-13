@@ -98,7 +98,7 @@ This vault contains [brief description].
 
 ## Quick Start
 1. Start at [[_root]] for an overview
-2. Explore [[Hub - Topic Area]] for specific topics
+2. Explore hub notes (like [[Hub Node Creation]]) for specific topics
 3. Use search to find specific concepts
 
 ## Key Conventions
@@ -107,7 +107,7 @@ This vault contains [brief description].
 - Confidence markers indicate reliability
 
 ## Recommended Path
-- New to the topic: Start with [[Foundational Note 1]]
+- New to the topic: Start with [[AI-Assisted Knowledge Management Seed]]
 - Looking for specific info: Use search
 - Want to explore: Follow hub links
 ```

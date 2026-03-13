@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - cognition
   - philosophy
@@ -140,5 +141,6 @@ Your second brain is the foundation. The network amplifies it.
 - [[Atomic Note Principle]]
 - [[The Forgetting Curve]]
 - [[Self-Improvement Cycle]]
-- [[The First-Principle Thinker]]
+- [[The Last Skill]]
 - [[Weekly Review Process]]
+- [[The Knowledge Creator]]

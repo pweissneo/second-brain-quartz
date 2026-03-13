@@ -106,7 +106,7 @@ When atomic notes exceed X density, emergence becomes predictable...
 
 ## Related
 
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Confidence Markers]]
 - [[Handling Contradictory Sources]]
 - [[AI-Assisted Knowledge Management Seed]] — see "Cite sources" rule
