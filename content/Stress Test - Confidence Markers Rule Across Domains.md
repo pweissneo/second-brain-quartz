@@ -2,6 +2,8 @@
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
+knowledge-type: analysis
 tags:
 - seed-stress-test
 - confidence-markers
@@ -248,6 +250,6 @@ For domain-sensitive knowledge, confidence without scope is misleading:
 - [[Confidence Markers]] — The rule being stress tested
 - [[Handling Temporal Knowledge]] — Temporal aspects affecting confidence
 - [[Domain-Specific Knowledge Bases]] — Domain-specific adaptations
-- [[Source Validation Over Time]] — Keeping sources accurate over time
+- [[Handling Temporal Knowledge]] — Keeping sources accurate over time
 - [[Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Related domain testing
 - [[Stress Test - Atomicity Rule Across Domains]] — Related stress test across multiple domains

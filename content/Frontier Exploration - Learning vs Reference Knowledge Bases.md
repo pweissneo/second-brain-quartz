@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
@@ -9,7 +10,7 @@ tags:
   - historical
 ---
 
-# Frontier Exploration: Learning vs Reference Knowledge Bases
+# Frontier Exploration - Learning vs Reference Knowledge Bases
 
 > **Status:** This exploration contributed to the Seed rule in Section 1: "Distinguish knowledge base purpose — learning vs reference"
 > See: [[AI-Assisted Knowledge Management Seed]] for the current rule.

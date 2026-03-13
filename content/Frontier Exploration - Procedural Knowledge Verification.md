@@ -60,7 +60,7 @@ Rather than requiring verification (which may be impossible for AI agents), tag 
 
 ## Related
 - [[Source Validation Over Time]]
-- [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing (includes link requirements for recipes)
+- [[Stress Test - Minimum Link Rule in Cooking]]
 - [[Confidence Markers]]
 - [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — For branching procedures with multiple outcomes
 - [[Handling Temporal Knowledge]]

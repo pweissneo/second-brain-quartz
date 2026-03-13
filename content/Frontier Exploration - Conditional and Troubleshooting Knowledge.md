@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - conditional-knowledge
@@ -9,7 +10,7 @@ tags:
   - decision-tree
 ---
 
-# Frontier Exploration: Conditional and Troubleshooting Knowledge
+# Frontier Exploration - Conditional and Troubleshooting Knowledge
 
 > How should a knowledge base handle if-then branches, decision trees, and troubleshooting guidance?
 
@@ -168,6 +169,8 @@ Every troubleshooting note should define:
 **Test:** Pick a troubleshooting note. (1) Does it have 3+ branches? → Hub + spoke. (2) Can you distinguish primary attempts from fallback attempts? → Typed relationships. (3) Is exit criteria defined? → Clear success conditions.
 
 ## Related
-- [[Frontier Exploration - Temporal and Sequential Knowledge]]
+- [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Atomic Note Principle]]
+- [[Note Types and Templates]]
 - [[AI-Assisted Knowledge Management Seed]]

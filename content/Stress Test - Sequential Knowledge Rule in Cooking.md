@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: active
-confidence: high
+last-reviewed: 2026-03-10
+lifecycle: draft
+confidence: emerging
 tags:
   - seed-stress-test
   - cooking-domain

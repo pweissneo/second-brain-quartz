@@ -7,6 +7,7 @@ tags:
   - synthesis
   - contradiction
   - sources
+author-type: ai
 ---
 
 # Handling Contradictory Sources
@@ -87,6 +88,8 @@ Consider adding frontmatter to notes:
 - `confidence: obsolete` — superseded by newer understanding
 
 This helps readers understand the reliability of each piece of knowledge without reading the full source chain.
+
+See [[Confidence Markers]] for the full confidence marker specification.
 
 ## Parallel Valid Alternatives
 
@@ -233,5 +236,5 @@ Defer to sources when:
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
 - [[Knowledge Base Workflow]] — How new knowledge enters the vault
 - [[Self-Improvement Cycle]] — Continuous improvement process
-- [[Source Validation Over Time]] — Source verification and reliability
+- [[Handling Temporal Knowledge]] — Source verification and reliability
 - [[Confidence Markers]] — Signaling reliability

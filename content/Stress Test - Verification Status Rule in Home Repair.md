@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
@@ -137,6 +138,7 @@ For a comprehensive home repair/DIY knowledge base, procedural notes should incl
 
 ```yaml
 ---
+author-type: ai-assisted
 verification-status: unverified | tested | community-validated | community-accepted
 risk-level: low | medium | high
 skill-level: beginner | intermediate | advanced
@@ -144,6 +146,7 @@ jurisdiction: [list of applicable codes]
 materials-tested: [list of specific products used]
 last-verified: YYYY-MM-DD
 ---
+author-type: ai-assisted
 ```
 
 ## The Core Insight

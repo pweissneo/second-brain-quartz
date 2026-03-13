@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - framework-dependent
@@ -11,7 +12,7 @@ applies-to: [all-frameworks]
 example-type: illustrative
 ---
 
-# Frontier Exploration: Framework and Context-Dependent Knowledge
+# Frontier Exploration - Framework and Context-Dependent Knowledge
 
 > How to handle knowledge that is true in one framework, style, or context but false or meaningless in another — including competing frameworks that are epistemologically equivalent but mutually incompatible
 

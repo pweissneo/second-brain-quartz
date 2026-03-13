@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-13
 tags:
   - forward-reference
   - planned
@@ -8,6 +8,7 @@ tags:
 confidence: emerging
 lifecycle: evergreen
 level: principle
+author-type: ai
 ---
 
 # Forward References and Planned Knowledge
@@ -16,30 +17,20 @@ When building a knowledge base, you often need to reference concepts that don't 
 
 ## The Problem
 
-You write a note that would naturally link to a concept you're planning to create:
+You write a note referencing a concept you haven't created yet:
 
 ```
 This approach requires understanding "Advanced Regex Patterns"
 but we'll cover that in a future note.
 ```
 
-Options:
-1. Create a stub note immediately
-2. Use a placeholder with explicit TODO markup
-3. Write the content without the link, noting what was omitted
-4. Create the link anyway (becomes a broken link)
+Options: create a stub, use TODO markup, omit the link, or accept a broken link.
 
-## Why It Matters
-
-Forward references are different from broken links:
-- Broken links = mistakes, forgotten connections
-- Forward references = intentional design, known future work
-
-Treating them the same loses planning information.
+Forward references differ from broken links: they're intentional design (known future work), not mistakes. Treating them the same loses planning information.
 
 ## Rule
 
-**Use stub notes with explicit `status: planned` for known future topics.** Don't leave dangling wikilinks that appear broken.
+**Use stub notes with explicit `status: planned` for known future topics.** This extends the Seed's stub note convention (`status: stub` or `todo: true`) to handle planned future notes specifically. Don't leave dangling wikilinks that appear broken.
 
 This aligns with Seed rule for stub notes: notes under 50 words must be marked with `status: stub` or `todo: true` to signal intentional incompleteness.
 
@@ -59,19 +50,11 @@ This aligns with Seed rule for stub notes: notes under 50 words must be marked w
 ---
 status: planned
 planned-for: Q2 2026
-summary: Pattern matching techniques beyond basic regex
-depends-on: [Atomic Note Principle, Linking Principle]
 ---
 
 # Advanced Regex Patterns
 
-> This note is planned. stub: planned
-
-## Planned Content
-
-- Advanced regex patterns
-- Semantic vs syntactic matching
-- Cross-domain applications
+> Planned: Pattern matching techniques beyond basic regex
 ```
 
 ## Testing

@@ -6,6 +6,8 @@ tags:
   - mcp
   - sources
   - tooling
+author-type: human
+source-url: https://github.com/pascalweiss/vault-sources-mcp
 ---
 
 # Sources Provenance MCP

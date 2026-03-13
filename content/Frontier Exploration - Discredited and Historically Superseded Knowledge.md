@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
 - frontier-exploration
 - temporal-knowledge
@@ -9,7 +10,7 @@ tags:
 - confidence
 ---
 
-# Frontier Exploration: Handling Discredited and Historically Superseded Knowledge
+# Frontier Exploration - Handling Discredited and Historically Superseded Knowledge
 
 ## The Gap
 
@@ -150,6 +151,6 @@ Given a note about an old scientific theory:
 
 - [[Note Lifecycle Management]]
 - [[Confidence Markers]]
-- [[Frontier Exploration - Temporal and Sequential Knowledge]]
+- [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Tacit Knowledge Capture]]
 - [[Handling Contradictory Sources]]

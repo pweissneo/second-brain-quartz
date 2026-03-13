@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - interpretive-knowledge
@@ -9,7 +10,7 @@ tags:
   - subjectivity
 ---
 
-# Frontier Exploration: Interpretive Knowledge
+# Frontier Exploration - Interpretive Knowledge
 
 > When knowledge requires judgment, taste, or personal perspective — and there's no single right answer.
 

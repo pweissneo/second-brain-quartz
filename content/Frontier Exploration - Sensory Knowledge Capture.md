@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - sensory
@@ -12,7 +13,7 @@ related-notes:
   - "[[Frontier Exploration - Multi-Modal Knowledge]]"
 ---
 
-# Frontier Exploration: Sensory Knowledge Capture
+# Frontier Exploration - Sensory Knowledge Capture
 
 > How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base?
 

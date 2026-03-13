@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - domain-agnostic
@@ -9,7 +10,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: Climate-Zone-Dependent Knowledge
+# Frontier Exploration - Climate-Zone-Dependent Knowledge
 
 ## The Gap
 

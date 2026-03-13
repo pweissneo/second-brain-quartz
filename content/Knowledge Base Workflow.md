@@ -4,6 +4,8 @@ last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
 verification-status: community-validated
+tags: [workflow, process, methodology, ai-assisted]
+author-type: human
 ---
 # Knowledge Base Workflow
 

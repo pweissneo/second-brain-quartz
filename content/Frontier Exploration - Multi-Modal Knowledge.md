@@ -1,14 +1,15 @@
 ---
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - multi-modal
   - knowledge-types
 ---
 
-# Frontier Exploration: Multi-Modal Knowledge
+# Frontier Exploration - Multi-Modal Knowledge
 
 > How do we handle knowledge that exists beyond text?
 
@@ -45,6 +46,14 @@ An AI building a knowledge base on these topics using only text-based rules will
 
 **Test:** Does every media reference include a text summary that captures the key knowledge?
 
+**Example:**
+```yaml
+media:
+  - type: audio
+    url: https://example.com/chord-progression.mp3
+    summary: "Demonstrates ii-V-I progression in C major, 4 bars each"
+```
+
 ### Rule: Use domain-appropriate media formats
 
 **Why:** Some formats are domain-standard (MIDI for music, SVG) and for diagrams are more searchable/portable than proprietary formats.
@@ -64,5 +73,5 @@ An AI building a music theory vault using only current Seed rules would:
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Knowledge Base Workflow]] - How new knowledge enters the vault
-- [[Source Validation Over Time]] - Media links rot too
+- [[Handling Temporal Knowledge]] - Media links rot too
 - [[Frontier Exploration - Jargon vs Plain Language]]

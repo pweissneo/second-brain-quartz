@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-09
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - examples
   - knowledge-processing
 ---
 
-# Frontier Exploration: Illustrative vs. Factual Examples
+# Frontier Exploration - Illustrative vs. Factual Examples
 
 > How should a knowledge base distinguish between examples that illustrate a concept versus examples that demonstrate real-world application?
 
@@ -125,7 +126,7 @@ With this distinction:
 
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
 - [[Handling Contradictory Sources]] — Related to source quality
-- [[Source Validation Over Time]] — Temporal data handling
+- [[Handling Temporal Knowledge]] — Temporal data handling
 - [[Confidence Markers]] — Signaling reliability
 - [[Knowledge Base Workflow]] — How new knowledge enters
 - [[Stress Test - Confidence Markers Rule Across Domains]] — Cross-domain stress test

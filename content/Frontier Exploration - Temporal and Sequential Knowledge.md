@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - temporal-knowledge
@@ -9,7 +10,7 @@ tags:
   - knowledge-types
 ---
 
-# Frontier Exploration: Temporal and Sequential Knowledge
+# Frontier Exploration - Temporal and Sequential Knowledge
 
 > How do we handle knowledge where the sequence itself is the core knowledge?
 

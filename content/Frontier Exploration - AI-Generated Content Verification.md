@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-generated-content
@@ -9,7 +10,7 @@ tags:
   - quality-control
 ---
 
-# Frontier Exploration: AI-Generated Content Verification
+# Frontier Exploration - AI-Generated Content Verification
 
 ## The Gap
 
@@ -140,7 +141,7 @@ Given a note that may be AI-generated:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — Core Seed rules
-- [[Source Validation Over Time]] — Source verification methods
+- [[Handling Temporal Knowledge]] — Source verification methods
 - [[Confidence Markers]] — Confidence level guidance
 - [[AI-Assisted Knowledge Management Seed]] — Procedural content verification rules (verification-status field)
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — AI-native knowledge structures

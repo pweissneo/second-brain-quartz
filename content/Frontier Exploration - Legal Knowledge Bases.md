@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - legal-knowledge
@@ -9,7 +10,7 @@ tags:
   - confidentiality
 ---
 
-# Frontier Exploration: Legal Knowledge Bases
+# Frontier Exploration - Legal Knowledge Bases
 
 ## The Gap
 
@@ -168,5 +169,5 @@ Building a legal knowledge base:
 - [[Stress Test - Every Link Must Be Explainable in Legal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Handling Contradictory Sources]] — relevant when circuits split
-- [[Frontier Exploration - Temporal and Sequential Knowledge]] — relevant for case law evolution
-- [[Source Validation Over Time]] — critical for legal citation checking
+- [[Handling Temporal Knowledge]] — relevant for case law evolution
+- [[Handling Temporal Knowledge]] — critical for legal citation checking

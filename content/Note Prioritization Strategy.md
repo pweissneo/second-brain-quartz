@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-08
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-extension
   - frontier
@@ -69,6 +70,7 @@ This note extends the Seed rule:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
+- [[Frontier Exploration - Knowledge Domain Completeness]] — When is a domain "complete enough"?
 - [[Atomic Note Principle]] — What makes a good note
 - [[Hub Node Creation]] — Identifying high-connectivity nodes
 - [[Note Insertion Strategy]] — Where new notes go

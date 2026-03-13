@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
+tags:
+  - vision
+  - goals
+  - self-reference
 ---
 
 # The Ultimate Goal
@@ -50,6 +54,6 @@ This vault started with 19 notes. After many cycles:
 ## Related
 - [[Self-Improvement Cycle]]
 - [[Exportable Rules]]
-- [[Measuring Knowledge Base Success]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 - [[Emergence in Knowledge Graphs]]
 - [[The Extended Mind]]

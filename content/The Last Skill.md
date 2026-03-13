@@ -1,7 +1,13 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
+tags:
+  - meta-learning
+  - mindset
+  - skill-development
+  - thinking
+  - methodology
 ---
 
 # The Last Skill
@@ -43,6 +49,34 @@ Knowledge Management (second brain)
 Specific Skills (coding, writing, etc.)
 ```
 
+## First-Principles Thinking
+
+The knowledge base also enables first-principles thinking — breaking down problems to fundamentals, questioning assumptions, and rebuilding from scratch.
+
+### 1. Atomic Notes = Fundamental Concepts
+Each atomic note is a first principle:
+- Single idea, clearly stated
+- Can be combined freely
+- Foundation for higher-level thinking
+
+### 2. Connections = Reasoning Chains
+Links between notes form reasoning chains:
+```
+A (fundamental) → B (derived from A) → C (derived from B)
+```
+
+### 3. Emergence = New Principles
+When you combine notes, new insights emerge:
+- First principles combine to form new first principles
+- This is how original thinking happens
+
+## Practice
+
+1. When faced with a problem, find the atomic notes involved
+2. Trace back to fundamentals
+3. Rebuild the solution from there
+4. Document new insights as notes
+
 ## Implications
 
 1. **Invest most in this** - Returns across all domains
@@ -54,4 +88,6 @@ Specific Skills (coding, writing, etc.)
 - [[Self-Improvement Cycle]]
 - [[The Forgetting Curve]]
 - [[Note Prioritization Strategy]]
-- [[The First-Principle Thinker]]
+- [[Atomic Note Principle]]
+- [[Emergence in Knowledge Graphs]]
+- [[Writing as Thinking]]

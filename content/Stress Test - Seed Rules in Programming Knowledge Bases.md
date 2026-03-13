@@ -1,10 +1,12 @@
 ---
-last-reviewed: 2026-03-11
+author-type: ai-assisted
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
 domain: software-development
 tags: [stress-test, programming, software]
 ---
+author-type: ai-assisted
 
 # Stress Test - Seed Rules in Programming Knowledge Bases
 
@@ -110,6 +112,12 @@ Programming knowledge bases have unique traits:
 **Verdict:** Rule is VALUABLE for programming. Forces meaningful connections.
 
 ## Recommendations for Seed
+
+**Update (2026-03-12):** Several recommendations from this stress test have been incorporated into the Seed:
+
+1. **Version-Everything** → Incorporated as: "For knowledge that applies only to specific software versions... include explicit version scope"
+2. **Unknown Unknowns Discovery** → Incorporated as: "For vast knowledge domains... actively discover unknown unknowns"
+3. **Package Dependency Tracking** → Incorporated as: "For software-based domains... track software dependencies separately from physical equipment"
 
 See also: [[Frontier Exploration - API and External Service Dependencies]] for handling version-specific knowledge, and [[Frontier Exploration - Equipment and Tool Dependencies]] for documenting tool requirements.
 

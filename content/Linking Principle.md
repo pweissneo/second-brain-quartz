@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: ai
 ---
 
 # Linking Principle
@@ -103,4 +104,5 @@ AI can automatically evaluate link quality:
 - [[Atomic Note Principle]]
 - [[Note Insertion Strategy]]
 - [[Graph Traversal Efficiency]]
+- [[Stress Test - 2+ Links Rule in Nursing Knowledge Base]] — Testing linking in clinical domains
 - [[Emergence in Knowledge Graphs]]

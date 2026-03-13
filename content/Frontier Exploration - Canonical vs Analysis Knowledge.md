@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - domain-agnostic
@@ -9,7 +10,7 @@ tags:
   - knowledge-types
 ---
 
-# Frontier Exploration: Canonical vs Analysis Knowledge
+# Frontier Exploration - Canonical vs Analysis Knowledge
 
 ## The Gap
 
@@ -108,6 +109,6 @@ Given a note in a domain with canonical/analysis knowledge:
 
 ## Related Notes
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Handling Contradictory Sources]]
 - [[Confidence Markers]]

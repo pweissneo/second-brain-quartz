@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 last-reviewed: 2026-03-10
 lifecycle: active
 confidence: emerging
@@ -8,6 +9,7 @@ tags:
 - source-quality
 - evidence-hierarchy
 ---
+author-type: ai-assisted
 
 # Stress Test: Source Quality Hierarchy in Medical Knowledge
 
@@ -146,7 +148,8 @@ The rule is sound but needs refinement:
 
 ## Related
 - [[Confidence Markers]]
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Contradictory Sources]]
+- [[Seed Stress Test - Experiential Knowledge in Clinical Practice]]

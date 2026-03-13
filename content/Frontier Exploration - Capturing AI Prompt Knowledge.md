@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-interaction
@@ -10,7 +11,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: Capturing AI Prompt Knowledge
+# Frontier Exploration - Capturing AI Prompt Knowledge
 
 > How should a knowledge base structure knowledge about interacting with AI systems through prompts?
 

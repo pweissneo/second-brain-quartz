@@ -7,6 +7,7 @@ tags:
   - prerequisites
   - dependencies
   - learning-paths
+author-type: ai
 ---
 
 # Prerequisite Knowledge Tracking
@@ -115,9 +116,7 @@ prerequisites:
 
 ## Relationship to Other Rules
 
-These strategies implement the Seed's prerequisite and gateway rules:
-- **Prerequisites rule** (Seed line 142): For `difficulty: advanced` notes, include `prerequisites` frontmatter
-- **Gateway rule** (Seed line 146): Mark notes unlocking 5+ topics with `gateway: true`
+These strategies implement the Seed's prerequisite and gateway rules from the Foundation section.
 
 See also:
 - [[Knowledge Base Workflow]] — Processing incoming knowledge
@@ -127,4 +126,4 @@ See also:
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Stress Test - Prerequisites Rule in Mathematics]]
+- [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated from multiple domain tests

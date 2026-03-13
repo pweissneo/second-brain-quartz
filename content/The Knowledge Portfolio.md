@@ -2,6 +2,10 @@
 last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+tags:
+  - methodology
+  - strategy
+  - portfolio
 sources:
   - title: "Building a Second Brain"
     author: "Tiago Forte"

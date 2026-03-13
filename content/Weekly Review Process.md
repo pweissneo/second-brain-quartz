@@ -101,5 +101,5 @@ review-count: 42
 ## Related
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
-- [[Measuring Knowledge Base Success]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 - [[The Forgetting Curve]]

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-08
 lifecycle: active
 confidence: high
+author-type: ai-assisted
 tags:
   - linking
   - syntax

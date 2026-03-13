@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
 - frontier-exploration
 - verification
@@ -9,7 +10,7 @@ tags:
 - professional-knowledge
 ---
 
-# Frontier Exploration: Professional Credentialing Requirements for Knowledge Verification
+# Frontier Exploration - Professional Credentialing Requirements for Knowledge Verification
 
 ## The Gap
 
@@ -58,3 +59,4 @@ The Seed doesn't distinguish between:
 - [[Confidence Markers]]
 - [[Stress Test - 3-Hops Rule in Genealogy]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
+- [[Frontier Exploration - Professional Advice Disclaimer Requirements]] - When advice requires disclaimers

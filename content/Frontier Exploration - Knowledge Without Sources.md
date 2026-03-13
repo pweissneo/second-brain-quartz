@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
@@ -89,6 +90,7 @@ When processing a note without sources:
 source-type: original
 originality: synthesis
 confidence: emerging
+author-type: ai-assisted
 ---
 
 # My Theory on Knowledge Emergence
@@ -104,7 +106,7 @@ When atomic notes exceed X density, emergence becomes predictable...
 
 ## Related
 
-- [[Source Validation Over Time]]
+- [[Handling Temporal Knowledge]]
 - [[Confidence Markers]]
 - [[Handling Contradictory Sources]]
 - [[AI-Assisted Knowledge Management Seed]] — see "Cite sources" rule

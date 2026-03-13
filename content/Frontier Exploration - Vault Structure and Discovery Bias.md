@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - graph-theory
@@ -9,7 +10,7 @@ tags:
   - emergent-behavior
 ---
 
-# Frontier Exploration: Vault Structure and Discovery Bias
+# Frontier Exploration - Vault Structure and Discovery Bias
 
 ## The Gap
 

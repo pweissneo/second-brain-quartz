@@ -140,5 +140,6 @@ Your second brain is the foundation. The network amplifies it.
 - [[Atomic Note Principle]]
 - [[The Forgetting Curve]]
 - [[Self-Improvement Cycle]]
-- [[The First-Principle Thinker]]
+- [[The Last Skill]]
 - [[Weekly Review Process]]
+- [[The Knowledge Creator]]

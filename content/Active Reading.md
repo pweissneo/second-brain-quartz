@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-10
 lifecycle: evergreen
 confidence: high
+author-type: ai
 tags:
   - methodology
   - capture

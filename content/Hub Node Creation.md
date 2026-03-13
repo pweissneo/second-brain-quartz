@@ -7,6 +7,7 @@ tags:
   - navigation
   - hub
   - structure
+author-type: ai-assisted
 ---
 
 # Hub Node Creation
@@ -67,4 +68,5 @@ Entry point for PKM methodologies.
 - [[Linking Principle]]
 - [[Knowledge Graph Structure]]
 - [[Frontier Exploration - Cross-Domain Knowledge]]
+- [[Advanced Pattern Matching]]
 - [[AI-Assisted Knowledge Management Seed]] — Foundation rules for hub creation and graph navigation

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - creative-knowledge
@@ -9,7 +10,7 @@ tags:
   - atomicity
 ---
 
-# Frontier Exploration: Single-Work Knowledge vs. General Principles
+# Frontier Exploration - Single-Work Knowledge vs. General Principles
 
 > How to handle knowledge about individual creative works (compositions, books, paintings) as atomic units versus extracting general principles
 

@@ -6,6 +6,8 @@ tags:
   - templates
   - methodology
   - structure
+author-type: ai-assisted
+level: pattern
 ---
 
 # Note Types and Templates
@@ -170,3 +172,4 @@ date: {{YYYY-MM-DD}}
 - [[Writing as Thinking]]
 - [[Note Lifecycle Management]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
+

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - context-dependency
@@ -136,6 +137,8 @@ This extends:
 ## Related
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
+- [[Frontier Exploration - Emergency and Crisis Knowledge]] - Extreme case of time constraint
+- [[Frontier Exploration - Parenting Knowledge Capture]] - Extremely context-dependent
 - [[Note Types and Templates]]
 - [[Metadata and Tagging]]
 - [[AI-Assisted Knowledge Management Seed]]

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-10
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-optimization
@@ -10,7 +11,7 @@ tags:
 level: pattern
 ---
 
-# Frontier Exploration: AI-Optimized Knowledge Bases
+# Frontier Exploration - AI-Optimized Knowledge Bases
 
 > How should knowledge bases be structured when the primary consumer is an AI agent rather than a human?
 

@@ -54,3 +54,4 @@ Every 15 minutes:
 - [[Graph Navigation MCP]]
 - [[Self-Improvement Cycle]]
 - [[Weekly Review Process]]
+- [[Advanced Pattern Matching]]

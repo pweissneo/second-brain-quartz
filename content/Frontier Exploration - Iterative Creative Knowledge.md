@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: evergreen
 confidence: emerging
+lifecycle: active
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-process
@@ -80,7 +81,7 @@ The Seed's sequential knowledge rules work for "follow these steps in order" but
 
 ## Related Notes
 
-- [[Frontier Exploration - Temporal and Sequential Knowledge]] — Covers linear sequences
+- [[Handling Temporal Knowledge]] — Covers linear sequences
 - [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — Covers branching but in diagnostic context
 - [[Frontier Exploration - Tacit Knowledge Capture]] — Related to aesthetic judgment which is often tacit
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Evaluation often involves sensory assessment

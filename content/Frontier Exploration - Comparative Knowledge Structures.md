@@ -2,13 +2,14 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - comparative-knowledge
   - structure
 ---
 
-# Frontier Exploration: Comparative Knowledge Structures
+# Frontier Exploration - Comparative Knowledge Structures
 
 > How should a knowledge base structure notes that compare approaches, tools, or methods?
 

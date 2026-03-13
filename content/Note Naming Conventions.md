@@ -1,7 +1,8 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
+author-type: human
 tags:
   - convention
   - naming

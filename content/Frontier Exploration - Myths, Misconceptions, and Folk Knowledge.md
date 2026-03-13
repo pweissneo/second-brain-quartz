@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - myths
@@ -10,7 +11,7 @@ tags:
   - negative-knowledge
 ---
 
-# Frontier Exploration: Handling Myths, Misconceptions, and Folk Knowledge
+# Frontier Exploration - Handling Myths, Misconceptions, and Folk Knowledge
 
 ## The Gap
 

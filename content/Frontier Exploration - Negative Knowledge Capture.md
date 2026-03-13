@@ -83,6 +83,6 @@ Guideline: For every dedicated negative knowledge note, there should be a corres
 ## Related
 - [[Anti-Patterns in Knowledge Management]] — Anti-patterns for vault structure (not domain content)
 - [[Note Lifecycle Management]] — Deprecation and supersession
-- [[Stress Test - Note Lifecycle Rule Across Domains]] — Example of lifecycle in practice
+- [[Stress Test - Note Lifecycle Rule in Software Development]] — Example of lifecycle in practice
 - [[Confidence Markers]] — Related: signaling reliability
 - [[Frontier Exploration - Procedural Knowledge Verification]] — Related: verifying that positive procedures work

@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: emerging
@@ -7,6 +8,7 @@ tags:
   - cooking-domain
   - edge-case
 ---
+author-type: ai-assisted
 
 # Seed Stress Test: Cooking Knowledge Base
 
@@ -23,6 +25,7 @@ Cooking knowledge bases face unique challenges:
 - Regional terminology variations are all "correct"
 
 ---
+author-type: ai-assisted
 
 ## 1. Word Count Rule
 
@@ -41,6 +44,7 @@ Cooking knowledge bases face unique challenges:
 **Related:** [[Atomic Note Principle]], [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
 
 ---
+author-type: ai-assisted
 
 ## 2. "At Least 2 Links" Rule
 
@@ -60,6 +64,7 @@ Recipes naturally connect to ingredients, techniques, equipment, flavor profiles
 Use explicit metadata: `foundational: true` tag makes test fully executable.
 
 ---
+author-type: ai-assisted
 
 ## 3. No Zero Backlinks Rule
 
@@ -79,6 +84,7 @@ Use explicit metadata: `foundational: true` tag makes test fully executable.
 > Every note must be reachable from `_root.md` in ≤3 hops AND should have ≥1 backlink UNLESS: (a) universal/primitive element, (b) navigation hub, (c) foundational reference.
 
 ---
+author-type: ai-assisted
 
 ## 4. Operational vs Synthesized Knowledge
 
@@ -105,6 +111,7 @@ Use explicit metadata: `foundational: true` tag makes test fully executable.
 - Transferable techniques = synthesized
 
 ---
+author-type: ai-assisted
 
 ## 5. Sequential Knowledge Rule
 
@@ -135,6 +142,7 @@ sensory-cues: "Cook until edges pull away from pan"
 ```
 
 ---
+author-type: ai-assisted
 
 ## 6. Terminology Consistency Rule
 
@@ -165,6 +173,7 @@ sensory-cues: "Cook until edges pull away from pan"
 > Terminology consistent UNLESS: (a) distinct terms represent different techniques, (b) regional variations both valid, (c) common + technical serve different audiences.
 
 ---
+author-type: ai-assisted
 
 ## Summary of Edge Cases
 
@@ -178,6 +187,7 @@ sensory-cues: "Cook until edges pull away from pan"
 | Terminology | Regional variants | Allow both with context |
 
 ---
+author-type: ai-assisted
 
 ## Related
 
@@ -187,6 +197,6 @@ sensory-cues: "Cook until edges pull away from pan"
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
 - [[Stress Test - Atomicity Rule Across Domains]]
-- [[Stress Test - Prerequisites Rule in Mathematics]]
-- [[Frontier Exploration - Temporal and Sequential Knowledge]]
+- [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test
+- [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Jargon vs Plain Language]]

@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
 author-type: ai
@@ -74,7 +74,7 @@ The complete set of rules for maintaining this knowledge base:
 - **[[The Last Skill]]** — The meta-skill of learning
 - **[[Stress Test - Atomicity Rule Across Domains]]** — Testing atomicity across cooking, gardening, programming
 - **[[Stress Test - Note Lifecycle Rule Across Domains]]** — Testing lifecycle rules across personal finance and software
-- **[[Stress Test - Prerequisites Rule in Mathematics]]** — Testing prerequisites in math education
+- **[[Stress Test - Prerequisites Rule in Framework Learning]]** — Testing prerequisites across domains (consolidated from math + framework)
 - **[[Stress Test - Probabilistic Knowledge Rule Across Domains]]** — Testing confidence markers across fields
 - **[[Stress Test - Knowledge-Type Rule in Investing]]** — Testing knowledge-type tagging in finance domain
 - **[[Stress Test - Self-Contained Notes Rule Across Domains]]** — Testing self-containment across domains (law, music, etc.)
@@ -104,6 +104,12 @@ Advanced topics exploring the boundaries of AI-assisted knowledge management:
 - **[[Prerequisite Knowledge Tracking]]** — Learning path construction
 - **[[Advanced Pattern Matching]]** — Graph pattern detection for vault health
 - **[[CLAUDE]]** — AI agent instructions for vault maintenance
+- **[[Frontier Exploration - Emergency and Crisis Knowledge]]** — Safety-critical emergency content
+- **[[Frontier Exploration - Knowledge Base Onboarding]]** — Onboarding guidance for human and AI users
+- **[[Frontier Exploration - Knowledge Domain Completeness]]** — When is a knowledge domain "complete"?
+- **[[Frontier Exploration - Knowledge Originality Assessment]]** — Distinguishing original insights from restatable facts
+- **[[Frontier Exploration - Parenting Knowledge Capture]]** — Capturing experiential parenting knowledge
+- **[[Frontier Exploration - Real-Time and Sensor-Based Knowledge]]** — Continuous data streams vs static knowledge
 
 ---
 

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - simulation
@@ -9,7 +10,7 @@ tags:
   - knowledge-types
 ---
 
-# Frontier Exploration: Simulation-Based Knowledge
+# Frontier Exploration - Simulation-Based Knowledge
 
 > How do we capture knowledge that exists primarily through computational models rather than text?
 
@@ -128,7 +129,7 @@ An AI building an epidemiology vault using only current Seed rules would:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
-- [[Frontier Exploration - Temporal and Sequential Knowledge]] — Time-dependent knowledge
+- [[Handling Temporal Knowledge]] — Time-dependent knowledge
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Non-text media
 - [[Frontier Exploration - Tacit Knowledge Capture]] — Knowledge that resists articulation
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Time-sensitive knowledge

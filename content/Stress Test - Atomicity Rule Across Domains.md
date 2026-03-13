@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-refinement
   - domain-specific
@@ -210,4 +211,4 @@ Given any note:
 - [[AI-Assisted Knowledge Management Seed]] — Core atomicity rules
 - [[Domain-Specific Knowledge Bases]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
-- [[Stress Test - Prerequisites Rule in Mathematics]]
+- [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test

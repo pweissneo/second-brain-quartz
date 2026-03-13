@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - anti-pattern
   - quality
@@ -207,4 +208,5 @@ This is the inverse of [[Note Insertion Strategy]] — knowing what NOT to captu
 - [[Handling Contradictory Sources]]
 - [[Note Lifecycle Management]]
 - [[Note Insertion Strategy]]
+- [[Frontier Exploration - Personal Experimentation Results]] — capturing personal experimentation failures
 - [[AI-Assisted Knowledge Management Seed]]

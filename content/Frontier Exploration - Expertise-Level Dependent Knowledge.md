@@ -1,14 +1,15 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - structure
   - expertise-level
 ---
 
-# Frontier Exploration: Skill-Level Dependent Knowledge
+# Frontier Exploration - Skill-Level Dependent Knowledge
 
 > How should a knowledge base handle knowledge that is true/valid at one expertise level but false at another?
 
@@ -123,5 +124,6 @@ problems with recursive structure.
 
 - [[Atomic Note Principle]] — atomicity still applies, consider splitting if level-specific notes get too long
 - [[Frontier Exploration - Framework-Dependent Knowledge]] — related: context-dependent validity
+- [[Frontier Exploration - Interpretive Knowledge]] — related: perspective-dependent knowledge
 - [[Hub Node Creation]] — level-specific variants can be linked via hub
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Stress test validating this rule
