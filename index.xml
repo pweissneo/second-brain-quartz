@@ -6,6 +6,24 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Knowledge Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Applicability-Boundaries</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Applicability Boundaries Capturing when knowledge doesn’t apply — the inverse of scope tags The Problem The Seed covers: Scope tags (jurisdiction:, hardiness-zone:, expertise-level:) — when knowledge APPLIES Trade-off knowledge — choosing between options Contradictor... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 06:15:40 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Musical Arrangement Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Musical-Arrangement-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Musical-Arrangement-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Musical Arrangement Knowledge The Gap The Seed distinguishes: Linear-sequential knowledge: fixed order (history, recipes) Iterative-evaluative knowledge: decision loops where next steps depend on evaluating current state (design, writing) But there’s a third category the Seed d... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 06:15:40 GMT</pubDate>
+  </item><item>
+    <title>Handling Temporal Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Handling-Temporal-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Handling-Temporal-Knowledge</guid>
+    <description><![CDATA[ Handling Temporal and Outdated Knowledge Knowledge that changes over time requires different treatment than static knowledge. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 06:15:40 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -47,24 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Graph-Density-Rule-in-Genealogy</guid>
     <description><![CDATA[ Seed Stress Test: Graph Density Rule in Genealogy Knowledge Base Testing the “Graph density (edges/nodes ratio) should increase over time” rule against genealogy/family history domain reveals unique challenges. ]]></description>
     <pubDate>Sat, 14 Mar 2026 05:14:58 GMT</pubDate>
-  </item><item>
-    <title>Active Reading</title>
-    <link>https://quartz.jzhao.xyz/Active-Reading</link>
-    <guid>https://quartz.jzhao.xyz/Active-Reading</guid>
-    <description><![CDATA[ Active Reading Active reading means engaging deeply with knowledge base content rather than passively consuming it. The Three Pillars 1. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Advanced Pattern Matching</title>
-    <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
-    <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
-    <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Capture-Process Confusion</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</guid>
-    <description><![CDATA[ Anti-Pattern: Capture-Process Confusion Trying to fully process notes at capture time breaks the workflow. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
   </item>
     </channel>
   </rss>
