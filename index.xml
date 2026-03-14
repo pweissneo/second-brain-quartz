@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Link Inflation</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
+    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Over-Organization</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
+    <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
     <title>Domain Gap - Music Composition Knowledge Capture</title>
     <link>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</link>
     <guid>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</guid>
     <description><![CDATA[ Domain Gap: Music Composition Knowledge Capture The Challenge An AI building a music composition knowledge base using only current Seed rules would encounter situations where the rules are insufficient or silent. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Context-Specific Learning Insights</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Specific-Learning-Insights</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Specific-Learning-Insights</guid>
-    <description><![CDATA[ Frontier Exploration: Context-Specific Learning Insights The Seed excels at capturing domain knowledge and general principles, but there’s a gap: how to capture knowledge about your own learning process - what works specifically for you in your specific context. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
+    <title>Domain-Specific Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</guid>
+    <description><![CDATA[ Domain-Specific Knowledge Bases A knowledge base can be customized for any field. Here’s how to adapt for different domains. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge From Obsolescing Domains</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-From-Obsolescing-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-From-Obsolescing-Domains</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge From Obsolescing Domains How to capture and preserve knowledge from domains, trades, or practices that are becoming obsolete — where the knowledge was correct but is no longer widely applicable. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
+    <title>Frontier Exploration - Ephemeral and Event-Based Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Ephemeral and Event-Based Knowledge The Problem The Seed has rules for many temporal dimensions of knowledge: Time-sensitive data (stock prices, weather) Sequential knowledge (history, recipes) Predictive knowledge (forecasts, projections) Living documents (continuously evolvi... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Prioritization and Focus Decisions</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Prioritization and Focus Decisions When building a knowledge base from scratch, how does an AI agent decide what to capture next? When to expand breadth vs. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
+    <title>Graph Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Graph-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Graph-Maintenance</guid>
+    <description><![CDATA[ Graph Maintenance Regular maintenance keeps the knowledge base healthy and navigable. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Learning Resource Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Learning Resource Knowledge The Gap The Seed covers many knowledge types: factual, procedural, conceptual, temporal, probabilistic, troubleshooting, etc. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Metacognitive Knowledge and Thinking Tools</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Metacognitive-Knowledge-and-Thinking-Tools</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Metacognitive-Knowledge-and-Thinking-Tools</guid>
-    <description><![CDATA[ Frontier Exploration: Metacognitive Knowledge and Thinking Tools How do we capture knowledge ABOUT thinking and reasoning, separate from knowledge ABOUT topics? The Problem The Seed excels at capturing domain knowledge — facts, procedures, frameworks, and relationships within specific subjects. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Molecular and Structural Knowledge Representation</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</guid>
-    <description><![CDATA[ Frontier Exploration - Molecular and Structural Knowledge Representation The Gap The Seed covers: Text-based knowledge capture Visual literacy for creative domains (photography, design) Sensory knowledge with reference standards Multi-modal knowledge (general) But it does NOT fully cover: Molecular/... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Multilingual Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Multilingual Knowledge Bases How should a knowledge base handle content that spans multiple languages? The Problem When building a knowledge base that must serve speakers of multiple languages, an AI agent faces decisions the Seed doesn’t address: When should a note exist in a ... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
-  </item><item>
-    <title>Seed Improvement - Safety-Critical Knowledge Metadata</title>
-    <link>https://quartz.jzhao.xyz/Seed-Improvement---Safety-Critical-Knowledge-Metadata</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Improvement---Safety-Critical-Knowledge-Metadata</guid>
-    <description><![CDATA[ Seed Improvement - Safety-Critical Knowledge Metadata Adding safety metadata to Seed for domains where missing safety information could cause harm Problem The Seed doesn’t distinguish safety-critical knowledge from regular knowledge. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
-  </item><item>
-    <title>Seed Improvement - Scale Scope Metadata</title>
-    <link>https://quartz.jzhao.xyz/Seed-Improvement---Scale-Scope-Metadata</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Improvement---Scale-Scope-Metadata</guid>
-    <description><![CDATA[ Proposed Seed Improvement: Scale Scope Metadata The Gap The Seed has excellent coverage for: Jurisdiction scope (legal, geographic) Expertise level (beginner, intermediate, advanced) Context frame (tutorial vs reference) Climate/environmental scope But there’s a gap: scale-dependent knowledge — know... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:11:55 GMT</pubDate>
+    <title>Graph Visualization</title>
+    <link>https://quartz.jzhao.xyz/Graph-Visualization</link>
+    <guid>https://quartz.jzhao.xyz/Graph-Visualization</guid>
+    <description><![CDATA[ Graph Visualization Visualizing knowledge graphs helps spot patterns, find gaps, and navigate efficiently. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
