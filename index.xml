@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
     <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
     <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented — companion to Frontier Exploration - Knowledge Applicability Boundaries Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 21:08:36 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 21:13:02 GMT</pubDate>
   </item><item>
     <title>The Inverse Test</title>
     <link>https://quartz.jzhao.xyz/The-Inverse-Test</link>
     <guid>https://quartz.jzhao.xyz/The-Inverse-Test</guid>
     <description><![CDATA[ The Inverse Test A technique for discovering undocumented knowledge boundaries — companion to Frontier Exploration - Knowledge Applicability Boundaries The Method For any absolute statement (always/never/every/none), ask inverse questions: “Always? Under what conditions?” “Never? In what contexts?” ... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 21:08:36 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 21:13:02 GMT</pubDate>
+  </item><item>
+    <title>Frontier Gap - Skill Proficiency Tracking</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Skill-Proficiency-Tracking</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Skill-Proficiency-Tracking</guid>
+    <description><![CDATA[ Frontier Gap: Skill Proficiency Tracking in Knowledge Bases Knowledge of “how to do X” differs fundamentally from the ability to actually do X. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 21:13:02 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Stub-Notes-Rule-in-Mathematics-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Stub-Notes-Rule-in-Mathematics-Knowledge-Base</guid>
     <description><![CDATA[ Seed Stress Test: Stub Notes Rule in Mathematics Knowledge Base Rule Under Test Seed Rule: Notes under 50 words must either be explicitly marked as stubs (with status: stub or todo: true) or must provide sufficient substance to stand alone. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 20:10:35 GMT</pubDate>
-  </item><item>
-    <title>Stress Test - Atomicity Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Atomicity-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Atomicity-Rule-Across-Domains</guid>
-    <description><![CDATA[ Stress Test: Atomicity Rule Across Domains This note consolidates stress tests for atomicity and word count rules across multiple knowledge domains. ]]></description>
     <pubDate>Sat, 14 Mar 2026 20:10:35 GMT</pubDate>
   </item>
     </channel>
