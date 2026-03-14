@@ -6,11 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Gap - Embodied Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</guid>
+    <description><![CDATA[ Frontier Gap: Embodied Knowledge That Cannot Be Captured Some knowledge cannot be effectively captured in text, no matter how well-structured the note. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 14:54:29 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
+  </item><item>
+    <title>Metadata and Tagging</title>
+    <link>https://quartz.jzhao.xyz/Metadata-and-Tagging</link>
+    <guid>https://quartz.jzhao.xyz/Metadata-and-Tagging</guid>
+    <description><![CDATA[ Metadata and Tagging Adding structured data to notes for better organization and search. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
   </item><item>
     <title>Anti-Pattern - Link Inflation</title>
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Ephemeral and Event-Based Knowledge The Problem The Seed has rules for many temporal dimensions of knowledge: Time-sensitive data (stock prices, weather) Sequential knowledge (history, recipes) Predictive knowledge (forecasts, projections) Living documents (continuously evolvi... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Graph Maintenance</title>
-    <link>https://quartz.jzhao.xyz/Graph-Maintenance</link>
-    <guid>https://quartz.jzhao.xyz/Graph-Maintenance</guid>
-    <description><![CDATA[ Graph Maintenance Regular maintenance keeps the knowledge base healthy and navigable. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Graph Visualization</title>
-    <link>https://quartz.jzhao.xyz/Graph-Visualization</link>
-    <guid>https://quartz.jzhao.xyz/Graph-Visualization</guid>
-    <description><![CDATA[ Graph Visualization Visualizing knowledge graphs helps spot patterns, find gaps, and navigate efficiently. ]]></description>
     <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item>
     </channel>
