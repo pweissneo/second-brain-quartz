@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:45:03 GMT</pubDate>
-  </item><item>
     <title>note-naming-conventions</title>
     <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
     <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
     <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 15:54:54 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Seed Rule - Canonical Domain Structures</title>
+    <link>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</guid>
+    <description><![CDATA[ Seed Rule: Capture Canonical Domain Structures Rule For domains with established structural templates (forms, frameworks, standard architectures), create canonical structure notes that define the template and link to examples. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 15:54:54 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Frontier Gap - Embodied Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</guid>
+    <description><![CDATA[ Frontier Gap: Embodied Knowledge That Cannot Be Captured Some knowledge cannot be effectively captured in text, no matter how well-structured the note. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 15:54:53 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Metadata and Tagging</title>
+    <link>https://quartz.jzhao.xyz/Metadata-and-Tagging</link>
+    <guid>https://quartz.jzhao.xyz/Metadata-and-Tagging</guid>
+    <description><![CDATA[ Metadata and Tagging Adding structured data to notes for better organization and search. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Anti-Pattern - Link Inflation</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
+    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>The Ownership Mindset</title>
-    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
-    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
-    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item><item>
-    <title>The Knowledge Portfolio</title>
-    <link>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</link>
-    <guid>https://quartz.jzhao.xyz/The-Knowledge-Portfolio</guid>
-    <description><![CDATA[ The Knowledge Portfolio Diversify your knowledge like financial investments. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:44:59 GMT</pubDate>
+    <title>Anti-Pattern - Over-Organization</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
+    <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+  </item><item>
+    <title>Domain Gap - Music Composition Knowledge Capture</title>
+    <link>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</link>
+    <guid>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</guid>
+    <description><![CDATA[ Domain Gap: Music Composition Knowledge Capture The Challenge An AI building a music composition knowledge base using only current Seed rules would encounter situations where the rules are insufficient or silent. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
