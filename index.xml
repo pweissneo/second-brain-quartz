@@ -6,35 +6,41 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Stress Test - Diverse Link Types Rule</title>
+    <link>https://quartz.jzhao.xyz/Stress-Test---Diverse-Link-Types-Rule</link>
+    <guid>https://quartz.jzhao.xyz/Stress-Test---Diverse-Link-Types-Rule</guid>
+    <description><![CDATA[ Stress Test: Diverse Link Types Rule Seed Rule Being Tested Rule: Use diverse link types — relevance, contrast, analogy, cause/effect, category membership. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Tool and Equipment Maintenance Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-and-Equipment-Maintenance-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tool-and-Equipment-Maintenance-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Tool and Equipment Maintenance Knowledge The Gap The Seed covers equipment dependencies (what tools you need to execute knowledge) but doesn’t address equipment maintenance knowledge — the ongoing care required to keep tools functional. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 01:15:54 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Activation States</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Activation-States</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Activation-States</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Activation States The Seed covers knowledge processing (capture → refinement → integration) but has a gap: when does captured knowledge become “ready” for use? This is distinct from lifecycle stages (draft → active → evergreen) — it’s about the readiness of the knowle... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 01:15:54 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Game Design Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Game Design Knowledge Game design knowledge has unique properties that stress-test Seed assumptions about atomicity, verification, and experiential capture. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 01:15:54 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Ephemeral and Event-Based Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Ephemeral and Event-Based Knowledge The Problem The Seed has rules for many temporal dimensions of knowledge: Time-sensitive data (stock prices, weather) Sequential knowledge (history, recipes) Predictive knowledge (forecasts, projections) Living documents (continuously evolvi... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 01:15:54 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Embodied and Performative Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Performative-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Performative-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Embodied and Performative Knowledge The Seed covers tacit knowledge (knowledge that resists articulation), but there’s a category that goes further: embodied knowledge — knowledge that exists only in physical execution, not in text at all. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 01:15:54 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 01:34:25 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Capturing-What-Should-Be-Skipped</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capturing-What-Should-Be-Skipped</guid>
     <description><![CDATA[ Anti-Pattern: Capturing What Should Be Skipped Saving information with no long-term value clutters the vault. ]]></description>
-    <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
     <pubDate>Fri, 13 Mar 2026 18:11:55 GMT</pubDate>
   </item>
     </channel>
