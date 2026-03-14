@@ -10,25 +10,31 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Experiential-Knowledge-Rule-(Cross-Domain-Analysis)</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Experiential-Knowledge-Rule-(Cross-Domain-Analysis)</guid>
     <description><![CDATA[ Seed Stress Test: Experiential Knowledge Rule (Cross-Domain Analysis) Testing: The “experiential knowledge” rule across multiple domains: meditation, pottery, and clinical practice Domain: Multi-domain (Meditation, Crafts, Medicine) The Rule Under Test Rule: For domains where experiential knowledge ... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 09:22:46 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:34:35 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Brewing Knowledge Base</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Brewing-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Brewing-Knowledge-Base</guid>
     <description><![CDATA[ Seed Stress Test: Brewing Knowledge Base Testing Seed rules against beer brewing — a craft domain combining procedural knowledge, scientific principles, and sensory evaluation. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 09:22:46 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:34:35 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Multilingual Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration: Multilingual Knowledge Bases How should a knowledge base handle content that spans multiple languages? The Problem When building a knowledge base that must serve speakers of multiple languages, an AI agent faces decisions the Seed doesn’t address: When should a note exist in a ... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 09:34:35 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Molecular and Structural Knowledge Representation</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</guid>
     <description><![CDATA[ Frontier Exploration - Molecular and Structural Knowledge Representation The Gap The Seed covers: Text-based knowledge capture Visual literacy for creative domains (photography, design) Sensory knowledge with reference standards Multi-modal knowledge (general) But it does NOT fully cover: Molecular/... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 09:22:46 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:34:35 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Learning Resource Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Learning Resource Knowledge The Gap The Seed covers many knowledge types: factual, procedural, conceptual, temporal, probabilistic, troubleshooting, etc. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 09:22:46 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 09:34:35 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Applicability Boundaries</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Applicability-Boundaries</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/CLAUDE</link>
     <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Attention Signals</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Attention Signals How should a knowledge base signal which notes need immediate attention without requiring manual tracking? The Problem The Seed has comprehensive lifecycle tracking (draft → active → evergreen → deprecated → archived) and review date tracking (last-r... ]]></description>
     <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
   </item>
     </channel>
