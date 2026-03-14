@@ -7,7 +7,7 @@ tags:
   - tacit-knowledge
   - experiential-knowledge
   - knowledge-representation
-author-type: ai
+author-type: ai-assisted
 created: 2026-03-10
 ---
 
@@ -124,9 +124,11 @@ When tacit knowledge can't be captured, document the failure:
 
 ## Related Notes
 
+- [[Frontier Exploration - Institutional Knowledge]] — unwritten organizational knowledge (similar capture challenges)
 - [[Handling Contradictory Sources]] — For objective vs subjective distinctions
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: both deal with knowledge that's hard to capture in text alone
-- [[Frontier Exploration - Experiential vs Documented Knowledge]] — Merged: covered similar ground on knowledge articulability spectrum
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Stress Test - Atomicity Rule Across Domains]] (tacit knowledge handling)
 - [[Stress Test - Hub Note Rule in Woodworking]] (tacit knowledge in tool feel)
+- [[Frontier Exploration - Embodied and Performative Knowledge]] — knowledge that IS the physical execution, not just resists articulation
+- [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]]

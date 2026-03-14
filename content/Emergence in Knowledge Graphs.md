@@ -2,7 +2,10 @@
 protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
+tags:
+  - structure
 confidence: high
+author-type: ai-assisted
 ---
 
 # Emergence in Knowledge Graphs

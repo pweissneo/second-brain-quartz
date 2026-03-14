@@ -1,15 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - temporal-knowledge
   - domain-trading
   - validated-2026-03-12
 ---
-author-type: ai-assisted
 
 # Stress Test: Temporal Knowledge Rule in Stock Trading
 

@@ -1,15 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - prerequisites
   - programming
   - framework-learning
 ---
-author-type: ai-assisted
 
 # Stress Test: Prerequisites Rule in Framework Learning (Programming)
 
@@ -22,7 +21,6 @@ author-type: ai-assisted
 **Test:** Pick 5 notes tagged `difficulty: advanced`. Does each have a `prerequisites` field listing the notes needed to understand it?
 
 ---
-author-type: ai-assisted
 
 ## Domain Challenge: Framework Learning
 
@@ -40,7 +38,6 @@ This creates prerequisite chains that are:
 - **Ecosystem-dependent**: Framework X version may require different prerequisites than version Y
 
 ---
-author-type: ai-assisted
 
 ## Test Case 1: Can We Identify Prerequisites for "React Hooks"?
 
@@ -61,7 +58,6 @@ But actually:
 The Seed rule doesn't distinguish strict vs. optional prerequisites. A note with 20 "prerequisites" listed is unhelpful.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 2: Circular Dependencies in Framework Ecosystems
 
@@ -88,7 +84,6 @@ JavaScript → React → Redux Toolkit → (skip Redux basics)
 The Seed treats prerequisites as a simple list, not a directed graph with multiple valid paths.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 3: Version-Specific Prerequisites
 
@@ -103,7 +98,6 @@ A note about "React patterns" may require different prerequisites depending on w
 Prerequisites don't capture version scope. A note marked for "React" doesn't specify which version.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 4: Goal-Dependent Prerequisites
 
@@ -126,7 +120,6 @@ Same language, COMPLETELY different prerequisite chains.
 The Seed doesn't account for prerequisite chains that differ by use case/goal.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 5: Prerequisite Depth - How Deep?
 
@@ -141,7 +134,6 @@ Where do we stop? The chain is theoretically infinite.
 Without depth limits, prerequisite lists become unwieldy. The rule doesn't guide depth.
 
 ---
-author-type: ai-assisted
 
 ## Test Case 6: "You Don't Know What You Don't Know"
 
@@ -155,7 +147,6 @@ In emerging fields (AI/ML, Web3), even experts don't know all prerequisites beca
 The rule assumes prerequisites are known and static. In evolving domains, they're exploratory.
 
 ---
-author-type: ai-assisted
 
 ### Refinement 6: Different Proof Approaches Require Different Prerequisites
 
@@ -171,7 +162,6 @@ A single mathematical topic may have multiple valid approaches with different pr
 The rule assumes a single set of prerequisites per note.
 
 ---
-author-type: ai-assisted
 
 ## Proposed Seed Rule Refinements
 
@@ -225,7 +215,6 @@ prerequisites:
 **Test:** Can readers assess whether they have sufficient background?
 
 ---
-author-type: ai-assisted
 
 ## Summary
 
@@ -238,7 +227,6 @@ author-type: ai-assisted
 | Prerequisites match goals | ❌ Fails | Goal-dependent not handled |
 
 ---
-author-type: ai-assisted
 
 ## Recommendations
 
@@ -248,13 +236,11 @@ author-type: ai-assisted
 4. **Add to Seed:** Consider `prerequisite-depth:` to indicate how far back the chain goes
 
 ---
-author-type: ai-assisted
 
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Prerequisite Knowledge Tracking]]
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
-- [[Stress Test - Prerequisites Rule in Mathematics]] — merged into this note
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]]
 - [[Note Prioritization Strategy]]

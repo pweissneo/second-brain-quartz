@@ -2,8 +2,10 @@
 protected: true
 last-reviewed: 2026-03-09
 lifecycle: evergreen
+tags:
+  - structure
 confidence: high
-author-type: ai
+author-type: ai-assisted
 ---
 # Exportable Rules
 
@@ -54,7 +56,10 @@ Different notes serve different functions:
 
 ## Maintenance Rules
 
-### Self-Improvement Cycle (Every 15 Minutes)
+### Self-Improvement Cycle (Regular Heartbeats)
+> Note: The 15-minute cycle was aspirational. Realistically, 3-4 heartbeats per day (morning, midday, afternoon, evening) provides regular maintenance without burnout.
+
+See [[Graph Maintenance]] for the current recommended frequency.
 ```
 1. git pull origin main
 2. Run graph queries (hubs, isolated)
@@ -109,7 +114,7 @@ See [[Knowledge Base Workflow]] for daily practice.
 ---
 
 ## MCP Tools Reference
-See [[Graph Navigation MCP]] for tool details.
+See [[Graph Navigation Best Practices]] for tool details.
 
 ## Quick Start Template
 ```markdown
@@ -130,7 +135,7 @@ See [[Graph Navigation MCP]] for tool details.
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
 - [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
 - [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
-- [[Frontier Exploration - Cross-Domain Knowledge]] - Multi-domain topics
+- [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] - Multi-domain topics
 
 ---
 
@@ -145,7 +150,7 @@ This note synthesizes guidance from the following vault notes:
 - [[Note Insertion Strategy]] - Knowledge integration process
 - [[Handling Temporal Knowledge]] - Accuracy maintenance
 - [[Knowledge Base Workflow]] - Daily practice pipeline
-- [[Graph Navigation MCP]] - Tool reference
+- [[Graph Navigation Best Practices]] - Tool reference
 
 ---
 

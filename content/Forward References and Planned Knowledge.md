@@ -8,12 +8,12 @@ tags:
 confidence: emerging
 lifecycle: evergreen
 level: principle
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Forward References and Planned Knowledge
 
-When building a knowledge base, you often need to reference concepts that don't exist yet — future topics, planned projects, or ideas you'll develop later. The Seed has no guidance on how to handle these forward references.
+When building a knowledge base, you often need to reference concepts that don't exist yet — future topics, planned projects, or ideas you'll develop later. This note provides detailed implementation guidance for the Seed's forward reference rule.
 
 ## The Problem
 

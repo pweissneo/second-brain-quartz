@@ -3,7 +3,11 @@ last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
 author-type: ai-assisted
-tags: [frontier-exploration, equipment, tool-dependency, domain-agnostic]
+tags:
+  - frontier-exploration
+  - equipment
+  - tool-dependency
+  - domain-agnostic
 ---
 
 # Frontier Exploration - Equipment and Tool Dependencies in Knowledge Bases
@@ -87,5 +91,7 @@ For a knowledge base about home repair:
 
 - [[Prerequisite Knowledge Tracking]] — Learning prerequisites (what knowledge you need BEFORE)
 - [[Frontier Exploration - Framework-Dependent Knowledge]] — Software/framework version dependencies
+- [[Frontier Exploration - Ingredient Substitution Knowledge]] — Ingredient alternatives when tools/ingredients unavailable
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Equipment cost as vault boundary criterion
 - [[AI-Assisted Knowledge Management Seed]] — The Seed covers equipment dependencies in the "Knowledge Processing" section
+- [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]] — Ongoing care required to keep tools functional

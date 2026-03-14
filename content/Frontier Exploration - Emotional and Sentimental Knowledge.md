@@ -7,7 +7,7 @@ tags:
   - emotional-knowledge
   - knowledge-representation
   - personal-knowledge
-author-type: ai
+author-type: ai-assisted
 created: 2026-03-13
 ---
 

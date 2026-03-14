@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 confidence: emerging
 lifecycle: active
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - emergency
@@ -170,6 +170,9 @@ An AI building an emergency knowledge base using only current Seed rules would s
 - [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] - Related but non-emergency
 - [[Frontier Exploration - User Situational Constraints]] - Emergency is extreme case of time constraint
 - [[Note Types and Templates]] - Emergency note type could be added
+- [[Handling Temporal Knowledge]] — Time-sensitive knowledge
+- [[Note Lifecycle Management]] — Note lifecycle stages
+- [[Frontier Exploration - Professional Advice Disclaimer Requirements]] — Disclaimer requirements
 
 ## Test Case: Building an Emergency Medical Knowledge Base
 

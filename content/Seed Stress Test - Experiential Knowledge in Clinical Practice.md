@@ -1,15 +1,15 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: emerging
 confidence: emerging
+author-type: ai-assisted
+knowledge-type: analysis
 tags:
   - seed-stress-test
   - clinical-domain
   - edge-case
   - experiential-knowledge
 ---
-author-type: ai-assisted
 
 # Seed Stress Test: Experiential Knowledge in Clinical Practice
 
@@ -18,7 +18,6 @@ Testing the experiential component rule in medical/clinical domains reveals wher
 > "In domains like clinical skills, martial arts, and creative arts, the useful knowledge extends beyond what can be documented." — Seed Rule
 
 ---
-author-type: ai-assisted
 
 ## 1. The Rule Under Test
 
@@ -27,7 +26,6 @@ author-type: ai-assisted
 **Test:** Pick 5 notes in an experiential domain (music, clinical practice, crafts, creative arts). Can you identify which require experience to fully apply? Do they have explicit `experiential-component` markers?
 
 ---
-author-type: ai-assisted
 
 ## 2. Clinical Domain Analysis
 
@@ -42,7 +40,6 @@ Clinical practice has multiple knowledge types:
 | Interpersonal | "Delivering bad news to families" | Partial |
 
 ---
-author-type: ai-assisted
 
 ## 3. Edge Cases Discovered
 
@@ -100,7 +97,6 @@ A note saying "auscultation involves listening to heart sounds" has:
 > Add `experiential-note:` field for context-specific guidance: "Detection of cyanosis in dark-skinned patients requires specialized training"
 
 ---
-author-type: ai-assisted
 
 ## 4. Test Executability Analysis
 
@@ -121,7 +117,6 @@ author-type: ai-assisted
 > 4. Flag notes where frontmatter is missing in experiential domains
 
 ---
-author-type: ai-assisted
 
 ## 5. What the Rule Gets Right
 
@@ -130,7 +125,6 @@ author-type: ai-assisted
 3. **Guidance differentiation** — "try this" vs. "follow this" is actionable
 
 ---
-author-type: ai-assisted
 
 ## 6. Summary of Proposed Refinements
 
@@ -141,11 +135,10 @@ author-type: ai-assisted
 5. **Make test fully automated** by specifying frontmatter field check
 
 ---
-author-type: ai-assisted
 
 ## Related Notes
 
-- [[Seed Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Source quality in medicine
+- [[Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Source quality in medicine
 - [[Frontier Exploration - Tacit Knowledge Capture]] — Capturing hard-to-document knowledge
 - [[Confidence Markers]] — Signal reliability
-- [[Expertise-Level Dependent Knowledge]] — Who is this knowledge for?
+- [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Who is this knowledge for?

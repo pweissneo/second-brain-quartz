@@ -139,3 +139,5 @@ Source tier matters most when:
 - [[Handling Temporal Knowledge]] — Keeping sources accessible
 - [[Note Lifecycle Management]] — Note stages and progression
 - [[Stress Test - Confidence Markers Rule Across Domains]] — Stress testing confidence markers across multiple domains
+- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]]
+- [[Frontier Exploration - Self-Contradiction and Evolved Perspective]]

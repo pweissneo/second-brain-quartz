@@ -1,15 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-10
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
 - seed-stress-test
 - medical-domain
 - source-quality
 - evidence-hierarchy
 ---
-author-type: ai-assisted
 
 # Stress Test: Source Quality Hierarchy in Medical Knowledge
 

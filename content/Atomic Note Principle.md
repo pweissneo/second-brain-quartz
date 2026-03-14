@@ -3,7 +3,11 @@ protected: true
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
-author-type: ai
+author-type: ai-assisted
+tags:
+  - atomicity
+  - principle
+  - core-rules
 ---
 
 # Atomic Note Principle
@@ -13,7 +17,7 @@ A note must be **atomic** — it contains exactly **one single idea**.
 ## Rule
 - Each note should focus on one concept, idea, or piece of knowledge
 - If a note grows beyond its original scope, it should be **split** into separate atomic notes
-- The maximum size for a note is approximately **200-300 words** or one screen's worth of content
+- The maximum size for a note is approximately **100-300 words** or one screen's worth of content
 
 ## When to Split
 Split a note when:
@@ -141,3 +145,4 @@ This rule has been validated across multiple domains:
 - [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing of Seed rules in culinary domain
 - [[Stress Test - 3-Hops Rule in Genealogy]] — Tests navigation depth in medical taxonomies
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Tests temporal data handling
+- [[Frontier Exploration - Single-Work Knowledge vs General Principles]] — Tests atomicity with creative works

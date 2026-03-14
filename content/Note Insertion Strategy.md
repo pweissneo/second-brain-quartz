@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 ---
 
 # Note Insertion Strategy
@@ -35,5 +36,5 @@ When adding new information:
 ## Related
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Progressive Summarization]]

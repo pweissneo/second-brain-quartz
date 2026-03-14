@@ -171,6 +171,7 @@ Every troubleshooting note should define:
 ## Related
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Ingredient Substitution Knowledge]] - Substitution as conditional knowledge with ratios
 - [[Atomic Note Principle]]
 - [[Note Types and Templates]]
 - [[AI-Assisted Knowledge Management Seed]]

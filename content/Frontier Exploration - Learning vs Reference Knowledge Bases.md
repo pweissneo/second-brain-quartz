@@ -1,16 +1,23 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: draft
-confidence: emerging
+last-reviewed: 2026-03-13
+lifecycle: deprecated
+confidence: high
+deprecated-by: Seed rule in Section 1 (Foundation)
+replacement: AI-Assisted Knowledge Management Seed.md
 author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
   - knowledge-types
   - historical
+  - deprecated
 ---
 
 # Frontier Exploration - Learning vs Reference Knowledge Bases
+
+> **DEPRECATED:** This exploration has been incorporated into the [[AI-Assisted Knowledge Management Seed]] (Section 1: Foundation). The Seed now contains the authoritative rule on learning vs reference KBs.
+>
+> **Historical record only** — do not use for current guidance.
 
 > **Status:** This exploration contributed to the Seed rule in Section 1: "Distinguish knowledge base purpose — learning vs reference"
 > See: [[AI-Assisted Knowledge Management Seed]] for the current rule.

@@ -140,4 +140,5 @@ See [[Frontier Exploration - Framework-Dependent Knowledge]] for full guidance.
 - [[Handling Contradictory Sources]] — Related: comparative analysis often involves handling contradictory sources
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
 - [[Frontier Exploration - Jargon vs Plain Language]]
+- [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]] — Related: covers equivalent alternatives that all produce valid results
 - [[AI-Assisted Knowledge Management Seed]]

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - metadata
   - tagging
@@ -25,7 +26,7 @@ tags:
 created: 2026-03-07
 modified: 2026-03-07
 author: Your Name
-source: 
+source: null
 ---
 ```
 
@@ -75,5 +76,8 @@ LIST FROM #note WHERE date > date(today - 7 days)
 
 ## Related
 - [[Atomic Note Principle]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Note Types and Templates]]
+- [[Wikilinks]] — Linking syntax
+- [[Note Naming Conventions]] — Naming conventions
+- [[Graph Maintenance]] — Graph health checks

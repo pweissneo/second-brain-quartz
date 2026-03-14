@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - meta-learning
   - mindset
@@ -91,3 +92,4 @@ When you combine notes, new insights emerge:
 - [[Atomic Note Principle]]
 - [[Emergence in Knowledge Graphs]]
 - [[Writing as Thinking]]
+- [[Knowledge Base Workflow]]

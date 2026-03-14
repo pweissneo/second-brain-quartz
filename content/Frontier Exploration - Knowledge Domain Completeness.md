@@ -2,12 +2,18 @@
 last-reviewed: 2026-03-12
 lifecycle: emerging
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-completeness
   - prioritization
 level: principle
+completeness-target: principle
+completeness-indicators:
+  - Hub exists for topic area
+  - Prerequisites identified
+  - Multiple entry points established
+  - Common questions can be answered
 ---
 
 # Frontier Exploration: Knowledge Domain Completeness Criteria

@@ -72,6 +72,7 @@ An AI building a music theory vault using only current Seed rules would:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
+- [[Frontier Exploration - Symbolic and Notational Knowledge]] — Handling notation systems (music, math, chess)
 - [[Knowledge Base Workflow]] - How new knowledge enters the vault
 - [[Handling Temporal Knowledge]] - Media links rot too
 - [[Frontier Exploration - Jargon vs Plain Language]]

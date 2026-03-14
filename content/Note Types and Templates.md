@@ -48,11 +48,14 @@ Inactive, completed, deprecated.
 
 ## Note Types by Lifecycle
 
-| Type | When Created | When Archived |
-|------|-------------|---------------|
-| Seedling | First capture | After first link |
-| Bud | First connections | After mature |
-| Evergreen | Multiple links | Never (iterated) |
+| Type | Seed Stage | Description |
+|------|------------|-------------|
+| Seedling | draft | First capture, needs processing |
+| Bud | active | Developing, first connections |
+| Evergreen | evergreen | Fully formed, frequently referenced |
+| Archive | deprecated | Inactive but still valid |
+
+> **Note:** This note uses alternative terminology (Seedling/Bud) that maps to Seed stages (draft/active) for accessibility. The Seed-compliant stages are: draft → active → evergreen → deprecated.
 
 ---
 
@@ -172,4 +175,6 @@ date: {{YYYY-MM-DD}}
 - [[Writing as Thinking]]
 - [[Note Lifecycle Management]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
+- [[Frontier Exploration - Knowledge Base Onboarding]]
+- [[Frontier Exploration - Collaborative Knowledge Creation]]
 

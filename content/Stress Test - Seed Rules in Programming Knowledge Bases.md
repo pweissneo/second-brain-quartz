@@ -1,12 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
-domain: software-development
-tags: [stress-test, programming, software]
----
 author-type: ai-assisted
+domain: software-development
+tags:
+  - stress-test
+  - programming
+  - software
+---
 
 # Stress Test - Seed Rules in Programming Knowledge Bases
 

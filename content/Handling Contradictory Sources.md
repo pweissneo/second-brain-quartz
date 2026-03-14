@@ -7,7 +7,7 @@ tags:
   - synthesis
   - contradiction
   - sources
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Handling Contradictory Sources

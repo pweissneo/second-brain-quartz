@@ -183,5 +183,5 @@ This extends the Self-Improvement section:
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
 - [[Note Prioritization Strategy]]
-- [[Knowledge Debt]]
+- [[Frontier Exploration - Knowledge Debt]]
 - (Content merged into this note)

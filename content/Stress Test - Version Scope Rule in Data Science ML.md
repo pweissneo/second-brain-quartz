@@ -1,15 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - data-science-domain
   - version-scope
   - software-dependencies
 ---
-author-type: ai-assisted
 
 # Stress Test: Version Scope Rule in Data Science / Machine Learning
 

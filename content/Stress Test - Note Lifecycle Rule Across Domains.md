@@ -1,8 +1,8 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - lifecycle
@@ -10,7 +10,6 @@ tags:
   - investing
   - software-development
 ---
-author-type: ai-assisted
 
 # Stress Test: Note Lifecycle Rule Across Domains
 
@@ -24,7 +23,6 @@ author-type: ai-assisted
 **Test:** Can you list 3 reasons to deprecate a note? Are deprecated notes pointing to replacements?
 
 ---
-author-type: ai-assisted
 
 ## Domain 1: Personal Finance / Investing
 
@@ -117,7 +115,6 @@ Personal finance and investing knowledge has unique lifecycle challenges:
 - Problem: Evergreen PRINCIPLE vs. time-sensitive THRESHOLD
 
 ---
-author-type: ai-assisted
 
 ## Domain 2: Software Development
 
@@ -178,7 +175,6 @@ Software development is an excellent stress test for lifecycle rules because:
 - This is borderline: It's historical knowledge, not necessarily deprecated
 
 ---
-author-type: ai-assisted
 
 ## Cross-Domain Edge Cases
 
@@ -255,7 +251,6 @@ Historical security events:
 - But "fix" information becomes deprecated when new vulnerabilities emerge
 
 ---
-author-type: ai-assisted
 
 ## Rule Refinements Needed
 
@@ -313,7 +308,6 @@ author-type: ai-assisted
 - deprecated: review when replacement receives major updates
 
 ---
-author-type: ai-assisted
 
 ## Summary
 

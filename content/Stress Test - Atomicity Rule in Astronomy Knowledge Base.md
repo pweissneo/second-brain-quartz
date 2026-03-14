@@ -8,7 +8,7 @@ tags:
 confidence: high
 lifecycle: evergreen
 level: stress-test
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Stress Test: Atomicity Rule in Astronomy Knowledge Base
@@ -170,3 +170,9 @@ The atomicity rule works for astronomy, but needs this clarification:
 | Rule needs refinement? | ⚠️ Minor — add temporal guidance |
 
 The atomicity rule is robust for astronomy. The main challenge is recognizing when procedural content legitimately exceeds 300 words (imaging workflows, equipment tutorials) vs. when multi-idea bloat should be split.
+
+## Related
+
+- [[AI-Assisted Knowledge Management Seed]] — Core Seed rules being tested
+- [[Atomic Note Principle]] — The rule being stress tested
+- [[Stress Test - Atomicity Rule Across Domains]] — Related stress test

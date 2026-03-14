@@ -95,6 +95,6 @@ def find_star_pattern(nodes, edges):
 ## Related
 
 - [[Graph Maintenance]]
-- [[Graph Navigation MCP]]
+- [[Graph Navigation Best Practices]]
 - [[Hub Node Creation]]
 - [[Anti-Patterns in Knowledge Management]]

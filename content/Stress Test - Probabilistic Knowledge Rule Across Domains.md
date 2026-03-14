@@ -1,15 +1,14 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - probabilistic-knowledge
   - multi-domain
   - edge-case
 ---
-author-type: ai-assisted
 
 # Stress Test: Probabilistic Knowledge Rule Across Domains
 
@@ -24,7 +23,6 @@ author-type: ai-assisted
 **Test:** Can you assign a numerical probability to the claim? Is it expressed numerically rather than with vague qualifiers?
 
 ---
-author-type: ai-assisted
 
 ## Domain: Cooking
 
@@ -60,7 +58,6 @@ However, cooking is also an art, and precise probabilities may not always be hel
 4. **Add confidence for technique advice**: Use "confidence: high/medium/low" instead of vague qualifiers.
 
 ---
-author-type: ai-assisted
 
 ## Domain: Medical Knowledge
 
@@ -123,7 +120,6 @@ A note states: "This treatment has 70% success rate" but the 95% CI is 55-82%.
 | "insufficient evidence" | unknown | disputed |
 
 ---
-author-type: ai-assisted
 
 ## Domain: Psychology & Therapy
 
@@ -253,7 +249,6 @@ But:
 | Cultural context | Less critical | Often critical |
 
 ---
-author-type: ai-assisted
 
 ## Cross-Domain Insights
 
@@ -279,7 +274,6 @@ author-type: ai-assisted
 4. **Use ranges when uncertainty is inherent**: "60-80%" rather than "70%"
 
 ---
-author-type: ai-assisted
 
 ## Test Refinement
 
@@ -294,7 +288,6 @@ Refined test for any domain:
 6. If subjective: suggest "confidence: medium" instead of vague qualifier
 
 ---
-author-type: ai-assisted
 
 ## Related
 

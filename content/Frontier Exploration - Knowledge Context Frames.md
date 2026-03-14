@@ -39,7 +39,7 @@ Without explicit context frame handling:
 
 - **Expertise-level** — addresses "who can understand this"
 - **User situational constraints** — addresses "what can the user do"
-- **Knowledge-type (canonical/analysis/personal)** — addresses "what kind of knowledge is this"
+- **Knowledge-type ([[Frontier Exploration - Canonical vs Analysis Knowledge]])** — addresses "what kind of knowledge is this"
 
 Context frames are different: they address **"for what purpose is this knowledge being presented?"**
 
@@ -77,10 +77,10 @@ context-frame: medical-professional
 Core note contains framework-independent facts; purpose-specific notes link to it and add context:
 
 ```
-[[Statistical Significance]] (core, 100 words)
-  → [[Statistical Significance - for Researchers]] (200 words, links to core)
-  → [[Statistical Significance - for Business Analysts]] (200 words, links to core)  
-  → [[Statistical Significance - for General Audience]] (150 words, links to core)
+Statistical Significance (core, 100 words)
+  → Statistical Significance - for Researchers (200 words, links to core)
+  → Statistical Significance - for Business Analysts (200 words, links to core)  
+  → Statistical Significance - for General Audience (150 words, links to core)
 ```
 
 **Pros:** Avoids duplication; each variant adds purpose-specific value
@@ -111,7 +111,7 @@ Core note contains framework-independent facts; purpose-specific notes link to i
 
 ## Related Notes
 
-- [[Knowledge Abstraction Levels]] — vertical tiers (concrete → pattern → principle)
-- [[Expertise-Level Dependent Knowledge]] — who can understand this
-- [[User Situational Constraints]] — what can the user actually do
-- [[Canonical vs Analysis Knowledge]] — what kind of knowledge is this
+- [[Frontier Exploration - Knowledge Abstraction Levels]] — vertical tiers (concrete → pattern → principle)
+- [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — who can understand this
+- [[Frontier Exploration - User Situational Constraints]] — what can the user actually do
+- [[Frontier Exploration - Canonical vs Analysis Knowledge]] — what kind of knowledge is this

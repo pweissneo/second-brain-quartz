@@ -7,7 +7,7 @@ tags:
   - prerequisites
   - dependencies
   - learning-paths
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Prerequisite Knowledge Tracking

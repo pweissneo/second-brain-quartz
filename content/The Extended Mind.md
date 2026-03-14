@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - cognition
   - philosophy

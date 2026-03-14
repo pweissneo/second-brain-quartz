@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: draft
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - access-control

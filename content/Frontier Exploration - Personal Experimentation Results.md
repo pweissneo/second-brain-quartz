@@ -1,8 +1,8 @@
 ---
-author-type: ai-assisted
 confidence: emerging
 last-reviewed: 2026-03-13
 lifecycle: draft
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - personal-knowledge

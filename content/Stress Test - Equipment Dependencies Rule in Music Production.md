@@ -1,8 +1,8 @@
 ---
-author-type: ai-assisted
 last-reviewed: 2026-03-11
 lifecycle: draft
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - equipment-dependencies
@@ -10,7 +10,6 @@ tags:
   - domain-agnostic
 domain: music production
 ---
-author-type: ai-assisted
 
 # Stress Test: Equipment Dependencies Rule in Music Production
 

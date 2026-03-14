@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 ---
 
 # Note Lifecycle Management
@@ -132,6 +133,7 @@ Most notes should become evergreen. Be conservative:
 
 ## Related
 - [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Living Documents]] - Notes that are intentionally designed to be continuously updated
 - [[Frontier Exploration - Knowledge Cascade Effects]] - How to handle cascading updates across notes
 - [[Anti-Patterns in Knowledge Management]]
 - [[Graph Maintenance]]

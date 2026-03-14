@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 confidence: emerging
 lifecycle: active
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - parenting
@@ -187,7 +187,6 @@ An AI building a parenting knowledge base using only current Seed rules would st
 
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] - Related but parenting doesn't fit the model
 - [[Frontier Exploration - Knowledge Without Sources]] - Related to inherently uncertain knowledge
-- [[Frontier Exploration - Cultural Knowledge]] - Not yet created but related
 - [[Frontier Exploration - User Situational Constraints]] - Parenting is extremely situational
 
 ## Test Case: Building a Parenting Knowledge Base
