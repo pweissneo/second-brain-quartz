@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Stress-Test---Equipment-Dependencies-Rule-in-Automotive-Repair</link>
     <guid>https://quartz.jzhao.xyz/Stress-Test---Equipment-Dependencies-Rule-in-Automotive-Repair</guid>
     <description><![CDATA[ Stress Test: Equipment Dependencies Rule in Automotive Repair Seed Rule Being Tested Rule: Document physical equipment dependencies for procedural knowledge — include what tools are required, which are optional, and what alternatives exist. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Experiential-Knowledge-Rule-(Cross-Domain-Analysis)</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Experiential-Knowledge-Rule-(Cross-Domain-Analysis)</guid>
     <description><![CDATA[ Seed Stress Test: Experiential Knowledge Rule (Cross-Domain Analysis) Testing: The “experiential knowledge” rule across multiple domains: meditation, pottery, and clinical practice Domain: Multi-domain (Meditation, Crafts, Medicine) The Rule Under Test Rule: For domains where experiential knowledge ... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Brewing Knowledge Base</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Brewing-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Brewing-Knowledge-Base</guid>
     <description><![CDATA[ Seed Stress Test: Brewing Knowledge Base Testing Seed rules against beer brewing — a craft domain combining procedural knowledge, scientific principles, and sensory evaluation. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Seed Improvement - Scale Scope Metadata</title>
     <link>https://quartz.jzhao.xyz/Seed-Improvement---Scale-Scope-Metadata</link>
     <guid>https://quartz.jzhao.xyz/Seed-Improvement---Scale-Scope-Metadata</guid>
     <description><![CDATA[ Proposed Seed Improvement: Scale Scope Metadata The Gap The Seed has excellent coverage for: Jurisdiction scope (legal, geographic) Expertise level (beginner, intermediate, advanced) Context frame (tutorial vs reference) Climate/environmental scope But there’s a gap: scale-dependent knowledge — know... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Seed Improvement - Safety-Critical Knowledge Metadata</title>
     <link>https://quartz.jzhao.xyz/Seed-Improvement---Safety-Critical-Knowledge-Metadata</link>
     <guid>https://quartz.jzhao.xyz/Seed-Improvement---Safety-Critical-Knowledge-Metadata</guid>
     <description><![CDATA[ Seed Improvement - Safety-Critical Knowledge Metadata Adding safety metadata to Seed for domains where missing safety information could cause harm Problem The Seed doesn’t distinguish safety-critical knowledge from regular knowledge. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Multilingual Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration: Multilingual Knowledge Bases How should a knowledge base handle content that spans multiple languages? The Problem When building a knowledge base that must serve speakers of multiple languages, an AI agent faces decisions the Seed doesn’t address: When should a note exist in a ... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Molecular and Structural Knowledge Representation</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</guid>
     <description><![CDATA[ Frontier Exploration - Molecular and Structural Knowledge Representation The Gap The Seed covers: Text-based knowledge capture Visual literacy for creative domains (photography, design) Sensory knowledge with reference standards Multi-modal knowledge (general) But it does NOT fully cover: Molecular/... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Metacognitive Knowledge and Thinking Tools</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Metacognitive-Knowledge-and-Thinking-Tools</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Metacognitive-Knowledge-and-Thinking-Tools</guid>
     <description><![CDATA[ Frontier Exploration: Metacognitive Knowledge and Thinking Tools How do we capture knowledge ABOUT thinking and reasoning, separate from knowledge ABOUT topics? The Problem The Seed excels at capturing domain knowledge — facts, procedures, frameworks, and relationships within specific subjects. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Learning Resource Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Learning Resource Knowledge The Gap The Seed covers many knowledge types: factual, procedural, conceptual, temporal, probabilistic, troubleshooting, etc. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Prioritization and Focus Decisions</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Prioritization and Focus Decisions When building a knowledge base from scratch, how does an AI agent decide what to capture next? When to expand breadth vs. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 12:43:07 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 12:53:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
