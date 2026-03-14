@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
     <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
     <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:14:47 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 15:25:35 GMT</pubDate>
+  </item><item>
+    <title>Seed Rule - Canonical Domain Structures</title>
+    <link>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</guid>
+    <description><![CDATA[ Seed Rule: Capture Canonical Domain Structures Rule For domains with established structural templates (forms, frameworks, standard architectures), create canonical structure notes that define the template and link to examples. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 15:25:35 GMT</pubDate>
   </item><item>
     <title>Frontier Gap - Embodied Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</guid>
     <description><![CDATA[ Frontier Gap: Embodied Knowledge That Cannot Be Captured Some knowledge cannot be effectively captured in text, no matter how well-structured the note. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 15:14:46 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 15:25:35 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</link>
     <guid>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</guid>
     <description><![CDATA[ Domain Gap: Music Composition Knowledge Capture The Challenge An AI building a music composition knowledge base using only current Seed rules would encounter situations where the rules are insufficient or silent. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Domain-Specific Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</guid>
-    <description><![CDATA[ Domain-Specific Knowledge Bases A knowledge base can be customized for any field. Here’s how to adapt for different domains. ]]></description>
     <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
   </item>
     </channel>
