@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>note-naming-conventions</title>
-    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
-    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
-    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 17:21:45 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
   </item><item>
-    <title>Seed Rule - Canonical Domain Structures</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule---Canonical-Domain-Structures</guid>
-    <description><![CDATA[ Seed Rule: Capture Canonical Domain Structures Rule For domains with established structural templates (forms, frameworks, standard architectures), create canonical structure notes that define the template and link to examples. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 17:21:45 GMT</pubDate>
+    <title>Atomic Note Principle</title>
+    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
+    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
+    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Adaptation and Transcoding Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Adaptation-and-Transcoding-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Adaptation-and-Transcoding-Knowledge</guid>
+    <description><![CDATA[  Note: The rules proposed in this note have been incorporated into the Seed (see Seed sections 6-7 under “Adaptation Knowledge”). ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Ephemeral and Event-Based Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ephemeral-and-Event-Based-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Ephemeral and Event-Based Knowledge The Problem The Seed has rules for many temporal dimensions of knowledge: Time-sensitive data (stock prices, weather) Sequential knowledge (history, recipes) Predictive knowledge (forecasts, projections) Living documents (continuously evolvi... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Jargon vs Plain Language</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Jargon-vs-Plain-Language</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Jargon-vs-Plain-Language</guid>
+    <description><![CDATA[ Frontier Exploration - Jargon vs Plain Language in Knowledge Bases This note elaborates on Seed rules about terminology and multi-audience vaults. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Attention Signals</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Attention Signals How should a knowledge base signal which notes need immediate attention without requiring manual tracking? The Problem The Seed has comprehensive lifecycle tracking (draft → active → evergreen → deprecated → archived) and review date tracking (last-r... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Prioritization and Focus Decisions</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Prioritization and Focus Decisions When building a knowledge base from scratch, how does an AI agent decide what to capture next? When to expand breadth vs. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Personal Relationship Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Relationship-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Relationship-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Personal Relationship Knowledge Knowledge about specific people in your life, built from shared experience rather than external sources. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Professional Credentialing Requirements</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Professional-Credentialing-Requirements</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Professional-Credentialing-Requirements</guid>
+    <description><![CDATA[ Frontier Exploration - Professional Credentialing Requirements for Knowledge Verification The Gap The Seed includes verification-status: unverified | tested | community-validated for procedural content, but this assumes anyone can verify the content. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
   </item><item>
     <title>Frontier Gap - Embodied Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</guid>
     <description><![CDATA[ Frontier Gap: Embodied Knowledge That Cannot Be Captured Some knowledge cannot be effectively captured in text, no matter how well-structured the note. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 17:21:45 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
-  </item><item>
-    <title>Metadata and Tagging</title>
-    <link>https://quartz.jzhao.xyz/Metadata-and-Tagging</link>
-    <guid>https://quartz.jzhao.xyz/Metadata-and-Tagging</guid>
-    <description><![CDATA[ Metadata and Tagging Adding structured data to notes for better organization and search. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 14:26:38 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Missing Negative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
-    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Note Hoarding</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
-    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Over-Organization</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
-    <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
-  </item><item>
-    <title>Domain Gap - Music Composition Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</guid>
-    <description><![CDATA[ Domain Gap: Music Composition Knowledge Capture The Challenge An AI building a music composition knowledge base using only current Seed rules would encounter situations where the rules are insufficient or silent. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 13:56:34 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 17:38:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
