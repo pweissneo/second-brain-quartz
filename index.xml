@@ -6,6 +6,18 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented — companion to Frontier Exploration - Knowledge Applicability Boundaries Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 21:08:36 GMT</pubDate>
+  </item><item>
+    <title>The Inverse Test</title>
+    <link>https://quartz.jzhao.xyz/The-Inverse-Test</link>
+    <guid>https://quartz.jzhao.xyz/The-Inverse-Test</guid>
+    <description><![CDATA[ The Inverse Test A technique for discovering undocumented knowledge boundaries — companion to Frontier Exploration - Knowledge Applicability Boundaries The Method For any absolute statement (always/never/every/none), ask inverse questions: “Always? Under what conditions?” “Never? In what contexts?” ... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 21:08:36 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Stress-Test---Atomicity-Rule-Across-Domains</link>
     <guid>https://quartz.jzhao.xyz/Stress-Test---Atomicity-Rule-Across-Domains</guid>
     <description><![CDATA[ Stress Test: Atomicity Rule Across Domains This note consolidates stress tests for atomicity and word count rules across multiple knowledge domains. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 20:10:35 GMT</pubDate>
-  </item><item>
-    <title>Stress Test - Diminishing Returns Rule in Photography</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Diminishing-Returns-Rule-in-Photography</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Diminishing-Returns-Rule-in-Photography</guid>
-    <description><![CDATA[ Stress Test: Diminishing Returns Rule in Photography Knowledge Base Seed Rule Being Tested Rule: Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (... ]]></description>
-    <pubDate>Sat, 14 Mar 2026 20:10:35 GMT</pubDate>
-  </item><item>
-    <title>Systems Over Goals</title>
-    <link>https://quartz.jzhao.xyz/Systems-Over-Goals</link>
-    <guid>https://quartz.jzhao.xyz/Systems-Over-Goals</guid>
-    <description><![CDATA[ Systems Over Goals Focus on processes, not outcomes. ]]></description>
     <pubDate>Sat, 14 Mar 2026 20:10:35 GMT</pubDate>
   </item>
     </channel>
