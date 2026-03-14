@@ -10,7 +10,31 @@
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 05:14:58 GMT</pubDate>
+    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
+  </item><item>
+    <title>CLAUDE</title>
+    <link>https://quartz.jzhao.xyz/CLAUDE</link>
+    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Attention Signals</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Attention Signals How should a knowledge base signal which notes need immediate attention without requiring manual tracking? The Problem The Seed has comprehensive lifecycle tracking (draft → active → evergreen → deprecated → archived) and review date tracking (last-r... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Debt</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Debt Managing the maintenance burden created by shortcuts and imperfect knowledge capture The Problem Just as software accumulates technical debt from quick-and-dirty solutions, knowledge bases accumulate knowledge debt — shortcuts, compromises, and incomplete captur... ]]></description>
+    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
+  </item><item>
+    <title>_root</title>
+    <link>https://quartz.jzhao.xyz/_root</link>
+    <guid>https://quartz.jzhao.xyz/_root</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 05:45:52 GMT</pubDate>
   </item><item>
     <title>Graph Maintenance</title>
     <link>https://quartz.jzhao.xyz/Graph-Maintenance</link>
@@ -40,30 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</guid>
     <description><![CDATA[ Anti-Pattern: Capture-Process Confusion Trying to fully process notes at capture time breaks the workflow. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Note Hoarding</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
-    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Over-Organization</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
-    <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
-    <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
-  </item><item>
-    <title>Anti-Patterns in Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
-    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
     <pubDate>Sat, 14 Mar 2026 04:54:59 GMT</pubDate>
   </item>
     </channel>
