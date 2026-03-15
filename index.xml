@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Gap - Conflicting Style-Specific Rules</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Conflicting-Style-Specific-Rules</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Conflicting-Style-Specific-Rules</guid>
+    <description><![CDATA[ Frontier Gap: Conflicting Style-Specific Rules in Creative Domains The Problem In music composition, different styles have “rules” that directly contradict each other: Classical harmony: Parallel fifths are forbidden — they create “empty” sound Jazz/pop: Parallel motion between voices is common and ... ]]></description>
+    <pubDate>Sun, 15 Mar 2026 22:22:33 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Knowledge Base Reasoning Strategies</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Base Reasoning Strategies How should an AI agent traverse and synthesize knowledge from the graph when answering queries? The Seed covers capture, structure, and maintenance — but not the reasoning strategies for using the knowledge base effectively. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 22:03:38 GMT</pubDate>
+    <pubDate>Sun, 15 Mar 2026 22:22:33 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Calibration-and-Trust-Assessment</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Calibration-and-Trust-Assessment</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Calibration and Trust Assessment How do we know whether to trust our own knowledge base enough to act on it? The Problem The Seed provides extensive guidance on: Confidence markers (high, emerging, disputed, obsolete) Source quality hierarchy (systematic reviews &gt;... ]]></description>
-    <pubDate>Sun, 15 Mar 2026 21:38:31 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Debt</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Debt Managing the maintenance burden created by shortcuts and imperfect knowledge capture The Problem Just as software accumulates technical debt from quick-and-dirty solutions, knowledge bases accumulate knowledge debt — shortcuts, compromises, and incomplete captur... ]]></description>
     <pubDate>Sun, 15 Mar 2026 21:38:31 GMT</pubDate>
   </item>
     </channel>
