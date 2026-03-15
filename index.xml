@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Gap - Music Composition Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Music-Composition-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Music-Composition-Knowledge-Bases</guid>
+    <description><![CDATA[ Seed Gap: Music Composition Knowledge Bases Identifying what the Seed is missing for building a knowledge base about music composition. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 10:14:29 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Knowledge Calibration and Trust Assessment</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Calibration-and-Trust-Assessment</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Calibration-and-Trust-Assessment</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Calibration and Trust Assessment How do we know whether to trust our own knowledge base enough to act on it? The Problem The Seed provides extensive guidance on: Confidence markers (high, emerging, disputed, obsolete) Source quality hierarchy (systematic reviews &gt;... ]]></description>
-    <pubDate>Sun, 15 Mar 2026 10:05:39 GMT</pubDate>
+    <pubDate>Sun, 15 Mar 2026 10:14:29 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Building-Knowledge-Bases-in-Unfamiliar-Domains</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Building-Knowledge-Bases-in-Unfamiliar-Domains</guid>
     <description><![CDATA[ Frontier Exploration: Building Knowledge Bases in Unfamiliar Domains What to do when the AI doesn’t understand the topic it’s helping to document The Problem The Seed assumes an AI agent can: Understand the domain it’s working in Identify what constitutes quality knowledge Recognize when knowledge i... ]]></description>
-    <pubDate>Sun, 15 Mar 2026 09:40:09 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Canonical vs Analysis Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Canonical-vs-Analysis-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Canonical-vs-Analysis-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Canonical vs Analysis Knowledge The Gap The Seed includes rules for: Primary sources vs secondary sources (legal knowledge) Illustrative vs factual examples Subjective vs objective claims Source quality hierarchy However, there’s a gap: distinguishing canonical/authoritative k... ]]></description>
     <pubDate>Sun, 15 Mar 2026 09:40:09 GMT</pubDate>
   </item>
     </channel>
