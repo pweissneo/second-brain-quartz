@@ -44,3 +44,4 @@ REFLECT --> fills backlog --> EXPLORE/AUDIT/CONNECT/DISTILL --> consumes backlog
 - [[Atomic Note Principle]]
 - [[Exportable Rules]]
 - [[The Ultimate Goal]]
+- [[Seed Improvement - Derived Knowledge Provenance]]

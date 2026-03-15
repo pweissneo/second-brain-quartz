@@ -1,6 +1,7 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: active
+review-by: 2026-03-18
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -141,7 +142,7 @@ An AI building a cooking vault using only current Seed rules would:
 ## Related Notes
 
 - [[Anti-Patterns in Knowledge Management]] — Anti-patterns and failure modes (related approach)
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Knowledge that resists capture (complementary)
+- [[Frontier Gap - Embodied Knowledge]] — Knowledge that resists capture (complementary)
 - [[Handling Contradictory Sources]] — Sources that disagree (partial overlap)
 - [[Confidence Markers]] — Current confidence framework
 - [[Frontier Exploration - Illustrative vs Factual Examples]] — Distinguishing hypothetical from real

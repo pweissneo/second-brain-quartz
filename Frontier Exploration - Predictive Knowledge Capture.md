@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-13
 confidence: emerging
 lifecycle: draft
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - temporal-knowledge

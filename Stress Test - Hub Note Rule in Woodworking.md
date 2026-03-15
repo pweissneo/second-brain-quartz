@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-09
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
 - seed-stress-test
 - woodworking-domain
@@ -146,7 +147,7 @@ In woodworking specifically:
 
 ## Related
 - [[Hub Node Creation]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Graph Traversal Efficiency]]
 - [[Atomic Note Principle]]
 - [[Knowledge Graph Structure]]

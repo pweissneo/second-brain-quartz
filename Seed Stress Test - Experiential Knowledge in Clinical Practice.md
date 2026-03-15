@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: emerging
 confidence: emerging
+author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
@@ -137,7 +138,7 @@ A note saying "auscultation involves listening to heart sounds" has:
 
 ## Related Notes
 
-- [[Seed Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Source quality in medicine
+- [[Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Source quality in medicine
 - [[Frontier Exploration - Tacit Knowledge Capture]] — Capturing hard-to-document knowledge
 - [[Confidence Markers]] — Signal reliability
-- [[Expertise-Level Dependent Knowledge]] — Who is this knowledge for?
+- [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Who is this knowledge for?

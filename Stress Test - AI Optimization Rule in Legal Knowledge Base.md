@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - ai-optimization
@@ -11,6 +11,8 @@ tags:
 ---
 
 # Stress Test: AI Agent Optimization Rule in Legal Knowledge Base
+
+> **Note:** This stress test uses hypothetical legal domain examples for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply in a legal domain, not actual vault notes.
 
 ## Seed Rule Being Tested
 **Rule:** For vaults primarily serving AI agents (RAG systems, AI agents, automated reasoning), optimize structure for retrieval precision over human comprehension.

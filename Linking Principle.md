@@ -1,9 +1,13 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-14
 lifecycle: evergreen
 confidence: high
-author-type: ai
+author-type: ai-assisted
+tags:
+  - methodology
+  - linking
+  - graph
 ---
 
 # Linking Principle
@@ -33,7 +37,7 @@ Notes must be **interconnected** through [[Wikilinks]] to form a knowledge graph
 - **Minimum**: 2-3 links per note (ensures connectivity)
 - **Maximum**: Avoid over-linking (dilutes meaning)
 - **Target**: Links that add genuine value
-- See [[Graph Navigation Best Practices]] for detailed strategies on managing link quality and quantity
+- See [[Graph Traversal Efficiency]] for detailed strategies on managing link quality and quantity
 
 ## Connection Types
 Make diverse connections:
@@ -42,6 +46,8 @@ Make diverse connections:
 - **Analogy** - Different domains, similar patterns
 - **Cause/Effect** - One explains the other
 - **Category** - Share common parent
+
+For more on the challenges of implementing diverse link types, see [[Stress Test - Diverse Link Types Rule]].
 
 ### Examples
 

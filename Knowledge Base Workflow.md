@@ -77,6 +77,8 @@ Input → Capture → Process → Connect → Maintain
 - AI systems: process within hours
 - Human systems: process within 24-48 hours
 
+See [[Seed Stress Test - 48-Hour Processing Rule in Academic Research]] for domain-specific edge cases.
+
 ### Ingestion Quality Criteria
 
 | Criterion | Test |

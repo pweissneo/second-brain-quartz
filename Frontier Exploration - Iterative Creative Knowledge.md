@@ -83,7 +83,7 @@ The Seed's sequential knowledge rules work for "follow these steps in order" but
 
 - [[Handling Temporal Knowledge]] — Covers linear sequences
 - [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — Covers branching but in diagnostic context
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Related to aesthetic judgment which is often tacit
+- [[Frontier Gap - Embodied Knowledge]] — Related to aesthetic judgment which is often tacit
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Evaluation often involves sensory assessment
 
 ## Test Case: Music Composition Knowledge Base

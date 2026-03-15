@@ -15,19 +15,20 @@ tags:
 Regular maintenance keeps the knowledge base **healthy and navigable**.
 
 ## Rule
-Perform these checks regularly (using graph MCP tools or manual inspection):
-1. **Isolated notes**: Run `graph_isolated_nodes` MCP tool — reconnect orphans
+Perform these checks regularly (using graph analysis tools or manual inspection):
+1. **Isolated notes**: Find notes with <2 outgoing links — reconnect orphans
 2. **Link density**: Ensure each note has 2-3+ links
 3. **Note size**: Check for oversized notes — split if needed
-4. **Index health**: Rebuild index with `graph_build_index` MCP tool after major changes
+4. **Index health**: Rebuild index after major changes
 
-> **Note:** Graph MCP tools (`graph_isolated_nodes`, `graph_hubs`, `graph_search`, `graph_build_index`) are environment-specific helpers. For vaults without MCP access, use manual link analysis or generic graph visualization tools.
+> **Note:** Graph analysis tools are environment-specific helpers. For vaults without specialized tools, use manual link analysis or generic graph visualization tools.
 
 ## Test Criteria (for AI Evaluation)
 - [ ] Can you find all notes with < 2 links?
 - [ ] Are all notes reachable from root in ≤3 hops?
 - [ ] Is link density between 2-5 per note?
 - [ ] Are there any notes > 300 words that need splitting?
+- [ ] Does each note have meaningful outgoing links?
 
 ## Maintenance Checklist
 - [ ] Check for isolated notes weekly
@@ -36,10 +37,10 @@ Perform these checks regularly (using graph MCP tools or manual inspection):
 - [ ] Rebuild graph index after bulk additions
 
 ## Self-Improvement Cycle
-The knowledge base should **evolve and improve itself** through regular heartbeat checks (a few times per day):
+The knowledge base should **evolve and improve itself** through regular maintenance cycles:
 
 ```
-Each heartbeat (several times daily):
+Each maintenance cycle:
 1. Pull latest changes (git pull)
 2. Read graph structure (graph_hubs, graph_search)
 3. Review health (isolated notes, link density)
@@ -47,7 +48,7 @@ Each heartbeat (several times daily):
 5. Commit and push improvements
 ```
 
-> **Note:** The 15-minute cycle in earlier versions was aspirational. Realistically, 3-4 heartbeats per day (morning, midday, afternoon, evening) provides regular maintenance without burnout.
+> **Note:** The frequency of maintenance cycles depends on vault activity. For actively growing vaults, multiple cycles per day may be appropriate. For mature vaults, weekly checks may suffice. Adjust frequency based on vault size and growth rate.
 
 ## Agent Responsibilities
 - Monitor graph health proactively
@@ -59,8 +60,7 @@ Each heartbeat (several times daily):
 ## Related
 - [[Atomic Note Principle]]
 - [[Graph Traversal Efficiency]]
-- [[Graph Navigation Best Practices]]
-- [[Graph Visualization]]
+- [[Knowledge Graph Structure]]
 - [[Frontier Exploration - Vault Health Automation]]
 - [[Self-Improvement Cycle]]
 - [[Weekly Review Process]]

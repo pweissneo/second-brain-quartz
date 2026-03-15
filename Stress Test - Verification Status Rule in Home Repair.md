@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -163,3 +163,4 @@ A simple `tested`/`unverified` binary cannot capture this complexity. The rule n
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Note Lifecycle Rule Across Domains]]
 - [[Handling Temporal Knowledge]]
+- [[Seed Improvement - Safety-Critical Knowledge Metadata]]

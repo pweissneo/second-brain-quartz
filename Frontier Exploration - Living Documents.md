@@ -61,11 +61,15 @@ These notes violate traditional atomicity because:
 
 ### Rule: Distinguish living documents from atomic notes explicitly
 
+**Rule:** Tag notes that are intentionally designed to be continuously updated with `lifecycle: living`; keep atomic notes with standard lifecycle stages (draft/active/evergreen/deprecated).
+
 **Why:** Mixing living documents with atomic knowledge creates confusion about what's "finished" and what's intentionally incomplete.
 
 **Test:** Can you categorize every note as either: (a) atomic/finished, (b) living document (continuously updated), or (c) staging (will become either a or b)?
 
 ### Rule: Living documents must have explicit entry and exit criteria
+
+**Rule:** Living documents must include explicit `inclusion-criteria` and `removal-criteria` in frontmatter, defining what qualifies for inclusion and what triggers removal.
 
 **Why:** Without criteria, living documents become dumping grounds. Clear rules about what goes in AND what triggers removal keep them useful.
 
@@ -73,13 +77,17 @@ These notes violate traditional atomicity because:
 
 ### Rule: Tag living documents with `lifecycle: living` and include `review-cadence`
 
+**Rule:** Add `review-cadence:` frontmatter (daily/weekly/monthly/quarterly) to all notes tagged `lifecycle: living` to specify how often the document should be cleaned up.
+
 **Why:** Living documents need different maintenance than finished notes. They need periodic cleanup rather than periodic review.
 
 **Test:** Do living documents have explicit review cadence (weekly, monthly, quarterly)? Is stale content actively removed?
 
 ### Rule: Consider converting living documents to atomic notes when stable
 
-**Why:** If a living document's scope becomes stable (e.g., "My 2026 Reading List" after the year ends), convert it to an archived atomic note.
+**Rule:** When a living document's scope becomes stable (e.g., "My 2026 Reading List" after the year ends), convert it to an archived timestamped atomic note and create a new living document for ongoing content.
+
+**Why:** Stable living documents contain valuable historical data that should be preserved as atomic notes while ongoing content continues in a fresh document.
 
 **Test:** Can stable living documents be converted to timestamped historical records?
 

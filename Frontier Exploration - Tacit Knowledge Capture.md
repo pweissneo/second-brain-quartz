@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-12
+last-reviewed: 2026-03-14
 lifecycle: active
 confidence: emerging
 tags:
@@ -7,8 +7,9 @@ tags:
   - tacit-knowledge
   - experiential-knowledge
   - knowledge-representation
-author-type: ai
+author-type: ai-assisted
 created: 2026-03-10
+updated-by-merge: Stress Test - Tacit Knowledge Rules in Clinical Psychology (2026-03-14)
 ---
 
 # Frontier Exploration - Tacit Knowledge Capture
@@ -59,6 +60,22 @@ This spectrum has implications for knowledge bases:
 | Cooking | Recipes, ingredients | "When it's done" |
 | Arts | Rules, techniques | Aesthetic judgment |
 
+### Clinical Psychology Example
+
+Clinical psychology and therapy have extraordinarily high tacit knowledge content:
+
+- Therapeutic rapport is felt, not taught — the "right" amount of eye contact varies by culture and client personality
+- "Reading the room" requires intuition developed through hundreds of sessions
+- Knowing when to intervene vs. stay silent
+- Detecting subtle client cues (body language, voice changes, affect shifts)
+- Managing countertransference (therapist's emotional responses to clients)
+
+**Key insight from stress testing:** Explicit frameworks (risk assessment tools, diagnostic criteria) work well, but therapeutic techniques need:
+- `experiential-component: essential|partial|none` tagging
+- `supervision-required: true` for skills needing direct oversight
+- `proxy-guidance` for tacit knowledge (how to develop the skill)
+- Explicit failure mode documentation
+
 ## Open Questions
 
 1. **Marker granularity**: Should experiential markers be binary (has experiential component / doesn't) or gradated (requires: none/some/extensive)?
@@ -102,6 +119,19 @@ When tacit knowledge can't be captured, document the failure:
 
 4. **Tacit knowledge compounds**: Each experience builds on previous ones. Capture accumulation paths, not just endpoints.
 
+5. **Explicit frameworks work for structure, not judgment**: In clinical domains, assessment tools and protocols can be documented, but the clinical intuition for when to apply them remains tacit.
+
+## Refined Test for Tacit Knowledge Domains
+
+```
+For each note in an experiential domain:
+1. Is this fully documentable or does it require practice?
+2. Can you identify what's tacit vs. explicit?
+3. Is there guidance for developing the skill?
+4. Are failure modes documented?
+5. Does it require supervision to learn safely?
+```
+
 ## Seed Rule Candidates
 
 ### Rule: Identify Tacit Knowledge Boundaries
@@ -120,6 +150,33 @@ When tacit knowledge can't be captured, document the failure:
 
 **Test**: If a note describes a process, does it acknowledge what judgment calls require experience?
 
+### Rule: Tag Experiential Component in Domain Notes
+
+> For domains where experiential knowledge is essential, include `experiential-component` frontmatter indicating what aspects require direct experience to fully understand.
+
+**Why**: Without explicit tagging, readers and AI agents cannot assess whether a note represents complete knowledge or requires practice to apply.
+
+**Test**: Pick 5 notes in an experiential domain. Can you identify which require experience to fully apply? Do they have explicit `experiential-component` markers?
+
+**Implementation**: Use gradated tags:
+```yaml
+experiential-component: none  # fully documentable
+experiential-component: partial  # core is documentable, "feel" requires experience
+experiential-component: essential  # cannot be fully captured in text
+```
+
+For high-tacit domains (clinical psychology, therapy, music performance), also include:
+```yaml
+tacit-knowledge-severity: high|medium|low
+supervision-required: true|false
+proxy-guidance:
+  - "Practice with recorded sessions"
+  - "Receive live supervision"
+failure-modes:
+  - "Acting without consultation"
+  - "Missing subtle cues"
+```
+
 ---
 
 ## Related Notes
@@ -130,5 +187,5 @@ When tacit knowledge can't be captured, document the failure:
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Stress Test - Atomicity Rule Across Domains]] (tacit knowledge handling)
 - [[Stress Test - Hub Note Rule in Woodworking]] (tacit knowledge in tool feel)
-- [[Frontier Exploration - Embodied and Performative Knowledge]] — knowledge that IS the physical execution, not just resists articulation
+- [[Frontier Gap - Embodied Knowledge]] — knowledge that IS the physical execution, not just resists articulation
 - [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]]

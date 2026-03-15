@@ -9,6 +9,9 @@ tags:
   - skill-development
   - thinking
   - methodology
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # The Last Skill
@@ -88,7 +91,8 @@ When you combine notes, new insights emerge:
 - [[The Extended Mind]]
 - [[Self-Improvement Cycle]]
 - [[The Forgetting Curve]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Atomic Note Principle]]
 - [[Emergence in Knowledge Graphs]]
 - [[Writing as Thinking]]
+- [[Knowledge Base Workflow]]

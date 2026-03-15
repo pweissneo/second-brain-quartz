@@ -1,7 +1,7 @@
 ---
 confidence: emerging
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: active
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -22,6 +22,8 @@ The Seed covers:
 - **Personal knowledge**: Insights, decisions, experiences
 
 But there's a gap: **Personal experimentation results** — specific things YOU tried that didn't work for YOUR specific context, situation, or preferences.
+
+> **Note:** This is distinct from general negative knowledge. General negative knowledge (e.g., "searing doesn't seal in juices") applies universally. Personal experimentation results apply only to your specific context.
 
 ## Why It Matters
 

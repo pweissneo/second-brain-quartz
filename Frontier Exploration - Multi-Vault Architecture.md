@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -209,8 +209,8 @@ Use a meta-layer for cross-vault search:
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Note Types and Templates]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Hub Node Creation]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Domain-Specific Knowledge Bases]]
 - [[Frontier Exploration - Living Documents]]

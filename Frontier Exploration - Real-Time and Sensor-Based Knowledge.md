@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - real-time-knowledge
@@ -120,3 +120,5 @@ An AI building a knowledge base about "my smart home" using only current Seed ru
 - [[Frontier Exploration - User Situational Constraints]] — May include time/equipment constraints
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Similar challenge in financial domain
 - [[Handling Temporal Knowledge]] — Point-in-time capture strategies
+- [[The Extended Mind]] — External knowledge and cognitive extensions
+- [[Frontier Exploration - Knowledge Debt]] — Knowledge that needs periodic refresh

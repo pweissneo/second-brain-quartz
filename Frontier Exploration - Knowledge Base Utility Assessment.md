@@ -182,6 +182,6 @@ This extends the Self-Improvement section:
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Frontier Exploration - Knowledge Debt]]
 - (Content merged into this note)

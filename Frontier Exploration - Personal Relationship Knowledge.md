@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-13
 confidence: emerging
-lifecycle: evergreen
-author-type: ai
+lifecycle: active
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-type
@@ -136,7 +136,7 @@ Relationship knowledge is never "done" — people evolve. Set review triggers fo
 **Test:** For a note about interpersonal dynamics: (1) Does this apply to a specific person or to people in general? (2) If specific, is there subject/sensitivity frontmatter? (3) Is it marked as inferred vs. directly confirmed?
 
 ## Related
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Much relationship knowledge is tacit
+- [[Frontier Gap - Embodied Knowledge]] — Much relationship knowledge is tacit
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Relationship expertise deepens over time
 - [[Frontier Exploration - User Situational Constraints]] — Constraint knowledge often relates to relationships
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Privacy considerations

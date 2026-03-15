@@ -12,6 +12,7 @@ tags:
 - scientific-research
 - legal-knowledge
 - culinary-knowledge
+- personal-finance
 ---
 
 # Stress Test: Confidence Markers Rule Across Domains
@@ -194,6 +195,79 @@ Different experts give conflicting advice:
 
 ---
 
+## Domain 4: Personal Finance/Investing
+
+Personal finance/investing knowledge bases face unique challenges that require additional confidence markers:
+- **Historical data vs predictions**: Past returns ≠ future returns
+- **Time horizon sensitivity**: Strategies valid over 30 years may fail over 5 years
+- **Market regime dependence**: Strategies work in some market conditions, not others
+- **Advice vs information**: "How tax-advantaged accounts work" (information) vs "You should max out your 401k" (advice)
+- **Backtesting illusion**: Historical simulation ≠ live performance
+
+### Does the rule make sense?
+
+**Partially.** The basic confidence markers are useful but insufficient for financial knowledge.
+
+### Personal Finance Edge Cases
+
+**Edge Case 1: Historical Facts vs Future Predictions**
+The most common error is conflating historical data with future predictions.
+
+- ❌ "Stocks return 10% annually on average" — marked `confidence: high`
+- ✅ "Stocks have returned ~10% annually from 1928-2023" — `confidence: high` (historical)
+- ⚠️ "Stocks will return ~10% annually going forward" — should be `confidence: disputed` or `confidence: emerging`
+
+**Resolution:** Add `temporal-scope:` field (historical/projected/unknown).
+
+**Edge Case 2: Time Horizon Sensitivity**
+Many investment claims are only true for specific time horizons:
+- "Stocks always recover" — True for 30-year horizons, false for 1-year
+- "Buy the dip" — Profitable over 10+ years, can lose over 1-3 years
+
+**Resolution:** Add `holding-period:` field specifying minimum time horizon.
+
+**Edge Case 3: Market Regime Dependence**
+Investment strategies perform differently in different market conditions:
+- "Bonds provide diversification" — True in normal markets, false in 2022
+- "Value outperforms growth over time" — True historically, growth dominated 2010-2021
+
+**Resolution:** Add `validity-conditions:` listing regime dependencies.
+
+**Edge Case 4: Backtesting vs Live Performance**
+Strategies validated through backtesting may fail in live trading due to transaction costs, liquidity constraints, and self-fulfilling prophecy.
+
+**Resolution:** Distinguish test methods: `test-method: backtest | live-paper | live-production`.
+
+**Edge Case 5: Advice vs Information**
+- Information: "A 401k is a tax-advantaged retirement account" — factual, can be `confidence: high`
+- Advice: "You should contribute to a 401k" — depends on individual circumstances
+
+**Resolution:** Add `advisory-type: information | analysis | recommendation` and `disclaimer-required: true` for advice.
+
+**Edge Case 6: Changing Market Conditions**
+Financial knowledge can become obsolete as markets change:
+- "Bond yields are low" — True in 2020, false in 2024
+- "REITs provide inflation hedge" — Historically true, debated post-2022
+
+**Resolution:** Shorter review intervals (6 months) for market-dependent knowledge.
+
+**Edge Case 7: Jurisdiction and Tax Knowledge**
+Financial advice varies enormously by jurisdiction - Roth IRA (US), ISA (UK), TFSA (Canada).
+
+**Resolution:** Require `jurisdiction:` metadata for tax/regulatory knowledge.
+
+### Proposed Refinement for Personal Finance
+
+> **Rule:** For investing/financial knowledge, add supplementary fields to confidence markers:
+> - `temporal-scope`: distinguishes what HAS happened from what WILL happen
+> - `holding-period`: specifies minimum time horizon for validity
+> - `validity-conditions`: documents regime/condition dependencies
+> - `test-method`: backtest | live-paper | live-production
+>
+> **Test:** For financial claims: (1) Is there confidence metadata? (2) Is temporal-scope documented? (3) Are validity conditions stated?
+
+---
+
 ## Unified Refinements
 
 ### Refinement 1: Add temporal requirement to confidence
@@ -217,6 +291,15 @@ For domain-sensitive knowledge, confidence without scope is misleading:
 - Legal: require `jurisdiction: [US, EU, UK, etc.]`
 - Scientific: require `context: [lab-reproduced, field-study, etc.]`
 - Geographic: require `region:` or `climate-zone:`
+
+### Refinement 4: Financial/investing supplementary fields
+
+For personal finance/investing knowledge:
+- `temporal-scope:` historical | projected | unknown
+- `holding-period:` N-years | any
+- `validity-conditions:` regime dependencies
+- `test-method:` backtest | live-paper | live-production
+- `advisory-type:` information | analysis | recommendation
 
 ### Refined Test for Domain-Specific Knowledge
 
@@ -245,6 +328,12 @@ For domain-sensitive knowledge, confidence without scope is misleading:
 > **Rule:** For culinary knowledge, use claim-type markers (objective/subjective/preference-dependent) in addition to confidence markers.
 > **Why:** Much cooking knowledge is subjective (taste preferences) or traditional (unscientific but proven over generations). Subjectivity markers help readers understand the nature of the claim.
 > **Test:** For culinary claims: (1) Is there confidence metadata? (2) Is there claim-type metadata? (3) For traditional claims, is source-type documented?
+
+**For personal finance/investing domains, add:**
+
+> **Rule:** For financial knowledge, include temporal-scope, holding-period, and validity-conditions in addition to confidence markers.
+> **Why:** Investment claims are often conflated with historical data; time horizons and market regimes affect validity. Supplementary fields prevent misleading confidence.
+> **Test:** For financial claims: (1) Is there confidence metadata? (2) Is temporal-scope documented? (3) Are validity conditions stated?
 
 ## Related
 - [[Confidence Markers]] — The rule being stress tested

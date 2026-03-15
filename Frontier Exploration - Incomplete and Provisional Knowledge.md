@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-quality
@@ -213,6 +213,6 @@ This pattern is especially valuable for:
 ## Related Frontier Explorations
 
 - [[Frontier Exploration - Knowledge Without Sources]] — Unverified knowledge handling
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Hard-to-articulate knowledge
+- [[Frontier Gap - Embodied Knowledge]] — Hard-to-articulate knowledge
 - [[Frontier Exploration - Knowledge Debt]] — Incomplete capture as debt
 - [[Note Lifecycle Management]] — Full lifecycle from draft to deprecated

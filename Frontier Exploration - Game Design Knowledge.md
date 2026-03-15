@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-13
 confidence: emerging
 lifecycle: active
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - game-design
@@ -41,7 +41,7 @@ affects: [other-mechanics]
 
 **Challenge:** This is inherently tacit - hard to articulate, but experienced instantly.
 
-**Covered by:** [[Frontier Exploration - Tacit Knowledge Capture]]
+**Covered by:** [[Frontier Gap - Embodied Knowledge]]
 
 **Additional Challenge:** "Feel" is game-specific - what creates flow in an action game differs from an RPG.
 
@@ -120,9 +120,9 @@ An AI building a game design knowledge base using only current Seed rules would 
 
 ## Related Notes
 
-- [[Frontier Exploration - Tacit Knowledge Capture]] — The "feel" of games
+- [[Frontier Gap - Embodied Knowledge]] — The "feel" of games
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Design iteration
-- [[Frontier Exploration - Experiential Knowledge]] — Testing knowledge in practice
+- [[Frontier Gap - Embodied Knowledge]] — The "feel" of games and experiential knowledge
 - [[Stress Test - Hub Note Rule in Woodworking]] — Similar iterative domain
 - [[Stress Test - Atomicity Rule Across Domains]] — Atomicity in mechanical systems
 

@@ -59,7 +59,7 @@ See [[Graph Traversal Efficiency]] for navigation rules.
 
 We combine:
 - [[Zettelkasten Method]] (atomic notes)
-- [[Graph Navigation Best Practices]] (agent capability)
+- [[Graph Traversal Efficiency]] (agent capability)
 - [[Hub Node Creation]] (entry points)
 
 ## Visual Comparison
@@ -109,6 +109,34 @@ PARA/Resources/
 ```
 
 This combines the best of both: top-level organization without constraining cross-topic discovery.
+
+## Graph Visualization
+
+Visualizing knowledge graphs helps spot patterns, find gaps, and navigate efficiently. This section covers tools and metrics for graph visualization.
+
+### Why Visualize
+
+Graph visualization helps:
+- Identify hub nodes and clusters
+- Find isolated notes
+- Understand connection patterns
+- Spot structural issues
+
+### Visualization Tools
+
+| Tool | Purpose |
+|------|---------|
+| Obsidian Graph View | Built-in 3D graph visualization |
+| Mermaid | Inline diagrams in notes |
+| Draw.io | External diagrams |
+| NetworkX + Python | Custom visualizations |
+
+### Metrics to Visualize
+
+- **Hub score** — Most connected notes; navigation anchors
+- **Clustering** — Topic groups of dense connections
+- **Path length** — Navigation distance (shorter is better)
+- **Isolation** — Notes with few connections, hard to discover
 
 ## Related
 - [[Zettelkasten Method]]

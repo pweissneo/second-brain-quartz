@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-13
 confidence: emerging
-author-type: ai
-lifecycle: draft
+author-type: ai-assisted
+lifecycle: active
 tags:
   - frontier-exploration
   - knowledge-types
@@ -115,7 +115,7 @@ project-drift:
 
 ## Relationship to Existing Seed Rules
 
-- Complements [[Frontier Exploration - Knowledge Applicability Boundaries]] — thresholds are specific boundary cases
+- Complements [[Types of Applicability Boundaries]] — thresholds are specific boundary cases
 - Complements [[Frontier Exploration - Probabilistic Knowledge]] — threshold knowledge often involves probability of transition
 - Complements [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — thresholds may differ by skill level
 

@@ -1,54 +1,24 @@
 ---
-last-reviewed: 2026-03-13
-lifecycle: evergreen
+last-reviewed: 2026-03-15
+lifecycle: deprecated
 confidence: high
-author-type: human
-tags:
-  - graph
-  - visualization
-  - navigation
+author-type: ai-assisted
+deprecated-by: Knowledge Graph Structure
+redirect-to: Knowledge Graph Structure
 ---
 
 # Graph Visualization
 
-Visualizing knowledge graphs helps spot patterns, find gaps, and navigate efficiently.
+> This note has been merged into [[Knowledge Graph Structure]].
 
-## Why Visualize
+## Content Moved
 
-Graph visualization helps:
-- Identify hub nodes and clusters
-- Find isolated notes
-- Understand connection patterns
-- Spot structural issues
-
-## Visualization Tools
-
-| Tool | Purpose |
-|------|---------|
-| Obsidian Graph View | Built-in 3D graph visualization |
-| Mermaid | Inline diagrams in notes |
-| Draw.io | External diagrams |
-| NetworkX + Python | Custom visualizations |
-
-## Mermaid Example
-
-```mermaid
-graph LR
-    A[Input] --> B[Capture]
-    B --> C[Process]
-    C --> D[Connect]
-    D --> E[Maintain]
-```
-
-## Metrics to Visualize
-
-- **Hub score** — Most connected notes; navigation anchors
-- **Clustering** — Topic groups of dense connections
-- **Path length** — Navigation distance (shorter is better)
-- **Isolation** — Notes with few connections, hard to discover
+The content from this note has been incorporated into [[Knowledge Graph Structure]], which now covers:
+- Why visualization matters
+- Visualization tools (Obsidian, Mermaid, Draw.io, NetworkX)
+- Metrics to visualize (hub score, clustering, path length, isolation)
 
 ## Related
-- [[Graph Navigation Best Practices]]
+- [[Knowledge Graph Structure]]
 - [[Graph Traversal Efficiency]]
 - [[Graph Maintenance]]
-- [[Knowledge Graph Structure]]

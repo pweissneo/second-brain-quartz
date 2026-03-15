@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
@@ -34,7 +35,19 @@ Cooking knowledge bases face unique challenges:
 - Edge case applies: "Is this an executable procedure? Yes"
 - Follow-up: "Would splitting make it harder to use?" → Yes
 
-**Gap:** The test doesn't tell AI HOW to handle the edge case.
+**Edge Case: Complete Short Recipes**
+A complete recipe for "Hard Boiled Eggs" can be fully functional in 80 words:
+> "Place eggs in single layer in pot. Cover with cold water 1 inch above eggs. Bring to boil. Remove from heat, cover, let sit 10 minutes. Transfer to ice bath. Peel."
+
+This is NOT a stub - it's complete and usable. The Seed test incorrectly flags it because the rule treats short notes as incomplete by default. But procedural content (recipes) has a different nature.
+
+**Refined Edge Case Test:**
+> Complete procedural content under 100 words is valid when:
+> 1. The procedure can be executed from the note alone
+> 2. All necessary information (ingredients, steps, timing) is present
+> 3. No essential steps are omitted
+>
+> **The test:** Can you execute this note's procedure without additional information? If yes, it's complete regardless of word count.
 
 **Suggested Improvement:**
 > For procedural content: If clearly executable AND meets either: (a) user must execute linearly, OR (b) splitting would lose essential context → Do NOT flag. Only split if parts are genuinely reusable AND >1000 words.
@@ -172,6 +185,7 @@ sensory-cues: "Cook until edges pull away from pan"
 | Rule | Edge Case | Solution |
 |------|-----------|----------|
 | Word count | Recipes >300 words | Don't flag if executable procedure |
+| Word count | Complete short recipes <100 words | Use execution test: can it run without additional info? |
 | 2+ links | Salt, oil, water | Use `foundational: true` |
 | No zero backlinks | Universal ingredients | Allow if referenced 10+ times indirectly |
 | Operational vs synthesized | Recipes | Recipes = permanent; meal plans = time-box |

@@ -3,7 +3,7 @@ protected: true
 last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
-author-type: ai
+author-type: ai-assisted
 ---
 # Knowledge Base Vault
 

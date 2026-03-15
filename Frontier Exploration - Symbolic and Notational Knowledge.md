@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -124,6 +124,6 @@ Current Seed temporal rules focus on sequence (A before B). But music analysis a
 
 ## Related Notes
 - [[Frontier Exploration - Multi-Modal Knowledge]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Temporal Knowledge]]
 - [[Seed Stress Test - Chess Knowledge Base]] (partial - notation in chess)

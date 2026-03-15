@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: draft
+last-reviewed: 2026-03-14
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -200,7 +200,8 @@ Knowledge debt is different from natural evolution:
 - [[Graph Maintenance]] — Structural health checks
 - [[Note Lifecycle Management]] — Evolution stages
 - [[Handling Temporal Knowledge]] — Citation debt
-- [[Seed Stress Test - Cooking Knowledge Base]] — Terminology consistency stress test (includes cooking domain examples)
+- [[Frontier Exploration - Knowledge Activation States]] — Related to staging and readiness tracking
+- [[Seed Stress Test - Craft Knowledge Bases]] — Terminology consistency stress test (includes cooking domain examples)
 - [[Self-Improvement Cycle]] — Continuous improvement
 
 ## Examples
@@ -235,3 +236,12 @@ Given a vault:
 4. Generate prioritized debt repayment plan
 5. Execute fixes in priority order
 6. Track metrics after repayment to verify improvement
+
+## Related
+
+- [[AI-Assisted Knowledge Management Seed]] — Core rules including quality criteria
+- [[Graph Maintenance]] — Health check procedures
+- [[Self-Improvement Cycle]] — Regular maintenance workflow
+- [[Anti-Patterns in Knowledge Management]] — What to avoid
+- [[Anti-Pattern - Note Hoarding]] — Related to debt accumulation
+- [[Note Lifecycle Management]] — Managing note stages and deprecation

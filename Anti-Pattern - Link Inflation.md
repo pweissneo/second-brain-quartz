@@ -40,9 +40,15 @@ Follow [[Linking Principle|quality over quantity]].
 
 For each link, can you explain in one sentence why the reader should follow it? If not, remove the link.
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does each note have fewer than 10 outgoing links?
+- [ ] Are links meaningful (pass the "why follow?" test)?
+- [ ] Do links use descriptive text, not generic "see also"?
+- [ ] Can you explain each link's purpose in one sentence?
+
 ## Related
 
-- [[Linking Principle]]
 - [[Linking Principle]]
 - [[Graph Maintenance]]
 - [[Anti-Patterns in Knowledge Management]]

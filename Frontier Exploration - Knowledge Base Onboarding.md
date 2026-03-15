@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - onboarding

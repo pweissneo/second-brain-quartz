@@ -51,7 +51,7 @@ Explain a concept simply — if you can't, you don't understand it well enough. 
 
 ## Related
 - [[Active Reading]]
-- [[Note Naming Conventions]]
+- [[note-naming-conventions]]
 - [[Progressive Summarization]]
 - [[Note Lifecycle Management]]
 - [[Atomic Note Principle]]

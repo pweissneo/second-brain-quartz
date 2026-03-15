@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - seed-refinement
   - navigation
@@ -75,7 +75,7 @@ A medical knowledge base with 7-hop paths to specific drugs is NOT broken — it
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]] — Original Seed
-- [[Seed Stress Test - Cooking Knowledge Base]] — Testing in cooking domain
+- [[Seed Stress Test - Craft Knowledge Bases]] — Testing in cooking domain
 - [[Graph Traversal Efficiency]] — Maximum 3 hops navigation
 - [[Domain-Specific Knowledge Bases]] — Adapting Seed rules for fields
 - [[Hub Node Creation]] — Creating navigation shortcuts

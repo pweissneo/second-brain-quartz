@@ -34,8 +34,15 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 - Use flat file structure with wikilinks
 - Organize by concept, not by arbitrary categories
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Is the file structure flat (no nested folders)?
+- [ ] Do notes link to each other rather than relying on folder hierarchy?
+- [ ] Are hubs created organically from content, not pre-planned?
+- [ ] Is more time spent creating content than organizing?
+
 ## Related
 
 - [[Knowledge Graph Structure]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Anti-Patterns in Knowledge Management]]

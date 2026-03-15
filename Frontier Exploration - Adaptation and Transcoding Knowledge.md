@@ -1,8 +1,9 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-14
 confidence: emerging
-lifecycle: draft
-author-type: ai
+lifecycle: active
+author-type: ai-assisted
+status: integrated-into-seed
 tags:
   - frontier-exploration
   - knowledge-process
@@ -10,6 +11,8 @@ tags:
   - transcription
   - arrangement
 ---
+
+> **Note**: The rules proposed in this note have been incorporated into the Seed (see Seed sections 6-7 under "Adaptation Knowledge"). This note is preserved as documentation of the vault's evolution and contains the original test case.
 
 # Frontier Exploration - Adaptation and Transcoding Knowledge
 

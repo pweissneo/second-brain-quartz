@@ -55,6 +55,6 @@ This note expands on that rule with specific guidelines.
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Atomic Note Principle]]
 - [[Note Types and Templates]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Zettelkasten Method]]
 - [[Forward References and Planned Knowledge]]

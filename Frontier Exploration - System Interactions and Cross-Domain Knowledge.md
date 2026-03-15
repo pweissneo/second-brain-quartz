@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - cross-domain
@@ -164,7 +164,6 @@ domain-transfer-potential:
 3. When does cross-domain synthesis create new domain knowledge vs. just connecting existing domains?
 
 ## Related Notes
-- [[Frontier Exploration - Cross-Domain Knowledge]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Trade-off Knowledge Capture]]
 - [[Prerequisite Knowledge Tracking]]

@@ -46,6 +46,13 @@ Document failures, dead ends, and warnings. Link negative knowledge to the posit
 
 For every dedicated negative knowledge note, include a link to the positive alternative. Don't let the negative overwhelm the positive.
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does the vault contain anti-pattern notes?
+- [ ] Are failure modes and warnings documented?
+- [ ] Is negative knowledge linked to positive alternatives?
+- [ ] Can you find at least 3 examples of documented failures or mistakes?
+
 ## Related
 
 - [[Anti-Patterns in Knowledge Management]]

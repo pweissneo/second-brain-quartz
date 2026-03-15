@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -57,6 +57,6 @@ The Seed doesn't distinguish between:
 
 ## Related
 - [[Confidence Markers]]
-- [[Stress Test - 3-Hops Rule in Genealogy]]
+- [[Stress Test - 3-Hops Rule in Genealogy]] → now merged into [[Seed Stress Test - Graph Density Rule in Genealogy]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Professional Advice Disclaimer Requirements]] - When advice requires disclaimers

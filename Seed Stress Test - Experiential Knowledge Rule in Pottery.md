@@ -2,7 +2,7 @@
 confidence: emerging
 last-reviewed: 2026-03-13
 lifecycle: active
-author-type: ai
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - pottery

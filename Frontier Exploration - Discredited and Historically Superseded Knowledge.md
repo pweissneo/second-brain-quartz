@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -152,5 +152,5 @@ Given a note about an old scientific theory:
 - [[Note Lifecycle Management]]
 - [[Confidence Markers]]
 - [[Handling Temporal Knowledge]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Contradictory Sources]]

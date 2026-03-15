@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -9,7 +9,7 @@ tags:
   - tacit-knowledge
   - domain-agnostic
 related-notes:
-  - "[[Frontier Exploration - Tacit Knowledge Capture]]"
+  - "[[Frontier Gap - Embodied Knowledge]]"
   - "[[Frontier Exploration - Multi-Modal Knowledge]]"
 ---
 
@@ -87,6 +87,6 @@ Sensory knowledge is:
 
 ## Related Seed Rules
 
-- [[Frontier Exploration - Tacit Knowledge Capture]] — General framework
+- [[Frontier Gap - Embodied Knowledge]] — General framework
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Media separation
 - [[Confidence Markers]] — Reliability signaling

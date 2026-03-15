@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - nursing-domain
@@ -10,6 +11,9 @@ tags:
 ---
 
 # Stress Test: 2+ Links Rule in Nursing Knowledge Base
+
+> **Note:** This stress test uses hypothetical nursing domain examples for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply in a medical domain, not actual vault notes.
+> **⚠️ The example links below are illustrative placeholders only — they do not represent actual notes and should not be treated as functional wikilinks.**
 
 ## Seed Rule Being Tested
 **Rule:** Every note must link to at least 2 other notes OR be tagged with `foundational: true`.
@@ -28,6 +32,8 @@ Nursing knowledge has unique structural challenges:
 - Patient populations create specialized branches
 
 ### Edge Cases Found
+
+> **Illustrative Examples:** The following use hypothetical nursing domain examples as teaching placeholders. Links in this section are illustrative only and do not represent actual vault notes.
 
 #### Edge Case 1: True Foundational Primitives
 
@@ -52,7 +58,7 @@ Analysis:
 **Problem:** Notes like "Pediatric Vital Signs" vs "Adult Vital Signs" — both link to "Vital Signs" but have different reference ranges.
 
 Structure:
-- [[Vital Signs]] → links to [[Pediatric Vital Signs]], [[Adult Vital Signs]], [[Vital Signs Measurement]]
+- "Vital Signs" → links to "Pediatric Vital Signs", "Adult Vital Signs", "Vital Signs Measurement"
 - Each population note links to Vital Signs + maybe 1 other
 
 Is this enough? The rule says 2+ links. These have exactly 2.
@@ -194,7 +200,7 @@ For clinical knowledge bases:
 
 ### Related
 - [[Linking Principle]]
-- [[Seed Stress Test - Cooking Knowledge Base]] — Similar linking challenges in recipe domain
+- [[Seed Stress Test - Craft Knowledge Bases]] — Similar linking challenges in recipe domain
 - [[Stress Test - Hub Note Rule in Woodworking]] — Hub structure challenges
 - [[Domain-Specific Knowledge Bases]]
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]

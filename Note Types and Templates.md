@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-14
 lifecycle: evergreen
 confidence: high
 tags:
@@ -8,6 +8,10 @@ tags:
   - structure
 author-type: ai-assisted
 level: pattern
+verification-status: community-validated
+decision-relevance: structure-creation
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Note Types and Templates
@@ -48,11 +52,26 @@ Inactive, completed, deprecated.
 
 ## Note Types by Lifecycle
 
-| Type | When Created | When Archived |
-|------|-------------|---------------|
-| Seedling | First capture | After first link |
-| Bud | First connections | After mature |
-| Evergreen | Multiple links | Never (iterated) |
+| Type | Seed Stage | Description |
+|------|------------|-------------|
+| Draft | draft | First capture, needs processing |
+| Active | active | Developing, first connections |
+| Evergreen | evergreen | Fully formed, frequently referenced |
+| Archive | deprecated | Inactive but still valid — use `lifecycle: deprecated` |
+| Archive | archived | Temporal data superseded by updated values |
+
+> **Note:** The Seed uses these lifecycle stages: draft → active → evergreen → deprecated → archived. Use "Archive" as a note TYPE when storing historical data; use the lifecycle stage (deprecated/archived) to mark status.
+
+## Thinking Tool Tagging
+
+Notes that describe cognitive strategies, reasoning frameworks, or meta-learning approaches should be tagged as thinking tools:
+
+```markdown
+thinking-tool: true
+thinking-tool-type: cognitive-strategy  # cognitive-strategy|self-regulation|reasoning-framework|bias-awareness
+```
+
+This note is tagged as a cognitive strategy because it provides a framework for organizing knowledge.
 
 ---
 
@@ -66,6 +85,14 @@ Standardized formats ensure consistency and capture all needed fields.
 ---
 tags:
   - note
+lifecycle: active
+confidence: emerging
+last-reviewed: 
+author-type: ai-assisted
+verification-status: unverified
+prerequisites:
+  required: []
+  recommended: []
 ---
 
 # [Concept Name]
@@ -92,6 +119,16 @@ Brief one-line definition.
 ### Hub Note (MOC) Template
 
 ```markdown
+---
+tags:
+  - hub
+  - [domain]
+lifecycle: evergreen
+gateway: true
+last-reviewed: 
+author-type: ai-assisted
+---
+
 # [Topic] MOC
 
 Entry point for [topic area].
@@ -122,7 +159,10 @@ Entry point for [topic area].
 tags:
   - project
   - [domain]
-status: [active|paused|completed]
+lifecycle: active
+last-reviewed: 
+activation-state: captured
+author-type: ai-assisted
 ---
 
 # [Project Name]
@@ -148,7 +188,8 @@ status: [active|paused|completed]
 ---
 tags:
   - daily-note
-date: {{YYYY-MM-DD}}
+date: YYYY-MM-DD
+lifecycle: active
 ---
 
 # Daily Notes - {{Month DD, YYYY}}

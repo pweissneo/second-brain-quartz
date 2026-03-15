@@ -23,10 +23,8 @@ At the top of each note, use YAML frontmatter:
 tags:
   - note
   - concept
-created: 2026-03-07
-modified: 2026-03-07
-author: Your Name
-source: null
+created: 2026-03-09
+modified: 2026-03-09
 ---
 ```
 
@@ -76,8 +74,8 @@ LIST FROM #note WHERE date > date(today - 7 days)
 
 ## Related
 - [[Atomic Note Principle]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Note Types and Templates]]
 - [[Wikilinks]] — Linking syntax
-- [[Note Naming Conventions]] — Naming conventions
+- [[note-naming-conventions]] — Naming conventions
 - [[Graph Maintenance]] — Graph health checks

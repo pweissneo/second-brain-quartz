@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: emerging
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-type
@@ -165,5 +165,5 @@ Also relates to:
 - [[AI-Assisted Knowledge Management Seed]]
 - [[The Knowledge Creator]]
 - [[Self-Improvement Cycle]]
-- [[Knowledge Debt]]
+- [[Frontier Exploration - Knowledge Debt]]
 - [[Note Types and Templates]]

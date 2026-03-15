@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-15
 lifecycle: evergreen
 confidence: high
 author-type: human
@@ -20,10 +20,10 @@ tags:
 
 | Agent | Config File | Purpose |
 |-------|-------------|---------|
-| **Claude** | `CLAUDE.md` | Instructions for Claude Code |
+| **Claude (Code)** | `CLAUDE.md` | Instructions for Claude Code |
+| **OpenClaw** | `CLAUDE.md` / `AGENTS.md` | Instructions for OpenClaw agents |
 | **Codex** | `AGENTS.md` | Agent behavior guidelines |
 | **Gemini** | `.gemini/rules` | Gemini instructions |
-| **OpenAI** | `instructions.md` | Custom guide |
 
 This guide focuses on **CLAUDE.md**, but principles apply to all.
 
@@ -93,7 +93,7 @@ For Codex or multi-agent setups.
 
 ## Detailed Guides
 
-- [[Graph Navigation Best Practices]] - Graph query tools
+- [[Graph Traversal Efficiency]] - Graph query tools
 - [[Sources Provenance MCP]] - Source tracking
 - [[Git Best Practices]] - Branching, commits for AI agents
 
@@ -123,4 +123,4 @@ Configure `.mcp.json` for vault navigation:
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Self-Improvement Cycle]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]

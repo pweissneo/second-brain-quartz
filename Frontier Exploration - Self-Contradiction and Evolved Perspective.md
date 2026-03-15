@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-13
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - self-improvement
   - evolution
@@ -33,9 +34,9 @@ This is different from:
 ## Current Seed Gaps
 
 The Seed covers:
-- [[Frontier Exploration - Contradictory Sources]] - External conflicts
-- [[Discredited and Historically Superseded Knowledge]] - Field-level changes
-- [[Personal Experimentation Results]] - What didn't work
+- [[Handling Contradictory Sources]] - External conflicts
+- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]] - Field-level changes
+- [[Frontier Exploration - Personal Experimentation Results]] - What didn't work
 
 But missing:
 - **Self-contradiction tracking** - Documenting your own view changes
@@ -60,6 +61,6 @@ evolution-history:
 Can you trace how your recommendation on a core topic has evolved over time? If not, you have self-contradiction debt.
 
 ## Related
-- [[Personal Experimentation Results]]
-- [[Discredited and Historically Superseded Knowledge]]
-- [[Frontier Exploration - Contradictory Sources]]
+- [[Frontier Exploration - Personal Experimentation Results]]
+- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]]
+- [[Handling Contradictory Sources]]

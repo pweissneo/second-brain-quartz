@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -140,10 +140,9 @@ Given a note that may be AI-generated:
 
 ## Related
 
-- [[AI-Assisted Knowledge Management Seed]] — Core Seed rules
+- [[AI-Assisted Knowledge Management Seed]] — Core Seed rules and verification-status field
 - [[Handling Temporal Knowledge]] — Source verification methods
 - [[Confidence Markers]] — Confidence level guidance
-- [[AI-Assisted Knowledge Management Seed]] — Procedural content verification rules (verification-status field)
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — AI-native knowledge structures
 - [[Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Source quality in practice
 

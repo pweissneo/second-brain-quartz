@@ -9,7 +9,7 @@ tags:
   - time-sensitive
   - sequential-knowledge
 level: principle
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Handling Temporal and Outdated Knowledge
@@ -363,7 +363,7 @@ This note provides comprehensive implementation guidance, covering both:
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential
-- [[Frontier Exploration - Predictive Knowledge Capture]] — Related: predictions are a specific type of temporal knowledge that cannot be verified at capture time
+- [[AI-Assisted Knowledge Management Seed]] — covers temporal knowledge including predictions
 
 ---
 

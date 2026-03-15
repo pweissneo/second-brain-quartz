@@ -5,7 +5,7 @@ lifecycle: evergreen
 tags:
   - structure
 confidence: high
-author-type: ai
+author-type: ai-assisted
 ---
 # Exportable Rules
 
@@ -114,7 +114,7 @@ See [[Knowledge Base Workflow]] for daily practice.
 ---
 
 ## MCP Tools Reference
-See [[Graph Navigation Best Practices]] for tool details.
+See [[Graph Traversal Efficiency]] for tool details.
 
 ## Quick Start Template
 ```markdown
@@ -135,7 +135,7 @@ See [[Graph Navigation Best Practices]] for tool details.
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
 - [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
 - [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
-- [[Frontier Exploration - Cross-Domain Knowledge]] - Multi-domain topics
+- [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] - Multi-domain topics
 
 ---
 
@@ -150,7 +150,7 @@ This note synthesizes guidance from the following vault notes:
 - [[Note Insertion Strategy]] - Knowledge integration process
 - [[Handling Temporal Knowledge]] - Accuracy maintenance
 - [[Knowledge Base Workflow]] - Daily practice pipeline
-- [[Graph Navigation Best Practices]] - Tool reference
+- [[Graph Traversal Efficiency]] - Tool reference
 
 ---
 

@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
@@ -234,4 +235,4 @@ Add photography-specific guidance to Seed:
 - [[Stress Test - Atomicity Rule Across Domains]] — Testing atomicity across domains
 - [[Frontier Exploration - Jargon vs Plain Language]] — Handling technical terminology
 - [[Frontier Exploration - Tool-Interface Knowledge]] — Technical tool knowledge
-- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test
+- [[Seed Stress Test - Craft Knowledge Bases]] — Another domain stress test

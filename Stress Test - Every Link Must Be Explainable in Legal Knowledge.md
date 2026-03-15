@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - legal-domain
@@ -9,6 +10,8 @@ tags:
 ---
 
 # Stress Test: Every Link Must Be Explainable in Legal Knowledge
+
+> **Note:** This stress test uses hypothetical legal domain examples for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply in a legal domain, not actual vault notes.
 
 ## Seed Rule Being Tested
 **Rule:** Every link must be explainable in one sentence — no decorative or keyword-match links.
@@ -138,6 +141,6 @@ Given a link in a legal note:
 
 ## Related
 - [[Linking Principle]]
-- [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing (includes link rules)
+- [[Seed Stress Test - Craft Knowledge Bases]] — Comprehensive stress testing (includes link rules)
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Domain-Specific Knowledge Bases]]

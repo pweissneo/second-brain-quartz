@@ -85,7 +85,7 @@ The analysis remains useful as a record of:
 
 ## Related
 
-- [[Note Prioritization Strategy]] — What to create first
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] — What to create first
 - [[Note Types and Templates]] — Different note types for different purposes
 - [[Prerequisite Knowledge Tracking]] — Managing learning progressions
 - [[AI-Assisted Knowledge Management Seed]] — The Seed being extended

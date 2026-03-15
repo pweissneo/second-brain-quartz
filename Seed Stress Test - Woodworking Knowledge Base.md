@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
@@ -84,7 +85,9 @@ Woodworking knowledge bases face distinct challenges:
 **Proposed Refinement:**
 > Add `safety-critical: true` frontmatter for notes that MUST be linked from related tool/technique notes. AI agents should flag any safety note with <2 incoming links.
 
-**Related:** [[Hub Node Creation]], [[Frontier Exploration - Equipment and Tool Dependencies]]
+See [[Seed Improvement - Safety-Critical Knowledge Metadata]] for a detailed proposal.
+
+**Related:** [[Hub Node Creation]], [[Frontier Exploration - Equipment and Tool Dependencies]], [[Stress Test - Equipment Dependencies Rule in Automotive Repair]]
 
 ---
 
@@ -240,4 +243,4 @@ Safety content is mandatory for power tools. Missing a safety link could cause i
 
 6. **Hub exemptions**: Pure navigation indexes may have zero backlinks
 
-**Related:** [[Seed Stress Test - Cooking Knowledge Base]], [[Seed Stress Test - Chess Knowledge Base]], [[Frontier Exploration - Tool-Interface Knowledge]]
+**Related:** [[Seed Stress Test - Craft Knowledge Bases]], [[Seed Stress Test - Chess Knowledge Base]], [[Frontier Exploration - Tool-Interface Knowledge]]

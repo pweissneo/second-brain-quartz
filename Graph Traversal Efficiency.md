@@ -58,9 +58,80 @@ Regularly check:
 - `graph_related` — find hidden connections
 - Rebuild index if graph feels slow
 
+## MCP Tools Reference
+
+The vault-graph MCP server provides navigation tools:
+
+### graph_search
+Find nodes by title or keywords.
+```
+graph_search(query: "atomic", limit: 5)
+```
+
+### graph_hubs
+Find the most connected nodes (entry points).
+```
+graph_hubs(limit: 10)
+```
+
+### graph_get_neighbors
+Get direct connections from a node.
+```
+graph_get_neighbors(node: "Concept.md", direction: "both")
+```
+
+### graph_get_neighbors_ranked
+Get connections sorted by relevance.
+```
+graph_get_neighbors_ranked(node: "Concept.md", limit: 10)
+```
+
+### graph_related
+Find connections 2 hops away.
+```
+graph_related(node: "Concept.md", limit: 5)
+```
+
+### graph_isolated_nodes
+Find nodes without connections.
+```
+graph_isolated_nodes()
+```
+
+### graph_build_index
+Rebuild the graph index after changes.
+```
+graph_build_index(force: true)
+```
+
+**GitHub:** https://github.com/pascalweiss/vault-graph-mcp
+
+## Graph Density Principles
+
+- **Optimal density:** 2-7 links per note (minimum 2, target 3-5, maximum 7)
+- **Quality over quantity:** Each link should add unique navigational or conceptual value
+- **Hub capping:** When a hub exceeds 10+ outgoing links, create intermediary hub notes
+- **Prune ruthlessly:** Remove decorative links that don't serve a navigation purpose
+
+See [[AI-Assisted Knowledge Management Seed]] for full rules on graph density.
+
+## Agent Navigation Workflow
+
+```mermaid
+flowchart TD
+    A[New Query] --> B{Already in Graph?}
+    B -->|Yes| C[Find via graph_search]
+    B -->|No| D[Identify related concepts]
+    D --> E[graph_related to find 2-hop connections]
+    E --> F[graph_get_neighbors_ranked]
+    F --> G[Read top results]
+    G --> H[Synthesize answer]
+```
+
 ## Related
 - [[Hub Node Creation]]
 - [[Graph Maintenance]]
 - [[Note Insertion Strategy]]
 - [[Frontier Exploration - Vault Structure and Discovery Bias]] — How structure affects what gets discovered
-- [[Stress Test - 3-Hops Rule in Genealogy]]
+- [[Stress Test - 3-Hops Rule in Genealogy]] → now merged into [[Seed Stress Test - Graph Density Rule in Genealogy]]
+- [[Graph Traversal Efficiency]] — Merged into this note

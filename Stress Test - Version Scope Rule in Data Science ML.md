@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - data-science-domain
@@ -200,4 +201,3 @@ Given a code example in a note:
 - [[Frontier Exploration - API and External Service Dependencies]]
 - [[Stress Test - Seed Rules in Programming Knowledge Bases]]
 - [[Frontier Exploration - Tool-Interface Knowledge]]
-- [[Frontier Exploration - API and External Service Dependencies]]

@@ -12,6 +12,66 @@ tags:
 
 # Stress Test: Atomicity Rule Across Domains
 
+> This note consolidates stress tests for atomicity and word count rules across multiple knowledge domains.
+
+## Merged from: Seed Stress Test - Word Count Rule.md
+
+The following findings from the Word Count Rule stress test have been integrated:
+
+### Additional Edge Cases from Word Count Testing
+
+#### 1. Reference Content Not Explicitly Covered
+
+**Problem:** The rule has edge cases for procedural content but misses reference content:
+- Drug monographs (indications, contraindications, dosage, side effects, interactions, pharmacology)
+- Device specifications
+- Anatomical entries
+- Encyclopedia-style entries
+
+**Test scenario:** A note about "Acetaminophen" covering all pharmacological aspects could be 2000+ words but is ONE drug (one "idea" by domain standards).
+
+**Proposed refinement:**
+```
+**Edge case:** Reference content (drug monographs, device specifications, encyclopedia entries, taxonomic classifications) may legitimately exceed 300 words when covering one complete reference unit. The test: (1) Is this a single reference entity? (2) Would splitting make it harder to look up? (3) Are parts not independently reusable? Keep together if yes to 1-2.
+```
+
+#### 2. Legal Documents Misclassified
+
+**Problem:** Edge case mentions "legal documents" as procedural content, but:
+- Contracts aren't executed step-by-step like recipes
+- Statutes aren't tutorials
+- Legal documents are reference content - you consult them, don't follow them
+
+**Proposed refinement:**
+```
+**Edge case:** Legal documents (contracts, statutes, regulations) are reference content, not procedural content. Apply the reference content test: (1) Is this one legal instrument? (2) Does the user consult it rather than execute it linearly? (3) Would splitting impair legal context? Keep together if yes.
+```
+
+#### 3. Hub Notes for Aggregated Collections
+
+**Problem:** Recipe collections, music playlists, reading lists - hub notes that legitimately aggregate many items may need 500+ words.
+
+**Proposed refinement:**
+```
+**Edge case:** Hub notes that aggregate many items may exceed 300 words when each item needs contextual description. The test: (1) Is this a pure navigation hub (under 200 words acceptable)? (2) Does each aggregated item need explanation beyond just a title? Expand hub if yes to 2-3.
+```
+
+#### 4. Domain Patterns vs Individual Works
+
+**Problem:** The rule covers "single creative works" but not:
+- Musical forms (sonata form, rondo form - patterns, not single works)
+- Architectural styles
+- Design patterns in software
+
+**Proposed refinement:**
+```
+**Edge case:** Domain patterns (musical forms, architectural styles, design patterns, methodological frameworks) are valid atomic units even when exceeding 300 words. The test: (1) Is this a reusable pattern rather than a single instance? (2) Does the pattern have multiple components that must be understood together? Keep together if yes.
+```
+
+---
+
+## Original Content: Atomicity Rule Across Domains
+
 Testing the atomic note principle across multiple knowledge domains to find universal patterns and domain-specific edge cases.
 
 ## Domain Comparison Summary
@@ -170,6 +230,33 @@ For concepts that evolved significantly over time:
 
 **Test:** Has this concept changed meaning over 50+ years? → Hub + spokes pattern
 
+### Edge Case 10: Equipment-Specific Procedures (Technical Domains)
+
+Some procedures ONLY apply to specific equipment or software. Example: "NINA imaging workflow" — only applies to that specific software.
+
+**Test:** Is this specific to one tool/product? → Keep as separate atomic note from general principle
+- The general principle: "imaging workflow" (general)
+- The specific implementation: "NINA workflow" (atomic to that specific tool)
+
+This applies to: photography software, programming frameworks, domain-specific tools.
+
+### Edge Case 11: Temporal Knowledge with Expiration
+
+Knowledge that changes over time (ephemeris data, yearly events, equipment models, yearly guides) needs time-boxing.
+
+**Test:** Does this knowledge have a known expiration? → Add `valid-until: YYYY-MM-DD` frontmatter
+- Link to general principles note
+- Mark with `lifecycle: transient` if appropriate
+
+This applies to: astronomy ephemeris, yearly planning guides, equipment compatibility lists, event schedules.
+
+### Edge Case 12: Large Procedural Workflows
+
+Some workflows are sequential and MUST be followed in order - splitting them makes them harder to use. Examples: astrophotography processing pipeline, CI/CD workflows, complex recipes.
+
+**Test:** (1) Does user need to execute linearly? (2) Would splitting make it harder to use? (3) Are parts independently reusable?
+If yes to 1-2 and no to 3: Keep together even if >300 words.
+
 ---
 
 ## Recommendations for Seed
@@ -184,6 +271,21 @@ Given any note:
 4. Are parts independently reusable? → Split if yes
 5. Is it a standard domain unit? → Accept brevity
 ```
+
+### Issue Found: The "And" Test is Problematic
+
+The Seed's current test states: "If the summary requires 'and', split it."
+
+This heuristic is too simplistic because:
+- "The relationship between X and Y" is ONE idea, even with "and"
+- Comparative notes like "X vs Y" are single ideas
+- Hub notes may list multiple topics but are still single navigation ideas
+- The word "and" is connective, not indicative of multiple ideas
+
+**Better test:** Use the One-Sentence Summary Test without the "and" prohibition:
+"Can this note be summarized in one sentence that captures its core purpose?"
+
+If yes → atomic. The presence of "and" in a summary is NOT a reliable indicator of multiple ideas.
 
 ### Domain-Specific Guidance
 
@@ -213,3 +315,9 @@ Given any note:
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test
 - [[Frontier Exploration - Game Design Knowledge]] — tests atomicity in mechanical systems with high interdependence
+
+---
+## Consolidation Note
+
+This note now consolidates content from the following merged files:
+- **Seed Stress Test - Word Count Rule.md** (merged 2026-03-14) — Word count and reference content edge cases

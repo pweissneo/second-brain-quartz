@@ -128,6 +128,19 @@ The difference is **content**, not structure.
 
 ---
 
+## Multilingual & International
+
+**Focus:** Content serving multiple languages or regions
+
+**Additions:**
+- Distinguish language-neutral from language-specific knowledge
+- Use language tags for filtering, not primary structure
+- Document untranslatable concepts with `language-of-origin`
+
+**See also:** [[Frontier Exploration - Multilingual Knowledge Bases]]
+
+---
+
 ## General Adaptation Steps
 
 1. **Identify hub nodes** for your domain

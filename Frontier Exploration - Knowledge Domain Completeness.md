@@ -1,22 +1,32 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: emerging
+last-reviewed: 2026-03-15
+lifecycle: deprecated
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-completeness
   - prioritization
 level: principle
-completeness-target: principle
-completeness-indicators:
-  - Hub exists for topic area
-  - Prerequisites identified
-  - Multiple entry points established
-  - Common questions can be answered
+deprecated-by: Frontier Exploration - Knowledge Prioritization and Focus Decisions
+redirect-to: Frontier Exploration - Knowledge Prioritization and Focus Decisions
 ---
 
 # Frontier Exploration: Knowledge Domain Completeness Criteria
+
+> This note has been merged into [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]].
+
+## Content Moved
+
+The content from this note has been incorporated into [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]], which now covers:
+- When to stop adding notes to a domain (completion heuristics)
+- Core coverage indicators
+- Depth indicators  
+- Saturation signs (diminishing returns)
+- Domain-specific completeness criteria
+
+## Related
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 
 ## The Problem
 
@@ -115,5 +125,5 @@ Suppose you're building a knowledge base on **photography**:
 
 - [[Frontier Exploration - Knowledge Debt]]
 - [[Note Lifecycle Management]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]]

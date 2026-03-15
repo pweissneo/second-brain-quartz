@@ -8,7 +8,7 @@ tags:
 confidence: emerging
 lifecycle: evergreen
 level: principle
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Forward References and Planned Knowledge

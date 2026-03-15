@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
 - seed-stress-test
 - gardening-domain
@@ -104,5 +105,5 @@ For gardening specifically:
 - [[Frontier Exploration - Climate-Zone-Dependent Knowledge]]
 - [[Metadata and Tagging]]
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Tool dependencies
-- [[Frontier Exploration - Knowledge Applicability Boundaries]] — Applicability scope
-- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test
+- [[Types of Applicability Boundaries]] — Applicability scope
+- [[Seed Stress Test - Craft Knowledge Bases]] — Another domain stress test

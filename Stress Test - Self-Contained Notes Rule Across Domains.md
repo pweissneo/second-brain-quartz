@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
 - seed-stress-test
 - self-contained-notes
@@ -183,6 +184,6 @@ For experiential concepts (music, cooking, physical skills):
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
-- [[Frontier Exploration - Cross-Domain Knowledge]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]

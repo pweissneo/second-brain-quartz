@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -131,5 +131,5 @@ An AI building an epidemiology vault using only current Seed rules would:
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Handling Temporal Knowledge]] — Time-dependent knowledge
 - [[Frontier Exploration - Multi-Modal Knowledge]] — Non-text media
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Knowledge that resists articulation
+- [[Frontier Gap - Embodied Knowledge]] — Knowledge that resists articulation
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Time-sensitive knowledge

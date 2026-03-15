@@ -1,6 +1,8 @@
 ---
 last-reviewed: 2026-03-13
+lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - equipment
@@ -46,8 +48,11 @@ equipment:
       next-due: YYYY-MM-DD
 ```
 
+> **Note:** This exploration proposed a Seed rule that has now been incorporated into the [[AI-Assisted Knowledge Management Seed]] (see Rule: "For equipment-intensive domains, create a maintenance knowledge layer..."). This note now serves as supplementary documentation.
+
 ## Related Notes
 
 - [[Equipment Dependencies]] — What tools are needed to execute knowledge
 - [[Procedural Knowledge]] — How to use tools
 - [[Tool Replacement Decisions]] — When to repair vs replace (future exploration)
+- [[AI-Assisted Knowledge Management Seed]] — The rule has been incorporated

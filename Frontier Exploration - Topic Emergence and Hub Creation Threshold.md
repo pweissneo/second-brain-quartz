@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-13
 lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
 - frontier-exploration
 - hub-creation
@@ -129,6 +130,6 @@ The 5-note threshold is arbitrary. What actually matters:
 
 ## Related
 - [[Hub Node Creation]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Atomic Note Principle]]
 - [[Metadata and Tagging]]

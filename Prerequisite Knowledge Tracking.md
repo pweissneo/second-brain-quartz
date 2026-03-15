@@ -7,7 +7,7 @@ tags:
   - prerequisites
   - dependencies
   - learning-paths
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Prerequisite Knowledge Tracking
@@ -60,7 +60,7 @@ Create dedicated path notes for sequential topics:
 4. → Advanced Topic D
 ```
 
-### 3. Gateway Note标记
+### 3. Gateway Note Markers
 
 Mark "gateway" notes that unlock many other topics:
 

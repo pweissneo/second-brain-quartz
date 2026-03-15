@@ -29,6 +29,11 @@ Note hoarding manifests in two ways:
 - Duplicate knowledge
 - Capturing during momentum instead of staying in flow
 
+**3. Timing Confusion:** Trying to fully process at capture time breaks the workflow:
+- Notes take hours to create
+- No distinction between quick capture and processed notes
+- Ideas lost before they can be captured
+
 ## Signs
 
 - Inbox never gets processed
@@ -38,6 +43,7 @@ Note hoarding manifests in two ways:
 - One-off conversation notes
 - Duplicate content already in vault
 - Capture breaks your flow
+- Every note takes 30+ minutes to create (trying to process at capture)
 
 ## Solution
 
@@ -47,6 +53,12 @@ Apply the capture-process separation:
 1. Quick capture to inbox
 2. Process within 48 hours
 3. Create atomic notes with links
+
+The key is the **two-phase workflow**:
+1. **Capture** - Quick save, any format, get the idea down
+2. **Process** - Transform into atomic notes with links
+
+Never try to fully process notes at capture time — it breaks your flow and leads to either no capture (ideas lost) or no processing (note hoard).
 
 Only keep what you [[Atomic Note Principle|process into atomic notes]].
 
@@ -70,11 +82,20 @@ If no → skip. Your second brain will thank you.
 | Duplicate | Already exists | Update existing note |
 | Momentum capture | Breaks flow | Jot quick note, process later |
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Is the inbox processed within 48 hours?
+- [ ] Are captured notes processed into atomic notes with links?
+- [ ] Does each note require more than a web search to obtain?
+- [ ] Are there duplicate notes that should be merged?
+- [ ] Does the vault contain more than minimal useful content?
+
 ## Related
 
 - [[Atomic Note Principle]]
 - [[Note Lifecycle Management]]
 - [[Knowledge Base Workflow]]
+- [[Progressive Summarization]]
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Vault Boundaries]]
 - [[Frontier Exploration - Knowledge Base Onboarding]]

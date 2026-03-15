@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: active
 confidence: emerging
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - prerequisites
@@ -242,4 +243,4 @@ prerequisites:
 - [[Prerequisite Knowledge Tracking]]
 - [[Frontier Exploration - Framework-Dependent Knowledge]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]

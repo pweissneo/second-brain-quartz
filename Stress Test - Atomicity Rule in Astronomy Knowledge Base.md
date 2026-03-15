@@ -8,7 +8,7 @@ tags:
 confidence: high
 lifecycle: evergreen
 level: stress-test
-author-type: ai
+author-type: ai-assisted
 ---
 
 # Stress Test: Atomicity Rule in Astronomy Knowledge Base

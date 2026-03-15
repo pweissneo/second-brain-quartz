@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 confidence: emerging
 lifecycle: active
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - parenting

@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: active
 confidence: emerging
-author-type: ai
+author-type: ai-assisted
 tags:
   - frontier-exploration
   - equivalent-alternatives
@@ -127,6 +127,6 @@ For a learning/self-improvement domain:
 - [[Frontier Exploration - Trade-off Knowledge Capture]] — Capturing what's traded off between options
 - [[Frontier Exploration - User Situational Constraints]] — Handling knowledge constrained by user context
 - [[Frontier Exploration - Competing Frameworks]] — Epistemologically different frameworks
-- [[Frontier Exploration - Knowledge Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
+- [[Types of Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
 - [[Frontier Exploration - Comparative Knowledge Structures]] — How to structure comparative knowledge
 - [[Note-Taking Methods Compared]] — Example of comparison structure in the vault

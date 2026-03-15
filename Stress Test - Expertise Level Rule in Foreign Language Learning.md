@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-11
 lifecycle: evergreen
 confidence: high
+author-type: ai-assisted
 tags:
   - seed-stress-test
   - expertise-level
@@ -212,4 +213,4 @@ The rule correctly identifies that expertise-level tagging is needed. However, s
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — AI agents need to understand expertise-level for content serving
 - [[Knowledge Graph Structure]] — Structuring knowledge
 - [[Frontier Exploration - User Situational Constraints]] — User constraint handling
-- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test
+- [[Seed Stress Test - Craft Knowledge Bases]] — Another domain stress test

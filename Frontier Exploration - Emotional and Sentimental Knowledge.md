@@ -7,7 +7,7 @@ tags:
   - emotional-knowledge
   - knowledge-representation
   - personal-knowledge
-author-type: ai
+author-type: ai-assisted
 created: 2026-03-13
 ---
 
@@ -83,7 +83,7 @@ When emotional context is **incidental** (adds flavor but knowledge stands alone
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[The Knowledge Identity]]
 - [[The Knowledge Portfolio]]
 - [[Note Lifecycle Management]]

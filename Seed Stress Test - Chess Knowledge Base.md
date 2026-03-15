@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: emerging
+author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
@@ -226,11 +227,11 @@ diagram-required: true    # Visual position essential
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Domain-Specific Knowledge Bases]]
-- [[Seed Stress Test - Cooking Knowledge Base]]
+- [[Seed Stress Test - Craft Knowledge Bases]]
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Handling Temporal Knowledge]]
-- [[Frontier Exploration - Knowledge-Type Canonical vs Analysis]]
-- [[Seed Stress Test - Experiential Knowledge Rule in Pottery]]
+- [[Frontier Exploration - Canonical vs Analysis Knowledge]]
+- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
 - [[Seed Stress Test - Self-Contained Notes in Photography]]
 - [[Stress Test - AI Optimization Rule in Legal Knowledge Base]]
 - [[Stress Test - Knowledge-Type Rule in Investing]]

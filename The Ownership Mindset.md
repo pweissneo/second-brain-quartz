@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-14
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -12,14 +12,20 @@ tags:
 
 Taking full responsibility for your knowledge.
 
+## The Core Rule
+
+> **Rule:** Own the curation, processing, and structure of your knowledge — don't delegate it to external sources or tools.
+> **Why:** Knowledge you passively consume from others lacks personal context and compounding value. Ownership ensures knowledge serves your specific needs and grows with your understanding.
+> **Test:** Can you trace every note in your vault to your own curation decision? Do you have notes that are purely copied content without personal synthesis?
+
 ## The Mindset Shift
 
-Before: Knowledge happens to you
+**Before: Knowledge happens to you**
 - Take courses someone else designed
 - Read books someone else recommended
 - Learn what "they" say is important
 
-After: You own your learning
+**After: You own your learning**
 - Design your own curriculum
 - Connect what matters to you
 - Build your own knowledge
@@ -51,6 +57,17 @@ When you own your knowledge:
 - You think better
 - You create more
 - You stand out
+
+## AI-Specific Ownership
+
+In an AI-assisted knowledge base, ownership means:
+
+1. **Prompt Ownership** - Your capture prompts reflect your thinking style, not generic templates
+2. **Linking Philosophy** - You decide how concepts connect, not just what links exist
+3. **Synthesis Direction** - You guide what insights emerge, not just what gets captured
+4. **Quality Standards** - You define what makes a note valuable for your context
+
+An AI can generate notes, but only you can provide the personal context that makes them valuable.
 
 ## Related
 - [[The Knowledge Creator]]
