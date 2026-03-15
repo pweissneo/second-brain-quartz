@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Active Reading</title>
-    <link>https://quartz.jzhao.xyz/Active-Reading</link>
-    <guid>https://quartz.jzhao.xyz/Active-Reading</guid>
-    <description><![CDATA[ Active Reading Active reading means engaging deeply with knowledge base content rather than passively consuming it. The Three Pillars 1. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Note Hoarding</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
-    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Anti-Patterns in Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
-    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Atomic Note Principle</title>
-    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
-    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
-    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Claude Knowledge Base Setup</title>
-    <link>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</link>
-    <guid>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</guid>
-    <description><![CDATA[ Claude Knowledge Base Setup How to bootstrap an AI-friendly knowledge base for Claude, Codex, Gemini, and other AI agents. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Domain Gap - Music Composition Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Domain-Gap---Music-Composition-Knowledge-Capture</guid>
-    <description><![CDATA[ Domain Gap: Music Composition Knowledge Capture The Challenge An AI building a music composition knowledge base using only current Seed rules would encounter situations where the rules are insufficient or silent. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - AI-Generated Content Verification</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</guid>
-    <description><![CDATA[ Frontier Exploration - AI-Generated Content Verification The Gap The Seed covers: Source citation requirements Confidence markers Procedural knowledge verification AI-optimized knowledge structures But there’s no explicit guidance on: How to verify that content generated by AI assistants is accurate... ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Competing Organizational Structures</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures</guid>
-    <description><![CDATA[ Frontier Exploration - Competing Organizational Structures When the same knowledge can be organized in multiple valid ways, how should an AI agent choose? The Problem Some knowledge domains have no single “correct” organizational structure. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>The Ownership Mindset</title>
+    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
+    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
+    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Context-Specific Learning Insights</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Specific-Learning-Insights</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Specific-Learning-Insights</guid>
-    <description><![CDATA[ Frontier Exploration: Context-Specific Learning Insights The Seed excels at capturing domain knowledge and general principles, but there’s a gap: how to capture knowledge about your own learning process - what works specifically for you in your specific context. ]]></description>
-    <pubDate>Sun, 15 Mar 2026 07:56:51 GMT</pubDate>
+    <title>The Last Skill</title>
+    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
+    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
+    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
+    <pubDate>Sun, 15 Mar 2026 08:35:29 GMT</pubDate>
   </item>
     </channel>
   </rss>
