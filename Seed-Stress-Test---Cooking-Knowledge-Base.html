@@ -137,7 +137,22 @@ pre:hover > .expand-button {
 <li>Edge case applies: “Is this an executable procedure? Yes”</li>
 <li>Follow-up: “Would splitting make it harder to use?” → Yes</li>
 </ul>
-<p><strong>Gap:</strong> The test doesn’t tell AI HOW to handle the edge case.</p>
+<p><strong>Edge Case: Complete Short Recipes</strong>
+A complete recipe for “Hard Boiled Eggs” can be fully functional in 80 words:</p>
+<blockquote>
+<p>“Place eggs in single layer in pot. Cover with cold water 1 inch above eggs. Bring to boil. Remove from heat, cover, let sit 10 minutes. Transfer to ice bath. Peel.”</p>
+</blockquote>
+<p>This is NOT a stub - it’s complete and usable. The Seed test incorrectly flags it because the rule treats short notes as incomplete by default. But procedural content (recipes) has a different nature.</p>
+<p><strong>Refined Edge Case Test:</strong></p>
+<blockquote>
+<p>Complete procedural content under 100 words is valid when:</p>
+<ol>
+<li>The procedure can be executed from the note alone</li>
+<li>All necessary information (ingredients, steps, timing) is present</li>
+<li>No essential steps are omitted</li>
+</ol>
+<p><strong>The test:</strong> Can you execute this note’s procedure without additional information? If yes, it’s complete regardless of word count.</p>
+</blockquote>
 <p><strong>Suggested Improvement:</strong></p>
 <blockquote>
 <p>For procedural content: If clearly executable AND meets either: (a) user must execute linearly, OR (b) splitting would lose essential context → Do NOT flag. Only split if parts are genuinely reusable AND >1000 words.</p>
@@ -361,7 +376,12 @@ Use explicit metadata: <code>foundational: true</code> tag makes test fully exec
 
 
 
-<div class="table-container"><table><thead><tr><th>Rule</th><th>Edge Case</th><th>Solution</th></tr></thead><tbody><tr><td>Word count</td><td>Recipes >300 words</td><td>Don’t flag if executable procedure</td></tr><tr><td>2+ links</td><td>Salt, oil, water</td><td>Use <code>foundational: true</code></td></tr><tr><td>No zero backlinks</td><td>Universal ingredients</td><td>Allow if referenced 10+ times indirectly</td></tr><tr><td>Operational vs synthesized</td><td>Recipes</td><td>Recipes = permanent; meal plans = time-box</td></tr><tr><td>Sequential knowledge</td><td>Parallelizable steps</td><td>Add <code>temporal-type: parallelizable</code></td></tr><tr><td>Terminology</td><td>Regional variants</td><td>Allow both with context</td></tr></tbody></table></div>
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Rule</th><th>Edge Case</th><th>Solution</th></tr></thead><tbody><tr><td>Word count</td><td>Recipes >300 words</td><td>Don’t flag if executable procedure</td></tr><tr><td>Word count</td><td>Complete short recipes &lt;100 words</td><td>Use execution test: can it run without additional info?</td></tr><tr><td>2+ links</td><td>Salt, oil, water</td><td>Use <code>foundational: true</code></td></tr><tr><td>No zero backlinks</td><td>Universal ingredients</td><td>Allow if referenced 10+ times indirectly</td></tr><tr><td>Operational vs synthesized</td><td>Recipes</td><td>Recipes = permanent; meal plans = time-box</td></tr><tr><td>Sequential knowledge</td><td>Parallelizable steps</td><td>Add <code>temporal-type: parallelizable</code></td></tr><tr><td>Terminology</td><td>Regional variants</td><td>Allow both with context</td></tr></tbody></table></div>
 <hr/>
 <h2 id="related">Related<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <ul>
