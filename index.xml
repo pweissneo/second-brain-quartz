@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:25 GMT</pubDate>
+    <title>Seed Stress Test - Photography Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Photography-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Photography-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Photography Knowledge Base Testing Seed rules in the photography domain, particularly the diminishing returns testing rule and its experiential domain edge case. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>note-naming-conventions</title>
-    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
-    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
-    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Gap - Assembly and Kit-Based Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Assembly-and-Kit-Based-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Assembly-and-Kit-Based-Knowledge</guid>
+    <description><![CDATA[ Frontier Gap: Assembly and Kit-Based Knowledge Knowledge about building, assembling, or constructing things from parts has unique characteristics that current Seed rules don’t explicitly address. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - Meta-Knowledge About Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</guid>
+    <description><![CDATA[ Frontier Exploration - Meta-Knowledge: Capturing Knowledge About Knowledge Management The Gap The Seed provides extensive rules for capturing domain knowledge but lacks guidance on capturing knowledge about the knowledge management process itself. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Triage and Overflow Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Triage-and-Overflow-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Triage-and-Overflow-Management</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Triage and Overflow Management When capture exceeds maintenance capacity, how do you decide what to keep, what to defer, and what to abandon? The Problem The Seed optimizes for growth: capture first, process second, verify later. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Debt in Growing Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt-in-Growing-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt-in-Growing-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Debt in Growing Knowledge Bases When knowledge bases grow faster than they can be maintained, “knowledge debt” accumulates — similar to technical debt in software. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Base Version Control and Change Tracking</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>Types of Applicability Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
-    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - Gardening Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Gardening-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Gardening-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Gardening Knowledge Bases Gardening presents unique knowledge management challenges that stress-test several Seed rules in ways not fully addressed by existing frontier explorations. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Frontier Exploration - AI Vault Construction Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</guid>
+    <description><![CDATA[ Frontier Exploration - AI Vault Construction Decision Framework How AI agents should make structural decisions when building knowledge bases from scratch The Problem The Seed provides extensive guidance on: How to structure individual notes (atomicity, size, formatting) How to link notes together (m... ]]></description>
+    <pubDate>Mon, 16 Mar 2026 18:54:18 GMT</pubDate>
   </item><item>
-    <title>The Ownership Mindset</title>
-    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
-    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
-    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 18:44:22 GMT</pubDate>
+    <title>Confidence Markers</title>
+    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
+    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
+    <description><![CDATA[ Confidence Markers Signal the reliability of knowledge in your vault through structured confidence levels. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
