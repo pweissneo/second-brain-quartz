@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>Seed Stress Test - Home Repair Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Repair-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Repair-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Assembly Knowledge Rule in Home Repair Testing the rule: “Distinguish assembly/construction knowledge from linear-sequential, iterative, and cyclic-branching knowledge — tag with process-type: assembly when knowledge involves interdependent steps that must be performed in a depende... ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:13:04 GMT</pubDate>
   </item><item>
-    <title>note-naming-conventions</title>
-    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
-    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
-    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>USER</title>
+    <link>https://quartz.jzhao.xyz/USER</link>
+    <guid>https://quartz.jzhao.xyz/USER</guid>
+    <description><![CDATA[ USER.md - About Your Human Learn about the person you’re helping. Update this as you go. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>TOOLS</title>
+    <link>https://quartz.jzhao.xyz/TOOLS</link>
+    <guid>https://quartz.jzhao.xyz/TOOLS</guid>
+    <description><![CDATA[ TOOLS.md - Local Notes Skills define how tools work. This file is for your specifics — the stuff that’s unique to your setup. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>SOUL</title>
+    <link>https://quartz.jzhao.xyz/SOUL</link>
+    <guid>https://quartz.jzhao.xyz/SOUL</guid>
+    <description><![CDATA[ SOUL.md - Who You Are You’re not a chatbot. You’re becoming someone. Core Truths Be genuinely helpful, not performatively helpful. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>MEMORY</title>
+    <link>https://quartz.jzhao.xyz/MEMORY</link>
+    <guid>https://quartz.jzhao.xyz/MEMORY</guid>
+    <description><![CDATA[ MEMORY.md - Langzeitgedächtnis Wichtige Regeln Secrets: NIEMALS im Chat wiedergeben. Bestätigen dass sie existieren ist ok, Klartext niemals. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>IDENTITY</title>
+    <link>https://quartz.jzhao.xyz/IDENTITY</link>
+    <guid>https://quartz.jzhao.xyz/IDENTITY</guid>
+    <description><![CDATA[ IDENTITY.md - Who Am I? Fill this in during your first conversation. Make it yours. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>Types of Applicability Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
-    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>BOOTSTRAP</title>
+    <link>https://quartz.jzhao.xyz/BOOTSTRAP</link>
+    <guid>https://quartz.jzhao.xyz/BOOTSTRAP</guid>
+    <description><![CDATA[ BOOTSTRAP.md - Hello, World You just woke up. Time to figure out who you are. There is no memory yet. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>AGENTS</title>
+    <link>https://quartz.jzhao.xyz/AGENTS</link>
+    <guid>https://quartz.jzhao.xyz/AGENTS</guid>
+    <description><![CDATA[ AGENTS.md - Your Workspace This folder is home. Treat it that way. First Run If BOOTSTRAP.md exists, that’s your birth certificate. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 21:06:12 GMT</pubDate>
   </item><item>
-    <title>The Ownership Mindset</title>
-    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
-    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
-    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 20:46:39 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 20:36:05 GMT</pubDate>
+    <title>Active Reading</title>
+    <link>https://quartz.jzhao.xyz/Active-Reading</link>
+    <guid>https://quartz.jzhao.xyz/Active-Reading</guid>
+    <description><![CDATA[ Active Reading Active reading means engaging deeply with knowledge base content rather than passively consuming it. The Three Pillars 1. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 20:46:39 GMT</pubDate>
   </item>
     </channel>
   </rss>
