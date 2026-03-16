@@ -10,7 +10,13 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:42:33 GMT</pubDate>
+    <pubDate>Mon, 16 Mar 2026 14:54:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - AI Vault Construction Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</guid>
+    <description><![CDATA[ Frontier Exploration - AI Vault Construction Decision Framework How AI agents should make structural decisions when building knowledge bases from scratch The Problem The Seed provides extensive guidance on: How to structure individual notes (atomicity, size, formatting) How to link notes together (m... ]]></description>
+    <pubDate>Mon, 16 Mar 2026 14:54:49 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Base Reasoning Strategies How should an AI agent traverse and synthesize knowledge from the graph when answering queries? The Seed covers capture, structure, and maintenance — but not the reasoning strategies for using the knowledge base effectively. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Prioritization and Focus Decisions</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Prioritization and Focus Decisions When building a knowledge base from scratch, how does an AI agent decide what to capture next? When to expand breadth vs. ]]></description>
     <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
   </item>
     </channel>
