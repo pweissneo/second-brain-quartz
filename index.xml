@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Unknown Unknowns in Vast Domains</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Unknown-Unknowns-in-Vast-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Unknown-Unknowns-in-Vast-Domains</guid>
-    <description><![CDATA[ Frontier Exploration - Unknown Unknowns in Vast Domains Notes on discovering knowledge gaps in domains where you don’t know what you don’t know. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:47:37 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Reasoning Strategies in Creative Writing</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Reasoning-Strategies-in-Creative-Writing</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Reasoning-Strategies-in-Creative-Writing</guid>
-    <description><![CDATA[ Seed Stress Test: Reasoning Strategies Rule in Creative Writing Seed Rule Being Tested Rule: Define reasoning strategies for query answering — include explicit rules for query decomposition, traversal planning, relevance scoring, confidence aggregation, and gap detection. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:47:37 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>AI-Assisted Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management How AI enhances each stage of the knowledge management pipeline. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Missing Negative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
-    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Atomic Note Principle</title>
-    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
-    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
-    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Expertise-Level Dependent Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Expertise-Level Dependent Knowledge How should a knowledge base handle knowledge that is true/valid at one expertise level but false at another? The Problem Some knowledge is expertise-level dependent: Programming: “Don’t use recursion” — good advice for beginners, bad advice ... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Illustrative vs Factual Examples</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Illustrative-vs-Factual-Examples</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Illustrative-vs-Factual-Examples</guid>
-    <description><![CDATA[ Frontier Exploration - Illustrative vs Factual Examples How to distinguish examples that illustrate concepts from examples demonstrating real-world application. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Activation States</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Activation-States</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Activation-States</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Activation States The Seed covers knowledge processing (capture → refinement → integration) but has a gap: when does captured knowledge become “ready” for use? This is distinct from lifecycle stages (draft → active → evergreen) — it’s about the readiness of the knowle... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>The Ownership Mindset</title>
+    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
+    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
+    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Base Reasoning Strategies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Reasoning Strategies How should an AI agent traverse and synthesize knowledge from the graph when answering queries? The Seed covers capture, structure, and maintenance — but not the reasoning strategies for using the knowledge base effectively. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 06:04:18 GMT</pubDate>
+    <title>The Last Skill</title>
+    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
+    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
+    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 07:34:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
