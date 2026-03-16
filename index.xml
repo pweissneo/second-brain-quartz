@@ -6,17 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Knowledge Triage and Overflow Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Triage-and-Overflow-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Triage-and-Overflow-Management</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Triage and Overflow Management When capture exceeds maintenance capacity, how do you decide what to keep, what to defer, and what to abandon? The Problem The Seed optimizes for growth: capture first, process second, verify later. ]]></description>
+    <pubDate>Mon, 16 Mar 2026 15:06:15 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Knowledge Base Version Control and Change Tracking</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:54:49 GMT</pubDate>
+    <pubDate>Mon, 16 Mar 2026 15:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - AI Vault Construction Decision Framework</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</guid>
     <description><![CDATA[ Frontier Exploration - AI Vault Construction Decision Framework How AI agents should make structural decisions when building knowledge bases from scratch The Problem The Seed provides extensive guidance on: How to structure individual notes (atomicity, size, formatting) How to link notes together (m... ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:54:49 GMT</pubDate>
+    <pubDate>Mon, 16 Mar 2026 15:06:15 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Attention-Signals</guid>
     <description><![CDATA[  ⚠️ DEPRECATED: This note is deprecated. The content on attention signals has been incorporated into Confidence Markers. Please update any references. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Base Reasoning Strategies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Reasoning Strategies How should an AI agent traverse and synthesize knowledge from the graph when answering queries? The Seed covers capture, structure, and maintenance — but not the reasoning strategies for using the knowledge base effectively. ]]></description>
     <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
   </item>
     </channel>
