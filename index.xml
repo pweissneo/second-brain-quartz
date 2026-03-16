@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Knowledge Base Version Control and Change Tracking</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
+    <pubDate>Mon, 16 Mar 2026 14:42:33 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Prioritization-and-Focus-Decisions</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Prioritization and Focus Decisions When building a knowledge base from scratch, how does an AI agent decide what to capture next? When to expand breadth vs. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Molecular and Structural Knowledge Representation</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Molecular-and-Structural-Knowledge-Representation</guid>
-    <description><![CDATA[ Frontier Exploration - Molecular and Structural Knowledge Representation The Gap The Seed covers: Text-based knowledge capture Visual literacy for creative domains (photography, design) Sensory knowledge with reference standards Multi-modal knowledge (general) But it does NOT fully cover: Molecular/... ]]></description>
     <pubDate>Mon, 16 Mar 2026 14:19:13 GMT</pubDate>
   </item>
     </channel>
