@@ -10,7 +10,7 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Unknown-Unknowns-in-Vast-Domains</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Unknown-Unknowns-in-Vast-Domains</guid>
     <description><![CDATA[ Frontier Exploration - Unknown Unknowns in Vast Domains Notes on discovering knowledge gaps in domains where you don’t know what you don’t know. ]]></description>
-    <pubDate>Mon, 16 Mar 2026 04:26:02 GMT</pubDate>
+    <pubDate>Mon, 16 Mar 2026 04:36:24 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -21,7 +21,7 @@
     <title>Seed Improvement - Derived Knowledge Provenance</title>
     <link>https://quartz.jzhao.xyz/Seed-Improvement---Derived-Knowledge-Provenance</link>
     <guid>https://quartz.jzhao.xyz/Seed-Improvement---Derived-Knowledge-Provenance</guid>
-    <description><![CDATA[ Seed Improvement - Derived Knowledge Provenance Adding provenance tracking for knowledge synthesized from other vault notes Problem The Seed tracks external source provenance (citations, access requirements) but doesn’t address knowledge derived from internal vault synthesis. ]]></description>
+    <description><![CDATA[ Seed Improvement - Derived Knowledge Provenance STATUS: This note’s content has been incorporated into the Seed (see “Derived Knowledge Provenance” section). ]]></description>
     <pubDate>Mon, 16 Mar 2026 01:11:01 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Diminishing Returns Rule in Machine Learning Data Science</title>
