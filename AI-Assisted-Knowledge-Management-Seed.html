@@ -946,6 +946,11 @@ Add <code>last-practiced: YYYY-MM-DD</code> and <code>decay-rate: physical|menta
 <strong>Test:</strong> Pick 10 notes in a domain with time/budget/equipment variation. Can you determine: (1) What constraints does this knowledge assume? (2) Are constraint assumptions explicit? (3) Could an AI filter this knowledge by user constraints?
 <strong>Edge case:</strong> Create constraint-aware hub notes for common situations: “Quick Meals (Under 30 min)”, “Budget Cooking (Under $10/day)”, “No-Oven Recipes”. These hubs aggregate approaches that work within specific constraints.
 <strong>Edge case:</strong> Constraints differ from expertise-level: a time constraint affects what approach is valid regardless of skill level. A 5-minute recipe isn’t “beginner” — it’s “time-constrained.”</p>
+<p><strong>Rule:</strong> For knowledge where multiple constraints interact (time + budget + skill + equipment), create intersection notes capturing the emergent solution space, not just the union of constraint-specific knowledge.
+<strong>Why:</strong> Single-constraint hubs miss interaction effects. A student who is both time-poor AND budget-constrained needs different advice than either constraint alone would suggest. The combination creates emergent requirements that no single constraint predicts.
+<strong>Test:</strong> For a domain with constraints A, B, C: Can you identify notes addressing A+B, B+C, A+C, AND A+B+C? If only single-constraint notes exist, the interaction space is unexplored.
+<strong>Edge case:</strong> Some constraints truly don’t interact. Don’t force intersection notes when solution space is truly additive — only create when the combination produces genuinely different outcomes.
+<strong>Implementation:</strong> Tag multi-constraint notes with <code>constraint-interaction: true</code> and list all applicable constraints with <code>constraints:</code> frontmatter.</p>
 <p><strong>Guidance: When to Split vs. Tag</strong></p>
 <p>When handling jurisdiction or region-dependent knowledge, choose between creating separate notes or using scope tags:</p>
 <ul>
