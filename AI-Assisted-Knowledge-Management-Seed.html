@@ -297,6 +297,10 @@ Every rule is domain-agnostic — works for any topic.</p>
 <p><strong>Rule:</strong> Use cross-vault links sparingly — if >1% of links cross vaults, consider merging or clarifying boundaries.
 <strong>Why:</strong> Cross-vault links are harder to maintain, don’t benefit from shared conventions, and often signal unclear vault boundaries. Most knowledge should live in one vault.
 <strong>Test:</strong> Calculate cross-vault links / total links. Is it under 1%?</p>
+<p><strong>Rule:</strong> When cross-vault knowledge is necessary, use consistent reference patterns — prefer vault alias notes (summaries with links to canonical sources) over raw duplication.
+<strong>Why:</strong> Duplication creates sync nightmares; raw links lack context. Alias notes provide local relevance while maintaining single points of truth.
+<strong>Test:</strong> For cross-vault knowledge: (1) Is there a clear canonical source? (2) Do other vaults use alias notes or direct links? (3) Can you update all instances from one location?
+<strong>Implementation:</strong> Use <code>canonical-vault:</code> and <code>local-variant:</code> frontmatter to track ownership.</p>
 <p><strong>Rule:</strong> Capture personal experimentation results — document specific things you tried that didn’t work for your specific context.
 <strong>Why:</strong> Something that works for others may not work for you. Personal experimentation results (what you tried, why it failed for you) are valid knowledge that general anti-patterns can’t capture. This helps avoid repeating failed experiments and preserves context-specific learning.
 <strong>Test:</strong> Can you list 3 things you tried that didn’t work for you? Do you have notes capturing what, why it failed, and the context?
