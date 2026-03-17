@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Seed-Rule-Conflict-Resolution</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Seed-Rule-Conflict-Resolution</guid>
     <description><![CDATA[ Frontier Exploration - Seed Rule Conflict Resolution The Gap The Seed contains 100+ rules covering foundation, atomicity, linking, navigation, quality maintenance, and knowledge processing. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 09:38:32 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 09:55:20 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Place-Specific Verification Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Place-Specific Verification Knowledge Knowledge that requires physical presence at a specific location to verify, distinct from experiential, equipment-dependent, or climate-zone knowledge. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 09:38:32 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 09:55:20 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Obsolescence by External Extinction</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence by External Extinction How to handle knowledge about things that no longer exist — discontinued products, deprecated services, ended relationships, dissolved organizations. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 09:55:20 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Exportable-Rules</link>
     <guid>https://quartz.jzhao.xyz/Exportable-Rules</guid>
     <description><![CDATA[ Exportable Rules Purpose: Drop these rules into any AI agent context file (e.g., CLAUDE.md, AGENTS.md) to bootstrap a high-quality, AI-maintained knowledge graph on any topic. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 06:38:48 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - AI Model Version Dependencies in Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - AI Model Version Dependencies in Knowledge Bases How to handle knowledge that depends on specific AI models or versions — and what happens when models change. ]]></description>
     <pubDate>Tue, 17 Mar 2026 06:38:48 GMT</pubDate>
   </item>
     </channel>
