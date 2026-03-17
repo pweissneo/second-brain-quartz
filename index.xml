@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Tool Replacement Decisions</title>
+    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
+    <description><![CDATA[ Tool Replacement Decisions 🔲 This is a stub note for a planned future topic. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 22:35:50 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Fashion and Clothing Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration: Fashion and Clothing Knowledge Bases Testing Seed rules against fashion and clothing — a domain combining technical construction knowledge, aesthetic judgment, cultural context, and personal expression. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 22:15:58 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 22:35:50 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multilingual-Knowledge-Bases</guid>
     <description><![CDATA[ DEPRECATED: Frontier Exploration - Multilingual Knowledge Bases ⚠️ This note has been merged into Frontier Exploration - Multi-Language Knowledge Bases. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 21:17:57 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Video Game Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Video-Game-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Video-Game-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Video Game Knowledge Bases How would an AI agent build a knowledge base about video games using only the current Seed rules? Where would it get stuck? Domain Overview Video game knowledge bases face unique challenges that differ significantly from other domains: Version-depende... ]]></description>
     <pubDate>Tue, 17 Mar 2026 21:17:57 GMT</pubDate>
   </item>
     </channel>
