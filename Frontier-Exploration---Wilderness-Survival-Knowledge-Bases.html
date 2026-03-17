@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Frontier Exploration - Wilderness Survival Knowledge Bases</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="Frontier Exploration - Wilderness Survival Knowledge Bases"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Frontier Exploration - Wilderness Survival Knowledge Bases"/><meta name="twitter:description" content="Frontier Exploration: Wilderness Survival Knowledge Bases Testing Seed rules in wilderness survival reveals unique challenges around safety-critical procedural knowledge, environmental specificity, and equipment-dependent techniques."/><meta property="og:description" content="Frontier Exploration: Wilderness Survival Knowledge Bases Testing Seed rules in wilderness survival reveals unique challenges around safety-critical procedural knowledge, environmental specificity, and equipment-dependent techniques."/><meta property="og:image:alt" content="Frontier Exploration: Wilderness Survival Knowledge Bases Testing Seed rules in wilderness survival reveals unique challenges around safety-critical procedural knowledge, environmental specificity, and equipment-dependent techniques."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Frontier-Exploration---Wilderness-Survival-Knowledge-Bases"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Frontier-Exploration---Wilderness-Survival-Knowledge-Bases"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Frontier Exploration: Wilderness Survival Knowledge Bases Testing Seed rules in wilderness survival reveals unique challenges around safety-critical procedural knowledge, environmental specificity, and equipment-dependent techniques."/><meta name="generator" content="Quartz"/><link href="./index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbm9kZS8ub3BlbmNsYXcvd29ya3NwYWNlL3F1YXJ0ei9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="./prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("./static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/Frontier-Exploration---Wilderness-Survival-Knowledge-Bases-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/Frontier-Exploration---Wilderness-Survival-Knowledge-Bases-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/Frontier-Exploration---Wilderness-Survival-Knowledge-Bases-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Frontier-Exploration---Wilderness-Survival-Knowledge-Bases"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href=".">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-364"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-364" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="./">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Frontier Exploration   Wilderness Survival Knowledge Bases</a></div></nav><h1 class="article-title">Frontier Exploration - Wilderness Survival Knowledge Bases</h1><p show-comma="true" class="content-meta"><time datetime="2026-03-17T11:19:12.497Z">Mar 17, 2026</time><span>9 min read</span></p><ul class="tags"><li><a href="./tags/frontier-exploration" class="internal tag-link">frontier-exploration</a></li><li><a href="./tags/survival" class="internal tag-link">survival</a></li><li><a href="./tags/safety-critical" class="internal tag-link">safety-critical</a></li><li><a href="./tags/environment-specific" class="internal tag-link">environment-specific</a></li><li><a href="./tags/experiential" class="internal tag-link">experiential</a></li></ul></div></div><article class="popover-hint"><h1 id="frontier-exploration-wilderness-survival-knowledge-bases">Frontier Exploration: Wilderness Survival Knowledge Bases<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#frontier-exploration-wilderness-survival-knowledge-bases" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Testing Seed rules in wilderness survival reveals unique challenges around safety-critical procedural knowledge, environmental specificity, and equipment-dependent techniques.</p>
+<h2 id="domain-overview">Domain Overview<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#domain-overview" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Wilderness survival knowledge bases face unique challenges:</p>
+<ul>
+<li>Safety-critical knowledge where errors can be life-threatening</li>
+<li>Environment-specific knowledge (desert, forest, arctic, mountain, water)</li>
+<li>Equipment-dependent techniques that vary by available gear</li>
+<li>Time-critical decision making under stress</li>
+<li>Experiential knowledge that requires practice to verify</li>
+<li>Conflicting survival philosophies and approaches</li>
+</ul>
+<hr/>
+<h2 id="1-atomicity-procedural-vs-decision-knowledge">1. Atomicity: Procedural vs. Decision Knowledge<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-atomicity-procedural-vs-decision-knowledge" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> Notes should be 100-300 words; procedural content may exceed if executable.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-emergency-decision-trees">Edge Case: Emergency Decision Trees<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-emergency-decision-trees" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “What to do when lost” could be:</p>
+<ul>
+<li>A linear procedure (stop, think, observe, plan)</li>
+<li>A decision tree with branches for different scenarios</li>
+</ul>
+<p><strong>Analysis:</strong> Decision trees are inherently branching, not linear. A single note with a decision tree violates atomicity by containing multiple decision paths.</p>
+<p><strong>Solution:</strong> Split decision trees into:</p>
+<ul>
+<li>Hub note: <a href="./Emergency-Decision-Framework" class="internal alias" data-slug="Emergency-Decision-Framework">Emergency Decision Framework</a></li>
+<li>Leaf notes: <a href="./When-to-Stay-vs.-Signal" class="internal alias" data-slug="When-to-Stay-vs.-Signal">When to Stay vs. Signal</a>, <a href="./Water-Procurement-Priorities" class="internal alias" data-slug="Water-Procurement-Priorities">Water Procurement Priorities</a>, <a href="./Shelter-Type-Selection" class="internal alias" data-slug="Shelter-Type-Selection">Shelter Type Selection</a></li>
+</ul>
+<p><strong>Test:</strong> For decision-tree notes: (1) Is this one decision node or multiple? (2) Can each branch be a separate actionable note? (3) Are branches linked rather than embedded?</p>
+<h3 id="edge-case-environment-specific-procedures">Edge Case: Environment-Specific Procedures<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-environment-specific-procedures" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “How to make fire” has different techniques for:</p>
+<ul>
+<li>Wet conditions (ferro rod, fire plows)</li>
+<li>Dry conditions (bow drill, Flint)</li>
+<li>High altitude (different fuel ignition points)</li>
+<li>Winter (snow insulation techniques)</li>
+</ul>
+<p><strong>Solution:</strong> Create environment-hub notes:</p>
+<ul>
+<li><a href="./Fire-Starting---Forest" class="internal alias" data-slug="Fire-Starting---Forest">Fire Starting - Forest</a></li>
+<li><a href="./Fire-Starting---Desert" class="internal alias" data-slug="Fire-Starting---Desert">Fire Starting - Desert</a></li>
+<li><a href="./Fire-Starting---Arctic" class="internal alias" data-slug="Fire-Starting---Arctic">Fire Starting - Arctic</a></li>
+<li>Each links to core principle + environment-specific variations</li>
+</ul>
+<p><strong>Test:</strong> Are environment-specific procedures linked from hub notes? Do core principles remain in the main note?</p>
+<hr/>
+<h2 id="2-safety-critical-threshold">2. Safety-Critical Threshold<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-safety-critical-threshold" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> For high-stakes domains, critical knowledge should be exempt from diminishing returns.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-when-not-to-apply-technique">Edge Case: When NOT to Apply Technique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-when-not-to-apply-technique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> Most survival notes focus on what TO do. But safety-critical knowledge often needs equal emphasis on what NOT to do.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>“Do NOT drink cactus water in desert” (will make dehydration worse)</li>
+<li>“Do NOT build shelter under dead trees in wind” (falling branches)</li>
+<li>“Do NOT eat unknown berries” (poisoning risk)</li>
+</ul>
+<p><strong>Test:</strong> For safety-critical notes: (1) Is there a “what NOT to do” section? (2) Are contra-indications explicit? (3) Is there <code>safety-warning:</code> frontmatter?</p>
+<h3 id="edge-case-risk-assessment-knowledge">Edge Case: Risk Assessment Knowledge<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-risk-assessment-knowledge" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “Cross a river” vs. “Find another way” depends on:</p>
+<ul>
+<li>Water depth and current speed</li>
+<li>Your swimming ability</li>
+<li>Gear availability</li>
+<li>Time of day</li>
+<li>Weather conditions</li>
+</ul>
+<p><strong>Solution:</strong> Add <code>risk-assessment-required: true</code> frontmatter for decisions where wrong choice has severe consequences. Include explicit risk factors.</p>
+<p><strong>Test:</strong> For time-critical survival decisions: (1) Is there a risk assessment framework? (2) Are decision thresholds explicit? (3) Is there <code>decision-urgency:</code> (critical|important|advisory)?</p>
+<hr/>
+<h2 id="3-equipment-dependency">3. Equipment Dependency<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-equipment-dependency" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> Notes about tool interactions should track software stack versions.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-gear-dependent-techniques">Edge Case: Gear-Dependent Techniques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-gear-dependent-techniques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “How to purify water” varies dramatically by available equipment:</p>
+<ul>
+<li>With filter: Use Berkey/Sawyer (follow manufacturer instructions)</li>
+<li>With tablets: Iodine or chlorine dioxide (dose by clarity)</li>
+<li>Boiling: 1 minute rolling boil (3 minutes at altitude)</li>
+<li>UV: SteriPEN (clear vs. turbid water)</li>
+<li>None: Solar disinfection (time-dependent on UV index)</li>
+</ul>
+<p><strong>Solution:</strong> Add <code>gear-required:</code> or <code>gear-optional:</code> frontmatter. Create gear-specific variant notes linked from general principle.</p>
+<p><strong>Test:</strong> For equipment-dependent procedures: (1) Is gear requirement explicit? (2) Are alternatives linked? (3) Is there <code>gear-category:</code> (filter|chemical|heat|uv|none)?</p>
+<h3 id="edge-case-improvised-alternatives">Edge Case: Improvised Alternatives<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-improvised-alternatives" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “What if you have NO equipment?” is a common survival scenario but is fundamentally different from equipment-based procedures.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>With filter: <a href="./Water-Filtration-with-Commercial-Filter" class="internal alias" data-slug="Water-Filtration-with-Commercial-Filter">Water Filtration with Commercial Filter</a></li>
+<li>Improvised: <a href="./Water-Filtration-with-Charcoal" class="internal alias" data-slug="Water-Filtration-with-Charcoal">Water Filtration with Charcoal</a>, <a href="./Distillation-from-Container" class="internal alias" data-slug="Distillation-from-Container">Distillation from Container</a></li>
+</ul>
+<p><strong>Solution:</strong> Create separate “improvised” notes for equipment-free alternatives. These are high-value because they apply when all gear is lost.</p>
+<p><strong>Test:</strong> For core survival skills: (1) Is there an improvised alternative note? (2) Are improvised techniques tested separately from equipment techniques? (3) Is there <code>technique-type: equipment|improvised|both</code>?</p>
+<hr/>
+<h2 id="4-temporal-knowledge-seasonal-and-weather">4. Temporal Knowledge: Seasonal and Weather<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-temporal-knowledge-seasonal-and-weather" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> Track temporal validity for time-sensitive knowledge.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-seasonal-technique-changes">Edge Case: Seasonal Technique Changes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-seasonal-technique-changes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> The same survival skill changes dramatically by season:</p>
+<ul>
+<li>Shelter: Summer = minimal; Winter = snow cave/insulated</li>
+<li>Water: Summer = evaporation focus; Winter = snow melting</li>
+<li>Fire: Summer = easier; Winter = harder to start, harder to maintain</li>
+</ul>
+<p><strong>Solution:</strong> Add <code>season:</code> frontmatter with values: spring|summer|autumn|winter|any. Link seasonal variants from hub.</p>
+<p><strong>Test:</strong> For survival procedures: (1) Is seasonal applicability explicit? (2) Are winter/summer variations documented? (3) Is there <code>climate-type:</code> for broader environmental categories?</p>
+<h3 id="edge-case-weather-dependent-decision-making">Edge Case: Weather-Dependent Decision Making<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-weather-dependent-decision-making" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> “Should I stay or move?” depends heavily on:</p>
+<ul>
+<li>Current weather (storm incoming?)</li>
+<li>Time of day (travel in dark?)</li>
+<li>Forecast (will it improve?)</li>
+</ul>
+<p><strong>Solution:</strong> Weather assessment should be explicit decision input. Add <code>weather-dependent: true</code> for decisions that change with weather.</p>
+<p><strong>Test:</strong> For movement/decisions: (1) Is weather considered? (2) Are weather assessment procedures linked? (3) Is there <code>weather-check-required:</code>?</p>
+<hr/>
+<h2 id="5-experiential-knowledge-feel-and-intuition">5. Experiential Knowledge: “Feel” and Intuition<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-experiential-knowledge-feel-and-intuition" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> For experiential domains, include <code>experiential-component</code> frontmatter.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-environmental-gut-feel">Edge Case: Environmental “Gut Feel”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-environmental-gut-feel" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> Experienced survivalists develop intuition:</p>
+<ul>
+<li>“The weather is about to change” (barometric pressure)</li>
+<li>“That water doesn’t look right” (contamination intuition)</li>
+<li>“I’ve been going in circles” (terrain intuition)</li>
+</ul>
+<p><strong>Solution:</strong> Add <code>experiential-component: intuition</code> for knowledge that comes from pattern recognition through extensive experience. This differs from kinesthetic (physical) and is more about environmental pattern recognition.</p>
+<p><strong>Test:</strong> For intuition-based knowledge: (1) Is there <code>experiential-component: intuition</code>? (2) Are there cues/indicators listed? (3) Is the experience level needed explicit?</p>
+<h3 id="edge-case-mental-state-under-stress">Edge Case: Mental State Under Stress<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-mental-state-under-stress" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> Survival is 10% physical, 90% mental. Knowledge about managing:</p>
+<ul>
+<li>Panic (breathing techniques, grounding)</li>
+<li>Decision fatigue (prioritization frameworks)</li>
+<li>hopelessness (motivation techniques)</li>
+</ul>
+<p><strong>Solution:</strong> Add psychological survival as a knowledge category. This is experiential because mental techniques require practice.</p>
+<p><strong>Test:</strong> For psychological survival notes: (1) Is there <code>knowledge-type: psychological</code>? (2) Are techniques tagged with <code>experiential-component: mental-practice</code>? (3) Is there <code>stress-applicability:</code> (pre-survival|during|post)?</p>
+<hr/>
+<h2 id="6-conflicting-approaches">6. Conflicting Approaches<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-conflicting-approaches" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> When sources contradict, create synthesis notes.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-competing-survival-philosophies">Edge Case: Competing Survival Philosophies<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-competing-survival-philosophies" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> Different survival schools teach fundamentally different approaches:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Philosophy</th><th>Core Belief</th><th>Key Technique</th></tr></thead><tbody><tr><td>SIT (Survive In Terrain)</td><td>Stay put, signal, wait rescue</td><td>Fire, shelter, signal</td></tr><tr><td>F.I.R.S.T.</td><td>Find water first</td><td>Water procurement priority</td></tr><tr><td>OW (Outdoor Wilderness)</td><td>Travel to civilization</td><td>Navigation, movement</td></tr><tr><td>Primitive</td><td>Use only natural materials</td><td>Improvised tools only</td></tr></tbody></table></div>
+<p><strong>Analysis:</strong> These aren’t contradictions (one isn’t “wrong”) but different philosophies with different assumptions. The Seed rule about competing frameworks applies.</p>
+<p><strong>Solution:</strong> Create philosophy hub notes. Tag knowledge with <code>survival-philosophy:</code>. Present alternatives with applicability context.</p>
+<p><strong>Test:</strong> For survival philosophy notes: (1) Are multiple approaches presented? (2) Is there <code>framework:</code> tagging? (3) Does each philosophy have explicit assumptions (situation type, available time, goals)?</p>
+<hr/>
+<h2 id="7-source-quality-credential-verification">7. Source Quality: Credential Verification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-source-quality-credential-verification" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> Track source quality for knowledge with expertise hierarchies.</p>
+<p><strong>Survival Application:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Source Type</th><th>Reliability</th><th>Example</th></tr></thead><tbody><tr><td>Military survival training</td><td>High</td><td>SAS, US Army FM 21-76</td></tr><tr><td>Professional guides</td><td>High</td><td>Wilderness First Responder</td></tr><tr><td>Published authors</td><td>Medium-High</td><td>Tom Brown Jr., Mors Kochanski</td></tr><tr><td>Online content</td><td>Variable</td><td>YouTube, blogs (variable quality)</td></tr><tr><td>Forum advice</td><td>Low</td><td>Reddit, survivalist forums</td></tr><tr><td>Social media</td><td>Very Low</td><td>TikTok, Instagram</td></tr></tbody></table></div>
+<p><strong>Test:</strong> For survival knowledge: (1) Can you identify source credentials? (2) Is there <code>source-credentials:</code> field? (3) Are military/professional sources distinguished from lay sources?</p>
+<hr/>
+<h2 id="8-verification-testing-dangerous-procedures">8. Verification: Testing Dangerous Procedures<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-verification-testing-dangerous-procedures" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Seed Rule:</strong> For dangerous procedures, use <code>verification-avoid</code> frontmatter.</p>
+<p><strong>Survival Application:</strong></p>
+<h3 id="edge-case-verification-impossible-knowledge">Edge Case: Verification-Impossible Knowledge<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#edge-case-verification-impossible-knowledge" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Problem:</strong> You cannot ethically “test” some survival knowledge:</p>
+<ul>
+<li>Will this shelter actually survive a storm?</li>
+<li>Will this water purification method actually work?</li>
+<li>Will this fire method work in real emergency?</li>
+</ul>
+<p><strong>Solution:</strong> Survival knowledge is primarily source-verified (military manuals, expert authors) rather than execution-verified. Add <code>verification-type: source-based|execution-impossible</code> distinction.</p>
+<p><strong>Test:</strong> For safety-critical survival notes: (1) Is verification type explicit? (2) Is it source-based (reputable source) vs. execution-based (tested)? (3) Is there <code>verification-source-quality:</code> for source-based verification?</p>
+<hr/>
+<h2 id="summary-of-edge-cases">Summary of Edge Cases<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#summary-of-edge-cases" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Seed Rule</th><th>Edge Case</th><th>Solution</th></tr></thead><tbody><tr><td>Atomicity</td><td>Decision trees</td><td>Split into hub + leaf notes</td></tr><tr><td>Atomicity</td><td>Environment-specific</td><td>Hub + variant pattern</td></tr><tr><td>Safety-Critical</td><td>What NOT to do</td><td>Add contra-indication sections</td></tr><tr><td>Safety-Critical</td><td>Risk assessment</td><td>Add risk-assessment-required tagging</td></tr><tr><td>Equipment Dependency</td><td>Gear-dependent techniques</td><td>Add gear-required frontmatter</td></tr><tr><td>Equipment Dependency</td><td>Improvised alternatives</td><td>Create separate improvised notes</td></tr><tr><td>Temporal</td><td>Seasonal changes</td><td>Add season frontmatter</td></tr><tr><td>Temporal</td><td>Weather-dependent</td><td>Add weather-dependent frontmatter</td></tr><tr><td>Experiential</td><td>Intuition development</td><td>Add experiential-component: intuition</td></tr><tr><td>Experiential</td><td>Mental state</td><td>Add psychological survival category</td></tr><tr><td>Competing Frameworks</td><td>Survival philosophies</td><td>Framework-hub pattern</td></tr><tr><td>Source Quality</td><td>Credentials</td><td>Add source-credentials field</td></tr><tr><td>Verification</td><td>Testing dangerous procedures</td><td>Source-based verification distinction</td></tr></tbody></table></div>
+<hr/>
+<h2 id="proposed-seed-refinements">Proposed Seed Refinements<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#proposed-seed-refinements" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-safety-warning-section-standard">1. Safety Warning Section Standard<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-safety-warning-section-standard" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For safety-critical procedural knowledge, include an explicit “What NOT to Do” or contra-indications section.
+<strong>Why:</strong> Safety-critical knowledge where errors cause harm needs explicit warnings alongside positive instructions.
+<strong>Test:</strong> For notes tagged safety-critical: (1) Is there a contra-indications section? (2) Are warnings prominent (not buried)? (3) Is there <code>safety-warning:</code> frontmatter?</p>
+</blockquote>
+<h3 id="2-risk-assessment-framework">2. Risk Assessment Framework<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-risk-assessment-framework" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For decisions with severe consequences, add <code>risk-assessment-required: true</code> frontmatter with explicit risk factors.
+<strong>Why:</strong> Some decisions have high stakes where wrong choice has severe consequences. Explicit risk factors enable better decision-making.
+<strong>Test:</strong> For high-stakes decisions: (1) Is risk-assessment-required explicit? (2) Are risk factors enumerated? (3) Is there <code>decision-urgency:</code>?</p>
+</blockquote>
+<h3 id="3-equipment-type-tagging">3. Equipment Type Tagging<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-equipment-type-tagging" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For technique notes that depend on equipment, add <code>gear-required:</code> or <code>gear-optional:</code> frontmatter with category.
+<strong>Why:</strong> Same core technique (water purification) has different procedures depending on available gear. Equipment tagging enables relevant retrieval.
+<strong>Test:</strong> For technique notes: (1) Is gear requirement explicit? (2) Are alternatives linked? (3) Is there <code>gear-category:</code>?</p>
+</blockquote>
+<h3 id="4-improvised-alternative-pattern">4. Improvised Alternative Pattern<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-improvised-alternative-pattern" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For core survival/emergency skills, create separate “improvised” notes for equipment-free alternatives.
+<strong>Why:</strong> Improvised techniques are fundamentally different (no equipment = different procedure). They apply when all gear is lost.
+<strong>Test:</strong> For core skills: (1) Is there an improvised variant? (2) Is it clearly distinguished from equipment-based? (3) Is there <code>technique-type:</code>?</p>
+</blockquote>
+<h3 id="5-seasonal-applicability">5. Seasonal Applicability<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-seasonal-applicability" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For procedures that change by season, add <code>season:</code> frontmatter with values spring|summer|autumn|winter|any.
+<strong>Why:</strong> Survival techniques vary dramatically by season. Seasonal tagging enables relevant retrieval.
+<strong>Test:</strong> For seasonal procedures: (1) Is season explicit? (2) Are variants linked? (3) Is there <code>seasonal-variation:</code>?</p>
+</blockquote>
+<h3 id="6-intuition-knowledge-type">6. Intuition Knowledge Type<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-intuition-knowledge-type" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For knowledge based on pattern recognition through extensive experience (not physical skill), add <code>experiential-component: intuition</code>.
+<strong>Why:</strong> Intuition-based knowledge differs from kinesthetic (physical feel) - it’s environmental pattern recognition. Different teaching approaches needed.
+<strong>Test:</strong> For intuition notes: (1) Is experiential-component explicit? (2) Are cues/indicators listed? (3) Is experience level needed documented?</p>
+</blockquote>
+<h3 id="7-source-based-verification-distinction">7. Source-Based Verification Distinction<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-source-based-verification-distinction" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For knowledge that cannot be execution-tested, add <code>verification-type: source-based</code> with source quality tracking.
+<strong>Why:</strong> Some knowledge (safety-critical, emergency) cannot be ethically tested. Source quality becomes the verification method.
+<strong>Test:</strong> For untestable knowledge: (1) Is verification-type explicit? (2) Is source quality tracked? (3) Is there <code>source-credentials:</code>?</p>
+</blockquote>
+<h3 id="8-survival-philosophy-framework">8. Survival Philosophy Framework<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-survival-philosophy-framework" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<blockquote>
+<p><strong>Rule:</strong> For domains with competing methodological approaches, apply framework-hub pattern with explicit assumptions documentation.
+<strong>Why:</strong> Survival philosophies (SIT vs. travel, primitive vs. modern) represent different assumptions, not right/wrong. Framework tagging enables appropriate application.
+<strong>Test:</strong> For methodology notes: (1) Is framework explicit? (2) Are assumptions documented? (3) Is applicability context provided?</p>
+</blockquote>
+<hr/>
+<h2 id="related">Related<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="./AI-Assisted-Knowledge-Management-Seed" class="internal alias" data-slug="AI-Assisted-Knowledge-Management-Seed">AI-Assisted Knowledge Management Seed</a></li>
+<li><a href="./Seed-Stress-Test---Home-Repair-Knowledge-Base" class="internal alias" data-slug="Seed-Stress-Test---Home-Repair-Knowledge-Base">Seed Stress Test - Home Repair Knowledge Base</a> — Similar safety-critical knowledge challenges</li>
+<li><a href="./Seed-Stress-Test---Sports-Coaching-Knowledge-Base" class="internal alias" data-slug="Seed-Stress-Test---Sports-Coaching-Knowledge-Base">Seed Stress Test - Sports Coaching Knowledge Base</a> — Similar experiential knowledge</li>
+<li><a href="./Frontier-Exploration---Equipment-and-Tool-Dependencies" class="internal alias" data-slug="Frontier-Exploration---Equipment-and-Tool-Dependencies">Frontier Exploration - Equipment and Tool Dependencies</a></li>
+<li><a href="./Frontier-Exploration---Seasonal-and-Cyclical-Knowledge" class="internal alias" data-slug="Frontier-Exploration---Seasonal-and-Cyclical-Knowledge">Frontier Exploration - Seasonal and Cyclical Knowledge</a></li>
+<li><a href="./Frontier-Exploration---Expert-Heuristics-and-Rules-of-Thumb" class="internal alias" data-slug="Frontier-Exploration---Expert-Heuristics-and-Rules-of-Thumb">Frontier Exploration - Expert Heuristics and Rules of Thumb</a></li>
+<li><a href="./Frontier-Exploration---Competing-Organizational-Structures" class="internal alias" data-slug="Frontier-Exploration---Competing-Organizational-Structures">Frontier Exploration - Competing Organizational Structures</a></li>
+<li><a href="./Stress-Test---Verification-Status-Rule-in-Home-Repair" class="internal alias" data-slug="Stress-Test---Verification-Status-Rule-in-Home-Repair">Stress Test - Verification Status Rule in Home Repair</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-178" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#frontier-exploration-wilderness-survival-knowledge-bases" data-for="frontier-exploration-wilderness-survival-knowledge-bases">Frontier Exploration: Wilderness Survival Knowledge Bases</a></li><li class="depth-1"><a href="#domain-overview" data-for="domain-overview">Domain Overview</a></li><li class="depth-1"><a href="#1-atomicity-procedural-vs-decision-knowledge" data-for="1-atomicity-procedural-vs-decision-knowledge">1. Atomicity: Procedural vs. Decision Knowledge</a></li><li class="depth-2"><a href="#edge-case-emergency-decision-trees" data-for="edge-case-emergency-decision-trees">Edge Case: Emergency Decision Trees</a></li><li class="depth-2"><a href="#edge-case-environment-specific-procedures" data-for="edge-case-environment-specific-procedures">Edge Case: Environment-Specific Procedures</a></li><li class="depth-1"><a href="#2-safety-critical-threshold" data-for="2-safety-critical-threshold">2. Safety-Critical Threshold</a></li><li class="depth-2"><a href="#edge-case-when-not-to-apply-technique" data-for="edge-case-when-not-to-apply-technique">Edge Case: When NOT to Apply Technique</a></li><li class="depth-2"><a href="#edge-case-risk-assessment-knowledge" data-for="edge-case-risk-assessment-knowledge">Edge Case: Risk Assessment Knowledge</a></li><li class="depth-1"><a href="#3-equipment-dependency" data-for="3-equipment-dependency">3. Equipment Dependency</a></li><li class="depth-2"><a href="#edge-case-gear-dependent-techniques" data-for="edge-case-gear-dependent-techniques">Edge Case: Gear-Dependent Techniques</a></li><li class="depth-2"><a href="#edge-case-improvised-alternatives" data-for="edge-case-improvised-alternatives">Edge Case: Improvised Alternatives</a></li><li class="depth-1"><a href="#4-temporal-knowledge-seasonal-and-weather" data-for="4-temporal-knowledge-seasonal-and-weather">4. Temporal Knowledge: Seasonal and Weather</a></li><li class="depth-2"><a href="#edge-case-seasonal-technique-changes" data-for="edge-case-seasonal-technique-changes">Edge Case: Seasonal Technique Changes</a></li><li class="depth-2"><a href="#edge-case-weather-dependent-decision-making" data-for="edge-case-weather-dependent-decision-making">Edge Case: Weather-Dependent Decision Making</a></li><li class="depth-1"><a href="#5-experiential-knowledge-feel-and-intuition" data-for="5-experiential-knowledge-feel-and-intuition">5. Experiential Knowledge: “Feel” and Intuition</a></li><li class="depth-2"><a href="#edge-case-environmental-gut-feel" data-for="edge-case-environmental-gut-feel">Edge Case: Environmental “Gut Feel”</a></li><li class="depth-2"><a href="#edge-case-mental-state-under-stress" data-for="edge-case-mental-state-under-stress">Edge Case: Mental State Under Stress</a></li><li class="depth-1"><a href="#6-conflicting-approaches" data-for="6-conflicting-approaches">6. Conflicting Approaches</a></li><li class="depth-2"><a href="#edge-case-competing-survival-philosophies" data-for="edge-case-competing-survival-philosophies">Edge Case: Competing Survival Philosophies</a></li><li class="depth-1"><a href="#7-source-quality-credential-verification" data-for="7-source-quality-credential-verification">7. Source Quality: Credential Verification</a></li><li class="depth-1"><a href="#8-verification-testing-dangerous-procedures" data-for="8-verification-testing-dangerous-procedures">8. Verification: Testing Dangerous Procedures</a></li><li class="depth-2"><a href="#edge-case-verification-impossible-knowledge" data-for="edge-case-verification-impossible-knowledge">Edge Case: Verification-Impossible Knowledge</a></li><li class="depth-1"><a href="#summary-of-edge-cases" data-for="summary-of-edge-cases">Summary of Edge Cases</a></li><li class="depth-1"><a href="#proposed-seed-refinements" data-for="proposed-seed-refinements">Proposed Seed Refinements</a></li><li class="depth-2"><a href="#1-safety-warning-section-standard" data-for="1-safety-warning-section-standard">1. Safety Warning Section Standard</a></li><li class="depth-2"><a href="#2-risk-assessment-framework" data-for="2-risk-assessment-framework">2. Risk Assessment Framework</a></li><li class="depth-2"><a href="#3-equipment-type-tagging" data-for="3-equipment-type-tagging">3. Equipment Type Tagging</a></li><li class="depth-2"><a href="#4-improvised-alternative-pattern" data-for="4-improvised-alternative-pattern">4. Improvised Alternative Pattern</a></li><li class="depth-2"><a href="#5-seasonal-applicability" data-for="5-seasonal-applicability">5. Seasonal Applicability</a></li><li class="depth-2"><a href="#6-intuition-knowledge-type" data-for="6-intuition-knowledge-type">6. Intuition Knowledge Type</a></li><li class="depth-2"><a href="#7-source-based-verification-distinction" data-for="7-source-based-verification-distinction">7. Source-Based Verification Distinction</a></li><li class="depth-2"><a href="#8-survival-philosophy-framework" data-for="8-survival-philosophy-framework">8. Survival Philosophy Framework</a></li><li class="depth-1"><a href="#related" data-for="related">Related</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="./AI-Assisted-Knowledge-Management-Seed" class="internal">AI-Assisted Knowledge Management Seed</a></li><li><a href="./Seed-Stress-Test---Wilderness-Survival-Knowledge-Base" class="internal">Seed Stress Test - Wilderness Survival Knowledge Base</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="./postscript.js" type="module" data-persist="true"></script></html>
