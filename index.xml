@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Stress Test - Equipment Dependencies Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Equipment-Dependencies-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Equipment-Dependencies-Rule-Across-Domains</guid>
-    <description><![CDATA[ Stress Test: Equipment Dependencies Rule Across Domains Seed Rule Being Tested Rule: Document physical equipment dependencies for procedural knowledge — include what tools are required, which are optional, and what alternatives exist. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 17:11:57 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Philosophy Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Philosophy-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Philosophy-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: Philosophy Knowledge Base Seed Rule Being Tested Testing Seed rules against philosophy as a domain — a discipline with unique characteristics: Highly abstract concepts Historical development of ideas Contested definitions with no consensus Thought experiments as primary units Argum... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 17:11:57 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Context-Gated Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Gated-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Gated-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Context-Gated Knowledge Knowledge that is factually correct but only applies in specific contexts. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 17:11:57 GMT</pubDate>
-  </item><item>
-    <title>Frontier Gap - Multi-Modal Knowledge Representation</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Gap---Multi-Modal-Knowledge-Representation</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Multi-Modal-Knowledge-Representation</guid>
-    <description><![CDATA[ Frontier Gap: Multi-Modal Knowledge Representation The Seed lacks comprehensive rules for knowledge that requires multiple modalities (images, audio, video, diagrams, interactive content) to be fully captured and understood. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 17:04:25 GMT</pubDate>
+    <title>Frontier Exploration - Continuous Streaming Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Continuous-Streaming-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Continuous-Streaming-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Continuous/Streaming Knowledge How should a knowledge base handle knowledge that updates continuously in real-time, not just periodically or on events? The Problem The Seed addresses: Static knowledge — facts that don’t change (principles, definitions, historical events) Time-s... ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:53:21 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:44:33 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
+  </item><item>
+    <title>Distinguishing Craft Criticism from Aesthetic Judgment</title>
+    <link>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</link>
+    <guid>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</guid>
+    <description><![CDATA[ Distinguishing Craft Criticism from Aesthetic Judgment In creative domains, evaluative claims fall into two fundamentally different categories: craft criticism (verifiable, objective) and aesthetic judgment (subjective, opinion-based). ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Context-Gated Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Gated-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Gated-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Context-Gated Knowledge Knowledge that is factually correct but only applies in specific contexts. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Expertise-Level Dependent Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Expertise-Level Dependent Knowledge How should a knowledge base handle knowledge that is true/valid at one expertise level but false at another? The Problem Some knowledge is expertise-level dependent: Programming: “Don’t use recursion” — good advice for beginners, bad advice ... ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Gardening Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Gardening-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Gardening-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Gardening Knowledge Bases Gardening presents unique knowledge management challenges that stress-test several Seed rules in ways not fully addressed by existing frontier explorations. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:44:33 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Vault Growth Velocity and Sustainable Expansion</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Growth-Velocity-and-Sustainable-Expansion</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Growth-Velocity-and-Sustainable-Expansion</guid>
-    <description><![CDATA[ Frontier Exploration: Vault Growth Velocity and Sustainable Expansion The Problem The Seed provides extensive guidance on: How to add knowledge (diminishing returns testing, priority signals) How to process knowledge (48-hour rule, staging states) How to verify knowledge (verification-status, activa... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:44:33 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Condition-Triggered Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Condition-Triggered Knowledge How to manage knowledge that becomes relevant based on specific conditions or states being met, not merely based on time passage. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:09:45 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Interpretive Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Interpretive Knowledge When knowledge requires judgment, taste, or personal perspective — and there’s no single right answer. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:09:45 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Base Version Control and Change Tracking</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Confidence Calibration</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Confidence-Calibration</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Confidence-Calibration</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Confidence Calibration The Gap The Seed covers confidence markers extensively but lacks systematic guidance on confidence calibration - how to set initial confidence levels for new knowledge and how to adjust them based on evidence over time. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 12:09:45 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Obsolescence Detection</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence Detection The Problem The Seed has rules for: Staleness — knowledge that was accurate but may now be outdated due to time passage (news, market data, software versions) Confidence markers — including confidence: obsolete Deprecation — marking notes as su... ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Multi-Modal Knowledge Representation</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Modal-Knowledge-Representation</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Modal-Knowledge-Representation</guid>
+    <description><![CDATA[ Frontier Exploration: Multi-Modal Knowledge Representation This note explores a gap in the current Seed: how to handle knowledge that requires multiple modalities (images, audio, video, diagrams, interactive content) to be fully captured. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 17:47:34 GMT</pubDate>
   </item>
     </channel>
   </rss>
