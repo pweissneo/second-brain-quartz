@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Seed Rule Conflict Resolution</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Seed-Rule-Conflict-Resolution</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Seed-Rule-Conflict-Resolution</guid>
+    <description><![CDATA[ Frontier Exploration - Seed Rule Conflict Resolution The Gap The Seed contains 100+ rules covering foundation, atomicity, linking, navigation, quality maintenance, and knowledge processing. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 08:43:37 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Place-Specific Verification Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Place-Specific Verification Knowledge Knowledge that requires physical presence at a specific location to verify, distinct from experiential, equipment-dependent, or climate-zone knowledge. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 08:07:15 GMT</pubDate>
+    <pubDate>Tue, 17 Mar 2026 08:43:37 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - AI Model Version Dependencies in Knowledge Bases How to handle knowledge that depends on specific AI models or versions — and what happens when models change. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 06:38:48 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Emerging Domain Bootstrapping</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Emerging-Domain-Bootstrapping</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Emerging-Domain-Bootstrapping</guid>
-    <description><![CDATA[ Frontier Exploration - Emerging Domain Bootstrapping How do you build a knowledge base in a domain with no established conventions, no existing structure, and no prior art? The Problem All Seed rules assume some existing structure to build upon: Hub notes require 5+ related notes to emerge Link dens... ]]></description>
     <pubDate>Tue, 17 Mar 2026 06:38:48 GMT</pubDate>
   </item>
     </channel>
