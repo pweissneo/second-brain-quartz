@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>AI-Assisted Knowledge Management Seed</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="AI-Assisted Knowledge Management Seed"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="AI-Assisted Knowledge Management Seed"/><meta name="twitter:description" content="AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base."/><meta property="og:description" content="AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base."/><meta property="og:image:alt" content="AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/content/AI-Assisted-Knowledge-Management-Seed"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/content/AI-Assisted-Knowledge-Management-Seed"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvbm9kZS8ub3BlbmNsYXcvd29ya3NwYWNlL3F1YXJ0ei9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/content/AI-Assisted-Knowledge-Management-Seed-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/content/AI-Assisted-Knowledge-Management-Seed-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/content/AI-Assisted-Knowledge-Management-Seed-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="content/AI-Assisted-Knowledge-Management-Seed"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-13" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../content/">content</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>AI Assisted Knowledge Management Seed</a></div></nav><h1 class="article-title">AI-Assisted Knowledge Management Seed</h1><p show-comma="true" class="content-meta"><time datetime="2026-03-10T20:51:11.000Z">Mar 10, 2026</time><span>45 min read</span></p></div></div><article class="popover-hint"><h1 id="ai-assisted-knowledge-management-seed">AI-Assisted Knowledge Management Seed<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ai-assisted-knowledge-management-seed" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>Drop this file into any vault to bootstrap a healthy, self-improving knowledge base.
+Every rule is testable by an AI agent — no human judgment required.
+Every rule is domain-agnostic — works for any topic.</p>
+</blockquote>
+<hr/>
+<h2 id="1-foundation">1. Foundation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-foundation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Rules for bootstrapping a new knowledge base.</em></p>
+<p><strong>Rule:</strong> Every vault must have a root note (<code>_root.md</code>) that states the vault’s purpose in one sentence.
+<strong>Why:</strong> Without a clear purpose, notes drift aimlessly and the graph lacks coherence.
+<strong>Test:</strong> Does <code>_root.md</code> exist? Can you extract a single-sentence purpose statement from it?</p>
+<p><strong>Rule:</strong> Establish 3 foundational convention notes before adding content — covering atomicity, linking, and navigation.
+<strong>Why:</strong> Conventions defined early prevent inconsistency; retrofitting is expensive.
+<strong>Test:</strong> Do convention notes exist? Do the 10 most recent notes reference or follow them?</p>
+<p><strong>Rule:</strong> Include a machine-readable config file (<code>.mcp.json</code> or equivalent) for AI tooling.
+<strong>Why:</strong> AI agents need graph navigation tools to evaluate and improve the vault programmatically.
+<strong>Test:</strong> Does the config file exist? Can an AI agent query the graph structure?</p>
+<p><strong>Rule:</strong> Use flat file structure with wikilinks — no nested folders.
+<strong>Why:</strong> Folders impose hierarchy that constrains discovery; links create organic, multi-dimensional structure.
+<strong>Test:</strong> Are all notes in a single directory? Are connections made via <code>[[Wikilinks]]</code>, not folder paths?</p>
+<p><strong>Rule:</strong> Ignore generated files — never commit cache, logs, or build artifacts.
+<strong>Why:</strong> Generated files bloat the repository and cause merge conflicts.
+<strong>Test:</strong> Does <code>.gitignore</code> exclude cache directories, logs, and build output?</p>
+<p><strong>Rule:</strong> Use consistent note naming — descriptive noun phrases, title case, kebab-case for filenames.
+<strong>Why:</strong> Inconsistent naming hurts search accuracy and graph readability.
+<strong>Test:</strong> Do note titles follow a consistent pattern? Can you predict a new note’s title?
+<strong>Edge case:</strong> Domain-specific abbreviations (MRI, ECG) are acceptable when they are standard terminology.</p>
+<p><strong>Rule:</strong> Distinguish conceptual notes from procedural content — atomicity applies to ideas, not to executable workflows.
+<strong>Why:</strong> Recipes, code samples, and technical specs must stay together for usability, even when >300 words. Splitting them breaks the workflow.
+<strong>Test:</strong> For notes >300 words: (1) Is this an executable procedure? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Keep together if yes to 1-2; split if yes to 3.</p>
+<p><strong>Rule:</strong> Prioritize foundational concepts before applications when bootstrapping a new vault.
+<strong>Why:</strong> Without prioritization guidance, agents face analysis paralysis. Foundations (prerequisites, core terminology, high-connectivity nodes) should exist before specialized content.
+<strong>Test:</strong> Can you identify 5+ foundational notes that other notes depend on? Are they created early in the vault’s history?</p>
+<p><strong>Rule:</strong> Treat meta-learning (learning how to learn) as a foundational skill to develop actively, not a passive ability.
+<strong>Why:</strong> Meta-learning skills compound across all domains — investing in them provides returns everywhere. A second brain is a concrete implementation of this skill.
+<strong>Test:</strong> Can you explain your learning process for a recent topic? Do you have a system for improving how you acquire, organize, and use knowledge?</p>
+<p><strong>Rule:</strong> Define explicit vault boundaries — categorize what you keep (core knowledge), what you tolerate (operational), and what you exclude (ephemeral).
+<strong>Why:</strong> Without boundaries, the vault accumulates noise, search quality degrades, and the “second brain” becomes a dumping ground. Explicit boundaries enable intentional curation.
+<strong>Test:</strong> Can you list: (1) What types of notes are always kept? (2) What types are reviewed and either integrated or deleted? (3) What types are never added? If you can’t answer these, the boundary is undefined.</p>
+<p><strong>Rule:</strong> Use a staging area (inbox) for uncategorized captures — process within 48 hours or explicitly defer with a review date.
+<strong>Why:</strong> Capture first, process second is good advice, but “process” must have a deadline. Unprocessed captures become permanent clutter.
+<strong>Test:</strong> Does an inbox exist? Are there notes older than 48 hours that aren’t marked for later review?</p>
+<p><strong>Rule:</strong> Separate operational knowledge from synthesized knowledge — project notes, meeting notes, and task lists should either be time-boxed (auto-deprecate) or clearly marked as temporary.
+<strong>Why:</strong> Operational debris looks like knowledge but isn’t. It clutters searches and misleads about the vault’s actual contents.
+<strong>Test:</strong> Pick 10 random notes. Can you categorize each as: (a) permanent knowledge, (b) time-boxed operational, or (c) should be deleted?</p>
+<p><strong>Rule:</strong> Evaluate multi-vault architecture when vaults exceed 200 notes — consider splitting when purposes, audiences, or conventions diverge significantly.
+<strong>Why:</strong> Beyond 200 notes, reorganization becomes expensive. It’s cheaper to split early based on explicit criteria than migrate later. Different purposes, audiences, or required conventions signal that separate vaults may serve better than one mega-vault.
+<strong>Test:</strong> If vault exceeds 200 notes: (1) Can you state a single unified purpose? (2) Do all notes serve that purpose? (3) Are there domains that require different conventions? (4) Do different audiences need different structures? Split if yes to 3-4; reconsider if no to 1-2.</p>
+<p><strong>Rule:</strong> Use cross-vault links sparingly — if >1% of links cross vaults, consider merging or clarifying boundaries.
+<strong>Why:</strong> Cross-vault links are harder to maintain, don’t benefit from shared conventions, and often signal unclear vault boundaries. Most knowledge should live in one vault.
+<strong>Test:</strong> Calculate cross-vault links / total links. Is it under 1%?</p>
+<p><strong>Rule:</strong> Assess harm potential before capturing personal or sensitive information — identify what to exclude or encrypt.
+<strong>Why:</strong> Knowledge that seems harmless today could cause harm if exposed (identity theft, professional liability, personal embarrassment). Pre-capture harm assessment prevents future problems. This is the inverse of vault boundaries: not just what topics to include, but what specific knowledge to exclude.
+<strong>Test:</strong> For notes containing: (1) personal identifiers, (2) financial details, (3) health information, (4) details about living individuals: Can you articulate what harm could result if this note were exposed? Is there a mitigation (encryption, isolation, exclusion)?</p>
+<p><strong>Rule:</strong> Exclude or protect knowledge about living individuals without consent — apply privacy by default.
+<strong>Why:</strong> Capturing information about others without their knowledge creates ethical and legal risk. Even in personal vaults, this principle protects against future harm.
+<strong>Test:</strong> For notes mentioning specific living people: (1) Did they consent to being recorded? (2) If no, is the note encrypted, excluded, or anonymized? (3) Could this knowledge cause them harm if exposed?</p>
+<hr/>
+<h2 id="2-atomicity">2. Atomicity<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-atomicity" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>One idea per note, properly sized.</em></p>
+<p><strong>Rule:</strong> Every note must contain exactly one idea, summarizable in one sentence.
+<strong>Why:</strong> Multi-idea notes are hard to link, hard to find, and impossible to reuse in new contexts.
+<strong>Test:</strong> Can the note be summarized in one sentence without losing its core meaning? If the summary requires “and”, split it.</p>
+<p><strong>Rule:</strong> Notes should be 100-300 words. Under 100 is too thin; over 300 likely contains multiple ideas.
+<strong>Why:</strong> Size is a reliable proxy for atomicity — oversized notes almost always bundle concepts.
+<strong>Test:</strong> Count words. Flag notes outside the 100-300 range for review. For notes >300 words: (1) Is this an executable procedure (recipe, code, tutorial, technical spec)? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Do NOT flag if yes to 1-2; flag for potential split only if yes to 3. For notes &lt;100 words: verify it has a stub marker (status: stub, todo: true) OR is a hub/redirect note.
+<strong>Edge case:</strong> Procedural content (recipes, tutorials, code samples, technical specs, reference tables, legal documents) may legitimately exceed 300 words. Use atomicity test (one idea per note) as the primary check; word count is secondary for procedural formats.
+<strong>Edge case:</strong> Comprehensive principle/explanation notes that cover multiple related sub-points in a coherent framework (e.g., “Note Lifecycle Management” covering stages, deprecation criteria, and archival guidelines) may exceed 300 words when splitting would reduce explanatory coherence. Apply the atomicity test first: does the note explore one theme comprehensively, or does it bundle unrelated ideas?
+<strong>Edge case:</strong> Educational/explanatory content that requires depth for comprehension (e.g., explaining the science behind a technique, comprehensive topic overviews, comparative analyses of variations within one category) may legitimately exceed 300 words. The test: (1) Can this note be summarized in one sentence capturing its core purpose? (2) Would splitting lose essential synthesis or context? (3) Is this one coherent topic being explored comprehensively? Keep together if yes to any.
+<strong>Test for procedural content:</strong> For notes >300 words that are procedures: (1) Does the user need to execute this linearly from start to finish? (2) Would splitting make it harder to use? (3) Are the parts independently reusable? Keep together if yes to 1-2; split only if yes to 3.</p>
+<p><strong>Rule:</strong> Notes under 50 words must either be explicitly marked as stubs (with <code>status: stub</code> or <code>todo: true</code>) or must provide sufficient substance to stand alone.
+<strong>Why:</strong> Thin notes without markers waste graph space and mislead — they appear complete but contain no real knowledge. Stubs signal intentional incompleteness; unmarkedly thin notes are quality failures.
+<strong>Test:</strong> Count words in notes under 50 words. Does each have a stub marker OR contain a complete definition/explanation that could stand alone?
+<strong>Edge case:</strong> Hub notes (pure navigation) under 200 words are acceptable. Redirect notes are acceptable. All other notes under 50 words need expansion or a stub marker.
+<strong>Edge case:</strong> Domain unit concepts — standard notation elements, measurement units, or definition-atomic concepts — may legitimately fall below 100 words. Examples: musical dynamics (piano, forte), SI units (meter, kilogram), mathematical axioms, chemical elements. These are not stubs; their brevity is inherent to their nature. Verify: (1) Is this a standard unit/notation element of the domain? (2) Would expanding it add meaning, or just padding?</p>
+<p><strong>Edge case:</strong> Single creative works (compositions, books, paintings, films) may legitimately exceed 300 words when comprehensively analyzing that specific work. The test: (1) Is this note primarily about one specific work? (2) Is the work referenced by multiple other notes? (3) Would splitting lose essential context that benefits from being unified? Keep together if yes to 2-3. Use “overview + linked deep-dives” pattern for major works with extensive analysis.</p>
+<p><strong>Rule:</strong> When splitting a note, create bidirectional links between the parts and rewire all incoming links.
+<strong>Why:</strong> Splitting without rewiring breaks navigation paths and orphans content.
+<strong>Test:</strong> After a split, do both new notes link to each other? Do all previous incoming links point to the correct part?</p>
+<p><strong>Rule:</strong> Each note must be self-contained — readable without clicking any links.
+<strong>Why:</strong> Notes that depend on external context become meaningless when links break or context shifts.
+<strong>Test:</strong> Read the note in isolation. Does it make sense without following any links?
+<strong>Edge case:</strong> In domains with building-block terminology (legal, medicine, technical fields), complete self-containment can create circular definitions or bloat. Apply the “core + supporting” distinction: (1) Core content (main concept, key definition) must be self-contained; (2) Supporting content (jurisdiction variations, related concepts, deep details) may link out; (3) Factual claims should still be verifiable even if the full source is linked.</p>
+<p><strong>Rule:</strong> Structure comparative knowledge based on the nature of the decision — single comparative note for binary choices where comparison IS the insight; separate notes with links when each option requires substantial independent development; hub + spoke for 3+ options or complex decision criteria.
+<strong>Why:</strong> Comparative knowledge serves different purposes (decision aid vs. deep understanding). The structure should match the purpose.
+<strong>Test:</strong> For a comparative note: (1) Is the primary insight “how X and Y differ” or “when to choose X vs. Y”? → Single note. (2) Does each option need 300+ words of independent content? → Separate notes. (3) Are there 3+ options OR complex decision criteria? → Hub + spoke.
+<strong>Edge case:</strong> Temporal comparisons (e.g., “2020 vs 2024 approach”) — treat as single note with version scope. Evolving comparison domains (tools, frameworks) — hub structure scales better as new options emerge.</p>
+<hr/>
+<h2 id="3-linking">3. Linking<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-linking" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Meaningful connections between notes.</em></p>
+<p><strong>Rule:</strong> Every note must link to at least 2 other notes.
+<strong>Why:</strong> Unlinked notes are invisible in the graph — they cannot be discovered through navigation.
+<strong>Test:</strong> Run an orphan scan. Flag any note with fewer than 2 outgoing links.
+<strong>Edge case:</strong> Deprecated redirect notes (notes whose only purpose is to point to a replacement) may link to only the replacement note. All other notes must have at least 2 links.
+<strong>Edge case:</strong> Foundational elements (core ingredients in cooking, basic utilities in software, fundamental concepts in any domain) may legitimately have fewer than 2 natural links — forcing connections creates decorative links that hurt more than help. Verify manually: (1) Is this a true foundation element? (2) Would added links improve navigation or just inflate the graph?</p>
+<p><strong>Rule:</strong> Every link must be explainable in one sentence — no decorative or keyword-match links.
+<strong>Why:</strong> Meaningless links inflate the graph without adding navigational or conceptual value.
+<strong>Test:</strong> For each link in a note, can you state why the reader should follow it? Remove any link where you cannot.</p>
+<p><strong>Rule:</strong> Use diverse link types — relevance, contrast, analogy, cause/effect, category membership.
+<strong>Why:</strong> Homogeneous links create a flat graph; diverse connection types enable richer traversal and insight.
+<strong>Test:</strong> Categorize links in a random sample of 5 notes. Are at least 3 different link types represented across the sample?</p>
+<p><strong>Rule:</strong> Prefer linking to existing notes over creating new ones — search before you create.
+<strong>Why:</strong> Duplicate notes fragment knowledge; linking to existing notes strengthens the graph.
+<strong>Test:</strong> Before creating a note, search the vault. Does a note covering this idea already exist?</p>
+<p><strong>Rule:</strong> Use tags for broad categorization and filtering; use links for essential relationships and navigation.
+<strong>Why:</strong> Tags and links serve different purposes — tags enable faceted search across independent dimensions, links create navigable graph structure. Conflating them loses both benefits.
+<strong>Test:</strong> Can you explain why each tag represents a category (not a specific relationship)? Can you explain why each link represents an essential connection (not just categorical membership)?</p>
+<p><strong>Rule:</strong> A note should rarely need more than 5 tags; it should link to as many notes as meaningful connections require.
+<strong>Why:</strong> Tags represent facets — too many dilute meaning. Links represent relationships — the right number depends on the note’s connectivity.
+<strong>Test:</strong> Count tags on 10 random notes. Are most under 5? Do links exceed tags in quantity for well-connected notes?</p>
+<hr/>
+<h2 id="4-navigation">4. Navigation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-navigation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>The graph must be traversable and well-structured.</em></p>
+<p><strong>Rule:</strong> Every note must be reachable from <code>_root.md</code> in 3 hops or fewer.
+<strong>Why:</strong> Deep chains indicate structural problems — important content becomes buried and undiscoverable.
+<strong>Test:</strong> Run a breadth-first traversal from <code>_root.md</code>. Flag any note requiring more than 3 hops.
+<strong>Edge case:</strong> Natural domain hierarchies (taxonomies, classification systems, geographic/regional breakdowns) may legitimately exceed 3 hops. Examples: cooking (Cuisine → Region → Dish → Recipe), medicine (Field → Specialty → Condition → Treatment), biology (Kingdom → Phylum → Class → Order → Family). Use hub notes at intermediate levels to shorten paths where possible, but don’t force artificial categorizations to flatten natural hierarchies. Verify: (1) Does this path reflect a genuine domain taxonomy? (2) Would adding a hub at an intermediate level improve discoverability? (3) Is the deep path serving a valid navigation purpose?</p>
+<p><strong>Rule:</strong> Create hub notes when a topic has 5+ related notes without a central entry point.
+<strong>Why:</strong> Hubs provide navigation shortcuts, reduce traversal depth, and serve as orientation landmarks.
+<strong>Test:</strong> Identify clusters of 5+ notes on a topic. Does each cluster have a hub note linking to all members?</p>
+<p><strong>Rule:</strong> Hub notes should link outward (to topic notes), not contain substantial content themselves.
+<strong>Why:</strong> Hubs that contain long content violate atomicity; their job is navigation, not knowledge.
+<strong>Test:</strong> Is the hub note under 200 words? Does it primarily consist of links with brief context?</p>
+<p><strong>Rule:</strong> Graph density (edges/nodes ratio) should increase over time, not just node count.
+<strong>Why:</strong> A vault that grows in notes but not connections is accumulating, not building knowledge.
+<strong>Test:</strong> Compare edges/nodes ratio across time. Is it trending upward?</p>
+<p><strong>Rule:</strong> Monitor graph density and prune when links become decorative rather than navigational — a note with more than 7 outgoing links should trigger a review.
+<strong>Why:</strong> Excessive density reduces navigability and dilutes the signal of meaningful connections. Quality of links matters more than quantity.
+<strong>Test:</strong> Can you explain why each link in a random note matters? Are any links there only to meet a minimum count requirement?
+<strong>Edge case:</strong> Natural domain hierarchies (taxonomies, classification systems) may legitimately exceed 7 links when representing genuine domain structure. Verify: (1) Does this path reflect a genuine domain taxonomy? (2) Would adding a hub at an intermediate level improve discoverability? (3) Is the deep structure serving a valid navigation purpose?</p>
+<p><strong>Rule:</strong> For notes tagged <code>difficulty: advanced</code> or covering multi-step concepts, include explicit <code>prerequisites</code> in frontmatter listing required background notes.
+<strong>Why:</strong> Without prerequisite tracking, readers and AIs cannot construct coherent learning paths; complex notes become inaccessible without context.
+<strong>Test:</strong> Pick 5 notes tagged <code>difficulty: advanced</code>. Does each have a <code>prerequisites</code> field listing the notes needed to understand it?</p>
+<p><strong>Rule:</strong> Create gateway notes for topics that unlock 5+ other notes, marking them with <code>gateway: true</code> and an <code>unlocks</code> list.
+<strong>Why:</strong> Gateway notes serve as navigation landmarks that help readers and AIs find entry points into complex topic areas.
+<strong>Test:</strong> Run a hub analysis. Are the top 5 hubs also marked with <code>gateway: true</code> in their frontmatter?</p>
+<p><strong>Rule:</strong> For vaults serving multiple expertise levels, create audience-specific entry points rather than duplicating atomic notes.
+<strong>Why:</strong> Duplication fragments knowledge and creates maintenance burden; tiered entry points preserve atomicity while serving diverse audiences.
+<strong>Test:</strong> Can a beginner find accessible entry points? Can an expert find deep dives without wading through basics?</p>
+<p><strong>Rule:</strong> Organize domain knowledge by explicit abstraction levels — identify 3-4 tiers (concrete → pattern → principle → philosophy) and tag notes with <code>level:</code> metadata.
+<strong>Why:</strong> Without explicit abstraction tiers, experts waste time filtering basics; beginners face inaccessible advanced content. Level tagging enables appropriate content serving.
+<strong>Test:</strong> (1) Can you identify 3+ abstraction levels in your domain? (2) Are notes tagged with level metadata? (3) Can you filter notes by level? (4) Do notes link to adjacent abstraction levels?
+<strong>Edge case:</strong> Some domains have only 2 natural levels. Don’t force 4 levels if 2 suffice.
+<strong>Edge case:</strong> Cross-domain notes may span multiple levels. Tag with primary level; use <code>also-levels:</code> for additional tiers.</p>
+<hr/>
+<h2 id="5-quality-maintenance">5. Quality Maintenance<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-quality-maintenance" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Keeping the vault healthy over time.</em></p>
+<p><strong>Rule:</strong> Every note should have a <code>last-reviewed</code> date, updated on each review.
+<strong>Why:</strong> Without review tracking, stale notes accumulate undetected.
+<strong>Test:</strong> Do all notes have a <code>last-reviewed</code> field? Flag notes not reviewed in the last 30 days.</p>
+<p><strong>Rule:</strong> Never delete notes — deprecate them with a marker and a pointer to the replacement.
+<strong>Why:</strong> Deletion breaks incoming links silently; deprecation preserves the graph while signaling staleness.
+<strong>Test:</strong> Search for broken wikilinks. Are there any dead references? If yes, a deletion happened without cleanup.</p>
+<p><strong>Rule:</strong> Terminology must be consistent across the vault — pick one term per concept and use it everywhere.
+<strong>Why:</strong> Inconsistent terminology fragments search results and confuses navigation.
+<strong>Test:</strong> Search for synonym pairs (e.g., “note”/“node”, “link”/“connection”). Does the vault use one term consistently?
+<strong>Edge case:</strong> Distinct terms that seem like synonyms actually refer to different things — e.g., “sauté” vs “pan-fry” vs “stir-fry” are different techniques; “stock” vs “broth” differ by bone/meat and simmer time; “bell pepper” vs “capsicum” are regional variants of the same vegetable. The test: (1) Do the terms refer to genuinely different techniques/ingredients? (2) Are both regional variants valid and useful? If yes to either, allow both with appropriate context (e.g., note the regional variant in parentheses).
+<strong>Edge case:</strong> Technical vs common terminology — different audiences may need different terms (e.g., “fond” for experts, “brown bits” for beginners). Consider creating a definition note linking both terms.
+<strong>Edge case:</strong> Historical or classical terms — classical cuisine uses French terms (julienne, mise en place) that may need plain-language equivalents. Document both with a redirect if needed.</p>
+<p><strong>Rule:</strong> Run structural health checks regularly — orphan scan, broken link scan, hub distribution, oversized note scan.
+<strong>Why:</strong> Problems accumulate silently; periodic scans catch issues before they compound.
+<strong>Test:</strong> Can you run these 4 scans right now? Do they all pass?</p>
+<p><strong>Rule:</strong> Every note must use consistent formatting — same heading style, same link syntax, same frontmatter fields.
+<strong>Why:</strong> Inconsistent formatting breaks tooling and makes automated processing unreliable.
+<strong>Test:</strong> Sample 10 random notes. Do they all use the same heading levels, link format, and frontmatter structure?</p>
+<hr/>
+<h2 id="6-knowledge-processing">6. Knowledge Processing<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-knowledge-processing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>How new knowledge enters and integrates into the vault.</em></p>
+<p><strong>Rule:</strong> Capture first, process second — never try to write a perfect note on the first pass.
+<strong>Why:</strong> Perfectionism at capture time slows input and loses ideas; separate capture from refinement.
+<strong>Test:</strong> Is there an inbox or staging area? Do notes go through at least two passes before being considered complete?</p>
+<p><strong>Rule:</strong> Process incoming knowledge into atomic notes within 48 hours.
+<strong>Why:</strong> Unprocessed captures degrade in value as context fades; a growing inbox signals a broken pipeline.
+<strong>Test:</strong> Count unprocessed captures. Are there more than 10? If yes, the processing pipeline is stalled.</p>
+<p><strong>Rule:</strong> When integrating new knowledge, search for existing related notes first — extend, don’t duplicate.
+<strong>Why:</strong> Creating a new note when a related one exists fragments the knowledge graph.
+<strong>Test:</strong> For the last 5 notes added, was a search performed first? Could any of them have been merged into existing notes?</p>
+<p><strong>Rule:</strong> Write in your own words — do not copy-paste from sources.
+<strong>Why:</strong> Copy-pasted content lacks the synthesis that creates genuine understanding and unique value.
+<strong>Test:</strong> Compare note text against its source. Is the wording substantially different? Does it add interpretation?</p>
+<p><strong>Rule:</strong> Cite sources — every factual claim should trace back to an origin.
+<strong>Why:</strong> Unsourced claims cannot be verified or updated when the underlying knowledge changes.
+<strong>Test:</strong> Do factual notes include source references? Can each claim be traced to its origin?</p>
+<p><strong>Rule:</strong> Validate cited sources periodically — URLs rot over time and ghost citations accumulate.
+<strong>Why:</strong> A citation that leads nowhere is noise, not knowledge. The vault accumulates dead references unless checked.
+<strong>Test:</strong> Run an external link check on notes older than 6 months. Flag or update dead URLs. Use archive.org fallback where available.</p>
+<p><strong>Rule:</strong> For procedural content (recipes, code, tutorials, technical specs), include a verification-status field: <code>unverified</code> | <code>tested</code> | <code>community-validated</code>.
+<strong>Why:</strong> Procedural content that hasn’t been tested may cause harm (medical procedures, broken code) or waste time (recipes that don’t work). Readers and AI agents need to know whether the steps have been verified.
+<strong>Test:</strong> Pick 10 notes containing procedural content. Can you categorize each by verification status? Are any unmarked?
+<strong>Edge case:</strong> Domain-standard procedures (well-known algorithms, classic recipes) may be marked as <code>community-validated</code> by virtue of widespread use. New or experimental procedures should be marked <code>unverified</code> until tested.
+<strong>Edge case:</strong> AI agents cannot verify procedural content by execution - they should mark procedural notes as <code>unverified</code> unless source explicitly states testing was performed.</p>
+<p><strong>Rule:</strong> For knowledge domains where application requires professional licensing or credentialing (medicine, law, engineering), include an <code>application-scope</code> field: <code>public | professional-only | licensed-practitioner</code>.
+<strong>Why:</strong> Knowledge that is accurate but requires professional credentialing to safely apply can cause harm if treated as universally actionable. Scope tagging enables appropriate use by distinguishing what’s safe for general knowledge vs. what requires professional expertise.
+<strong>Test:</strong> For knowledge in regulated professions (medicine, law, engineering): (1) Can a layperson apply this knowledge safely? (2) Does application require licensing? (3) If yes to 2, is the note tagged with appropriate scope?
+<strong>Edge case:</strong> Some knowledge exists in both public and professional versions (first aid vs. surgical procedures, general legal information vs. legal representation). Tag based on who can safely apply the knowledge, not who can read it.
+<strong>Edge case:</strong> Educational content (textbooks, courses) is typically public scope; clinical guidelines, legal advice for specific cases, and engineering specs requiring professional stamps are professional-only or licensed-practitioner.</p>
+<p><strong>Rule:</strong> When sources contradict, create a synthesis note presenting both perspectives with source attribution, rather than choosing one side.
+<strong>Why:</strong> Choosing one side loses information; a knowledge base should represent reality accurately, including uncertainty and debate.
+<strong>Test:</strong> Identify a note where sources disagreed. Does it present multiple viewpoints rather than picking one?</p>
+<p><strong>Rule:</strong> Distinguish objective contradictions from subjective ones — synthesize facts, present preferences as options.
+<strong>Why:</strong> Objective contradictions (safety, correctness) require synthesis to avoid harm; subjective contradictions (taste, style) should present options without over-synthesizing opinions as facts.
+<strong>Test:</strong> For a contradictory-sources note: (1) Is there an objective truth at stake? (2) Could getting it wrong cause harm? (3) Is it a preference vs. a fact? Synthesize if yes to 1-2; present as options if yes to 3.</p>
+<p><strong>Rule:</strong> When personal experience contradicts published sources, create a synthesis note presenting both perspectives with explicit attribution — document what sources say AND what your experience shows.
+<strong>Why:</strong> Personal experience is valid knowledge that should be captured, but external sources provide validation and context. Preserving both enables better decision-making and helps future readers understand applicability.
+<strong>Test:</strong> For notes where your experience differs from sources: (1) Is the source perspective documented? (2) Is your personal experience documented? (3) Is there explicit attribution for what is source vs. personal? (4) Is context (why your experience differs) documented?
+<strong>Edge case:</strong> Use scope tags to distinguish applicability: <code>scope: general</code> for what works for most people, <code>scope: personal</code> for what works for you specifically. Prioritize personal experience over sources when you have extensive direct experience, your context differs significantly, or you understand WHY the difference exists.</p>
+<p><strong>Rule:</strong> Present multiple equivalently valid approaches as alternatives with applicability context, not as synthesized “best” approach.
+<strong>Why:</strong> Contradictory sources (one is wrong), subjective preferences (matters of taste), and equivalent approaches (all valid, context determines choice) are three different scenarios. False synthesis of equivalents misleads readers into thinking there’s one correct answer when context should determine the choice.
+<strong>Test:</strong> Pick a note describing a technique or approach. Can you identify: (1) Are there equivalent alternatives that all produce valid results? (2) If yes, are they presented as alternatives with applicability guidance, not as one “best” approach? (3) Can a reader determine which alternative fits their context?</p>
+<p><strong>Rule:</strong> Distinguish illustrative examples from factual examples — mark hypothetical/ teaching examples as such, date real-world examples.
+<strong>Why:</strong> Illustrative examples explain concepts; factual examples demonstrate reality. Conflating them causes AI agents to cite hypotheticals as evidence and miss outdated facts.
+<strong>Test:</strong> Pick 5 notes with examples. Can you categorize each as illustrative (hypothetical) or factual (real-world)? Are factual examples dated?</p>
+<p><strong>Rule:</strong> For subjective knowledge domains (art, music, design, creative writing, aesthetics), tag evaluative claims with <code>claim-type: subjective</code> and include <code>consensus: high/medium/low/none</code> to indicate community agreement.
+<strong>Why:</strong> AI agents cannot distinguish facts from opinions without explicit tagging. Subjective claims presented as facts mislead readers about the nature of the knowledge. Consensus levels help readers understand whether a viewpoint is mainstream or niche.
+<strong>Test:</strong> Pick 10 notes containing evaluative language (best, worst, good, bad, should, shouldn’t) in creative domains. Can you categorize each as objective quality (verifiable technique) vs. subjective taste? Do subjective claims have consensus markers?
+<strong>Edge case:</strong> Some domains have “objective quality” frameworks (code that compiles, recipes that work, structures that stand). Distinguish craft criticism (verifiable) from aesthetic judgment (subjective).
+<strong>Edge case:</strong> Cultural and temporal subjectivity — what’s considered “good” varies by culture and era. Include <code>culture:</code> and <code>temporal:</code> scope tags for evaluative claims that are context-dependent.</p>
+<p><strong>Rule:</strong> Present subjective perspectives as “Perspectives” sections rather than single conclusions when no consensus exists.
+<strong>Why:</strong> A knowledge base should represent reality accurately. If experts disagree or no consensus exists, claiming “the best approach is X” misleads readers.
+<strong>Test:</strong> For notes containing subjective claims: (1) Is there a single conclusion presented as universal truth? (2) Are alternative perspectives listed? (3) Does the note acknowledge that reasonable people may disagree?</p>
+<p><strong>Rule:</strong> Distinguish craft criticism from aesthetic judgment in creative domains.
+<strong>Why:</strong> “This sculpture has anatomical errors” is verifiable (craft/technique). “This sculpture is beautiful” is subjective (aesthetic). Conflating them confuses readers about what can be debated vs. what is pure opinion.
+<strong>Test:</strong> For notes evaluating creative work: (1) Are technical/measurable claims separated from aesthetic judgments? (2) Can readers distinguish what is opinion vs. what can be verified with evidence?</p>
+<p><strong>Rule:</strong> Capture negative knowledge — anti-patterns, failure modes, and lessons learned are as valuable as positive knowledge.
+<strong>Why:</strong> A knowledge base that only captures successes is incomplete. Knowing what doesn’t work prevents repeated mistakes and builds better judgment.
+<strong>Test:</strong> Can you identify at least 3 anti-patterns or failure modes captured in the vault? Are negative knowledge notes linked to the related positive knowledge (what to do instead)?
+<strong>Edge case:</strong> Negative knowledge notes should still follow atomicity — one failure/anti-pattern per note. Tag with <code>type: negative-knowledge</code> for filtering.
+<strong>Edge case:</strong> Warnings and “never do this” statements are negative knowledge. Include the corrective action or link to the correct approach.</p>
+<p><strong>Rule:</strong> Tag context-scope for knowledge that changes validity across styles, frameworks, or approaches — don’t universalize context-dependent rules.
+<strong>Why:</strong> A rule true in one context (jazz harmony) may be false in another (classical counterpoint). Universalizing context-dependent knowledge creates misleading advice. Tagging scope helps readers and AIs understand applicability.
+<strong>Test:</strong> For notes containing absolute statements (always/never/best): (1) Is there scope/applies-to metadata? (2) Are validity conditions explicitly stated? (3) Should framework-specific variants exist instead?
+<strong>Edge case:</strong> Knowledge that is universally true (mathematical proofs, physical laws) does not need scope tags. Only tag when validity genuinely varies across contexts.</p>
+<p><strong>Rule:</strong> For knowledge whose validity depends on jurisdiction (legal, geographic, cultural), tag with explicit scope metadata.
+<strong>Why:</strong> Without jurisdiction tags, an AI cannot distinguish between universally true knowledge, jurisdiction-specific knowledge, and misapplied knowledge. Legal, medical, and financial knowledge vary dramatically across borders.
+<strong>Test:</strong> Pick 10 random notes in a domain-sensitive vault (law, medicine, finance). For each: (1) Does this knowledge apply universally? (2) If no, does it have jurisdiction/region scope tags? (3) Can you identify the applicable jurisdictions?
+<strong>Edge case:</strong> Use <code>jurisdiction: [US, EU, UK]</code> for legal/governmental scope, <code>region:</code> for geographic/cultural scope. For overlapping jurisdictions (EU, US states), list applicable units.
+<strong>Edge case:</strong> Historical jurisdictions (e.g., “East Germany”) may be relevant for historical knowledge but should be clearly marked as historical with <code>status: historical</code>.</p>
+<p><strong>Guidance: When to Split vs. Tag</strong></p>
+<p>When handling jurisdiction or region-dependent knowledge, choose between creating separate notes or using scope tags:</p>
+<ul>
+<li><strong>Create separate notes</strong> when knowledge is substantively different (different tests, thresholds, rules). Example: “Contract Law (US)” vs “Contract Law (UK)” — fundamentally different legal systems with different case law.</li>
+<li><strong>Use scope tags</strong> when the core concept is the same with minor variations. Example: “Voting Age” with <code>jurisdiction: [US, UK, CA]</code> — the concept is the same, only the number differs.</li>
+</ul>
+<p><strong>Test:</strong> For jurisdiction-dependent notes: (1) Are the underlying principles the same? (2) Would a reader need different guidance for each jurisdiction? (3) Are there 5+ substantive differences? Split if yes to 3; tag if yes to 1-2.</p>
+<p><strong>Rule:</strong> For knowledge whose validity depends on climate zones, hardiness zones, or environmental conditions, use explicit scope tags (<code>hardiness-zone</code>, <code>climate-zone</code>, <code>hemisphere</code>).
+<strong>Why:</strong> Environmental scope is distinct from jurisdiction — advice that’s true in Zone 7 (like “plant tomatoes after last frost” in late May) is false in Zone 4 (late May is still frost risk). Without environmental tags, AI agents cannot distinguish between universally applicable advice and zone-specific guidance.
+<strong>Test:</strong> Pick 5 gardening, construction, or agricultural notes. Do they have hardiness-zone or climate-scope tags? Can you determine which zones the advice applies to?
+<strong>Edge case:</strong> Use <code>hardiness-zone:</code> for USDA or similar zone systems (e.g., <code>hardiness-zone: [4, 5, 6]</code>). Use <code>hemisphere: [northern, southern]</code> for seasonality-dependent knowledge. Use <code>climate-zone:</code> for Köppen climate classifications (e.g., <code>climate-zone: [Cfa, Dfa]</code>).
+<strong>Edge case:</strong> Microclimates within a zone can create exceptions — note when advice applies to “typical” zone conditions vs. special cases (urban heat islands, coastal moderation, altitude effects).</p>
+<p><strong>Rule:</strong> Use confidence markers (high/emerging/disputed/obsolete) to signal reliability of knowledge.
+<strong>Why:</strong> Readers need to distinguish established facts from debated hypotheses without reading source chains.
+<strong>Test:</strong> Do notes with contested claims include confidence metadata?</p>
+<p><strong>Rule:</strong> For key domain concepts, include both the technical term and plain-language equivalent — either inline or via a linked definition note.
+<strong>Why:</strong> Different readers have different backgrounds. A vault that uses only jargon excludes newcomers; one that only uses plain language frustrates experts. Dual-layer vocabulary serves both.
+<strong>Test:</strong> Pick 5 random notes in a domain-specific vault. Can a beginner understand the main concept without clicking any links? Can an expert find the precise terminology?</p>
+<p><strong>Rule:</strong> When introducing a domain-specific term, either define it inline (1-2 sentences) or link to a definition note — never assume the reader knows it.
+<strong>Why:</strong> Links break. Definition notes can become orphaned. Inline definitions are always available, ensuring self-containment.
+<strong>Test:</strong> Read each note in isolation. Can you understand the key terms without following any links?</p>
+<p><strong>Rule:</strong> Default to the most precise term available, but provide plain-language context for common concepts.
+<strong>Why:</strong> A knowledge base should be a source of truth. Precision is harder to achieve than accessibility. Provide both by leading with precision and following with accessibility.
+<strong>Test:</strong> For 10 notes, count: (1) technical terms used, (2) plain-language equivalents provided. Is there at least one plain-language aid per 3 technical terms?</p>
+<p><strong>Rule:</strong> Separate time-sensitive data from static knowledge — link to live sources for rapidly changing information, use point-in-time references with dates for moderately temporal knowledge.
+<strong>Why:</strong> Embedding transient data (stock prices, weather, news) creates misleading notes that appear authoritative but contain incorrect information. Separation keeps the vault accurate without constant revision.
+<strong>Test:</strong> Scan for notes containing specific values (prices, counts, current dates as facts). Check: (1) Is this likely to change? (2) Is there a source URL for current data? (3) Should this be a link instead?
+<strong>Edge case:</strong> Illustrative examples (e.g., example prices in a tutorial) differ from factual claims. Mark illustrative examples clearly or use placeholder values.
+<strong>Edge case:</strong> For temporal data, use frontmatter <code>data-date: YYYY-MM-DD</code> or <code>data-as-of: YYYY-Q#</code> to mark the point in time the data is valid.
+<strong>Edge case:</strong> In rapidly-changing domains (trading, weather, news), temporal notes may become obsolete quickly. Prioritize linking over embedding, and review temporal notes when conditions shift significantly.</p>
+<p><strong>Rule:</strong> Distinguish sequential knowledge (where order IS the knowledge) from static and time-sensitive knowledge — tag temporal sequences with <code>temporal-type: sequence</code> and prerequisites with <code>prerequisites: []</code>.
+<strong>Why:</strong> Knowledge where sequence is intrinsic (history, music composition, biological processes, learning progressions) requires different structure than static facts or time-sensitive data. Without temporal tagging, AIs cannot distinguish “the causes of WWI” (sequence matters) from “the causes of cancer” (static knowledge).
+<strong>Test:</strong> Pick 10 notes in a domain with inherent sequences (history, music, biology, learning). Can you categorize each as: (1) static fact, (2) time-sensitive data, or (3) sequential knowledge? Do sequential notes have temporal-type or prerequisites metadata?
+<strong>Edge case:</strong> Historical causation (why events happened) is sequential knowledge — the ORDER of causes produces different effects. Tag with <code>temporal-type: causal-sequence</code>.
+<strong>Edge case:</strong> Musical composition, story structure, and dance choreography are inherently sequential — the sequence IS the knowledge being captured. Consider <code>temporal-type: compositional</code>.
+<strong>Edge case:</strong> Learning progressions are sequential — understanding B requires understanding A first. Tag with <code>prerequisites: []</code> listing required prior knowledge.
+<strong>Edge case:</strong> Some knowledge is cyclical (seasons, biological rhythms) — tag with <code>temporal-type: cyclical</code> to distinguish from linear sequences.</p>
+<p><strong>Rule:</strong> For sequential knowledge, capture both the sequence AND the key moments — atomic notes for key points, links for temporal relationships.
+<strong>Why:</strong> A sequence without key moments is overwhelming; key moments without sequence loses causal structure. Both are needed for understanding.
+<strong>Test:</strong> For a sequential knowledge note: (1) Can you identify the key moments as atomic notes? (2) Can you trace the temporal/causal chain between them? (3) Are the relationships explicitly tagged (causes, enables, precedes)?
+<strong>Edge case:</strong> Not every step in a sequence needs its own note — only pivotal moments that are referenced elsewhere. Routine steps can be embedded in the sequential note.</p>
+<p><strong>Rule:</strong> Use typed temporal relationships — distinguish “prerequisite” (must learn first) from “related” (helpful but not required) and “builds on” (extends but independent).
+<strong>Why:</strong> “You need A before B” is a different relationship than “A relates to B” or “B builds on A.” Typed relationships enable learning path construction.
+<strong>Test:</strong> For sequential notes with prerequisites: (1) Are prerequisite links explicitly tagged? (2) Can an AI construct a learning path from the graph? (3) Is the difference between “prerequisite” and “related” clear?</p>
+<p><strong>Rule:</strong> For knowledge domains with established evidence hierarchies (medicine, law, science), capture source quality tier in addition to confidence levels.
+<strong>Why:</strong> Source quality (systematic reviews > RCTs > case reports) is distinct from confidence (how certain we are about the knowledge). Treating all sources equally loses critical reliability information in high-stakes domains.
+<strong>Test:</strong> For notes in medicine, law, or science: (1) Does each major claim cite a source? (2) Is there source-tier metadata (systematic-review/rct/observational/case-study/expert-opinion/anecdote)? (3) Do claims from higher-tier sources receive higher confidence markers?</p>
+<p><strong>Rule:</strong> Separate core knowledge from supplementary media — text must stand alone, media should enhance but not be required.
+<strong>Why:</strong> Media files rot (links die, platforms shut down), formats become obsolete, and searchability depends on text. A knowledge base that depends on external media becomes unreliable over time.
+<strong>Test:</strong> Read each note in isolation. Can you understand the core knowledge from text alone? If the note becomes meaningless without clicking a media link, it’s fragile and needs text summarization.
+<strong>Edge case:</strong> Some domains are inherently multi-modal (music, video tutorials, languages). In these cases, provide a text summary alongside every media reference so the knowledge remains searchable and accessible even if media links break.
+<strong>Edge case:</strong> Use frontmatter <code>media: []</code> field to list associated media files, with <code>media-type: audio|video|image</code> and <code>media-summary: </code> for each.</p>
+<p><strong>Rule:</strong> Use domain-appropriate formats for embedded media — prefer open, searchable, portable formats when possible.
+<strong>Why:</strong> Some formats are domain-standard and more searchable (MIDI for music, ABC notation for melodies, SVG for diagrams) than proprietary formats. Portability affects long-term accessibility.
+<strong>Test:</strong> For the vault’s domain, what is the standard format? Are media files in portable formats when choice exists?</p>
+<p><strong>Rule:</strong> Express probabilistic knowledge with explicit probabilities, not vague qualifiers like “usually” or “sometimes”.
+<strong>Why:</strong> Vague language misleads — “usually works” means different things to different people. Explicit probabilities enable proper weighting and decision-making.
+<strong>Test:</strong> Can you assign a numerical probability to the claim? Is it expressed numerically rather than with vague qualifiers?
+<strong>Edge case:</strong> In domains where probabilities are unknown or genuinely uncertain (early-stage research), use confidence markers instead: “confidence: emerging” or “confidence: disputed” rather than fabricating numbers.
+<strong>Edge case:</strong> When probability is near 50%, present as balanced options (A vs B) rather than false precision — don’t pretend to know what you don’t.</p>
+<p><strong>Rule:</strong> Distribute point estimates into ranges when uncertainty is high and the domain warrants precision.
+<strong>Why:</strong> A single number implies precision that may not exist; ranges better represent true uncertainty in domains like medicine, finance, and engineering.
+<strong>Test:</strong> For numerical claims in high-uncertainty domains, is uncertainty expressed as a range (e.g., “60-80%”) or confidence interval rather than a point estimate?</p>
+<p><strong>Rule:</strong> Use stub notes with explicit <code>status: planned</code> for known future topics — don’t leave dangling wikilinks that appear broken.
+<strong>Why:</strong> Forward references are different from broken links: broken links are mistakes, forward references are intentional design. Treating them the same loses planning information.
+<strong>Test:</strong> Can you identify forward references in your vault? Do they have planned stub notes with <code>status: planned</code>?
+<strong>Edge case:</strong> Only create planned stubs when: (1) you know the topic will exist, (2) multiple notes reference it, (3) it has a clear purpose. Skip for vague or speculative topics.</p>
+<p><strong>Rule:</strong> For knowledge that applies only to specific software versions, tool releases, or library iterations, include explicit version scope in frontmatter.
+<strong>Why:</strong> Knowledge that depends on version without version metadata is misleading — readers (and AI agents) cannot determine applicability, leading to failed implementations or incorrect advice.
+<strong>Test:</strong> For notes containing software/tool/library instructions: (1) Does the knowledge depend on a specific version? (2) If yes, is there version scope metadata? (3) Can you determine which versions the knowledge applies to?</p>
+<p><strong>Rule:</strong> For rapidly-evolving domains (web frameworks, programming languages, DevOps tools), include an <code>eol-estimate</code> or <code>review-when</code> field triggering review when the referenced version approaches end-of-life.
+<strong>Why:</strong> Version-dependent knowledge silently becomes dangerous as versions age — outdated security advice, deprecated APIs, unsupported configurations. Proactive review triggers prevent accumulation of harmful stale knowledge.
+<strong>Test:</strong> For version-scoped notes: (1) Is there an EOL date or review trigger? (2) Does the vault have a process to check these triggers? (3) Are expired versions flagged or migrated?</p>
+<p><strong>Rule:</strong> Create version-migration hub notes when moving between major versions affects 5+ notes.
+<strong>Why:</strong> Scattered version-specific notes are hard to migrate en masse; a migration hub collects the changes needed, tracks progress, and serves as a checklist.
+<strong>Test:</strong> After a major version release: (1) Can you identify all affected notes? (2) Is there a migration hub? (3) Does the hub link to all version-specific content?</p>
+<p><strong>Rule:</strong> Document physical equipment dependencies for procedural knowledge — include what tools are required, which are optional, and what alternatives exist.
+<strong>Why:</strong> Knowledge that requires specific tools to execute is fundamentally different from knowledge prerequisites. Readers need to know upfront what equipment investment is required before committing to learn. This is distinct from software version requirements (which are covered above).
+<strong>Test:</strong> For procedural notes (recipes, crafts, repairs, techniques): (1) Is there an <code>equipment:</code> field in frontmatter? (2) Does it list required vs. optional tools? (3) Are alternatives documented for optional equipment? (4) For safety-critical equipment, is safety guidance included?
+<strong>Edge case:</strong> Some domains have “basic toolkit” assumptions — don’t list common tools (screwdriver, knife) unless the technique requires specialized versions.
+<strong>Edge case:</strong> Equipment may have safety requirements (gloves, glasses, masks) — tag these separately from tools.
+<strong>Edge case:</strong> Equipment cost can be a vault boundary criterion — if equipment cost excludes certain users, consider this when capturing knowledge.</p>
+<p><strong>Rule:</strong> For conditional/troubleshooting knowledge with 3+ branches, create a decision-point hub that links to each branch as separate atomic notes — do not embed all branches in one note.
+<strong>Why:</strong> Embedding 3+ conditional branches violates atomicity and makes the note unusable; splitting without a hub loses the decision context.
+<strong>Test:</strong> Pick a note with conditional branches. (1) Does it have 3+ branches? (2) If yes, is there a hub note explaining the decision point? (3) Are branches linked from the hub?</p>
+<p><strong>Rule:</strong> Use typed relationships to clarify the nature of conditional links — distinguish “if symptom then try this” (diagnostic) from “if that doesn’t work then try that” (fallback sequence).
+<strong>Why:</strong> Readers need to know whether to try all options in sequence or stop at the first success.
+<strong>Test:</strong> For troubleshooting notes with multiple steps: (1) Can you distinguish primary attempts from fallback attempts? (2) Is the relationship between steps explicit?</p>
+<p><strong>Rule:</strong> Include exit criteria in troubleshooting notes — define what success looks like and when to stop or escalate.
+<strong>Why:</strong> Without exit criteria, users don’t know when the problem is solved or when they’ve reached a dead end requiring external help.
+<strong>Test:</strong> Pick a troubleshooting note. Can you identify: (1) What success looks like? (2) When to stop trying branches? (3) When to escalate?</p>
+<hr/>
+<h2 id="7-evolution">7. Evolution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7-evolution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>How notes and structure improve over time.</em></p>
+<p><strong>Rule:</strong> Notes evolve through lifecycle stages: draft <span>→</span> active <span>→</span> evergreen <span>→</span> deprecated.
+<strong>Why:</strong> Not all notes are equal; lifecycle tracking focuses review effort on notes that matter.
+<strong>Test:</strong> Can each note be assigned a lifecycle stage? Are deprecated notes marked clearly?</p>
+<p><strong>Rule:</strong> Deprecate notes using clear criteria — contradicted by new info, redundant, or low value. Never delete; always mark and point to replacement.
+<strong>Why:</strong> Deletion breaks links silently; deprecation preserves graph integrity while signaling staleness.
+<strong>Test:</strong> Can you list 3 reasons to deprecate a note? Are deprecated notes pointing to replacements?</p>
+<p><strong>Rule:</strong> Iterate on existing notes rather than creating new ones on the same topic.
+<strong>Why:</strong> Parallel notes on the same idea fragment knowledge; iteration concentrates and deepens it.
+<strong>Test:</strong> Search for notes with similar titles or overlapping content. Should any be merged?</p>
+<p><strong>Rule:</strong> When understanding changes, update the note — don’t create a “v2”.
+<strong>Why:</strong> Versioned duplicates confuse navigation; a single evolving note is the source of truth.
+<strong>Test:</strong> Search for notes with version indicators (v2, “updated”, “new”). Merge them into the canonical note.</p>
+<p><strong>Rule:</strong> Review the most-linked notes first — they have the highest impact on vault quality.
+<strong>Why:</strong> A flawed hub note propagates its problems to every note that links through it.
+<strong>Test:</strong> Run <code>graph_hubs</code>. Have the top 5 hubs been reviewed in the last 2 weeks?</p>
+<p><strong>Rule:</strong> Track knowledge validity periods for evolving domains — include <code>valid-from</code> date when understanding became accurate.
+<strong>Why:</strong> Readers and AI agents need to know whether captured knowledge reflects current understanding or historical understanding.
+<strong>Test:</strong> Pick 10 notes in an evolving domain. Can you determine when each piece of knowledge became accurate?</p>
+<p><strong>Rule:</strong> Document evolution triggers when updating notes with significant changes — include what prompted the update.
+<strong>Why:</strong> Understanding why knowledge changed helps readers evaluate the change and predict future changes.
+<strong>Test:</strong> Pick 5 notes that have been updated. Can you identify what prompted each update?</p>
+<p><strong>Rule:</strong> Link historical supersessions bidirectionally — deprecated notes point to replacements, replacements acknowledge superseded notes.
+<strong>Why:</strong> Bidirectional supersession links enable tracing how understanding evolved over time.
+<strong>Test:</strong> Find a deprecated note. Does it point forward to replacement? Does replacement acknowledge superseded?</p>
+<p><strong>Rule:</strong> Set review triggers for evolving domains based on explicit conditions, not arbitrary intervals.
+<strong>Why:</strong> Arbitrary review schedules miss important changes; trigger-based scheduling ensures timely updates when conditions change.
+<strong>Test:</strong> In fast-changing domains, can you identify explicit conditions that should trigger review?</p>
+<hr/>
+<h2 id="8-domain-agnosticism">8. Domain Agnosticism<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8-domain-agnosticism" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Rules that ensure portability across any topic.</em></p>
+<p><strong>Rule:</strong> Every quality criterion must apply to any knowledge domain — software, cooking, history, physics.
+<strong>Why:</strong> Domain-specific rules limit reuse; the Seed must work everywhere.
+<strong>Test:</strong> For each rule, substitute 3 different domains. Does the rule still make sense?</p>
+<p><strong>Rule:</strong> Structure is universal; only content is domain-specific.
+<strong>Why:</strong> Atomicity, linking, and navigation work identically regardless of subject matter.
+<strong>Test:</strong> Could you replace all note content with a different domain’s content and have the structure still be valid?</p>
+<p><strong>Rule:</strong> Hub notes should reflect the domain’s natural concept hierarchy, not an imposed taxonomy.
+<strong>Why:</strong> Forcing a generic taxonomy onto domain content creates friction; let the domain’s own structure emerge.
+<strong>Test:</strong> Do hub note titles match how practitioners in the domain naturally categorize knowledge?</p>
+<p><strong>Rule:</strong> For knowledge spanning multiple domains, use domain tags on atomic notes and create cross-domain hub notes that connect domain-specific perspectives.
+<strong>Why:</strong> Single-domain vaults are simple; cross-domain vaults need explicit structure to avoid fragmentation or duplication. Tags enable filtering, hubs enable navigation.
+<strong>Test:</strong> Pick a topic spanning 2+ domains. Can you identify all domains? Does each domain aspect have an atomic note? Is there a hub connecting them? Are domain tags applied consistently?</p>
+<p><strong>Rule:</strong> For vaults primarily serving AI agents (RAG systems, AI agents, automated reasoning), optimize structure for retrieval precision over human comprehension.
+<strong>Why:</strong> AI agents and embedding-based retrieval have different needs than human readers - they need explicit semantic contracts, typed relationships, and machine-readable confidence. Optimizing for AI changes how atomicity, linking, and verification work.
+<strong>Test:</strong> Pick 5 notes. Can an AI determine: (1) what each link semantically means (evidence, prerequisite, contradiction)? (2) how to verify each claim? (3) what the core concept is from the first 100 words? If no to any, the note is human-native, not AI-native.
+<strong>Edge case:</strong> Many vaults serve both humans and AIs. In mixed-use vaults, prioritize human comprehension but include AI-optimized frontmatter (typed relationships, explicit verification pathways) as supplementary structure.</p>
+<hr/>
+<h2 id="9-self-improvement">9. Self-Improvement<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#9-self-improvement" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>How the vault and its rules continuously improve.</em></p>
+<p><strong>Rule:</strong> The vault must follow its own rules — self-referential accuracy is the ultimate test.
+<strong>Why:</strong> A knowledge base about quality criteria that violates its own criteria has no credibility.
+<strong>Test:</strong> Pick 5 random notes. Do they all pass every rule in this Seed? If not, fix the notes or fix the rules.</p>
+<p><strong>Rule:</strong> Every rule in the Seed must be demonstrated by at least one note in the vault.
+<strong>Why:</strong> Untested rules are theories; only rules proven in practice belong in the Seed.
+<strong>Test:</strong> For each rule, can you point to a note that exemplifies it? Remove rules that have no evidence.</p>
+<p><strong>Rule:</strong> If the vault consistently violates a rule, the rule may be wrong — update or remove it.
+<strong>Why:</strong> Rules that don’t survive contact with reality are bad rules.
+<strong>Test:</strong> Are there rules that are frequently violated? Investigate whether the rule or the vault is wrong.</p>
+<p><strong>Rule:</strong> The Seed should shrink over time, not grow — consolidate and eliminate redundancy.
+<strong>Why:</strong> A bloated ruleset is hard to follow; fewer, stronger rules beat many weak ones.
+<strong>Test:</strong> Are any two rules saying the same thing? Merge them. Is any rule a subset of another? Remove the subset.</p>
+<p><strong>Rule:</strong> When merging redundant notes, keep the one with more incoming links as the base.
+<strong>Why:</strong> Incoming links indicate a note is more central to the vault’s knowledge graph; merging into the more-connected note preserves existing navigation paths.
+<strong>Test:</strong> Before merging note A into note B, run <code>graph_get_backlinks</code> on both. Keep the one with more backlinks. Update all links to point to the surviving note.</p>
+<p><strong>Rule:</strong> Track quality metrics over time: note count, link density, orphan count, average note size, broken links.
+<strong>Why:</strong> Without metrics, improvement is anecdotal; with metrics, it’s verifiable.
+<strong>Test:</strong> Can you produce these 5 metrics right now? Are they trending in the right direction?</p>
+<h3 id="implementation-roadmap">Implementation Roadmap<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#implementation-roadmap" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Week 1 Targets:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Day</th><th>Action</th></tr></thead><tbody><tr><td>1-2</td><td>Create <code>_root.md</code> with vault purpose; add 3 foundational notes: Atomic Note Principle, Linking Principle, Graph Traversal Efficiency</td></tr><tr><td>3-4</td><td>Process 1 existing document into atomic notes, add frontmatter with tags</td></tr><tr><td>5-7</td><td>Review notes and add 2-3 links each; run <code>graph_hubs</code> to see connectivity</td></tr></tbody></table></div>
+<p><strong>Growth Targets:</strong></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Week</th><th>Target Nodes</th></tr></thead><tbody><tr><td>1</td><td>10</td></tr><tr><td>2</td><td>25</td></tr><tr><td>3</td><td>50</td></tr><tr><td>4</td><td>100</td></tr></tbody></table></div>
+<hr/>
+<h2 id="10-tacit-knowledge">10. Tacit Knowledge<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#10-tacit-knowledge" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><em>Capturing knowledge that resists articulation.</em></p>
+<p><strong>Rule:</strong> Identify tacit knowledge boundaries — explicitly mark where written knowledge ends and experiential knowledge begins.
+<strong>Why:</strong> Readers need to know what cannot be learned from text alone. Tacit knowledge (intuition, feel, muscle memory, judgment through experience) cannot be fully captured in notes, but the gap can be acknowledged.
+<strong>Test:</strong> In experiential domain notes, can you identify what’s missing that experience would provide? Is the gap acknowledged?</p>
+<p><strong>Rule:</strong> Document what can’t be captured — when tacit knowledge resists capture, note the gap explicitly.
+<strong>Why:</strong> An explicit acknowledgment of what’s missing is more useful than a silent gap. Future note versions or multimedia content may address what text cannot.
+<strong>Test:</strong> If a note describes a process requiring judgment, does it acknowledge what experience would teach? Are there “requires hands-on practice” warnings or explicit gaps noted?</p>
+<p><strong>Rule:</strong> Capture failure modes and proxies when tacit knowledge can’t be written — describe what goes wrong more easily than what goes right.
+<strong>Why:</strong> Tacit knowledge is easier to describe in negative: “when it sounds off” is easier to articulate than “when it sounds right.” Failure modes and analogies are the primary capture mechanism for tacit knowledge.
+<strong>Test:</strong> Do notes in experiential domains include failure mode descriptions? Do they use analogies or proxies for direct knowledge?</p>
+<p><strong>Test for tacit knowledge severity:</strong> Pick a domain (music, sports, crafts). Estimate: What percentage of expertise in this domain is tacit (cannot be fully articulated)? High tacit domains need more proxy markers, failure mode documentation, and multimedia links.</p>
+<p><strong>Rule:</strong> For sensory domains (cooking, wine, perfumery, materials), create explicit sensory reference standards — documented benchmarks that serve as common vocabulary.
+<strong>Why:</strong> Sensory descriptions are meaningless without reference points. “Tastes like burnt caramel” only works if the reader has experienced burnt caramel. Explicit standards enable consistent communication.
+<strong>Test:</strong> Can you point to 3+ reference standards in your sensory domain? (e.g., “ripe banana” as sweetness reference, “00 steel wool” as texture reference)</p>
+<p><strong>Rule:</strong> Use cross-modal anchors in sensory notes — connect experiences to more universal references when possible.
+<strong>Why:</strong> “Smells like cut grass” is more accessible than “green notes” for those unfamiliar with wine jargon. Cross-modal anchors make sensory knowledge accessible to newcomers.
+<strong>Test:</strong> Can a beginner understand sensory descriptions without requiring domain expertise?</p>
+<p><strong>Rule:</strong> Define explicit intensity scales for sensory domains — document what “mild”, “medium”, “strong” actually mean numerically or descriptively.
+<strong>Why:</strong> Subjective qualifiers vary wildly between people. Explicit scales enable consistent assessment and comparison.
+<strong>Test:</strong> Can two different people use your scale and arrive at similar assessments?</p>
+<p><strong>Rule:</strong> Capture complete sensory profiles, not single descriptors — note multiple dimensions (aroma, flavor, texture, finish for food/drink; timbre, sustain, attack for sound).
+<strong>Why:</strong> Single descriptors (“fruity”, “bright”) are meaningless in isolation. Multi-dimensional profiles create meaningful comparison and enable precise retrieval.
+<strong>Test:</strong> Does each sensory note include 3+ dimensions of description?</p>
+<hr/>
+<h2 id="related">Related<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../content/_root" class="internal alias" data-slug="content/_root">Vault root</a> — Entry point demonstrating the Seed in action</li>
+<li><a href="../content/Atomic-Note-Principle" class="internal alias" data-slug="content/Atomic-Note-Principle">Atomic Note Principle</a> — One idea per note</li>
+<li><a href="../content/Linking-Principle" class="internal alias" data-slug="content/Linking-Principle">Linking Principle</a> — Meaningful connections</li>
+<li><a href="../content/Graph-Traversal-Efficiency" class="internal alias" data-slug="content/Graph-Traversal-Efficiency">Graph Traversal Efficiency</a> — Maximum 3 hops navigation</li>
+<li><a href="../content/Self-Improvement-Cycle" class="internal alias" data-slug="content/Self-Improvement-Cycle">Self-Improvement Cycle</a> — Continuous improvement process</li>
+<li><a href="../content/Note-Prioritization-Strategy" class="internal alias" data-slug="content/Note-Prioritization-Strategy">Note Prioritization Strategy</a> — What to create first when bootstrapping</li>
+<li><a href="../content/Source-Validation-Over-Time" class="internal alias" data-slug="content/Source-Validation-Over-Time">Source Validation Over Time</a> — Keeping cited sources accessible</li>
+<li><a href="../content/Frontier-Exploration---Probabilistic-Knowledge" class="internal alias" data-slug="content/Frontier-Exploration---Probabilistic-Knowledge">Frontier Exploration - Probabilistic Knowledge</a> — Handling inherently uncertain knowledge</li>
+<li><a href="../content/Frontier-Exploration---AI-Optimized-Knowledge-Bases" class="internal alias" data-slug="content/Frontier-Exploration---AI-Optimized-Knowledge-Bases">Frontier Exploration - AI-Optimized Knowledge Bases</a> — Structuring knowledge for AI agents and RAG systems</li>
+<li><a href="../content/Handling-Contradictory-Sources" class="internal alias" data-slug="content/Handling-Contradictory-Sources">Handling Contradictory Sources</a> — Handling subjective vs objective claims in creative domains</li>
+<li><a href="../content/Frontier-Exploration---Tacit-Knowledge-Capture" class="internal alias" data-slug="content/Frontier-Exploration---Tacit-Knowledge-Capture">Frontier Exploration - Tacit Knowledge Capture</a> — Capturing knowledge that resists articulation</li>
+<li><a href="../content/Frontier-Exploration---Sensory-Knowledge-Capture" class="internal alias" data-slug="content/Frontier-Exploration---Sensory-Knowledge-Capture">Frontier Exploration - Sensory Knowledge Capture</a> — Capturing taste, smell, texture, and other sensory experiences</li>
+<li><a href="../content/Frontier-Exploration---Temporal-and-Sequential-Knowledge" class="internal alias" data-slug="content/Frontier-Exploration---Temporal-and-Sequential-Knowledge">Frontier Exploration - Temporal and Sequential Knowledge</a> — Handling knowledge where sequence is the knowledge</li>
+<li><a href="../content/Frontier-Exploration---Comparative-Knowledge-Structures" class="internal alias" data-slug="content/Frontier-Exploration---Comparative-Knowledge-Structures">Frontier Exploration - Comparative Knowledge Structures</a> — Structuring notes that compare approaches, tools, or methods</li>
+<li><a href="../content/Frontier-Exploration---Knowledge-Ethics-and-Exclusion" class="internal alias" data-slug="content/Frontier-Exploration---Knowledge-Ethics-and-Exclusion">Frontier Exploration - Knowledge Ethics and Exclusion</a> — When NOT to capture knowledge for ethical/safety reasons</li>
+<li><a href="../content/Frontier-Exploration---Equipment-and-Tool-Dependencies" class="internal alias" data-slug="content/Frontier-Exploration---Equipment-and-Tool-Dependencies">Frontier Exploration - Equipment and Tool Dependencies</a> — Documenting physical tools required to execute knowledge</li>
+<li><a href="../content/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge" class="internal alias" data-slug="content/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge">Frontier Exploration - Conditional and Troubleshooting Knowledge</a> — Handling if-then branches and decision trees</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-4" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#ai-assisted-knowledge-management-seed" data-for="ai-assisted-knowledge-management-seed">AI-Assisted Knowledge Management Seed</a></li><li class="depth-1"><a href="#1-foundation" data-for="1-foundation">1. Foundation</a></li><li class="depth-1"><a href="#2-atomicity" data-for="2-atomicity">2. Atomicity</a></li><li class="depth-1"><a href="#3-linking" data-for="3-linking">3. Linking</a></li><li class="depth-1"><a href="#4-navigation" data-for="4-navigation">4. Navigation</a></li><li class="depth-1"><a href="#5-quality-maintenance" data-for="5-quality-maintenance">5. Quality Maintenance</a></li><li class="depth-1"><a href="#6-knowledge-processing" data-for="6-knowledge-processing">6. Knowledge Processing</a></li><li class="depth-1"><a href="#7-evolution" data-for="7-evolution">7. Evolution</a></li><li class="depth-1"><a href="#8-domain-agnosticism" data-for="8-domain-agnosticism">8. Domain Agnosticism</a></li><li class="depth-1"><a href="#9-self-improvement" data-for="9-self-improvement">9. Self-Improvement</a></li><li class="depth-2"><a href="#implementation-roadmap" data-for="implementation-roadmap">Implementation Roadmap</a></li><li class="depth-1"><a href="#10-tacit-knowledge" data-for="10-tacit-knowledge">10. Tacit Knowledge</a></li><li class="depth-1"><a href="#related" data-for="related">Related</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../content/AI-Assistance-Quality-Criteria" class="internal">AI Assistance Quality Criteria</a></li><li><a href="../content/CLAUDE" class="internal">CLAUDE</a></li><li><a href="../content/Capturing-Negative-Knowledge" class="internal">Capturing Negative Knowledge</a></li><li><a href="../content/Claude-Knowledge-Base-Setup" class="internal">Claude Knowledge Base Setup</a></li><li><a href="../content/Exportable-Rules" class="internal">Exportable Rules</a></li><li><a href="../content/Forward-References-and-Planned-Knowledge" class="internal">Forward References and Planned Knowledge</a></li><li><a href="../content/Frontier-Exploration---AI-Optimized-Knowledge-Bases" class="internal">Frontier Exploration - AI-Optimized Knowledge Bases</a></li><li><a href="../content/Frontier-Exploration---Climate-Zone-Dependent-Knowledge" class="internal">Frontier Exploration - Climate-Zone-Dependent Knowledge</a></li><li><a href="../content/Frontier-Exploration---Context-Style-Dependent-Knowledge" class="internal">Frontier Exploration - Context-Style-Dependent Knowledge</a></li><li><a href="../content/Frontier-Exploration---Equipment-and-Tool-Dependencies" class="internal">Frontier Exploration - Equipment and Tool Dependencies</a></li><li><a href="../content/Frontier-Exploration---Framework-Dependent-Knowledge" class="internal">Frontier Exploration - Framework-Dependent Knowledge</a></li><li><a href="../content/Frontier-Exploration---Illustrative-vs-Factual-Examples" class="internal">Frontier Exploration - Illustrative vs Factual Examples</a></li><li><a href="../content/Frontier-Exploration---Jargon-vs-Plain-Language" class="internal">Frontier Exploration - Jargon vs Plain Language</a></li><li><a href="../content/Frontier-Exploration---Jurisdiction-and-Region-Dependent-Knowledge" class="internal">Frontier Exploration - Jurisdiction and Region-Dependent Knowledge</a></li><li><a href="../content/Frontier-Exploration---Knowledge-Abstraction-Levels" class="internal">Frontier Exploration - Knowledge Abstraction Levels</a></li><li><a href="../content/Frontier-Exploration---Knowledge-Ethics-and-Exclusion" class="internal">Frontier Exploration - Knowledge Ethics and Exclusion</a></li><li><a href="../content/Frontier-Exploration---Knowledge-Without-Sources" class="internal">Frontier Exploration - Knowledge Without Sources</a></li><li><a href="../content/Frontier-Exploration---Learning-vs-Reference-Knowledge-Bases" class="internal">Frontier Exploration - Learning vs Reference Knowledge Bases</a></li><li><a href="../content/Frontier-Exploration---Multi-Audience-Knowledge-Bases" class="internal">Frontier Exploration - Multi-Audience Knowledge Bases</a></li><li><a href="../content/Frontier-Exploration---Multi-Modal-Knowledge" class="internal">Frontier Exploration - Multi-Modal Knowledge</a></li><li><a href="../content/Frontier-Exploration---Multi-Vault-Architecture" class="internal">Frontier Exploration - Multi-Vault Architecture</a></li><li><a href="../content/Frontier-Exploration---Multiple-Equivalent-Approaches" class="internal">Frontier Exploration - Multiple Equivalent Approaches</a></li><li><a href="../content/Frontier-Exploration---Probabilistic-Knowledge" class="internal">Frontier Exploration - Probabilistic Knowledge</a></li><li><a href="../content/Frontier-Exploration---Single-Work-Knowledge-vs-General-Principles" class="internal">Frontier Exploration - Single-Work Knowledge vs General Principles</a></li><li><a href="../content/Frontier-Exploration---Tags-vs-Links" class="internal">Frontier Exploration - Tags vs Links</a></li><li><a href="../content/Frontier-Exploration---Temporal-and-Sequential-Knowledge" class="internal">Frontier Exploration - Temporal and Sequential Knowledge</a></li><li><a href="../content/Frontier-Exploration---Vault-Boundaries" class="internal">Frontier Exploration - Vault Boundaries</a></li><li><a href="../content/Frontier-Exploration---Version-Dependent-Knowledge" class="internal">Frontier Exploration - Version-Dependent Knowledge</a></li><li><a href="../content/Git-Best-Practices" class="internal">Git Best Practices</a></li><li><a href="../content/Graph-Density-Management" class="internal">Graph Density Management</a></li><li><a href="../content/Graph-Navigation-MCP" class="internal">Graph Navigation MCP</a></li><li><a href="../content/Handling-Contradictory-Sources" class="internal">Handling Contradictory Sources</a></li><li><a href="../content/Handling-Temporal-Knowledge" class="internal">Handling Temporal Knowledge</a></li><li><a href="../content/Hub-Node-Creation" class="internal">Hub Node Creation</a></li><li><a href="../content/Knowledge-Graph-Structure" class="internal">Knowledge Graph Structure</a></li><li><a href="../content/Note-Deprecation-Criteria" class="internal">Note Deprecation Criteria</a></li><li><a href="../content/Note-Naming-Conventions" class="internal">Note Naming Conventions</a></li><li><a href="../content/Note-Prioritization-Strategy" class="internal">Note Prioritization Strategy</a></li><li><a href="../content/Prerequisite-Knowledge-Tracking" class="internal">Prerequisite Knowledge Tracking</a></li><li><a href="../content/RAG-(Retrieval-Augmented-Generation)" class="internal">RAG (Retrieval-Augmented Generation)</a></li><li><a href="../content/Source-Evidence-Quality-Tiers" class="internal">Source Evidence Quality Tiers</a></li><li><a href="../content/Source-Quality-Tier" class="internal">Source Quality Tier</a></li><li><a href="../content/Stress-Test---Atomicity-Rule-in-Cooking" class="internal">Stress Test - Atomicity Rule in Cooking</a></li><li><a href="../content/Stress-Test---Atomicity-Rule-in-Music-Theory" class="internal">Stress Test - Atomicity Rule in Music Theory</a></li><li><a href="../content/Stress-Test---Confidence-Markers-Rule-in-Scientific-Research" class="internal">Stress Test - Confidence Markers Rule in Scientific Research</a></li><li><a href="../content/Stress-Test---Note-Lifecycle-Rule-in-Software-Development" class="internal">Stress Test - Note Lifecycle Rule in Software Development</a></li><li><a href="../content/Stress-Test---Self-Contained-Notes-Rule-in-Legal-Knowledge" class="internal">Stress Test - Self-Contained Notes Rule in Legal Knowledge</a></li><li><a href="../content/Stress-Test---Temporal-Knowledge-Rule-in-Stock-Trading" class="internal">Stress Test - Temporal Knowledge Rule in Stock Trading</a></li><li><a href="../content/The-Knowledge-Creator" class="internal">The Knowledge Creator</a></li><li><a href="../content/Zettelkasten-Method" class="internal">Zettelkasten Method</a></li><li><a href="../content/_root" class="internal">_root</a></li><li><a href="../content/" class="internal">index</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

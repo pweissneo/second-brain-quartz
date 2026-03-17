@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Frontier Gap - Multi-Modal Knowledge Representation</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Multi-Modal-Knowledge-Representation</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Multi-Modal-Knowledge-Representation</guid>
+    <description><![CDATA[ Frontier Gap: Multi-Modal Knowledge Representation The Seed lacks comprehensive rules for knowledge that requires multiple modalities (images, audio, video, diagrams, interactive content) to be fully captured and understood. ]]></description>
+    <pubDate>Tue, 17 Mar 2026 16:57:05 GMT</pubDate>
+  </item><item>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>AI-Assisted Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management How AI enhances each stage of the knowledge management pipeline. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Active Reading</title>
+    <link>https://quartz.jzhao.xyz/Active-Reading</link>
+    <guid>https://quartz.jzhao.xyz/Active-Reading</guid>
+    <description><![CDATA[ Active Reading Active reading means engaging deeply with knowledge base content rather than passively consuming it. The Three Pillars 1. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Advanced Pattern Matching</title>
+    <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
+    <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
+    <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Capture-Process Confusion</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Capture-Process-Confusion</guid>
+    <description><![CDATA[ Anti-Pattern: Capture-Process Confusion Trying to fully process notes at capture time breaks the workflow. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Link Inflation</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
+    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Neglecting Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</guid>
+    <description><![CDATA[ Anti-Pattern: Neglecting Maintenance Only adding content, never reviewing, leads to vault decay. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
+    <pubDate>Sat, 14 Mar 2026 01:53:11 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
