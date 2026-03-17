@@ -3,6 +3,12 @@ last-reviewed: 2026-03-15
 confidence: emerging
 author-type: ai-assisted
 lifecycle: evergreen
+tags:
+  - stress-test
+  - thinking-tools
+  - meditation
+  - mindfulness
+  - metacognition
 ---
 
 # Stress Test: Thinking Tools Rule in Meditation & Mindfulness Knowledge Base
@@ -91,8 +97,8 @@ The meditation and mindfulness domain presents a unique challenge for the Thinki
 ## Related Notes
 
 - [[Frontier Gap - Embodied Knowledge]] — methodology for extracting tacit knowledge
-- [[Seed Stress Test - Self-Contained Notes in Photography]] — partial overlap with subjective expertise
+- [[Stress Test - Self-Contained Notes Rule Across Domains]] — self-containment across domains (includes subjective expertise)
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
-- [[Seed Stress Test - Woodworking Knowledge Base]] — testing Seed rules in another craft domain
+- [[Seed Stress Test - Craft Knowledge Bases]] — testing Seed rules in another craft domain
 - [[Seed Stress Test - Craft Knowledge Bases]] — another experiential domain
 - [[AI-Assisted Knowledge Management Seed]] — the rule being tested

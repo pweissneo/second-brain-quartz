@@ -8,6 +8,9 @@ tags:
   - methodology
   - cognitive-science
   - process
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Writing as Thinking

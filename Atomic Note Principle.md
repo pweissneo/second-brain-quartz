@@ -142,7 +142,8 @@ If a note just restates what links already contain, it's redundant.
 This rule has been validated across multiple domains:
 
 - [[Stress Test - Atomicity Rule Across Domains]] — Tests edge cases across cooking, gardening, programming, philosophy domains
+- [[Stress Test - Atomicity Rule Across Domains]] — Philosophy-specific atomicity challenges
 - [[Seed Stress Test - Craft Knowledge Bases]] — Comprehensive stress testing of Seed rules in culinary domain
-- [[Stress Test - 3-Hops Rule in Genealogy]] → now merged into [[Seed Stress Test - Graph Density Rule in Genealogy]]
+- [[Seed Stress Test - Graph Density Rule in Genealogy]]
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Tests temporal data handling
 - [[Frontier Exploration - Single-Work Knowledge vs General Principles]] — Tests atomicity with creative works

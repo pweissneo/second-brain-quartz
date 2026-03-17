@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-03-15
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-16
+lifecycle: merged
+confidence: high
 author-type: ai-assisted
+status: incorporated
+review-by: 
 tags:
   - seed-improvement
   - knowledge-processing
@@ -10,6 +12,10 @@ tags:
 ---
 
 # Seed Improvement - Derived Knowledge Provenance
+
+> **STATUS:** This note's content has been incorporated into the Seed (see "Derived Knowledge Provenance" section).
+> 
+> This note remains for historical context and detailed rationale.
 
 > Adding provenance tracking for knowledge synthesized from other vault notes
 
@@ -43,11 +49,13 @@ Add fields for notes that synthesize vault knowledge:
 derived-from-vault: true
 synthesis-type: pattern-discovery|principle-extraction|hub-creation|inference
 sources:
-  - [[Note A]]
-  - [[Note B]]
+  - [[Note Lifecycle Management]]  # example source
+  - [[Graph Traversal Efficiency]]  # example source
 synthesis-method: How this was derived (induction, analogy, deduction)
 derived-date: YYYY-MM-DD
 ```
+
+> **Note:** The sources above are illustrative examples. Replace with actual note references when implementing.
 
 ### Rules
 

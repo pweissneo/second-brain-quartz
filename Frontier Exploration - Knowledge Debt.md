@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-16
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
@@ -105,6 +105,27 @@ Inconsistent naming:
 
 ## Measuring Knowledge Debt
 
+### Debt Score Formula
+
+Create a **Knowledge Debt Score** by weighting symptoms:
+
+```
+Debt Score = (V × 0.25) + (S × 0.25) + (D × 0.20) + (R × 0.15) + (N × 0.15)
+```
+
+Where:
+- V = Verification debt (% unverified / 100), capped at 1.0
+- S = Staleness debt (% stale / 100), capped at 1.0  
+- D = Decay debt (broken links / total links), capped at 1.0
+- R = Redundancy debt (duplicate potential / total notes), capped at 1.0
+- N = Noise debt (unused notes / total notes), capped at 1.0
+
+**Thresholds:**
+- Score < 0.15: Healthy vault
+- Score 0.15-0.30: Moderate debt — schedule maintenance
+- Score 0.30-0.50: High debt — pause capture, prioritize recovery
+- Score > 0.50: Critical debt — emergency recovery mode
+
 ### Debt Indicators
 
 | Metric | Healthy | Warning |
@@ -200,7 +221,8 @@ Knowledge debt is different from natural evolution:
 - [[Graph Maintenance]] — Structural health checks
 - [[Note Lifecycle Management]] — Evolution stages
 - [[Handling Temporal Knowledge]] — Citation debt
-- [[Frontier Exploration - Knowledge Activation States]] — Related to staging and readiness tracking
+- [[AI-Assisted Knowledge Management Seed#activation-state]] — Related to staging and readiness tracking (adopted into Seed)
+- [[Confidence Markers]] — Priority signals and decay functions for attention management (merged from Knowledge Attention Signals)
 - [[Seed Stress Test - Craft Knowledge Bases]] — Terminology consistency stress test (includes cooking domain examples)
 - [[Self-Improvement Cycle]] — Continuous improvement
 

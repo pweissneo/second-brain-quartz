@@ -14,7 +14,7 @@ tags:
 
 Testing Seed rules against craft domains — cooking and brewing — which combine procedural knowledge, scientific principles, and sensory evaluation.
 
-> "Rules that don't survive contact with reality are bad rules." — [[Seed Rule: Self-Improvement]]
+> "Rules that don't survive contact with reality are bad rules." — [[Self-Improvement Cycle]]
 
 ## Domain Overview
 
@@ -385,22 +385,83 @@ Most recipes are self-contained with ingredients lists and step-by-step instruct
 
 ---
 
+## Woodworking-Specific Insights
+
+*Unique findings from testing against the woodworking domain*
+
+### Safety-Critical Knowledge
+
+Woodworking (and similar craft domains) have safety content that is mandatory for power tools. Missing a safety link could cause injury.
+
+**Proposed Addition to Seed:**
+> **Rule:** Safety-critical notes must have ≥2 incoming links from related tool/technique notes.
+> **Why:** Missing safety information causes harm; redundant safety links ensure coverage.
+> **Test:** For each tool note, does it link to ≥1 safety note? For each safety note, does it have ≥2 incoming links from related tools?
+> **Implementation:** Use frontmatter `safety: critical` and require AI agents to audit links.
+
+### Hub Notes in Tool-Heavy Domains
+
+In woodworking, tool-specific hubs often need safety context upfront:
+
+```
+# Table Saw
+
+The table saw is the centerpiece of most woodworking shops.
+
+## Essential Topics
+- Blade Selection
+- Table Saw Jigs
+
+## Safety Critical
+- Kickback Prevention
+- Push Stick Usage
+```
+
+The "Safety Critical" section is substantive content, not just links.
+
+**Refined Rule:** Hub notes in safety-critical domains (tools, chemicals, machinery) may include substantive safety context beyond pure navigation links.
+
+### Regional Terminology in Crafts
+
+Woodworking has significant US/UK terminology differences:
+- US: "Miter saw" / UK: "Chop saw"
+- US: "Poplar" / UK: "Tulip wood"
+- US: "2x4" (nominal) vs "38x89mm" (actual metric)
+
+**Proposed Refinement:**
+> For domain-specific terms: Use standard terminology (industry norms). Add redirect notes for regional variants. Test: "Would a professional in this field recognize this as correct?"
+
+### Expertise Level Tagging
+
+| Level | Woodworking Notes |
+|-------|------------------|
+| beginner | "How to Use a Hand Plane," "Measuring Basics" |
+| intermediate | "Tuning a Hand Plane," "Joinery Fundamentals" |
+| advanced | "Steam Bending," "Veneering" |
+| expert | "Chair Design," "Compound Curvature" |
+
+**Proposed Refinement:**
+> Add to Seed: "Tag notes with `level:` (beginner/intermediate/advanced/expert) and create gateway notes for each level."
+
+---
+
 ## Summary: Rule Refinements Needed
 
 1. **Word count**: Add explicit guidance for troubleshooting notes with 3+ branches; refine execution test for short procedural content
-2. **Linking**: Add edge case for equipment-constrained knowledge and specialized tools
+2. **Linking**: Add edge case for equipment-constrained knowledge and specialized tools; add `safety: critical` metadata
 3. **Self-containment**: Add guidance for calculation-heavy domains
 4. **Substitution**: Add directional substitution tracking
 5. **Confidence**: Add scale scope (amateur/professional/both)
 6. **Sequential knowledge**: Add `temporal-type: parallelizable` for craft domains
+7. **Hub notes**: Safety-critical domains may include substantive safety context in hubs
+8. **Expertise tagging**: Add `level:` frontmatter requirement for skill-based domains
 
 ---
 
 ## Related
 
 - [[Seed Stress Test - Chess Knowledge Base]] — Strategy game domain
-- [[Seed Stress Test - Woodworking Knowledge Base]] — Craft domain comparison
-- [[Seed Stress Test - Gardening Knowledge Base]] — Agricultural domain
+- [[Frontier Exploration - Gardening Knowledge Bases]] — Agricultural domain
 - [[Domain-Specific Knowledge Bases]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]

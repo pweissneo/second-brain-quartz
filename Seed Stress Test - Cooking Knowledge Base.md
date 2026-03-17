@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: evergreen
+last-reviewed: 2026-03-17
+lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -8,201 +8,318 @@ tags:
   - seed-stress-test
   - cooking-domain
   - edge-case
+  - food-safety
 ---
 
 # Seed Stress Test: Cooking Knowledge Base
 
-Testing all Seed rules in the cooking domain reveals where general rules break down for culinary knowledge.
-
-> "A knowledge base that only captures successes is incomplete." — [[Anti-Patterns in Knowledge Management]]
+Testing Seed rules in the cooking domain reveals unique challenges around procedural content, sensory judgment, and ingredient-specific knowledge.
 
 ## Domain Overview
 
 Cooking knowledge bases face unique challenges:
-- Procedural content (recipes) legitimately exceeds 300+ words
-- Foundational ingredients (salt, oil, water) are referenced by everything but link to nothing
-- Sequential knowledge is central but has degrees (linear, parallelizable, iterative)
-- Regional terminology variations are all "correct"
+- Procedural content (recipes) requires different handling than conceptual notes
+- Sensory judgment (ripeness, doneness, "done") is difficult to capture in text
+- Ingredient knowledge varies by cuisine, region, and availability
+- Equipment assumptions differ across home vs professional kitchens
+- Technique knowledge has steep skill curves
 
 ---
 
-## 1. Word Count Rule
+## 1. Atomicity & Word Count
 
-**Rule:** Notes should be 100-300 words. Notes >300 likely contain multiple ideas.
+**Seed Rule:** Notes should be 100-300 words. Notes >300 likely contain multiple ideas.
 
 **Cooking Application:**
-- A recipe like "Boeuf Bourguignon" at 800 words flags for review
-- Edge case applies: "Is this an executable procedure? Yes"
-- Follow-up: "Would splitting make it harder to use?" → Yes
 
-**Edge Case: Complete Short Recipes**
-A complete recipe for "Hard Boiled Eggs" can be fully functional in 80 words:
-> "Place eggs in single layer in pot. Cover with cold water 1 inch above eggs. Bring to boil. Remove from heat, cover, let sit 10 minutes. Transfer to ice bath. Peel."
+### Edge Case: Complete Recipes Under 100 Words
 
-This is NOT a stub - it's complete and usable. The Seed test incorrectly flags it because the rule treats short notes as incomplete by default. But procedural content (recipes) has a different nature.
+**Problem:** Some complete recipes are legitimately under 100 words. Example:
+> "Quick Pickles: Combine 1 cup vinegar, 1 cup water, 1 tbsp salt in saucepan. Bring to boil. Pour over sliced cucumbers in jar. Cool 30 min. Serve."
 
-**Refined Edge Case Test:**
-> Complete procedural content under 100 words is valid when:
-> 1. The procedure can be executed from the note alone
-> 2. All necessary information (ingredients, steps, timing) is present
-> 3. No essential steps are omitted
->
-> **The test:** Can you execute this note's procedure without additional information? If yes, it's complete regardless of word count.
+This is complete and executable at 47 words. Is it a stub that needs expansion, or is it properly atomic?
 
-**Suggested Improvement:**
-> For procedural content: If clearly executable AND meets either: (a) user must execute linearly, OR (b) splitting would lose essential context → Do NOT flag. Only split if parts are genuinely reusable AND >1000 words.
+**Seed Test:** Notes under 50 words must either be marked as stubs OR provide sufficient substance to stand alone.
 
-**Related:** [[Atomic Note Principle]], [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
+**Analysis:** This recipe can be executed without additional information. It passes the "complete short procedural content" test.
+
+**Refinement:** For procedural content (recipes, techniques), apply atomicity test FIRST: Can this be executed without additional information? If yes, word count is secondary.
+
+### Edge Case: Comprehensive Technique Notes
+
+**Problem:** "Sautéing" as a single note covers: terminology, pan types, fat options, temperature control, common mistakes, troubleshooting. This could exceed 1000 words.
+
+**Analysis:** Is this one idea (sautéing) comprehensively covered, or multiple ideas bundled?
+
+**Test:** Does the note explore ONE technique comprehensively, or does it bundle distinct sub-techniques (e.g., stir-fry vs sauté vs pan-fry as separate techniques that happen to use similar equipment)?
 
 ---
 
-## 2. "At Least 2 Links" Rule
+## 2. Link Density: Basic Ingredients
 
-**Rule:** Every note must link to at least 2 other notes OR be tagged `foundational: true`.
+**Seed Rule:** Every note must link to at least 2 other notes OR be tagged `foundational: true`.
 
 **Cooking Application:**
-Recipes naturally connect to ingredients, techniques, equipment, flavor profiles.
 
-**Edge Cases:**
-1. **True foundational primitives**: Salt, oil, water — used everywhere but don't link out
-2. **Single-component recipes**: "Boiled egg" only links to "egg" and "boiling"
-3. **Historical/period recipes**: Limited to period-accurate ingredients
+### Edge Case: Foundational Ingredients
 
-**Problem:** "Verify manually" instruction means test is NOT fully automated.
+**Problem:** Salt, oil, water, heat — used in virtually every recipe, but what do they naturally link to?
 
-**Proposed Improvement:**
-Use explicit metadata: `foundational: true` tag makes test fully executable.
+**Analysis:** These are domain primitives. Per Seed rule, they should be tagged `foundational: true`.
+
+**Test:** Does "Salt" link to 2+ notes naturally? Probably not. But it's referenced in hundreds of recipes.
+
+**Solution:** Tag with `foundational: true`.
+
+### Edge Case: Cuisine-Specific Ingredients
+
+**Problem:** "Miso paste" might only naturally link to "Japanese cooking" and "fermentation."
+
+**Analysis:** Two links meets minimum. But if the vault doesn't have those notes, it's orphaned.
+
+**Test:** Should cuisine hub notes exist to provide natural link targets?
 
 ---
 
-## 3. No Zero Backlinks Rule
+## 3. Equipment Dependencies
 
-**Rule:** Every note should be linked to from at least one other note.
+**Seed Rule:** Document physical equipment dependencies.
 
 **Cooking Application:**
-- Techniques link to recipes using them
-- Recipes link to ingredients
-- Equipment links to recipes requiring it
 
-**Edge Cases:**
-1. **Universal ingredients** (salt, oil, water): Referenced by 500+ recipes but link to nothing — high backlinks, low outgoing
-2. **Navigation hubs**: "List of Pasta Shapes" aggregates but nothing links TO it
-3. **Regional ingredients**: "Suet" might have zero backlinks in a modern vault
+### Edge Case: Equipment Tier Assumptions
 
-**Recommendation:**
-> Every note must be reachable from `_root.md` in ≤3 hops AND should have ≥1 backlink UNLESS: (a) universal/primitive element, (b) navigation hub, (c) foundational reference.
+**Problem:** "Use a Dutch oven" assumes the reader has one. But:
+- Budget cooking: "Use a heavy pot with tight lid" (alternatives exist)
+- Professional: "Ricer" vs "food mill" vs "immersion blender"
+
+**Test:** Does the technique note specify required vs optional equipment? Are alternatives documented?
+
+### Edge Case: Temperature Control Equipment
+
+**Problem:** "Simmer at 180°F" — most home cooks don't have a thermometer.
+
+**Analysis:** Some techniques require equipment; others have workarounds.
+
+**Test:** For techniques requiring specific equipment: Is there a `safety-mandatory:` tag? (e.g., candy-making requires thermometer for safety)
 
 ---
 
-## 4. Operational vs Synthesized Knowledge
+## 4. Experiential Knowledge: Sensory Cues
 
-**Rule:** Separate operational knowledge from synthesized knowledge — time-box or mark temporary.
+**Seed Rule:** For domains with experiential knowledge, include `experiential-component` frontmatter.
 
 **Cooking Application:**
 
-| Note Type | Category | Action |
-|-----------|----------|--------|
-| "How to Roast Chicken" | Permanent | Keep |
-| "Thanksgiving 2025 Menu" | Operational | Time-box |
-| "Chocolate Chip Cookie Recipe" | Permanent | Keep |
-| "Week 10 Meal Plan" | Operational | Delete after week |
-| "Pantry Inventory March 2026" | Operational | Delete after update |
+### Edge Case: "Cook Until..."
 
-**Edge Cases:**
-- **Recipe notes**: "Grandma's Chicken Soup" — is this operational or permanent? Verdict: **permanent** (synthesizes technique and cultural knowledge)
-- **Restaurant reviews**: "My Review of Chez Panisse" — delete or deprecate (not synthesizable knowledge)
+**Problem:** Recipes say "cook until golden brown" or "until internal temperature reaches 145°F" — but:
+- "Golden brown" varies by ingredient, heat level, pan color
+- Color is easier to judge than internal temp
+- "Doneness" for meat is both measurable (temp) and sensory (touch)
 
-**Recommendation:**
-- Personal opinion/review = operational debris
-- Research/principle = synthesized
-- Time-specific plans = operational
-- Transferable techniques = synthesized
+**Test:** Are sensory cues documented with examples?
+- Good: "Skin bubbles and wrinkles; edges turn golden"
+- Poor: "Cook until done"
+
+### Edge Case: "Add Salt to Taste"
+
+**Problem:** This is the classic unhelpful advice. Salt amount depends on:
+- Sodium content of the salt (table vs kosher vs sea)
+- Other sodium sources in the dish
+- Personal preference
+- Type of cuisine
+
+**Test:** Can the note provide a starting point (e.g., "about 1 tsp per quart") rather than just "to taste"?
 
 ---
 
-## 5. Sequential Knowledge Rule
+## 5. Source Quality: Recipe Reliability
 
-**Rule:** Distinguish sequential knowledge (where order IS the knowledge) with `temporal-type: sequence`.
+**Seed Rule:** For knowledge with established evidence hierarchies, capture source quality tier.
 
 **Cooking Application:**
 
-| Type | Example | temporal-type |
-|------|---------|----------------|
-| Bread baking | autolyse → bulk ferment → shape → proof → bake | linear |
-| Prep ingredients | Chop vegetables, make sauce | parallelizable |
-| Reducing sauce | Reduce → taste → adjust → reduce | iterative |
-| Searing meat | Depends on outcome of each step | conditional |
+| Source Type | Reliability | Example |
+|-------------|-------------|---------|
+| Professional cookbook | High | America's Test Kitchen |
+| Restaurant chef blog | Medium-High | Depends on chef's teaching skill |
+| Community recipe | Variable | Home cooks, untested by editor |
+| Viral social media | Low-Variable | Often untested, optimized for engagement |
+| Historical cookbook | Variable | Techniques valid, ratios may differ |
 
-**Edge Cases:**
-1. **Parallelizable steps**: Mise en place can happen in any order
-2. **Interchangeable elements**: "Aromatics" — onions, carrots, celery (order matters slightly but not strictly)
-3. **Technique vs. Recipe**: "Sautéing" as technique = static; "Sauté onions" in recipe = sequential
-4. **Iterative processes**: Reducing sauce, bread fermentation
-5. **"Until" conditions**: "Cook until translucent" — sensory cues, not time
-6. **Equipment-dependent**: Same recipe, different sequence for oven vs sous vide
-7. **Traditional vs. Modern**: Stocks — classical French vs modern quick
+### Edge Case: Recipe Testing
 
-**Recommendation:**
-```yaml
-temporal-type: linear | parallelizable | iterative | conditional
-sensory-cues: "Cook until edges pull away from pan"
+**Problem:** A recipe on a blog might work for the author but not for home cooks with different equipment.
+
+**Seed Rule:** For procedural content, include `verification-status: unverified | tested | community-validated`.
+
+**Test:** Can you identify the verification status of each recipe? Are tested recipes marked?
+
+---
+
+### Edge Case: Food Safety Critical Knowledge
+
+**Problem:** Cooking involves safety-critical knowledge that differs from regular procedural content:
+- Specific temperature thresholds (165°F for poultry, 40°F for refrigeration)
+- Expiration vs. best-before distinctions
+- Cross-contamination prevention procedures
+
+This knowledge requires explicit safety tagging because incorrect information can cause real harm (foodborne illness).
+
+**Seed Rule:** For high-stakes knowledge, use `criticality: high` frontmatter and include explicit safety disclaimers.
+
+**Test:** For temperature-related food safety notes:
+1. Is the temperature precise and sourced from authoritative bodies (FDA, USDA)?
+2. Is there a `criticality: high` tag?
+3. Does the note distinguish between safety thresholds and quality/preference?
+
+### Edge Case: Expiration vs. Best-Before Dates
+
+**Problem:** "Expiration date" and "best-before date" have different meanings:
+- "Expires on" = unsafe after this date
+- "Best before" = quality may decline but still safe
+
+Conflating these causes either food waste (throwing away safe food) or foodborne illness (eating unsafe food).
+
+**Test:** Do date-related food notes explicitly distinguish safety vs. quality thresholds?
+
+---
+
+## 6. Climate/Region Scope
+
+**Seed Rule:** For knowledge whose validity depends on climate zones, use explicit scope tags.
+
+**Cooking Application:**
+
+### Edge Case: Altitude Baking
+
+**Problem:** Baking at high altitude (5,000+ ft) requires adjustments:
+- Lower boiling point (water at 200°F vs 212°F)
+- Leavening adjustments
+- Moisture adjustments
+
+**Test:** Does high-altitude baking advice include altitude range? Is it tagged with `elevation:` scope?
+
+### Edge Case: Ingredient Availability
+
+**Problem:** "Substitute soy sauce for fish sauce" — works in some cuisines, wrong in others.
+
+**Test:** Does substitution advice specify cuisine applicability?
+
+---
+
+## 7. Time-Sensitive Knowledge: Trendy Ingredients
+
+**Seed Rule:** Track knowledge validity periods.
+
+**Cooking Application:**
+
+### Edge Case: Ingredient Trends
+
+**Problem:** "Best new ingredients of 2023" — foam, spherification, liquid nitrogen — are these still relevant?
+
+**Test:** Does the note have `as-of:` date? Is there a review trigger?
+
+---
+
+## 8. Taxonomy: Cuisine Organization
+
+**Seed Rule:** Every note must be reachable from `_root.md` in 3 hops or fewer.
+
+**Cooking Application:**
+
+### Path Example
+
 ```
+_root → Food → Cuisines → Asian → Japanese → Sushi → [specific rolls]
+```
+= 6 hops
+
+**Analysis:** This is a natural taxonomy (Food → Category → Cuisine → Sub-cuisine → Technique → Specific). But it exceeds 3 hops.
+
+**Seed Edge Case:** "Natural domain hierarchies (taxonomies, classification systems, geographic/regional breakdowns) may legitimately exceed 3 hops."
+
+**Solution:** This is a genuine domain taxonomy. Allow deeper paths OR create hub shortcuts.
 
 ---
 
-## 6. Terminology Consistency Rule
+## 9. Diminishing Returns Testing in Cooking
 
-**Rule:** Pick one term per concept and use it everywhere.
+**Seed Rule:** Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility, connection, uniqueness, effort.
 
 **Cooking Application:**
-- Equipment: "skillet" OR "frying pan" consistently
-- Techniques: "simmer" consistently
 
-**Edge Cases:**
-1. **Genuinely different terms:**
-   - Sauté vs pan-fry vs stir-fry (different techniques)
-   - Broth vs stock (different preparations, though some regions reverse)
+### Edge Case: Foundational Knowledge Exemption
 
-2. **Regional variations (both valid):**
-   - Bell pepper (US/UK) vs capsicum (AU/NZ)
-   - Eggplant (US) vs aubergine (UK)
-   - Cilantro (US leaves) vs coriander (seeds/UK)
+**Problem:** Basic techniques (knife skills, heat management, sauce foundations) don't have 2+ natural links initially but are essential for any cooking knowledge base.
 
-3. **Technical vs common:**
-   - "Deglaze" (technical) vs "add liquid to pan" (common)
-   - Different audiences need different terms
+**Solution:** Foundational knowledge (core techniques, essential ingredients, fundamental principles) should be exempt from diminishing returns testing during domain bootstrap. Apply the test only to application-level knowledge after foundations are established.
 
-4. **Historical/classical:**
-   - "Fond" (French) vs "brown bits" (common)
+### Edge Case: Experiential Knowledge Requires Different Testing
 
-**Recommendation:**
-> Terminology consistent UNLESS: (a) distinct terms represent different techniques, (b) regional variations both valid, (c) common + technical serve different audiences.
+**Problem:** In cooking, you often cannot assess utility without actually cooking. A recipe may LOOK similar to existing ones but produce dramatically different results.
+
+**Solution:** For recipes, the test should include "have you cooked this?" rather than just assessing the note itself. Require `verification-status: tested` for recipes.
+
+### Edge Case: Cuisine-Specific Context
+
+**Problem:** A recipe that's redundant in one cuisine (many Italian pasta dishes) may be unique in another (Japanese-Italian fusion).
+
+**Solution:** For crossover cuisine notes: assess uniqueness within each culinary tradition separately. For fusion cooking: require explicit documentation of what makes the fusion distinctive.
+
+### Edge Case: Ingredient Availability Affects Utility
+
+**Problem:** A recipe using obscure ingredients has different utility depending on the cook's location and access.
+
+**Solution:** Add `ingredient-access:` scope tag (local | specialty | import required).
+
+### Modified Test for Cooking Domain
+
+For the last 5 notes added to a cooking topic:
+1. Do 3+ pass utility/connection/uniqueness/effort tests OR have `verification-status: tested`?
+2. For foundational technique notes: are they exempt during bootstrap phase?
+3. For recipe notes: do they have sensory-cues documented?
 
 ---
 
 ## Summary of Edge Cases
 
-| Rule | Edge Case | Solution |
-|------|-----------|----------|
-| Word count | Recipes >300 words | Don't flag if executable procedure |
-| Word count | Complete short recipes <100 words | Use execution test: can it run without additional info? |
-| 2+ links | Salt, oil, water | Use `foundational: true` |
-| No zero backlinks | Universal ingredients | Allow if referenced 10+ times indirectly |
-| Operational vs synthesized | Recipes | Recipes = permanent; meal plans = time-box |
-| Sequential knowledge | Parallelizable steps | Add `temporal-type: parallelizable` |
-| Terminology | Regional variants | Allow both with context |
+| Seed Rule | Edge Case | Solution |
+|-----------|-----------|----------|
+| Atomicity | Complete recipes <100 words | Test execution completeness, not just word count |
+| Atomicity | Comprehensive technique notes >300 words | Single theme comprehensively covered = valid |
+| Link Density | Foundational ingredients (salt, oil) | Tag with `foundational: true` |
+| Equipment | Tier assumptions (professional vs home) | Document alternatives, specify `required` vs `optional` |
+| Experiential | "Cook until golden" | Document sensory cues with examples |
+| Source Quality | Recipe verification status | Use `verification-status` field |
+| Altitude | High-altitude adjustments | Add `elevation:` scope tag |
+| 3-Hop Rule | Cuisine taxonomy legitimately deep | Allow domain taxonomies; create hub shortcuts |
+| Critical Knowledge | Food safety temperatures | Use `criticality: high` tag; source from FDA/USDA |
+| Critical Knowledge | Expiration vs. best-before dates | Distinguish safety vs. quality thresholds |
+
+---
+
+## Recommendations for Seed
+
+1. **Procedural Content**: Clarify that word count limits apply to conceptual notes; procedural content (recipes, techniques) follows different atomicity test.
+
+2. **Equipment Dependencies**: Add `equipment-skill-level:` field (home-cook vs professional) to clarify assumptions.
+
+3. **Experiential Knowledge**: For cooking, require `sensory-cues:` field documenting how to judge doneness without equipment.
+
+4. **Verification Status**: For recipes, distinguish "author-tested" from "community-validated" from "untested."
+
+5. **Cuisine Hubs**: Create hub structure at major category boundaries (by cuisine, by technique type, by meal type) to shorten navigation paths.
 
 ---
 
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Seed Stress Test - Chess Knowledge Base]] - Another domain stress test
-- [[Seed Stress Test - Woodworking Knowledge Base]] - Craft domain stress test
-- [[Domain-Specific Knowledge Bases]]
-- [[Atomic Note Principle]]
-- [[Linking Principle]]
-- [[Stress Test - Atomicity Rule Across Domains]]
-- [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test
+- [[Frontier Exploration - Gardening Knowledge Bases]]
+- [[Seed Stress Test - Craft Knowledge Bases]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[Frontier Exploration - Expert Heuristics and Rules of Thumb]]
 - [[Handling Temporal Knowledge]]
-- [[Frontier Exploration - Jargon vs Plain Language]]
+- [[Domain-Specific Knowledge Bases]]

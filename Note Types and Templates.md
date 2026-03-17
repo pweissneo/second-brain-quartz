@@ -87,7 +87,7 @@ tags:
   - note
 lifecycle: active
 confidence: emerging
-last-reviewed: 
+last-reviewed: YYYY-MM-DD
 author-type: ai-assisted
 verification-status: unverified
 prerequisites:
@@ -125,7 +125,7 @@ tags:
   - [domain]
 lifecycle: evergreen
 gateway: true
-last-reviewed: 
+last-reviewed: YYYY-MM-DD
 author-type: ai-assisted
 ---
 
@@ -160,7 +160,7 @@ tags:
   - project
   - [domain]
 lifecycle: active
-last-reviewed: 
+last-reviewed: YYYY-MM-DD
 activation-state: captured
 author-type: ai-assisted
 ---
@@ -215,4 +215,5 @@ lifecycle: active
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
 - [[Frontier Exploration - Knowledge Base Onboarding]]
 - [[Frontier Exploration - Collaborative Knowledge Creation]]
+- [[AI-Assisted Knowledge Management Seed#activation-state]] — Knowledge activation states
 

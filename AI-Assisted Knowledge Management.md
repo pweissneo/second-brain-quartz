@@ -1,9 +1,13 @@
 ---
 protected: true
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-15
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+tags:
+  - overview
+  - methodology
+  - ai-assisted
 ---
 
 # AI-Assisted Knowledge Management
@@ -86,3 +90,5 @@ Auto-action risks losing context AI can't fully appreciate.
 - [[Atomic Note Principle]]
 - [[Knowledge Base Workflow]]
 - [[Self-Improvement Cycle]]
+- [[Graph Maintenance]]
+- [[Note Lifecycle Management]]

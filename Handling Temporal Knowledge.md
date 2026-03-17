@@ -349,18 +349,83 @@ This note provides comprehensive implementation guidance, covering both:
 
 **Rule:** Archive stale recommendations rather than deleting — preserve historical accuracy while maintaining current advice separately.
 
+### Additional Edge Cases for Discredited Knowledge
+
+*Content integrated from frontier exploration on discredited and historically superseded knowledge*
+
+When handling knowledge that was once considered true but has been fundamentally disproven, apply these additional considerations:
+
+#### 1. Partially Wrong Theories
+
+Some theories were partially right:
+- Newtonian physics: wrong at relativistic speeds, but accurate for everyday scales
+- "Germs cause disease": true for infectious disease, but incomplete (doesn't cover genetic, autoimmune)
+
+**Solution:** Use `scope:` tags to specify when the theory applies vs. fails
+
+#### 2. Paradigm Shifts
+
+Some superseded theories require complete worldview changes:
+- Ptolemaic → Copernican: not just different model, different understanding of humanity's place in cosmos
+- Four humors → germ theory: completely different disease model
+
+**Solution:** Note the paradigm shift explicitly - these aren't just "updates"
+
+#### 3. Still-Useful Approximations
+
+Some "wrong" theories are still useful:
+- Ideal gas law: technically wrong (real gases deviate), but useful approximation
+- Classical mechanics: wrong for quantum scales, still used for everyday engineering
+
+**Solution:** Distinguish "fundamentally disproven" from "approximate but useful"
+
+#### 4. Cultural vs. Scientific Supersession
+
+Some knowledge isn't "wrong" but outdated:
+- Etiquette rules from 1950s
+- Fashion trends
+- Cultural norms
+
+**Solution:** These are `status: historical` (not "discredited") - they were never claims about objective truth
+
+#### 5. Dangerous Discredited Knowledge
+
+Some discredited knowledge could cause harm if used:
+- Anti-vaccine ideas from discredited research
+- Dangerous medical treatments that were once standard
+- Racial "science" that was used to justify atrocities
+
+**Solution:** Mark with `harm-potential:` and include strong warnings. Historical preservation ≠ endorsement.
+
+#### Historical Accuracy Tier
+
+Add `historical-accuracy:` tier to distinguish:
+- `historically-accurate`: True representation of what was believed/known at the time
+- `partially-inaccurate`: Some elements were wrong even for the time
+- `known-false-at-time`: Even contemporaries knew this was disputed
+
+**Why:** Not all historical knowledge was considered equally valid at the time. Some theories were contested even before being superseded.
+
+#### Test for AI Agents
+
+Given a note about an old scientific theory:
+1. Is it marked `status: historical-superseded`?
+2. Does it explain *why* the theory was abandoned?
+3. Does it link to the replacement knowledge?
+4. Is there context about what was right/useful even in the wrong theory?
+5. Is there a warning if applying the old theory could cause harm?
+
 ---
 
 ## Related
 - [[Note Types and Templates]]
 - [[Note Lifecycle Management]]
 - [[Metadata and Tagging]]
-- [[Handling Temporal Knowledge]]
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Related: covers cyclic evaluation and decision-making processes
-- [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Related: temporal knowledge often involves multiple modalities
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential
 - [[AI-Assisted Knowledge Management Seed]] — covers temporal knowledge including predictions

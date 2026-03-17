@@ -174,4 +174,4 @@ Safety equipment needs explicit `safety-mandatory: true` marker, not just listin
 - [[Stress Test - Equipment Dependencies Rule in Music Production]]
 - [[Types of Applicability Boundaries]]
 - [[Frontier Exploration - User Situational Constraints]]
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
+- [[Frontier Gap - Embodied Knowledge]]

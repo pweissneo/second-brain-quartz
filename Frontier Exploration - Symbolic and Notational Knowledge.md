@@ -3,6 +3,7 @@ last-reviewed: 2026-03-13
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+specialized: true
 tags:
   - frontier-exploration
   - music
@@ -123,7 +124,7 @@ Current Seed temporal rules focus on sequence (A before B). But music analysis a
 | Dual representation | Self-contained | Not notation-specific |
 
 ## Related Notes
-- [[Frontier Exploration - Multi-Modal Knowledge]]
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Temporal Knowledge]]
 - [[Seed Stress Test - Chess Knowledge Base]] (partial - notation in chess)

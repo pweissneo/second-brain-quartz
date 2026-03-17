@@ -229,6 +229,91 @@ Safety content is mandatory for power tools. Missing a safety link could cause i
 
 ---
 
+## 9. Hub Note Rule (Detailed Analysis)
+
+**Rule:** Hub notes should link outward (to topic notes), not contain substantial content themselves. Hub notes under 200 words, primarily links with brief context.
+
+### Where the Rule Works Well
+- **Woodworking Tools** → links to Hand Tools, Power Tools, Jigs, Safety Equipment
+- **Wood Types** → links to Hardwoods, Softwoods, Exotic Woods, Wood Grain
+- **Finishing Techniques** → links to Sanding, Staining, Varnishing, Oil Finishes
+
+### Edge Case: Hub as Introduction
+
+In woodworking, many topics genuinely benefit from a brief substantive introduction before the links:
+
+```
+# Wood Finishing
+
+Wood finishing is the process of applying a protective 
+and decorative layer to wood surfaces. It enhances 
+durability, appearance, and resistance to moisture.
+
+## Types of Finishes
+- Oil Finishes - Penetrate and protect
+- Film Finishes - Create surface barrier
+- Wax Finishes - Natural sheen
+```
+
+The hub contains ~50 words of substantive content + 6 links. Is this a violation?
+
+**Analysis:** The rule says "primarily" links. 50 words + 6 links = ~70% links, which arguably passes. But the substantive intro is genuinely valuable for context.
+
+### Edge Case: Tutorial Hubs
+
+A hub like "Woodworking Projects" for a beginner might need workflow context:
+
+```
+# Woodworking Projects
+
+Start with these project categories based on skill level:
+
+## Beginner Projects
+- Cutting Boards
+- Simple Boxes
+- Workbenches
+## Intermediate Projects
+- Furniture Building
+- Joinery Practice
+```
+
+The hub is primarily links, but includes skill-level categorization (~40 words). This seems valuable but adds content beyond pure navigation.
+
+### Edge Case: Tool-Specific Hubs
+
+A hub for "Table Saw" might need safety context upfront:
+
+```
+# Table Saw
+
+The table saw is the centerpiece of most woodworking shops.
+
+## Essential Topics
+- Blade Selection
+- Table Saw Jigs
+
+## Safety Critical
+- Kickback Prevention
+- Push Stick Usage
+```
+
+The "Safety Critical" section is substantive content, not just links.
+
+### The Real Issue
+
+The 200-word limit is reasonable. The question is whether substantive "introductory context" before links violates the "primarily links" test.
+
+**Refined Rule:** Hub notes should primarily contain links with brief context. Brief introductory context (under 50 words) is acceptable when it provides essential orientation for navigating the links. Safety-critical domains (tools, chemicals, machinery) may include substantive safety context.
+
+**Test:** 
+1. Is the hub under 200 words?
+2. Does the content primarily consist of links (with optional brief context)?
+3. If substantive content exists: Is it essential orientation, safety-critical, or grading/classification context?
+
+**Related:** [[Hub Node Creation]], [[Seed Stress Test - Craft Knowledge Bases]]
+
+---
+
 ## Summary of Proposed Seed Refinements
 
 1. **Procedural content**: Length acceptable if single coherent procedure; split only if parts are independently reusable AND >1000 words

@@ -241,7 +241,7 @@ _root → Training → Periodization → Macrocycles → Mesocycles → Microcyc
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Seed Stress Test - Cooking Knowledge Base]] — Similar experiential knowledge challenges
-- [[Seed Stress Test - Gardening Knowledge Base]] — Seasonal/temporal knowledge
-- [[Frontier Exploration - Experiential Knowledge]]
+- [[Frontier Exploration - Gardening Knowledge Bases]] — Seasonal/temporal knowledge
 - [[Domain-Specific Knowledge Bases]]
 - [[Handling Temporal Knowledge]]
+

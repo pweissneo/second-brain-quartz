@@ -1,8 +1,8 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-16
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: deprecated
 review-by: 2026-03-21
 tags:
   - frontier-exploration
@@ -13,9 +13,17 @@ tags:
 
 # Frontier Exploration: Knowledge Activation States
 
-The Seed covers knowledge processing (capture → refinement → integration) but has a gap: **when does captured knowledge become "ready" for use?** This is distinct from lifecycle stages (draft → active → evergreen) — it's about the readiness of the knowledge itself for practical application.
+> ⚠️ **DEPRECATED**: This concept has been adopted into the Seed. See: [[AI-Assisted Knowledge Management Seed#activation-state]] for the current rules.
 
-## The Gap
+This frontier exploration proposed tracking when captured knowledge becomes "ready" for practical application — distinct from lifecycle stages (draft → active → evergreen).
+
+## Status: Adopted into Seed
+
+The proposed rules below have been adopted into the Seed. See [[AI-Assisted Knowledge Management Seed]] for the canonical version.
+
+## Original Proposal (Archived)
+
+### The Gap
 
 The Seed provides:
 - Staging states (whisper, draft, probe)
@@ -28,7 +36,7 @@ But the Seed doesn't address:
 - How to track knowledge that's "almost ready" but needs one more piece
 - The difference between "captured" and "deployable" knowledge
 
-## Why This Matters
+### Why This Matters
 
 Consider these scenarios:
 
@@ -46,26 +54,15 @@ You have notes about "best practices for 2023" — still useful but may need upd
 
 The Seed's lifecycle stages don't capture this "readiness" dimension. A note can be "active" but not yet ready to inform decisions.
 
-## Proposed Concept: Knowledge Activation States
+## Adopted Rules Summary
 
-| State | Description | Action Required |
-|-------|-------------|----------------|
-| **captured** | Raw input — notes, links, fragments | Needs processing |
-| **processed** | Synthesized into atomic form | Needs verification |
-| **verified** | Confirmed accurate (sources checked, procedures tested) | Ready for use |
-| **applied** | Used in a real decision/context | Needs outcome capture |
-| **integrated** | Outcome captured, knowledge refined | Active use |
+| Rule | Seed Location |
+|------|---------------|
+| Track knowledge activation state separately from lifecycle | [[AI-Assisted Knowledge Management Seed#activation-state]] |
+| Define explicit activation criteria for knowledge types | Same section |
+| Include activation state in retrieval results | Same section |
 
-## Why This Is Different from Lifecycle
-
-- **Lifecycle**: Where the note is in its "life" (new → mature → old)
-- **Activation**: Whether the knowledge is ready to be used
-
-A note can be:
-- Lifecycle: "active" but Activation: "captured" (raw, unprocessed)
-- Lifecycle: "evergreen" but Activation: "applied" (needs outcome capture)
-
-## Test Cases
+## Test Cases (Preserved for Reference)
 
 ### Test Case 1: Research Capture
 You capture highlights from 10 papers about topic X.
@@ -82,26 +79,12 @@ You need to make a decision and query your vault.
 - Current Seed: No guidance on how to assess whether vault knowledge is "ready"
 - Gap: How do you know if the knowledge informing your decision is sufficient?
 
-## Proposed Seed Rules (Draft)
-
-**Rule:** Track knowledge activation state separately from lifecycle stage — distinguish whether knowledge is ready for practical application.
-**Why:** A note can be "active" (lifecycle) but not yet ready to inform decisions. Without activation tracking, users may rely on incomplete knowledge.
-**Test:** Can you categorize each note by both lifecycle stage AND activation state? Are they independent?
-
-**Rule:** Define explicit activation criteria for knowledge types — specify what makes knowledge "ready" for different use cases.
-**Why:** The threshold for "ready" differs by use. A recipe needs testing; a factual claim needs source verification; an opinion needs perspective tagging.
-**Test:** For knowledge in your vault: (1) What activation criteria apply? (2) Are criteria explicit in frontmatter or documentation? (3) Can users determine readiness without reading full content?
-
-**Rule:** Include activation state in retrieval results — when querying for decision-support, filter to "verified" or "applied" knowledge.
-**Why:** Including unverified or unprocessed knowledge in decisions risks poor outcomes. Retrieval should respect activation state.
-**Test:** Can you filter vault queries by activation state? Do decision-support queries exclude "captured" or "processed" knowledge?
-
 ## Related Concepts
 
+- [[Frontier Exploration - Incomplete and Provisional Knowledge]] — capturing incomplete knowledge in transitional states
+- [[Confidence Markers]] — prioritizing review attention
 - [[Frontier Exploration - Vault Query Patterns for Decision-Making]]
-- [[Seed Rule: Use explicit staging for incomplete knowledge]]
 - [[Confidence Markers]]
-- [[Verification Status for Procedural Content]]
 
 ## Questions This Raises
 
@@ -113,4 +96,4 @@ You need to make a decision and query your vault.
 
 - [[AI-Assisted Knowledge Management Seed]] — Foundation rules
 - [[Handling Temporal Knowledge]] — Related to knowledge currency
-- [[Knowledge Debt]] — Connection to incomplete knowledge
+- [[Frontier Exploration - Knowledge Debt]] — Connection to incomplete knowledge

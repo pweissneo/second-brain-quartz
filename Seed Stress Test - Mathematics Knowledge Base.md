@@ -220,7 +220,7 @@ An AI building a mathematics knowledge base using only current Seed rules would:
 ## Related Notes
 
 - [[Atomic Note Principle]] — Core atomicity guidance
-- [[Stress Test - Stub Notes Rule in Mathematics Knowledge Base]] — Related exploration
-- [[Knowledge Abstraction Levels]] — Formal vs. intuitive understanding
+- [[Seed Stress Test - Stub Notes Rule in Mathematics Knowledge Base]] — Related exploration
+- [[Frontier Exploration - Knowledge Abstraction Levels]] — Formal vs. intuitive understanding
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Related: proof as iterative reasoning
 - [[AI-Assisted Knowledge Management Seed]] — Source of rules being tested

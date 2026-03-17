@@ -3,6 +3,7 @@ last-reviewed: 2026-03-13
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+specialized: true
 tags:
   - seed-stress-test
   - ai-optimization

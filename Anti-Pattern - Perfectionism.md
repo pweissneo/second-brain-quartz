@@ -45,6 +45,16 @@ Notes evolve through stages:
 
 Start with draft, improve through iteration.
 
+## Test for Perfectionism Anti-Pattern
+
+To identify perfectionism in your vault:
+
+1. **Draft Age Test**: Are any notes in "draft" status older than 30 days?
+2. **Capture Rate Test**: Has it been more than 14 days since a new note was created?
+3. **Revision Loop Test**: Have any single notes been revised more than 5 times without progressing to "active" status?
+
+If you answer yes to 2+ of these questions, you may be suffering from perfectionism.
+
 ## Related
 
 - [[Self-Improvement Cycle]]

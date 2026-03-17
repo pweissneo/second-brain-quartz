@@ -1,9 +1,9 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: active
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-domain: software-development
+domain-familiarity: assessed
 tags:
   - stress-test
   - programming

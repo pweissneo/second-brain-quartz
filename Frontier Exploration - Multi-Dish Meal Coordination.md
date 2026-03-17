@@ -39,12 +39,13 @@ Given the current Seed rules applied to cooking:
 
 ## Related Existing Coverage
 
-The Seed DOES cover:
-- [[Rule: Document physical equipment dependencies]] — equipment constraints
-- [[Rule: For knowledge where applicability depends on user situational constraints]] — constraint scoping
-- [[Rule: Track knowledge gaps explicitly]] — gap discovery
+The Seed covers equipment constraints in [[AI-Assisted Knowledge Management Seed]] (see "Document physical equipment dependencies" and "user situational constraints" rules), and gap discovery, but multi-dish coordination is a specific gap not explicitly addressed.
 
-But multi-dish coordination is a specific gap.
+Related frontier explorations:
+- [[Frontier Exploration - User Situational Constraints]] — constraint-based planning
+- [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]] — selection among options
+- [[Frontier Exploration - Equipment and Tool Dependencies]] — resource constraints
+- [[Handling Temporal Knowledge]] — timing and sequencing
 
 ## Proposed Seed Rule
 

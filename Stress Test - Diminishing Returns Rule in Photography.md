@@ -1,28 +1,33 @@
 ---
-last-reviewed: 2026-03-14
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-16
+lifecycle: deprecated
+confidence: n/a
 author-type: ai-assisted
 tags:
-- seed-stress-test
-- photography
-- edge-case
-- subjective-knowledge
+  - seed-stress-test
+  - photography
+  - deprecated
+  - merged
+  - subjective-knowledge
 ---
 
 # Stress Test: Diminishing Returns Rule in Photography Knowledge Base
 
-## Seed Rule Being Tested
-**Rule:** Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (adds new knowledge), effort (maintenance worth value).
+> **DEPRECATED:** This note has been merged into [[Frontier Gap - Embodied Knowledge]]. 
+> See that comprehensive note for full coverage of subjective and experiential knowledge challenges.
 
-**Test:** For the last 5 notes added to a mature topic: Do 3+ pass all four tests?
+## Redirect
 
-## Application to Photography Knowledge Base
+The content from this note has been incorporated into [[Frontier Gap - Embodied Knowledge]], which provides:
 
-### Where the Rule Works Well
-- Camera gear notes (utility: high - helps users make purchasing decisions)
-- Technical settings (utility: high - provides actionable information)
-- Post-processing workflows (utility: high - enables reproducible results)
+- Comprehensive coverage of subjective knowledge challenges (similar to photography aesthetics)
+- Proficiency tracking frontmatter
+- Verification workflows for experiential knowledge
+- Domain severity assessments showing tacit vs. explicit knowledge ratios
+
+**Action required:** Update any links to point to [[Frontier Gap - Embodied Knowledge]].
+
+## Original Findings (Preserved for Reference)
 
 ### Edge Case: Subjective Aesthetic Knowledge
 
@@ -37,27 +42,18 @@ These notes score HIGH on:
 - **Effort:** Low maintenance - static content
 
 But they score LOW on:
-- **Utility:** Highly subjective - what's "useful" depends entirely on the user's aesthetic goals. A note about "moody desaturated look" might be brilliant for one photographer and useless for another.
+- **Utility:** Highly subjective - what's "useful" depends entirely on the user's aesthetic goals.
 
-**The Test is Not Executable:** An AI cannot objectively determine whether a note "improves vault answers" for subjective aesthetic knowledge. The test assumes utility is measurable, but in photography:
-- Portrait photographers need different knowledge than landscape photographers
-- Commercial work needs different knowledge than artistic expression
-- "Utility" depends on the question being asked, not the note content
+**The Test is Not Executable:** An AI cannot objectively determine whether a note "improves vault answers" for subjective aesthetic knowledge.
 
-### Proposed Refinement to Test
+### Proposed Refinement (Now Incorporated)
 
-The current test: "Do 3+ pass all four tests?"
-
-The problem: It assumes all four tests are equally objective and measurable.
-
-**Proposed new test:**
-1. For objective-knowledge notes (technical, factual): apply all four criteria strictly
-2. For subjective-knowledge notes (aesthetic, stylistic): apply connection + uniqueness + effort only; skip utility test or replace with "applicability-scope" check
-
-**Alternative:** Add a domain-specific override - for domains where subjective knowledge dominates (art, music, design, photography), the diminishing returns test should be relaxed or re-scoped.
+The proposed refinements from this stress test have been incorporated into [[Frontier Gap - Embodied Knowledge]]:
+- Add domain-specific override for subjective-knowledge dominant domains
+- Apply connection + uniqueness + effort only for subjective notes; skip utility test
+- Use "applicability-scope" as proxy for utility in subjective domains
 
 ## Related Notes
-- [[Domain Gap - Music Composition Knowledge Capture]] - similar issue for subjective knowledge
-- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
-- [[Stress Test - Self-Contained Notes Rule Across Domains]] - for understanding note completeness
+- [[Frontier Gap - Embodied Knowledge]] (merge target)
+- [[Seed Gap - Music Composition Knowledge Bases]] - similar subjective knowledge issues
 - [[Confidence Markers]] - for handling subjective knowledge

@@ -231,7 +231,7 @@ Without prioritization, you might start with "How to make coq au vin" — too sp
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends (see rules 9-11 for exploration/exploitation, diminishing returns, and priority signals)
-- [[Frontier Exploration - Knowledge Domain Completeness]] — Deprecated - merged into this note
-- [[Knowledge Base Utility Assessment]] — Testing if vault serves its purpose
+- [[Frontier Exploration - Knowledge Base Utility Assessment]] — Testing if vault serves its purpose
 - [[Domain-Specific Knowledge Bases]] — Organizing by domain
 - [[Multi-Vault Architecture]] — When to split vaults
+- [[Frontier Exploration - AI Vault Construction Decision Framework]] — Foundational structural decisions when building from scratch

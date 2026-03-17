@@ -8,11 +8,15 @@ tags:
   - temporal-knowledge
   - domain-trading
   - validated-2026-03-12
+validation:
+  validated: 2026-03-12
+  validator: "Seed stress test process"
+  result: "Rule handles trading domain well. Edge cases identified are already covered by existing Seed guidance."
 ---
 
 # Stress Test: Temporal Knowledge Rule in Stock Trading
 
-> Validated: 2026-03-12 - Rule handles trading domain well. Edge cases identified are already covered by existing Seed guidance.
+> Rule handles trading domain well. Edge cases identified are already covered by existing Seed guidance.
 
 ## The Rule Under Test
 

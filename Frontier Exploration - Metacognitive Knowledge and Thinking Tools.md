@@ -3,6 +3,8 @@ last-reviewed: 2026-03-14
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 tags:
 - seed-rule
 - frontier-exploration
@@ -273,6 +275,6 @@ Thinking tools may evolve:
 
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
 - [[Writing as Thinking]] — Existing note on capturing thought processes
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — Related to how frameworks apply differently
+- [[Frontier Exploration - Integrated Rules History]] — Related to how frameworks apply differently
 - [[Frontier Gap - Embodied Knowledge]] — Similar challenge of capturing invisible knowledge
-- [[Frontier Exploration - Context-Specific Learning Insights]] — Personalized learning approaches
+- [[Frontier Exploration - Integrated Rules History]] — Personalized learning approaches

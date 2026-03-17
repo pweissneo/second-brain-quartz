@@ -7,6 +7,7 @@ tags:
   - convention
   - naming
   - structure
+level: convention
 ---
 
 # Note Naming Conventions

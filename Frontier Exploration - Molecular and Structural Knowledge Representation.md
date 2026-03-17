@@ -3,6 +3,7 @@ last-reviewed: 2026-03-14
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+structure-format: conceptual-framework
 tags:
   - frontier-exploration
   - structural-knowledge
@@ -183,6 +184,6 @@ Knowledge bases may need to represent structural transitions, not just static st
 ## Related Notes
 
 - [[Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge]] — Visual representation for creative domains
-- [[Frontier Exploration - Multi-Modal Knowledge]] — General multi-modal capture
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] — General multi-modal capture
 - [[Stress Test - Atomicity Rule Across Domains]] — Structure in astronomy (stellar classification)
 - [[Frontier Exploration - Symbolic and Notational Knowledge]] — Formal representation systems

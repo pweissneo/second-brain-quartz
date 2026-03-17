@@ -56,4 +56,4 @@ But there's no explicit `climate-zone` or `hardiness-zone` tag, and no guidance 
 - [[Frontier Exploration - User Situational Constraints]] — Related: scope metadata for user context
 - [[Handling Temporal Knowledge]]
 - [[Stress Test - Atomicity Rule Across Domains]] — Domain stress tests including climate-dependent knowledge handling
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — Similar scope-tag pattern for conceptual frameworks
+- [[Frontier Exploration - Integrated Rules History]] — Similar scope-tag pattern for conceptual frameworks

@@ -46,3 +46,4 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 - [[Knowledge Graph Structure]]
 - [[Graph Traversal Efficiency]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[Frontier Exploration - Competing Organizational Structures]]

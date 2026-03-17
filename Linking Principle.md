@@ -110,5 +110,5 @@ AI can automatically evaluate link quality:
 - [[Atomic Note Principle]]
 - [[Note Insertion Strategy]]
 - [[Graph Traversal Efficiency]]
-- [[Stress Test - 2+ Links Rule in Nursing Knowledge Base]] — Testing linking in clinical domains
+- [[Seed Stress Test - 2+ Links Rule in Music Theory]] — Multi-domain stress test (Music Theory + Nursing)
 - [[Emergence in Knowledge Graphs]]

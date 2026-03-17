@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-17
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -133,5 +133,4 @@ flowchart TD
 - [[Graph Maintenance]]
 - [[Note Insertion Strategy]]
 - [[Frontier Exploration - Vault Structure and Discovery Bias]] — How structure affects what gets discovered
-- [[Stress Test - 3-Hops Rule in Genealogy]] → now merged into [[Seed Stress Test - Graph Density Rule in Genealogy]]
-- [[Graph Traversal Efficiency]] — Merged into this note
+- [[Seed Stress Test - Graph Density Rule in Genealogy]]

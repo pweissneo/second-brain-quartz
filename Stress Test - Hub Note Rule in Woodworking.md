@@ -148,6 +148,5 @@ In woodworking specifically:
 ## Related
 - [[Hub Node Creation]]
 - [[Graph Traversal Efficiency]]
-- [[Graph Traversal Efficiency]]
 - [[Atomic Note Principle]]
 - [[Knowledge Graph Structure]]

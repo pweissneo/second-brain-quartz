@@ -114,8 +114,8 @@ An AI building a knowledge base using only current Seed rules would:
 ## Related Notes
 
 - [[Frontier Gap - Embodied Knowledge]] — Related to hard-to-articulate knowledge
-- [[Frontier Exploration - Source Credibility Assessment]] — Assessing source reliability
-- [[Frontier Exploration - Knowledge Source Types]] — Types of knowledge sources
+- [[Handling Contradictory Sources]] — For handling conflicting information
+- [[Knowledge Base Workflow]] — General capture and processing workflow
 
 ## Test Case
 

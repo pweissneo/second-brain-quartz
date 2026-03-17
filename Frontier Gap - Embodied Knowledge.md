@@ -297,12 +297,94 @@ For each note in an experiential domain:
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: both deal with knowledge that's hard to capture in text alone
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Stress Test - Atomicity Rule Across Domains]] (tacit knowledge handling)
-- [[Stress Test - Hub Note Rule in Woodworking]] (tacit knowledge in tool feel)
-- [[Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]] — Tests experiential knowledge handling
-- [[Frontier Exploration - Context-Specific Learning Insights]] — Context-dependent knowledge
+- [[Seed Stress Test - Craft Knowledge Bases]] (tacit knowledge in tool feel, hub rule analysis)
+- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]] — Tests experiential knowledge handling
+- [[Stress Test - Diminishing Returns Experiential Domains Refinement]] — Verification workflow for experiential domains
+- [[Frontier Exploration - Integrated Rules History]] — Context-dependent knowledge
 - [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]]
-- [[Frontier Exploration - Multi-Modal Knowledge]] — Media alongside text (infrastructure)
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Media alongside text (infrastructure)
 - [[Knowledge Base Workflow]] — Capture and processing workflow
+- [[Frontier Exploration - Recipe and Menu Design Knowledge]] — Creative composition in cooking
+- [[Frontier Exploration - Sensory Knowledge Capture]] — Tasting/evaluating experiential knowledge
+- [[Frontier Exploration - Incomplete and Provisional Knowledge]] — Related to unverified status
+- [[Redundancy - Cooking Knowledge Notes]] — Identified overlap between meal coordination notes
+
+---
+
+## Merged Content from Related Notes
+
+### From Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)
+
+The following refinements were proposed in the cross-domain analysis and are incorporated here:
+
+#### Verification Workflow (from Cross-Domain Analysis)
+
+**Rule:** Add verification method field for experiential knowledge:
+
+```yaml
+verification-method: self-report  # Practitioner assesses own progress
+verification-method: teacher-assessment  # Qualified teacher verifies
+verification-method: no-verification-possible  # Cannot verify through any external means
+```
+
+#### Multi-Aspect Support (from Cross-Domain Analysis)
+
+For notes with multiple skill types:
+```yaml
+experiential-component:
+  technique: partial
+  palpation: essential
+  communication: partial
+```
+
+#### Progress Subjectivity Marker (from Cross-Domain Analysis)
+
+```yaml
+progress-markers: subjective  # Personal, varies by individual
+progress-markers: objective  # Can be measured externally
+```
+
+#### "Canary Knowledge" Concept (from Cross-Domain Analysis)
+
+Some experiential knowledge has "canary" indicators - signs that tell you whether you're on track:
+- "If the clay wobbles when you push it, it's not centered - this is your canary"
+- "If the glaze looks chalky before firing, it's too thick"
+
+### From Stress Test Mergers
+
+The following stress tests have been merged into this note for comprehensive coverage:
+
+1. **Stress Test - Diminishing Returns Experiential Domains Refinement** — covering verification workflows and execution uncertainty
+2. **Stress Test - Diminishing Returns Rule in Photography** (merged into this note) — covering subjective aesthetic knowledge (photography as case study)
+
+Both stress tests identified the same core problem: the diminishing returns test assumes utility can be measured without execution, but in subjective and experiential domains this assumption fails.
+
+### From Stress Test - Diminishing Returns Experiential Domains Refinement
+
+The following operational guidance was proposed and is incorporated here:
+
+#### Complete Verification Lifecycle
+
+```yaml
+verification-status: unverified   # Captured but not yet tested
+verification-status: testing       # Actively experimenting
+verification-status: verified      # Tested 2+ times with consistent positive results
+verification-status: failed        # Tested but didn't work (also valuable!)
+verification-status: blocked       # Cannot test due to constraints
+blocker: kitchen|ingredients|time|skill  # What's preventing testing
+```
+
+#### Modified Test for Experiential Domains
+
+For experiential domains, modify the diminishing returns test:
+> For the last 5 notes: Do 3+ pass OR have verification-status of testing/verified? (Unverified notes don't count toward passing until tested)
+
+#### Execution Feasibility Handling
+
+If execution is not feasible:
+- Capture anyway with `verification-status: blocked`
+- Add `blocker: [kitchen|ingredients|time|skill]`
+- Consider capturing as "reference only" vs. "actionable"
 
 ---
 

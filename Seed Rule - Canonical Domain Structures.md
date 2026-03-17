@@ -64,7 +64,7 @@ examples:
 
 ## Related
 
-- [[Domain Gap - Music Composition Knowledge Capture]]
-- [[Frontier Exploration - Canonical vs Analysis Knowledge]]
+- [[Seed Gap - Music Composition Knowledge Bases]]
+- [[Handling Contradictory Sources]]
 - [[Hub Node Creation]]
 - [[AI-Assisted Knowledge Management Seed]]

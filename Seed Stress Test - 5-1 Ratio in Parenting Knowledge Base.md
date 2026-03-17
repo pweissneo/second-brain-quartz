@@ -153,6 +153,6 @@ The 5:1 rule assumes personal knowledge is MORE valuable than general knowledge.
 
 - [[AI-Assisted Knowledge Management Seed]] — Original Seed
 - [[Frontier Exploration - Parenting Knowledge Capture]]
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Domain-Specific Knowledge Bases]]

@@ -19,7 +19,7 @@ Knowledge bases often need to compare alternatives:
 - "X vs Y" — which is better?
 - Tool comparisons — "A vs B vs C"
 - Method comparisons — "Approach 1 vs Approach 2"
-- Framework comparisons — covered in [[Frontier Exploration - Framework-Dependent Knowledge]]
+- Framework comparisons — covered in [[Frontier Exploration - Integrated Rules History]]
 
 The Seed has rules for:
 - Atomicity (one idea per note)
@@ -51,7 +51,7 @@ Three or more alternatives:
 - "Note-Taking Apps: Obsidian vs Logseq vs Roam"
 
 ### Framework Comparisons
-Epistemologically equivalent but mutually incompatible (see [[Frontier Exploration - Framework-Dependent Knowledge]]):
+Epistemologically equivalent but mutually incompatible (see [[Frontier Exploration - Integrated Rules History]]):
 - "Copenhagen vs Many-Worlds"
 - "Keynesian vs Austrian Economics"
 
@@ -116,7 +116,7 @@ When comparing epistemologically equivalent frameworks:
 2. Acknowledge evidence standards vary by framework
 3. Don't synthesize a "winner" when none exists
 
-See [[Frontier Exploration - Framework-Dependent Knowledge]] for full guidance.
+See [[Frontier Exploration - Integrated Rules History]] for full guidance.
 
 ## Test for AI Agents
 
@@ -138,7 +138,7 @@ See [[Frontier Exploration - Framework-Dependent Knowledge]] for full guidance.
 
 ## Related
 - [[Handling Contradictory Sources]] — Related: comparative analysis often involves handling contradictory sources
-- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Integrated Rules History]]
 - [[Frontier Exploration - Jargon vs Plain Language]]
 - [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]] — Related: covers equivalent alternatives that all produce valid results
 - [[AI-Assisted Knowledge Management Seed]]

@@ -58,3 +58,6 @@ For every dedicated negative knowledge note, include a link to the positive alte
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Personal Experimentation Results]]
 - [[Note Lifecycle Management]]
+- [[Confidence Markers]] — for signaling reliability of negative knowledge
+- [[Handling Contradictory Sources]] — when negative knowledge conflicts with positive
+- [[Frontier Exploration - Knowledge Debt]] — accumulated gaps in knowledge quality

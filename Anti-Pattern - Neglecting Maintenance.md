@@ -50,3 +50,4 @@ Run regular audits per [[Self-Improvement Cycle|iteration cycle]].
 - [[Self-Improvement Cycle]]
 - [[Note Lifecycle Management]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[Frontier Exploration - Knowledge Triage and Overflow Management]] — When capture exceeds capacity

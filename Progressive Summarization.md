@@ -8,6 +8,9 @@ tags:
   - note-taking
   - methodology
   - capture
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Progressive Summarization

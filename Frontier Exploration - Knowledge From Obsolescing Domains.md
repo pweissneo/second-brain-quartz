@@ -41,7 +41,9 @@ The challenge: this knowledge was correct but may become inaccessible as practit
 
 ## Capture Strategy
 
-### Rule: Identify Domain Vitality Status
+**Rule:** Identify domain vitality status for each domain in your vault.
+**Why:** Knowing whether a domain is growing, stable, declining, or dying determines capture priority and strategy.
+**Test:** Can you categorize each domain in your vault by vitality status (growing|stable|declining|dying)?
 
 For each domain in your vault, assess:
 - Is this domain: growing, stable, declining, or dying?
@@ -55,7 +57,9 @@ Domain vitality assessment:
 - practitioner-availability: abundant|rare|endangered|extinct
 ```
 
-### Rule: Prioritize Last-Practitioner Knowledge
+**Rule:** Prioritize capturing knowledge from last practitioners in dying domains.
+**Why:** Once practitioners are gone, knowledge cannot be recovered. Last practitioners hold tacit knowledge that was never written down.
+**Test:** Can you identify the last 3 people who practiced this skill professionally?
 
 When a domain is dying, prioritize capturing knowledge from:
 1. Last practitioners (who will take knowledge with them)
@@ -63,9 +67,9 @@ When a domain is dying, prioritize capturing knowledge from:
 3. Tool-specific knowledge (equipment that's no longer made)
 4. Workflow knowledge (how things were done before modern alternatives)
 
-**Test**: Can you identify the last 3 people who practiced this skill professionally?
-
-### Rule: Distinguish Historical Preservation From Practical Capture
+**Rule:** Distinguish historical preservation (document for the record) from practical capture (document for potential future use).
+**Why:** Not all obsolete knowledge is worth preserving practically. Some should only be documented as historical record.
+**Test:** For each obsolete knowledge piece: (1) Is there a plausible future use case? (2) Does it have principles that transcend the specific domain? (3) Is it worth reviving?
 
 - **Historical preservation**: Document for the record (what happened)
 - **Practical capture**: Document for potential future use (what could work)
@@ -82,7 +86,9 @@ For obsolescing domains, ask: Is this worth preserving as historical record, or 
 - Replaced by fundamentally better alternatives
 - No plausible future use case
 
-### Rule: Capture Oral and Tacit Knowledge Urgently
+**Rule:** Capture oral and tacit knowledge urgently in obsolescing domains.
+**Why:** Obsolescing domains often have knowledge that exists only in practitioners' heads — "feel" knowledge, workarounds, shortcuts that were never written down.
+**Test:** Can you articulate knowledge that exists only in practitioners' heads? Can you document the "feel" of how something should be?
 
 Obsolescing domains often have knowledge that was never written down:
 
@@ -93,7 +99,9 @@ Obsolescing domains often have knowledge that was never written down:
 
 **Test**: Can you articulate knowledge that exists only in practitioners' heads?
 
-### Rule: Include Disambiguation for Future Revival
+**Rule:** Include disambiguation metadata for obsolescing knowledge to enable future revival.
+**Why:** Future practitioners may need to understand what replaced the obsolete knowledge and under what conditions it might become relevant again.
+**Test:** Does the note include: (1) what replaced it, (2) why it was replaced, (3) conditions under which it might revive?
 
 When capturing obsolescing knowledge:
 
@@ -131,7 +139,7 @@ If your skills are becoming obsolete (programmers who knew COBOL, photographers 
 ## Relationship to Other Rules
 
 - Complements [[Frontier Gap - Embodied Knowledge]] (oral transmission failure)
-- Complements [[Frontier Exploration - Discredited and Historically Superseded Knowledge]] (distinguish wrong from obsolete)
+- Complements [[Handling Temporal Knowledge]] (covers both wrong and obsolete knowledge)
 - Complements [[Seed Rule - Knowledge Decay Functions]] (temporal, not vitality-based)
 - Related to [[Frontier Exploration - Emergency and Crisis Knowledge]] (time-sensitive capture urgency)
 

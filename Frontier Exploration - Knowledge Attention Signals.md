@@ -1,13 +1,19 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-16
+lifecycle: deprecated
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+note-status: deprecated
+deprecated-by: Confidence Markers
+deprecated-reason: Redundant with Confidence Markers - both cover knowledge quality signaling. Confidence Markers is more established (37 refs vs 6) and covers confidence markers; attention signals should be merged into it.
 tags:
   - seed-exploration
   - attention-management
   - prioritization
+  - deprecated
 ---
+
+> ⚠️ **DEPRECATED**: This note is deprecated. The content on attention signals has been incorporated into [[Confidence Markers]]. Please update any references.
 
 # Frontier Exploration: Knowledge Attention Signals
 
@@ -157,6 +163,8 @@ Add to Quality Maintenance section:
 
 ## Related
 
+- [[Frontier Exploration - Knowledge Activation States]] — tracking readiness for practical application
+- [[Frontier Exploration - Incomplete and Provisional Knowledge]] — capturing incomplete knowledge in transitional states
 - [[AI-Assisted Knowledge Management Seed]] — Master Seed
 - [[Note Lifecycle Management]] — Lifecycle stages
 - [[Frontier Exploration - Knowledge Debt]] — Related to neglected knowledge

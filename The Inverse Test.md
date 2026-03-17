@@ -47,3 +47,5 @@ Absolute statements imply universal applicability. But most knowledge has bounda
 - [[Types of Applicability Boundaries]]
 - [[Frontier Exploration - Metacognitive Knowledge and Thinking Tools]]
 - [[Seed Improvement - Scale Scope Metadata]] — use inverse test to discover scale-dependent boundaries
+- [[Confidence Markers]] — inverse testing helps determine confidence levels
+- [[Handling Contradictory Sources]] — testing claims against inverses reveals contradictions

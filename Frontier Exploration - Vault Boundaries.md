@@ -1,12 +1,14 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: deprecated
 confidence: emerging
 author-type: ai-assisted
+review-note: Content integrated into Seed rules on vault boundaries. Preserved for historical context.
 tags:
   - frontier-exploration
   - vault-boundaries
   - architecture
+  - deprecated
 ---
 
 # Frontier Exploration - Vault Boundaries — What Belongs in a Knowledge Base

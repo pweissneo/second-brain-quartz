@@ -9,6 +9,9 @@ tags:
   - process
   - methodology
   - ai-assisted
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 author-type: human
 ---
 # Knowledge Base Workflow
@@ -172,7 +175,7 @@ Per [[Self-Improvement Cycle]]:
 - [[Active Reading]]
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
-- [[Frontier Exploration - Vault Query Patterns for Decision-Making]]
+- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]]
 
 ## The Feedback Loop
 

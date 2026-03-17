@@ -120,10 +120,9 @@ An AI building a game design knowledge base using only current Seed rules would 
 
 ## Related Notes
 
-- [[Frontier Gap - Embodied Knowledge]] — The "feel" of games
-- [[Frontier Exploration - Iterative Creative Knowledge]] — Design iteration
 - [[Frontier Gap - Embodied Knowledge]] — The "feel" of games and experiential knowledge
-- [[Stress Test - Hub Note Rule in Woodworking]] — Similar iterative domain
+- [[Frontier Exploration - Iterative Creative Knowledge]] — Design iteration
+- [[Seed Stress Test - Craft Knowledge Bases]] — Hub rule analysis in craft domains (includes woodworking)
 - [[Stress Test - Atomicity Rule Across Domains]] — Atomicity in mechanical systems
 
 ## Test Case: Building a Game Design Knowledge Base

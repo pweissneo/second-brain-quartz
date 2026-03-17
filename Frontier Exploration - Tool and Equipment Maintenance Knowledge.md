@@ -52,7 +52,7 @@ equipment:
 
 ## Related Notes
 
-- [[Equipment Dependencies]] — What tools are needed to execute knowledge
+- [[Frontier Exploration - Equipment and Tool Dependencies]] — What tools are needed to execute knowledge
 - [[Procedural Knowledge]] — How to use tools
 - [[Tool Replacement Decisions]] — When to repair vs replace (future exploration)
 - [[AI-Assisted Knowledge Management Seed]] — The rule has been incorporated

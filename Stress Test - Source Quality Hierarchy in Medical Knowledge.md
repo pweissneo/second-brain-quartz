@@ -153,4 +153,4 @@ The rule is sound but needs refinement:
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Contradictory Sources]]
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
+- [[Frontier Gap - Embodied Knowledge]]

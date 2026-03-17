@@ -212,7 +212,9 @@ This pattern is especially valuable for:
 
 ## Related Frontier Explorations
 
+- [[Confidence Markers]] — tracking readiness for practical application
 - [[Frontier Exploration - Knowledge Without Sources]] — Unverified knowledge handling
 - [[Frontier Gap - Embodied Knowledge]] — Hard-to-articulate knowledge
 - [[Frontier Exploration - Knowledge Debt]] — Incomplete capture as debt
 - [[Note Lifecycle Management]] — Full lifecycle from draft to deprecated
+- [[Frontier Exploration - Single-Point Dependency Knowledge]] — Fragile knowledge dependent on one piece of information

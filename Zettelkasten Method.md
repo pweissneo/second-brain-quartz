@@ -4,6 +4,11 @@ last-reviewed: 2026-03-08
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+tags:
+  - methodology
+  - foundation
+  - atomicity
+  - linking
 ---
 
 # Zettelkasten Method
@@ -73,3 +78,5 @@ We use [[Atomic Note Principle]] and [[Linking Principle]] to implement Zettelka
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
 - [[AI-Assisted Knowledge Management Seed]]
+- [[Note Lifecycle Management]]
+- [[Self-Improvement Cycle]]

@@ -92,7 +92,7 @@ For a home automation knowledge base:
 
 ## Related Notes
 
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — Software/framework version dependencies
+- [[Frontier Exploration - Integrated Rules History]] — Software/framework version dependencies
 - [[Stress Test - Version Scope Rule in Data Science ML]] — Version dependencies in ML workflows
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Physical tool dependencies
 - [[Handling Temporal Knowledge]] — URLs rot; service dependencies rot faster

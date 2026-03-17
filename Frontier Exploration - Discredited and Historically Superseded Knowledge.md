@@ -154,3 +154,4 @@ Given a note about an old scientific theory:
 - [[Handling Temporal Knowledge]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Contradictory Sources]]
+- [[Frontier Exploration - Knowledge From Obsolescing Domains]] — Knowledge from fading/dying domains (different from discredited knowledge)

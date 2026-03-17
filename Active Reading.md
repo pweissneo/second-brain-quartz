@@ -7,6 +7,9 @@ author-type: ai-assisted
 tags:
   - methodology
   - capture
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Active Reading
@@ -43,3 +46,15 @@ The second brain only grows when you actively contribute. Reading without thinki
 - [[Linking Principle]]
 - [[Note Insertion Strategy]]
 - [[Self-Improvement Cycle]]
+
+## Domain Application Examples
+- [[Seed Stress Test - Photography Knowledge Base]] — Active reading applied to understanding photography concepts and techniques
+- [[Seed Stress Test - Cooking Knowledge Base]] — Active reading applied to recipe comprehension and culinary knowledge
+
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does this note define a clear cognitive strategy (not just general advice)?
+- [ ] Can this strategy be applied across multiple domains?
+- [ ] Does it link to at least 2 domain-specific examples?
+- [ ] Is the `thinking-tool:` tag present with appropriate type?
+- [ ] Is `last-reviewed` within 12 months?

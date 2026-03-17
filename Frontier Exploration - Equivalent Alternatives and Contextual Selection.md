@@ -126,7 +126,8 @@ For a learning/self-improvement domain:
 
 - [[Frontier Exploration - Trade-off Knowledge Capture]] — Capturing what's traded off between options
 - [[Frontier Exploration - User Situational Constraints]] — Handling knowledge constrained by user context
-- [[Frontier Exploration - Competing Frameworks]] — Epistemologically different frameworks
+- [[Frontier Exploration - Competing Organizational Structures]] — Epistemologically different frameworks
 - [[Types of Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
 - [[Frontier Exploration - Comparative Knowledge Structures]] — How to structure comparative knowledge
 - [[Note-Taking Methods Compared]] — Example of comparison structure in the vault
+- [[Frontier Exploration - Multi-Constraint Interaction Knowledge]] — When multiple constraints interact

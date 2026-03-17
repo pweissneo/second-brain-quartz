@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-12
 confidence: emerging
 lifecycle: active
+verification-status: unverified
 author-type: ai-assisted
 tags:
   - frontier-exploration

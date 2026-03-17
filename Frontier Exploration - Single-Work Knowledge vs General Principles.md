@@ -117,7 +117,7 @@ An AI building a music vault with current Seed rules would:
 ## Related
 
 - [[Atomic Note Principle]]
-- [[Frontier Exploration - Multi-Modal Knowledge]]
-- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]]
+- [[Frontier Exploration - Integrated Rules History]]
 - [[Stress Test - Self-Contained Notes Rule Across Domains]]
 - [[AI-Assisted Knowledge Management Seed]]

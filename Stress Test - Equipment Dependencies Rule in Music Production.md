@@ -77,5 +77,5 @@ The equipment dependencies rule is valuable but needs refinement for domains whe
 ## Related
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Integrated Rules History]]
 - [[Domain-Specific Knowledge Bases]]

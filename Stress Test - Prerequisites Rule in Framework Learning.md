@@ -241,6 +241,6 @@ prerequisites:
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Prerequisite Knowledge Tracking]]
-- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Integrated Rules History]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]]
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]

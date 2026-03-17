@@ -92,5 +92,5 @@ You don't need to be an expert to create:
 - [[Writing as Thinking]] — Processing through writing
 - [[Knowledge Base Workflow]] — End-to-end workflow
 - [[Systems Over Goals]] — Building systems that compound
-- [[The Knowledge Identity]] — Who you are as a knowledge practitioner
+- [[The Ownership Mindset]] — Who you are as a knowledge practitioner
 - [[AI-Assisted Knowledge Management Seed]]

@@ -10,7 +10,7 @@ tags:
   - domain-agnostic
 related-notes:
   - "[[Frontier Gap - Embodied Knowledge]]"
-  - "[[Frontier Exploration - Multi-Modal Knowledge]]"
+  - "[[Frontier Exploration - Multi-Modal Knowledge Representation]]"
 ---
 
 # Frontier Exploration - Sensory Knowledge Capture
@@ -88,5 +88,5 @@ Sensory knowledge is:
 ## Related Seed Rules
 
 - [[Frontier Gap - Embodied Knowledge]] — General framework
-- [[Frontier Exploration - Multi-Modal Knowledge]] — Media separation
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Media separation
 - [[Confidence Markers]] — Reliability signaling

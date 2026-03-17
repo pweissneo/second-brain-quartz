@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-14
-confidence: emerging
-lifecycle: active
+last-reviewed: 2026-03-15
+confidence: high
+lifecycle: evergreen
 author-type: ai-assisted
 status: integrated-into-seed
 tags:
@@ -10,6 +10,7 @@ tags:
   - adaptation
   - transcription
   - arrangement
+  - validated
 ---
 
 > **Note**: The rules proposed in this note have been incorporated into the Seed (see Seed sections 6-7 under "Adaptation Knowledge"). This note is preserved as documentation of the vault's evolution and contains the original test case.
@@ -163,6 +164,7 @@ An AI building any knowledge base involving transformation would struggle with:
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — What tools enable what
 - [[Frontier Exploration - Symbolic and Notational Knowledge]] — Related for music notation
 - [[Stress Test - Self-Contained Notes Rule Across Domains]] — Music-specific self-containment challenges
+- [[Frontier Exploration - Knowledge From Obsolescing Domains]] — Related for preserving fading domain knowledge
 
 ## Test Case: Arranging a Piano Piece for String Quartet
 

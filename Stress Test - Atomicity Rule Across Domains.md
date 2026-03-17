@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-12
+last-reviewed: 2026-03-16
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
@@ -8,6 +8,7 @@ tags:
   - domain-specific
   - stress-test
   - atomicity
+  - philosophy
 ---
 
 # Stress Test: Atomicity Rule Across Domains
@@ -305,6 +306,52 @@ If yes → atomic. The presence of "and" in a summary is NOT a reliable indicato
 - Hub note serving navigation
 
 **Test:** Apply the One-Sentence Summary Test first — word count is secondary.
+
+---
+
+## Philosophy Domain: Additional Refinements
+
+### Rule Update Proposal (from Philosophy Stress Test)
+
+> **Additional Edge Case - Philosophical Concepts:** For philosophy knowledge bases:
+> - Opposition-dependent concepts (materialism/idealism): create bidirectional pairs
+> - Historical development across eras: prefer temporal splitting with hub
+> - Canonical thought experiments: allow brief notes with `type: thought-experiment`
+> - Schools of thought: use hub+spoke with clear doctrine boundaries
+> - Interpretive debates: use perspectives structure
+> - Default to `confidence: low` for contested philosophical claims
+
+**Test:** Can you apply atomicity rules to philosophy concepts without artificial fragmentation?
+
+### Specific Philosophy Challenges Validated
+
+The philosophy stress test confirmed these challenges:
+
+1. **Opposition-Dependent Concepts:** Free Will cannot be understood without Determinism - create bidirectional pairs
+2. **Multi-Premise Arguments:** Keep argument as atomic unit; individual premises MAY be separate notes
+3. **Philosophical Works:** 500+ page works violate word count - solution is overview + linked deep-dives
+4. **Historical Development:** Split by era (Ancient/Medieval/Modern/Contemporary) with hub
+5. **Schools of Thought:** Hub+spoke pattern works well (Stoicism hub → Stoic Ethics, Stoic Physics, etc.)
+
+### Additional Edge Cases from Philosophy Testing
+
+#### Edge Case: Philosophical Jargon
+Philosophy uses precise technical terms (epistemology, ontology, phenomenology) that are inherently brief but essential. These are like domain unit concepts.
+
+**Test:** Allow under 100 words with `type: terminology` tag.
+
+#### Edge Case: Thought Experiments
+Classic thought experiments (Trolley Problem, Ship of Theseus, Brain in a Vat) are atomic units even when brief because:
+- Referenced as complete units
+- Can be applied across multiple philosophical debates
+- Breaking them apart loses their identity
+
+**Test:** Allow under 100 words with `type: thought-experiment` tag.
+
+#### Edge Case: Interpretive Debates
+Major philosophical texts have centuries of interpretation. Present multiple interpretive positions within one note using the perspectives structure.
+
+**Test:** This is where the perspectives structure applies - the note presents multiple views, which IS the single idea.
 
 ---
 

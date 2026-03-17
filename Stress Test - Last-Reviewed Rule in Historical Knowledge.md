@@ -2,6 +2,7 @@
 last-reviewed: 2026-03-15
 last-updated: 2026-03-15
 confidence: emerging
+lifecycle: active
 author-type: ai-assisted
 tags:
   - seed-stress-test

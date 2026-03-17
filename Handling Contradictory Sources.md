@@ -230,6 +230,28 @@ Defer to sources when:
 3. Sources represent expert consensus in your field
 4. Safety-critical knowledge (verify before ignoring)
 
+## Knowledge-Type Tagging
+
+For domains where authoritative knowledge coexists with personal analysis, tag notes with `knowledge-type`:
+
+```yaml
+knowledge-type: canonical|analysis|personal
+```
+
+- **canonical**: Established consensus (chess opening theory, clinical guidelines, case law)
+- **analysis**: Informed interpretation (your game annotations, physician opinion, analyst recommendations)
+- **personal**: Individual opinion or experience
+
+### Domain-Specific Implementations
+
+| Domain | Canonical | Analysis | Personal |
+|--------|----------|----------|----------|
+| Chess | Opening theory with ECO codes | Your game annotations | n/a |
+| Law | Case law, statutes | Legal commentary | n/a |
+| Medicine | Clinical guidelines | Physician approach | Patient experience |
+| Investing | SEC filings, market data | Analyst recommendations | Personal strategy |
+| Literature | Scholarly consensus | Critical interpretations | Personal reading |
+
 ---
 
 ## Related

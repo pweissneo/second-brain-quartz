@@ -90,7 +90,7 @@ For a knowledge base about home repair:
 ## Related Notes
 
 - [[Prerequisite Knowledge Tracking]] — Learning prerequisites (what knowledge you need BEFORE)
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — Software/framework version dependencies
+- [[Frontier Exploration - Integrated Rules History]] — Software/framework version dependencies
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] — Ingredient alternatives when tools/ingredients unavailable
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Equipment cost as vault boundary criterion
 - [[AI-Assisted Knowledge Management Seed]] — The Seed covers equipment dependencies in the "Knowledge Processing" section

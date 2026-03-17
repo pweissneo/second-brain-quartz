@@ -1,17 +1,22 @@
 ---
-last-reviewed: 2026-03-10
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-16
+lifecycle: deprecated
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-extension
   - frontier-exploration
   - abstraction-levels
+  - deprecated
+replaced-by: "[[AI-Assisted Knowledge Management Seed]]" # See Section 4: Navigation - Abstraction Levels rule
+redirect-to: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
-# Frontier Exploration - Knowledge Abstraction Levels
+> **DEPRECATED:** This exploration's content has been incorporated into the Seed (Section 4: Navigation - Abstraction Levels rule). See [[AI-Assisted Knowledge Management Seed]] for the authoritative version.
+> 
+> This note is retained for historical reference and additional examples only. Content may be outdated.
 
-> **Status:** This exploration has been incorporated into the Seed (Section 4: Navigation - Abstraction Levels rule). This note now serves as a validated example and deeper exploration.
+# Frontier Exploration - Knowledge Abstraction Levels
 
 The Seed addresses atomicity, linking, and navigation — and now includes explicit guidance on organizing knowledge at different abstraction levels within the same domain (see: Organize domain knowledge by explicit abstraction levels).
 

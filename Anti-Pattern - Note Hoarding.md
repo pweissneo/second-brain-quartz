@@ -97,5 +97,5 @@ If no → skip. Your second brain will thank you.
 - [[Knowledge Base Workflow]]
 - [[Progressive Summarization]]
 - [[Anti-Patterns in Knowledge Management]]
-- [[Frontier Exploration - Vault Boundaries]]
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Base Onboarding]]

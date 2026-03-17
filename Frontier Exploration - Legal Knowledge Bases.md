@@ -169,5 +169,5 @@ Building a legal knowledge base:
 - [[Stress Test - Every Link Must Be Explainable in Legal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Handling Contradictory Sources]] — relevant when circuits split
-- [[Handling Temporal Knowledge]] — relevant for case law evolution
-- [[Handling Temporal Knowledge]] — critical for legal citation checking
+- [[Handling Temporal Knowledge]] — relevant for case law evolution and citation checking
+- [[Frontier Gap - Regulatory and Compliance Knowledge]] — Consumer product compliance and regulatory knowledge gaps

@@ -184,4 +184,4 @@ This extends the Self-Improvement section:
 - [[Graph Maintenance]]
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Frontier Exploration - Knowledge Debt]]
-- (Content merged into this note)
+- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] (content integrated from utility tracking exploration)

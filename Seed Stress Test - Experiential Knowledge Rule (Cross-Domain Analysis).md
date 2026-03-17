@@ -1,9 +1,11 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: deprecated
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+status: merged
+merge-target: Frontier Gap - Embodied Knowledge
 tags:
   - seed-stress-test
   - experiential-knowledge
@@ -15,6 +17,9 @@ related-seed-rules:
 ---
 
 # Seed Stress Test: Experiential Knowledge Rule (Cross-Domain Analysis)
+
+> **DEPRECATED:** This note's content has been merged into [[Frontier Gap - Embodied Knowledge]].
+> The comprehensive note now includes all cross-domain analysis, refinement proposals, and verification workflow guidance.
 
 > Testing: The "experiential knowledge" rule across multiple domains: meditation, pottery, and clinical practice
 > Domain: Multi-domain (Meditation, Crafts, Medicine)
@@ -307,7 +312,7 @@ These three domains (meditation, pottery, clinical practice) all reveal that som
 
 - [[Frontier Gap - Embodied Knowledge]] — methodology for extracting tacit knowledge
 - [[Frontier Gap - Embodied Knowledge]]
-- [[Seed Stress Test - Self-Contained Notes in Photography]] — partial overlap with subjective expertise
+- [[Stress Test - Self-Contained Notes Rule Across Domains]] — self-containment across domains (includes photography)
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
 - [[Seed Stress Test - Woodworking Knowledge Base]] — testing Seed rules in another craft domain
 - [[Seed Stress Test - Craft Knowledge Bases]] — another experiential domain

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-15
+last-reviewed: 2026-03-17
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
@@ -8,285 +8,322 @@ tags:
   - seed-stress-test
   - gardening-domain
   - edge-case
+  - long-horizon
 ---
 
 # Seed Stress Test: Gardening Knowledge Base
 
-Testing Seed rules in the gardening domain reveals unique challenges around climate zones, seasonal timing, and plant-specific knowledge.
+Testing Seed rules in the gardening domain reveals unique challenges around long-horizon verification, climate specificity, and seasonal knowledge.
 
 ## Domain Overview
 
 Gardening knowledge bases face unique challenges:
-- Geographic/zone dependency is fundamental (what works in Zone 7 doesn't work in Zone 4)
-- Seasonal timing is critical (planting dates vary by hemisphere and frost dates)
-- Plant taxonomy creates natural hierarchies (family → genus → species)
-- Regional terminology variations (different countries use different names)
-- Hardiness zone systems conflict (USDA vs Sunset vs RHS)
+- Long verification timelines (perennials take years to assess)
+- Climate zone specificity (hardiness zones, frost dates)
+- Seasonal knowledge (planting windows, harvest timing)
+- Perennial vs annual distinction affects note lifecycle
+- Experiential knowledge requires hands-on testing
+- Weather variability affects reliability
 
 ---
 
-## 1. Climate Zone Dependency Rule
+## 1. Verification Timeline: Long-Horizon Knowledge
 
-**Seed Rule:** For knowledge whose validity depends on climate zones, hardiness zones, or environmental conditions, use explicit scope tags.
-
-**Gardening Application:**
-- "Plant tomatoes after last frost" — applies differently in Zone 4 vs Zone 9
-- " Hardy to Zone 5" — specific to USDA system
-
-**Edge Cases:**
-
-### Multiple Hardiness Systems
-**Problem:** Multiple competing systems exist with different zone numbers:
-- USDA Zone 7 (average annual minimum winter temperature -18°C to -12°C)
-- Sunset Climate Zone 15 (California-specific, based on overall climate)
-- RHS Hardiness Rating H5 (UK system)
-
-A plant might be "Zone 7" in USDA but "Zone 15" in Sunset system. The Seed requires climate zone tags, but which system?
-
-**Test Failure:** The Seed rule says use `hardiness-zone` tag but doesn't specify which system. An AI cannot determine applicability without knowing the system.
-
-**Proposed Refinement:**
-```yaml
-hardiness-zone:
-  system: USDA  # or Sunset, RHS
-  zones: [5, 6, 7]
-  note: "USDA recommended; Sunset zones differ"
-```
-
-### Microclimates Within Zones
-**Problem:** A garden in Zone 5 might have a south-facing wall creating a Zone 7 microclimate. Generic zone advice fails here.
-
-**Test:** Does the note acknowledge microclimate exceptions? Can users filter by "urban heat island" or "south-facing wall"?
-
-### Southern Hemisphere Inversion
-**Problem:** USDA zones don't apply in Australia/New Zealand. Seasons are inverted (December = summer, not winter).
-
-**Test:** Does gardening advice specify hemisphere? Does "plant in spring" clarify which spring?
-
----
-
-## 2. Sequential Knowledge: Seasonal Timing
-
-**Seed Rule:** Distinguish sequential knowledge with `temporal-type: sequence`.
+**Seed Rule:** Track verification ratio — verify at least 50% of new captures within 30 days.
 
 **Gardening Application:**
 
-| Type | Example | temporal-type |
-|------|---------|---------------|
-| Frost date sequence | Last frost → hardening off → transplant | linear |
-| Plant growth stages | Germination → seedling → vegetative → flowering → harvest | sequential |
-| Crop rotation | Year 1: heavy feeder → Year 2: light feeder → Year 3: nitrogen fixer | cyclic |
-| Perennial calendar | Spring: cut back → Summer: mulch → Fall: divide → Winter: plan | cyclical |
+### Edge Case: Multi-Year Verification
 
-**Edge Cases:**
+**Problem:** A note about "growing tomatoes" might describe a technique that works in year 1 but fails in year 2 (soil depletion, perennial pest buildup). A fruit tree might take 3-5 years to truly assess whether the variety thrives in your climate.
 
-### Temperature vs Date-Based Triggers
-**Problem:** Gardening advice often says "plant in spring" but the real trigger is temperature:
-- "Plant tomatoes when soil reaches 60°F (15°C)"
-- "Sow peas when forsythia blooms" (phenological indicator)
+**Analysis:** Standard 30-day verification window is impossible for gardening. The Seed already has edge case for "long-horizon verification domains."
 
-Date-based rules break across zones; temperature-based rules are more universal but harder to capture.
+**Current Seed Edge Case:** "Use `verification-cycle:` field with values `annual|multi-year|perennial`"
 
-**Test:** Can an AI determine the actual trigger (temperature, phenology) vs. the simplified rule (date/season)?
+**Test:** For gardening notes:
+1. Is there a `verification-cycle:` field?
+2. For perennial plants: has it survived 2+ growing seasons?
+3. Does `verification-completion-target:` account for multi-year timelines?
 
-### Variable Season Length
-**Problem:** Zone 4 has a 120-day growing season; Zone 9 has 300 days. "Plant 8 weeks before last frost" means very different things.
+### Edge Case: Weather Variability
 
-**Test:** Does advice with time requirements specify zone ranges where it's valid?
+**Problem:** One year's success may be due to favorable weather, not good technique. Need multiple years to confirm.
 
-### Hemisphere Asymmetry
-**Problem:** Spring planting in Northern Hemisphere = September-October in Southern Hemisphere.
+**Test:** Do notes distinguish "worked once in favorable conditions" from "consistently successful across multiple seasons"?
 
-**Test:** Does advice specify hemisphere? Is there a mechanism to auto-flip seasons?
+### Solution
+
+The existing Seed edge case for long-horizon domains is appropriate. Apply it consistently to gardening notes:
+- Annual vegetables: `verification-cycle: annual` (can verify in one growing season)
+- Perennials (fruit trees, shrubs): `verification-cycle: multi-year` (needs 2-3 years)
+- Perennial herbs: `verification-cycle: perennial` (hardy perennials may need longer)
 
 ---
 
-## 3. Word Count & Atomicity in Plant Notes
+## 2. Climate Zone Specificity
 
-**Seed Rule:** Notes should be 100-300 words. Notes >300 likely contain multiple ideas.
+**Seed Rule:** Use explicit scope tags for context-dependent knowledge.
 
 **Gardening Application:**
 
-**Edge Cases:**
+### Edge Case: Hardiness Zones
 
-### Complete Short Procedural Content
-**Problem:** "How to Test Soil pH" can be complete in 75 words:
-> "Collect soil sample from 4-6 inches deep. Mix 1 cup soil with 2 cups distilled water. Let settle 30 minutes. Dip pH strip in solution. Compare to color chart. Ideal pH for most vegetables: 6.0-7.0."
+**Problem:** "This plant is hardy" means nothing without zone specification. "Zone 5" vs "Zone 9" determines survival.
 
-This is NOT a stub — it's complete and executable. But the Seed test flags it.
+**Test:** Do plant notes include:
+- `hardiness-zone:` or `climate-type:`?
+- Is there a `context-gate:` for zone-specific applicability?
 
-**Test Refinement:** For procedural content: Can you execute this note's procedure without additional information? If yes, it's complete regardless of word count.
+### Edge Case: Frost Dates
 
-### Comprehensive Plant Notes
-**Problem:** "Tomatoes" as a single note covering 50+ varieties, growing techniques, diseases, and recipes exceeds 1000 words. Is this atomic or bloated?
+**Problem:** "Plant after last frost" varies by 2+ months between regions. Seattle's last frost is mid-April; Minneapolis is late May.
 
-**Analysis:**
-- If note is "How to Grow Tomatoes" — contains multiple ideas (soil, water, sun, pruning, varieties)
-- If note is "Tomato (Solanum lycopersicum)" — single concept comprehensively covered, could exceed 300 words
+**Test:** Do planting notes specify:
+- Frost date range (average last frost ± 2 weeks)?
+- Is there `context-gate: geographic` with zone specification?
 
-**Test:** Does the note explore ONE theme comprehensively, or bundle UNRELATED ideas?
+### Edge Case: Microclimates
 
----
+**Problem:** Within a single garden, microclimates vary significantly:
+- South-facing wall: 1-2 zones warmer
+- Frost pocket: colder than surrounding area
+- Urban heat island: warmer than surrounding rural
 
-## 4. Link Density: Plant Taxonomy
-
-**Seed Rule:** Every note must link to at least 2 other notes OR be tagged `foundational: true`.
-
-**Gardening Application:**
-- Tomato → Nightshade Family, Solanum, Vegetable Garden
-- Basil → Lamiaceae, Herb Garden, Culinary Herbs
-
-**Edge Cases:**
-
-### Natural Single Relationships
-**Problem:** "Grafting" only naturally links to "Fruit Trees" and "Propagation" — 2 links, meets minimum. But what about special techniques?
-- "Approach grafting" only used for specific plants
-- "Air layering" has narrow applicability
-
-**Test:** Does the rule distinguish "sparingly used technique" from "poorly connected"?
-
-### Foundational Elements
-**Problem:** Soil, water, sunlight — used by everything, link to nothing.
-
-**Solution:** Tag with `foundational: true` per Seed rule.
-
-### Plant Family Hubs
-**Problem:** "Nightshade Family (Solanaceae)" links to 200+ plants. Exceeds 7 outgoing links rule.
-
-**Test:** Hub notes legitimately exceed 7 links — domain taxonomy IS the structure.
+**Test:** Do notes acknowledge microclimate variation? Is there guidance for assessing local conditions?
 
 ---
 
-## 5. 3-Hop Rule in Plant Hierarchies
+## 3. Seasonal Knowledge
 
-**Seed Rule:** Every note must be reachable from `_root.md` in 3 hops or fewer.
+**Seed Rule:** For time-sensitive knowledge, use explicit seasonal tagging.
 
 **Gardening Application:**
 
-Path example:
-```
-_root → Edible Plants → Vegetables → Fruiting Vegetables → Tomatoes → Cherry Tomatoes → Sweet 100
-```
-= 6 hops
+### Edge Case: Planting Windows
 
-**Edge Cases:**
+**Problem:** "Plant in spring" is too vague. Spring varies by:
+- Region (Northern vs Southern hemisphere)
+- Climate (coastal vs continental)
+- Year (weather variability)
 
-### Natural Domain Taxonomy
-**Problem:** Plant taxonomy (Kingdom → Phylum → Class → Order → Family → Genus → Species) legitimately exceeds 3 hops.
+**Test:** Do planting notes include:
+- Specific month or week range?
+- Soil temperature guidance (e.g., "soil reaches 50°F/10°C")?
+- `season:` tagging (spring, fall, summer)?
 
-**Test:** Does this path reflect a genuine domain taxonomy (biological classification)? If yes, allow deeper paths.
+### Edge Case: Succession Planting
 
-### Hub-Based Shortcuts
-**Solution:** Create intermediate hubs to shorten paths:
-- _root → Plants → Food → Vegetables → Tomatoes → [varieties]
-- _root → Plants → Food → Herbs → Basil → [varieties]
+**Problem:** Some crops can be planted multiple times per season (lettuce, radishes). Notes need to specify:
+- First planting date
+- Last planting date for harvest window
+- Days to maturity
 
-**Test:** Are there hub notes at major category boundaries (edible vs ornamental, annual vs perennial, cool vs warm season)?
-
----
-
-## 6. Knowledge Timeliness: Varieties & Recommendations
-
-**Seed Rule:** Use diminishing returns testing before adding notes — skip if utility/connection/uniqueness/effort test fails.
-
-**Gardening Application:**
-
-**Edge Cases:**
-
-### Rapidly Evolving Variety Recommendations
-**Problem:** "Best tomato varieties for Zone 7" changes yearly as new varieties are released and old ones are discontinued.
-
-**Test:** Does the note have `as-of:` date? Is there a review trigger for new variety releases?
-
-### Regional vs Universal Advice
-**Problem:** "Add lime to raise soil pH" — universal principle, but amount depends on current pH, target pH, and soil type.
-
-**Test:** Can the note be applied without region-specific calibration?
-
-### Historical vs Current Knowledge
-**Problem:** Old gardening books recommend practices now known to be harmful (arsenic-based pesticides, DDT).
-
-**Test:** Is there a way to distinguish historical record from current recommendation?
+**Test:** Do succession planting notes specify timing windows, not just "plant in spring"?
 
 ---
 
-## 7. Experiential Knowledge: "Feel" and Tacit Understanding
+## 4. Experiential Knowledge in Gardening
 
 **Seed Rule:** For domains with experiential knowledge, include `experiential-component` frontmatter.
 
 **Gardening Application:**
 
-**Edge Cases:**
+### Edge Case: "Healthy Plant" Judgment
 
-### Sensory Cues vs Fixed Rules
-**Problem:** "Cook until translucent" in cooking = "pick when ripe" in gardening. But:
-- "Ripe" varies by variety and personal preference
-- Texture, color, smell — all subjective without reference photos
-- Weather affects ripening timing
+**Problem:** Assessing plant health requires experience. A note saying "the plant looks healthy" is meaningless to a beginner.
 
-**Test:** Are sensory cues documented with examples (e.g., "skin glosses over," "slight softness at stem")?
+**Test:** Do plant health notes include:
+- Specific visual indicators (leaf color, stem firmness, growth rate)?
+- `experiential-component:` field?
+- Comparison photos or descriptions?
 
-### Failed Experiments
-**Problem:** "I tried growing vanilla in Zone 4 — it died" — is this worth capturing?
+### Edge Case: Soil Assessment
 
-**Answer:** YES. Personal failure is valuable negative knowledge. Tag as `type: negative-knowledge` with context.
+**Problem:** "Good soil" means different things. Testing requires:
+- Squeeze test (sandy vs clay)
+- pH testing
+- Compost content
 
-**Test:** Can you find 3+ failure mode notes in the vault?
+**Test:** Do soil notes include:
+- How to test without equipment?
+- What equipment is needed for precise testing?
+- `equipment-required:` field?
+
+### Edge Case: Pest Identification
+
+**Problem:** Identifying pests requires pattern recognition from many examples.
+
+**Test:** Do pest notes:
+- Link to multiple example photos?
+- Use `knowledge-type: recognition` tag?
+- Describe distinguishing features?
 
 ---
 
-## 8. Source Quality in Gardening
+## 5. Atomicity: Growing Guides vs Techniques
 
-**Seed Rule:** For knowledge with established evidence hierarchies, capture source quality tier.
+**Seed Rule:** Notes should be 100-300 words; notes >300 may contain multiple ideas.
 
 **Gardening Application:**
 
-| Source Type | Reliability | Example |
-|-------------|-------------|---------|
-| University extension | High | Cooperative Extension Service |
-| Commercial nursery | Medium | Often biased toward products sold |
-| Forum/community | Low-Variable | Experience-based but untested |
-| Historical texts | Variable | Pre-1970s advice may be outdated |
+### Edge Case: Comprehensive Growing Guides
 
-**Edge Cases:**
+**Problem:** A complete tomato growing guide might cover:
+- Variety selection
+- Starting seeds
+- Transplanting
+- Watering schedule
+- Fertilizing
+- Pruning
+- Pest management
+- Harvesting
 
-### Traditional/Folk Knowledge
-**Problem:** "Plant marigolds to deter pests" — traditional wisdom, but research is mixed.
+This could easily exceed 1000 words.
 
-**Test:** Is there a `myth-status:` tag? Is evidence quality assessed?
+**Analysis:** Is this one idea (growing tomatoes) comprehensively covered, or multiple ideas bundled?
 
-### Regional Adaptation
-**Problem:** Advice from UK gardening books often doesn't apply to US climates.
+**Test:** Could this guide be split into independently useful notes?
+- [[Tomato Variety Selection]] - standalone
+- [[Starting Tomato Seeds]] - standalone  
+- [[Tomato Pest Management]] - standalone
 
-**Test:** Is source region documented? Can users filter by source geography?
+If yes to splitting AND parts are independently reusable → split. If no → keep together.
+
+### Edge Case: Climate-Specific vs General Guides
+
+**Problem:** A general tomato guide might say "water regularly." But in arid climates, irrigation details matter more.
+
+**Test:** Should there be separate:
+- General tomato guide (principles)
+- Climate-specific variants (desert tomatoes, tropical tomatoes)?
 
 ---
 
-## 9. Equipment Dependencies
+## 6. Source Quality: Garden Advice Reliability
+
+**Seed Rule:** Capture source quality for knowledge.
+
+**Gardening Application:**
+
+| Source Type | Reliability | Notes |
+|-------------|-------------|-------|
+| University extension | High | Research-based, regionally tested |
+| Master Gardener program | High | Trained volunteers, local knowledge |
+| General gardening books | Medium | May not account for local conditions |
+| Blog posts | Variable | Often untested claims |
+| Social media | Low | Trend-driven, untested |
+| Historical/folk wisdom | Variable | May work in specific contexts |
+
+### Edge Case: Folk Wisdom vs Research
+
+**Problem:** "Plant marigolds to deter pests" — folk wisdom with mixed scientific support.
+
+**Test:** Do notes distinguish:
+- Scientifically validated techniques?
+- Folk wisdom with anecdotal support?
+- `confidence:` tagging appropriate?
+
+---
+
+## 7. Note Lifecycle: Perennials vs Annuals
+
+**Seed Rule:** Notes have lifecycle stages: whisper → draft → processed → verified.
+
+**Gardening Application:**
+
+### Edge Case: Perennial Plant Notes
+
+**Problem:** A note about a fruit tree variety might take 5 years to truly verify (does it thrive? produce well? survive winter?).
+
+**Test:** For perennial plant notes:
+- Is lifecycle appropriately long (multi-year verification)?
+- Is there `verification-status: multi-year-pending` with target date?
+- Does the note acknowledge it's still being evaluated?
+
+### Edge Case: Variety-Specific Knowledge
+
+**Problem:** "Apple trees need pruning" is general. "Honeycrisp apple trees need specific pruning" is specific and may have different requirements than other varieties.
+
+**Test:** Do variety-specific notes distinguish:
+- General apple pruning?
+- Variety-specific adjustments?
+- `version:` or `variety:` tagging?
+
+---
+
+## 8. Equipment and Tools
 
 **Seed Rule:** Document physical equipment dependencies.
 
 **Gardening Application:**
 
-| Equipment | Domain-Wide | Optional |
-|-----------|-------------|----------|
-| Trowel | Yes | No |
-| Garden fork | Yes | No |
-| Soaker hose | Yes | Yes |
-| Cold frame | Climate-specific | Yes |
-| Greenhouse | Climate-specific | Yes |
+### Edge Case: Tool Availability Tier
 
-**Edge Cases:**
+**Problem:** "Use a garden fork" assumes tool availability. But:
+- Budget gardening: digging with shovel works
+- No-till gardening: uses forks differently
+- Professional: long-handled forks, broadforks
 
-### Climate-Dependent Equipment
-**Problem:** "Need a cold frame" — only for cold climates with short seasons.
+**Test:** Do technique notes specify:
+- Required vs optional tools?
+- Alternatives for tool-limited situations?
+- `gear-required:` field?
 
-**Test:** Does equipment note specify climate applicability?
+### Edge Case: Space Constraints
 
-### Skill-Level Assumptions
-**Problem:** "Use a soil knife" assumes user knows what that is.
+**Problem:** "Rotate crops" assumes garden space. Container gardening has different constraints.
 
-**Test:** Can beginners find equipment guidance without jargon?
+**Test:** Do notes distinguish:
+- In-ground gardening?
+- Raised bed gardening?
+- Container/patio gardening?
+- `space-requirement:` tagging?
+
+---
+
+## 9. Diminishing Returns in Gardening
+
+**Seed Rule:** Use diminishing returns testing before adding notes.
+
+**Gardening Application:**
+
+### Edge Case: Variety Overload
+
+**Problem:** There are 10,000+ tomato varieties. Adding notes for each variety is bloat.
+
+**Test:** For variety notes:
+1. Does this variety add unique knowledge (not just another name)?
+2. Is it significantly different from existing notes?
+3. Is there a reason to prefer this variety over existing options?
+
+### Edge Case: Regional vs Universal Knowledge
+
+**Problem:** A note about "growing citrus in Zone 9" is region-specific. A note about "understanding plant hardiness" is universal.
+
+**Test:** Do notes appropriately distinguish:
+- Universal principles?
+- Regional adaptations?
+- `applicability:` scope tagging?
+
+---
+
+## 10. 3-Hop Rule: Plant Taxonomy
+
+**Seed Rule:** Every note reachable from `_root.md` in 3 hops or fewer.
+
+**Gardening Application:**
+
+### Path Example
+
+```
+_root → Plants → Edibles → Vegetables → Tomatoes → Cherry Tomatoes → Sweet 100
+```
+= 6 hops
+
+**Analysis:** This is a natural taxonomy (Plant → Category → Type → Specific → Variety). May legitimately exceed 3 hops.
+
+**Test:** Is this a genuine domain taxonomy? Should hub shortcuts be created?
 
 ---
 
@@ -294,38 +331,42 @@ _root → Edible Plants → Vegetables → Fruiting Vegetables → Tomatoes → 
 
 | Seed Rule | Edge Case | Solution |
 |-----------|-----------|----------|
-| Climate Zone Tags | Multiple competing systems (USDA, Sunset, RHS) | Specify system in metadata |
-| Climate Zone Tags | Microclimates within zones | Add scope tags for urban heat islands |
-| Seasonal Timing | Temperature triggers vs date rules | Document actual trigger, not simplified rule |
-| Word Count | Complete short procedures <100 words | Test: can execute without additional info? |
-| Word Count | Comprehensive plant notes >300 words | Single theme vs bundled concepts |
-| 3-Hop Rule | Plant taxonomy legitimately deep | Allow domain taxonomies; create hub shortcuts |
-| Source Quality | Traditional vs scientific knowledge | Tag folk wisdom separately from research |
-| Experiential | Sensory cues (ripeness, readiness) | Document with examples and photos |
+| Verification Timeline | Multi-year for perennials | Apply `verification-cycle: multi-year` |
+| Verification Timeline | Weather variability | Require 2+ seasons before "verified" |
+| Climate Zones | Hardiness zone specificity | Require `hardiness-zone:` tagging |
+| Climate Zones | Frost date variation | Specify timing with soil temp guidance |
+| Seasonal Knowledge | Planting window precision | Use month/week ranges, not "spring" |
+| Experiential | Plant health assessment | Include specific indicators, `experiential-component:` |
+| Experiential | Soil assessment | Document both equipment and no-equipment methods |
+| Atomicity | Comprehensive growing guides | Split if parts are independently reusable |
+| Source Quality | Folk wisdom vs research | Distinguish confidence levels |
+| Lifecycle | Perennial verification | Use multi-year pending status |
+| Equipment | Tool tier assumptions | Specify required vs optional |
+| Space | Container vs in-ground | Tag with `space-requirement:` |
+| Diminishing Returns | Variety overload | Apply uniqueness test strictly |
+| 3-Hop Rule | Plant taxonomy deep | Allow domain taxonomies; create hub shortcuts |
 
 ---
 
 ## Recommendations for Seed
 
-1. **Climate Zone Rule:** Require explicit system specification (USDA/Sunset/RHS) in frontmatter.
+1. **Gardening Verification**: Explicitly recommend 2+ growing seasons for perennial verification. Add example frontmatter for perennial plant notes.
 
-2. **Seasonal Knowledge:** Add `hemisphere:` field to distinguish Northern/Southern applications.
+2. **Climate Zone Tagging**: Make `hardiness-zone:` a standard field for plant notes. Add `microclimate:` for notes about local variation.
 
-3. **Experiential Knowledge:** For gardening specifically, require `sensory-cues:` field when knowledge depends on visual/tactile judgment.
+3. **Seasonal Precision**: Require planting notes to include either specific dates OR soil temperature thresholds, not vague "spring/fall" guidance.
 
-4. **Source Quality:** Distinguish "university research" from "extension service" from "nursery" from "community forum" — all have different reliability profiles.
+4. **Experiential Tagging**: For plant health and soil notes, require `experiential-component: partial` or `essential` with specific sensory indicators.
 
-5. **3-Hop Rule:** Explicitly allow biological taxonomy as legitimate deep structure; encourage hub creation at family/genus boundaries.
+5. **Lifecycle Extension**: For perennials, default to `verification-status: multi-year-pending` with `verification-completion-target: +3 years`.
 
 ---
 
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Seed Stress Test - Craft Knowledge Bases]]
-- [[Seed Stress Test - Woodworking Knowledge Base]]
-- [[Frontier Exploration - Climate-Zone-Dependent Knowledge]]
-- [[Frontier Exploration - Jargon vs Plain Language]]
-- [[Stress Test - Tags vs Links Rule in Gardening]]
-- [[Handling Temporal Knowledge]]
+- [[Seed Stress Test - Cooking Knowledge Base]]
+- [[Seed Stress Test - Wilderness Survival Knowledge Base]]
+- [[Tags vs Links in Gardening]] (existing note)
+- [[Frontier Exploration - Long-Horizon Verification Domains]]
 - [[Domain-Specific Knowledge Bases]]

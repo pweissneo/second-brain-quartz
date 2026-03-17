@@ -119,6 +119,20 @@ The Seed lacks explicit guidance for:
    - Does ephemeral knowledge become "completed" or does it stay "draft" because it's inherently incomplete?
    - How do you mark "this is the best I could capture" vs "this is complete"
 
+## Proposed Seed Rules
+
+### Rule: Use capture-method metadata to distinguish how ephemeral knowledge was obtained
+
+**Why:** Ephemeral knowledge varies significantly in completeness depending on how it was captured. A note from real-time annotation is more complete than one reconstructed from memory days later. Metadata helps AI agents assess reliability.
+
+**Test:** Pick 5 notes about one-time events (conference talks, performances, workshops). (1) Do they have capture-method tags? (2) Can you determine how the knowledge was captured (live annotation, post-event synthesis, reconstructed)?
+
+### Rule: Apply different lifecycle status for ephemeral-derived knowledge
+
+**Why:** Standard lifecycle (draft → active → evergreen) assumes knowledge can be updated. Ephemeral knowledge cannot. The status should reflect "best capture achieved" rather than "can be improved."
+
+**Test:** Pick 5 notes about past events. (1) Do they use standard lifecycle or a different status? (2) Is there a way to distinguish "incomplete capture" from "complete knowledge"?
+
 ## Questions for Future Seed Rules
 
 1. When is it worth investing effort in capturing ephemeral knowledge?
@@ -136,7 +150,7 @@ The Seed lacks explicit guidance for:
 
 ## Related Seed Rules
 
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]] — touches on experiential components
+- [[Frontier Gap - Embodied Knowledge]] — touches on experiential components
 - [[Frontier Exploration - Temporal Knowledge]] — related but covers different temporal aspects
 - [[Frontier Gap - Embodied Knowledge]] — performance knowledge overlaps
 

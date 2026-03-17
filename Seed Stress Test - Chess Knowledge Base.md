@@ -230,8 +230,8 @@ diagram-required: true    # Visual position essential
 - [[Seed Stress Test - Craft Knowledge Bases]]
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Handling Temporal Knowledge]]
-- [[Frontier Exploration - Canonical vs Analysis Knowledge]]
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
-- [[Seed Stress Test - Self-Contained Notes in Photography]]
+- [[Handling Contradictory Sources]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[Stress Test - Self-Contained Notes Rule Across Domains]] — photography domain test (now merged)
 - [[Stress Test - AI Optimization Rule in Legal Knowledge Base]]
 - [[Stress Test - Knowledge-Type Rule in Investing]]

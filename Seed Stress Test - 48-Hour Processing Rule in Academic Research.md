@@ -125,5 +125,6 @@ complexity-factors:
 - [[AI-Assisted Knowledge Management Seed]] — Source of the 48-hour processing rule
 - [[Knowledge Base Workflow]] — General processing workflow
 - [[Note Lifecycle Management]] — Lifecycle stages for notes
+- [[Confidence Markers]] — Confidence levels for academic claims
 - [[Frontier Exploration - Incomplete and Provisional Knowledge]] — Handling work-in-progress
 - [[Self-Improvement Cycle]] — Continuous improvement process

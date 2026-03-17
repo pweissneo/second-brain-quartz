@@ -212,5 +212,5 @@ Finance and investment knowledge bases face distinct challenges:
 ## Related Notes
 
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
-- [[Seed Stress Test - Experiential Knowledge Rule (Cross-Domain Analysis)]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[Confidence Markers]]

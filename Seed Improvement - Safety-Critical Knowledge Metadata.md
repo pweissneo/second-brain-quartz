@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-03-14
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-16
+lifecycle: merged
+confidence: high
 author-type: ai-assisted
+status: incorporated
+review-by: 
 tags:
   - seed-improvement
   - safety
@@ -10,6 +12,10 @@ tags:
 ---
 
 # Seed Improvement - Safety-Critical Knowledge Metadata
+
+> **STATUS:** This note's content has been incorporated into the Seed (see "Safety-Critical Knowledge" edge cases).
+> 
+> This note remains for historical context and detailed rationale.
 
 > Adding safety metadata to Seed for domains where missing safety information could cause harm
 
