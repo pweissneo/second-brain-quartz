@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Diminishing Returns Rule in Board Game Design</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</guid>
-    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Board Game Design Domain tested: Board Game Design Rule tested: “Use diminishing returns testing before adding notes to existing topics” Date: 2026-03-18 Analysis Does this rule make sense for board game design? Partially. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 06:24:23 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - AI Interaction Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Interaction-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Interaction-Knowledge-Management</guid>
-    <description><![CDATA[ Frontier Exploration - AI Interaction Knowledge Management How should a knowledge base capture and organize knowledge about AI interactions, prompts, and learned behaviors? The Gap The Seed covers: Capturing knowledge FROM AI (AI-generated content) Using AI to build knowledge bases Domain-specific k... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 06:24:23 GMT</pubDate>
+    <title>Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies Notes on capturing knowledge where the workspace itself changes during the process, and subsequent steps depend on those changes. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:52:09 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Board Game Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Board Game Knowledge Bases Notes on capturing knowledge about strategy games, board games, and tabletop gaming. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Anti-Pattern - Neglecting Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</guid>
+    <description><![CDATA[ Anti-Pattern: Neglecting Maintenance Only adding new notes without reviewing or updating existing ones. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Condition-Triggered Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Condition-Triggered Knowledge How to manage knowledge that becomes relevant based on specific conditions or states being met, not merely based on time passage. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Deadline-Driven Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Deadline-Driven Knowledge Knowledge tied to specific dates, deadlines, or time windows that becomes incomplete, outdated, or harmful after expiration. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Forward References and Planned Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</guid>
+    <description><![CDATA[ Forward References and Planned Knowledge When building a knowledge base, you often need to reference concepts that don’t exist yet — future topics, planned projects, or ideas you’ll develop later. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Institutional Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Institutional-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Institutional-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Institutional Knowledge Knowledge about how organizations, systems, and processes work internally — distinct from procedural “how-to” knowledge. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Frontier Exploration - AI-Optimized Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - AI-Optimized Knowledge Bases How should knowledge bases be structured when the primary consumer is an AI agent rather than a human? The Problem Space The current Seed assumes human readers who can: Follow natural language explanations Ask clarifying questions when confused Inf... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Journalism and Investigative Research Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Journalism and Investigative Research Knowledge Bases Testing Seed rules against journalism — a domain that combines source verification, confidential sources, time sensitivity, ethical decision-making, and legal considerations in ways not explicitly addressed by current Seed r... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Frontier Exploration - Capturing AI Prompt Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? Scope: Beyond Just Prompts This note covers three related but distinct types of AI interaction knowledge: Prompt engineering — knowledge about const... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Legal Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Legal Knowledge Bases This note proposes new Seed rules for legal knowledge bases. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Base Reasoning Strategies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Reasoning-Strategies</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Reasoning Strategies How should an AI agent traverse and synthesize knowledge from the graph when answering queries? The Seed covers capture, structure, and maintenance — but not the reasoning strategies for using the knowledge base effectively. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Place-Specific Verification Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Place-Specific Verification Knowledge Knowledge that requires physical presence at a specific location to verify, distinct from experiential, equipment-dependent, or climate-zone knowledge. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
