@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Perpetual-Beta Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Perpetual-Beta-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Perpetual-Beta-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Perpetual-Beta Knowledge Knowledge domains that exist in continuous development rather than reaching a stable “done” state. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 17:36:11 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Fiction and Literature Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Fiction-and-Literature-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Fiction-and-Literature-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Fiction and Literature Knowledge Bases How to organize knowledge about fiction, literature, and narrative works — a gap in current Seed rules The Problem The Seed provides extensive guidance for: ✓ Non-fiction knowledge bases ✓ Technical/scientific domains ✓ Procedural knowled... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 17:06:53 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 17:36:11 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spiritual-and-Religious-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spiritual-and-Religious-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Spiritual and Religious Knowledge Spiritual and religious knowledge presents unique challenges that the Seed’s rules do not fully address. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 15:12:07 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Diminishing Returns Rule in Machine Learning Data Science</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Machine-Learning-Data-Science</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Machine-Learning-Data-Science</guid>
-    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Machine Learning / Data Science Tested Rule: Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility, connection, uniqueness, effort. ]]></description>
     <pubDate>Wed, 18 Mar 2026 15:12:07 GMT</pubDate>
   </item>
     </channel>
