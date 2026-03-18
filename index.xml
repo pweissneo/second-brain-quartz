@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Reasoning Strategies Rules</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Reasoning-Strategies-Rules</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Reasoning-Strategies-Rules</guid>
-    <description><![CDATA[ Seed Stress Test: Reasoning Strategies Rules Testing Seed rules about query answering, synthesis, and reasoning success tracking. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - 5-1 Rule Music Composition</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Rule-Music-Composition</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Rule-Music-Composition</guid>
-    <description><![CDATA[ Seed Stress Test: 5:1 Rule in Music Composition Domain tested: Music Composition Rule tested: “Use the 5:1 personal-to-general knowledge ratio” Date: 2026-03-18 Analysis Does this rule make sense for music composition? Partially. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - 5-1 Ratio in Scientific Research Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Scientific-Research-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Scientific-Research-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: 5-1 Ratio in Scientific Research Knowledge Base Testing the “Apply the 5:1 personal-to-general knowledge ratio” rule in scientific research domains. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Journalism and Investigative Research Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Journalism and Investigative Research Knowledge Bases Testing Seed rules against journalism — a domain that combines source verification, confidential sources, time sensitivity, ethical decision-making, and legal considerations in ways not explicitly addressed by current Seed r... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Deadline-Driven Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Deadline-Driven Knowledge Knowledge tied to specific dates, deadlines, or time windows that becomes incomplete, outdated, or harmful after expiration. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Contradictory Sources Resolution</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Contradictory-Sources-Resolution</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Contradictory-Sources-Resolution</guid>
-    <description><![CDATA[ Frontier Exploration - Contradictory Sources Resolution The Problem When two authoritative sources directly contradict each other, an AI building a knowledge base faces a practical dilemma: Source A says “X is true” Source B says “X is false” Both sources are credible (high reliability, expert autho... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Board Game Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Board Game Knowledge Bases Notes on capturing knowledge about strategy games, board games, and tabletop gaming. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:21:55 GMT</pubDate>
+    <title>Seed Stress Test - Diminishing Returns Rule in Board Game Design</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</guid>
+    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Board Game Design Domain tested: Board Game Design Rule tested: “Use diminishing returns testing before adding notes to existing topics” Date: 2026-03-18 Analysis Does this rule make sense for board game design? Partially. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:43:50 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 01:08:11 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Humor and Comedy Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Humor-and-Comedy-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Humor-and-Comedy-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Humor and Comedy Knowledge The Problem Comedy and humor represent a particularly challenging domain for knowledge management because: Timing is essential but unquantifiable - Comedy timing is often described as “the pause that sells” but the exact duration of that pause varies... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 00:55:07 GMT</pubDate>
+    <title>Anti-Pattern - Link Inflation</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
+    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Base Schema Design</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Schema Design The Seed tells us WHAT to capture in notes but not HOW to design the note structure itself. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 00:55:07 GMT</pubDate>
+    <title>Frontier Exploration - Board Game Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Board Game Knowledge Bases Notes on capturing knowledge about strategy games, board games, and tabletop gaming. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Condition-Triggered Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Condition-Triggered-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Condition-Triggered Knowledge How to manage knowledge that becomes relevant based on specific conditions or states being met, not merely based on time passage. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Deadline-Driven Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Deadline-Driven Knowledge Knowledge tied to specific dates, deadlines, or time windows that becomes incomplete, outdated, or harmful after expiration. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Institutional Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Institutional-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Institutional-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Institutional Knowledge Knowledge about how organizations, systems, and processes work internally — distinct from procedural “how-to” knowledge. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Journalism and Investigative Research Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Journalism-and-Investigative-Research-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration: Journalism and Investigative Research Knowledge Bases Testing Seed rules against journalism — a domain that combines source verification, confidential sources, time sensitivity, ethical decision-making, and legal considerations in ways not explicitly addressed by current Seed r... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Legal Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Legal Knowledge Bases This note proposes new Seed rules for legal knowledge bases. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
+  </item><item>
+    <title>Handling Contradictory Sources</title>
+    <link>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</link>
+    <guid>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</guid>
+    <description><![CDATA[ Handling Contradictory Sources When multiple credible sources disagree, how should an AI agent capture and organize the disagreement? The Problem The Seed requires citing sources, but assumes sources agree. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
