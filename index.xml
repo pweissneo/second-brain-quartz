@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Stress Test - 5-1 Rule Music Composition</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Rule-Music-Composition</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Rule-Music-Composition</guid>
+    <description><![CDATA[ Seed Stress Test: 5:1 Rule in Music Composition Domain tested: Music Composition Rule tested: “Use the 5:1 personal-to-general knowledge ratio” Date: 2026-03-18 Analysis Does this rule make sense for music composition? Partially. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 01:42:43 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence Detection The Problem The Seed has rules for: Staleness — knowledge that was accurate but may now be outdated due to time passage (news, market data, software versions) Confidence markers — including confidence: obsolete Deprecation — marking notes as su... ]]></description>
-    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Obsolescence by External Extinction</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence by External Extinction How to handle knowledge about things that no longer exist — discontinued products, deprecated services, ended relationships, dissolved organizations. ]]></description>
     <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item>
     </channel>
