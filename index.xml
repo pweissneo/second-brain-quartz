@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Edge Case and Exception Knowledge Organization</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Edge-Case-and-Exception-Knowledge-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Edge-Case-and-Exception-Knowledge-Organization</guid>
-    <description><![CDATA[ Frontier Exploration: Edge Case and Exception Knowledge Organization How should a knowledge base organize the exceptions, edge cases, and special conditions that modify or contradict general principles? The Gap The Seed covers: Atomicity (one idea per note) Linking (meaningful connections) Context-g... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:26:47 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Base Schema Design</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Schema Design The Seed tells us WHAT to capture in notes but not HOW to design the note structure itself. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:23:32 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - AI-Generated Content Verification</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Content-Verification</guid>
-    <description><![CDATA[ DEPRECATED: Frontier Exploration - AI-Generated Content Verification ⚠️ This note is deprecated. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - API and External Service Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Fashion and Clothing Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Fashion and Clothing Knowledge Bases Testing Seed rules against fashion and clothing — a domain combining technical construction knowledge, aesthetic judgment, cultural context, and personal expression. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Conditional and Troubleshooting Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Conditional-and-Troubleshooting-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Conditional and Troubleshooting Knowledge How should a knowledge base handle if-then branches, decision trees, and troubleshooting guidance? The Problem Some knowledge is inherently conditional: “If X, then do Y” “When troubleshooting, check A, then B, then C” “Conditional log... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Framework-Dependent Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Framework-Dependent-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Framework-Dependent-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Framework-Dependent Knowledge 🔲 This is a stub note for a planned future topic. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Edge Case and Exception Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Edge-Case-and-Exception-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Edge-Case-and-Exception-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration: Edge Case and Exception Knowledge Organization How should a knowledge base organize the exceptions, edge cases, and special conditions that modify or contradict general principles? The Gap The Seed covers: Atomicity (one idea per note) Linking (meaningful connections) Context-g... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Integrated Rules History</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Integrated-Rules-History</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Integrated-Rules-History</guid>
-    <description><![CDATA[ Frontier Exploration - Integrated Rules This note documents frontier exploration notes whose proposed rules have been integrated into the Seed. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Game Design Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Game Design Knowledge Game design knowledge has unique properties that stress-test Seed assumptions about atomicity, verification, and experiential capture. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Confidence Calibration</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Confidence-Calibration</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Confidence-Calibration</guid>
-    <description><![CDATA[ DEPRECATED: Frontier Exploration - Knowledge Confidence Calibration ⚠️ This note is deprecated. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Obsolescence Detection</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-Detection</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence Detection The Problem The Seed has rules for: Staleness — knowledge that was accurate but may now be outdated due to time passage (news, market data, software versions) Confidence markers — including confidence: obsolete Deprecation — marking notes as su... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Verification Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Verification-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Verification-Boundaries</guid>
-    <description><![CDATA[ DEPRECATED: Frontier Exploration - Knowledge Verification Boundaries ⚠️ This note is deprecated. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Obsolescence by External Extinction</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Obsolescence-by-External-Extinction</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Obsolescence by External Extinction How to handle knowledge about things that no longer exist — discontinued products, deprecated services, ended relationships, dissolved organizations. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Prompt Engineering Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Prompt-Engineering-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Prompt-Engineering-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Prompt Engineering Knowledge The Gap The Seed covers: Knowledge about AI-generated content AI model version dependencies Source quality and verification for AI content But it does NOT fully cover: Prompt engineering knowledge — knowledge about how to construct effective prompt... ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Multi-Perspective Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Perspective-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Perspective-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Multi-Perspective Knowledge Knowledge that is richer when viewed from multiple valid perspectives, rather than one “correct” framing. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item><item>
-    <title>Stress Test - Knowledge Abstraction Levels Rule in Philosophy</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Knowledge-Abstraction-Levels-Rule-in-Philosophy</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Knowledge-Abstraction-Levels-Rule-in-Philosophy</guid>
-    <description><![CDATA[ Stress Test - Knowledge Abstraction Levels Rule in Philosophy Testing the Seed’s abstraction levels rule against the domain of philosophy, where the hierarchy inverts. ]]></description>
-    <pubDate>Tue, 17 Mar 2026 23:06:14 GMT</pubDate>
+    <title>Frontier Exploration - Vault Growth Velocity and Sustainable Expansion</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Growth-Velocity-and-Sustainable-Expansion</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Growth-Velocity-and-Sustainable-Expansion</guid>
+    <description><![CDATA[ Frontier Exploration: Vault Growth Velocity - Open Questions The Problem The Seed provides extensive guidance on: How to add knowledge (diminishing returns testing, priority signals) How to process knowledge (48-hour rule, staging states) How to verify knowledge (verification-status, activation stat... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 00:15:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
