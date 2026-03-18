@@ -6,17 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Infrastructure-Dependent Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Infrastructure-Dependent-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Infrastructure-Dependent-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Infrastructure-Dependent Knowledge How to organize knowledge that depends on specific physical infrastructure, network configurations, or geographic constraints — where general rules don’t transfer. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 12:06:51 GMT</pubDate>
-  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 11:47:45 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 12:21:31 GMT</pubDate>
+  </item><item>
+    <title>Derived Knowledge Provenance</title>
+    <link>https://quartz.jzhao.xyz/Derived-Knowledge-Provenance</link>
+    <guid>https://quartz.jzhao.xyz/Derived-Knowledge-Provenance</guid>
+    <description><![CDATA[ Derived Knowledge Provenance Tracking the sources and transformation history of synthesized knowledge The Problem When creating new notes from combining multiple sources (synthesis), it’s important to track: Which sources were combined What transformation was applied How the new knowledge relates to... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 12:21:31 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Infrastructure-Dependent Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Infrastructure-Dependent-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Infrastructure-Dependent-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Infrastructure-Dependent Knowledge How to organize knowledge that depends on specific physical infrastructure, network configurations, or geographic constraints — where general rules don’t transfer. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 12:21:31 GMT</pubDate>
   </item><item>
     <title>Anti-Pattern - Tool Overfocus</title>
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Tool-Overfocus</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Language-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Language-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration: Multi-Language Knowledge Bases Building a knowledge base that spans multiple languages (bilingual vaults, language learning, translation work) presents unique challenges not covered by the Seed’s current rules. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 11:47:45 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</guid>
-    <description><![CDATA[ Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies Notes on capturing knowledge where the workspace itself changes during the process, and subsequent steps depend on those changes. ]]></description>
     <pubDate>Wed, 18 Mar 2026 11:47:45 GMT</pubDate>
   </item>
     </channel>
