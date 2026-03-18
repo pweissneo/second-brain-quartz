@@ -10,7 +10,13 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Board-Game-Design</guid>
     <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Board Game Design Domain tested: Board Game Design Rule tested: “Use diminishing returns testing before adding notes to existing topics” Date: 2026-03-18 Analysis Does this rule make sense for board game design? Partially. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 05:52:50 GMT</pubDate>
+    <pubDate>Wed, 18 Mar 2026 06:24:23 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - AI Interaction Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Interaction-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Interaction-Knowledge-Management</guid>
+    <description><![CDATA[ Frontier Exploration - AI Interaction Knowledge Management How should a knowledge base capture and organize knowledge about AI interactions, prompts, and learned behaviors? The Gap The Seed covers: Capturing knowledge FROM AI (AI-generated content) Using AI to build knowledge bases Domain-specific k... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:24:23 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Legal Knowledge Bases This note proposes new Seed rules for legal knowledge bases. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
-  </item><item>
-    <title>Handling Contradictory Sources</title>
-    <link>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</link>
-    <guid>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</guid>
-    <description><![CDATA[ Handling Contradictory Sources When multiple credible sources disagree, how should an AI agent capture and organize the disagreement? The Problem The Seed requires citing sources, but assumes sources agree. ]]></description>
     <pubDate>Wed, 18 Mar 2026 04:37:30 GMT</pubDate>
   </item>
     </channel>
