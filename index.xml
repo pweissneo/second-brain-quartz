@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:52 GMT</pubDate>
+    <title>Seed Stress Test - Audio Engineering Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Audio-Engineering-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Audio-Engineering-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Audio Engineering Knowledge Base Testing Seed rules in the domain of audio engineering (recording, mixing, mastering) to identify gaps and refine rules. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 11:12:37 GMT</pubDate>
   </item><item>
-    <title>note-naming-conventions</title>
-    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
-    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
-    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sequential-Workflow-Knowledge-and-Workspace-State-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - Sequential Workflow Knowledge and Workspace State Dependencies Notes on capturing knowledge where the workspace itself changes during the process, and subsequent steps depend on those changes. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 11:12:37 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Consistency Across Vaults</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Consistency-Across-Vaults</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Consistency-Across-Vaults</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Consistency Across Vaults How to identify, track, and resolve knowledge inconsistencies when the same concept appears in multiple notes or vaults. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 11:12:37 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Frontier Exploration - Decision Threshold Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Decision Threshold Knowledge How do you capture knowledge about when to stop gathering information and make a decision? The Problem The Seed covers: Prioritization (what to work on first) Completion criteria (when domain is “done”) Deadline knowledge (time-bound decisions) Ver... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 11:12:37 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Anti-Pattern - Missing Negative Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
+    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Types of Applicability Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
-    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Anti-Pattern - Neglecting Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</guid>
+    <description><![CDATA[ Anti-Pattern: Neglecting Maintenance Only adding new notes without reviewing or updating existing ones. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>Tool Replacement Decisions</title>
-    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
-    <description><![CDATA[ Tool Replacement Decisions 🔲 This is a stub note for a planned future topic. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a second brain’s effectiveness — but so does capturing information with no long-term value. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Forward References and Planned Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</guid>
+    <description><![CDATA[ Forward References and Planned Knowledge When building a knowledge base, you often need to reference concepts that don’t exist yet — future topics, planned projects, or ideas you’ll develop later. ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Wed, 18 Mar 2026 10:59:49 GMT</pubDate>
+    <title>Frontier Exploration - AI-Optimized Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Optimized-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - AI-Optimized Knowledge Bases How should knowledge bases be structured when the primary consumer is an AI agent rather than a human? The Problem Space The current Seed assumes human readers who can: Follow natural language explanations Ask clarifying questions when confused Inf... ]]></description>
+    <pubDate>Wed, 18 Mar 2026 06:47:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
