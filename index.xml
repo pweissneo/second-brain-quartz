@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Media Consumption and Recommendation Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Media Consumption and Recommendation Knowledge Exploring how knowledge bases should handle personal media consumption tracking, recommendations, and ranked lists. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 16:45:19 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Amateur Astronomy Knowledge Bases Amateur astronomy presents unique knowledge management challenges that stress-test several Seed rules in ways not fully addressed by existing frontier explorations. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 15:12:04 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Building Knowledge Bases in Unfamiliar Domains</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Building-Knowledge-Bases-in-Unfamiliar-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Building-Knowledge-Bases-in-Unfamiliar-Domains</guid>
-    <description><![CDATA[ Frontier Exploration: Building Knowledge Bases in Unfamiliar Domains What to do when the AI doesn’t understand the topic it’s helping to document The Problem The Seed assumes an AI agent can: Understand the domain it’s working in Identify what constitutes quality knowledge Recognize when knowledge i... ]]></description>
     <pubDate>Thu, 19 Mar 2026 15:12:04 GMT</pubDate>
   </item>
     </channel>
