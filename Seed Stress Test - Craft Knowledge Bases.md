@@ -69,7 +69,7 @@ Craft knowledge bases (cooking, brewing, woodworking, etc.) face unique challeng
 **Suggested Improvement:**
 > For conditional/troubleshooting notes: If 3+ branches exist AND each branch has unique actionable guidance → Keep together as decision-point hub. Split only if branches could stand alone as independent topics.
 
-**Related:** [[Atomic Note Principle]], [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
+**Related:** [[Atomic Note Principle]], [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]
 
 ---
 
@@ -461,11 +461,12 @@ Woodworking has significant US/UK terminology differences:
 ## Related
 
 - [[Seed Stress Test - Chess Knowledge Base]] — Strategy game domain
-- [[Frontier Exploration - Gardening Knowledge Bases]] — Agricultural domain
+- [[Seed Stress Test - Gardening Knowledge Base]] — Agricultural domain
 - [[Domain-Specific Knowledge Bases]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
 - [[Stress Test - Atomicity Rule Across Domains]]
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]
 - [[Frontier Exploration - Jargon vs Plain Language]]
 - [[Frontier Gap - Embodied Knowledge]]
+- [[AI-Assisted Knowledge Management Seed]] (source of rules being tested)

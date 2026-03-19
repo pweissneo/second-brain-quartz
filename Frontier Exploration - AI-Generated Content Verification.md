@@ -1,14 +1,29 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-17
+lifecycle: deprecated
+confidence: high
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - ai-generated-content
   - verification
-  - quality-control
+  - deprecated
+redirects-to: [[AI-Assisted Knowledge Management Seed]]
 ---
+
+# DEPRECATED: Frontier Exploration - AI-Generated Content Verification
+
+> ⚠️ **This note is deprecated.** The content has been integrated into the [[AI-Assisted Knowledge Management Seed]]. This note is kept for historical reference only.
+
+## Summary
+
+All rules from this note are now in the Seed:
+- author-type frontmatter requirements (lines 676+)
+- AI-generated content defaults to confidence: emerging (line 693)
+- Spot-verification requirement for AI sources (line 689)
+- Minimum verification for AI content
+
+Please use the Seed for AI-generated content verification rules.
 
 # Frontier Exploration - AI-Generated Content Verification
 

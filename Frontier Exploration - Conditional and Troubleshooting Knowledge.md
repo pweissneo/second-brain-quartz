@@ -172,6 +172,7 @@ Every troubleshooting note should define:
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Integrated Rules History]]
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] - Substitution as conditional knowledge with ratios
+- [[Frontier Exploration - Edge Case and Exception Knowledge Organization]] - Systematic edge case capture
 - [[Atomic Note Principle]]
 - [[Note Types and Templates]]
 - [[AI-Assisted Knowledge Management Seed]]

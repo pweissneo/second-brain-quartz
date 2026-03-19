@@ -3,6 +3,7 @@ last-reviewed: 2026-03-12
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - trade-offs

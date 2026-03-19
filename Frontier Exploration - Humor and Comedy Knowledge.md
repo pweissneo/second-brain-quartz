@@ -135,7 +135,7 @@ delivery-requirements:
 
 - [[Frontier Exploration - Emotional and Sentimental Knowledge]] - shares subjectivity challenges
 - [[Frontier Exploration - Expert Heuristics and Rules of Thumb]] - heuristics apply to comedy writing
-- [[Frontier Exploration - Cultural Context Knowledge]] - would need if humor crosses cultures significantly
+- [[Frontier Exploration - Context-Gated Knowledge]] - would need if humor crosses cultures significantly
 - [[Distinguishing Craft Criticism from Aesthetic Judgment]] - similar to distinguishing funny from not-funny
 
 ## Questions for Seed Development

@@ -1,9 +1,12 @@
 ---
 last-reviewed: 2026-03-16
+last-updated: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+schema-version: "2026-03"
+verification-status: verified
 tags:
   - seed-stress-test
   - sports-coaching
@@ -241,7 +244,7 @@ _root → Training → Periodization → Macrocycles → Mesocycles → Microcyc
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Seed Stress Test - Cooking Knowledge Base]] — Similar experiential knowledge challenges
-- [[Frontier Exploration - Gardening Knowledge Bases]] — Seasonal/temporal knowledge
+- [[Seed Stress Test - Gardening Knowledge Base]] — Seasonal/temporal knowledge
 - [[Domain-Specific Knowledge Bases]]
 - [[Handling Temporal Knowledge]]
 

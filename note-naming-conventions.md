@@ -51,6 +51,7 @@ This note expands on that rule with specific guidelines.
 | How to take notes | Note-Taking Methods |
 | Why Zettelkasten works | Zettelkasten Benefits |
 | The complete guide to X | X Complete Guide |
+| Notes about AI in 2024 | AI Assistance in Knowledge Management |
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]

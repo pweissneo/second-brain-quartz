@@ -1,11 +1,12 @@
 ---
 last-reviewed: 2026-03-17
-last-updated: 2026-03-17
-lifecycle: active
+last-updated: 2026-03-18
 confidence: emerging
+knowledge-type: frontier-exploration
+lifecycle: active
 author-type: ai-assisted
 status: draft
-review-by: 2026-03-24
+review-by: 2026-03-25
 tags:
   - frontier-exploration
   - obsolescence

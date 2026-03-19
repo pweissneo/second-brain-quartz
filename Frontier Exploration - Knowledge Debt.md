@@ -105,28 +105,15 @@ Inconsistent naming:
 
 ## Measuring Knowledge Debt
 
-### Debt Score Formula
+> **See:** [[AI-Assisted Knowledge Management Seed]] — The Seed contains the canonical debt score formula and thresholds.
 
-Create a **Knowledge Debt Score** by weighting symptoms:
+The Seed defines knowledge debt tracking with this formula:
 
-```
-Debt Score = (V × 0.25) + (S × 0.25) + (D × 0.20) + (R × 0.15) + (N × 0.15)
-```
+**Rule:** Track knowledge debt explicitly — monitor verification backlog, staleness, structural decay, redundancy, and retrieval noise as a composite debt score.
 
-Where:
-- V = Verification debt (% unverified / 100), capped at 1.0
-- S = Staleness debt (% stale / 100), capped at 1.0  
-- D = Decay debt (broken links / total links), capped at 1.0
-- R = Redundancy debt (duplicate potential / total notes), capped at 1.0
-- N = Noise debt (unused notes / total notes), capped at 1.0
+For detailed measurement methodology, thresholds, and edge cases, see the Seed rule at: [[AI-Assisted Knowledge Management Seed#knowledge-debt]].
 
-**Thresholds:**
-- Score < 0.15: Healthy vault
-- Score 0.15-0.30: Moderate debt — schedule maintenance
-- Score 0.30-0.50: High debt — pause capture, prioritize recovery
-- Score > 0.50: Critical debt — emergency recovery mode
-
-### Debt Indicators
+### Additional Debt Indicators
 
 | Metric | Healthy | Warning |
 |--------|---------|---------|

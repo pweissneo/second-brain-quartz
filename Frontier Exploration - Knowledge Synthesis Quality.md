@@ -11,7 +11,7 @@ tags:
 
 # Frontier Exploration: Knowledge Synthesis Quality Assessment
 
-When combining multiple sources or notes into a new insight, how do we assess whether the synthesis produces genuine value rather than just averaging or稀释 the original knowledge?
+When combining multiple sources or notes into a new insight, how do we assess whether the synthesis produces genuine value rather than just averaging or diluting the original knowledge?
 
 ## The Problem
 
@@ -24,8 +24,8 @@ But it lacks explicit guidance for evaluating whether a synthesis actually impro
 
 ## What Exists
 
-- [[Knowledge Cascade Effects]] - how knowledge propagates through the vault
-- [[Knowledge Originality Assessment]] - evaluating if knowledge adds something new
+- [[Frontier Exploration - Knowledge Cascade Effects]] - how knowledge propagates through the vault
+- [[Frontier Exploration - Knowledge Originality Assessment]] - evaluating if knowledge adds something new
 - [[Derived Knowledge Provenance]] - tracking derived knowledge sources
 
 ## The Gap
@@ -55,7 +55,7 @@ For a note marked `derived-from-vault: true`:
 
 ## Related Notes
 
-- [[Knowledge Cascade Effects]]
-- [[Knowledge Originality Assessment]]
+- [[Frontier Exploration - Knowledge Cascade Effects]]
+- [[Frontier Exploration - Knowledge Originality Assessment]]
 - [[Derived Knowledge Provenance]]
-- [[Graph Density and Value]]
+- [[Graph Traversal Efficiency]]

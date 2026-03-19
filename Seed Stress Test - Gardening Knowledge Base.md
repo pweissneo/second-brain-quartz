@@ -27,6 +27,17 @@ Gardening knowledge bases face unique challenges:
 
 ---
 
+## The Core Challenge (from Frontier Exploration)
+
+Gardening knowledge is fundamentally **context-dependent** in ways that exceed typical domain variation. A tomato variety that thrives in one backyard may fail 500 feet away due to:
+
+- **Microclimate variation**: A south-facing wall creates a frost pocket or heat island within the same property
+- **Soil composition**: Clay pockets, sand streaks, and pH variation at scales irrelevant to other domains
+- **Local ecosystem**: Native pest populations, beneficial insect presence, and disease pressure vary by neighborhood
+- **Water drainage patterns**: Low spots collect water; slopes drain fast — same planting, different outcomes
+
+---
+
 ## 1. Verification Timeline: Long-Horizon Knowledge
 
 **Seed Rule:** Track verification ratio — verify at least 50% of new captures within 30 days.
@@ -137,6 +148,29 @@ The existing Seed edge case for long-horizon domains is appropriate. Apply it co
 - Specific visual indicators (leaf color, stem firmness, growth rate)?
 - `experiential-component:` field?
 - Comparison photos or descriptions?
+
+### Edge Case: Tacit Knowledge in Gardening
+
+Gardening has MORE tacit knowledge than most domains:
+
+- **"When to water"**: Not by schedule — by feeling soil, checking plant wilting patterns, understanding your specific drainage
+- **"When it's ready to harvest"**: Texture, color, smell, even sound — not calendar dates
+- **"When something's wrong"**: Visual diagnosis requires seeing hundreds of healthy plants to recognize unhealthy ones
+
+**Test for tacit severity**: Estimate what percentage of gardening expertise is tacit. For most gardeners: 40-60% is tacit. This exceeds typical domains.
+
+### Edge Case: Location Sensitivity
+
+For gardening, capture with `verification-status: testing` and prioritize actual growth trials. The modified test should include: "Could this fail for reasons invisible at capture time?" If yes, tag with `location-sensitivity: high`.
+
+**Recommended frontmatter for gardening:**
+```yaml
+location-sensitivity: low|medium|high
+climate-tags:
+  - hardiness-zone: 7
+  - heat-tolerance: medium
+  - moisture-preference: dry
+```
 
 ### Edge Case: Soil Assessment
 
@@ -359,6 +393,27 @@ _root → Plants → Edibles → Vegetables → Tomatoes → Cherry Tomatoes →
 4. **Experiential Tagging**: For plant health and soil notes, require `experiential-component: partial` or `essential` with specific sensory indicators.
 
 5. **Lifecycle Extension**: For perennials, default to `verification-status: multi-year-pending` with `verification-completion-target: +3 years`.
+
+---
+
+## The Transfer Problem
+
+Gardening knowledge has near-zero transferability by default:
+
+- A technique that works in Mediterranean climate fails in humid continental
+- A variety recommended for beginners in California kills beginners in Maine
+- Organic methods in one soil type fail in another
+
+**Implication**: Gardening vaults should emphasize local experimentation over general advice. The Seed's "capture personal experimentation" rule is especially critical here.
+
+## Contrast with Other Domains
+
+| Domain | Primary Uncertainty | Transferability |
+|--------|---------------------|-----------------|
+| Cooking | Technique execution | High (recipes work across locations) |
+| Music | Interpretation | Medium |
+| Medicine | Individual response | Low-moderate |
+| Gardening | Location + living system | Very low |
 
 ---
 

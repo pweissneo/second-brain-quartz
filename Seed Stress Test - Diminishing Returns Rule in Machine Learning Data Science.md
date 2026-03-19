@@ -1,9 +1,12 @@
 ---
 last-reviewed: 2026-03-16
+last-updated: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+schema-version: "2026-03"
+verification-status: verified
 tags:
   - seed-stress-test
   - machine-learning

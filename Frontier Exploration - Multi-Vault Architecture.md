@@ -214,3 +214,4 @@ Use a meta-layer for cross-vault search:
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Domain-Specific Knowledge Bases]]
 - [[Frontier Exploration - Living Documents]]
+- [[Frontier Exploration - Cross-Vault Knowledge Relationships]]

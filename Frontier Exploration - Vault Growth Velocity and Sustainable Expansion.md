@@ -11,7 +11,7 @@ tags:
   - expansion
 ---
 
-# Frontier Exploration: Vault Growth Velocity and Sustainable Expansion
+# Frontier Exploration: Vault Growth Velocity - Open Questions
 
 ## The Problem
 
@@ -30,75 +30,42 @@ Without velocity guidance, two failure modes emerge:
 1. **Velocity failure**: Vault grows forever but never matures (high capture, low verification)
 2. **Stagnation failure**: Vault stops growing entirely (no new knowledge captured)
 
-## Questions the Seed Doesn't Answer
+## Seed Rules Already Cover This
 
-- Is there an optimal capture-to-verification ratio?
-- How many notes should be added per week/month for a healthy vault?
-- When should an agent shift from "add more topics" to "deepen existing ones"?
-- What % of unverified notes is "too many"?
+The Seed already contains comprehensive guidance on vault growth velocity:
 
-## Initial Hypotheses
+### Existing Seed Rules (Reference)
 
-### Hypothesis 1: Verification Ratio Target
-A healthy vault maintains a verification ratio (verified/total) above a threshold:
-- **Learning vaults**: ≥50% verified (need verified knowledge to learn from)
-- **Reference vaults**: ≥70% verified (need reliable answers)
-- **Hybrid vaults**: ≥60% verified
+1. **Verification Ratio Rule**: "Track vault growth velocity and maintain verification ratio — a healthy vault verifies at least 50% of new captures within 30 days."
 
-Test: Calculate verified %, if below threshold, pause capture until verification catches up.
+2. **Verification Ceiling Rule**: "When unverified notes exceed 40% of total vault, pause exploration and prioritize verification until ratio drops below 30%."
 
-### Hypothesis 2: Velocity Thresholds
-Growth should follow a maturation curve:
-- **New vault (<50 notes)**: Focus on exploration, velocity can be high
-- **Maturing vault (50-200 notes)**: Balance exploration/exploitation, moderate velocity
-- **Mature vault (>200 notes)**: Focus on exploitation, low velocity, high verification
+3. **Knowledge Debt Tracking** (from [[Frontier Exploration - Knowledge Debt]]): Composite score formula tracking verification debt, staleness debt, decay debt, redundancy debt, and noise debt.
 
-Test: Track notes added vs. verified per month. Mature vaults should verify >70% of new additions.
+4. **Overflow Recovery**: "When in overflow: (1) Do you allocate fixed time to recovery? (2) Is capture paused during recovery? (3) Do you have a target ratio before resuming?"
 
-### Hypothesis 3: Exploration-Exploitation Cycling
-Rather than fixed ratios, cycle between modes:
-- **Exploration burst**: Add 10+ new topic notes
-- **Verification phase**: Verify all unverified notes from exploration
-- **Deepening phase**: Add detail to verified notes
-- Repeat
+5. **Construction Phase Model**: Guidance for vault maturity stages (<50 notes, 50-200, >200) with different velocity expectations.
 
-Test: Can you identify distinct phases in your capture history?
+## Genuine Open Questions
 
-### Hypothesis 4: Staleness Threshold
-Notes older than X months without review become "stale risk":
-- If >20% of notes are stale, prioritize review over capture
-- Stale risk increases knowledge debt exponentially
+While the Seed covers most velocity concerns, these questions remain:
 
-Test: Calculate % of notes with last-reviewed > 6 months ago.
+1. **Exploration-Exploitation Cycling**: How to identify distinct phases in capture history? When to explicitly shift modes?
 
-## Domains Where This Matters Most
+2. **Domain-Specific Velocity**: Should verification velocity differ by domain (fast verification in cooking vs. slow in philosophy)?
 
-- **Experiential domains**: High unverified ratio is dangerous (bad recipes waste time, bad medical advice causes harm)
-- **Fast-changing domains**: High staleness is dangerous (outdated code, deprecated tools)
-- **High-stakes domains**: Verification is mandatory before use
+3. **Deepening Metrics**: How to measure "deepening existing topics" vs. "adding new ones" in a way an AI can verify?
 
-## Testable Rules (Proposed)
+4. **Optimal Growth Rate**: What is the ideal notes-per-week rate for vaults at different maturity levels?
 
-**Rule:** Track verification velocity separately from capture velocity — a healthy vault verifies at least 50% of new captures within 30 days.
+## Related Concepts
 
-**Rule:** When unverified notes exceed 40% of total vault, pause exploration and prioritize verification until ratio drops below 30%.
+- [[AI-Assisted Knowledge Management Seed]] — contains verification ratio and velocity rules
+- [[Frontier Exploration - Knowledge Debt]] — addresses accumulated unverified knowledge (Frontier Exploration note, not a Seed rule)
+- [[Note Lifecycle Management]] — covers note aging and staleness (principle note, not a Seed rule)
 
-**Rule:** Mature vaults (>200 notes) should spend at least 50% of capture effort on deepening existing topics, not adding new ones.
+## Next Steps (Genuine Gaps)
 
-## Related Seed Rules
-
-- [[AI-Assisted Knowledge Management Seed]] — provides capture criteria (diminishing returns) but not velocity
-- [[AI-Assisted Knowledge Management Seed]] — tracks individual note status (verification-status) but not vault-level metrics
-- [[Frontier Exploration - Knowledge Debt]] — addresses accumulated unverified knowledge
-
-## Open Questions
-
-1. What is the actual "safe" unverified ratio for different vault purposes?
-2. Should velocity differ by domain (fast verification in cooking vs. slow in philosophy)?
-3. How do you measure "deepening" vs. "adding" in a way an AI can verify?
-
-## Next Steps
-
-1. Track capture vs. verification metrics for 30 days
-2. Test velocity thresholds on personal vault
-3. Refine thresholds based on empirical data
+1. Develop metrics for measuring exploration vs. exploitation phases
+2. Test domain-specific velocity recommendations
+3. Create AI-verifiable deepening metrics

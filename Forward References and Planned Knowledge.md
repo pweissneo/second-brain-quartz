@@ -1,9 +1,7 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-18
 tags:
   - forward-reference
-  - planned
-  - stub
   - workflow
 confidence: high
 lifecycle: evergreen

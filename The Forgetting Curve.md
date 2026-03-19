@@ -126,6 +126,7 @@ Popular spaced repetition systems put this science into practice:
 - **RemNote** — combines note-taking with SR
 
 ## Related
+- [[AI-Assisted Knowledge Management Seed]] — foundation rules this note supports
 - [[Active Reading]]
 - [[Self-Improvement Cycle]]
 - [[Exportable Rules]]

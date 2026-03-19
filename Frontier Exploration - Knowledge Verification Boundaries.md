@@ -1,10 +1,24 @@
 ---
 knowledge-type: frontier-exploration
-confidence: emerging
-lifecycle: active
+confidence: high
+lifecycle: deprecated
 last-reviewed: 2026-03-17
 author-type: ai-assisted
+redirects-to: [[AI-Assisted Knowledge Management Seed]]
 ---
+
+# DEPRECATED: Frontier Exploration - Knowledge Verification Boundaries
+
+> ⚠️ **This note is deprecated.** The content has been integrated into the [[AI-Assisted Knowledge Management Seed]]. This note is kept for historical reference only.
+
+## Summary
+
+All rules from this note are now in the Seed:
+- verification-avoid frontmatter (lines 1035+)
+- Alternative verification methods
+- Safety-critical verification boundaries
+
+Please use the Seed for verification boundary rules.
 
 # Frontier Exploration - Knowledge Verification Boundaries
 

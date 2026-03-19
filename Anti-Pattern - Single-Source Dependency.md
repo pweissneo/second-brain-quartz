@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -44,3 +45,4 @@ Can you understand this note without clicking any links? If not, it needs more c
 - [[Handling Contradictory Sources]]
 - [[Note Lifecycle Management]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

@@ -260,7 +260,6 @@ In therapeutic psychology, some interventions have higher harm potential:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — Core ruleset
-- [[Seed Stress Test - Reasoning Strategies in Creative Writing]] — Related reasoning test
 - [[Stress Test - Source Quality Hierarchy in Medical Knowledge]] — Evidence tier testing
 - [[Confidence Markers]] — Confidence metadata
 - [[Domain-Specific Knowledge Bases]] — Domain adaptations

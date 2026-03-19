@@ -285,3 +285,4 @@ Add these fields to the assembly process type:
 - [[Frontier Gap - Assembly and Kit-Based Knowledge]] - Existing assembly exploration
 - [[Seed Stress Test - Craft Knowledge Bases]] - Similar domain stress test
 - [[Frontier Exploration - Regulatory and Compliance Knowledge]] - Code compliance
+- [[AI-Assisted Knowledge Management Seed]] (source of rules being tested)

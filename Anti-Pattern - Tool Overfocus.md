@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-18
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -38,8 +39,16 @@ Use [[Zettelkasten Method|principles over tools]].
 
 If you haven't created a note in 30 days, the tool isn't the problem.
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Has the vault produced at least one note in the last 30 days?
+- [ ] Is time spent on tool configuration > time spent creating content?
+- [ ] Are there notes about tools but no substantive content notes?
+- [ ] Does the vault have <10 notes after 30+ days of "setup"?
+
 ## Related
 
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Zettelkasten Method]]
 - [[Knowledge Base Workflow]]
 - [[Anti-Patterns in Knowledge Management]]

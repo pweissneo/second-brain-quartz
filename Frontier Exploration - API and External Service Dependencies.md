@@ -96,4 +96,5 @@ For a home automation knowledge base:
 - [[Stress Test - Version Scope Rule in Data Science ML]] — Version dependencies in ML workflows
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Physical tool dependencies
 - [[Handling Temporal Knowledge]] — URLs rot; service dependencies rot faster
+- [[Frontier Exploration - Continuous Streaming Knowledge]] — Handling continuously-updating real-time data
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends

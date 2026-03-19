@@ -4,6 +4,11 @@ last-updated: 2026-03-17
 confidence: emerging
 author-type: ai-assisted
 lifecycle: emerging
+tags:
+  - frontier-exploration
+  - place-specific
+  - verification
+  - knowledge-types
 ---
 
 # Frontier Exploration - Place-Specific Verification Knowledge
@@ -86,6 +91,7 @@ place-verified-for: [specific claim being verified]
 
 ## Related Concepts
 
+- [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Frontier Exploration - Experiential Knowledge]] - Knowledge requiring hands-on testing
 - [[Frontier Exploration - Climate-Zone-Dependent Knowledge]] - Knowledge varying by climate
 - [[Frontier Exploration - User Situational Constraints]] - Knowledge dependent on user context

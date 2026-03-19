@@ -82,7 +82,7 @@ The Seed's sequential knowledge rules work for "follow these steps in order" but
 ## Related Notes
 
 - [[Handling Temporal Knowledge]] — Covers linear sequences
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — Covers branching but in diagnostic context
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] — Covers branching but in diagnostic context
 - [[Frontier Gap - Embodied Knowledge]] — Related to aesthetic judgment which is often tacit
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Evaluation often involves sensory assessment
 

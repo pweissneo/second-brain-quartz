@@ -1,12 +1,15 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-19
+last-updated: 2026-03-19
 confidence: emerging
 author-type: ai-assisted
 lifecycle: active
+meta-type: capture-process
 tags:
   - frontier-exploration
   - temporal-knowledge
   - ephemeral
+  - meta-learning
 ---
 
 # Frontier Exploration - Ephemeral and Event-Based Knowledge
@@ -151,7 +154,7 @@ The Seed lacks explicit guidance for:
 ## Related Seed Rules
 
 - [[Frontier Gap - Embodied Knowledge]] — touches on experiential components
-- [[Frontier Exploration - Temporal Knowledge]] — related but covers different temporal aspects
+- [[Handling Temporal Knowledge]] — related but covers different temporal aspects
 - [[Frontier Gap - Embodied Knowledge]] — performance knowledge overlaps
 
 ---

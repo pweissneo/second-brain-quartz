@@ -168,7 +168,7 @@ An AI building an emergency knowledge base using only current Seed rules would s
 
 ## Related Notes
 
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] - Related but non-emergency
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] - Related but non-emergency
 - [[Frontier Exploration - User Situational Constraints]] - Emergency is extreme case of time constraint
 - [[Note Types and Templates]] - Emergency note type could be added
 - [[Handling Temporal Knowledge]] — Time-sensitive knowledge

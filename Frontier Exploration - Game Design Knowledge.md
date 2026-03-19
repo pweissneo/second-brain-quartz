@@ -124,6 +124,7 @@ An AI building a game design knowledge base using only current Seed rules would 
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Design iteration
 - [[Seed Stress Test - Craft Knowledge Bases]] — Hub rule analysis in craft domains (includes woodworking)
 - [[Stress Test - Atomicity Rule Across Domains]] — Atomicity in mechanical systems
+- [[Frontier Exploration - Video Game Knowledge Bases]] — Video game-specific knowledge capture
 
 ## Test Case: Building a Game Design Knowledge Base
 

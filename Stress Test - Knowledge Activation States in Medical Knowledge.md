@@ -184,5 +184,5 @@ Medical knowledge is high-stakes — the difference between `processed` and `ver
 ## Related
 - [[Stress Test - Source Quality Hierarchy in Medical Knowledge]]
 - [[Seed Stress Test - Confidence Markers Rule Across Domains]]
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]
 - [[Seed Improvement - Safety-Critical Knowledge Metadata]]

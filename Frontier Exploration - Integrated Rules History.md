@@ -8,6 +8,7 @@ tags:
   - integration-history
 deprecated-by: Seed rules integration
 superseded-by: AI-Assisted Knowledge Management Seed.md
+redirects-to: [[AI-Assisted Knowledge Management Seed]]
 note: These exploration notes were source material for Seed rules that have now been incorporated. Their content is preserved here for historical context.
 ---
 

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
@@ -8,12 +8,24 @@ tags:
   - ai-interaction
   - prompt-engineering
   - knowledge-types
+  - ai-relationship
 level: pattern
+note-type: merged  # Merged from AI Interaction Knowledge Management and Prompt Engineering Knowledge
 ---
 
 # Frontier Exploration - Capturing AI Prompt Knowledge
 
 > How should a knowledge base structure knowledge about interacting with AI systems through prompts?
+
+## Scope: Beyond Just Prompts
+
+This note covers three related but distinct types of AI interaction knowledge:
+
+1. **Prompt engineering** — knowledge about constructing effective prompts
+2. **Learned context** — information an AI has learned about the user that should persist across sessions
+3. **AI relationship knowledge** — knowledge about the AI collaboration itself that improves over time
+
+> Note: Content from [[Frontier Exploration - AI Interaction Knowledge Management]] and [[Frontier Exploration - Prompt Engineering Knowledge]] has been merged into this note.
 
 ## The Problem
 
@@ -271,12 +283,33 @@ When multiple prompts must run in sequence:
 > 
 > Without prompt-specific structure: Agent finds generic "how to extract data" notes that don't capture the prompt itself.
 
+## Open Questions for the Seed
+
+### Procedural vs. Declarative
+
+Should prompt engineering be treated as a procedural domain (like cooking) or a declarative domain (like facts)?
+
+- **Procedural view**: Prompts are like recipes—specific steps that produce consistent results
+- **Declarative view**: Prompts are statements of intent that the AI interprets
+
+The answer affects how we structure prompt notes and what verification looks like.
+
+### Prompts as Tools vs. Knowledge
+
+Should prompts be captured as "knowledge" or as "tools"?
+
+- **Tools**: Reusable assets that don't change the vault's knowledge state
+- **Knowledge**: Content that adds to what the vault knows
+
+This distinction affects whether prompts belong in the vault at all, or in a separate "toolkit."
+
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed being extended
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — Related AI-native structure
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
 - [[Confidence Markers]] — Reliability signaling
+- [[Frontier Exploration - AI Model Version Dependencies in Knowledge Bases]] — Version tracking for AI knowledge
 
 ---
 

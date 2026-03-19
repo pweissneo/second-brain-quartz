@@ -1,8 +1,11 @@
 ---
 last-reviewed: 2026-03-14
+last-updated: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+schema-version: "2026-03"
+verification-status: verified
 tags:
   - frontier-exploration
   - knowledge-type
@@ -10,7 +13,7 @@ tags:
   - domain-agnostic
 related:
   - "[[Frontier Exploration - Knowledge Base Onboarding]]"
-  - "[[Confidence Markers]]"
+  - "[[Stress Test - Confidence Markers Rule Across Domains]]"
   - "[[Note Types and Templates]]"
 ---
 
@@ -87,7 +90,7 @@ relevance-to-vault: high | medium | low
 
 ## Relationship to Existing Rules
 
-- **Confidence Markers**: Resources can have confidence (highly recommended vs. niche/controversial)
+- **Stress Test - Confidence Markers Rule Across Domains**: Resources can have confidence (highly recommended vs. niche/controversial)
 - **Lifecycle Management**: Resources can be "not-started", "in-progress", "completed", "outdated"
 - **Source Quality Tiers**: Resources can be rated by production quality (professional course vs. amateur video)
 - **Expertise-Level Tags**: Resources have target skill level
@@ -95,7 +98,7 @@ relevance-to-vault: high | medium | low
 ## Related Notes
 
 - [[Frontier Exploration - Knowledge Base Onboarding]] — Learning resources are often part of onboarding
-- [[Confidence Markers]] — Resource quality can use confidence levels
+- [[Stress Test - Confidence Markers Rule Across Domains]] — Resource quality can use confidence levels
 - [[Note Lifecycle Management]] — Resources have completion lifecycle
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Resources have difficulty levels
 - [[Frontier Exploration - User Situational Constraints]] — Resources may have format/time/cost constraints

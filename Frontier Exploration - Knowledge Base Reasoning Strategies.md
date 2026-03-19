@@ -111,7 +111,6 @@ A well-designed reasoning strategy should:
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — Understanding KB value propositions
 - [[Frontier Exploration - Learning Progression and Curriculum Design]] — Learning-specific traversal
 - [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] — Understanding actual query patterns
-- [[Seed Stress Test - Reasoning Strategies in Creative Writing]] — Domain-specific reasoning test
 - [[Seed Stress Test - Reasoning Strategies in Therapeutic Psychology]] — Domain-specific reasoning test for high-stakes therapeutic domains
 
 ## Questions This Raises

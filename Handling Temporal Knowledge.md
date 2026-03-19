@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
-verification: human-reviewed
+verification-status: verified
 tags:
   - seed-extension
   - temporal
@@ -232,6 +232,64 @@ staleness: confirmed
 
 ---
 
+## Obsolescence Detection Methods
+
+*Enhanced content from Knowledge Obsolescence Detection frontier exploration*
+
+### The Detection Challenge
+
+The Seed assumes obsolescence is knowable, but doesn't provide a method for identifying it. Without obsolescence detection, an AI agent cannot:
+1. **Distinguish stale from obsolete** — Is this knowledge simply old, or has the underlying reality changed?
+2. **Identify context shifts** — Knowledge that was correct for a specific situation but is no longer applicable
+3. **Know when to escalate** — What triggers human review vs. automated updates
+
+### Obsolescence Triggers
+
+#### External Triggers (detectable)
+- **Source changed** — The source document/article was updated
+- **Version mismatch** — The tool/version the knowledge applies to has changed
+- **Link rot** — External references are dead
+- **Authority superseded** — Legal precedent changed, scientific consensus shifted
+
+#### Internal Triggers (inferred)
+- **Contradiction detected** — New knowledge contradicts existing knowledge
+- **Gap in applicability** — Knowledge assumes context that no longer exists
+- **Negative evidence accumulation** — Multiple failed applications suggest the knowledge is wrong
+
+#### Context Shift Triggers (requires user input)
+- **Situation changed** — Your context differs from what the note assumes (job, location, relationship)
+- **Tool/technology changed** — You switched tools and the knowledge no longer applies
+- **Goals changed** — Your objectives shifted and the knowledge is no longer relevant
+
+### Special Case: External Extinction
+
+**When the thing described no longer exists** — a specific type of obsolescence that requires different handling.
+
+#### Examples of External Extinction
+- **Product Discontinuation** — Knowledge about a discontinued camera model, out-of-print book
+- **Service Shutdown** — Knowledge about a defunct API, discontinued platforms
+- **Relationship Dissolution** — Knowledge about former employers, ex-partners
+- **Organizational Death** — Knowledge about dissolved companies, defunct institutions
+- **Biological/Physical Extinction** — Knowledge about extinct species, destroyed landmarks
+
+#### Why Standard Rules Fail
+Standard obsolescence assumes knowledge can be refreshed, the thing described still exists, and updates are possible. External extinction breaks all three.
+
+#### Tagging Strategy for External Extinction
+```yaml
+extinction-type: product|service|relationship|organization|location
+extinction-date: YYYY-MM-DD
+extinction-source: discontinuation-notice|shutdown-announcement|verified-absence
+historical-status: archived|reference-only|deprecated
+```
+
+### Confirmation Methods
+- Product discontinuation: Check manufacturer website, press releases, archive.org
+- Service shutdown: Check status pages, news articles, social media
+- Organizational death: Business registries, news archives
+
+---
+
 ## Part 3: Sequential Knowledge — Where Order IS the Knowledge
 
 *Content integrated from Frontier Exploration on sequential knowledge*
@@ -415,12 +473,35 @@ Given a note about an old scientific theory:
 4. Is there context about what was right/useful even in the wrong theory?
 5. Is there a warning if applying the old theory could cause harm?
 
+### Confirmation Methods
+
+- Product discontinuation: Check manufacturer website, press releases, archive.org
+- Service shutdown: Check status pages, news articles, social media
+- Organizational death: Business registries, news archives
+
+---
+
+## Proposed Seed Rule
+
+**Rule:** Implement obsolescence detection with explicit triggers — separate staleness (time-based) from obsolescence (reality-based) and context shift (user-based).
+
+**Why:** Staleness is mechanical (time passed); obsolescence is semantic (reality changed); context shift is personal (your situation changed). Treating all three the same causes false positives (flagging accurate but old knowledge) and false negatives (missing genuinely obsolete knowledge).
+
+**Test:** Can you categorize knowledge gaps as: (1) time-stale (review needed), (2) reality-obsolete (replace needed), (3) context-shift (user-specific)? Do you have detection methods for each?
+
+---
+
+## Questions for the Seed
+
+1. Should obsolescence be a lifecycle stage separate from deprecation?
+2. How do we distinguish "was never accurate" from "was accurate, now obsolete"?
+3. What's the minimum evidence threshold for marking something obsolete vs. stale?
+
 ---
 
 ## Related
 - [[Note Types and Templates]]
 - [[Note Lifecycle Management]]
-- [[Metadata and Tagging]]
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time

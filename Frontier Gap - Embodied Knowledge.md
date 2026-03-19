@@ -307,7 +307,6 @@ For each note in an experiential domain:
 - [[Frontier Exploration - Recipe and Menu Design Knowledge]] — Creative composition in cooking
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Tasting/evaluating experiential knowledge
 - [[Frontier Exploration - Incomplete and Provisional Knowledge]] — Related to unverified status
-- [[Redundancy - Cooking Knowledge Notes]] — Identified overlap between meal coordination notes
 
 ---
 

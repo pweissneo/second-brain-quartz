@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -93,4 +93,5 @@ You don't need to be an expert to create:
 - [[Knowledge Base Workflow]] — End-to-end workflow
 - [[Systems Over Goals]] — Building systems that compound
 - [[The Ownership Mindset]] — Who you are as a knowledge practitioner
+- [[Progressive Summarization]] — Processing technique for condensing notes
 - [[AI-Assisted Knowledge Management Seed]]

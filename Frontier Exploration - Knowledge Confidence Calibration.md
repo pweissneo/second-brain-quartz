@@ -1,12 +1,27 @@
 ---
 last-reviewed: 2026-03-17
 last-updated: 2026-03-17
-confidence: emerging
+confidence: high
 author-type: ai-assisted
 knowledge-type: thinking-tool
 thinking-tool-type: reasoning-framework
-lifecycle: active
+lifecycle: deprecated
+redirects-to: [[AI-Assisted Knowledge Management Seed]]
 ---
+
+# DEPRECATED: Frontier Exploration - Knowledge Confidence Calibration
+
+> ⚠️ **This note is deprecated.** The content has been integrated into the [[AI-Assisted Knowledge Management Seed]]. This note is kept for historical reference only.
+
+## Summary
+
+All rules from this note are now in the Seed:
+- Confidence calibration methodology (lines 611+)
+- Confidence adjustment tracking
+- Domain-specific confidence floors
+- Confidence corridors for related knowledge
+
+Please use the Seed for confidence calibration rules.
 
 # Frontier Exploration - Knowledge Confidence Calibration
 

@@ -2,10 +2,10 @@
 lifecycle: active
 last-reviewed: 2026-03-13
 confidence: emerging
+knowledge-type: frontier-exploration
 author-type: ai-assisted
 tags:
   - frontier-exploration
-  - knowledge-type
   - institutional-knowledge
 ---
 

@@ -10,7 +10,6 @@ tags:
   - music-theory
   - link-quality
   - 2-plus-links
-  - nursing-domain
   - cross-domain
 ---
 
@@ -217,3 +216,4 @@ See also:
 - [[Frontier Exploration - Musical Arrangement Knowledge]]
 - [[Domain-Specific Knowledge Bases]]
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
+- [[AI-Assisted Knowledge Management Seed]] (source of rules being tested)

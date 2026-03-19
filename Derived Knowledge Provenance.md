@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-03-17
+last-reviewed: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
+knowledge-type: analysis
 tags:
   - frontier-exploration
   - provenance
@@ -23,11 +25,18 @@ When creating new notes from combining multiple sources (synthesis), it's import
 
 Without provenance tracking, derived knowledge becomes unverifiable and hard to maintain.
 
-## Seed Rules Related
+## Seed Rule Reference
 
-The Seed covers:
-- [[Handling Contradictory Sources]] - When sources disagree
-- [[Frontier Exploration - Knowledge Synthesis Quality Assessment]] - Evaluating synthesis value
+This note expands on the Seed rule:
+> **Rule:** Track derived knowledge provenance for syntheses created from existing vault notes — when combining insights from multiple notes to create new understanding, document the derivation.
+
+**Frontmatter format (Seed-compliant):**
+```yaml
+derived-from-vault: true
+synthesis-type: pattern-discovery|principle-extraction|hub-creation|inference
+synthesis-method: How this was derived (induction, analogy, deduction)
+derived-date: YYYY-MM-DD
+```
 
 ## When Provenance Matters
 
@@ -40,14 +49,16 @@ Notes that analyze, interpret, or transform source material should cite origins.
 ### For Opinion Notes
 Notes expressing viewpoints should distinguish personal synthesis from source material.
 
-## Frontmatter for Provenance
+## Frontmatter for Provenance (Seed-Compliant Format)
 
 ```yaml
 derived-from-vault: true
+synthesis-type: pattern-discovery  # pattern-discovery|principle-extraction|hub-creation|inference
+synthesis-method: How this was derived (induction, analogy, deduction)
+derived-date: 2026-03-18
 sources:
   - [[Note Name 1]]
   - [[Note Name 2]]
-transformation: synthesis | analysis | interpretation
 ```
 
 ## Examples
@@ -72,12 +83,12 @@ Provenance distinguishes external sources from personal synthesis.
 
 To verify derived knowledge has proper provenance:
 
-1. **Synthesis Test**: For hub notes combining 3+ sources, does frontmatter list `derived-from-vault: true` with `sources:`?
-2. **Analysis Test**: For analysis notes, is there a `transformation:` field indicating what was done?
-3. **Opinion Test**: For opinion notes, can you distinguish personal synthesis from source material?
+1. **Synthesis Test**: For hub notes combining 3+ sources, does frontmatter include `derived-from-vault: true` with `synthesis-type:` and `synthesis-method:`?
+2. **Date Test**: Is there a `derived-date:` field?
+3. **Sources Test**: Are source notes listed?
 
 ## Related
 
-- [[Frontier Exploration - Knowledge Synthesis Quality Assessment]]
+- [[Frontier Exploration - Knowledge Synthesis Quality]]
 - [[Handling Contradictory Sources]]
 - [[AI-Assisted Knowledge Management Seed]]

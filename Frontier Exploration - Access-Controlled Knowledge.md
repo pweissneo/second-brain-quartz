@@ -99,3 +99,4 @@ An AI building a knowledge base on a topic like "advanced cooking techniques" us
 - [[Handling Temporal Knowledge]] — Related to keeping sources accessible
 - [[Frontier Exploration - API and External Service Dependencies]] — Related but about functionality, not content
 - [[Frontier Exploration - Knowledge Debt]] — Access loss creates debt
+- [[Frontier Exploration - Journalism and Investigative Research Knowledge Bases]] — Source verification in journalism involves confidential sources

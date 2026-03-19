@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-16
-last-updated: 2026-03-16
+last-reviewed: 2026-03-18
+last-updated: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
@@ -146,3 +146,7 @@ This is distinct from other experiential domains because:
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — overlaps but lacks astronomy-specific guidance
 - [[Stress Test - Atomicity Rule Across Domains]] — covers recognition knowledge partially but not visual pattern recognition
 - [[Frontier Gap - Embodied Knowledge]] — some overlap but astronomy is visual/mental, not physical
+- [[Expert Heuristics and Rules of Thumb]] — pattern recognition expertise
+- [[Equipment and Tool Dependencies]] — equipment-specific knowledge
+- [[Handling Temporal Knowledge]] — time-sensitive celestial events
+- [[Knowledge Abstraction Levels]] — organizing catalog knowledge

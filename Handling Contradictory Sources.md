@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-18
+last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 tags:
@@ -251,6 +252,48 @@ knowledge-type: canonical|analysis|personal
 | Medicine | Clinical guidelines | Physician approach | Patient experience |
 | Investing | SEC filings, market data | Analyst recommendations | Personal strategy |
 | Literature | Scholarly consensus | Critical interpretations | Personal reading |
+
+## Explicit Conflict Documentation
+
+For direct factual contradictions between credible sources, use explicit frontmatter to track the conflict:
+
+```yaml
+conflict-type: factual-contradiction|framework-difference|interpretation-dispute
+sources-in-conflict:
+  - source: "[[Note A]]"
+    position: "Claim X"
+    credibility-factors: ["expertise level", "recency", "source type"]
+  - source: "[[Note B]]"
+    position: "Claim NOT X"  
+    credibility_factors: ["expertise level", "recency", "source type"]
+resolution-status: unresolved|pending-review|resolved
+resolved-by: "human-review | additional-evidence | consensus-emerged"
+resolution-date: YYYY-MM-DD
+resolution-notes: "How this was resolved"
+```
+
+### When to Defer to Human
+
+Flag for human review when:
+- Both sources have equal reliability scores
+- The contradiction is about a high-stakes topic (medical, legal, safety)
+- The field has no clear authority to resolve
+- Resolution affects downstream knowledge
+
+### What NOT To Do
+
+- Don't arbitrarily pick one source and delete the other
+- Don't mark the contradiction as "low confidence" (misleading - it's high uncertainty, not low quality)
+- Don't defer indefinitely without documenting the conflict exists
+
+### Test Criteria
+
+For a knowledge base handling contradictions:
+
+1. Can you identify all factual contradictions in the vault?
+2. Does each contradiction have `conflict-type:` and `resolution-status:`?
+3. Are high-stakes contradictions flagged for human review?
+4. Can you trace the resolution history (if resolved)?
 
 ---
 

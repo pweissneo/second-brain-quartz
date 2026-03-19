@@ -154,6 +154,7 @@ The difference is **content**, not structure.
 - [[Knowledge Base Workflow]]
 - [[Atomic Note Principle]]
 - [[Frontier Exploration - Multi-Vault Architecture]]
+- [[Seed Gap - Finance and Investment Knowledge Bases]]
 - [[Seed Stress Test - Sports Coaching Knowledge Base]] — Domain-specific stress test for coaching
-- [[Frontier Exploration - Gardening Knowledge Bases]] — Domain-specific stress test for gardening (context-dependent knowledge)
+- [[Seed Stress Test - Gardening Knowledge Base]] — Domain-specific stress test for gardening (context-dependent knowledge)
 - [[Seed Stress Test - Home Repair Knowledge Base]] — Domain-specific stress test for home repair (assembly/construction knowledge)

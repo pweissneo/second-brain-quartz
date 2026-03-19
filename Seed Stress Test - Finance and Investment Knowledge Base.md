@@ -214,3 +214,4 @@ Finance and investment knowledge bases face distinct challenges:
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Confidence Markers]]
+- [[AI-Assisted Knowledge Management Seed]] (source of rules being tested)

@@ -317,7 +317,7 @@ For the last 5 notes added to a cooking topic:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Gardening Knowledge Bases]]
+- [[Seed Stress Test - Gardening Knowledge Base]]
 - [[Seed Stress Test - Craft Knowledge Bases]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Frontier Exploration - Expert Heuristics and Rules of Thumb]]

@@ -1,6 +1,7 @@
 ---
 last-reviewed: 2026-03-17
 last-updated: 2026-03-17
+lifecycle: active
 confidence: high
 author-type: ai-assisted
 verification-status: verified

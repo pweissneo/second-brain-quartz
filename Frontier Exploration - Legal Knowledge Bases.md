@@ -1,8 +1,14 @@
 ---
 last-reviewed: 2026-03-11
+last-updated: 2026-03-18
 lifecycle: active
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
+type: frontier-exploration
+status: draft
+review-by: 2026-03-25
+applicability: universal
 tags:
   - frontier-exploration
   - legal-knowledge
@@ -11,6 +17,8 @@ tags:
 ---
 
 # Frontier Exploration - Legal Knowledge Bases
+
+> This note proposes new Seed rules for legal knowledge bases. See [[AI-Assisted Knowledge Management Seed]] for context.
 
 ## The Gap
 

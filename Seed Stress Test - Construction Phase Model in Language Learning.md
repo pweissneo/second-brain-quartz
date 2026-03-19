@@ -205,3 +205,5 @@ The rule is fundamentally sound but needs domain-specific calibration.
 - **Seed rule:** Construction Phase Model
 - **Test result:** Rule needs refinement
 - **Confidence:** emerging (single-domain test)
+
+- [[AI-Assisted Knowledge Management Seed]] (source of rules being tested)

@@ -121,3 +121,4 @@ Well-designed structure can also ENABLE discovery:
 - [[Hub Node Creation]] — How to create effective hubs
 - [[Frontier Exploration - Knowledge Debt]] — Related: maintenance burden
 - [[Self-Improvement Cycle]] — Continuous vault improvement
+- [[Knowledge Graph Structure]] — Graph organization principles

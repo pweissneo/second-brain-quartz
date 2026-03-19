@@ -81,7 +81,7 @@ media-layer:
 ---
 # Text Layer (stands alone)
 
-For text-layer guidance on sensory cues (e.g., how to know dough is ready), see the Seed's sensory-cues examples: [[AI-Assisted Knowledge Management Seed#experiential-component]].
+For text-layer guidance on sensory cues (e.g., how to know dough is ready), the Seed covers this under experiential domain verification rules — see the "verification workflow" and "modified test for experiential domains" sections in [[AI-Assisted Knowledge Management Seed#Edge case (stress test 2026-03-16): In experiential domains]].
 
 [Link to demonstration video]
 ```

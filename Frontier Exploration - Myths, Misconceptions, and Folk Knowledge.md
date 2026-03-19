@@ -3,6 +3,7 @@ last-reviewed: 2026-03-11
 lifecycle: active
 review-by: 2026-03-18
 confidence: emerging
+schema-version: "1.0"
 author-type: ai-assisted
 tags:
   - frontier-exploration

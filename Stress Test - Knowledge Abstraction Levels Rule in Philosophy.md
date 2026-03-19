@@ -3,6 +3,7 @@ last-reviewed: 2026-03-12
 confidence: emerging
 author-type: ai-assisted
 lifecycle: active
+knowledge-type: analysis
 tags:
   - stress-test
   - abstraction-levels

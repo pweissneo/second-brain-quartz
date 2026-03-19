@@ -132,4 +132,4 @@ The 5-note threshold is arbitrary. What actually matters:
 - [[Hub Node Creation]]
 - [[Graph Traversal Efficiency]]
 - [[Atomic Note Principle]]
-- [[Metadata and Tagging]]
+- [[Note Types and Templates]]

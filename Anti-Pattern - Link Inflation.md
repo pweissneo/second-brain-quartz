@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-13
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -52,3 +53,4 @@ For each link, can you explain in one sentence why the reader should follow it? 
 - [[Linking Principle]]
 - [[Graph Maintenance]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

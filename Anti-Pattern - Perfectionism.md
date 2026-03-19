@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -61,3 +62,4 @@ If you answer yes to 2+ of these questions, you may be suffering from perfection
 - [[Note Lifecycle Management]]
 - [[Knowledge Base Workflow]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

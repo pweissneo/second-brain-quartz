@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-18
+last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -11,43 +12,41 @@ tags:
 
 # Anti-Pattern: Neglecting Maintenance
 
-Only adding content, never reviewing, leads to vault decay.
+Only adding new notes without reviewing or updating existing ones.
 
 ## Problem
 
-Neglecting maintenance causes:
-- No [[Graph Maintenance|health checks]]
-- Broken links accumulate
-- Outdated information spreads
-
-The vault degrades over time.
+A knowledge base that only grows but never gets reviewed becomes:
+- Stale with outdated information
+- Full of broken links and inconsistencies
+- Less reliable over time
 
 ## Signs
 
-- No review dates on notes
-- Broken wikilinks ignored
-- Old information remains unupdated
+- Notes never get updated after creation
+- Links break without correction
+- Outdated information sits alongside current
+- Verification status remains perpetually "unverified"
 
 ## Solution
 
-Run regular audits per [[Self-Improvement Cycle|iteration cycle]].
+Follow [[Graph Maintenance]] and [[Self-Improvement Cycle]]:
 
-- Schedule periodic health checks
-- Update review dates
+- Schedule regular review sessions
+- Update notes when new information emerges
 - Fix broken links promptly
+- Verify unverified knowledge
 
-## Maintenance Cadence
+## The Maintenance Rule
 
-| Frequency | Task |
-|-----------|------|
-| Daily | Quick link check |
-| Weekly | Graph health scan |
-| Monthly | Full audit |
+> **Rule:** Every note should have a `last-reviewed` date, updated on each review.
+> **Why:** Without review tracking, stale notes accumulate undetected.
+> **Test:** Do all notes have a `last-reviewed` field? Flag notes not reviewed in the last 30 days.
 
 ## Related
 
 - [[Graph Maintenance]]
 - [[Self-Improvement Cycle]]
 - [[Note Lifecycle Management]]
-- [[Anti-Patterns in Knowledge Management]]
-- [[Frontier Exploration - Knowledge Triage and Overflow Management]] — When capture exceeds capacity
+- [[Anti-Pattern - Note Hoarding]]
+- [[AI-Assisted Knowledge Management Seed]]

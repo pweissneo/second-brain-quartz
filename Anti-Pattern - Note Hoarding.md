@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -73,6 +74,20 @@ Apply the reverse test before creating any note:
 
 If no → skip. Your second brain will thank you.
 
+**Part 3: Maintain what you process**
+
+Don't let your vault decay:
+- Run regular graph health checks
+- Update review dates on notes
+- Fix broken links promptly
+- Schedule periodic full audits
+
+| Frequency | Task |
+|-----------|------|
+| Daily | Quick link check |
+| Weekly | Graph health scan |
+| Monthly | Full audit |
+
 ## What NOT to Capture
 
 | Type | Why Skip | Alternative |
@@ -92,10 +107,12 @@ If no → skip. Your second brain will thank you.
 
 ## Related
 
-- [[Atomic Note Principle]]
+- [[Graph Maintenance]]
+- [[Self-Improvement Cycle]]
 - [[Note Lifecycle Management]]
 - [[Knowledge Base Workflow]]
 - [[Progressive Summarization]]
 - [[Anti-Patterns in Knowledge Management]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Base Onboarding]]
+- [[Frontier Exploration - Knowledge Triage and Overflow Management]] — When capture exceeds capacity

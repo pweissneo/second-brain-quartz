@@ -219,4 +219,3 @@ When capturing interpretive knowledge:
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Different audiences
 - [[Frontier Exploration - Illustrative vs Factual Examples]] — Types of knowledge
 - [[Confidence Markers]] — Expressing certainty levels
-- [[AI-Assisted Knowledge Management Seed]] — Foundation rules

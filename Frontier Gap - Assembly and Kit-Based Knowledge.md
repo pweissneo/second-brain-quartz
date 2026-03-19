@@ -110,7 +110,7 @@ If GPU fails after install: undo GPU, try again. If motherboard standoffs wrong:
 
 ## Related Notes
 
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]]
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]
 - [[Frontier Exploration - Iterative Creative Knowledge]]
 - [[Note Types and Templates]]
 - [[Atomic Note Principle]]

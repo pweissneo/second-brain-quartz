@@ -5,6 +5,7 @@ confidence: emerging
 author-type: ai-assisted
 status: draft
 review-by: 2026-03-23
+knowledge-type: frontier-exploration
 tags:
   - frontier-exploration
   - unknown-unknowns

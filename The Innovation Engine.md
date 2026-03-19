@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-12
+last-reviewed: 2026-03-17
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -8,6 +8,8 @@ tags:
   - creativity
   - concept
   - cross-domain
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # The Innovation Engine

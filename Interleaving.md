@@ -68,6 +68,12 @@ Tag notes with cross-domain indicators:
 | Only history notes | Link to economics, sociology |
 | Single-topic folders | Cross-reference widely |
 
+## Domain Application Examples
+
+- [[Seed Stress Test - Cooking Knowledge Base]] — Interleaving applied to mixing different culinary techniques (knife skills, sauce making, heat management) within a single cooking session
+- [[Seed Stress Test - Photography Knowledge Base]] — Interleaving applied to mixing different photography genres (portrait, landscape, street) to develop versatile skills
+- [[Seed Stress Test - 2+ Links Rule in Music Theory]] — Interleaving applied to mixing different musical elements (melody, harmony, rhythm, timbre) in music theory study
+
 ## Related
 
 - [[The Innovation Engine]]

@@ -98,6 +98,8 @@ AI retrieval (RAG) uses embeddings, not exact text match. Structure affects retr
 
 ### Prompt Engineering Knowledge
 
+See [[Frontier Exploration - Capturing AI Prompt Knowledge]] for detailed guidance on capturing prompt knowledge.
+
 Prompts are procedural knowledge but with unique characteristics:
 - Exact wording matters (small changes = big output differences)
 - Context windows limit what can be included

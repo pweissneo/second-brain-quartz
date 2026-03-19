@@ -130,7 +130,7 @@ This mirrors how the Seed suggests hub notes for topics - create constraint hubs
 
 This extends:
 - [[Note Types and Templates]] - adding constraint types to note metadata
-- [[Metadata and Tagging]] - new constraint tags
+- [[Note Types and Templates]] - adding constraint types to note metadata and tagging strategy
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] - complements expertise with situation
 - [[Frontier Exploration - Equipment and Tool Dependencies]] - extends equipment from "required to execute" to "required to apply this approach"
 
@@ -141,5 +141,5 @@ This extends:
 - [[Frontier Exploration - Parenting Knowledge Capture]] - Extremely context-dependent
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] - Substitutions as missing-ingredient constraints
 - [[Note Types and Templates]]
-- [[Metadata and Tagging]]
+- [[Note Types and Templates]]
 - [[AI-Assisted Knowledge Management Seed]]

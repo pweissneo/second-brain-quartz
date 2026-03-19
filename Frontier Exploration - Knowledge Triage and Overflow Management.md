@@ -3,6 +3,7 @@ last-reviewed: 2026-03-16
 confidence: emerging
 author-type: ai-assisted
 lifecycle: active
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - knowledge-management

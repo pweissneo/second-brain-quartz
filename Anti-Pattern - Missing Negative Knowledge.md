@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -61,3 +62,4 @@ For every dedicated negative knowledge note, include a link to the positive alte
 - [[Confidence Markers]] — for signaling reliability of negative knowledge
 - [[Handling Contradictory Sources]] — when negative knowledge conflicts with positive
 - [[Frontier Exploration - Knowledge Debt]] — accumulated gaps in knowledge quality
+- [[AI-Assisted Knowledge Management Seed]]

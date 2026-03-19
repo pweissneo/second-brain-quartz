@@ -10,7 +10,7 @@ tags:
   - domain-agnostic
 related:
   - "[[Frontier Exploration - User Situational Constraints]]"
-  - "[[Frontier Exploration - Conditional and Troubleshooting Knowledge]]"
+  - "[[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]"
 ---
 
 # Frontier Exploration: Ingredient Substitution Knowledge
@@ -116,5 +116,5 @@ substitution:
 
 This connects to:
 - [[Frontier Exploration - User Situational Constraints]] - substitution is one way to handle missing ingredients
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] - substitution is a specific branch type
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] - substitution is a specific branch type
 - [[Frontier Exploration - Equipment and Tool Dependencies]] - equipment alternatives are similar pattern for tools

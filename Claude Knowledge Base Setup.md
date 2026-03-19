@@ -95,7 +95,7 @@ For Codex or multi-agent setups.
 
 - [[Graph Traversal Efficiency]] - Graph query tools
 - [[Sources Provenance MCP]] - Source tracking
-- [[Git Best Practices]] - Branching, commits for AI agents
+- [[git-best-practices]] - Branching, commits for AI agents
 
 ### MCP Configuration
 

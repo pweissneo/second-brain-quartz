@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -47,3 +48,4 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 - [[Graph Traversal Efficiency]]
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Competing Organizational Structures]]
+- [[AI-Assisted Knowledge Management Seed]]

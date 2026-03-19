@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -72,7 +72,7 @@ The Seed requires every note be reachable from [[_root]] in 3 hops or fewer. Wik
 Most modern knowledge management tools support wikilinks:
 - **Obsidian**, **Logseq**, **RemNote** — Native support
 - **Roam Research** — Uses double bracket syntax
-- **Quartz**, **Ara** — Static site generators parse wikilinks
+- **Quartz**, **Obsidian Publish**, **Logseq Publish** — Static site generators parse wikilinks
 
 This vault's [[Graph Traversal Efficiency]] can query the link structure programmatically.
 

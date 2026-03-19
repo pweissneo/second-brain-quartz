@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-12
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -98,3 +99,4 @@ def find_star_pattern(nodes, edges):
 - [[Graph Traversal Efficiency]]
 - [[Hub Node Creation]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

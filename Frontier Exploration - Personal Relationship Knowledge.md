@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-13
 confidence: emerging
 lifecycle: active
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - knowledge-type
@@ -74,9 +76,11 @@ Some relationship knowledge should be documented WITH the person, not ABOUT them
 type: relationship-knowledge
 subject: [person identifier]
 relationship: [partner|family|friend|colleague|mentor|other]
+last-reviewed: 2026-03-13
 last-updated: 2026-03-13
 sensitivity: private  # vs. shareable
-verification: direct-confirmation  # vs. inferred
+verification-status: verified  # vs. inferred
+confidence: medium
 ---
 
 # What I've Learned About [Name]
@@ -108,7 +112,7 @@ Knowledge about people is sensitive. Consider:
 ### Accuracy
 Unlike external knowledge, you cannot verify relationship knowledge through sources. Mitigation:
 - Periodically confirm insights directly with the person
-- Acknowledge when something is inferred vs. directly stated
+- Acknowledge when something is inferred vs. directly stated (use verification-status: inferred vs. verification-status: direct-confirmation)
 - Update when the person changes
 
 ### Completeness
@@ -131,9 +135,9 @@ Relationship knowledge is never "done" — people evolve. Set review triggers fo
 
 ## Seed Rule Candidate
 
-**Rule:** Distinguish relationship-specific knowledge from general interpersonal knowledge — relationship knowledge applies to one specific person and should be tagged with subject, verification status, and sensitivity level.
+**Rule:** Distinguish relationship-specific knowledge from general interpersonal knowledge — relationship knowledge applies to one specific person and should be tagged with subject, verification-status, and sensitivity level.
 **Why:** Conflating relationship knowledge with general knowledge misleads readers and AI agents about applicability. A tip that works for your partner may not work for anyone else.
-**Test:** For a note about interpersonal dynamics: (1) Does this apply to a specific person or to people in general? (2) If specific, is there subject/sensitivity frontmatter? (3) Is it marked as inferred vs. directly confirmed?
+**Test:** For a note about interpersonal dynamics: (1) Does this apply to a specific person or to people in general? (2) If specific, is there subject/sensitivity frontmatter? (3) Is it marked as verification-status: inferred vs. verification-status: direct-confirmed?
 
 ## Related
 - [[Frontier Gap - Embodied Knowledge]] — Much relationship knowledge is tacit

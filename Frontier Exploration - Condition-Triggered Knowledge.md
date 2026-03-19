@@ -3,6 +3,11 @@ last-reviewed: 2026-03-17
 lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
+tags:
+  - frontier-exploration
+  - conditional-knowledge
+  - activation-conditions
+  - state-knowledge
 ---
 # Frontier Exploration - Condition-Triggered Knowledge
 
