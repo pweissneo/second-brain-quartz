@@ -10,7 +10,37 @@
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Over-Organization</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
+    <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Single-Source Dependency</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
+    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
+  </item><item>
+    <title>Anti-Pattern - Tool Overfocus</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Tool-Overfocus</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Tool-Overfocus</guid>
+    <description><![CDATA[ Anti-Pattern: Tool Overfocus Obsessing over the perfect tool prevents any actual knowledge work. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Negative-Space Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Negative-Space-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Negative-Space-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Negative-Space Knowledge How should a knowledge base handle knowledge that is defined primarily by what it excludes, contradicts, or is not? The Problem Some knowledge exists in “negative space” — its meaning comes from what it is NOT, rather than what it IS: Not-recipes: “Thi... ]]></description>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
+  </item><item>
+    <title>Prerequisite Knowledge Tracking</title>
+    <link>https://quartz.jzhao.xyz/Prerequisite-Knowledge-Tracking</link>
+    <guid>https://quartz.jzhao.xyz/Prerequisite-Knowledge-Tracking</guid>
+    <description><![CDATA[ Prerequisite Knowledge Tracking When capturing complex knowledge, track what the reader needs to know first. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 04:08:05 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Deadline-Driven Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</link>
@@ -34,36 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ingredient-Substitution-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ingredient-Substitution-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Ingredient Substitution Knowledge The Gap The Seed handles conditional/troubleshooting knowledge with if-then branches and user situational constraints (time, budget, equipment). ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Iterative Creative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Iterative-Creative-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Iterative Creative Knowledge Knowledge that involves cyclic evaluation and decision-making, not just linear sequences. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Consensus Level Tracking</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Consensus-Level-Tracking</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Consensus-Level-Tracking</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Consensus Level Tracking The Gap The Seed currently tracks: Confidence (source reliability: high/medium/low) Verification status (verified/unverified/disputed) Contradictions (when two credible sources conflict) But it lacks explicit tracking for the state of agreeme... ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Troubleshooting and Diagnostic Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Troubleshooting-and-Diagnostic-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Troubleshooting-and-Diagnostic-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Troubleshooting and Diagnostic Knowledge Procedural knowledge tells you “how to do X.” Troubleshooting knowledge tells you “what’s wrong when X doesn’t work.” These are fundamentally different knowledge types with different structural needs. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
-  </item><item>
-    <title>Frontier Gap - Assembly and Kit-Based Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Gap---Assembly-and-Kit-Based-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Assembly-and-Kit-Based-Knowledge</guid>
-    <description><![CDATA[ Frontier Gap: Assembly and Kit-Based Knowledge Knowledge about building, assembling, or constructing things from parts has unique characteristics that current Seed rules don’t explicitly address. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Craft Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Craft-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Craft-Knowledge-Bases</guid>
-    <description><![CDATA[ Seed Stress Test: Craft Knowledge Bases Testing Seed rules against craft domains — cooking and brewing — which combine procedural knowledge, scientific principles, and sensory evaluation. ]]></description>
     <pubDate>Thu, 19 Mar 2026 03:07:25 GMT</pubDate>
   </item>
     </channel>
