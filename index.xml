@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/Schema</link>
     <guid>https://quartz.jzhao.xyz/Schema</guid>
     <description><![CDATA[ Schema.md - Vault Field Documentation This document defines the frontmatter fields used in the vault. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 14:44:47 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 14:55:24 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Relational Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Relational-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Relational-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Relational Knowledge: Knowledge That Exists in Connections The Gap The Seed covers: Graph structure — how notes link to each other (Navigation section) Atomicity — one idea per note Knowledge types — factual, procedural, conditional, experiential But it does NOT explicitly cov... ]]></description>
-    <pubDate>Thu, 19 Mar 2026 14:44:47 GMT</pubDate>
+    <pubDate>Thu, 19 Mar 2026 14:55:24 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Decision-Tree Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration: Decision-Tree Knowledge Organization Identifying how to organize knowledge that’s about making choices — choosing between options, troubleshooting, diagnostic reasoning. ]]></description>
+    <pubDate>Thu, 19 Mar 2026 14:55:24 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
     <description><![CDATA[ Anti-Pattern: Perfectionism Never publishing a note because it’s “not ready” stops all progress. ]]></description>
-    <pubDate>Thu, 19 Mar 2026 06:37:52 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
     <pubDate>Thu, 19 Mar 2026 06:37:52 GMT</pubDate>
   </item>
     </channel>
