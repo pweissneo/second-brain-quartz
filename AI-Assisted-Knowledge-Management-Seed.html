@@ -821,13 +821,15 @@ When applying the test, first check if the deep path reflects a recognized domai
 <strong>Edge case:</strong> Distinct terms that seem like synonyms actually refer to different things — e.g., “sauté” vs “pan-fry” vs “stir-fry” are different techniques; “stock” vs “broth” differ by bone/meat and simmer time; “bell pepper” vs “capsicum” are regional variants of the same vegetable. The test: (1) Do the terms refer to genuinely different techniques/ingredients? (2) Are both regional variants valid and useful? If yes to either, allow both with appropriate context (e.g., note the regional variant in parentheses).
 <strong>Edge case:</strong> Technical vs common terminology — different audiences may need different terms (e.g., “fond” for experts, “brown bits” for beginners). Consider creating a definition note linking both terms.
 <strong>Edge case:</strong> Historical or classical terms — classical cuisine uses French terms (julienne, mise en place) that may need plain-language equivalents. Document both with a redirect if needed.</p>
-<p><strong>Edge case (compliance audit 2026-03-20):</strong> Lifecycle field values should use standardized terms. Acceptable values:</p>
+<p><strong>Edge case (compliance audit 2026-03-20, UPDATED 2026-03-20):</strong> Lifecycle field values should use standardized terms. Acceptable values:</p>
 <ul>
 <li><code>evergreen</code> — permanent, long-lived knowledge that remains relevant</li>
 <li><code>transient</code> — time-limited or ephemeral content</li>
 <li><code>seed-extension</code> — notes that extend Seed rules (protected status)</li>
-<li>For staging statuses, use <code>status:</code> field instead (whisper|draft|probe)</li>
-<li>Avoid: <code>active</code>, <code>living</code>, <code>emergent</code>, <code>seedling</code>, <code>perpetual-beta</code> — these are inconsistent with Seed terminology</li>
+<li><code>living</code> — continuously updated documents with review-cadence</li>
+<li><code>historical</code> — knowledge about past events or completed topics</li>
+<li><code>perpetual-beta</code> — knowledge domains that inherently resist completion</li>
+<li>For staging statuses, use <code>status:</code> field instead (whisper|draft/probe)</li>
 </ul>
 <p><strong>Rule:</strong> Run structural health checks regularly — orphan scan, broken link scan, hub distribution, oversized note scan.
 <strong>Why:</strong> Problems accumulate silently; periodic scans catch issues before they compound.
