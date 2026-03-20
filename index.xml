@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Stress Test - Decision Threshold Rule in Emergency Medicine</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Decision-Threshold-Rule-in-Emergency-Medicine</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Decision-Threshold-Rule-in-Emergency-Medicine</guid>
-    <description><![CDATA[ Stress Test: Decision Threshold Rule in Emergency Medicine Note: This stress test uses hypothetical examples from emergency medicine for illustrative purposes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:43 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Diminishing Returns Rule in Medical Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Medical-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Medical-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Medical Knowledge Base Testing the “diminishing returns” rule for note capture in medical knowledge domains. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:43 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration Hub</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration-Hub</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration-Hub</guid>
-    <description><![CDATA[ Frontier Exploration Hub Notes exploring gaps in the Seed rules — hypotheses about knowledge management that need testing. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:43 GMT</pubDate>
+    <title>git-best-practices</title>
+    <link>https://quartz.jzhao.xyz/git-best-practices</link>
+    <guid>https://quartz.jzhao.xyz/git-best-practices</guid>
+    <description><![CDATA[ Git Best Practices for Knowledge Bases Using Git properly keeps the knowledge base clean and maintainable. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Woodworking Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Woodworking-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Woodworking-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Woodworking Knowledge Bases Exploring gaps in the Seed for building a knowledge base about woodworking - a craft domain combining physical skills, tool knowledge, and material science. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:43 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Spatial Knowledge Organization</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spatial-Knowledge-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spatial-Knowledge-Organization</guid>
-    <description><![CDATA[ Frontier Exploration - Spatial Knowledge Organization How to organize knowledge about physical spaces, locations, and geographic relationships in a knowledge base. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Philosophy Knowledge and 5-1 Rule</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Philosophy-Knowledge-and-5-1-Rule</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Philosophy-Knowledge-and-5-1-Rule</guid>
-    <description><![CDATA[ Frontier Exploration: Philosophy Knowledge and 5:1 Rule The Gap The 5:1 personal-to-general knowledge ratio rule has edge cases for: Legal knowledge bases Creative skill domains (music composition, visual art, creative writing) But philosophy (and similar analytical fields like history, literary cri... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Personal Taste Calibration Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Taste-Calibration-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Taste-Calibration-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Personal Taste Calibration Knowledge How do you capture and organize knowledge about your OWN sensory preferences and aesthetic tastes in a domain — distinct from general domain knowledge or other people’s opinions? The Problem Space In domains like cooking, wine, coffee, photo... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Media Consumption and Recommendation Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Media Consumption and Recommendation Knowledge Exploring how knowledge bases should handle personal media consumption tracking, recommendations, and ranked lists. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge That Requires Active Practice to Validate</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-That-Requires-Active-Practice-to-Validate</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-That-Requires-Active-Practice-to-Validate</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge That Requires Active Practice to Validate How do you verify knowledge that cannot be assessed from reading alone — knowledge that requires the reader to actively practice to confirm its validity? The Problem The Seed provides excellent guidance on verification through... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>Tool Replacement Decisions</title>
+    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
+    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Provenance Chains</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Provenance-Chains</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Provenance-Chains</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Provenance Chains How to track the lineage of knowledge from original sources through synthesis to final notes The Problem The Seed covers source reliability and verification status as separate dimensions, but doesn’t address provenance chains — how knowledge moves fr... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 08:43:42 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 08:51:50 GMT</pubDate>
   </item>
     </channel>
   </rss>
