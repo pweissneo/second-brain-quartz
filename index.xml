@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Diminishing Returns Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</guid>
-    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule Across Domains Testing the “diminishing returns” rule for note capture across multiple domains. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 20:31:13 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Advisory Validity Tracking in Financial Planning</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</guid>
-    <description><![CDATA[ Seed Stress Test: Advisory Validity Tracking in Financial Planning Seed Rule Being Tested Rule: Add advisory validity tracking for prescriptive advice notes — include advisory-validity-period: specifying when the advice was accurate and review-trigger: for when to reassess. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 20:31:13 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - 2+ Links Rule in Music Composition</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</guid>
-    <description><![CDATA[ Seed Stress Test: 2+ Links Rule in Music Composition Testing the “every note needs at least 2 outgoing links” rule against music composition domain. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 20:31:13 GMT</pubDate>
+    <title>git-best-practices</title>
+    <link>https://quartz.jzhao.xyz/git-best-practices</link>
+    <guid>https://quartz.jzhao.xyz/git-best-practices</guid>
+    <description><![CDATA[ Git Best Practices for Knowledge Bases Using Git properly keeps the knowledge base clean and maintainable. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Fiscal Year Organization in Tax Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Fiscal Year Organization in Tax Knowledge Bases The Gap The Seed has extensive rules for temporal knowledge (staleness, obsolescence, temporal validity), but it does not address fiscal year organization — knowledge that is fundamentally organized by tax year or fiscal period r... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 20:31:13 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Spectrum and Continuum Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Spectrum and Continuum Knowledge This note explores a gap in the Seed: how to handle knowledge that exists on a spectrum or continuum rather than as discrete categories. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 20:31:13 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Diminishing Returns in Board Game Design</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</guid>
-    <description><![CDATA[ Stress Test: Diminishing Returns Rule in Board Game Design Note: This stress test uses hypothetical board game design examples for illustrative purposes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:24:09 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Frontier Gap - Regulatory and Compliance Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</guid>
-    <description><![CDATA[ Frontier Gap: Regulatory and Compliance Knowledge Building a knowledge base about consumer products, warranties, safety regulations, or compliance requirements reveals gaps in the Seed’s coverage. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Staging Rule in Cooking Domain</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</guid>
-    <description><![CDATA[ Seed Stress Test: Staging Rule in Cooking Domain Rule Tested Rule: Use explicit staging for incomplete knowledge — capture fragments, drafts, and hypotheses in marked transitional states rather than only complete notes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item><item>
-    <title>Advanced Pattern Matching</title>
-    <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
-    <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
-    <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
+    <title>Tool Replacement Decisions</title>
+    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
+    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 20:42:51 GMT</pubDate>
   </item>
     </channel>
   </rss>
