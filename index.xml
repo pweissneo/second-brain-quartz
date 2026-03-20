@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Diminishing Returns Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</guid>
-    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule Across Domains Testing the “diminishing returns” rule for note capture across multiple domains. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Advisory Validity Tracking in Financial Planning</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</guid>
-    <description><![CDATA[ Seed Stress Test: Advisory Validity Tracking in Financial Planning Seed Rule Being Tested Rule: Add advisory validity tracking for prescriptive advice notes — include advisory-validity-period: specifying when the advice was accurate and review-trigger: for when to reassess. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - 2+ Links Rule in Music Composition</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</guid>
-    <description><![CDATA[ Seed Stress Test: 2+ Links Rule in Music Composition Testing the “every note needs at least 2 outgoing links” rule against music composition domain. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Fiscal Year Organization in Tax Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Fiscal Year Organization in Tax Knowledge Bases The Gap The Seed has extensive rules for temporal knowledge (staleness, obsolescence, temporal validity), but it does not address fiscal year organization — knowledge that is fundamentally organized by tax year or fiscal period r... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Vault Merging and Migration</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Merging-and-Migration</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Merging-and-Migration</guid>
-    <description><![CDATA[ Frontier Exploration: Vault Merging and Migration The Seed provides extensive guidance for building a single vault from scratch, but says nothing about combining two existing vaults or migrating a vault to a new platform. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Spectrum and Continuum Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Spectrum and Continuum Knowledge This note explores a gap in the Seed: how to handle knowledge that exists on a spectrum or continuum rather than as discrete categories. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:21:05 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Diminishing Returns in Board Game Design</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</guid>
-    <description><![CDATA[ Stress Test: Diminishing Returns Rule in Board Game Design Note: This stress test uses hypothetical board game design examples for illustrative purposes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:24:09 GMT</pubDate>
-  </item><item>
-    <title>Frontier Gap - Regulatory and Compliance Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</guid>
-    <description><![CDATA[ Frontier Gap: Regulatory and Compliance Knowledge Building a knowledge base about consumer products, warranties, safety regulations, or compliance requirements reveals gaps in the Seed’s coverage. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Staging Rule in Cooking Domain</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</guid>
-    <description><![CDATA[ Seed Stress Test: Staging Rule in Cooking Domain Rule Tested Rule: Use explicit staging for incomplete knowledge — capture fragments, drafts, and hypotheses in marked transitional states rather than only complete notes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
-  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Atomic Note Principle</title>
+    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
+    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
+    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Claude Knowledge Base Setup</title>
+    <link>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</link>
+    <guid>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</guid>
+    <description><![CDATA[ Claude Knowledge Base Setup How to bootstrap an AI-friendly knowledge base for Claude, Codex, Gemini, and other AI agents. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Capturing AI Prompt Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? Scope: Beyond Just Prompts This note covers three related but distinct types of AI interaction knowledge: Prompt engineering — knowledge about const... ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Decision-Tree Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration: Decision-Tree Knowledge Organization Identifying how to organize knowledge that’s about making choices — choosing between options, troubleshooting, diagnostic reasoning. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Geographically-Constrained Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Geographically-Constrained Knowledge Knowledge that is only valid in specific geographic contexts — regional regulations, climate-specific practices, local customs — requires explicit handling that the Seed doesn’t currently provide as a unified rule. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Illustrative vs Factual Examples</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Illustrative-vs-Factual-Examples</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Illustrative-vs-Factual-Examples</guid>
+    <description><![CDATA[ Frontier Exploration - Illustrative vs Factual Examples How to distinguish examples that illustrate concepts from examples demonstrating real-world application. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Interlinked Note Updates</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Interlinked-Note-Updates</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Interlinked-Note-Updates</guid>
+    <description><![CDATA[ Frontier Exploration - Interlinked Note Updates The Problem When one piece of knowledge changes, it often creates a cascade of necessary updates across the vault: A hub note’s categorization changes → all spoke notes may need updating A foundational definition evolves → all notes referencing it may ... ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge That Requires Active Practice to Validate</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-That-Requires-Active-Practice-to-Validate</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-That-Requires-Active-Practice-to-Validate</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge That Requires Active Practice to Validate How do you verify knowledge that cannot be assessed from reading alone — knowledge that requires the reader to actively practice to confirm its validity? The Problem The Seed provides excellent guidance on verification through... ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Legal Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Legal Knowledge Bases This note proposes new Seed rules for legal knowledge bases. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
   </item>
     </channel>
   </rss>
