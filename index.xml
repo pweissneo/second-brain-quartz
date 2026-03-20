@@ -6,11 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Frontier Exploration - Spectrum and Continuum Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Spectrum and Continuum Knowledge This note explores a gap in the Seed: how to handle knowledge that exists on a spectrum or continuum rather than as discrete categories. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 15:25:32 GMT</pubDate>
+  </item><item>
+    <title>Frontier Gap - Regulatory and Compliance Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</guid>
+    <description><![CDATA[ Frontier Gap: Regulatory and Compliance Knowledge Building a knowledge base about consumer products, warranties, safety regulations, or compliance requirements reveals gaps in the Seed’s coverage. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
+  </item><item>
     <title>Seed Stress Test - Staging Rule in Cooking Domain</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Staging-Rule-in-Cooking-Domain</guid>
     <description><![CDATA[ Seed Stress Test: Staging Rule in Cooking Domain Rule Tested Rule: Use explicit staging for incomplete knowledge — capture fragments, drafts, and hypotheses in marked transitional states rather than only complete notes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 14:27:42 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 14:44:44 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</guid>
     <description><![CDATA[ Anti-Pattern: Over-Organization Spending more time organizing than learning wastes energy on the wrong priorities. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Perfectionism</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
-    <description><![CDATA[ Anti-Pattern: Perfectionism Never publishing a note because it’s “not ready” stops all progress. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
     <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
   </item>
     </channel>
