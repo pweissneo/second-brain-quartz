@@ -10,31 +10,37 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-Across-Domains</guid>
     <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule Across Domains Testing the “diminishing returns” rule for note capture across multiple domains. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:12:30 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 19:32:39 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Diminishing Returns in Board Game Design</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</guid>
-    <description><![CDATA[ Stress Test: Diminishing Returns Rule in Board Game Design Note: This stress test uses hypothetical board game design examples for illustrative purposes. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:12:30 GMT</pubDate>
+    <title>Seed Stress Test - Advisory Validity Tracking in Financial Planning</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</guid>
+    <description><![CDATA[ Seed Stress Test: Advisory Validity Tracking in Financial Planning Seed Rule Being Tested Rule: Add advisory validity tracking for prescriptive advice notes — include advisory-validity-period: specifying when the advice was accurate and review-trigger: for when to reassess. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 19:32:39 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - 2+ Links Rule in Music Composition</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Music-Composition</guid>
     <description><![CDATA[ Seed Stress Test: 2+ Links Rule in Music Composition Testing the “every note needs at least 2 outgoing links” rule against music composition domain. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:12:30 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 19:32:39 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Fiscal Year Organization in Tax Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Fiscal Year Organization in Tax Knowledge Bases The Gap The Seed has extensive rules for temporal knowledge (staleness, obsolescence, temporal validity), but it does not address fiscal year organization — knowledge that is fundamentally organized by tax year or fiscal period r... ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:12:30 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 19:32:39 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Spectrum and Continuum Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Spectrum-and-Continuum-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Spectrum and Continuum Knowledge This note explores a gap in the Seed: how to handle knowledge that exists on a spectrum or continuum rather than as discrete categories. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 19:12:30 GMT</pubDate>
+    <pubDate>Fri, 20 Mar 2026 19:32:39 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Diminishing Returns in Board Game Design</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Board-Game-Design</guid>
+    <description><![CDATA[ Stress Test: Diminishing Returns Rule in Board Game Design Note: This stress test uses hypothetical board game design examples for illustrative purposes. ]]></description>
+    <pubDate>Fri, 20 Mar 2026 19:24:09 GMT</pubDate>
   </item><item>
     <title>Frontier Gap - Regulatory and Compliance Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Gap---Regulatory-and-Compliance-Knowledge</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
     <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
     <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
     <pubDate>Fri, 20 Mar 2026 13:26:03 GMT</pubDate>
   </item>
     </channel>
