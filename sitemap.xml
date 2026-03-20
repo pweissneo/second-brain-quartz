@@ -102,7 +102,7 @@
     <lastmod>2026-03-12T23:38:18.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Decision-Tree-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.363Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.176Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Derived-Knowledge-Provenance</loc>
     <lastmod>2026-03-19T15:12:04.000Z</lastmod>
@@ -285,10 +285,13 @@
     <lastmod>2026-03-17T17:47:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.411Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.227Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Handling-Incorrect-or-Outdated-Knowledge</loc>
     <lastmod>2026-03-19T15:12:04.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Home-Automation-Knowledge-Bases</loc>
+    <lastmod>2026-03-20T08:35:19.229Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Humor-and-Comedy-Knowledge</loc>
     <lastmod>2026-03-18T00:55:07.000Z</lastmod>
@@ -306,7 +309,7 @@
     <lastmod>2026-03-19T03:07:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Inherent-Trade-Off-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.420Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.237Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Institutional-Knowledge</loc>
     <lastmod>2026-03-18T04:37:30.000Z</lastmod>
@@ -315,13 +318,13 @@
     <lastmod>2026-03-17T23:06:14.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Intergenerational-Knowledge-Transfer</loc>
-    <lastmod>2026-03-20T08:14:06.422Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.239Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Interlinked-Note-Updates</loc>
     <lastmod>2026-03-19T15:12:04.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Interpersonal-and-Social-Skill-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.426Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.241Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Interpretive-Knowledge</loc>
     <lastmod>2026-03-18T11:47:45.000Z</lastmod>
@@ -417,7 +420,7 @@
     <lastmod>2026-03-19T15:12:04.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Provenance-Chains</loc>
-    <lastmod>2026-03-20T08:14:06.448Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.263Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Retrieval-Patterns-and-Usage-Tracking</loc>
     <lastmod>2026-03-15T09:40:09.000Z</lastmod>
@@ -426,7 +429,7 @@
     <lastmod>2026-03-18T00:55:07.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-That-Requires-Active-Practice-to-Validate</loc>
-    <lastmod>2026-03-20T08:14:06.452Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.266Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Triage-and-Overflow-Management</loc>
     <lastmod>2026-03-19T02:38:53.000Z</lastmod>
@@ -453,7 +456,7 @@
     <lastmod>2026-03-14T20:10:35.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.459Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.274Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</loc>
     <lastmod>2026-03-16T20:46:39.000Z</lastmod>
@@ -528,10 +531,10 @@
     <lastmod>2026-03-18T15:12:07.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Taste-Calibration-Knowledge</loc>
-    <lastmod>2026-03-20T08:14:06.480Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.295Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Philosophy-Knowledge-and-5-1-Rule</loc>
-    <lastmod>2026-03-20T08:14:06.481Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.296Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Place-Specific-Verification-Knowledge</loc>
     <lastmod>2026-03-18T06:47:25.000Z</lastmod>
@@ -588,7 +591,7 @@
     <lastmod>2026-03-16T14:19:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Spatial-Knowledge-Organization</loc>
-    <lastmod>2026-03-20T08:14:06.497Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.316Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Spiritual-and-Religious-Knowledge</loc>
     <lastmod>2026-03-18T15:12:07.000Z</lastmod>
@@ -672,10 +675,10 @@
     <lastmod>2026-03-17T12:09:45.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Woodworking-Knowledge-Bases</loc>
-    <lastmod>2026-03-20T08:14:06.517Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.340Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration-Hub</loc>
-    <lastmod>2026-03-20T08:14:06.518Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.340Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Gap---Assembly-and-Kit-Based-Knowledge</loc>
     <lastmod>2026-03-19T03:07:25.000Z</lastmod>
@@ -963,7 +966,7 @@
     <lastmod>2026-03-18T15:12:07.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-Rule-in-Medical-Knowledge-Base</loc>
-    <lastmod>2026-03-20T08:14:06.557Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.386Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Diminishing-Returns-in-Cooking</loc>
     <lastmod>2026-03-17T06:38:48.000Z</lastmod>
@@ -1113,7 +1116,7 @@
     <lastmod>2026-03-12T23:38:18.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Stress-Test---Decision-Threshold-Rule-in-Emergency-Medicine</loc>
-    <lastmod>2026-03-20T08:14:06.584Z</lastmod>
+    <lastmod>2026-03-20T08:35:19.412Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Stress-Test---Diminishing-Returns-Experiential-Domains-Refinement</loc>
     <lastmod>2026-03-16T12:25:40.000Z</lastmod>
