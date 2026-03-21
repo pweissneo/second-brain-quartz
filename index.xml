@@ -6,17 +6,29 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Knowledge Access Pattern Optimization</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Access Pattern Optimization How should knowledge be organized differently when the SAME knowledge will be used for different purposes? The Problem The Seed covers how to structure knowledge (atomicity, linking, navigation) and how to maintain it (quality, staleness, v... ]]></description>
-    <pubDate>Sat, 21 Mar 2026 14:03:47 GMT</pubDate>
-  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
+    <pubDate>Sat, 21 Mar 2026 14:15:56 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Access Pattern Optimization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Access Pattern Optimization How should knowledge be organized differently when the SAME knowledge will be used for different purposes? The Problem The Seed covers how to structure knowledge (atomicity, linking, navigation) and how to maintain it (quality, staleness, v... ]]></description>
+    <pubDate>Sat, 21 Mar 2026 14:15:56 GMT</pubDate>
+  </item><item>
+    <title>Graph Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Graph-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Graph-Maintenance</guid>
+    <description><![CDATA[ Graph Maintenance Regular maintenance keeps the knowledge base healthy and navigable. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 14:15:56 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Fitness Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Fitness-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Fitness-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Diminishing Returns Rule in Fitness Knowledge Base Testing the “diminishing returns” rule for note capture in fitness/exercise domains. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 14:15:56 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Context-Gated Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Gated-Knowledge</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Retrieval-Patterns-and-Usage-Tracking</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Retrieval-Patterns-and-Usage-Tracking</guid>
     <description><![CDATA[ DEPRECATED: Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking This note has been merged into Frontier Exploration - Knowledge Base Utility Assessment. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Meta-Knowledge About Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</guid>
-    <description><![CDATA[ Frontier Exploration - Meta-Knowledge: Capturing Knowledge About Knowledge Management The Gap The Seed provides extensive rules for capturing domain knowledge but lacks guidance on capturing knowledge about the knowledge management process itself. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Personal Health Metrics and Body Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Health-Metrics-and-Body-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Personal-Health-Metrics-and-Body-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Personal Health Metrics and Body Knowledge How do you capture and organize knowledge about your own body’s patterns, health metrics, and wellness data — distinct from general medical knowledge or clinical guidance? The Problem Space There’s a specific type of knowledge that exi... ]]></description>
     <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
   </item>
     </channel>
