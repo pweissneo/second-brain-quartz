@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Stress Test - 2+ Links Rule in Genealogy</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Genealogy</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---2+-Links-Rule-in-Genealogy</guid>
+    <description><![CDATA[ Seed Stress Test: 2+ Links Rule in Genealogy Tested Rule: Every note must link to at least 2 other notes OR be tagged with foundational: true OR be tagged with specialized: true. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 00:32:48 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Music Knowledge Type Distinctions</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Music-Knowledge-Type-Distinctions</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Music-Knowledge-Type-Distinctions</guid>
     <description><![CDATA[ Frontier Exploration: Music Knowledge Type Distinctions Distinguishing performance knowledge, analytical knowledge, and compositional knowledge in music theory knowledge bases. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 00:22:54 GMT</pubDate>
+    <pubDate>Sat, 21 Mar 2026 00:32:48 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
     <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
     <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
-    <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
-  </item><item>
-    <title>Claude Knowledge Base Setup</title>
-    <link>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</link>
-    <guid>https://quartz.jzhao.xyz/Claude-Knowledge-Base-Setup</guid>
-    <description><![CDATA[ Claude Knowledge Base Setup How to bootstrap an AI-friendly knowledge base for Claude, Codex, Gemini, and other AI agents. ]]></description>
     <pubDate>Fri, 20 Mar 2026 21:56:36 GMT</pubDate>
   </item>
     </channel>
