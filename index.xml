@@ -6,17 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Gap - Education and Pedagogy Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Education-and-Pedagogy-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Education-and-Pedagogy-Knowledge-Bases</guid>
+    <description><![CDATA[ Seed Gap - Education and Pedagogy Knowledge Bases Does the Seed adequately address the unique needs of education and pedagogy knowledge bases? The Question Education knowledge bases serve fundamentally different purposes than typical personal knowledge bases: Teaching others (creating lessons, curri... ]]></description>
+    <pubDate>Sat, 21 Mar 2026 16:43:51 GMT</pubDate>
+  </item><item>
     <title>Frontier Exploration - Note Completion Criteria</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Note-Completion-Criteria</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Note-Completion-Criteria</guid>
     <description><![CDATA[ Frontier Exploration: Note Completion Criteria When is a note “done”? The Seed addresses when to STOP adding new notes to a topic, but lacks guidance on when an individual note itself is complete. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 15:39:32 GMT</pubDate>
+    <pubDate>Sat, 21 Mar 2026 16:43:51 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Embodied and Sensory Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Sensory-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Sensory-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Embodied and Sensory Knowledge Knowledge that requires physical experience, sensation, or bodily awareness to truly understand — cannot be fully captured in text. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 15:39:32 GMT</pubDate>
+    <pubDate>Sat, 21 Mar 2026 16:43:51 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</guid>
     <description><![CDATA[ Frontier Exploration - Exploration-Exploitation Transition Triggers When should an AI agent stop adding new topics and start deepening existing ones? The Gap The Seed provides a ratio-based guideline: Balance exploration (adding new topics) and exploitation (deepening existing ones) based on vault m... ]]></description>
-    <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Base Schema Design</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Schema Design The Seed tells us WHAT to capture in notes but not HOW to design the note structure itself. ]]></description>
     <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
   </item>
     </channel>
