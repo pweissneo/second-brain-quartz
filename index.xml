@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Stress Test - Link Density Rule in Coffee Brewing</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Link-Density-Rule-in-Coffee-Brewing</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Link-Density-Rule-in-Coffee-Brewing</guid>
+    <description><![CDATA[ Seed Stress Test: Link Density Rule in Coffee Brewing Domain Seed Rule Being Tested Rule: Every note must link to at least 2 other notes OR be tagged with foundational: true OR be tagged with specialized: true. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 05:52:46 GMT</pubDate>
+  </item><item>
     <title>CLAUDE</title>
     <link>https://quartz.jzhao.xyz/CLAUDE</link>
     <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
     <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
     <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge — and letting it transform who you are. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 04:25:15 GMT</pubDate>
-  </item><item>
-    <title>_root</title>
-    <link>https://quartz.jzhao.xyz/_root</link>
-    <guid>https://quartz.jzhao.xyz/_root</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
     <pubDate>Sat, 21 Mar 2026 04:25:15 GMT</pubDate>
   </item>
     </channel>
