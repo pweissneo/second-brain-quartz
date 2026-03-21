@@ -10,7 +10,13 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Note-Completion-Criteria</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Note-Completion-Criteria</guid>
     <description><![CDATA[ Frontier Exploration: Note Completion Criteria When is a note “done”? The Seed addresses when to STOP adding new notes to a topic, but lacks guidance on when an individual note itself is complete. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 15:06:00 GMT</pubDate>
+    <pubDate>Sat, 21 Mar 2026 15:26:41 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Embodied and Sensory Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Sensory-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Embodied-and-Sensory-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Embodied and Sensory Knowledge Knowledge that requires physical experience, sensation, or bodily awareness to truly understand — cannot be fully captured in text. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 15:26:40 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Schema-Design</guid>
     <description><![CDATA[ Frontier Exploration - Knowledge Base Schema Design The Seed tells us WHAT to capture in notes but not HOW to design the note structure itself. ]]></description>
-    <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Base Utility Assessment</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Utility-Assessment</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Utility-Assessment</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Utility Assessment How do we know if a knowledge base is actually valuable — beyond just being well-structured? The Problem The Seed includes extensive rules for: Structural health (orphan detection, link density, hub distribution) Quality maintenance (terminolo... ]]></description>
     <pubDate>Sat, 21 Mar 2026 13:56:56 GMT</pubDate>
   </item>
     </channel>
