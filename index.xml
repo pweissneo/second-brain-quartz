@@ -6,17 +6,29 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Stress Test - Note Atomicity in Legal Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Atomicity-in-Legal-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Atomicity-in-Legal-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Note Atomicity Rule in Legal Knowledge Base Testing the Seed rule “Notes should be atomic: one idea per note” against the legal knowledge domain. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 15:17:23 GMT</pubDate>
+  </item><item>
     <title>Seed Stress Test - Gap Identification Rule in Cooking</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Gap-Identification-Rule-in-Cooking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Gap-Identification-Rule-in-Cooking</guid>
     <description><![CDATA[ Seed Stress Test: Gap Identification Rule in Cooking Tested Rule: Systematically identify knowledge gaps and prioritize filling them — use prerequisite audits, retrieval failure tracking, graph topology analysis, and contested topic scans. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 14:54:09 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 15:17:23 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Personal Finance Budgeting Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Personal-Finance-Budgeting-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Personal-Finance-Budgeting-Knowledge</guid>
+    <description><![CDATA[ Seed Gap: Personal Finance Budgeting Knowledge This note proposes new Seed rules for handling personal finance budgeting and expense tracking knowledge — knowledge about managing personal cash flow, spending patterns, and financial goals. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 15:17:23 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Sensitivity and Responsible Capture</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Sensitivity-and-Responsible-Capture</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Sensitivity-and-Responsible-Capture</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Sensitivity and Responsible Capture How to handle knowledge that could cause harm if mishandled, misused, or misunderstood. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 14:54:09 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 15:17:23 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Intergenerational-Knowledge-Transfer</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Intergenerational-Knowledge-Transfer</guid>
     <description><![CDATA[ Frontier Exploration: Intergenerational Knowledge Transfer The Gap The Seed handles many domains, but lacks guidance for vaults focused on capturing knowledge from older generations — family histories, cultural traditions, elder wisdom, and oral knowledge that would otherwise be lost. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 14:10:43 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Provenance Chains</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Provenance-Chains</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Provenance-Chains</guid>
-    <description><![CDATA[  last-reviewed: 2026-03-22 lifecycle: draft confidence: emerging verification-status: unverified author-type: ai-assisted derived-from-vault: true synthesis-type: principle-extraction synthesis-method: Analysis of Seed rules and vault patterns to document provenance requirements derived-date: 2026-0... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 14:10:43 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Synthesis Quality</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Synthesis-Quality</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Synthesis-Quality</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Synthesis Quality Assessment When combining multiple sources or notes into a new insight, how do we assess whether the synthesis produces genuine value rather than just averaging or diluting the original knowledge? The Problem The Seed has rules for: Deriving knowledg... ]]></description>
     <pubDate>Sun, 22 Mar 2026 14:10:43 GMT</pubDate>
   </item>
     </channel>
