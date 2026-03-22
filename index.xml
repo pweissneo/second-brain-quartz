@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Heartbeat-Audit-2026-03-22</title>
+    <link>https://quartz.jzhao.xyz/Heartbeat-Audit-2026-03-22</link>
+    <guid>https://quartz.jzhao.xyz/Heartbeat-Audit-2026-03-22</guid>
+    <description><![CDATA[ Heartbeat Audit: 2026-03-22 Method: COMPLIANCE_AUDIT Picked random note for full compliance audit against Seed rules. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 02:54:08 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Access-Pattern-Optimization</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Access Pattern Optimization How should knowledge be organized differently when the SAME knowledge will be used for different purposes? The Problem The Seed covers how to structure knowledge (atomicity, linking, navigation) and how to maintain it (quality, staleness, v... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 01:15:48 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Knowledge Base Version Control and Change Tracking</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Version-Control-and-Change-Tracking</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Base Version Control and Change Tracking How should a knowledge base track changes, handle branching, and manage evolution over time? The Problem The Seed focuses on capturing and structuring knowledge, but says little about: How to track changes to notes over time H... ]]></description>
     <pubDate>Sun, 22 Mar 2026 01:15:48 GMT</pubDate>
   </item>
     </channel>
