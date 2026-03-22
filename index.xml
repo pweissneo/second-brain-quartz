@@ -6,6 +6,24 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>REDUNDANCY_SCAN_2026-03-22</title>
+    <link>https://quartz.jzhao.xyz/REDUNDANCY_SCAN_2026-03-22</link>
+    <guid>https://quartz.jzhao.xyz/REDUNDANCY_SCAN_2026-03-22</guid>
+    <description><![CDATA[ Redundancy Scan Results — March 22, 2026 This note documents redundancy findings from the periodic scan. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 21:11:50 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Decision Framework Selection Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Decision Framework Selection Knowledge How should a knowledge base structure knowledge about choosing between different decision-making approaches? The Problem The Seed covers: Thinking tools and metacognitive strategies Framework-dependent knowledge (different frameworks prod... ]]></description>
+    <pubDate>Sun, 22 Mar 2026 21:11:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</guid>
+    <description><![CDATA[ Frontier Exploration - Cross-Domain Knowledge Synthesis This note explores a gap in the current Seed: how to handle knowledge that exists at the intersection of multiple domains where different Seed rules may apply. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 21:11:49 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -46,24 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Geographically-Constrained Knowledge Knowledge that is only valid in specific geographic contexts — regional regulations, climate-specific practices, local customs — requires explicit handling that the Seed doesn’t currently provide as a unified rule. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Home Automation Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Home-Automation-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Home-Automation-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Home Automation Knowledge Bases How to capture and organize knowledge about home automation systems, IoT devices, and smart home infrastructure. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Inherent Trade-Off Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Inherent-Trade-Off-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Inherent-Trade-Off-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Inherent Trade-Off Knowledge How do you organize knowledge where choosing one path inherently means accepting another? The Problem Some knowledge describes inherent trade-offs — situations where there is no “right” answer because the options are genuinely in tension: Speed vs. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Interpersonal and Social Skill Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Interpersonal-and-Social-Skill-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Interpersonal-and-Social-Skill-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Interpersonal and Social Skill Knowledge The Gap The Seed covers many domains but lacks explicit guidance for interpersonal and social skill knowledge — knowledge about navigating relationships, negotiations, conflict resolution, and community dynamics. ]]></description>
     <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
   </item>
     </channel>
