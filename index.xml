@@ -10,31 +10,37 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Medical-Domain</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Medical-Domain</guid>
     <description><![CDATA[ Seed Stress Test: Knowledge Source Type Rule in Medical Domain Does the Rule Make Sense for This Domain? Yes, strongly. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 22:52:03 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Multi-Representation Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Representation-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Representation-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Multi-Representation Knowledge How does the Seed handle domains where the same knowledge legitimately has multiple simultaneous valid representations? The Problem The Seed assumes each piece of knowledge has a single canonical form - one note = one idea. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 22:52:02 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Option Value</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Option-Value</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Option-Value</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Option Value How to handle knowledge that has uncertain, potential, or future utility — the “option value” problem in knowledge capture. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Decision Framework Selection Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Decision Framework Selection Knowledge How should a knowledge base structure knowledge about choosing between different decision-making approaches? The Problem The Seed covers: Thinking tools and metacognitive strategies Framework-dependent knowledge (different frameworks prod... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 22:52:02 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</guid>
     <description><![CDATA[ Frontier Exploration - Cross-Domain Knowledge Synthesis This note explores a gap in the current Seed: how to handle knowledge that exists at the intersection of multiple domains where different Seed rules may apply. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 22:52:02 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - AI-Synthesized Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - AI-Synthesized Knowledge How to handle knowledge that AI agents create by synthesizing multiple sources into novel insights. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 22:52:02 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 23:43:33 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Expertise-Level-Dependent-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Expertise-Level Dependent Knowledge How should a knowledge base handle knowledge that is true/valid at one expertise level but false at another? The Problem Some knowledge is expertise-level dependent: Programming: “Don’t use recursion” — good advice for beginners, bad advice ... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Fashion and Clothing Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Fashion-and-Clothing-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration: Fashion and Clothing Knowledge Bases Testing Seed rules against fashion and clothing — a domain combining technical construction knowledge, aesthetic judgment, cultural context, and personal expression. ]]></description>
     <pubDate>Sun, 22 Mar 2026 19:44:47 GMT</pubDate>
   </item>
     </channel>
