@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Error and Debugging Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration - Error and Debugging Knowledge Capture This note explores a gap in the current Seed rules: how to systematically capture error knowledge, debugging experiences, and mistake lessons. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 06:55:32 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Cryptocurrency and Web3 Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cryptocurrency-and-Web3-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cryptocurrency-and-Web3-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Cryptocurrency and Web3 Knowledge Bases How to organize knowledge about cryptocurrency, blockchain protocols, and Web3 technologies where knowledge expires rapidly, versions diverge significantly, and tribal knowledge conflicts are common. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 06:55:32 GMT</pubDate>
+    <title>Frontier Exploration - Compound Context Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Compound-Context-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Compound-Context-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Compound Context Knowledge Knowledge that depends on multiple interdependent conditions being true simultaneously — distinct from single-condition or context-gated knowledge. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:24:02 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>CLAUDE</title>
-    <link>https://quartz.jzhao.xyz/CLAUDE</link>
-    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - API and External Service Dependencies</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
+    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Gap Identification and Prioritization</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Gap-Identification-and-Prioritization</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Gap-Identification-and-Prioritization</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Gap Identification and Prioritization The Seed provides extensive guidance on managing existing knowledge — when to merge, split, verify, deprecate. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - Cryptocurrency and Web3 Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cryptocurrency-and-Web3-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cryptocurrency-and-Web3-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Cryptocurrency and Web3 Knowledge Bases How to organize knowledge about cryptocurrency, blockchain protocols, and Web3 technologies where knowledge expires rapidly, versions diverge significantly, and tribal knowledge conflicts are common. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Sensory Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration - Sensory Knowledge Capture How do you capture knowledge about taste, smell, texture, and other sensory experiences in a knowledge base? The Problem Some knowledge domains are fundamentally sensory: Cooking — taste, texture, aroma, mouthfeel Wine/coffee — flavor profiles, aroma ... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - Error and Debugging Knowledge Capture</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</guid>
+    <description><![CDATA[ Frontier Exploration - Error and Debugging Knowledge Capture This note explores a gap in the current Seed rules: how to systematically capture error knowledge, debugging experiences, and mistake lessons. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Fiscal Year Organization in Tax Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Fiscal-Year-Organization-in-Tax-Knowledge-Bases</guid>
-    <description><![CDATA[ Seed Gap: Fiscal Year Organization in Tax Knowledge Bases The Gap The Seed has extensive rules for temporal knowledge (staleness, obsolescence, temporal validity), but it does not address fiscal year organization — knowledge that is fundamentally organized by tax year or fiscal period rather than ca... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Base Utility Assessment</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Utility-Assessment</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Utility-Assessment</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Base Utility Assessment How do we know if a knowledge base is actually valuable — beyond just being well-structured? The Problem The Seed includes extensive rules for: Structural health (orphan detection, link density, hub distribution) Quality maintenance (terminolo... ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Craft Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Craft-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Craft-Knowledge-Bases</guid>
-    <description><![CDATA[ Seed Stress Test: Craft Knowledge Bases Testing Seed rules against craft domains — cooking and brewing — which combine procedural knowledge, scientific principles, and sensory evaluation. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - Legal Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Legal-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Legal Knowledge Bases This note proposes new Seed rules for legal knowledge bases. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Note Naming in Photography</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Naming-in-Photography</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Naming-in-Photography</guid>
-    <description><![CDATA[ Seed Stress Test: Note Naming Rule in Photography This note tests the Use consistent note naming rule against the photography domain. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Exploration - Meta-Knowledge About Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</guid>
+    <description><![CDATA[ Frontier Exploration - Meta-Knowledge: Capturing Knowledge About Knowledge Management The Gap The Seed provides extensive rules for capturing domain knowledge but lacks guidance on capturing knowledge about the knowledge management process itself. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Veterinary Medicine Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Veterinary-Medicine-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Veterinary-Medicine-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test - Veterinary Medicine Knowledge Base Testing Seed rules in veterinary medicine reveals unique challenges around tacit knowledge, multi-modal diagnosis, species variation, and verification constraints. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 05:55:38 GMT</pubDate>
+    <title>Frontier Gap - Embodied Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</guid>
+    <description><![CDATA[ Frontier Gap: Embodied and Tacit Knowledge in Knowledge Bases Knowledge of “how to do X” differs fundamentally from the ability to actually do X. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
+  </item><item>
+    <title>Handling Contradictory Sources</title>
+    <link>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</link>
+    <guid>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</guid>
+    <description><![CDATA[ Handling Contradictory Sources When multiple credible sources disagree, how should an AI agent capture and organize the disagreement? The Problem The Seed requires citing sources, but assumes sources agree. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item>
     </channel>
   </rss>
