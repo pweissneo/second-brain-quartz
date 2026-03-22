@@ -6,17 +6,41 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Error Knowledge Capture in Programming</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Error-Knowledge-Capture-in-Programming</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Error-Knowledge-Capture-in-Programming</guid>
-    <description><![CDATA[ Seed Stress Test: Error Knowledge Capture in Programming Testing the error knowledge capture rule against programming/developer experience — a domain where error documentation is critical but challenging. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 09:23:41 GMT</pubDate>
-  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Video Game Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Video-Game-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Video-Game-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration: Video Game Knowledge Bases How would an AI agent build a knowledge base about video games using only the current Seed rules? Where would it get stuck? Domain Overview Video game knowledge bases face unique challenges that differ significantly from other domains: Version-depende... ]]></description>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Compound Context Rule in Cooking</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Compound-Context-Rule-in-Cooking</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Compound-Context-Rule-in-Cooking</guid>
+    <description><![CDATA[ Seed Stress Test: Compound Context Rule in Cooking Testing the compound context knowledge rule in the cooking domain — where many “rules” depend on multiple simultaneous conditions. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Error Knowledge Capture in Programming</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Error-Knowledge-Capture-in-Programming</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Error-Knowledge-Capture-in-Programming</guid>
+    <description><![CDATA[ Seed Stress Test: Error Knowledge Capture in Programming Testing the error knowledge capture rule against programming/developer experience — a domain where error documentation is critical but challenging. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
+  </item><item>
+    <title>Stress Test - Source Quality Hierarchy in Medical Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Stress-Test---Source-Quality-Hierarchy-in-Medical-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Stress-Test---Source-Quality-Hierarchy-in-Medical-Knowledge</guid>
+    <description><![CDATA[ Stress Test: Source Quality Hierarchy in Medical Knowledge Note: This stress test uses hypothetical medical domain examples for illustrative purposes. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
+  </item><item>
+    <title>Systems Over Goals</title>
+    <link>https://quartz.jzhao.xyz/Systems-Over-Goals</link>
+    <guid>https://quartz.jzhao.xyz/Systems-Over-Goals</guid>
+    <description><![CDATA[ Systems Over Goals for AI-Managed Knowledge Bases Build sustainable automated capture and processing systems rather than chasing outcome-based goals. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 09:40:28 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Climate-Zone-Dependent Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Climate-Zone-Dependent-Knowledge</link>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Geographically-Constrained Knowledge Knowledge that is only valid in specific geographic contexts — regional regulations, climate-specific practices, local customs — requires explicit handling that the Seed doesn’t currently provide as a unified rule. ]]></description>
     <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Tacit Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration - Tacit Knowledge Capture How do you capture knowledge that experts possess but cannot explicitly articulate? The Problem The Seed assumes knowledge can be captured as explicit statements: rules, principles, procedures, definitions. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - 5-1 Ratio Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-Across-Domains</guid>
-    <description><![CDATA[ Seed Stress Test: 5:1 Personal-to-General Ratio Across Multiple Domains Testing the “5:1 personal-to-general knowledge ratio” rule across multiple domains to identify domain-specific adaptations. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Stress Test - Knowledge-Type Rule in Investing</title>
-    <link>https://quartz.jzhao.xyz/Stress-Test---Knowledge-Type-Rule-in-Investing</link>
-    <guid>https://quartz.jzhao.xyz/Stress-Test---Knowledge-Type-Rule-in-Investing</guid>
-    <description><![CDATA[ Stress Test: Knowledge-Type Tagging Rule in Investing Domain Investing / Finance Knowledge Bases Seed Rule Under Test Rule: For domains where authoritative knowledge coexists with personal analysis, tag notes with knowledge-type: canonical|analysis|personal to distinguish established consensus from ... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - API and External Service Dependencies</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---API-and-External-Service-Dependencies</guid>
-    <description><![CDATA[ Frontier Exploration - API and External Service Dependencies The Gap The Seed covers: Software version dependencies — which software version knowledge applies to (version:, eol-estimate) Physical equipment dependencies — what tools are required to execute knowledge But it does NOT cover: External se... ]]></description>
-    <pubDate>Sun, 22 Mar 2026 07:16:10 GMT</pubDate>
   </item>
     </channel>
   </rss>
