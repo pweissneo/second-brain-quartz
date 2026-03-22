@@ -6,6 +6,18 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Gap - Sensory Evaluation Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Sensory-Evaluation-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Sensory-Evaluation-Knowledge</guid>
+    <description><![CDATA[ Seed Gap: Sensory Evaluation Knowledge This note proposes new Seed rules for handling sensory evaluation knowledge — knowledge that depends on taste, smell, sight, sound, and touch to assess quality, characteristics, or value. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 12:38:06 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Sensory Evaluation Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Evaluation-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Evaluation-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Sensory Evaluation Knowledge This note explores how the Seed applies to knowledge that depends on sensory evaluation — taste, smell, sight, sound, and touch. ]]></description>
+    <pubDate>Sun, 22 Mar 2026 12:38:06 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Compound-Context-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Compound-Context-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Compound Context Knowledge Knowledge that depends on multiple interdependent conditions being true simultaneously — distinct from single-condition or context-gated knowledge. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Error and Debugging Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Error-and-Debugging-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration - Error and Debugging Knowledge Capture This note explores a gap in the current Seed rules: how to systematically capture error knowledge, debugging experiences, and mistake lessons. ]]></description>
-    <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Geographically-Constrained Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Geographically-Constrained Knowledge Knowledge that is only valid in specific geographic contexts — regional regulations, climate-specific practices, local customs — requires explicit handling that the Seed doesn’t currently provide as a unified rule. ]]></description>
     <pubDate>Sun, 22 Mar 2026 08:46:38 GMT</pubDate>
   </item>
     </channel>
