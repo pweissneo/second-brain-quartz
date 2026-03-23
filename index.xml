@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Medical-Domain</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Medical-Domain</guid>
     <description><![CDATA[ Seed Stress Test: Knowledge Source Type Rule in Medical Domain Does the Rule Make Sense for This Domain? Yes, strongly. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Language Learning Knowledge Bases</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Language-Learning-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Language-Learning-Knowledge-Bases</guid>
     <description><![CDATA[ Seed Gap: Language Learning Knowledge Bases The Problem The Seed has edge cases for “sequential-skill domains” (language learning, music, mathematics, programming) but these rules focus on construction-phase modifications. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Equipment Tier Field</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Equipment-Tier-Field</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Equipment-Tier-Field</guid>
     <description><![CDATA[ Seed Gap: Equipment Tier Field for Workshop-Dependent Domains Date: 2026-03-23 Discovery Method: SEED_STRESS_TEST (woodworking domain) Gap Identified The Seed’s infrastructure rule (lines 158-175) handles infrastructure-dependent domains (home automation, networking, IoT, energy systems) but lacks s... ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Version-Upgrade Path Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Version-Upgrade-Path-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Version-Upgrade-Path-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Version-Upgrade Path Knowledge Knowledge about HOW to upgrade from one version to another, not just THAT a new version exists. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - User Feedback Integration</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---User-Feedback-Integration</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---User-Feedback-Integration</guid>
     <description><![CDATA[ Frontier Exploration: User Feedback Integration in Knowledge Bases The Gap The Seed has comprehensive rules for: Verification (checking if knowledge is correct) Gap identification (finding what’s missing) Contradiction resolution (handling conflicting information) Construction phases (building the v... ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Multi-Representation Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Representation-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Representation-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Multi-Representation Knowledge How does the Seed handle domains where the same knowledge legitimately has multiple simultaneous valid representations? The Problem The Seed assumes each piece of knowledge has a single canonical form - one note = one idea. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Option Value</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Option-Value</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Option-Value</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Option Value How to handle knowledge that has uncertain, potential, or future utility — the “option value” problem in knowledge capture. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Decision Framework Selection Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Decision Framework Selection Knowledge How should a knowledge base structure knowledge about choosing between different decision-making approaches? The Problem The Seed covers: Thinking tools and metacognitive strategies Framework-dependent knowledge (different frameworks prod... ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</guid>
     <description><![CDATA[ Frontier Exploration - Cross-Domain Knowledge Synthesis This note explores a gap in the current Seed: how to handle knowledge that exists at the intersection of multiple domains where different Seed rules may apply. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - AI-Synthesized Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - AI-Synthesized Knowledge How to handle knowledge that AI agents create by synthesizing multiple sources into novel insights. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 06:51:49 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 07:06:15 GMT</pubDate>
   </item>
     </channel>
   </rss>
