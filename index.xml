@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Gap - Recurring and Periodic Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Recurring-and-Periodic-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Recurring-and-Periodic-Knowledge</guid>
+    <description><![CDATA[ Seed Gap: Recurring and Periodic Knowledge Knowledge about events, deadlines, and cycles that repeat on predictable schedules requires different handling than static knowledge or time-sensitive data. ]]></description>
+    <pubDate>Mon, 23 Mar 2026 22:24:52 GMT</pubDate>
+  </item><item>
     <title>Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---General-Evidence-Hierarchy-for-Non-Domain-Specific-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---General-Evidence-Hierarchy-for-Non-Domain-Specific-Knowledge</guid>
     <description><![CDATA[ Seed Gap: General Evidence Hierarchy for Non-Domain-Specific Knowledge Identifying the missing framework for evidence weighting in general-purpose knowledge bases. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 21:51:58 GMT</pubDate>
+    <pubDate>Mon, 23 Mar 2026 22:24:52 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -59,12 +65,6 @@
     <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
     <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
     <pubDate>Mon, 23 Mar 2026 17:11:25 GMT</pubDate>
-  </item><item>
-    <title>Advanced Pattern Matching</title>
-    <link>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</link>
-    <guid>https://quartz.jzhao.xyz/Advanced-Pattern-Matching</guid>
-    <description><![CDATA[ Advanced Pattern Matching Using graph analysis to detect structural patterns and health issues in knowledge bases. ]]></description>
-    <pubDate>Mon, 23 Mar 2026 13:27:42 GMT</pubDate>
   </item>
     </channel>
   </rss>
