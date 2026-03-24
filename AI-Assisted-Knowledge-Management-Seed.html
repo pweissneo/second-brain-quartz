@@ -305,6 +305,17 @@ Every rule is domain-agnostic — works for any topic.</p>
 <strong>Test:</strong> Count notes with verification-status: unverified. Divide by total note count. Is it &lt;30%? If above 40%, do not add new notes until verification catches up.
 <strong>Edge case:</strong> Domain-critical knowledge (safety procedures, legal requirements) may warrant exemption — tag with criticality: high to allow exception.
 <strong>Edge case:</strong> Staging notes (whisper/draft/probe) don’t count toward unverified — they have explicit uncertainty markers.</p>
+<p><strong>Edge case (NEW - 2026-03-24):</strong> In domains requiring empirical validation (game design, UX testing, user experience, teaching effectiveness), source verification is insufficient. Knowledge like “this mechanic is fun” or “this difficulty curve works” cannot be verified by checking sources — only by direct user testing. Apply empirical validation criteria:</p>
+<ul>
+<li>Source quality matters less than testing evidence</li>
+<li>Confidence should be tied to user testing results, not source credibility</li>
+<li>Add <code>validation-mode: empirical</code> for notes requiring direct testing to verify</li>
+<li>Track empirical evidence separately: <code>empirical-evidence: playtest | user-testing | field-validation | practical-application</code></li>
+<li>Test: Can you identify what empirical evidence would confirm or refute this knowledge?</li>
+</ul>
+<p><strong>Rule:</strong> Distinguish empirically validatable knowledge from source-verifiable knowledge — apply different verification criteria for each.
+<strong>Why:</strong> Knowledge that requires direct user experience to validate (game mechanics “fun”, UX “intuitive”, teaching “effective”) follows different quality rules than factual knowledge. Applying source-verification rules creates false confidence or false doubt. Empirical knowledge needs testing evidence, not source quality.
+<strong>Test:</strong> For knowledge claims about user experience, fun, difficulty, or intuition: (1) Is this empirically testable? (2) Has it been tested with actual users? (3) Is confidence tied to testing evidence rather than source quality?</p>
 <p><strong>Rule:</strong> Handle incorrect or outdated knowledge explicitly — when discovering knowledge is wrong, mark rather than silently delete.
 <strong>Why:</strong> Wrong knowledge contains valuable context: why you believed it, what source led you astray, what you learned from the correction. Deleting loses this meta-knowledge. Marking preserves the learning while preventing the vault from spreading incorrect information.
 <strong>Test:</strong> Can you trace how each incorrect note was handled? Does each have correction metadata (correction-type, correction-date, corrected-by)?
