@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Verification Status</title>
-    <link>https://quartz.jzhao.xyz/Verification-Status</link>
-    <guid>https://quartz.jzhao.xyz/Verification-Status</guid>
-    <description><![CDATA[ Verification Status How to track whether knowledge has been verified. Note: This page explains the verification-status frontmatter field. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Seed Stress Test - Knowledge Modality Rule in Cooking</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Modality-Rule-in-Cooking</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Modality-Rule-in-Cooking</guid>
+    <description><![CDATA[ Seed Stress Test: Knowledge Modality Rule in Cooking Date: 2026-03-24 Domain: Cooking Rule Tested: For domains with distinct knowledge modalities, tag notes with knowledge-modality: to distinguish use cases. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 14:21:48 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Flat File Rule Legal Domain</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Flat-File-Rule-Legal-Domain</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Flat-File-Rule-Legal-Domain</guid>
-    <description><![CDATA[ Seed Stress Test: Flat File Structure Rule (Legal Domain) Rule Under Test Source: AI-Assisted Knowledge Management Seed.md Use flat file structure with wikilinks — no nested folders. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Seed Stress Test - Board Game Design Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Board-Game-Design-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Board-Game-Design-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Board Game Design Knowledge Base Date: 2026-03-24 Domain: Board Game Design Method: SEED_STRESS_TEST Rule Under Test Rule: Apply diminishing returns testing before adding notes — skip if note fails 2+ of: utility, connection, uniqueness, effort. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 14:21:47 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Confidence Markers in Cooking</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Confidence-Markers-in-Cooking</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Confidence-Markers-in-Cooking</guid>
-    <description><![CDATA[ Seed Stress Test: Confidence Markers in Cooking Stress testing the confidence marker rule against the cooking domain reveals a gap in how confidence is interpreted for experiential knowledge. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Frontier Exploration - Medical and Health Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Medical-and-Health-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Medical-and-Health-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - Medical and Health Knowledge Bases The Gap The Seed includes rules for infrastructure-dependent domains (home automation, networking), workshop-dependent craft domains (woodworking, metalworking), and jurisdiction-dependent knowledge (legal, financial). ]]></description>
+    <pubDate>Tue, 24 Mar 2026 14:21:47 GMT</pubDate>
   </item><item>
-    <title>Seed Rule Proposal - Stress Test Integration</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Stress-Test-Integration</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Stress-Test-Integration</guid>
-    <description><![CDATA[ Seed Rule Proposal: Stress Test Integration When stress tests reveal that a Seed rule is incomplete or unenforceable, the refined version should be merged back into the Seed itself — not remain as a disconnected stress test note. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Recurring and Periodic Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Recurring-and-Periodic-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Recurring-and-Periodic-Knowledge</guid>
-    <description><![CDATA[ Seed Gap: Recurring, Cyclical, and Deadline-Driven Knowledge Knowledge about events, deadlines, and cycles that repeat on predictable schedules requires different handling than static knowledge or time-sensitive data. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management How AI enhances each stage of the knowledge management pipeline. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---General-Evidence-Hierarchy-for-Non-Domain-Specific-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---General-Evidence-Hierarchy-for-Non-Domain-Specific-Knowledge</guid>
-    <description><![CDATA[ Seed Gap: General Evidence Hierarchy for Non-Domain-Specific Knowledge Identifying the missing framework for evidence weighting in general-purpose knowledge bases. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Atomic Note Principle</title>
+    <link>https://quartz.jzhao.xyz/Atomic-Note-Principle</link>
+    <guid>https://quartz.jzhao.xyz/Atomic-Note-Principle</guid>
+    <description><![CDATA[ Atomic Note Principle A note must be atomic — it contains exactly one single idea. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - When a Note Has Become Obsolete</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---When-a-Note-Has-Become-Obsolete</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---When-a-Note-Has-Become-Obsolete</guid>
-    <description><![CDATA[ Frontier Exploration - When a Note Has Become Obsolete This note explores when and how knowledge notes become obsolete in AI-managed knowledge bases. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>CLAUDE</title>
+    <link>https://quartz.jzhao.xyz/CLAUDE</link>
+    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Systematic Knowledge Exclusion Criteria</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Systematic-Knowledge-Exclusion-Criteria</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Systematic-Knowledge-Exclusion-Criteria</guid>
-    <description><![CDATA[ Frontier Exploration - Systematic Knowledge Exclusion Criteria What knowledge should be explicitly excluded from a knowledge base, and why? The Gap The Seed contains extensive guidance on: What to capture (priority signals, diminishing returns, 5:1 ratio) How to structure notes (atomicity, linking, ... ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Confidence Markers</title>
+    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
+    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
+    <description><![CDATA[ Confidence Markers How to signal certainty levels in knowledge notes. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Ongoing Knowledge Maintenance Decisions</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Ongoing-Knowledge-Maintenance-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Ongoing-Knowledge-Maintenance-Decisions</guid>
-    <description><![CDATA[ Frontier Exploration: Ongoing Knowledge Maintenance Decisions The Gap The Seed covers: Handling incorrect/outdated knowledge (correction workflow) Deprecation and obsolescence Version-upgrade paths (moving from v1 to v2) Temporal knowledge (time-stamped facts) Expiring knowledge (becomes false after... ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Frontier Exploration - AI Model Version Dependencies in Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - AI Model Version Dependencies in Knowledge Bases How to handle knowledge that depends on specific AI models or versions — and what happens when models change. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Memorization vs. Retrieval Strategy in Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Memorization-vs.-Retrieval-Strategy-in-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Memorization-vs.-Retrieval-Strategy-in-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Memorization vs. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 12:33:16 GMT</pubDate>
+    <title>Frontier Exploration - AI Vault Construction Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</guid>
+    <description><![CDATA[ Frontier Exploration - AI Vault Construction Decision Framework How AI agents should make structural decisions when building knowledge bases from scratch The Problem The Seed provides extensive guidance on: How to structure individual notes (atomicity, size, formatting) How to link notes together (m... ]]></description>
+    <pubDate>Tue, 24 Mar 2026 13:27:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
