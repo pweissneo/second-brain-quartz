@@ -10,31 +10,37 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Practice-Meta-Knowledge-in-Cooking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Practice-Meta-Knowledge-in-Cooking</guid>
     <description><![CDATA[ Seed Stress Test - Practice Meta-Knowledge in Cooking Stress testing the “separate practice meta-knowledge” rule against a cooking knowledge base. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 21:35:30 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Knowledge Source Type Rule in Cooking</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Cooking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Cooking</guid>
     <description><![CDATA[ Seed Stress Test: Knowledge Source Type Rule in Cooking Testing the “Knowledge Source Type” rule in cooking domain. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 21:35:30 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Home Automation Knowledge Base</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Automation-Knowledge-Base</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Automation-Knowledge-Base</guid>
+    <description><![CDATA[ Seed Stress Test: Home Automation Knowledge Base Testing Seed rules against the home automation domain to identify edge cases and gaps. ]]></description>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
   </item><item>
     <title>Seed Rule - Vault Change Tracking</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule---Vault-Change-Tracking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule---Vault-Change-Tracking</guid>
     <description><![CDATA[ Seed Rule: Vault Change Tracking and Version Control Rule: Track note changes with attribution and distinguish significant edits from minor updates. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 21:35:30 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Practice Routine Structure</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Practice-Routine-Structure</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Practice-Routine-Structure</guid>
     <description><![CDATA[ Seed Gap - Practice Routine Structure for Skill-Building Domains The Gap The Seed covers separating practice meta-knowledge from skill knowledge, but lacks guidance for structuring practice routines themselves — how to organize a deliberate practice session for skill-building domains. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 21:35:30 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cyclical Timing Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Cyclical Timing Knowledge Knowledge about optimal timing within recurring cycles — not when events occur, but when actions are most effective within a time period. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 21:35:30 GMT</pubDate>
+    <pubDate>Tue, 24 Mar 2026 21:41:40 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://quartz.jzhao.xyz/AGENTS</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Board-Game-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Board Game Knowledge Bases Notes on capturing knowledge about strategy games, board games, and tabletop gaming. ]]></description>
-    <pubDate>Tue, 24 Mar 2026 18:22:09 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Domain-Specific Communication Styles and Norms</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Specific-Communication-Styles-and-Norms</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Specific-Communication-Styles-and-Norms</guid>
-    <description><![CDATA[ Frontier Exploration: Domain-Specific Communication Styles and Norms The Gap The Seed covers how to structure knowledge (atomicity, linking, navigation) and how to verify it (verification-status, evidence-tier, source-type). ]]></description>
     <pubDate>Tue, 24 Mar 2026 18:22:09 GMT</pubDate>
   </item>
     </channel>
