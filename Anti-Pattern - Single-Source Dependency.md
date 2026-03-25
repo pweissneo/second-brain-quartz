@@ -4,10 +4,12 @@ last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+verification-status: verified
 tags:
   - anti-pattern
   - quality
   - sourcing
+level: pattern
 ---
 
 # Anti-Pattern: Single-Source Dependency

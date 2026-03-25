@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -99,7 +99,7 @@ That's only 2-3 links, but Stoicism is a major school that SHOULD be a hub.
 
 **Seed Test:** Does the note appropriately mark confidence?
 
-**Resolution:** Philosophy notes should default to `confidence: low` unless marking established historical consensus positions. Add explicit `consensus-level:` frontmatter:
+**Resolution:** Philosophy notes should default to `confidence: emerging` unless marking established historical consensus positions. Add explicit `consensus-level:` frontmatter:
 - `consensus-level: universal` — nearly uncontested (e.g., modus ponens validity)
 - `consensus-level: mainstream` — dominant position in contemporary debate
 - `consensus-level: minority` — serious but contested view

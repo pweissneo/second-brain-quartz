@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-17
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 tags:
   - frontier-exploration
   - knowledge-presentation

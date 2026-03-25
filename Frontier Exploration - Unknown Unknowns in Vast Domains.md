@@ -1,11 +1,11 @@
 ---
 last-reviewed: 2026-03-16
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 status: draft
 review-by: 2026-03-23
-knowledge-type: frontier-exploration
+level: frontier-exploration
 tags:
   - frontier-exploration
   - unknown-unknowns
@@ -86,5 +86,5 @@ This is a stub note for a planned exploration — the approaches above are preli
 
 - [[Frontier Exploration - Building Knowledge Bases in Unfamiliar Domains]] — Parent exploration
 - [[AI-Assisted Knowledge Management Seed]] — Seed rules on knowledge gaps
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] — Finding gaps through retrieval patterns
+- [[Frontier Exploration - Knowledge Base Utility Assessment]] — Finding gaps through retrieval patterns
 - [[Confidence Markers]] — Prioritizing what needs attention (merged from Knowledge Attention Signals)

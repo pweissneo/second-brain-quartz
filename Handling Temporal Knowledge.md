@@ -21,11 +21,11 @@ Knowledge that changes over time requires different treatment than static knowle
 ### Temporal Knowledge
 Some knowledge is inherently time-bound:
 - Current events and news
-- Market data (stock prices, crypto rates)
+- Population and demographic data
 - Weather forecasts
 - Sports scores and standings
 - Technology versions and releases
-- Population statistics
+- Market statistics (updated quarterly)
 
 The Seed's normal rules assume knowledge is relatively static. But temporal knowledge needs special handling.
 
@@ -98,21 +98,21 @@ Tesla Price Data.md         ← Dynamic: current price (with date)
 
 Instead of embedding the value:
 ```markdown
-# Tesla Stock Price
+# City Population Data
 
-As of March 9, 2026, TSLA was trading at $XXX.
+As of 2024, Tokyo had approximately 37 million residents.
 
-See Stock Price API for current data.
+See World Population API for current data.
 ```
 
 ### Strategy 3: Link to Live Sources
 
 For rapidly changing data, don't capture — link:
 ```markdown
-# Current Market Data
+# Current Weather Data
 
-- S&P 500: [TradingView](https://tradingview.com/spx)
-- Bitcoin: [CoinGecko](https://coingecko.com)
+- Temperature: [Weather Service](https://weather.example.com)
+- Air Quality: [AQICN](https://aqicn.org)
 ```
 
 ### Strategy 4: Temporal Metadata
@@ -140,8 +140,8 @@ For historical tracking:
 |--------|-------------|---------------|
 | Weather | Weather Patterns, Climate Zones | "Today's forecast" → link to service |
 | Technology | Python Programming, React Framework | "Python 3.14 Release Notes" (with date) |
-| Finance | Investment Strategies, Risk Management | "Current Interest Rates" → link to Fed |
-| News | Political Systems, Economic Theories | "2026 Election Results" → archive link |
+| Sports | Team Histories, Scoring Rules | "Current Standings" → link to sports API |
+| Statistics | Statistical Methods, Survey Design | "2026 Population Data" → link to census |
 
 ---
 
@@ -200,7 +200,7 @@ Per [[Graph Maintenance]]:
 *Content integrated from frontier exploration on temporally stale knowledge*
 
 ### 1. Time-Sensitive Data
-- Specific values that change rapidly (stock prices, weather)
+- Specific values that change rapidly (sports scores, weather)
 - Solution: Separate from knowledge, link to live sources
 
 ### 2. Disproven/Superseded
@@ -505,6 +505,7 @@ Given a note about an old scientific theory:
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time
+- [[Frontier Exploration - Real-Time API-Dependent Knowledge]] — Live API verification and freshness tracking for external service dependencies
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Related: covers cyclic evaluation and decision-making processes
 - [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Related: temporal knowledge often involves multiple modalities
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships

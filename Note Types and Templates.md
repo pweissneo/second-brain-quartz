@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-19
 lifecycle: evergreen
 confidence: high
 tags:
@@ -8,7 +8,7 @@ tags:
   - structure
 author-type: ai-assisted
 level: pattern
-verification-status: community-validated
+verification-status: verified
 decision-relevance: structure-creation
 thinking-tool: true
 thinking-tool-type: cognitive-strategy
@@ -85,7 +85,7 @@ Standardized formats ensure consistency and capture all needed fields.
 ---
 tags:
   - note
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 last-reviewed: YYYY-MM-DD
 author-type: ai-assisted
@@ -159,7 +159,7 @@ Entry point for [topic area].
 tags:
   - project
   - [domain]
-lifecycle: active
+lifecycle: evergreen
 last-reviewed: YYYY-MM-DD
 activation-state: captured
 author-type: ai-assisted
@@ -229,7 +229,7 @@ LIST FROM #note WHERE date > date(today - 7 days)
 tags:
   - daily-note
 date: YYYY-MM-DD
-lifecycle: active
+lifecycle: evergreen
 ---
 
 # Daily Notes - {{Month DD, YYYY}}

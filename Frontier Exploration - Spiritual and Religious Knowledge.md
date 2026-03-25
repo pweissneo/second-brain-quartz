@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -135,7 +135,7 @@ source-authority: sacred-text|recognized-teacher|tradition-body|scholarly
 **Implementation**:
 ```yaml
 knowledge-type: doctrinal|interpretive|experiential|philosophical
-confidence: high|medium|low|subjective
+confidence: emerging
 ```
 
 ### Rule: Apply appropriate confidence to religious knowledge
@@ -146,7 +146,7 @@ confidence: high|medium|low|subjective
 
 **Implementation**:
 ```yaml
-confidence: high|medium|low|subjective
+confidence: emerging
 confidence-basis: tradition-authority|scholarly|personal|empirical
 ```
 

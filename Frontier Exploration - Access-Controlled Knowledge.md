@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -9,6 +9,7 @@ tags:
   - paywall
   - subscription
   - source-quality
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - Access-Controlled Knowledge
@@ -98,5 +99,15 @@ An AI building a knowledge base on a topic like "advanced cooking techniques" us
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
 - [[Handling Temporal Knowledge]] — Related to keeping sources accessible
 - [[Frontier Exploration - API and External Service Dependencies]] — Related but about functionality, not content
-- [[Frontier Exploration - Knowledge Debt]] — Access loss creates debt
+- [[Frontier Exploration - Knowledge Maintenance]] — Access loss creates debt
 - [[Frontier Exploration - Journalism and Investigative Research Knowledge Bases]] — Source verification in journalism involves confidential sources
+- [[Frontier Exploration - Knowledge Without Sources]] — Related to handling sources that can't be verified
+- [[Handling Contradictory Sources]] — Related to verification challenges
+
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does this note have `access-requirements` frontmatter for access-controlled sources?
+- [ ] Are access requirements documented with type, service, URL, and verification date?
+- [ ] Does the note distinguish access-tier from source-quality?
+- [ ] Can you identify which sources in the vault are access-controlled?
+- [ ] Are there guidelines for capturing vs. linking to paywalled content?

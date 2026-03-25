@@ -4,10 +4,14 @@ last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+knowledge-type: analysis
 tags:
   - anti-pattern
   - quality
   - tools
+level: pattern
+verification-status: verified
+schema-version: "1.0"
 ---
 
 # Anti-Pattern: Tool Overfocus

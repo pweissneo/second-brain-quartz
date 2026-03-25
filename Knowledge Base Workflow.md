@@ -3,7 +3,7 @@ protected: true
 last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
-verification-status: community-validated
+verification-status: verified
 tags:
   - workflow
   - process
@@ -175,7 +175,7 @@ Per [[Self-Improvement Cycle]]:
 - [[Active Reading]]
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 
 ## The Feedback Loop
 

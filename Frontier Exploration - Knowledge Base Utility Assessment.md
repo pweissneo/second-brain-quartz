@@ -153,6 +153,37 @@ Beyond structure, notice:
 - Is knowledge being shared externally?
 - Do new notes naturally connect to existing ones?
 
+## Implementation Approaches
+
+### Simple: Manual Retrieval Log
+
+Maintain a note `Retrieval Log.md`:
+```
+- Query: "how to configure nginx reverse proxy"
+  - Found: [[Nginx Configuration]]
+  - Sufficient: partial
+  - Action: expand nginx note
+  
+- Query: "python async best practices"
+  - Found: nothing
+  - Gap: create note
+```
+
+### Advanced: Automated Logging
+
+Use scripts to log:
+- Search queries via grep/wc
+- File access timestamps
+- Query-result mapping
+- Weekly retrieval reports
+
+### Integration: AI-Powered Analysis
+
+Use AI to analyze retrieval logs:
+- Cluster queries by topic
+- Identify patterns (always search X but never note Y)
+- Suggest capture priorities based on query clusters
+
 ## The Rule Gap
 
 The Seed has no rule for:
@@ -178,10 +209,17 @@ This extends the Self-Improvement section:
 
 ---
 
+## Consolidation Note
+
+> **Note (2026-03-25):** This note supersedes [[Frontier Exploration - Vault Success Measurement]]. The Vault Success Measurement note covered similar ground (measuring knowledge base value beyond structural health) but was less mature (seed-extension lifecycle, emerging confidence, unverified). Content from that note (value attribution, comparative baseline metrics) has been integrated here. The Vault Success Measurement note has been deprecated in favor of this more complete treatment.
+
+---
+
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
-- [[Frontier Exploration - Knowledge Debt]]
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] (content integrated from utility tracking exploration)
+- [[Frontier Exploration - Knowledge Maintenance]]
+- [[Frontier Exploration - Vault Success Measurement]]
+- (content from [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] integrated here - note deleted)

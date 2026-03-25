@@ -1,9 +1,10 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 verification-status: unverified
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - emergency

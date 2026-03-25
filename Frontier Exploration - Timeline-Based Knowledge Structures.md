@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: emerging
-confidence: low
+lifecycle: evergreen
+confidence: emerging
+verification-status: unverified
 author-type: ai-assisted
+schema-version: "1.0"
 domain-familiarity: learning
 tags:
   - frontier-exploration
@@ -26,7 +28,7 @@ When time IS the primary organizing principle, standard Seed rules about hubs, a
 
 ## The Problem
 
-An AI building a knowledge base about "my career history" or "project X iterations" using only current Seed rules would:
+An AI building a knowledge base about "career history" or "project iterations" using only current Seed rules would:
 
 1. **Default to topic organization** — Try to create hub notes for roles/projects, missing that chronological context is primary
 2. **Over-link chronologically** — Every note in a timeline connects to neighbors, inflating links without adding value
@@ -42,11 +44,10 @@ An AI building a knowledge base about "my career history" or "project X iteratio
 
 ## Related Seed Rules
 
-- [[Knowledge Timelessness]] — distinguishes ephemeral/time-sensitive/static
-- [[Deadline-Driven Knowledge]] — date-specific knowledge with consequences
-- [[Decay Functions]] — time-sensitive knowledge review triggers
+- [[AI-Assisted Knowledge Management Seed]] — covers decay functions and temporal knowledge
+- [[Seed Gap - Recurring and Periodic Knowledge]] — consolidated guidance on recurring, cyclical, and deadline-driven knowledge
 
 ## See Also
 
 - [[Frontier Exploration - Condition-Triggered Knowledge]] — related but different (conditions vs time)
-- [[Project-Based Knowledge Organization]] — timeline-adjacent but purpose-driven
+- [[Frontier Exploration - Ephemeral and Event-Based Knowledge]] — related temporal pattern

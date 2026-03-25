@@ -1,14 +1,19 @@
 ---
-last-reviewed: 2026-03-17
+last-reviewed: 2026-03-21
+last-updated: 2026-03-21
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+verification-status: verified
+schema-version: "1.1"
 thinking-tool: true
 thinking-tool-type: cognitive-strategy
 tags:
   - learning
   - mindset
   - identity
+  - knowledge-creation
+  - workflow
 ---
 
 # The Ownership Mindset
@@ -69,6 +74,25 @@ A knowledge identity shows up in concrete actions:
 - Don't just regurgitate
 - Build on others' ideas
 
+## The Creation Pipeline
+
+> **See [[The Knowledge Creator]] for the full pipeline details.**
+> 
+> The core framework: Input → Process → Create → Share
+> 
+> Ownership means completing all four stages rather than stopping at consumption.
+
+## Why Create?
+
+Taking ownership leads to tangible benefits:
+
+1. **Deeper learning** - Teaching forces synthesis
+2. **Reputation** - Build credibility through demonstrated knowledge
+3. **Impact** - Help others accelerate their learning
+4. **Income** - Monetize specialized knowledge
+
+**Test:** Can you point to one concrete benefit you've received from creating knowledge?
+
 ## How the Seed Enables This
 
 The Seed rules create the infrastructure for ownership and identity:
@@ -114,8 +138,8 @@ In an AI-assisted knowledge base, ownership means:
 An AI can generate notes, but only you can provide the personal context that makes them valuable.
 
 ## Related
-- [[The Knowledge Creator]]
 - [[The Knowledge Portfolio]]
+- [[The Knowledge Creator]] — The full creation pipeline (Input → Process → Create → Share)
 - [[Writing as Thinking]]
 - [[The Last Skill]]
 - [[The Extended Mind]] - The cognitive basis for externalized thinking
@@ -123,3 +147,5 @@ An AI can generate notes, but only you can provide the personal context that mak
 - [[Note Insertion Strategy]] - Apply ownership to note creation
 - [[Knowledge Base Workflow]]
 - [[Self-Improvement Cycle]]
+- [[Knowledge Sharing]] — The sharing phase specifically
+- [[Progressive Summarization]] — Processing technique for condensing notes

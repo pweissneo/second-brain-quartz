@@ -3,7 +3,7 @@ last-reviewed: 2026-03-17
 last-updated: 2026-03-17
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 verification-status: unverified
 tags:
   - frontier-exploration
@@ -188,7 +188,7 @@ An AI agent building a cooking KB across languages faces these decisions:
 
 **See also:**
 - [[Frontier Exploration - Jargon vs Plain Language]] — Related to language complexity
-- [[Seed Stress Test - Construction Phase Model in Language Learning]] — Language learning specifics
+- [[Seed Stress Test - Construction Phase Model in Music Composition]] — Sequential skill domain adaptations (includes language learning)
 - [[Frontier Exploration - Comparative Knowledge Structures]] — Cross-language comparison
 
 **Test pending:** This rule needs testing in an actual multi-language vault to validate the relationship types and tagging scheme.

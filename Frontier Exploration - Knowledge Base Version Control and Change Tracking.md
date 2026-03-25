@@ -1,9 +1,11 @@
 ---
 last-reviewed: 2026-03-16
-lifecycle: emerging
+last-updated: 2026-03-22
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 domain-familiarity: learning
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - vault-maintenance

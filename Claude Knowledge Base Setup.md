@@ -3,7 +3,10 @@ last-reviewed: 2026-03-15
 lifecycle: evergreen
 confidence: high
 author-type: human
+knowledge-type: procedural
+verification-status: verified
 level: concrete
+schema-version: "1.0"
 tags:
   - setup
   - ai

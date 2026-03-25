@@ -3,7 +3,7 @@ last-reviewed: 2026-03-16
 last-updated: 2026-03-16
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 applicability: universal
 tags:
   - frontier-exploration
@@ -40,7 +40,7 @@ The Seed already contains comprehensive guidance on vault growth velocity:
 
 2. **Verification Ceiling Rule**: "When unverified notes exceed 40% of total vault, pause exploration and prioritize verification until ratio drops below 30%."
 
-3. **Knowledge Debt Tracking** (from [[Frontier Exploration - Knowledge Debt]]): Composite score formula tracking verification debt, staleness debt, decay debt, redundancy debt, and noise debt.
+3. **Knowledge Debt Tracking** (from [[Frontier Exploration - Knowledge Maintenance]]): Composite score formula tracking verification debt, staleness debt, decay debt, redundancy debt, and noise debt.
 
 4. **Overflow Recovery**: "When in overflow: (1) Do you allocate fixed time to recovery? (2) Is capture paused during recovery? (3) Do you have a target ratio before resuming?"
 
@@ -61,7 +61,7 @@ While the Seed covers most velocity concerns, these questions remain:
 ## Related Concepts
 
 - [[AI-Assisted Knowledge Management Seed]] — contains verification ratio and velocity rules
-- [[Frontier Exploration - Knowledge Debt]] — addresses accumulated unverified knowledge (Frontier Exploration note, not a Seed rule)
+- [[Frontier Exploration - Knowledge Maintenance]] — addresses accumulated unverified knowledge (Frontier Exploration note, not a Seed rule)
 - [[Note Lifecycle Management]] — covers note aging and staleness (principle note, not a Seed rule)
 
 ## Next Steps (Genuine Gaps)

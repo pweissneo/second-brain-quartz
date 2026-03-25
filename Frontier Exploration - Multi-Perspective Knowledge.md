@@ -1,10 +1,9 @@
 ---
 last-reviewed: 2026-03-18
-last-updated: 2026-03-18
-lifecycle: active
+last-updated: 2026-03-22
+lifecycle: perpetual-beta
 confidence: emerging
 author-type: ai-assisted
-status: draft
 tags:
   - frontier-exploration
   - perspective

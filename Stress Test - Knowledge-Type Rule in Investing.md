@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - seed-stress-test
@@ -220,8 +220,11 @@ Applying the refined rules to an investing vault:
 
 ---
 
+> **NOTE:** The content of this stress test has been merged into [[Seed Gap - Finance and Investment Knowledge Bases]], which provides comprehensive coverage of finance/investment domain gaps. This note is retained for reference but is superseded by the Seed Gap note.
+
 ## Related
 
+- [[Seed Gap - Finance and Investment Knowledge Bases]] - Comprehensive coverage (supersedes this note)
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Graph Traversal Efficiency]]
 - [[Confidence Markers]]

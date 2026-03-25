@@ -1,8 +1,14 @@
 ---
 last-reviewed: 2026-03-18
+last-updated: 2026-03-21
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+tags:
+  - seed-stress-test
+  - veterinary-medicine
+  - domain-specific
+  - multi-modal-knowledge
 ---
 
 # Seed Stress Test - Veterinary Medicine Knowledge Base
@@ -172,7 +178,7 @@ drug-concentration-safe: "10mg/kg max"
 
 **Proposed Modification:**
 ```yaml
-confidence: high  # But with explicit caveats:
+confidence: high
 uncertainty-factors:
   - "Differential diagnosis not fully ruled out"
   - "Depends on owner compliance at home"

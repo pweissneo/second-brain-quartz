@@ -5,8 +5,10 @@ tags:
   - workflow
 confidence: high
 lifecycle: evergreen
+verification-status: verified
 level: principle
 author-type: ai-assisted
+knowledge-type: analysis
 ---
 
 # Forward References and Planned Knowledge

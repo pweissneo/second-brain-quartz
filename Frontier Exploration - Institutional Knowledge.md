@@ -1,8 +1,7 @@
 ---
-lifecycle: active
 last-reviewed: 2026-03-13
+lifecycle: evergreen
 confidence: emerging
-knowledge-type: frontier-exploration
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -49,7 +48,7 @@ Institutional knowledge is:
 - [[Frontier Exploration - Personal Relationship Knowledge]] — knowledge about specific people
 - [[Frontier Gap - Embodied Knowledge]] — unwritten, experiential knowledge
 - [[Handling Temporal Knowledge]] — temporal aspects of institutional knowledge
-- [[Frontier Exploration - Knowledge Debt]] — Maintenance and debt tracking
+- [[Frontier Exploration - Knowledge Maintenance]] — Maintenance and debt tracking
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — What to include/exclude
 - [[Self-Improvement Cycle]] — Continuous improvement
 - [[Frontier Exploration - Multi-Vault Architecture]] — Separate vaults for different organizations

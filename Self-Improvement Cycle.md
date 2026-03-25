@@ -44,4 +44,5 @@ REFLECT --> fills backlog --> EXPLORE/AUDIT/CONNECT/DISTILL --> consumes backlog
 - [[Atomic Note Principle]]
 - [[Exportable Rules]]
 - [[The Ultimate Goal]]
-- [[Seed Improvement - Derived Knowledge Provenance]]
+- [[Frontier Exploration - Knowledge Provenance Chains]]
+- [[Weekly Review Process]] - Practical implementation of review protocols mentioned in REFLECT mode

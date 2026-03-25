@@ -1,40 +1,81 @@
 ---
-last-reviewed: 2026-03-17
-lifecycle: deprecated
+last-reviewed: 2026-03-25
+last-updated: 2026-03-25
+lifecycle: seed-extension
 confidence: high
 author-type: ai-assisted
-level: principle
-redirects-to: [[AI-Assisted Knowledge Management Seed]]
+schema-version: "1.0"
+foundational: true
 tags:
-  - seed-extension
   - metadata
   - confidence
-  - deprecated
+  - verification
 ---
 
-# DEPRECATED: Confidence Markers
+# Confidence Markers and Verification Status
 
-> ⚠️ **This note is deprecated.** The content has been integrated into the [[AI-Assisted Knowledge Management Seed]]. All confidence, attention priority, decay rate, and calibration rules are now in the Seed itself.
-> 
-> This note is kept for historical reference only. Please use the Seed for all confidence-related rules.
+> How to signal certainty levels and verification state in knowledge notes.
 
-## Summary
+Knowledge quality requires two complementary metadata dimensions: how certain the knowledge is (confidence) and whether it's been verified (verification status).
 
-The Seed now includes all concepts previously in this note:
+## Part 1: Confidence Markers
 
-| Concept | Frontmatter Field |
-|---------|-------------------|
-| Confidence markers | `confidence: high \| emerging \| disputed \| obsolete` |
-| Attention priority | `attention-priority: critical \| high \| medium \| low` |
-| Decay rate | `decay-rate: static \| time-sensitive \| event-triggered` |
-| Calibration status | `calibration-status: pre-calibrated \| calibrated-yes \| calibrated-no \| calibrated-uncertain` |
+Confidence markers help readers (and AI agents) assess how certain the knowledge is. They enable appropriate skepticism and guide verification effort.
 
-## Migration
+### Frontmatter Field
 
-All notes using these frontmatter fields should continue to work. The Seed provides the canonical definitions and usage guidelines.
+```yaml
+confidence: high
+```
+
+### Levels
+
+- **high**: Well-verified, multiple sources, strong evidence
+- **emerging**: Some verification, reasonable confidence, but not fully established
+- **disputed**: Known contradictions or unresolved debates about this knowledge
+- **obsolete**: Knowledge that was previously correct but is now outdated or superseded
+
+### Usage
+
+Add `confidence:` to frontmatter for any note where certainty matters. Default to `emerging` when uncertain.
+
+## Part 2: Verification Status
+
+Verification status tracks whether knowledge has been checked for accuracy.
+
+### Frontmatter Field
+
+```yaml
+verification-status: unverified|verified|pending|disputed
+```
+
+### Values
+
+- **unverified**: Captured but not yet verified
+- **verified**: Checked and confirmed accurate
+- **pending**: Awaiting verification
+- **disputed**: Known contradiction or unresolved conflict
+
+### Verification Ratio
+
+The Seed requires maintaining a verification ratio:
+> A healthy vault verifies at least 50% of new captures within 30 days.
+
+When unverified notes exceed 40% of total vault, pause exploration and prioritize verification.
+
+## When to Use Which
+
+| Scenario | Confidence | Verification Status |
+|----------|------------|---------------------|
+| Personal experience, not yet fact-checked | emerging | unverified |
+| Multiple reputable sources confirm | high | verified |
+| Known controversy in field | disputed | disputed |
+| Old information that may be outdated | emerging or obsolete | pending review |
+
+## Related Concepts
+
+This note connects to [[Note Types and Templates]], [[Knowledge Graph Structure]], [[Atomic Note Principle]], and [[Note Lifecycle Management]] for how confidence and verification fit into note design.
 
 ## Related
-
-- [[AI-Assisted Knowledge Management Seed]] — Canonical source for all confidence rules
-- [[Handling Contradictory Sources]] — Using confidence markers when sources disagree
-- [[Note Lifecycle Management]] — Note stages and progression
+- [[Graph Maintenance]] — Regular health checks
+- [[Self-Improvement Cycle]] — Review and improvement workflow

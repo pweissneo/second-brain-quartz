@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-14
 last-updated: 2026-03-18
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 schema-version: "2026-03"

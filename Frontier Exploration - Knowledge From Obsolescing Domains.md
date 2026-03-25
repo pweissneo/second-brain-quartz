@@ -1,13 +1,16 @@
 ---
 last-reviewed: 2026-03-14
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - domain-agnostic
   - knowledge-evolution
   - tacit-knowledge
+level: frontier
+verification-status: unverified
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - Knowledge From Obsolescing Domains

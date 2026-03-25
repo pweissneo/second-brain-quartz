@@ -2,8 +2,8 @@
 last-reviewed: 2026-03-16
 last-updated: 2026-03-16
 confidence: emerging
-knowledge-type: frontier
-lifecycle: active
+level: frontier
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-gap

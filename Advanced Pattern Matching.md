@@ -4,6 +4,9 @@ last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
+knowledge-type: procedural
+verification-status: verified
 tags:
   - graph-analysis
   - vault-health

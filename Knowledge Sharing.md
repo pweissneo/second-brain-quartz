@@ -65,5 +65,5 @@ Benefits of sharing:
 - [[Writing as Thinking]]
 - [[Knowledge Base Workflow]]
 - [[Active Reading]]
-- [[The Knowledge Creator]]
+- [[The Ownership Mindset]]
 - [[The Innovation Engine]]

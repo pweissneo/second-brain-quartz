@@ -1,9 +1,11 @@
 ---
 last-reviewed: 2026-03-19
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+schema-version: "1.0"
+level: frontier
 tags:
   - seed-stress-test
   - astronomy-domain

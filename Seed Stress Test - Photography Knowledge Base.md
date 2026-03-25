@@ -1,9 +1,10 @@
 ---
-last-reviewed: 2026-03-16
-lifecycle: active
+last-reviewed: 2026-03-22
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+schema-version: "2026-01"
 tags:
   - seed-stress-test
   - photography-domain
@@ -109,7 +110,7 @@ The diminishing returns test works for technical knowledge but fails for aesthet
 ### Equipment-Specific Verification
 **Problem:** A technique that works on Canon cameras may not work identically on Sony. "Tested on Canon EOS R5" is different from "tested universally."
 
-**Test:** Should verification-status include equipment scope? Example: `verification-status: tested`, `equipment-test: ["Canon R5", "Sony A7IV"]`
+**Test:** Should verification-status include equipment scope? Example: `verification-status: verified`, `equipment-test: ["Canon R5", "Sony A7IV"]`
 
 ---
 

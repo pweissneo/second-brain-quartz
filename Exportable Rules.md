@@ -46,7 +46,7 @@ Each note contains exactly **one single idea**. ~100-300 words.
 Different notes serve different functions:
 - **Atomic Notes** - Single idea, building blocks
 - **Hub Notes (MOC)** - Notes for navigation
-- **Structure Notes** - System documentation
+- **Structure Notes** - System documentation (see [[Schema.md]])
 - **Project Notes** - Time-bound, outcome-focused
 - **Reference Notes** - External source storage
 

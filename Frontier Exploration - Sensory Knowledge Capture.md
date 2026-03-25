@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -89,4 +89,11 @@ Sensory knowledge is:
 
 - [[Frontier Gap - Embodied Knowledge]] — General framework
 - [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Media separation
-- [[Confidence Markers]] — Reliability signaling
+- [[Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
+
+## Limitations
+
+- **Domain specificity**: Sensory scales are highly domain-specific; a universal framework may not be achievable
+- **Cultural bias**: Reference standards (e.g., food examples) may not translate across cultures
+- **Subjectivity inherent**: Even with scales, sensory experience remains subjective — these frameworks improve consistency but don't eliminate variation
+- **Verification challenge**: Sensory knowledge is experiential and difficult to verify through traditional source-checking

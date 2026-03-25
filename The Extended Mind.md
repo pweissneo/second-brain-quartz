@@ -143,4 +143,4 @@ Your second brain is the foundation. The network amplifies it.
 - [[Self-Improvement Cycle]]
 - [[The Last Skill]]
 - [[Weekly Review Process]]
-- [[The Knowledge Creator]]
+- [[The Ownership Mindset]]

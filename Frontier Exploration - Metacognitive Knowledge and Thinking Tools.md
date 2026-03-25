@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 thinking-tool: true

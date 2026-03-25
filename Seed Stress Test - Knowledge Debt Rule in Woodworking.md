@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-19
 last-updated: 2026-03-19
 lifecycle: evergreen
-confidence: medium
+confidence: emerging
 author-type: ai-assisted
 ---
 
@@ -87,12 +87,13 @@ Track `equipment-model:` in frontmatter. When equipment changes, flag related no
 
 ## Related Seed Rules
 - [[AI-Assisted Knowledge Management Seed]] — The Knowledge Debt rule under test
+- [[Seed Stress Test - Verification Ratio Rule in Woodworking]] — Overlapping content on verification timing for craft domains (covers similar edge cases)
 - [[Knowledge Base Workflow]] — Verification and maintenance workflows
 - [[Note Lifecycle Management]] — Note aging and staleness tracking
-- [[Seed Stress Test - Knowledge Debt Rule in Cooking]] — Similar domain stress test
-- [[Seed Stress Test - Knowledge Debt Rule in Music Performance]] — Another craft domain test
+- [[Seed Stress Test - Staging Rule in Cooking Domain]] — Similar domain stress test
+- [[Seed Stress Test - Construction Phase Model in Music Composition]] — Another craft domain test
 - [[Frontier Exploration - Infrastructure-Dependent Knowledge]] — Tool-specific knowledge patterns
 
 ## Related Domain Notes
 - [[Frontier Exploration - Amateur Astronomy Knowledge Bases]] — Long-horizon verification similar issues
-- [[Seed Stress Test - Note Lifecycle Rule Across Domains]] — Lifecycle tracking across domains
+- [[Stress Test - Note Lifecycle Rule Across Domains]] — Lifecycle tracking across domains

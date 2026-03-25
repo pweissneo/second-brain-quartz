@@ -1,8 +1,9 @@
 ---
 last-reviewed: 2026-03-19
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - knowledge-boundaries
@@ -115,7 +116,7 @@ implies:
 This pizza uses non-traditional methods (truffle oil, unusual toppings) 
 that would not be found in authentic Italian cuisine.
 
-Related: [[Authentic Italian Pizza Standards]] | [[Pizza Fusion Approaches]]
+Related: (example concepts — not actual notes)
 ```
 
 ## Test
@@ -145,7 +146,7 @@ Can you categorize each correctly? Do they have appropriate metadata?
 
 - [[Atomic Note Principle]] — atomicity applies to negative-space notes
 - [[Frontier Exploration - Context-Gated Knowledge]] — related: applicability boundaries
-- [[Frontier Exploration - Exception Handling]] — related: exceptions to rules
+- [[Frontier Exploration - Edge Case and Exception Knowledge Organization]] — related: exceptions to rules
 - [[Handling Temporal Knowledge]] — related: temporal exclusions
 
 ## Status

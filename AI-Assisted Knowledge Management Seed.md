@@ -1,7 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-03-19
-last-updated: 2026-03-19
+last-reviewed: 2026-03-23
+last-updated: 2026-03-23
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -43,6 +43,12 @@ author-type: ai-assisted
 **Test:** Do note titles follow a consistent pattern? Can you predict a new note's title?
 **Edge case:** Domain-specific abbreviations (MRI, ECG) are acceptable when they are standard terminology.
 
+**Edge case (stress test 2026-03-21):** Equipment-heavy domains (photography, audio engineering, computing) need modified conventions:
+- **Product model numbers** (A7IV, R5, Z6II, UAD Apollo) are acceptable as-is when they represent standard product identifiers
+- **Technical notation** (50mm, f/2.8, 24-70mm) uses standard notation rather than full expansion
+- **Sub-conventions** may exist: concepts use noun phrases, equipment uses model numbers, techniques use action-object pattern
+- **Test:** Pick 5 random notes. Do they follow consistent internal convention? Can you predict the next note's naming pattern within its category?
+
 **Rule:** Distinguish conceptual notes from procedural content — atomicity applies to ideas, not to executable workflows.
 **Why:** Recipes, code samples, and technical specs must stay together for usability, even when >300 words. Splitting them breaks the workflow.
 **Test:** For notes >300 words: (1) Is this an executable procedure? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Keep together if yes to 1-2; split if yes to 3.
@@ -60,6 +66,30 @@ author-type: ai-assisted
 **Why:** Pure exploration creates shallow vaults with many thin topics; pure exploitation creates stagnant vaults that miss valuable new domains. Explicit balance ensures both breadth and depth grow healthily.
 **Test:** Can you categorize your recent capture activity as primarily exploration or exploitation? Is the ratio appropriate for your vault's maturity (new <50 notes = exploration, mature >200 notes = exploitation)?
 
+**Rule (NEW - 2026-03-22):** Systematically identify knowledge gaps and prioritize filling them — use prerequisite audits, retrieval failure tracking, graph topology analysis, and contested topic scans.
+**Why:** The Seed tells you how to manage existing knowledge (when to merge, split, verify) but not how to identify what's missing. Without gap identification, vaults accumulate based on what capture agents find interesting rather than what the vault needs. This creates coverage illusions where obvious gaps go unnoticed.
+**Test:** (1) Can you identify prerequisite gaps (undefined wikilinks to non-existent notes)? (2) Do you track retrieval failures (queries returning insufficient results)? (3) Does graph analysis find high-centrality nodes with poor connectivity? (4) Do you scan for contested topics with only one perspective? (5) Is there an explicit gap prioritization framework (impact × 1/effort)?
+**Implementation:** Run gap audits monthly: (1) Prerequisite audit — scan for wikilinks to missing notes, (2) Retrieval failure log — track search queries with <2 satisfactory results, (3) Graph topology — find nodes with high centrality but low outgoing links, (4) Contested scan — find consensus-level: mainstream on potentially debated topics. Prioritize gaps by impact (blocking/useful/nice-to-have) × inverse effort.
+**Gap types:** Prerequisite (concepts the vault assumes), Utility (knowledge needed for frequent tasks), Connection (topics that should link but don't), Verification (unverifiable due to missing context), Perspective (single-view when multi-view expected).
+**70-20-10 allocation:** Mature vaults should allocate 70% gap-filling, 20% verification/depth, 10% exploration. This inverts the bootstrap ratio because maintenance mode means filling known gaps rather than discovering new domains.
+**See also:** [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] (gap identification merged)
+
+**See also:** [[Seed Gap - Safety Review for Historical Sources]] (safety gap identification from historical sources)
+
+**See also:** [[Seed Gap - Sensory Anchor Standardization]] (sensory cue standardization for embodied knowledge)
+
+**Edge case (stress test 2026-03-22 - cooking domain):** In embodied knowledge domains (cooking, music performance, physical crafts), gap identification via metadata and graph analysis misses the most critical gaps — tacit knowledge that practitioners don't know they lack. The rule assumes gaps are discoverable through undefined wikilinks, retrieval failures, and graph topology. But embodied knowledge gaps won't appear in any graph — you can only find them by asking "what sensory information am I not capturing?"
+
+Apply embodied gap detection: specifically audit for sensory, tactile, and kinesthetic knowledge that enables expertise but is rarely written down. Ask: "What does this technique feel like when done correctly?" "What visual/tactile/auditory cues indicate success?" Notes about techniques should include sensory anchors even if they can't fully convey the embodied knowledge.
+
+For cooking specifically:
+- Gap types should include `embodied` as a distinct category
+- Context dependency is higher (seasonal ingredients, cultural traditions, user expertise level)
+- "Contested" topics are mostly preference-based, not factual — filter for factual disputes only
+- Verification mode differs: source verification (recipe from trusted cookbook) ≠ execution verification (actually cooked)
+
+**See also:** [[Seed Stress Test - Gap Identification Rule in Cooking]]
+
 **Rule:** Use construction-phase model to guide structural decisions — apply relaxed standards during bootstrap, tighten as vault matures.
 **Why:** The Seed's rules assume a mature vault with existing structure. During construction (first 50 notes), early structural decisions create the foundation. Relaxing rules temporarily while tracking phase enables better decisions; tightening later ensures quality. Without explicit phases, early mistakes compound.
 **Test:** Can you identify the vault's construction phase? For vaults <50 notes: Is orphan rate tracked? Are structural decisions being evaluated? Is there a plan to tighten rules after bootstrap?
@@ -69,6 +99,27 @@ author-type: ai-assisted
 - Note size: 50+ words instead of 100+
 - Hub threshold: 3 notes instead of 5
 **Transition rule:** At 50 notes, evaluate: (1) Orphan rate <20%? (2) Can all notes reach root in ≤4 hops? (3) Do major domains have hub notes? If any fail, refactor before continuing growth. After transition, apply full Seed rules for the flesh phase (20-100 notes).
+
+**Rule:** Define explicit construction completion criteria — declare construction complete when orphan rate <10%, core domains have hubs, verification ratio >50%, schema is stable (60+ days), and compliance score >85%.
+**Why:** Without explicit completion criteria, vaults stay in construction mode indefinitely (never tightening quality standards) or switch to maintenance too early (leaving structural gaps). Explicit criteria enable intentional phase transitions.
+**Test:** Run: orphan_rate()<10% AND hub_coverage()>=80% AND verification_ratio()>50% AND schema_stable_days()>60 AND compliance_score()>85%. If all true, transition to maintenance mode. If any false, continue construction until criteria met.
+**Post-transition:** After completing construction, apply full Seed rules with no relaxed thresholds. Shift emphasis from expansion to verification and depth. Increase scrutiny on new note quality.
+
+**Rule:** Capture structural trade-offs as explicit knowledge notes when making vault organization decisions.
+**Why:** Trade-off knowledge (what you gain vs. lose when choosing one approach) is fundamentally different from knowledge about the approaches themselves. Without explicit capture, vault organization decisions become invisible and unreviewable, leading to repeated mistakes and inability to learn from past choices.
+**Test:** Can you identify 3+ structural trade-offs you've made in organizing this vault? Are they documented as notes or in frontmatter?
+**Implementation:** Use frontmatter to track trade-offs:
+```yaml
+trade-off-category: organization|verification|atomicity|structure
+trade-off-type: gain-lose|either-or|compromise
+description: "What you gain vs. lose"
+rationale: "Why this trade-off was chosen"
+revisit-when: "When to reconsider this decision"
+```
+**Examples:**
+- Organizing by technique vs. by cuisine: gain (easy technique lookup), lose (meal planning harder)
+- High verification threshold (70%): gain (reliable knowledge), lose (slower capture)
+- Strict atomicity: gain (reusable components), lose (context fragmentation)
 
 **Rule:** Design intentional metadata schema for the vault — document frontmatter fields, naming conventions, and taxonomy structure.
 **Why:** Without explicit schema design, notes get inconsistent metadata, tags explode混乱, and AI agents can't reliably query the vault. Schema is the meta-layer that makes knowledge queryable.
@@ -94,6 +145,20 @@ author-type: ai-assisted
 
 **Edge case (NEW - 2026-03-18):** Multi-domain vaults need schema that accommodates domain-specific fields without forcing them on all notes. Use optional extended fields: base schema applies to all notes, domain-specific fields apply only when relevant. Example: `jurisdiction:` only for legal notes, `cuisine-region:` only for cooking notes.
 
+**Rule:** For vaults built for other people (clients, family, users), document explicit user context assumptions in frontmatter.
+**Why:** Building a knowledge base for yourself vs. building for others are fundamentally different tasks. When you don't know the user's context, expertise level, or goals, generic structures may fail. Without explicit assumption documentation, the vault lacks the context needed for appropriate navigation and use.
+**Test:** For vaults intended for other users: (1) Does frontmatter include `target-user-description:` or similar? (2) Are assumptions about user expertise documented? (3) Are there multiple entry points for different user contexts (beginner, intermediate, advanced)? (4) Does the vault include explicit onboarding guidance?
+**Implementation:** Use frontmatter:
+```yaml
+kb-purpose: client-facing|family|teaching|personal-reference
+target-user-expertise: beginner|intermediate|advanced|variable
+target-user-description: "Free-text description of intended user"
+assumed-context:
+  expertise-level: beginner|intermediate|advanced|variable
+  terminology-preference: technical|plain|both
+```
+**Edge case:** When building KBs for unknown future users (estate planning, organizational handover), include extensive self-documentation since context cannot be verified.
+
 **Rule:** For infrastructure-dependent domains (home automation, networking, IoT, energy systems), treat infrastructure configuration as a first-class dependency.
 **Why:** In domains where knowledge depends on specific hardware, network setups, or physical infrastructure, generic rules fail. A home automation config on Zigbee differs fundamentally from Z-Wave; solar knowledge depends on grid-tie vs off-grid. Without explicit infrastructure tagging, knowledge becomes untransferable and potentially dangerous (applying wrong config knowledge causes real-world failures).
 **Test:** For infrastructure-dependent notes: (1) Does frontmatter include `infrastructure-type:` (network|hardware|geographic|power|configuration)? (2) Can you identify what specific configuration this knowledge depends on? (3) Is there a separation between general principles and config-specific tweaks?
@@ -108,11 +173,57 @@ applicability-transferability: low  # rarely transfers to other configs
 ```
 **Separation principle:** Always separate (1) general principles that apply across configs, (2) config-specific implementations. Tag config-specific notes as `applicability-transferability: low` and link from general principle hubs.
 
+**Edge case (NEW - 2026-03-23):** In workshop-dependent craft domains (woodworking, metalworking, leatherworking, sewing), equipment tier significantly affects technique applicability. The infrastructure rule handles network/hardware/geographic/power dependencies but lacks specific guidance for equipment-tier classifications.
+
+**Why:** Woodworking, metalworking, and other craft domains have explicit equipment tiers that dramatically affect what techniques are accessible. Without explicit equipment-tier tagging, notes assume a tier (often professional), beginners can't assess applicability, and technique adaptations for different tiers are undocumented.
+
+**Test:** For craft domain notes about techniques: (1) Does frontmatter include `equipment-tier:` or `equipment-tiers-required:`? (2) Can a reader determine if the technique applies to their workshop? (3) Are tier adaptations documented when relevant?
+
+**Implementation:** Use fields:
+```yaml
+equipment-tier: home-workshop  # professional | home-workshop | hand-tools-only | minimal
+equipment-tiers-required:
+  - circular-saw
+  - hand-planes
+equipment-tiers_optional:
+  - jointer
+  - planer
+applicability-transferability: medium
+tier-adaptations:
+  - tier: hand-tools-only
+    adaptation: "Use hand plane instead of router for flattening"
+    difficulty-increase: moderate
+```
+
+**Secondary gap - Safety review for historical sources:** Historical technique sources (pre-1950 woodworking books) often lack safety information because power tools didn't exist. Tag with:
+```yaml
+safety-review-required: true
+historical-source: true  # pre-power-tool era
+safety-gap: "Original text lacks power tool safety (did not exist)"
+```
+
+**See also:** [[Seed Gap - Sensory Anchor Standardization]] (sensory cue standardization for embodied knowledge)
+
 **Edge case (stress test 2026-03-17):** In sequential-skill domains (language learning, music, mathematics, programming) where knowledge has strict prerequisite chains, the construction phase thresholds need modification:
 - **Extended skeleton phase:** Language learning vaults may need 75-100 notes in skeleton phase because foundational vocabulary (100+ essential words) is required before basic communication is possible.
 - **Allow hop depth up to 6:** Prerequisite chains in sequential domains naturally exceed 4 hops (e.g., Alphabet → Sounds → Pronunciation → Accent Marks → Stress Rules → Advanced Pronunciation). Allow up to 6 hops for genuine learning progressions.
 - **Track phase by knowledge type:** Vocabulary, grammar, and practice resources have different structural needs. Track construction phase separately for each knowledge type rather than globally.
 - **Directional orphan tolerance:** Foundation notes in sequential domains may legitimately have no incoming links (prerequisites that everything else builds FROM). Distinguish outbound orphans (problematic) from inbound orphans (acceptable for foundations). Use `foundational: true` tag to exempt from inbound-orphan detection.
+- **Form-specific hub tracking:** In music composition, different musical forms (sonata, rondo, theme-and-variations, fugue, symphony) represent major structural categories that require separate hub tracking. Each form has its own vocabulary, conventions, and compositional techniques. Track hub creation within each form type separately during construction.
+
+**Rule (NEW - 2026-03-22):** For personal finance budgeting knowledge (cash flow, expenses, savings goals), store transaction data separately from knowledge insights — use dedicated data structures for raw transactions and capture frameworks, methodologies, and patterns as notes.
+**Why:** Personal finance involves hundreds of transactions per year that are repetitive and best analyzed programmatically. The knowledge is in the frameworks (budget methodology, category definitions, goal tracking, pattern insights), not in individual transaction records. Storing every purchase as a note creates bloated vaults that lose signal in noise.
+**Test:** For personal finance notes: (1) Are raw transactions in a database/spreadsheet with insights captured as notes? (2) Do category notes define hierarchy and rationale? (3) Do goal notes include rationale, timeline, and adjustment history? (4) Is recurring income/expense documented separately from one-time events?
+**Implementation:** Use frontmatter for budget knowledge:
+```yaml
+knowledge-type: budgeting|category|goal|recurring|period-review
+budget-scope: personal|household|business
+privacy-level: personal|confidential
+contains-sensitive-data: true  # for any financial detail
+export-excluded: true  # exclude from vault exports
+```
+**Privacy rule:** Personal finance data should be excluded from vault exports and stored encrypted. Only insights, frameworks, and methodologies belong in the knowledge graph — not account numbers, transaction amounts, or balances.
+> This rule was incorporated from an archived Seed Gap note (now archived).
 
 **Rule:** Track vault growth velocity and maintain verification ratio — a healthy vault verifies at least 50% of new captures within 30 days.
 **Why:** Without velocity tracking, vaults accumulate faster than they mature. High capture + low verification = shallow vault with unverified knowledge being treated as reliable. Tracking velocity ensures knowledge matures alongside capture.
@@ -127,6 +238,36 @@ applicability-transferability: low  # rarely transfers to other configs
 **Test:** Count notes with verification-status: unverified. Divide by total note count. Is it <30%? If above 40%, do not add new notes until verification catches up.
 **Edge case:** Domain-critical knowledge (safety procedures, legal requirements) may warrant exemption — tag with criticality: high to allow exception.
 **Edge case:** Staging notes (whisper/draft/probe) don't count toward unverified — they have explicit uncertainty markers.
+
+**Edge case (NEW - 2026-03-24):** In domains requiring empirical validation (game design, UX testing, user experience, teaching effectiveness), source verification is insufficient. Knowledge like "this mechanic is fun" or "this difficulty curve works" cannot be verified by checking sources — only by direct user testing. Apply empirical validation criteria:
+- Source quality matters less than testing evidence
+- Confidence should be tied to user testing results, not source credibility
+- Add `validation-mode: empirical` for notes requiring direct testing to verify
+- Track empirical evidence separately: `empirical-evidence: playtest | user-testing | field-validation | practical-application`
+- Test: Can you identify what empirical evidence would confirm or refute this knowledge?
+
+**Rule:** Distinguish empirically validatable knowledge from source-verifiable knowledge — apply different verification criteria for each.
+**Why:** Knowledge that requires direct user experience to validate (game mechanics "fun", UX "intuitive", teaching "effective") follows different rules than factual knowledge. Applying source-verification rules creates false confidence or false doubt. Empirical knowledge needs testing evidence, not source quality.
+**Test:** For knowledge claims about user experience, fun, difficulty, or intuition: (1) Is this empirically testable? (2) Has it been tested with actual users? (3) Is confidence tied to testing evidence rather than source quality?
+
+**Rule (NEW - 2026-03-24):** Handle unverifiable knowledge — knowledge that cannot be verified through any known verification pathway.
+**Why:** The Seed covers source verification, empirical verification, tool-executable verification, and embodied verification — but misses knowledge that fundamentally cannot be verified. Unverifiable knowledge includes: future-specific predictions, private subjective experience (qualia), unobserved historical events, cosmological claims beyond observation, philosophical counterfactuals. Treating unverifiable as unverified leads to wasted verification effort and inappropriate confidence assignment.
+**Test:** For knowledge claims: (1) Can you describe a test that would verify this? If no verification pathway exists, (2) Is this about future events, subjective experience, or philosophical claims? If yes, tag as unverifiable.
+**Implementation:** Use frontmatter for unverifiable knowledge:
+```yaml
+unverifiable-type: prediction|subjective|historical|cosmological|counterfactual|philosophical
+verification-pathway: none  # Explicitly mark as unverifiable
+confidence: speculative
+```
+**Categories:**
+- **Prediction**: Specific future events ( verifiable only after time passes)
+- **Subjective**: First-person experience that cannot be accessed by others (qualia problem)
+- **Historical**: Events that left no traceable evidence
+- **Cosmological**: Claims beyond observable universe
+- **Counterfactual**: What would have happened if something different occurred
+- **Philosophical**: Claims that are framework-dependent rather than empirically resolvable
+**Note:** This is distinct from unverified — unverified means "not yet checked but checkable," unverifiable means "cannot be checked by any known method." Use `verification-pathway: none` for unverifiable knowledge, not verification-status fields.
+**See also:** [[Frontier Exploration - Unverifiable Knowledge Handling]]
 
 **Rule:** Handle incorrect or outdated knowledge explicitly — when discovering knowledge is wrong, mark rather than silently delete.
 **Why:** Wrong knowledge contains valuable context: why you believed it, what source led you astray, what you learned from the correction. Deleting loses this meta-knowledge. Marking preserves the learning while preventing the vault from spreading incorrect information.
@@ -152,6 +293,24 @@ lesson-learned: "..."
 **Preservation principle:** Keep the history, not just the correction. A note showing "I used to think X" is valuable meta-knowledge. Create corrected version, mark original with correction metadata, link between them.
 **Edge case:** For fast-moving domains (tech, science), consider a "knowledge corrections log" hub note tracking all corrections chronologically.
 
+**Rule (NEW - 2026-03-22):** Tag and track conventional wisdom explicitly — when capturing knowledge that represents the generally accepted view, add `conventional-wisdom: true` frontmatter and document known challenges or update signals.
+**Why:** Conventional wisdom is often wrong. History shows that "what everyone knows" frequently gets overturned by new evidence. Without explicit tagging, notes presenting the conventional view gain false authority, future edits reinforce the accepted view rather than challenge it, and early signs of conventional wisdom being wrong go unnoticed. This is distinct from unverified knowledge (you might believe it's true) and low confidence (you think it's probably wrong) — conventional wisdom is knowledge you believe is likely correct BUT historically conventional wisdom is often wrong.
+**Test:** For notes representing mainstream consensus: (1) Is there `conventional-wisdom: true` tag? (2) Are known challenges documented in frontmatter or content? (3) Are update signals explicit (what evidence would change this)? (4) Is `conventional_wisdom_strength` documented (strong/moderate/weak)?
+**Implementation:** Use frontmatter:
+```yaml
+conventional-wisdom: true
+conventional_wisdom_strength: strong  # strong (universally accepted) | moderate (common belief) | weak (emerging consensus)
+conventional_challenges:
+  - "Known challenge 1"
+  - "Known challenge 2"
+conventional_review_indicators:
+  - "What would change this view"
+```
+**Why this matters:** The most damaging vault errors come from conventional wisdom that turns out wrong because it feels authoritative. Explicit tagging creates healthy skepticism and prompts re-evaluation.
+**Domain guidance:** Medical (much "standard care" has been overturned), finance ("markets always revert"), personal productivity ("multitasking is efficient"), and technical fields ("X is best framework") all have histories of conventional wisdom being wrong. Tagging enables proactive challenge.
+**Interaction with correction workflow:** When conventional wisdom IS overturned, apply existing correction workflow with `correction-type: outdated` — it was correct for its era but context changed, not that it was never correct.
+**See also:** [[Frontier Exploration - Conventional Wisdom and Its Limitations]]
+
 **Rule:** Detect and resolve simultaneous contradictions — when the vault contains two verified notes that directly contradict each other (Note A claims "X is true" and Note B claims "X is false" with overlapping validity periods), apply resolution protocol.
 **Why:** Undetected contradictions create unreliable knowledge bases where users cannot trust any single claim. Without explicit contradiction handling, the vault undermines its own credibility and cannot serve as a decision-support tool.
 **Test:** Can you identify any pairs of verified notes that directly contradict each other? For each detected contradiction, is there a documented resolution (preferred-source, acknowledged-uncertainty, or escalated-to-human)?
@@ -172,6 +331,64 @@ dispute-nature: methodological|philosophical|evidential
 **Edge case - framework-dependent:** Value investing says "P/E ratios matter"; momentum investing says "they don't." These are framework-dependent, not contradictions. Tag as `framework-dependent: true` instead.
 **Edge case - temporal:** If one note is marked outdated, it's not a simultaneous contradiction — it's handled by existing correction rules.
 
+**Edge case (NEW - 2026-03-21):** In philosophical and framework-dependent domains, apparent contradictions may not be resolvable. Add `contradiction-type:` taxonomy:
+- `empirical` — resolvable through evidence
+- `definitional` — resolvable through agreed definitions
+- `framework` — requires choosing a framework (no single "correct" answer)
+- `genuine` — both positions have valid arguments, unresolved by design
+- `internal` — the note self-contradicts (self-defeating argument)
+
+**Edge case (NEW - 2026-03-21):** Philosophical skepticism and destabilizing arguments may undermine vault reliability. Add `knowledge-safety:` tagging:
+- `destabilizing` — arguments that could undermine trust in the vault (e.g., radical skepticism)
+- Include counter-argument links when including destabilizing content
+- Consider quarantine or explicit warning tags for vault-breaking content
+
+**Edge case (NEW - 2026-03-21):** For ethical and value-based contradictions, use framework tagging:
+- Tag with `moral-framework: consequentialist|deontological|virtue-ethics|care-ethics`
+- These are framework-dependent, not contradictions to resolve
+- Resolution = acknowledgment, not preference for one framework over another
+
+**Rule (NEW - 2026-03-21):** Distinguish prescriptive from descriptive knowledge and apply intent-based resolution for prescriptive conflicts.
+**Why:** The Seed covers framework-dependent knowledge (different descriptive models) but prescriptive rule conflicts work differently. When musical styles say "avoid parallel fifths" AND "parallel motion is acceptable," the conflict is about methods for the same goal, not different frameworks describing reality. Resolution requires understanding user intent, not framework selection.
+**Test:** For knowledge that provides guidance or rules: (1) Is this prescriptive ("you should do X") or descriptive ("X is Y")? (2) If prescriptive, could a different context validly recommend "do NOT X"? (3) If yes, does the note include intent-based resolution guidance?
+**Implementation:** Use frontmatter:
+```yaml
+prescriptive-type: prescriptive  # vs. descriptive
+prescriptive-intent: [aesthetic-quality, efficiency, safety]
+conflict-resolution-mode: intent-based  # framework-choice|intent-based|context-dependent|hierarchy
+resolution-guide:
+  - when: "goal is X"
+    do: "follow rule A"
+  - when: "goal is Y"
+    do: "follow rule B"
+```
+**Edge case:** When prescriptive rules genuinely cannot both be followed AND there's no resolution, mark with `contradiction-status: genuine` and escalate to human.
+**Edge case:** Some prescriptive rules are safety-critical (always follow, no exceptions). Tag with `safety-critical: true` to override intent-based resolution.
+**See also:** [[Frontier Exploration - Prescriptive vs Descriptive Knowledge Distinctions]] for detailed exploration of this gap.
+
+**Rule (NEW - 2026-03-22):** Handle personal experience vs. published knowledge conflicts using explicit resolution approaches — distinguish between context reconciliation, sample size acknowledgment, published knowledge update, genuine uncertainty, and personal domain exceptions.
+**Why:** The Seed covers contradictions between vault notes and framework-dependent knowledge, but personal-vs-published conflicts are fundamentally different — you're comparing your direct experience against external sources. Without explicit handling, AI agents either dismiss personal experience as invalid or overgeneralize from limited observations. The conflict may reveal valuable insights about context-dependence, rule limitations, or knowledge gaps.
+**Test:** For notes where your personal observations contradict published sources: (1) Is there explicit resolution approach documented? (2) Do you distinguish "my experience is wrong" from "the rule doesn't apply to me"? (3) Is the context (sample size, conditions) documented? (4) Does resolution capture what the conflict taught you?
+**Implementation:** Use `contradiction-type: personal-vs-published` with `resolution-approach`:
+- `context-reconciliation` — Your context differs; both are valid for their contexts
+- `sample-size` — N=1 is insufficient to overturn population evidence
+- `update` — Personal experience reveals published knowledge is wrong
+- `uncertainty` — Truth is more complex than either captures
+- `personal-exception` — Your conditions make general rule inapplicable
+**Documentation:**
+```yaml
+contradiction-type: personal-vs-published
+published-claim: "What sources claim"
+personal-observation: "What you experienced"
+resolution-approach: context-reconciliation|sample-size|update|uncertainty|personal-exception
+context-factors: [relevant differences from typical conditions]
+sample-size: number
+confidence: emerging
+```
+**When to trust personal over published:** (1) Large sample size (N>30 or repeated trials), (2) Consistent results over time, (3) Published source is low-quality or outdated, (4) Your context is well-documented and systematically different.
+**When to trust published over personal:** (1) Small sample size, (2) Single observation, (3) Published from high-quality peer-reviewed source, (4) No clear context differences.
+**See also:** [[Frontier Exploration - Personal Experience vs Published Knowledge Conflicts]] for detailed exploration.
+
 **Rule:** Resolve Seed rule conflicts using explicit priority hierarchy — when two rules conflict, apply safety > accuracy > domain-adaptation > bootstrap-flexibility > quality > recency.
 **Why:** Without explicit conflict resolution, AI agents either arbitrarily choose one rule or freeze in analysis paralysis. Explicit priority enables consistent decision-making.
 **Test:** For any decision where rules conflict: (1) Identify rules in tension, (2) Apply priority hierarchy, (3) Document resolution with `conflict-resolution:` frontmatter. Can you resolve all conflicts using this hierarchy?
@@ -188,6 +405,38 @@ conflict-resolution:
 **Rule:** Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (adds new knowledge), effort (maintenance worth value).
 **Why:** Notes that don't improve utility, can't connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value.
 **Test:** For the last 5 notes added to a mature topic: Do 3+ pass all four tests?
+
+**Rule (NEW - 2026-03-22):** Evaluate maintenance burden before capturing volatile knowledge — exclude or deprioritize knowledge that is high-maintenance (frequently changing) AND low-utility (easily looked up elsewhere) AND lacks personalization (no unique context you provide).
+**Why:** Some knowledge is "expensive" to maintain — it requires ongoing updates just to stay accurate, but provides low value because it's easily found elsewhere. Capturing version-sensitive technical trivia, frequently-changing prices, or transient opportunities creates maintenance debt without proportional benefit. The vault should capture what can't be easily found or what includes your unique context.
+**Test:** For knowledge about version-locked software, price-sensitive topics, time-sensitive opportunities, or frequently-changing facts: (1) Does this include personalized context that can't be found elsewhere? (2) Is the volatility so high the knowledge will be stale within 30 days? (3) Could a web search provide current information faster than maintaining this note? If 2-3 are true and 1 is false, exclude or mark with short expiration-interval.
+**Implementation:** Use frontmatter to track maintenance burden:
+```yaml
+maintenance-burden: high|medium|low
+volatility-type: version-sensitive|price-sensitive|time-sensitive|stable
+external-availability: high|medium|low
+```
+**Edge case:** Personal context makes high-maintenance knowledge worth capturing. Your specific troubleshooting steps for your setup, your personal workflow adaptations, and your experimental results are high-utility even if the underlying software changes. Capture personalized context; exclude generic facts that others can provide.
+
+**See also:** [[Frontier Exploration - Knowledge Maintenance]]
+
+**Rule (NEW - 2026-03-24):** Apply different update strategies based on knowledge change pattern — distinguish discrete versioning (clear v1→v2 milestones), slow evolution (gradual drift without versions), cyclical preference changes (complete replacement), and deepening understanding (same topic, richer content).
+**Why:** The Seed covers discrete version changes and expiration, but not knowledge that changes slowly and gradually. Without pattern-based strategies, notes become either Frankenstein (too much change history) or over-split (v1, v2, v3 fragments). Matching strategy to change pattern preserves both coherence and traceability.
+**Test:** For notes updated 3+ times: (1) Can you identify the change pattern? (2) Does the note structure match the pattern? (3) Is there a clearer way to organize this knowledge?
+**Implementation:** Use frontmatter:
+```yaml
+evolution-pattern: discrete|slow|cyclical|deepening
+update-frequency: monthly|quarterly|annually|as-needed
+last-substantial-change: 2026-01-15
+change-count: 5
+```
+**Strategy guidance:**
+- Discrete (software releases): Version notes with upgrade paths
+- Slow evolution (best practices): Edit in-place with changelog
+- Cyclical (tool preferences): Archive old, create new note
+- Deepening (understanding): Single evolving note
+
+**See also:** [[Frontier Exploration - Knowledge Maintenance]]
+
 **Edge case:** In domains where knowledge is highly subjective (art criticism, aesthetic evaluation, creative domains), "utility" is context-dependent and hard to measure objectively. A note about "moody desaturated look" in photography has high utility for some users and none for others. For subjective domains, apply the test to connection + uniqueness + effort only; use "applicability-scope" (who is this for?) as a proxy for utility. Alternatively, use domain-appropriate utility criteria specific to the domain's goals.
 
 **Edge case (NEW - stress tested):** In context-dependent objective domains (medicine, law, engineering) and high-stakes domains, the diminishing returns test needs modification:
@@ -229,6 +478,95 @@ The test: For gardening/permaculture/tree notes, do 3+ pass OR have verification
 
 This is distinct from standard experiential domains — the issue is not that execution is uncertain (cooking), but that the verification timeline itself spans years.
 
+**Edge case (NEW - 2026-03-19):** For practice-required knowledge (cooking, music performance, physical skills), distinguish verification modality from verification status. Add `verification-modality:` field with values:
+- `passive` — can be verified by reading alone (default)
+- `practice-required` — requires active execution to verify
+- `hybrid` — needs both source check AND practice
+
+Also track execution separately from knowledge validity using `practice-status:` field (not-attempted | in-progress | successful | failed). A note can contain correct knowledge applied incorrectly — distinguish "knowledge wrong" from "execution poor." For practice-required notes, set realistic verification timeframes (30-day windows often insufficient) and use `expected-verify-when:` field for planning.
+
+**Rule (NEW - 2026-03-21):** For embodied knowledge (knowledge requiring physical sensation, touch, feel, or bodily experience to fully understand), add `embodied-component:` frontmatter and apply modified verification rules.
+**Why:** Embodied knowledge (tactile cues, kinesthetic feel, sensory judgment) cannot be verified by reading sources. The note may be "correct" in an intellectual sense but incomplete without the sensory component. Standard verification ratio treats all unverified notes equally, but embodied knowledge requires a different verification pathway — physical experience, not source checking.
+**Test:** For notes tagged with `embodied-component: essential`: (1) Does the note acknowledge what sensory information is required? (2) Is there a sensory anchor or reference point? (3) Could an AI verify this without physical access?
+**Implementation:** Use frontmatter:
+```yaml
+embodied-component: essential  # essential|nice-to-have|none
+sensory-modes: [tactile, kinesthetic, visual, auditory]
+sensory-anchor: "Like pressing a ripe avocado — slight give"
+verification-modality: embodied  # distinct from passive/practice-required
+```
+**Verification pathway:** For embodied notes, "verification" means (1) acknowledging the sensory component exists, (2) providing anchors/analogues that help reader recognize the cue, (3) noting whether the vault owner has personally experienced it. Do not count as "verified" through source-checking alone.
+**Edge case:** Some embodied knowledge can be approximated through analogues — "what it feels like to ride a bike" can be partially conveyed through comparison. Include `sensory-anchors:` and `approximation-notes:` to capture what's possible in text.
+
+**Rule (NEW - 2026-03-21):** For tool-executable knowledge (knowledge that requires running tools, commands, or automated systems to verify), add execution metadata and apply modified verification rules.
+**Why:** Tool-executable knowledge (commands, code, API calls, configs, queries) exists in a distinct category from source verification (checking documentation) and experiential verification (human testing). Without execution metadata, AI agents cannot assess whether tool-executable knowledge is current, correct, or applicable to the user's environment. This is distinct from embodied knowledge (requires human sensation) and experiential knowledge (requires human practice) — tool-executable knowledge can be verified by running automated tools.
+**Test:** For notes containing commands, code, API calls, or configs: (1) Does frontmatter include `execution-type:` and `execution-environment:`? (2) Does the note include `expected-output:` or `validation-criteria:`? (3) Is `execution-status:` tracked (verified|failed|pending|not-attempted)? (4) Can an AI determine validity without executing the tool?
+**Implementation:** Use frontmatter:
+```yaml
+execution-type: command|script|api|config|query|build
+execution-environment:
+  os: linux|macos|windows|cross-platform
+  required-tools: [tool1, tool2]
+  required-version: ">=1.0.0"
+  dependencies: [dep1, dep2]
+expected-output:
+  type: file|stdout|stderr|exit-code|data-structure
+  validation-criteria: "What correct output looks like"
+execution-safety: safe|destructive|requires-confirmation
+execution-status: verified|failed|pending|not-attempted
+last-executed: 2026-03-21
+```
+**Distinction:** This is distinct from (1) source verification — checking if documentation says it's correct, (2) experiential verification — human testing through practice, (3) embodied verification — sensory judgment. Tool-executable knowledge requires automated execution in a specific environment.
+**Edge case:** Some tool executions have side effects (file deletion, database writes, financial transactions). Tag dangerous executions with `execution-safety: destructive` and require explicit user confirmation before execution.
+
+**Rule (NEW - 2026-03-22):** Track knowledge source type to enable source-appropriate verification and weighting — distinguish knowledge derived from intuition (pattern recognition, expert tacit), analysis (statistical, deductive), authority (trusted sources), and direct experiment.
+**Why:** The Seed tracks verification-status and confidence, but doesn't distinguish how knowledge was derived. Intuition-based knowledge (expert pattern recognition) requires different verification than analysis-based knowledge (reasoned conclusions) or experimental knowledge (tested directly). Without source tracking, AI agents cannot apply appropriate verification methods or weight knowledge appropriately in decisions.
+**Test:** For key knowledge notes used in decisions: (1) Can you identify the source type (intuition|analysis|authority|experiment)? (2) Is the source type appropriate for the domain? (3) Does verification method match the source type?
+**Implementation:** Use frontmatter:
+```yaml
+knowledge-source-type: intuition|analysis|authority|experiment
+intuition-type: pattern-recognition|expert-tacit|gut-feeling  # for intuition
+analysis-type: statistical|deductive|comparative  # for analysis
+authority-type: expert|publication|institution  # for authority
+experiment-context: controlled|field|observational  # for experiment
+```
+**Source-appropriate verification:**
+- **Intuition**: Verify through real-world outcomes, not source citation; track experience level of source
+- **Analysis**: Verify through methodology review, reproducibility, and sensitivity testing
+- **Authority**: Verify through source credibility assessment and citation cross-check
+- **Experiment**: Verify through replication and effect size confirmation
+
+**Intuition reliability heuristic:** Intuition is more reliable when: (1) Domain has stable patterns, (2) Source has deep experience (thousands of relevant exposures), (3) Intuition is specific, not vague. Intuition is less reliable when: (1) Domain has novel elements, (2) Source has limited relevant experience, (3) Intuition is general or vague.
+
+**Edge case:** Expert intuition (thousands of pattern recognitions) differs from novice "gut feeling" (may be random or biased). Distinguish with `intuition-experience-level:` field (expert|experienced|novice).
+
+**See also:** [[Frontier Exploration - Intuition vs Analysis Knowledge]]
+
+**Edge case (NEW - 2026-03-23):** For general-purpose knowledge bases without domain-specific evidence hierarchies, use evidence tier classification to weight knowledge appropriately:
+- **Tested Methodology (Tier 1):** Directly verified through controlled execution or experiment
+- **Documented Experience (Tier 2):** Multiple instances of successful application, tracked outcomes
+- **Expert Consensus (Tier 3):** Widely agreed within community of practice, no known contradictions
+- **Authoritative Source (Tier 4):** Single trusted source, credible credentials
+- **Established Convention (Tier 5):** Commonly accepted practice, origin unclear
+- **Personal Discovery (Tier 6):** Individual's own findings, untested by others
+
+**Why:** Domain-specific hierarchies (medical, legal) don't apply to most personal knowledge (cooking tips, hobby techniques, personal experiments). Without general evidence tiers, AI agents cannot appropriately weight knowledge or select verification methods.
+
+**Test:** Can you categorize any piece of knowledge by evidence tier? Do high-stakes decisions reference higher-tier knowledge?
+
+**Implementation:** Use `evidence-tier:` and `evidence-basis:` fields:
+```yaml
+evidence-tier: tested-methodology  # 1-6 from table above
+evidence-basis: "Multiple controlled tests across 3+ recipes"
+replication-status: replicated|partial|unreplicated
+```
+
+**Note:** Evidence tier is orthogonal to source quality. A Tier 1 tested methodology could be in a blog post (low source quality, high evidence strength). A Tier 6 personal discovery could be from a world-renowned expert (high source quality, low evidence strength because untested).
+
+**Edge case:** In creative domains (art, writing, cooking), "tested methodology" may not apply the same way. A/B testing results, reader feedback, and taste panels can serve as experimental proxies.
+
+**See also:** [[Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge]]
+
 **Edge case (stress test 2026-03-16):** In hybrid technical-aesthetic domains (photography, videography, music production, audio engineering), diminishing returns testing must distinguish between:
 - **Technical knowledge:** Objectively testable, utility can be evaluated without execution (exposure settings, autofocus modes, color science)
 - **Aesthetic knowledge:** Execution-dependent, utility requires trying in context (composition styles, lighting approaches, editing styles)
@@ -263,6 +601,78 @@ The core diminishing returns insight remains valid — don't add marginal notes 
 **Why:** Without explicit priorities, capture defaults to ease or recency rather than vault needs. Explicit signals ensure capture effort aligns with vault health.
 **Test:** Can you rank your next 5 potential captures by priority signal? Does the ranking match your actual capture order?
 
+**Rule (NEW - 2026-03-22):** Capture error knowledge systematically — document error messages, debugging steps, root causes, and resolutions for errors you encounter.
+**Why:** Error knowledge is highly practical personal knowledge that saves time on repeated issues. Unlike anti-patterns (general mistakes) or failed experiments (broader attempts), error notes capture specific problems you faced and how you solved them. Without systematic capture, you rediscover solutions repeatedly.
+**Test:** Can you find notes about errors you've encountered? Do they include: (1) exact error message/code, (2) context (what you were doing), (3) root cause, (4) resolution? Can you search for an error and find a previous resolution?
+**Implementation:** Use structured frontmatter:
+```yaml
+error-type: software|system|configuration|dependency|syntax
+error-code: "Exact error message"
+context:
+  tool: tool name and version
+  environment: OS, setup details
+root-cause: What actually caused the error
+resolution: How you fixed it
+resolution-type: workaround|fix|config-change|version-bump
+applicability: personal|general
+error-valid-until: 2026-06  # When this error may become obsolete
+```
+**Edge case:** The same error can have different causes in different contexts. When capturing an error that already exists in the vault, compare context first — if context differs, add a new note or create a comparative note with multiple resolutions.
+**Edge case:** Error knowledge expires faster than other knowledge. Use shorter review intervals for error notes (90 days vs. standard 30 days) and track validity periods.
+
+**Rule (NEW - 2026-03-23):** Distinguish immediate utility from potential utility (option value) — apply different capture criteria for knowledge that might matter someday.
+**Why:** The Seed's diminishing returns test optimizes for immediate utility, but systematically under-captures knowledge with potential future value. Knowledge that enables future capabilities, handles rare-but-critical scenarios, or opens unexpected paths has "option value" that the standard utility test misses. Without explicit option value handling, vaults become biased toward current relevance at the expense of future optionality.
+**Test:** Can you identify notes tagged with `utility-type: potential`? Do they have documented future scenarios and likelihood assessments? Is there an option value tracking mechanism?
+**Implementation:** Use frontmatter to track utility type:
+```yaml
+utility-type: immediate|potential|deferred
+potential_utility_scenarios:
+  - scenario: "Future domain or use case"
+    likelihood: low|medium|high
+    timeframe: near|medium|long
+capture_urgency: now|when_convenient|defer
+```
+**Modified diminishing returns for potential utility:** Instead of the standard test (utility + connection + uniqueness + effort), apply modified criteria for option value knowledge: capture if (cost_of_missing = high) OR ((future_paths >= 2) AND (capture_cost = low)). This preserves potentially valuable knowledge without unbounded capture.
+**Option value categories:**
+- **Domain adjacency**: Knowledge about fields you might enter (low immediate need, high if you enter that field)
+- **Capability building**: Skills that expand what you can do (foundational for unexpected uses)
+- **Rare-but-critical**: Low-frequency scenarios with high impact when they occur
+- **Niche technical**: Specific knowledge for edge cases that may become relevant
+**Deferred capture:** For high-cost capture with uncertain utility, create a gap note instead of capturing immediately. Document what would trigger capture when you reach that domain.
+**See also:** [[Frontier Exploration - Knowledge Option Value]]
+
+**Edge case (stress test 2026-03-22 - programming domain):** In programming and software development, error knowledge capture needs significant domain-specific enhancements:
+
+- **Same error, different causes:** The same error message (e.g., "ModuleNotFoundError") can have multiple root causes (package not installed, wrong environment, wrong working directory). Use context-specific notes with shared tags rather than consolidated notes — different contexts require different solutions. Consider `error-pattern:` for regex matching across error message variations, with `error-code:` as a primary example.
+
+- **Error validity by category:** Programming errors have different expected lifespans. Use `error-expiry-category:` with values: `tool-version-specific` (6-12 months), `language-version-specific` (12-24 months), `environment-specific` (varies), `permanent` (fundamental errors like division by zero).
+
+- **Cascading errors:** One error often causes another. Use `causes:` and `caused-by:` fields to track error cascades, helping trace failures back to root cause.
+
+- **Reproducibility variation:** Errors may be reproducible on some machines but not others. Use `reproducibility:` field with values `always`, `environment-dependent`, `intermittent`.
+
+- **Community vs personal solutions:** Many errors are already documented on Stack Overflow. Use `solution-source:` field with values `community` (widely available), `personal` (your specific context required unique solution), `hybrid` (community + personal adaptation).
+
+- **Errors vs warnings vs deprecation:** Distinguish `error-type: fatal` (crashes), `error-type: warning` (non-fatal), `error-type: deprecation` (will become error in future). Tag deprecation warnings differently — they're not errors yet but signal upcoming changes.
+
+**See also:** [[Seed Stress Test - Error Knowledge Capture in Programming]]
+
+**Edge case (stress test 2026-03-22 - cooking domain):** In cooking and culinary arts, error knowledge capture needs significant domain-specific adaptations:
+
+- **Cooking "errors" are sensory descriptions, not codes:** Instead of error codes, cooking errors manifest as sensory observations ("sauce is grainy", "bread didn't rise", "steak is tough", "cookies are dry"). Use descriptive error categories: `textural`, `visual`, `flavor`, `structural`, `thermal`. Capture the observable symptom as the "error code."
+
+- **Same error, multiple root causes:** "Sauce broke" can be caused by (1) adding fat too fast, (2) temperature too high, (3) acid added too early, (4) wrong emulsifier ratio, (5) ingredients too cold. Unlike programming where one error message often maps to one cause, cooking requires context-matching. Use `error-pattern:` with multiple `root-cause:` entries per descriptive error, or create separate notes for each cause-solution pair.
+
+- **Context dependencies are critical:** Cooking errors depend on (1) altitude (affects boiling points, leavening), (2) humidity (affects doughs, baking), (3) equipment (gas vs electric ovens vary 50°F+), (4) ingredient brands (different sodium levels, fat contents), (5) pan material (heat distribution differs). Use `error-context:` fields documenting these factors. The same error may require different solutions in different contexts.
+
+- **Sensory vs. measurable errors:** Distinguish errors that are objectively measurable (internal temperature, pH, weight ratios) from those requiring sensory judgment (color, texture, doneness). Use `error-detection-mode:` with values `measurable` (can test with tools), `sensory` (requires human judgment), `both`.
+
+- **Food safety vs. technique errors:** Food safety errors (temperature abuse, cross-contamination) have expiration (guidelines change with new research) and high stakes (can cause illness). Technique errors (sauce breaking, overmixing) are timeless but skill-dependent. Use `error-category:` with values `food-safety` (expirable, high-stakes), `technique` (timeless, skill-dependent), `preference` (taste/texture subjective).
+
+- **Error persistence differs by type:** Food safety errors should have shorter review cycles (90 days, like programming) and `error-valid-until:` for expiration. Technique errors are more durable — a sauce-breaking fix from 1950 still works. Set `review-interval:` appropriately per error type.
+
+**See also:** [[Seed Stress Test - Cooking Knowledge Base]], [[Seed Stress Test - Error Knowledge Capture in Programming]]
+
 **Rule:** Apply the 5:1 personal-to-general knowledge ratio — capture insights, decisions, and experiences (personal) over restatable facts (general).
 **Why:** Personal knowledge compounds and provides unique value no web search can match. General knowledge takes maintenance effort but offers little unique value.
 **Test:** Pick 10 recent notes. For each: (1) Could a web search replace this note in <30 seconds? (2) Does it contain original insight, decision, or experience? Ratio should be 5:1 personal to general.
@@ -287,6 +697,20 @@ The core diminishing returns insight remains valid — don't add marginal notes 
 
 **Modified test for creative domains:** For music/art/writing notes: (1) Does this represent transferable insight YOU developed? (2) Does it document a specific creative decision you made? (3) Is it perceptual/kinesthetic knowledge from YOUR practice? (4) Would a beginner need this before producing their own work? Count as "personal-equivalent" if yes to 3-4 (foundational learning materials that enable future personal creation).
 
+**Edge case (NEW - stress test 2026-03-20):** In philosophy and similar analytical domains (history, literary criticism, cultural studies), the 5:1 ratio needs domain-specific calibration because general knowledge is foundational for personal insight:
+
+- **Foundation-first learning:** Allow higher general ratio (4:1 or 3:1) during initial study phases — understanding what philosophers believed is ESSENTIAL before you can have original thoughts
+- **Analysis as personal knowledge:** Philosophical analysis, critique, comparison, and application of concepts to new contexts count as personal even when grounded in general knowledge
+- **Original contribution threshold:** The test should be: "Does this note contain YOUR analysis, or just restate what others have said?" — not whether general facts are present
+
+**Modified test for philosophy:** For philosophy/analyical domain notes: (1) Does this include YOUR interpretation or critique (not just restatement)? (2) Does this apply philosophical concepts to a new context or problem you care about? (3) Does this synthesize multiple perspectives with YOUR judgment? Count as personal if yes to any. Exclude purely factual notes about what philosophers believed (these are the foundation, not the personal insight).
+
+**Stress test (2026-03-19):** The 5:1 rule was stress-tested against cooking domain:
+- Does this rule make sense for cooking? Yes - recipes exist online but YOUR specific adaptations, tips, and modifications are personal knowledge
+- Is the Test executable? The Test is somewhat subjective for recipes (the recipe exists online but your version is personalized)
+- Edge case found: The rule already has appropriate edge cases for creative skill domains (line 295) which covers cooking
+- The Test doesn't account for "utility exception" - general knowledge that's frequently referenced (saves lookup time) is acceptable even if restatable
+
 **Edge case (stress test 2026-03-18):** In scientific research knowledge bases, the 5:1 ratio needs domain-specific calibration due to unique knowledge dynamics:
 
 - **Literature synthesis as personal knowledge:** Synthesizing 3+ papers with YOUR interpretation adds unique value — count as personal-equivalent. Add `synthesis-type:` field (comparison|contradiction|extension|methodology-review).
@@ -298,6 +722,20 @@ The core diminishing returns insight remains valid — don't add marginal notes 
 - **Collaborative ownership:** If you contributed original thinking to collaborative work, it counts as personal. Add `contribution-type:` field (led-developed|co-developed|curated|synthesized).
 
 **Modified test for scientific research:** For research notes: (1) Does this synthesize 3+ sources with YOUR interpretation? (2) Does it document why YOU chose this method (vs. alternatives)? (3) Does it include YOUR lab-specific adaptations? (4) Does it document what didn't work in YOUR experiments? (5) Does it include YOUR accumulated tool expertise beyond basic tutorials? Count as personal if yes to any. Exclude `temporal-validity: superseded` from ratio calculations.
+
+**Edge case (stress test 2026-03-21):** In woodworking and similar craft/physical skill domains, the 5:1 ratio needs domain-specific calibration:
+
+- **Foundational technique exemption:** General techniques (joint types, wood species fundamentals, tool mechanics) are prerequisites for personal experimentation. Don't penalize notes about "what exists" — the value comes from personal application and adaptation.
+
+- **Tool-scope uniqueness:** Assess uniqueness within tool categories separately — hand tool techniques, power tool techniques, and CNC workflows have limited transfer. A hand-plane technique that duplicates a general technique is not redundant if it adds tool-specific detail.
+
+- **Material-specific knowledge is personal:** Your experience working with specific wood species in YOUR shop (humidity, location, supplier) provides context-dependent value that general knowledge cannot replace.
+
+- **Embodied knowledge exemption:** Tacit knowledge about "feel," intuition, and physical skill development counts as personal even when not framed as explicit decisions. This is perceptual knowledge from practice, not restatable facts.
+
+- **Project-context filtering:** For project lessons, uniqueness should be assessed by project type (furniture, boxes, turning, carving) not by individual project. Lessons from one dining table transfer to other flat-panel furniture.
+
+**Modified test for woodworking:** For woodworking notes: (1) Does this include YOUR specific adaptation or technique modification? (2) Does this document a project-specific lesson or mistake? (3) Is this tool-specific (scoped to hand/power/CNC)? (4) Does this include material-specific experience (specific wood species, YOUR conditions)? Count as personal if yes to any. Exclude purely foundational technique notes from ratio calculations — they enable personal knowledge but don't replace it.
 
 **Rule:** Treat meta-learning (learning how to learn) as a foundational skill to develop actively, not a passive ability.
 **Why:** Meta-learning skills compound across all domains — investing in them provides returns everywhere. A second brain is a concrete implementation of this skill.
@@ -321,9 +759,47 @@ The core diminishing returns insight remains valid — don't add marginal notes 
 
 See also: [[Frontier Exploration - Metacognitive Knowledge and Thinking Tools]] for frameworks on capturing cognitive strategies.
 
+**Rule (NEW - 2026-03-24):** Separate practice meta-knowledge from skill domain knowledge using dedicated practice notes.
+**Why:** Daily practice knowledge (how to maintain consistent practice in skill-building domains) is fundamentally different from skill knowledge (the content of the skill itself). Mixing practice management with skill knowledge creates bloat and makes it hard to find either. Practice notes should be searchable independently from the skill knowledge itself.
+**Test:** Can you find your practice routine without navigating through skill notes? Do practice notes contain primarily HOW TO PRACTICE, not WHAT THE SKILL IS? Are practice metrics documented in a way you can actually use?
+**Implementation:** Use dedicated practice notes with frontmatter:
+```yaml
+type: practice-routine
+skill-domain: [cooking, music, writing, coding, etc.]
+practice-frequency: daily|weekly|target-per-week
+typical-duration-minutes:
+best-time-of-day: morning|afternoon|evening
+structure:
+  - warm-up
+  - main-practice
+  - cool-down
+progress-metrics: [how to measure improvement]
+common-obstacles: [known challenges]
+recovery-protocol: [how to resume after missing]
+```
+**Practice note content:** Current skill level, next goals, lessons learned about practice (what works/doesn't), not the skill knowledge itself.
+**Separation principle:** Practice notes answer "HOW do I practice this skill?" while skill notes answer "WHAT is this skill?" Keep them separate for discoverability and maintenance.
+**See also:** [[Seed Gap - Practice Routine Structure]]
+
 **Rule:** Define explicit vault boundaries — categorize what you keep (core knowledge), what you tolerate (operational), and what you exclude (ephemeral).
 **Why:** Without boundaries, the vault accumulates noise, search quality degrades, and the "second brain" becomes a dumping ground. Explicit boundaries enable intentional curation.
 **Test:** Can you list: (1) What types of notes are always kept? (2) What types are reviewed and either integrated or deleted? (3) What types are never added? If you can't answer these, the boundary is undefined.
+
+**Rule (NEW - 2026-03-23):** Define explicit exclusion criteria — document what knowledge is systematically excluded and why.
+**Why:** The Seed tells you what to capture (priority signals, diminishing returns) but not what to systematically exclude. Without explicit exclusion criteria, vaults accumulate based on what capture agents find interesting rather than what serves the vault's purpose. The inverse of "what to capture" is not "what not to capture" — it's "what creates negative value."
+**Test:** Can you identify: (1) Public utility knowledge (easily found via web search, not personalized)? (2) Ephemeral temporal knowledge (stale within 7 days)? (3) Duplicate knowledge (exists already in vault)? (4) Decorative knowledge (exists only to satisfy structural requirements)? (5) Scope-violating knowledge (violates vault's stated purpose)? (6) High-maintenance low-value knowledge (frequent updates, low utility, no unique context)? If you can't categorize exclusions, the criteria are undefined.
+**Implementation:** Document exclusion categories in a dedicated Exclusion Policy note or in vault documentation:
+```yaml
+exclusion-categories:
+  - public-utility: "General knowledge easily found online"
+  - ephemeral: "Temporal snapshots that become stale quickly"
+  - duplicate: "Knowledge already in vault"
+  - decorative: "Only exists for structural compliance"
+  - scope-violating: "Outside vault's stated purpose"
+  - high-maintenance-low-value: "Frequent updates, low utility, no personalization"
+```
+**When exclusions don't apply:** Foundational knowledge, personal experiments, contextualized knowledge (your adaptations of general knowledge), emerging domains without established public knowledge, error knowledge (your errors are personal), and relationship knowledge (how things relate in YOUR system).
+**See also:** [[Frontier Exploration - Systematic Knowledge Exclusion Criteria]] (frontier gap note documenting this gap and implementation details)
 
 **Rule:** Use a staging area (inbox) for uncategorized captures — process within 48 hours or explicitly defer with a review date.
 **Why:** Capture first, process second is good advice, but "process" must have a deadline. Unprocessed captures become permanent clutter.
@@ -362,6 +838,35 @@ retry-conditions: When you might try again
 **Why:** General knowledge ("spaced repetition works") is valuable but context-specific knowledge ("spaced repetition with Anki at 20 new cards/day works for me") is more actionable. Without explicit tagging, you rediscover your context every time.
 **Test:** Can you identify notes tagged as universal principles vs. your specific adaptations? Do context-specific notes document the parameters that make them work for you?
 **Implementation:** Use `applicability: universal|context-specific` frontmatter. For context-specific notes, include `worked-for: [your identifier]` and document specific parameters (tools, timing, constraints).
+
+**Rule:** For domains with extreme individual variation (fitness, nutrition, learning styles, sensory preferences), add `individual-variation` tagging to distinguish person-specific knowledge from universal principles.
+**Why:** In domains like fitness, nutrition, and personal productivity, the same advice can be correct for one person and incorrect for another. Without explicit individual-variation tagging, AI agents cannot distinguish "this works for everyone" from "this works for specific body types/conditions/preferences."
+**Test:** For fitness/nutrition/productivity notes: (1) Does the note include `individual-variation: high` for person-dependent knowledge? (2) Are person-specific experiments documented separately from universal principles? (3) Can you identify which claims apply broadly vs. only to specific individuals?
+**Implementation:** Use frontmatter:
+```yaml
+individual-variation: high  # vs low/medium
+applicability-scope: universal|person-specific|condition-specific
+# For person-specific notes, include:
+your-context: description of your specific situation
+experiment-variables: what makes this work for you specifically
+```
+**Edge case:** Some fitness principles are universal (progressive overload, adequate recovery) even if specific implementation varies. Tag the universal principles as `individual-variation: low` even within high-variation domains.
+
+**Rule (NEW - 2026-03-22):** For knowledge that depends on multiple conditions being true simultaneously, explicitly document each condition with `compound-conditions:` frontmatter listing all dependencies and verify applicability by checking ALL conditions, not just the primary one.
+**Why:** Compound context knowledge fails silently when any single condition is missed. Unlike single-condition knowledge (where the main factor determines applicability), compound knowledge requires ALL conditions to be verified. Without explicit compound documentation, AI agents and users cannot assess whether the knowledge actually applies to their situation.
+**Test:** Pick 10 notes with contextual claims (advice, recommendations, procedures). For each: (1) Can you identify all conditions that must be true for this to apply? (2) Does the note explicitly list these conditions? (3) Would missing any single condition make the advice inapplicable or incorrect? (4) Does the note warn about compound failure modes?
+**Implementation:** Use frontmatter:
+```yaml
+compound-conditions: true
+conditions:
+  - condition: "Description of condition"
+    category: tool|framework|problem-type|context
+    required: true|false
+compound-failure-mode: any  # any|all|interaction
+compound-warning: "Warning about when this doesn't apply"
+```
+**Compound failure modes:** `any` (fails if ANY condition is false), `all` (requires ALL conditions AND they interact), `interaction` (specific combination matters).
+**See also:** [[Frontier Exploration - Compound Context Knowledge]]
 
 **Rule:** Assess harm potential before capturing personal or sensitive information — identify what to exclude or encrypt.
 **Why:** Knowledge that seems harmless today could cause harm if exposed (identity theft, professional liability, personal embarrassment). Pre-capture harm assessment prevents future problems. This is the inverse of vault boundaries: not just what topics to include, but what specific knowledge to exclude.
@@ -410,7 +915,52 @@ See also: [[Frontier Exploration - Learning Progression and Curriculum Design]] 
 **Edge case:** Pure timeline vaults (event logs) should use `period:` frontmatter (year, month, quarter, iteration) and link thematically to related topic notes, not just temporally to neighbors.
 **Edge case:** Overlapping timelines (personal + professional simultaneously) need explicit `timeline-type:` tagging to distinguish parallel narratives.
 
-See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for detailed exploration of this gap.
+**Rule (NEW - 2026-03-23):** Handle recurring and periodic knowledge distinctly from static or time-sensitive data — capture the recurrence pattern itself, not just the current occurrence.
+**Why:** The Seed covers timeline-organized vaults (causal sequences) and time-sensitive data (rapidly changing values), but lacks guidance for recurring knowledge where the schedule IS the knowledge. Treating recurring events as static "fact" notes loses the pattern and makes notes feel outdated between cycles. Capturing recurrence patterns (annual, quarterly, seasonal) preserves reusable knowledge that remains valid across cycles.
+**Test:** Can you categorize temporal notes as: (1) one-time event (single date), (2) recurring event (schedule pattern), (3) time-sensitive data (rapidly changing value), (4) sequential knowledge (causal chain)? For recurring notes: Does frontmatter include `recurrence-pattern:`, `cycle-type:`, and `next-occurrence:`?
+**Implementation:** Use frontmatter for recurring knowledge:
+```yaml
+recurring: true
+recurrence-pattern: annual|quarterly|monthly|weekly|seasonal|cyclic
+cycle-type: fiscal|academic|calendar|regulatory|organizational|seasonal
+next-occurrence: 2026-04-15
+cycle-relative-timing: "End of Q1 (varies by fiscal year)"
+```
+For interval-based procedures (maintenance intervals, periodic reviews):
+```yaml
+interval-based: true
+interval-value: 90
+interval-unit: days
+interval-trigger: "When to perform the action"
+next-due: 2026-06-21
+```
+**Edge case:** Variable schedules (Easter, DST transitions) use `schedule-variable: true` with calculation rule. **Edge case:** Multi-year cycles (elections, census) use `cycle-period: N-years`. **Edge case:** Location-dependent schedules (fiscal year start varies by country) use `jurisdiction:` to scope.
+**See also:** [[Seed Gap - Recurring and Periodic Knowledge]] (frontier gap note documenting the gap and implementation)
+
+**Rule:** Plan for vault migration before you need it — maintain portable formats, avoid plugin lock-in, and document any tool-specific features.
+**Why:** Vaults often outlive the tools that host them. Platforms change, tools sunset, needs evolve. Vaults built with portability in mind survive tool transitions; vaults built on plugin-specific features do not.
+**Test:** (1) Can the vault function with basic Markdown only (no plugins)? (2) Are all attachments stored relative to notes (not absolute paths)? (3) Is there documentation of any tool-specific features used?
+**Edge case:** If tool-specific features are essential (e.g., Dataview queries), document them as deprecated if the tool sunsets, and create migration paths.
+
+**Rule:** For vault merging scenarios (combining two vaults), establish purpose hierarchy — the primary vault purpose dominates, notes not serving that purpose are candidates for archival.
+**Why:** Two vaults with different purposes cannot simply be combined without coherence loss. Without explicit purpose hierarchy, the merged vault lacks direction and notes drift.
+**Test:** Given two vaults to merge: (1) Can you state a single primary purpose for the merged vault? (2) Are notes categorized as: serve-primary, serve-secondary, or archive? (3) Are cross-vault duplicates resolved using purpose-alignment?
+**Edge case:** When both vaults have equal value but different purposes, consider keeping them as separate vaults with cross-vault links rather than forcing a merge.
+**Edge case:** Schema conflicts during merge should default to the more comprehensive schema and migrate notes to that standard.
+
+See also: [[Frontier Exploration - Vault Merging and Migration]] for detailed exploration of this gap.
+
+**Rule:** Track recovery effort vs. rebuild cost — when accumulated decay would take longer to repair than to rebuild, consider rebuild.
+**Why:** Continuing to repair a severely degraded vault wastes effort that could build a healthier foundation. Without explicit comparison, AI agents default to repair (sunk cost fallacy). The Seed covers maintenance but not the decision to abandon and start over.
+**Test:** Calculate recovery effort across 5 symptom categories: (1) structural rot — orphan rate >30% estimates >20 hours, (2) schema collapse — no dominant pattern estimates >15 hours, (3) quality debt — score >0.50 estimates >40 hours, (4) purpose drift — mismatch >50% estimates >10 hours, (5) technology lock-in — cannot export cleanly. Sum estimates. If total >40 hours AND no improvement in last 90 days → recommend rebuild discussion.
+**Symptoms triggering rebuild consideration:**
+- Structural rot: >30% orphans, hop depth >5 for >20% of notes, collapsed hub structure
+- Schema collapse: multiple competing naming conventions, >10 frontmatter fields undocumented, >100 tags with no controlled vocabulary
+- Quality debt: verification ratio <20% for 6+ months, debt score >0.50, >50% stale (>90 days since review)
+- Purpose drift: _root.md purpose no longer matches content, vault became dumping ground
+- Technology lock-in: depends on deprecated plugins, cannot export to basic Markdown
+**When NOT to rebuild:** Vault <50 notes (refactor instead), problems are localizable (split instead), only 1-2 symptoms present (repair is faster), recent improvement trend.
+**Hybrid approach:** Archive old vault, start new with Seed; selectively migrate notes passing quality filters.
 
 ---
 
@@ -426,6 +976,8 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 **Why:** Size is a reliable proxy for atomicity — oversized notes almost always bundle concepts.
 **Test:** Count words. Flag notes outside the 100-300 range for review. For notes >300 words: (1) Is this an executable procedure (recipe, code, tutorial, technical spec)? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Do NOT flag if yes to 1-2; flag for potential split only if yes to 3. For notes <100 words: verify it has a stub marker OR is a hub/redirect note OR is complete short procedural content (can be executed as-is).
 **Edge case:** Procedural content (recipes, tutorials, code samples, technical specs, reference tables, legal documents) may legitimately exceed 300 words. Use atomicity test (one idea per note) as the primary check; word count is secondary for procedural formats.
+**Edge case (NEW - stress test 2026-03-20):** Reference content — drug monographs, device specifications, encyclopedia entries, taxonomic classifications, legal instruments — may legitimately exceed 300 words when covering one complete reference unit. The test: (1) Is this a single reference entity? (2) Would splitting make it harder to look up? (3) Are parts not independently reusable? Keep together if yes to 1-2.
+**Edge case (NEW - stress test 2026-03-20):** Domain patterns (musical forms, architectural styles, design patterns, methodological frameworks) are valid atomic units even when exceeding 300 words. These are reusable patterns, not single instances. The test: (1) Is this a reusable pattern rather than a single instance? (2) Does the pattern have multiple components that must be understood together? Keep together if yes.
 **Edge case:** Comprehensive principle/explanation notes that cover multiple related sub-points in a coherent framework (e.g., "Note Lifecycle Management" covering stages, deprecation criteria, and archival guidelines) may exceed 300 words when splitting would reduce explanatory coherence. Apply the atomicity test first: does the note explore one theme comprehensively, or does it bundle unrelated ideas?
 **Edge case:** Educational/explanatory content that requires depth for comprehension (e.g., explaining the science behind a technique, comprehensive topic overviews, comparative analyses of variations within one category) may legitimately exceed 300 words. The test: (1) Can this note be summarized in one sentence capturing its core purpose? (2) Would splitting lose essential synthesis or context? (3) Is this one coherent topic being explored comprehensively? Keep together if yes to any.
 **Test for procedural content:** For notes >300 words that are procedures: (1) Does the user need to execute this linearly from start to finish? (2) Would splitting make it harder to use? (3) Are the parts independently reusable? Keep together if yes to 1-2; split only if yes to 3.
@@ -465,7 +1017,7 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 - **Thought experiments:** Canonical thought experiments (Trolley Problem, Ship of Theseus, Brain in a Vat) are valid atomic units even when brief because they're referenced as complete units across multiple debates. Use `type: thought-experiment` tag.
 - **Schools of thought:** Use hub+spoke pattern (Stoicism hub → Stoic Ethics, Stoic Physics, Stoic Practices spokes). Define clear doctrine boundaries to prevent hub bloat.
 - **Philosophical jargon:** Technical terms (epistemology, ontology, phenomenology) are domain terminology - allow under 100 words with `type: terminology`.
-- **Confidence defaults:** Philosophy has lower consensus than empirical domains. Default to `confidence: low` unless marking established consensus positions.
+- **Confidence defaults:** Philosophy has lower consensus than empirical domains. Default to `confidence: emerging` unless marking established consensus positions.
 
 **Edge case (NEW - frontier exploration 2026-03-16):** Recognition-based knowledge requires different atomicity treatment — organize as training examples rather than definitions.
 - **Visual/auditory recognition:** Pattern recognition knowledge (identifying celestial objects, identifying plant species by sight, recognizing bird calls) cannot be fully captured in descriptions — it requires exposure to examples. Notes should link to multiple instances that train the pattern.
@@ -476,6 +1028,21 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 - **Software stack dependencies:** When knowledge lives in the gaps between tools (astrophotography stacks, development environments, data pipelines), version combinations matter. Knowledge about "how to process images in PixInsight" may not transfer to other software.
 - **The test:** For notes about tool interactions, is there a `software-stack:` tag listing the specific versions?
 - **Tag:** Use `software-stack:` frontmatter listing the specific version combination (e.g., `software-stack: "NINA 3.0 + PHD2 2.6 + PixInsight 1.8"`).
+
+**Rule (NEW - 2026-03-23):** Capture version-upgrade path knowledge when updating from one version of a tool/framework to another — document what changed, how to migrate, whether it's worth it, and what breaks.
+**Why:** The Seed covers version-scoped knowledge (which version a note applies to) and deprecation (marking obsolete knowledge), but doesn't address capturing upgrade journey knowledge. Without upgrade paths, the vault accumulates separate v1 and v2 notes without connection, users lack migration guidance when upgrading, and decision context (why you upgraded or stayed put) is lost.
+**Test:** For versioned tools/frameworks where a new version released: (1) Is there a note capturing what changed that matters? (2) Does it include migration steps for transitioning? (3) Does it document the decision to upgrade (or not)? (4) Are breaking changes documented?
+**Implementation:** Use frontmatter:
+```yaml
+version-upgrade: true
+from-version: "1.x"
+to-version: "2.x"
+upgrade-status: pending|in-progress|completed|skipped
+migration-type: minor|major|breaking
+```
+Content should include: summary of relevant changes (not all release notes), step-by-step migration path, breaking changes or incompatibilities, decision rationale (why upgrade now or defer), rollback plan if needed.
+**Connection:** Link to existing notes about the old version (mark as superseded), link to related tool notes that might be affected by the upgrade.
+**See also:** [[Frontier Exploration - Version-Upgrade Path Knowledge]]
 
 **Edge case (NEW - frontier exploration 2026-03-16):** Short-expiration knowledge needs faster review cycles — some domains have knowledge that becomes stale in months, not years.
 - **Domains with rapid expiration:** Software, predictions, current events, market conditions, and time-sensitive events (celestial events, seasonal phenomena) can render knowledge obsolete quickly.
@@ -489,10 +1056,23 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 - **Tag:** Use `deadline-type: hard|soft|recoverable` and include `deadline-date:`, `consequence:`, and `recovery-method:` fields. Add `recommended-start:` to indicate when action should begin.
 - **Expiration behavior:** Deadline knowledge should be auto-archived after deadline + grace period (7 days for hard, keep accessible for soft with clear "deadline passed" markers).
 
+**Edge case (NEW - 2026-03-24):** Video game mechanics knowledge requires patch-version tracking — game patches can invalidate strategy knowledge instantly, unlike typical software versions.
+- **Patch-driven invalidation:** Unlike software frameworks that evolve gradually, game patches can completely change how something works overnight. A boss strategy that was optimal last week may be completely wrong after a patch. The Seed's version-tracking for software doesn't fully capture this.
+- **The test:** For game strategy/technique notes: (1) Is there `patch:` or `game-version:` frontmatter? (2) Is there `expires-after-patch:` for patch-specific knowledge? (3) Is there automatic deprecation when patch notes contradict existing knowledge?
+- **Implementation:** Add fields:
+```yaml
+game-version: "1.0"
+patch: "2.1.5"
+expires-after-patch: true
+patch-change-type: mechanic-rebalance|bug-fix|new-content|balance-change
+```
+- **Platform tagging:** Games often have platform-specific content (achievements, features). Use mandatory `platform:` field for platform-specific knowledge.
+- **Time-limited content:** Seasonal events, collaborations, server shutdowns need explicit `valid-until:` frontmatter with post-expiration disposition.
+
 **Edge case (NEW - frontier exploration 2026-03-16):** Sensory threshold knowledge requires lower confidence defaults — knowledge at the boundary of perception has inherent uncertainty.
 - **Perceptual limits:** Astronomy (limiting magnitude at the eyepiece), audio (threshold of hearing), touch (just-noticeable differences) — knowledge at perceptual limits is inherently uncertain.
 - **The test:** For observation notes at the limit of perception, is confidence marked appropriately and sensory context documented?
-- **Default:** For sensory threshold knowledge, default to `confidence: low` and include sensory context (equipment, conditions, observer experience).
+- **Default:** For sensory threshold knowledge, default to `confidence: emerging` and include sensory context (equipment, conditions, observer experience).
 
 **Rule:** When splitting a note, create bidirectional links between the parts and rewire all incoming links.
 **Why:** Splitting without rewiring breaks navigation paths and orphans content.
@@ -510,11 +1090,46 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 
 **Rule:** For knowledge that legitimately requires different presentations for different purposes, use hub + variants pattern with explicit `context-frame` tagging.
 **Why:** Context frames (patient-education vs clinical, beginner-tutorial vs reference) are orthogonal to expertise level and user constraints. Treating them separately prevents note bloat while ensuring each purpose gets appropriate presentation.
-**Test:** Pick 5 notes that could serve multiple purposes. Can you identify: (1) Is the core knowledge the same across purposes? (2) Would splitting improve clarity? (3) Is there a hub pattern that preserves atomicity while serving multiple contexts?
+**Test:** For a potential context-frame note: (1) Can you identify 3+ distinct purposes this knowledge serves? (2) Do variants share essential core knowledge but differ in presentation? (3) Can users find the appropriate variant via hub navigation or filtering? Yes to all 3 = use hub+variants; No to 2+ = use single note.
+**Implementation:** Use `context-frame:` frontmatter field with standard values:
+```yaml
+context-frame: patient-education|clinical|policy|tutorial|reference|beginner-tutorial|expert-brief|decision-support|learning|inspiration
 
 **Rule:** Distinguish context frames from expertise levels — frame is about purpose, level is about complexity.
 **Why:** A beginner can have a professional purpose (junior developer reading architecture docs). Conflating frame with level loses important distinction.
-**Test:** For a note tagged with expertise-level AND context-frame: Can you explain why both are needed? Does changing one without the other make sense?
+**Test:** For a note tagged with both expertise-level AND context-frame: (1) Does changing expertise-level keep the same context-frame valid? (2) Does changing context-frame keep the same expertise-level valid? (3) Can you explain why both dimensions are needed? Yes to 1-2 and "the purpose differs from the complexity" = correctly distinguished.
+
+**Rule:** Represent branching decision knowledge (troubleshooting guides, diagnostic workflows, setup wizards) using hub + node pattern — hub provides overview, each decision point is an atomic note with prerequisite and next-decision links.
+**Why:** Decision trees are multiplicative (branching factor), navigational (context-dependent traversal), and stateful (current node matters). Standard atomic notes don't capture this structure. The hub+node pattern preserves navigability while keeping each decision point discoverable.
+**Test:** Pick a decision tree note. (1) Does a hub provide high-level overview of branches? (2) Are each decision points atomic notes? (3) Does each node link to prerequisites and next decisions? (4) Can users traverse the tree via links?
+**Implementation:**
+```yaml
+# Hub note
+decision-tree: true
+branches:
+  - Check Physical Connections
+  - Verify DNS Resolution
+  - Test Firewall Rules
+
+# Node note
+decision-type: diagnostic|setup|troubleshooting
+prerequisites:
+  required:
+    - Previous decision outcome
+next-decisions:
+  - If yes: [[Next Step]]
+  - If no: [[Alternative Path]]
+```
+**When to use:** Troubleshooting guides, setup wizards, diagnostic workflows, conditional onboarding processes, any "if this, then that" knowledge.
+**When NOT to use:** Linear tutorials (use standard atomic notes), reference material, simple comparisons (use comparative note pattern).
+
+**Rule:** Handle spectrum and continuum knowledge using domain-appropriate boundaries — identify natural breaking points, create range notes for intermediates, and use frontmatter to represent gradients.
+**Why:** Some knowledge exists on a continuum (political ideology, skill levels, temperature, color) rather than as discrete categories. The atomicity principle assumes separability, but spectra challenge where to cut. Without explicit guidance, AI agents either over-segment (note for every point) or under-segment (single note loses all nuance).
+**Test:** For knowledge domains with inherent spectra: (1) Can you identify established terminology for spectrum points? (2) Are range notes created for intermediate states? (3) Does frontmatter use `spectrum-type: continuous` with appropriate bounds?
+**Implementation:** Use `spectrum-type: continuous` frontmatter with `spectrum-bounds`, `spectrum-unit`, and anchor points. Create hub notes linking to all spectrum points. Use range notes for intermediate states that are meaningful in the domain.
+**Edge case:** Subjective spectra (spiciness, loudness, sweetness) differ from objective ones — track both objective measurement and subjective threshold separately.
+**Edge case:** Cultural spectra vary significantly (politeness, personal space, punctuality) — add `cultural-scope` to spectrum-based notes.
+**Edge case:** Evolving spectra (music genres, technology generations) may change over time — use `spectrum-stable: stable|evolving|contested`.
 
 ---
 
@@ -529,6 +1144,14 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 **Edge case:** Foundational elements (core ingredients in cooking like salt/oil/water, basic utilities in software, fundamental concepts in any domain) may legitimately have fewer than 2 natural links — forcing connections creates decorative links that hurt more than help. Tag these notes with `foundational: true` rather than forcing artificial links. The test: (1) Is this a true domain primitive that everything else references? (2) Would added links improve navigation or just inflate the graph? If yes to both, add `foundational: true` tag.
 **Edge case:** Domain-specific instruments, tools, or assessment scales (clinical assessment tools like pain scales, specific equipment in technical domains, specialized instruments) may legitimately have only 1 natural link when they are specific to one procedure or use case. Forcing a second link creates decorative connections. The test: (1) Is this note about a specific instrument/tool used in exactly one context? (2) Does adding a second link serve navigation or just meet a quota? If yes to 1-2, allow single link or tag with `specialized: true`.
 **Edge case:** Single-term definitions and standard domain terminology may legitimately have fewer outgoing links. This includes: (1) Abbreviations, codes, standard identifiers (BP, CPR, error codes); (2) Standard domain vocabulary that serves as the canonical way a concept is expressed (tempo markings like allegro/adagio in music, dynamics like piano/forte, foreign terminology in classical arts). The test for abbreviations: (1) Is this note primarily a lookup reference? (2) Does the term get referenced via backlinks from content notes? For standard terminology: (1) Is this term the standard way this concept is expressed in the domain? (2) Does the note primarily serve as a definition/lookup? If yes to either test, allow fewer links with `type: terminology` or `type: reference`.
+
+**Edge case:** Physical or material primitives in creative/design domains may legitimately have fewer outgoing links. In board game design, core components (dice, cards, boards, tokens) and fundamental player actions (dice rolling, card drawing, resource tracking) are material and mechanical primitives that serve as category anchors rather than conceptual bridges. The test: (1) Is this a core physical component or fundamental mechanic used across many games? (2) Does it primarily serve as a category reference rather than a conceptual exploration? If yes to both, tag with `component-type: primitive` or `mechanic-type: primitive` and allow fewer links.
+
+**Edge case:** Workflow or phase notes in project-based domains may legitimately have fewer natural links because they connect primarily to adjacent phases in sequence. In board game design, design phases (ideation, prototyping, playtesting, refinement); in software development, development stages; in creative projects, production phases all form linear chains rather than webs. The test: (1) Does this note represent a stage in a sequential process? (2) Do its primary connections point to adjacent phases? If yes to both, use `workflow-phase: true` to mark for threshold relaxation.
+
+**Edge case:** Filter or category notes may legitimately have fewer outgoing links because users navigate TO these notes for filtering, not FROM them for learning. In board game design, genre categories (worker placement, deck building), player count specifications, and play time categories serve as filter criteria. In e-commerce, product category pages are navigated to, not from. The test: (1) Is this note primarily used as a filter or category entry point? (2) Do users arrive here to find specific items rather than learn about a concept? If yes to both, tag with `type: filter` or `category-type: genre-filter` and apply relaxed thresholds.
+
+**Edge case:** Instance or case-study notes about specific entities (individual games, specific projects, concrete examples) may have fewer outgoing links because they are referenced BY conceptual notes, not vice versa. A note about "Catan" as a specific game links to game design concepts, but the conceptual notes (mechanics, genres) are what users explore from. The test: (1) Is this note about a specific instance rather than a general concept? (2) Does it primarily serve as an example for other notes to reference? If yes to both, track backlinks rather than enforcing outgoing link minimums.
 
 **Rule:** Every link must be explainable in one sentence — no decorative or keyword-match links.
 **Why:** Meaningless links inflate the graph without adding navigational or conceptual value.
@@ -560,9 +1183,38 @@ See also: [[Frontier Exploration - Timeline-Based Knowledge Structures]] for det
 
 **Edge case (expanded - temporal categories):** Temporal categories like seasons ("#spring", "#summer") sit in a gray area — they're both filterable facets AND navigational concepts (seasonal hub notes). Solution: (1) When temporal knowledge is a primary navigation pattern (e.g., gardening, event planning), prefer hub notes and links over tags; (2) When temporal filtering is needed alongside other facets, use tags for temporal and links for navigation; (3) For domains where both matter significantly, use both — tags enable filtering, links enable exploration.
 
+**Rule:** Capture relational knowledge as first-class content — when knowledge EXISTS in the relationship between entities (not in the entities themselves), create explicit relationship notes or structured frontmatter.
+**Why:** Knowledge about "how X relates to Y" (compatibility, conflict, synergy, trade-offs) is fundamentally different from knowledge about X or Y alone. Without explicit treatment, relational knowledge gets embedded in entity notes where it's hard to discover, verify, or maintain.
+**Test:** For domains with significant entity relationships (equipment ecosystems, software stacks, ingredient pairings): (1) Can you find explicit documentation of how entities relate? (2) Are relationships typed (works-well-with, conflicts-with, depends-on)? (3) Do relationship notes exist as atomic units, or are relationships buried in entity notes?
+**Implementation:** Choose approach based on relationship complexity:
+- **Simple relationships:** Use typed links in content ("Lens X [[works-well-with→Camera Y]]")
+- **Moderate complexity:** Use frontmatter relationships field
+- **Complex/valuable relationships:** Create dedicated atomic notes (e.g., "Lens X + Camera Y Compatibility")
+**Edge case:** Multiple relationships between same entities (works well / conflicts / optimal for different use cases) require either typed links, structured frontmatter, or separate notes. A single "they're related" link loses important nuance.
+**Edge case:** Relationship validity may change over time (products update, ecosystems evolve). Include `relationship-version:` or `last-verified:` for time-sensitive relationships.
+
 **Rule:** A note should rarely need more than 5 tags; it should link to as many notes as meaningful connections require.
 **Why:** Tags represent facets — too many dilute meaning. Links represent relationships — the right number depends on the note's connectivity.
 **Test:** Count tags on 10 random notes. Are most under 5? Do links exceed tags in quantity for well-connected notes?
+
+**Edge case (NEW - stress test 2026-03-21):** In domains with orthogonal classification dimensions (machine learning, medicine, scientific research, engineering), notes may legitimately need more than 5 tags when each tag represents a distinct orthogonal axis:
+- **Machine learning:** algorithm-type, framework, use-case, difficulty, domain, data-type (6+ distinct dimensions)
+- **Medicine:** condition-type, body-system, treatment-category, specialty, acuity, chronicity
+- **Scientific research:** methodology, domain, data-type, analysis-method, reproducibility-level
+
+The test should distinguish: (1) Are tags on different orthogonal axes? (2) Does each tag add a distinct filtering dimension? (3) Would removing any tag lose essential classification information? If yes to all, the tags are orthogonal and the 5-tag limit may be relaxed.
+
+**Tag vs. link guidance for orthogonal domains:** When tags represent orthogonal axes, prefer frontmatter fields over tags to maintain queryability without tag explosion:
+```yaml
+# Instead of multiple tags, use structured fields
+algorithm-type: neural-network
+framework: pytorch
+use-case: classification
+difficulty: intermediate
+# Use tags for simple categorical filtering only
+tags: [deep-learning, neural-networks]
+```
+**Test:** For domains with orthogonal classification needs: (1) Are orthogonal dimensions captured as frontmatter fields? (2) Are tags reserved for simple categorical membership? (3) Can you filter by any dimension without tag bloat?
 
 ---
 
@@ -696,6 +1348,33 @@ waiting-cost: high          # Rapidly changing situation
 ```
 **Edge case:** Low-stakes, reversible decisions should move fast — explicit threshold guidance prevents over-research. High-stakes, irreversible decisions warrant more caution but still need explicit thresholds to prevent infinite research.
 
+**Rule:** For spatial knowledge vaults (architecture, interior design, urban planning, geography, travel), allow deeper hierarchies when they reflect genuine geographic structure.
+**Why:** The Seed's "3 hops from root" rule may not suit spatial hierarchies where deeper is natural (city → district → neighborhood → street → building is 4+ hops but correct). Forcing spatial knowledge into 3 hops creates artificial flattening that loses geographic nuance.
+**Test:** For spatial vaults: Can you identify hierarchies that exceed 3 hops but are genuine geographic structure? Are they allowed rather than flagged as violations?
+**Edge case:** Add `spatial-type: hierarchy` frontmatter to notes in spatial hierarchies to mark them for exception from hop-count rules.
+
+**Rule:** Tag spatial knowledge with explicit scale validity — specify what spatial scale the knowledge applies at (street, neighborhood, city, region) and whether it applies at other scales.
+**Why:** Knowledge that applies at city scale may be meaningless or misleading at street scale. Without scale tagging, readers and AI agents cannot assess applicability across geographic contexts.
+**Test:** For spatial notes: (1) Is there `spatial-scale` or `scale-validity` frontmatter? (2) Can you determine what scale the knowledge applies at? (3) Does the note clarify where it does NOT apply?
+
+**Rule:** Use proximity relationship fields or notes for adjacent-location knowledge — capture "next to," "across from," "visible from," and other spatial relationships explicitly.
+**Why:** Spatial knowledge depends on adjacency and proximity. Unlike categorical relationships, proximity enables route planning and spatial reasoning that hub patterns don't explicitly support.
+**Test:** For spatial vaults: Are adjacency relationships captured as structured frontmatter (`spatial-relationships`) or explicit relationship notes?
+
+**Rule:** Tag notes with their primary access pattern and create use-case-specific entry points when access patterns diverge significantly.
+**Why:** The same knowledge may be accessed differently depending on use case (quick lookup, learning, decision-making, creative inspiration). Current Seed rules optimize for general-purpose graph traversal but don't address use-case-specific optimization. Without access pattern tagging, vaults may organize for one use case while being primarily used for another.
+**Test:** For a random sample of 10 notes: (1) Does each have `access-pattern:` frontmatter (lookup|learning|decision|inspiration|mixed)? (2) For vaults with mixed access patterns (>20% different patterns), are there use-case-specific entry points? (3) Can you identify the dominant access pattern from retrieval logs?
+**Implementation:** Use `access-pattern:` frontmatter to tag how knowledge is primarily accessed:
+- `lookup`: Quick reference, fact retrieval
+- `learning`: Understanding, building mental models
+- `decision`: Weighing options, making choices
+- `inspiration`: Creative recombination, brainstorming
+- `mixed`: Multiple patterns equally important
+For vaults with significant mixed usage, create parallel entry points optimized for different patterns (e.g., alphabetical index for lookup, learning paths for education, decision trees for choices).
+**Edge case:** Single-purpose vaults (reference only, learning only) don't need access pattern tagging — the structure naturally serves the dominant use case.
+**Edge case:** Measure before optimizing — track retrieval patterns before creating parallel structures. Creating duplicate organization for marginal use cases adds maintenance burden without proportional benefit.
+**Edge case:** Some domains naturally serve multiple use cases (recipes: lookup + learning + decision; tools: reference + comparison). For these, access pattern tagging enables appropriate presentation without structural duplication.
+
 ---
 
 ## 5. Quality Maintenance
@@ -738,6 +1417,25 @@ historical-status: archived|reference-only|deprecated
 
 See also: [[Handling Temporal Knowledge]] — Comprehensive guidance including obsolescence detection and external extinction
 
+**Rule:** Apply note maturity staging — use explicit `maturity:` frontmatter to track developmental stage and apply stage-appropriate quality standards.
+**Why:** The Seed addresses when to STOP adding new notes to topics (diminishing returns), but lacks guidance on when an individual note itself is "complete." Without maturity tracking, notes either grow indefinitely (bloat) or get abandoned mid-development (inconsistent quality). Maturity staging provides clear progression markers.
+**Test:** Can you categorize notes by maturity stage? Do most notes have a clear next developmental step?
+**Implementation:**
+```yaml
+maturity: seed  # Core definition or single insight — just created
+maturity: sprouting  # 1-3 links, basic structure, needs development
+maturity: growing  # 4+ links, examples added, connected to graph
+maturity: mature  # Comprehensive, stable, no obvious gaps
+maturity: evergreen  # Foundational, referenced widely, core reference note
+```
+**Maturity progression criteria:**
+- **Seed → Sprouting:** Has core claim + at least 1 outgoing link + basic frontmatter
+- **Sprouting → Growing:** Has 2+ outgoing links + at least 1 example or application + source cited + incoming link from at least 1 other note
+- **Growing → Mature:** Has 3+ related notes (prerequisites, applications, alternatives) + multiple examples + documented limitations + stable over 30+ days + incoming links from 2+ notes
+- **Mature → Evergreen:** Referenced as prerequisite by 5+ notes + no updates needed in 90 days + covers complete concept for vault scope + serves as primary entry point
+**Edge case:** Domain-specific maturity may differ — some domains have inherently "perpetually growing" topics where completion is never appropriate. Use `maturity: perpetual` for notes that intentionally remain open-ended.
+**Edge case:** Early-stage vaults naturally have more Seed/Sprouting notes — maturity distribution should shift toward Mature/Evergreen as vault grows.
+
 **Rule:** Never delete notes — deprecate them with a marker and a pointer to the replacement.
 **Why:** Deletion breaks incoming links silently; deprecation preserves the graph while signaling staleness.
 **Test:** Search for broken wikilinks. Are there any dead references? If yes, a deletion happened without cleanup.
@@ -756,7 +1454,7 @@ replaces:
 **Replacement types:** complete (entire note superseded), partial (specific claims updated), contextual (old applies in some contexts, new in others).
 **Distinction from deprecation:** Deprecation marks old knowledge as no longer relevant; replacement updates specific claims while preserving what remains valid.
 
-See also: [[Frontier Exploration - Active Knowledge Replacement]] for detailed exploration of this gap.
+See also: [[Handling Temporal Knowledge]] for detailed exploration of this topic.
 
 **Rule:** Track interlinked update dependencies when changing knowledge that affects multiple notes — proactively identify what else needs updating.
 **Why:** The Seed covers active replacement (Note A replaces Note B) and deprecation (Note A is stale), but not coordination — when updating Note A requires checking Notes B, C, and D for consistency. Without tracking, partial updates create silent inconsistency where some notes reflect new knowledge and others still reference the old. This is distinct from replacement: it's about ensuring all affected notes stay synchronized.
@@ -773,7 +1471,66 @@ update-dependencies:
 **Urgency levels:** required (must update before note is usable), recommended (should update for consistency), review (check if update needed).
 **Distinction from replacement:** Replacement tracks that Note A supersedes Note B. Update dependencies track that changing Note A might require changing Notes B, C, D. Use replacement when old knowledge is invalid; use update-dependencies when consistency across multiple notes is needed.
 
+**Rule (NEW - 2026-03-21):** Document at least one known limitation for every note with actionable knowledge — explicitly note where knowledge might not apply, what contextual factors change applicability, or what specific boundaries exist.
+**Why:** The Seed covers confidence levels and verification status, but doesn't explicitly require documenting specific known limitations. Actionable knowledge (advice, procedures, recommendations) that claims universal applicability when it has boundaries is misleading. Explicit limitation documentation prevents inappropriate application, accelerates verification, and builds user trust.
+**Test:** For notes with prescriptive or procedural content: Can you identify at least one context where this knowledge would NOT apply or would need modification? Can you state specific boundary values rather than vague qualifiers?
+**Implementation:** Use `limitations:` frontmatter:
+```yaml
+limitations:
+  - context: "wood thickness over 1 inch"
+    effect: "may cause splitting"
+    severity: medium
+  - context: "non-US jurisdictions"
+    effect: "legal requirements differ"
+    severity: high
+```
+**Distinction:** This is different from (1) confidence levels — confidence says "how reliable is this?", limitations say "where does this fail?", (2) verification status — verified notes can still have known limitations, (3) framework-dependent — different frameworks may both be valid in their contexts, limitations are about single notes failing in specific contexts.
+**Edge case:** When limitations are unknown, use `limitations: unknown` and prioritize testing to discover them.
+**Edge case:** Limit to top 3 most important limitations when there are many — prioritize those most likely to cause issues.
+**Edge case:** Update limitations as you learn more — initial boundaries may be too broad or too narrow. Use `limitation-history:` to track refinements.
+**See also:** [[Frontier Exploration - Known Limitations Documentation]] for detailed exploration of this gap.
+
 See also: [[Frontier Exploration - Interlinked Note Updates]] for detailed exploration of this gap.
+
+**Rule:** Handle speculative and predictive knowledge with horizon-aware verification — predictions cannot be verified using standard timeframes.
+**Why:** Standard verification assumes knowledge can be checked within days or months. Predictions about the future may take years to verify (or never). Treating predictions like regular knowledge creates unfair verification debt and misleading staleness signals.
+**Test:** For prediction notes: (1) Does `prediction-horizon:` indicate when verification becomes possible? (2) Is verification debt calculated from horizon, not capture date? (3) Can you distinguish predictions from scenarios?
+**Implementation:** Use speculative knowledge frontmatter:
+```yaml
+knowledge-type: prediction  # vs. scenario vs. projection
+prediction-horizon: 2028-12  # When verification becomes possible
+prediction-confidence:
+  methodology: data-driven|model-based|expert-opinion|intuition
+  track-record: strong|moderate|limited|unknown
+  horizon: near-term|medium-term|long-term
+  consensus-level: unanimous|majority|divergent
+verification-status: pending-resolution  # Distinct from unverified
+```
+**Distinction:** Predictions assert likely outcomes; scenarios explore possible futures. Use `knowledge-type: prediction` for forecasts, `knowledge-type: scenario` for "if-then" explorations.
+
+**Rule:** Preserve failed predictions as methodology evidence — document what was learned when predictions fail.
+**Why:** Failed predictions are valuable data about forecasting accuracy and should not be silently deleted. They provide evidence about the reliability of prediction methodologies.
+**Test:** For failed predictions: (1) Is `prediction-outcome:` documented (confirmed|failed|pending)? (2) Does it include `resolution-type:`? (3) Are lessons learned captured?
+**Implementation:**
+```yaml
+prediction-outcome: failed
+resolution-type: obsoleted-by-events|superseded-by-better-model|invalid-methodology
+lessons-learned: "What this reveals about prediction methodology"
+```
+**Why different from regular correction:** Regular correction handles facts that changed. Failed predictions document that a forecasted outcome did not occur - this is evidence about prediction methodology, not about the underlying knowledge being wrong.
+
+**Rule:** Track meta-prediction knowledge separately from specific predictions — methodology knowledge is more durable.
+**Why:** Knowledge about how to make good predictions (track records, methodology comparisons, common failure modes) is more valuable and durable than any specific prediction.
+**Test:** Can you distinguish prediction methodology knowledge (durable) from specific predictions (time-sensitive)?
+**Implementation:**
+```yaml
+meta-prediction: true
+methodology-type: statistical|expert-judgment|machine-learning|analogical
+effectiveness-evidence: "Track record data"
+best-practices: ["Practice 1", "Practice 2"]
+```
+
+See also: [[Frontier Exploration - Speculative and Predictive Knowledge]] — Detailed exploration of prediction handling
 
 **Rule:** Terminology must be consistent across the vault — pick one term per concept and use it everywhere.
 **Why:** Inconsistent terminology fragments search results and confuses navigation.
@@ -781,6 +1538,15 @@ See also: [[Frontier Exploration - Interlinked Note Updates]] for detailed explo
 **Edge case:** Distinct terms that seem like synonyms actually refer to different things — e.g., "sauté" vs "pan-fry" vs "stir-fry" are different techniques; "stock" vs "broth" differ by bone/meat and simmer time; "bell pepper" vs "capsicum" are regional variants of the same vegetable. The test: (1) Do the terms refer to genuinely different techniques/ingredients? (2) Are both regional variants valid and useful? If yes to either, allow both with appropriate context (e.g., note the regional variant in parentheses).
 **Edge case:** Technical vs common terminology — different audiences may need different terms (e.g., "fond" for experts, "brown bits" for beginners). Consider creating a definition note linking both terms.
 **Edge case:** Historical or classical terms — classical cuisine uses French terms (julienne, mise en place) that may need plain-language equivalents. Document both with a redirect if needed.
+
+**Edge case (compliance audit 2026-03-20, UPDATED 2026-03-20):** Lifecycle field values should use standardized terms. Acceptable values:
+- `evergreen` — permanent, long-lived knowledge that remains relevant
+- `transient` — time-limited or ephemeral content
+- `seed-extension` — notes that extend Seed rules (protected status)
+- `living` — continuously updated documents with review-cadence
+- `historical` — knowledge about past events or completed topics
+- `perpetual-beta` — knowledge domains that inherently resist completion
+- For staging statuses, use `status:` field instead (whisper|draft/probe)
 
 **Rule:** Run structural health checks regularly — orphan scan, broken link scan, hub distribution, oversized note scan.
 **Why:** Problems accumulate silently; periodic scans catch issues before they compound.
@@ -803,8 +1569,8 @@ See also: [[Frontier Exploration - Interlinked Note Updates]] for detailed explo
 **Test:** For each note: (1) Can you articulate why the current confidence level is appropriate? (2) What evidence would upgrade it? (3) What evidence would downgrade it?
 **Initial confidence calibration:**
 - `confidence: high` — Authoritative primary sources with clear verification path, personally verified multiple times
-- `confidence: medium` — Reputable sources, or personal experience without explicit verification, established consensus in field
-- `confidence: low` — Uncertain sources, AI-generated without verification, theoretical speculation, single anecdotal source
+- `confidence: emerging` — Reputable sources, or personal experience without explicit verification, established consensus in field
+- `confidence: emerging` — Uncertain sources, AI-generated without verification, theoretical speculation, single anecdotal source
 - `confidence: emerging` — New knowledge with no track record (replaces "unverified" for non-procedural content)
 **Domain-specific floors:** Medical/legal/financial require `medium` floor (require human expert for `high`); personal opinions default to `low` with explicit perspective tagging.
 **Confidence adjustment:** Track adjustment events separately from review dates. Each significant use, verification attempt, or failure should potentially adjust confidence.
@@ -871,12 +1637,34 @@ consensus-scope: global|regional|disciplinary
 - Framework-dependent: Legitimate pluralism (multiple valid approaches) vs. factual disagreement
 **Temporal tracking:** Consensus can shift. For knowledge that was once mainstream but is now debated (or vice versa), use `consensus-history:` to track changes.
 
+**Rule (NEW - 2026-03-21):** Classify knowledge by source type in domains with distinct source hierarchies — distinguish primary sources (original documents/observations), secondary sources (analysis/interpretation), and tertiary sources (compilations/summaries).
+**Why:** Source type affects authority and verification approach differently than source reliability. In legal (case law vs. law review articles), academic (primary research vs. meta-analyses), and historical (original documents vs. histories) domains, source type determines how knowledge should be weighted. Without explicit classification, AI agents cannot apply domain-appropriate evaluation criteria.
+**Test:** For notes in domains with source hierarchies: (1) Can you identify the source type (primary/secondary/tertiary)? (2) Does frontmatter include `source-type:`? (3) Does the classification affect how you verify the knowledge?
+**Implementation:** Use `source-type:` frontmatter with domain-specific values:
+```yaml
+# General
+source-type: primary  # Original observation, data, or document
+source-type: secondary  # Analysis, interpretation, or synthesis
+source-type: tertiary  # Compilation, summary, or reference
+
+# Legal specific (optional extension)
+source-type: primary-legal  # Constitution, statute, regulation, case law
+source-type: secondary-legal  # Law review, treatise, restatement
+source-type: tertiary-legal  # Encyclopedia, practice guide
+
+# Academic specific (optional extension)
+source-type: empirical  # Primary research data
+source-type: review  # Systematic review or meta-analysis
+source-type: theoretical  # Framework or model development
+```
+**Distinction from source-reliability:** `source-reliability` answers "is this source trustworthy?" while `source-type` answers "what kind of source is this?" Both are orthogonal dimensions — a primary source can be low reliability (biased observer) and a tertiary source can be high reliability (well-edited encyclopedia).
+
 **Rule:** Track retrieval patterns to understand actual knowledge usage — capture search queries, access frequency, and retrieval success.
 **Why:** A knowledge base's value is proven through retrieval, not storage. Without tracking retrieval patterns, capture decisions lack evidence. Failed searches reveal gaps; frequent access reveals value.
 **Test:** Can you list your top 10 retrieval queries? Do they align with your highest-quality notes? Do failed searches drive capture decisions?
 **Implementation:** Use retrieval logging: query terms, whether results were found, which notes were accessed, whether retrieved knowledge was sufficient. Review monthly to align capture priorities with actual usage.
 
-See also: [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] for implementation strategies.
+See also: [[Frontier Exploration - Knowledge Base Utility Assessment]] for implementation strategies.
 
 **Rule:** Capture meta-knowledge about your knowledge management process — document capture methods, organizational decisions, personal knowledge patterns, and contextual reasoning.
 **Why:** Process knowledge compounds — lessons learned about building a vault are more valuable than any single note. Without capturing meta-knowledge, you repeat mistakes and lose institutional knowledge about what works. An AI building a knowledge base from scratch needs guidance on how to capture knowledge about the knowledge management process itself.
@@ -888,7 +1676,7 @@ See also: [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracki
 - For contextual-decision: `constraints:`, `trade-offs-accepted:`, `rationale:`
 **Edge case:** Separate process guidance (advice you'd give others) from process description (what actually happened). Tag with `meta-type: personal|preference|transferable-insight`.
 
-See also: [[Frontier Exploration - Meta-Knowledge About Knowledge Management]] — Extended exploration of meta-knowledge capture
+See also: [[Frontier Exploration - Vault-Process Meta-Knowledge]] — Comprehensive implementation guide for vault-process meta-knowledge capture
 
 **Rule:** No note should have zero backlinks — every note should be linked to from at least one other note.
 **Why:** Notes with no incoming links are invisible in the graph and cannot be discovered through navigation. They represent knowledge that exists but isn't connected to the broader structure.
@@ -929,6 +1717,25 @@ See also: [[Frontier Exploration - Knowledge Base Version Control and Change Tra
 **Implementation:** Use `domain-familiarity: assessed` (AI has verified understanding), `domain-familiarity: learning` (AI is learning), or `domain-familiarity: unknown` (domain is unfamiliar).
 **Edge case:** In high-stakes domains (medical, legal, financial), require explicit human expert verification regardless of AI familiarity. Use `verification-required: human-expert` for safety-critical content.
 
+**Rule (NEW - 2026-03-21):** For knowledge domains with safety implications, explicitly identify and flag critical thresholds where crossing the boundary changes the answer from safe to dangerous.
+**Why:** Safety-critical knowledge requires different treatment than general knowledge. Unlike general confidence (which is about source reliability), safety-critical knowledge has objective danger zones where "mostly correct" = "potentially harmful." Users need to know: (1) What the exact threshold is, (2) What happens when crossed, (3) That interpolation/approximation is NOT acceptable.
+**Test:** For notes in safety-related domains: (1) Can you identify any numerical thresholds where safety depends on meeting or exceeding? (2) Does the note present thresholds as exact boundaries, not ranges? (3) Is there explicit warning when interpolation would be dangerous? (4) Is the verification standard higher than general knowledge (expert source, authoritative standard)?
+**Implementation:** Use frontmatter:
+```yaml
+safety-critical: true
+threshold-type: temperature|load|exposure|chemical|electrical|pressure
+exact-threshold: "40°F or below"
+safety-margin: "Add 5°F buffer for uncertainty"
+interpolation-acceptable: false
+verification-standard: authoritative-source
+danger-consequence: "foodborne-illness"
+```
+**Edge case:** Some safety thresholds vary by jurisdiction (electrical codes, food safety regulations). Tag with `jurisdiction:` and note that standards may differ regionally.
+**Edge case:** Safety margins are NOT the same as thresholds — the threshold is the hard limit, the margin is a buffer for uncertainty. Document both separately.
+**Edge case:** Presenting thresholds as ranges ("cook to 160-165°F") is dangerous — specify the minimum threshold and warn against treating the lower bound as acceptable.
+
+See also: [[Frontier Exploration - Safety-Critical Knowledge Thresholds]] for detailed exploration of this gap.
+
 See also: [[Frontier Exploration - Building Knowledge Bases in Unfamiliar Domains]] for strategies when the AI doesn't understand the topic.
 
 **Rule:** AI-generated content must have at least one spot-verified source before marking as verified.
@@ -942,9 +1749,32 @@ See also: [[Frontier Exploration - Building Knowledge Bases in Unfamiliar Domain
 **Rule:** For interpretive knowledge (judgment, taste, evaluation), notes must clearly identify the perspective/framework being applied.
 **Why:** Interpretive knowledge is inherently perspective-dependent. Without explicit perspective-tagging, readers and AI agents cannot distinguish subjective judgment from objective fact.
 **Test:** For notes containing evaluative judgments: (1) Is there an `interpretive-type:` field? (2) Does the note specify what framework or perspective the judgment comes from? (3) Are alternative interpretations acknowledged?
-**Edge case:** Personal taste notes should be tagged `interpretive-type: personal-opinion` with `confidence: subjective`. Professional consensus should note "generally regarded as..." with source.
+**Edge case:** Personal taste notes should be tagged `interpretive-type: personal-opinion` with `confidence: emerging`. Professional consensus should note "generally regarded as..." with source.
 
 **Edge case:** Some interpretive knowledge has professional consensus (sommelier ratings, architectural awards). Mark these as "consensus" rather than purely subjective — the perspective is "professional community."
+
+**Rule:** For sensory and aesthetic domains (cooking, wine, coffee, photography, fashion, music), capture personal taste calibration explicitly — express preferences in domain-specific terms, track evolution over time, and link to exploration guidance.
+**Why:** "I like X" provides no actionable knowledge; "I prefer X over Y for reason Z, with evolution tracked from previous state" enables informed decision-making. Without explicit calibration, taste knowledge becomes noise that doesn't guide future choices.
+**Test:** For taste-relevant domains: (1) Are preferences expressed in domain-specific terminology (not just "good/bad")? (2) Is taste evolution tracked over time? (3) Does calibration guide what to explore next?
+**Implementation:** Use frontmatter:
+```yaml
+taste-calibration: true
+domain: cooking  # or wine, coffee, photography, etc.
+specific-qualities: ["full body", "low acidity", "roasted not bright"]
+preference-strength: strong|moderate|evolving
+context-dependency: none|conditional
+taste-history:
+  - date: 2024-01
+    position: "Preferred light roast"
+  - date: 2025-06
+    position: "Now prefer medium roast"
+    trigger: "Palate development"
+exploration-guidance:
+  try-next: ["Single-origin Ethiopian"]
+  avoid: ["Extra dark roast"]
+```
+**Edge case:** Aspirational taste (what you want to like) should be tracked separately from current calibration. Distinguish "training my palate" from "current preference."
+**Edge case:** Group taste (family, household) requires separate calibration with explicit subject tagging.
 
 **Rule:** Add multi-perspective structure when knowledge genuinely benefits from multiple complementary viewpoints.
 **Why:** Some knowledge is richer when viewed from multiple valid angles (historical events, technical decisions, personal experiences). This is distinct from contradictory sources (where one view is wrong) and interpretive knowledge (where judgment differs). Without explicit multi-perspective tagging, readers and AI agents may assume a single view is complete when additional perspectives would add value.
@@ -974,6 +1804,22 @@ scope-limitations: ["who this does NOT apply to"]
 **Rule:** Distinguish information from advice — information describes how things work; advice recommends a specific course of action.
 **Why:** Information (describing how tax codes work) and advice (you should contribute to a 401k) have different implications. The same knowledge can be presented as either. A knowledge base should be intentional about which it's providing.
 **Test:** For each note: Can you categorize it as (1) information only, (2) advice/recommendation, or (3) analysis applying principles to a situation? Does the presentation match the category?
+
+**Rule:** For interpersonal and social skill knowledge (negotiation, conflict resolution, persuasion, relationship dynamics), include ethical-dimension and cultural-scope tagging.
+**Why:** Social skill knowledge has unique properties that break generic rules: it's actor-participant dynamic (people have agency), culturally specific, and has ethical dimensions (techniques can be manipulative). Without explicit tagging, AI agents cannot assess appropriateness or potential harm.
+**Test:** For notes about influencing others, navigating relationships, or social dynamics: (1) Does it include `ethical-dimension:` (neutral|questionably-ethical|concerning)? (2) Does it specify `cultural-scope:`? (3) Is it marked as descriptive vs. prescriptive? (4) Does it default to lower confidence given high variability?
+**Implementation:** Use fields:
+```yaml
+ethical-dimension: neutral  # generally accepted behavior
+ethical-dimension: questionably-ethical  # exploits psychological biases
+ethical-dimension: concerning  # could cause emotional harm
+cultural-scope: universal|western|eastern|collectivist|individualist
+knowledge-type: descriptive  # how people typically behave
+knowledge-type: prescriptive  # what you should do
+knowledge-type: conditional  # what works IF certain conditions hold
+```
+**Edge case:** Relationship-specific advice (about a specific person) differs from general social skills — use `subject:` field per existing rules.
+**Edge case:** Power dynamic sensitivity — add `power-dynamic: upward|downward|lateral` for knowledge about influencing those with more/less/same power.
 
 **Rule:** Use attention priority tags to surface notes needing review — separate critical/high/medium/low based on decay rate and value.
 **Why:** Without attention signals, all notes are treated equally, causing stale knowledge to accumulate and high-value notes to receive insufficient maintenance. Notes need explicit prioritization to focus review effort.
@@ -1051,6 +1897,57 @@ overflow-indicators:
 **Rule:** Use compliance disclaimer layering — distinguish what the law requires, what manufacturers claim, and what practical protection provides.
 **Why:** "This product meets safety standards" (legal compliance) differs from "This product is safe" (practical). Conflating them misleads readers about actual protection.
 **Test:** Can you separate legal compliance from practical safety from marketing claims? Use `compliance-layer:` frontmatter to distinguish.
+
+**Rule:** Track personal experience separately from source verification — distinguish knowledge you've actually lived through from knowledge collected from external sources.
+**Why:** Knowing a source is accurate (verification) is different from having personally experienced the knowledge. A note can pass all quality checks and still misrepresent what you actually know or have done. The gap between "vault knowledge" and "personal knowledge" grows silently, leading to false expertise claims and advice you shouldn't give.
+**Test:** For notes containing personal claims ("I learned", "I tried", "my experience"): (1) Is there `personally-experienced:` frontmatter? (2) Can you distinguish theory-only knowledge from practiced knowledge? (3) What is your personal knowledge ratio (personally-experienced / total experience claims)?
+**Implementation:** Use frontmatter:
+```yaml
+personally-experienced: true|false
+experience-count: number
+last-practiced: YYYY-MM-DD
+experience-tier: theory-only|tried-once|practiced|mastered
+```
+
+**Rule:** Conduct periodic personal knowledge audits — compare what the vault contains against what you actually know, have experienced, or have verified through action.
+**Why:** The gap between vault knowledge and personal knowledge accumulates silently. Notes about topics you've never practiced create false expertise. Regular audits keep the vault honest about what you actually know.
+**Test:** (1) Can you calculate a personal knowledge ratio? (2) Do you have a process to identify theory-only knowledge? (3) When did you last audit what you actually know vs. what you've collected?
+
+**Rule:** Mark expertise claims with self-assessment — notes that imply skill level should include explicit self-evaluation.
+**Why:** Notes claiming "advanced", "expert", or "mastery" need self-assessment to prevent false expertise. What you wrote about a topic and what you can actually do may differ. Without explicit self-assessment, the vault creates an illusion of competence you don't have.
+**Test:** For notes implying expertise: (1) Is there self-assessed level? (2) Can you defend that level with evidence? (3) Would a colleague agree with your self-assessment?
+**Implementation:** Use frontmatter:
+```yaml
+self-assessed-level: beginner|intermediate|advanced|expert
+evidence: "What proves this level"
+last-assessed: YYYY-MM-DD
+```
+
+**Rule:** Define explicit success metrics beyond structural health — track usage engagement, outcome achievement, and value attribution.
+**Why:** Structural metrics (graph density, orphan rates, verification ratio) measure organization quality, not usefulness. A perfectly organized vault that no one uses provides no value. Without outcome metrics, you cannot distinguish between a vault that's structurally pristine but practically useless versus one that genuinely serves its purpose.
+**Test:** (1) Can you state what outcomes the vault should achieve? (2) Do you track usage engagement (access frequency, search success, time-to-answer)? (3) Can you attribute decisions or outcomes to vault knowledge? (4) Do you compare vault performance to alternatives (web search, memory alone)?
+**Implementation:** Define success criteria based on vault purpose:
+- Learning vault: Can users trace learning paths? Complete progressions?
+- Reference vault: Can users find what they need in <3 clicks? High search success?
+- Creative vault: Does the vault inspire new connections? Successful synthesis?
+- Decision support vault: Do notes contain actionable guidance? Documented decisions?
+Track metrics:
+```yaml
+success-metrics:
+  purpose: "Primary vault purpose"
+  outcome-targets:
+    - metric: "What to measure"
+      target: "Desired value"
+  usage-tracking:
+    access-frequency: true
+    search-success: true
+    time-to-answer: true
+  value-attribution:
+    track-decisions: true
+    compare-alternatives: true
+```
+**Edge case:** New vaults (<50 notes) may not have enough usage data for meaningful outcome metrics — focus on structural health during construction, add outcome tracking after transition to maintenance mode.
+**Edge case:** Privacy-sensitive vaults (personal journals, health records) may not track usage — use aggregate patterns rather than individual access logs.
 
 ## 5b. Edge Cases and Exceptions
 
@@ -1137,6 +2034,15 @@ expected-answer-form: boolean|quantitative|qualitative
 **Why:** Including unprocessed or unverified knowledge in decisions risks poor outcomes. Retrieval should respect activation state to ensure knowledge applied is actually ready.
 **Test:** Can you filter vault queries by activation state? Do decision-support queries exclude captured/processed knowledge?
 
+**Rule:** For domains with distinct knowledge modalities (how knowledge is used), tag notes with `knowledge-modality:` to distinguish use cases.
+**Why:** Generic procedural/conceptual distinction fails when the same domain has multiple valid use cases requiring different structuring. In music (performance vs. analysis vs. composition), medicine (diagnosis vs. prognosis vs. treatment), or engineering (theory vs. practice), the same underlying knowledge serves different purposes that require different organization approaches.
+**Test:** For domain-specific notes: (1) Can you identify which modality this knowledge serves? (2) Does the note include `knowledge-modality:` field? (3) Are different modalities structured appropriately for their use case?
+**Implementation:** Use `knowledge-modality:` frontmatter with domain-appropriate values:
+- Music: `performance` (how to execute), `analysis` (understanding existing works), `compositional` (how to create), `hybrid`
+- Medicine: `diagnosis` (identifying conditions), `prognosis` (predicting outcomes), `treatment` (intervention selection), `hybrid`
+- Engineering: `theoretical` (principles), `practical` (implementation), `design` (creation), `hybrid`
+**Why it matters:** Performance knowledge is sequential and physical; analytical knowledge is hierarchical and comparative; compositional knowledge is creative and principle-based. Without distinguishing modalities, the vault can't serve different use cases effectively.
+
 **Rule:** For condition-triggered knowledge, include explicit `activation-conditions` frontmatter specifying what state must be true for this knowledge to apply.
 **Why:** Knowledge that becomes relevant based on specific conditions (market regimes, seasonal states, emergency types) differs fundamentally from time-based knowledge. Without explicit condition tracking, AI agents cannot determine which knowledge is relevant to the current context. Condition-triggered knowledge that's never evaluated against conditions becomes invisible — users can't find what they need when they need it.
 **Test:** For condition-triggered notes: (1) Is there `activation-conditions:` frontmatter? (2) Can you identify the states that must be true? (3) Is there a mechanism to evaluate current state against conditions?
@@ -1200,6 +2106,21 @@ context-conditions:
 ```
 
 See also: [[Frontier Exploration - Context-Gated Knowledge]] for detailed exploration of this frontier.
+
+**Rule:** Tag geographically-constrained knowledge with explicit `geographic-scope` frontmatter — knowledge that applies only in specific geographic regions must specify where it applies.
+**Why:** Geographic constraints affect whether knowledge is applicable at all. Building codes, climate-dependent practices, local regulations, and regional customs vary fundamentally by location. Without explicit scope, AI agents cannot assess applicability and may apply incorrect knowledge to the wrong context.
+**Test:** For knowledge with geographic constraints: (1) Is `geographic-scope:` specified in frontmatter? (2) Does it include the type of constraint (regulation, climate, cultural, ecological)? (3) Are specific regions listed where knowledge applies? (4) Is there a separation between universal principles and region-specific implementations?
+**Edge case:** When knowledge has universal principles that apply everywhere but region-specific implementations, tag the note with both `geographic-scope: universal` for principles and create region-specific variants for implementations.
+**Implementation:** Use frontmatter:
+```yaml
+geographic-scope:
+  type: regulation|climate|cultural|ecological|species
+  regions: ["US", "EU", "UK"]  # or specific: ["California", "Mediterranean"]
+  scope-type: universal|regional|local
+```
+**Distinction:** This is distinct from context-gated knowledge (which covers broader context types) — geographic-scope specifically handles location-based applicability constraints. Use context-gate for non-geographic contexts; use geographic-scope specifically for location-based constraints.
+
+See also: [[Frontier Exploration - Geographically-Constrained Knowledge]] for detailed exploration of this frontier.
 
 **Rule:** Process incoming knowledge into atomic notes within 48 hours.
 **Why:** Unprocessed captures degrade in value as context fades; a growing inbox signals a broken pipeline.
@@ -1342,6 +2263,30 @@ place-type: restaurant|trail|viewpoint|venue|service|general
 
 See also: [[Frontier Exploration - Place-Specific Verification Knowledge]] — Detailed exploration of this gap
 
+**Rule:** For recognition-dependent knowledge (visual patterns, audio identification, diagnostic visuals), organize as training sets with multiple linked examples rather than standalone definitions.
+**Why:** Pattern recognition knowledge (identifying species, celestial objects, medical conditions, audio samples) requires exposure to multiple instances to form the mental pattern. A text definition alone is insufficient; the knowledge exists in the pattern formed by seeing/hearing examples. Without example linking, recognition knowledge becomes incomplete and unusable.
+**Test:** For notes tagged `knowledge-type: recognition`: (1) Can you find 3+ example instances in the vault or external references? (2) Is each example tagged with distinguishing features? (3) Are examples linked from the principle note? (4) Can a reader form a mental pattern from the available examples?
+**Edge case:** Example quality matters more than quantity — 5 high-quality, diverse examples with clear annotations beat 20 random images. Include metadata about each example (viewing conditions, distinguishing marks, common confusions).
+**Edge case:** For domains with established reference libraries (mushroom databases, bird call archives, star charts), link to external resources rather than duplicating. Use `example-sources:` frontmatter to document external reference quality.
+**Implementation:** Use fields:
+```yaml
+knowledge-type: recognition
+example-count: 5
+example-sources:
+  - name: "Audubon Society Bird Database"
+    url: "https://..."
+    quality: authoritative
+distinguishing-features:
+  - "Feature 1 that distinguishes from similar"
+  - "Feature 2"
+common-confusions:
+  - species: "Similar-looking species"
+    how-to-distinguish: "Key difference"
+```
+**Distinction from standard knowledge:** Recognition knowledge differs from conceptual knowledge because the "knowing" is in pattern matching, not proposition recall. A radiologist doesn't recall "tumor looks like X" — they pattern-match against thousands of examples. The Seed must accommodate this different knowledge type.
+
+See also: [[Frontier Exploration - Multi-Modal Knowledge]] — Extended exploration of visual, audio, and video knowledge capture
+
 **Rule:** Tag institutional knowledge with explicit scope — include `institutional-scope:` identifying the organization and `review-trigger:` for organizational changes.
 **Why:** Institutional knowledge (unwritten rules, internal processes, org-specific context) is high-value but perishable. It can mislead when treated as universal truth or when it persists beyond organizational validity. Tagging enables appropriate skepticism and timely refresh.
 **Test:** For notes describing how organizations work internally: (1) Does frontmatter identify which organization? (2) Is there a review-trigger for leadership changes, restructurings, or mergers? (3) Can you verify this knowledge is still accurate?
@@ -1428,6 +2373,19 @@ knowledge-layer: work|element|interpretation  # fiction-specific layers
 ```
 **Edge case:** Canonical works that have been public for decades (Shakespeare, Greek myths) may not need spoiler tags — use judgment based on whether new readers still encounter the work fresh.
 **Edge case:** Character hubs are distinct from theme hubs — characters are entities, themes are abstract concepts. Both need different linking patterns.
+
+**Rule (NEW - 2026-03-21):** For narrative and fiction knowledge bases, distinguish showing from telling with `narrative-mode` frontmatter.
+**Why:** The showing/telling distinction is fundamental to narrative craft. "She was angry" (telling) and "Her hands trembled..." (showing) represent fundamentally different knowledge types. Treating all story knowledge as equivalent loses critical craft knowledge about how to render experience vs. state facts.
+**Test:** For notes about story craft: (1) Does this describe what happens (telling) or how to make readers experience (showing)? (2) Is the mode explicit in frontmatter? (3) Does the note include rendering technique if showing?
+**Implementation:** Use frontmatter:
+```yaml
+narrative-mode: showing|telling|hybrid|experimental
+narrative-function: exposition|characterization|setting|action|theme
+rendering-technique: physical-reaction|dialogue|scene|dream-flashback|sensory-detail|etc
+```
+**Edge case:** Some telling is intentional — backstory dumps, summary passages, author intrusion. Tag these as `narrative-mode: telling` but with `intentional: true` to distinguish from unintentional telling.
+**Edge case:** Literary fiction often plays with showing/telling boundaries. Tag experimental approaches with `narrative-mode: experimental` and include `framework:` for the specific approach.
+**Edge case:** Genre conventions differ — literary fiction favors showing; genre fiction often uses more telling for pacing. Include `genre-context:` field to specify applicable conventions.
 
 **Rule:** For safety-critical procedural knowledge, include explicit contra-indication sections documenting what NOT to do.
 **Why:** Safety-critical knowledge where errors cause harm needs explicit warnings alongside positive instructions. Without contra-indications, users may apply correct techniques in incorrect contexts.
@@ -1522,7 +2480,7 @@ verification-requires: "hands-on demonstration" or "expert assessment"
 - Sports: "Feel for the ball - physical coordination and timing"
 - Wildlife: "Birding by ear - identifying species from calls and songs"
 
-See also: [[Seed Gap - Music Composition Knowledge Bases]] — Domain-specific exploration of tacit knowledge in music
+See also: [[Seed Gaps - Domain-Specific Extensions]] — Domain-specific exploration of gaps in music composition, finance, education, tax, language learning, and workshop crafts
 
 **Rule:** For domains with competing methodological approaches, use framework-hub pattern with explicit assumptions documentation.
 **Why:** Different approaches (survival philosophies, trading strategies, teaching methods) represent different assumptions, not right/wrong. Without explicit framework tagging, users cannot determine which approach applies to their situation.
@@ -1579,7 +2537,7 @@ knowledge-modalities:
 **Edge case:** Some knowledge appears multi-modal but is actually text-representable (describe the sound of a chord in text). The test: Can the core knowledge be understood from text alone? If yes, media is enhancement. If no, media is required.
 **Edge case:** When media is required but unavailable, capture partial text knowledge with explicit `knowledge-modalities: [text, visual]` and note that visual is pending.
 
-See also: [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Detailed exploration of this frontier gap
+See also: [[Frontier Exploration - Multi-Modal Knowledge]] — Detailed exploration of this frontier gap
 
 **Rule:** Match note structure to primary purpose — distinguish reference notes (optimized for retrieval) from explanatory notes (optimized for understanding).
 **Why:** Reference notes (look up when needed) and explanatory notes (read to understand) have conflicting structural needs. A note optimized for retrieval may be poorly structured for learning, and vice versa.
@@ -1604,6 +2562,21 @@ See also: [[Frontier Exploration - Explanatory Knowledge Structure]] — Detaile
 - [[Seed Stress Test - Cooking Knowledge Base]] — Testing experiential knowledge and diminishing returns in culinary domains
 - [[Seed Stress Test - Philosophy Knowledge Base]] — Testing humanities concepts and contested knowledge
 - [[Frontier Exploration - Fashion and Clothing Knowledge Bases]] — Testing dual-nature technical + aesthetic knowledge
+- [[Seed Stress Test - Woodworking Knowledge Base]] — Testing craft knowledge and embodied learning
+- [[Seed Stress Test - Martial Arts Knowledge Base]] — Testing sequential-skill and physical practice domains
+- [[Seed Stress Test - Chemistry Knowledge Base]] — Testing scientific research knowledge
+- [[Seed Stress Test - Audio Engineering Knowledge Base]] — Testing technical-aesthetic hybrid domain
+- [[Seed Stress Test - Construction Phase Model in Music Composition]] — Testing construction phase in creative domains
+- [[Seed Stress Test - Cryptocurrency Knowledge Base]] — Testing rapidly-evolving technical domains
+- [[Seed Stress Test - Fitness Knowledge Base]] — Testing individual variation in health domains
+- [[Seed Stress Test - Podcasting Knowledge Base]] — Testing media production knowledge
+- [[Seed Stress Test - Knowledge Debt Rule in Woodworking]] — Testing knowledge debt in craft domains
+- [[Seed Stress Test - Link Density Rule in Coffee Brewing]] — Testing link density in consumable knowledge
+- [[Seed Stress Test - Staging Rule in Cooking Domain]] — Testing staging in experiential domains
+- [[Seed Stress Test - Source Reliability vs Verification in Medical Domain]] — Testing source reliability in high-stakes domains
+- [[Seed Stress Test - 5-1 Ratio Across Domains]] — Testing 5:1 ratio across multiple domains
+- [[Stress Test - Decision Threshold Rule in Emergency Medicine]] — Testing decision thresholds in critical domains
+- [[Frontier Exploration - Showing vs Telling in Narrative Knowledge Bases]] — Identifying gap in narrative craft knowledge organization
 
 **Rule:** Distinguish linear-sequential knowledge from iterative-evaluative knowledge — capture process type in frontmatter.
 **Why:** Linear-sequential knowledge has a fixed order (history, recipes); iterative-evaluative knowledge has decision loops where next steps depend on evaluating current state (composition, design, writing). Treating loops as sequences misrepresents the knowledge and makes it unusable.
@@ -1901,6 +2874,33 @@ The test: For advice with absolute language (always/never/don't), can you identi
 **Edge case:** Create constraint-aware hub notes for common situations: "Quick Meals (Under 30 min)", "Budget Cooking (Under $10/day)", "No-Oven Recipes". These hubs aggregate approaches that work within specific constraints.
 **Edge case:** Constraints differ from expertise-level: a time constraint affects what approach is valid regardless of skill level. A 5-minute recipe isn't "beginner" — it's "time-constrained."
 
+**Rule (NEW - 2026-03-23):** For knowledge domains where beginner advice CONTRADICTS expert advice, include expertise-level transition guidance — document when to transition, how to validate readiness, and who should stay at beginner level by design.
+**Why:** Some domains have "inverted" advice where what works for beginners is the opposite of what works for experts (investing: diversify broadly vs. concentrate positions; chess: don't trade pieces vs. trade when ahead). Without transition guidance, learners either stay too long at beginner advice (missing upside) or transition too early (causing losses). The Seed handles expertise-level tagging but not the transition between levels.
+**Test:** For advice with `contradicts-expertise-level`: (1) Is there `transition-criteria` explaining when to move up? (2) Is there `transition-validation` with readiness indicators? (3) Is there guidance for people who should NOT transition? (4) Are contested inversions flagged with `inversion-stability: contested`?
+**Implementation:** Use frontmatter for transition guidance:
+```yaml
+expertise-level: novice|learning|competent|expert  # expand beyond beginner/intermediate/advanced
+expertise-trajectory: acquiring|consolidating|maintaining
+contradicts-expertise-level: expert
+transition-criteria:
+  readiness-indicators:
+    - "Can explain why expert advice differs from beginner"
+    - "Has track record of following own strategy"
+    - "Can articulate downside of expert approach"
+  minimum-time: 12  # months at current level before considering
+  warning-signs:
+    - "Applying expert tactics without understanding failure modes"
+should-transition: true|false  # false for intentional beginners
+intentional-reason: "Personal preference|risk tolerance|time constraints"
+inversion-stability: stable|contested|contextual
+# stable: inversion is well-established
+# contested: experts disagree on whether inversion exists  
+# contextual: depends on external factors (market, audience)
+```
+**Expanded taxonomy:** Use 4 levels instead of 3: novice (following instructions), learning (understanding why), competent (executing independently), expert (customizing/improvising).
+**Contested inversions:** When experts themselves disagree on whether advice inverts, tag with `inversion-stability: contested` and include both perspectives.
+**Distinction from difficulty:** Difficulty means complexity to understand; expertise-level means appropriate audience. A difficult note may be appropriate for novices if they're motivated; an easy note may be inappropriate for experts if it wastes their time.
+
 **Rule:** For knowledge where multiple constraints interact (time + budget + skill + equipment), create intersection notes capturing the emergent solution space, not just the union of constraint-specific knowledge.
 **Why:** Single-constraint hubs miss interaction effects. A student who is both time-poor AND budget-constrained needs different advice than either constraint alone would suggest. The combination creates emergent requirements that no single constraint predicts.
 **Test:** For a domain with constraints A, B, C: Can you identify notes addressing A+B, B+C, A+C, AND A+B+C? If only single-constraint notes exist, the interaction space is unexplored.
@@ -1919,6 +2919,28 @@ participant-count: any  # universal
 ```
 **Edge case:** Some knowledge applies at all counts but is MORE important at certain counts. Use `participant-count-relevance: primary|secondary|universal` to distinguish.
 **Edge case:** This is distinct from expertise-level — a 2-player game can be played at beginner or expert level; both dimensions matter.
+
+**Rule:** For domains where advice ranges from general education to personalized recommendations, tag with advisory-level to help readers understand appropriate usage.
+
+**Why:** Knowledge that tells you "what to do" differs in its appropriate use. General educational content can be freely applied by anyone. Planning guidance requires some personal context. Personalized recommendations require individual assessment that shouldn't be applied without professional guidance. Without explicit advisory-level tagging, readers may inappropriately apply general education as if it were personalized advice, or dismiss personalized advice as too specific to be useful.
+
+**Test:** For advice-type notes: Can you categorize each as (1) general-education (universally applicable principles), (2) planning-guidance (frameworks requiring some context), or (3) personalized-advice (requires individual assessment)? Do high-stakes domains (finance, health, legal) include appropriate disclaimers?
+
+**Implementation:** Use frontmatter:
+```yaml
+advisory-level: general-education  # universal principles, anyone can apply
+advisory-level: planning-guidance  # frameworks needing personal context
+advisory-level: personalized-advice  # requires individual assessment
+```
+**Distinction from expertise-level:** Advisory-level addresses HOW to use knowledge (conservative vs. aggressive application), while expertise-level addresses WHO can understand it (beginner vs. advanced). "Don't trade stocks" is general education; "use value investing" is planning guidance; "buy Apple at current price" is personalized advice.
+
+**Distinction from verification-status:** Advisory-level addresses appropriateness of application, not correctness of content. A verified note can still be general education, planning guidance, or personalized advice.
+
+**See also:** [[Frontier Exploration - Advisory Level in Knowledge Bases]] — Detailed exploration of this gap
+
+---
+
+*This rule was added based on findings from the Financial Advisory Level Distinction Seed Gap (Domain 1, Gap 1.1) in [[Seed Gaps - Domain-Specific Extensions]].*
 
 **Guidance: When to Split vs. Tag**
 
@@ -1959,9 +2981,9 @@ When handling jurisdiction or region-dependent knowledge, choose between creatin
 
 **Rule:** Notes with `confidence: high` should have `last-reviewed` within a domain-appropriate timeframe — legal (6 months), scientific (12 months), general (12 months).
 **Why:** High confidence without recent review can be misleading; knowledge may have evolved since last review. Domain-appropriate intervals reflect how quickly knowledge changes in each field.
-**Test:** For notes with confidence: high: (1) Is last-reviewed within the appropriate timeframe? (2) If older, downgrade to confidence: emerging until re-reviewed?
+**Test:** For notes with confidence: high (1) Is last-reviewed within the appropriate timeframe? (2) If older, downgrade to confidence: emerging until re-reviewed?
 
-**Rule:** For domains with no consensus, explicitly tag notes with `consensus: none` and default to `confidence: low`.
+**Rule:** For domains with no consensus, explicitly tag notes with `consensus: none` and default to `confidence: emerging`.
 **Why:** In domains where experts fundamentally disagree and empirical verification is impossible (parenting, relationships, personal development), presenting claims as if there's consensus misleads readers. Explicit consensus tracking helps readers understand that uncertainty is inherent to the domain.
 **Test:** For notes in domains with no consensus: (1) Does the note explicitly state that consensus is absent? (2) Is confidence tagged as low/emerging by default? (3) Are multiple perspectives presented rather than one "correct" answer?
 **Edge case:** Domains with no consensus include: parenting, relationship advice, personal development, philosophy, ethics, many creative domains. The absence of consensus is itself valuable knowledge.
@@ -2039,6 +3061,20 @@ When handling jurisdiction or region-dependent knowledge, choose between creatin
 **Why:** Health data, GPS traces, and other personal sensor data is sensitive. The vault should handle such data differently from public knowledge — with encryption, access controls, and explicit consent considerations.
 **Test:** For personal sensor data: (1) Is the data encrypted at rest? (2) Is there a retention policy? (3) What harm could result from exposure?
 **Edge case:** Biometric data may have regulatory implications (HIPAA, GDPR). Consult applicable regulations for retention and access requirements.
+
+**Rule:** For personal health metrics and body knowledge (sleep, mood, exercise, weight, biometrics), separate raw measurement data from synthesized insights, apply appropriate sensitivity tagging, and use self-referential verification criteria.
+**Why:** Personal health data is highly sensitive, time-series data differs from atomic knowledge, and self-verification requires different criteria than source-based verification. Raw measurements without synthesis create noise; synthesized insights without raw data lack evidence.
+**Test:** (1) Can you identify which notes are raw data vs synthesized insights? (2) Are sensitive notes appropriately tagged with `sensitivity:` field? (3) For pattern claims, do you have sufficient data points (30+) to claim confidence? (4) Are context factors documented alongside correlations?
+**Implementation:** For personal health vaults:
+- Separate raw data (timestamps, measurements) from interpretive notes (patterns, correlations)
+- Use tiered sensitivity: public (trends only), private (synthesis, not raw data), highly-sensitive (raw data excluded)
+- Track verification with self-referential criteria: `verification-status: self-observed`, `verification-status: pattern-suspected`, `verification-status: pattern-confirmed`
+- Use `metric:` frontmatter to identify what's being tracked, `context-factors:` for relevant conditions
+- Document context boundaries for patterns ("this works when I'm not traveling")
+**Edge case:** Goals are not knowledge — distinguish desired outcomes (goals) from observed facts (knowledge). Use `type: goal` with `target:`, `progress:`, `review-cycle:` for goals; keep knowledge notes focused on synthesis, not desired outcomes.
+**Edge case:** Metric overload — limit active tracking to 5-7 key metrics to avoid action fatigue and pattern dilution. Apply diminishing returns test: does this metric help you make decisions? Can you act on this information?
+
+See also: [[Frontier Exploration - Personal Health Metrics and Body Knowledge]] for detailed exploration of this frontier.
 
 **Rule:** Distinguish sequential knowledge (where order IS the knowledge) from static and time-sensitive knowledge — tag temporal sequences with `temporal-type: sequence` and prerequisites with `prerequisites: []`.
 **Why:** Knowledge where sequence is intrinsic (history, music composition, biological processes, learning progressions) requires different structure than static facts or time-sensitive data. Without temporal tagging, AIs cannot distinguish "the causes of WWI" (sequence matters) from "the causes of cancer" (static knowledge).
@@ -2198,6 +3234,30 @@ media-instruction:
 **Why:** Scattered version-specific notes are hard to migrate en masse; a migration hub collects the changes needed, tracks progress, and serves as a checklist.
 **Test:** After a major version release: (1) Can you identify all affected notes? (2) Is there a migration hub? (3) Does the hub link to all version-specific content?
 
+**Rule (NEW - 2026-03-22):** For rapidly-evolving financial-technical domains (cryptocurrency, DeFi, Web3, trading), apply elevated verification standards and granular expiration intervals.
+**Why:** Crypto/Web3 knowledge combines rapid version churn with financial materiality — incorrect knowledge can result in direct monetary loss. Standard verification and expiration rules fail to capture: (1) protocol-specific versioning beyond generic "version:", (2) tribal/community-specific claims that are true within one ecosystem but contested elsewhere, (3) security-critical knowledge requiring audit-level verification, (4) ultra-short expiration intervals (7-30 days for governance, 90 days for documentation).
+**Test:** For crypto/Web3 notes: (1) Does frontmatter include `protocol:`, `protocol-version:`, and `chain:` fields? (2) Are community-specific claims tagged with `tribal-scope:`? (3) Is financial-risk level documented (low/medium/high/critical)? (4) Are expiration intervals granular (7d/30d/90d/180d)? (5) Is on-chain vs off-chain authority distinguished?
+**Implementation:** Use fields:
+```yaml
+# Protocol versioning
+protocol: ethereum
+protocol-version: "2.4.0"
+chain: ethereum-mainnet
+forks-supported: [mainnet, arbitrum, optimism]
+# Tribal/community scope
+tribal-scope: defi-community|bitcoin-maximalist|eth-community|none
+on-chain-authority: high|medium|low
+# Financial risk
+financial-risk: low|medium|high|critical
+verification-level: standard|enhanced|audit-required
+# Expiration
+expiration-interval: 7d|30d|90d|180d
+review-trigger: protocol-upgrade|governance-vote|security-incident
+# Authority distinction
+authority-level: on-chain|off-chain-interpretation|community-claim|personal-opinion
+```
+**See also:** [[Frontier Exploration - Cryptocurrency and Web3 Knowledge Bases]]
+
 **Rule:** Document physical equipment dependencies for procedural knowledge — include what tools are required, which are optional, and what alternatives exist.
 
 **Rule:** For domains with interdependent multi-item creation (cooking meals, event planning, project portfolios), create coordination knowledge separate from item knowledge — document timing relationships, resource conflicts, and sequencing rules as atomic notes.
@@ -2209,6 +3269,25 @@ media-instruction:
 **Test:** For procedural notes (recipes, crafts, repairs, techniques): (1) Is there an `equipment:` field in frontmatter? (2) Does it list required vs. optional tools? (3) Are alternatives documented for optional equipment? (4) For safety-critical equipment, is safety guidance included?
 **Edge case:** Some domains have "basic toolkit" assumptions — don't list common tools (screwdriver, knife) unless the technique requires specialized versions.
 **Edge case:** Equipment may have safety requirements (gloves, glasses, masks) — tag these separately from tools. For non-physical safety (e.g., hearing protection in audio), include `safety-type: hearing|cumulative`.
+
+**Edge case (expanded - 2026-03-19):** For physical craft and technical domains (woodworking, metalworking, automotive, construction), safety hazards are multifaceted and require comprehensive categorization:
+- `safety-type: mechanical` — moving parts, pinch points, kickback hazards (table saws, lathes)
+- `safety-type: respiratory` — dust, fumes, particles (sanding, finishing, welding)
+- `safety-type: chemical` — solvents, finishes, adhesives (off-gassing, skin contact)
+- `safety-type: noise` — prolonged exposure above 85dB (power tools, machinery)
+- `safety-type: ergonomic` — repetitive strain, awkward postures, vibration (hand tools, sustained work)
+
+The test: For safety-critical procedural notes in physical domains: (1) Does frontmatter include `safety-type:` with appropriate category? (2) Is `safety-equipment-required:` documented? (3) Is `safety-mandatory:` marked for non-optional protections? (4) For compound hazards (e.g., both mechanical AND respiratory), can multiple safety types be listed?
+
+Example:
+```yaml
+safety-type: [mechanical, respiratory]
+safety-equipment-required:
+  - safety glasses (mandatory)
+  - dust collector (mandatory)
+  - hearing protection (recommended)
+safety-mandatory: true
+```
 **Edge case:** Equipment cost can be a vault boundary criterion — if equipment cost excludes certain users, consider this when capturing knowledge.
 **Edge case (refined):** For domains where software is as critical as hardware (music production, video editing, design), distinguish `equipment:` (physical tools) from `software:` (digital tools), or use `equipment:` with `type: physical|software` sub-field.
 **Edge case (refined):** For domains with wide quality spectrums (free to professional-grade), add `quality-tier:` or `entry-level-alternative:` to help beginners determine what they can START with, not just what professionals use.
@@ -2413,11 +3492,42 @@ allows-change:
 **Why:** Deprecated implies "wrong," but temporal data for a past period is accurate - just not current. Archived preserves the historical record while clearly signaling it's been replaced.
 **Test:** For temporal data notes: (1) Is there a more current version? (2) Is the archived version still accurate for its time period? (3) Is there a link to the current version?
 
-**Rule:** Deprecate notes using clear criteria — contradicted by new info, redundant, or low value. Never delete; always mark and point to replacement.
-**Why:** Deletion breaks links silently; deprecation preserves graph integrity while signaling staleness.
-**Test:** Can you list 3 reasons to deprecate a note? Are deprecated notes pointing to replacements?
+**Rule:** Deprecate notes using clear criteria — contradicted by new info, superseded by better version, redundant, or low value. Never delete; always mark, communicate reason, and point to replacement.
+**Why:** Deletion breaks links silently; deprecation preserves graph integrity while signaling staleness. Without explicit deprecation workflow, vaults accumulate inconsistent knowledge that users cannot distinguish from current content.
+**Test:** Can you list 3 reasons to deprecate a note? Are deprecated notes pointing to replacements? Is deprecation date and reason documented?
+
+**Deprecation workflow:**
+1. Mark with `deprecated: true` and `deprecated-date: YYYY-MM-DD`
+2. Add `deprecated-reason:` (contradicted | superseded | redundant | low-value)
+3. Link to `replaced-by:` note if applicable
+4. Add `deprecated-review-date:` for future re-evaluation (archive vs. delete)
+5. Update summary to clearly state deprecated status
+
+**Deprecation metadata:**
+```yaml
+deprecated: true
+deprecated-date: 2026-03-22
+deprecated-reason: superseded  # contradicted|superseded|redundant|low-value
+replaced-by: [[New Note Name]]
+deprecated-review-date: 2026-06-01  # when to reconsider archive/delete
+correction-type: outdated  # for correction workflow
+```
+
+**Obsolescence detection triggers:** Define domain-specific triggers to proactively detect when knowledge is at risk of becoming outdated:
+- Version-based: new releases, API changes, security advisories
+- Temporal: date-based expiration (annual limits, quarterly data)
+- Event-based: competitor changes, regulation updates, product discontinuation
+
+Scan quarterly for obsolescence triggers in fast-moving domains.
+
+**Archive vs. delete criteria:**
+- Archive when: historical value (understanding past decisions), reference for context, pattern documentation
+- Delete when: actively harmful if accessed, no historical value, storage cost exceeds value
+- Always prefer archive over delete; deletion is permanent
 
 Example: Graph Visualization was deprecated and merged into [[Knowledge Graph Structure]] — see how deprecation handles the transition while preserving access to the historical note.
+
+**See also:** [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management]]
 
 **Rule:** Iterate on existing notes rather than creating new ones on the same topic.
 **Why:** Parallel notes on the same idea fragment knowledge; iteration concentrates and deepens it.
@@ -2441,6 +3551,14 @@ evolution-history:
     reason: "What changed your view"
 ```
 **Edge case:** Not all notes need evolution tracking — apply to: (a) strong recommendations, (b) framework-level beliefs, (c) anything cited by multiple other notes. Skip for: minor details, easily-verified facts, notes likely to remain stable.
+
+**Rule:** For knowledge that requires unlearning a previous belief to be understood, include explicit `unlearning-required: true` frontmatter with `prior-belief:` documenting what must be forgotten and `unlearning-mechanism:` describing how to facilitate the cognitive shift.
+**Why:** Without explicit unlearning markers, AI agents and readers may try to reconcile new knowledge with old beliefs, creating hybrid misunderstandings that are worse than either alone. This differs from superseded knowledge (old → new replacement) and contradictory sources (external A vs B conflict) — the prior belief actively blocks comprehension, not just conflicts with it.
+**Test:** For knowledge that contradicts common intuitions or previously-taught concepts: (1) Is there `unlearning-required: true`? (2) Does it document what the prior belief was? (3) Does it explain why the prior belief is blocking, not just wrong? (4) Does it include `prior-belief-source:` (common-misconception|personal-experience|outdated_science|childhood_learning)? (5) Does it specify `unlearning-difficulty:` (high|medium|low)?
+**Edge case:** Easy unlearning — some knowledge simply replaces the old (capital of Australia is Canberra replaces Sydney) and doesn't require explicit mechanism. Mark with `unlearning-difficulty: low` in these cases.
+**Edge case:** Metacognitive unlearning — the hardest type involves unlearning beliefs about how you think or learn ("I'm not a morning person," "I'm bad at math"). These require explicit `unlearning-mechanism: cognitive_reframe` and may need external validation.
+
+**See also:** [[Frontier Exploration - Unlearning-Required Knowledge]] — Detailed exploration of knowledge requiring cognitive unlearning
 
 **Rule:** Review the most-linked notes first — they have the highest impact on vault quality.
 **Why:** A flawed hub note propagates its problems to every note that links through it.
@@ -2760,6 +3878,46 @@ Test: For embodied notes: (1) Is there a verbal/written description? (2) Is ther
 
 ---
 
+## 10.5. Intergenerational Knowledge Transfer
+
+*Capturing knowledge from elders, family traditions, and cultural practices that would otherwise be lost.*
+
+**Rule:** Capture intergenerational knowledge with temporal priority — apply urgency weighting for knowledge from living elders.
+**Why:** Unlike other domains where capture timing is flexible, intergenerational knowledge has a finite window. Elder's health, availability, and memory decline over time. The window for direct capture is bounded.
+**Test:** For vaults with intergenerational focus: (1) Is there temporal-priority tagging for knowledge from living elders? (2) Are capture attempts documented with dates? (3) Is there a fallback plan when direct capture is no longer possible?
+**Implementation:**
+```yaml
+temporal-priority: high  # high|medium|low - urgency of capture
+source-available: living|deceased|uncertain
+capture-status: captured|attempted|pending|not-possible
+```
+
+**Rule:** Separate facts from stories in intergenerational notes — distinguish documented facts from oral tradition narratives.
+**Why:** The same family event may have factual elements (what happened) and narrative elements (how it's told, the meaning it carries). Treating both as "facts" misses the value of oral tradition. Stories carry cultural and emotional context that pure facts cannot capture.
+**Test:** For intergenerational notes: (1) Can you distinguish documented facts from told stories? (2) Are narrative elements preserved as oral tradition? (3) Does the note acknowledge uncertainty in retellings?
+**Implementation:**
+```yaml
+content-type: factual|oral-tradition|mixed
+oral-source: grandfather|mother|family-legend
+generation-captured: great-grandparent|grandparent|parent
+```
+
+**Rule:** Track knowledge evolution across generations — document how traditions or knowledge changed as they passed between generations.
+**Why:** A tradition or piece of knowledge may have evolved as it passed from ancestors to grandparents to parents. Documenting these changes preserves the full picture and shows how knowledge adapts to new contexts.
+**Test:** For traditions that have evolved: (1) Is there documentation of how the knowledge changed? (2) Are earlier versions preserved? (3) Is the reason for adaptation documented?
+
+**Rule:** Apply enhanced privacy considerations for intergenerational knowledge — mark sensitivity and access control appropriately.
+**Why:** Intergenerational knowledge often includes sensitive family information that shouldn't be shared publicly. The general privacy rules need extra emphasis when capturing personal family stories.
+**Test:** For intergenerational vaults: (1) Is sensitivity marked on personal/difficult stories? (2) Are there notes that should be access-controlled? (3) Is there consent documentation for sharing beyond immediate family?
+**Implementation:**
+```yaml
+sensitivity: private|family-restricted|shareable
+consent-documented: true
+access-control: none|encrypted|family-only
+```
+
+---
+
 ## 11. Analysis-Sensitive Knowledge
 
 *Handling knowledge where explanation can diminish or destroy its value.*
@@ -2845,6 +4003,36 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 **Why:** Trade-off notes need clear applicability conditions so readers know which guidance applies to their situation.
 **Test:** Can a reader determine which branch of a trade-off applies to them without additional research?
 
+**Rule:** Structure inherent trade-offs with explicit tension fields — tag both sides, document the nature of the tension, and provide context-dependent optimization guidance.
+**Why:** Inherent trade-offs (speed vs. thoroughness, breadth vs. depth, exploration vs. exploitation) cannot be "resolved" — one side must be chosen at the expense of the other. Without explicit structure, users cannot see both sides or determine which context favors which choice.
+**Test:** For notes involving inherent trade-offs: (1) Is there a `trade-off` field with `type: inherent`? (2) Are both sides documented with their respective benefits and costs? (3) Is there context-dependent guidance for when to favor each side?
+**Implementation:**
+```yaml
+trade-off:
+  type: inherent  # inherent vs. contextual
+  tension: "specific description of what's in tension"
+  side-a:
+    name: option-a-name
+    benefits: [list of benefits]
+    costs: [list of costs]
+  side-b:
+    name: option-b-name
+    benefits: [list of benefits]
+    costs: [list of costs]
+  contexts:
+    - context: specific-context
+      favored-side: option-a-name
+      rationale: why this context favors this side
+```
+
+**Rule:** Track trade-off balance evolution — document when trade-off priorities shift due to changing conditions.
+**Why:** What favors speed over thoroughness in early stages may favor the opposite later. Without evolution tracking, stale trade-off guidance misleads readers about current best practices.
+**Test:** For persistent trade-offs: (1) Can you identify when trade-off balance last shifted? (2) Is there documentation of what triggered the shift? (3) Are conditions for future shifts identified?
+
+**Rule:** For personal decision-making, track trade-off calibration as explicit preference weights.
+**Why:** People have different risk tolerances and value outcomes differently. Trade-off calibration enables personalized decision support rather than generic recommendations.
+**Test:** Can you articulate your personal trade-off preferences (e.g., speed-vs-quality: 0.7 meaning 70% speed preference)? Do these differ from "default" recommendations?
+
 ---
 
 ## 13. Vault Query and Retrieval
@@ -2858,6 +4046,10 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 **Rule:** Tag notes with `decision-relevance:` indicating which decision types the note informs.
 **Why:** Not all notes are equally relevant to decision-making. Tagging enables efficient retrieval when facing specific decisions.
 **Test:** For notes containing actionable knowledge: (1) Is there `decision-relevance:` frontmatter? (2) Does it cover major decision categories the vault addresses?
+
+**Rule:** For major decisions, include `framework-selection` metadata documenting which decision frameworks were considered and why the chosen framework fits the decision characteristics.
+**Why:** Different decision frameworks (first principles, cost-benefit, satisficing, reversibility-based) apply to different decision types. Without explicit framework selection, it's impossible to review whether the right approach was used or to learn from past decisions.
+**Test:** For major decisions documented in the vault: (1) Is there framework-selection metadata? (2) Does it list alternatives considered? (3) Does it explain why the chosen framework fits the decision characteristics (reversibility, stakes, time available, expertise)? (4) Is there post-decision review of framework appropriateness?
 
 **Rule:** Provide explicit conflict-resolution guidance when vault notes contradict each other.
 **Why:** Well-maintained vaults accumulate multiple perspectives over time. When notes conflict, users need guidance on how to resolve or weigh them.
@@ -2890,7 +4082,7 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 **Rule:** Apply appropriate confidence to religious knowledge — confidence levels should be appropriate to how the knowledge functions in the tradition.
 **Why:** A sacred text may have "high" confidence within its tradition that doesn't map to external verification. Domain-appropriate confidence differs from empirical calibration.
 **Test:** Is confidence level appropriate to how the knowledge functions in the tradition, not just external verifiability?
-**Implementation:** Use `confidence: high|medium|low|subjective` with `confidence-basis: tradition-authority|scholarly|personal|empirical`.
+**Implementation:** Use `confidence: emerging` with `confidence-basis: tradition-authority|scholarly|personal|empirical`.
 
 **Edge case:** Mixed domains (religious history, philosophy of religion, faith healing) need combined treatment. Religious historical claims (when did the Council of Nicaea happen?) are verifiable historically. Religious ethics may be reasoned about philosophically. Faith healing claims may have safety implications requiring professional advice disclaimers.
 
@@ -2900,8 +4092,59 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 
 ---
 
+## Knowledge Sensitivity Classification
+
+*Handling knowledge that could cause harm if mishandled, misused, or misunderstood.*
+
+**Rule:** Apply sensitivity classification to knowledge with potential for harm — use `sensitivity-level`, `sensitivity-reason`, `capture-justification`, and `mitigation-strategy` frontmatter.
+**Why:** Unclassified sensitive knowledge creates uncontrolled risk. Without explicit classification, sensitive knowledge looks identical to regular knowledge and gets treated the same (shared, exported, etc.). Sensitive knowledge requires different handling for verification, access control, and export.
+**Test:** For knowledge that could cause harm if misused: (1) Is sensitivity-level specified? (2) Is sensitivity-reason documented? (3) Is capture-justification recorded? (4) Is mitigation-strategy defined? (5) Are appropriate access restrictions applied?
+**Values:**
+- `sensitivity-level: none | low | medium | high | extreme`
+- `sensitivity-reason: dual-use | harmful-content | personally-identifiable | misuse-potential | legal-risk`
+- `access-restriction: none | vault-internal | human-only | encrypted | never-publish`
+
+**Rule:** For dual-use knowledge (knowledge that can be used for both benefit and harm), capture the defense, analysis, and context — not the attack, substance, or methods.
+**Why:** Security vulnerabilities, dangerous procedures, and manipulation techniques have value for defense and understanding, but detailed harmful content enables misuse. Capturing lessons, defenses, and analysis enables benefit while minimizing weaponization risk.
+**Test:** For dual-use notes: (1) Does the note focus on defense/analysis/context? (2) Does it avoid detailed harmful content? (3) Can someone use this for legitimate protection without getting harm instructions?
+
+**Rule:** Apply the "necessity test" before capturing extreme-sensitivity knowledge — require demonstrated need, less-sensitive alternatives, essential verification, minimization, and mitigation capability.
+**Why:** Extreme-sensitivity knowledge (weapons manufacturing, detailed harmful content) carries severe risks. The default should be exclusion; capture only when benefits clearly outweigh risks and safeguards exist.
+**Test:** For sensitivity-level: extreme notes: (1) Is there documented need? (2) Can less-sensitive alternatives work? (3) Has second opinion verified necessity? (4) Can exposure be minimized? (5) Is there mitigation capability?
+
+**Rule:** Sensitive knowledge requires MORE verification, not less — high-sensitivity errors cause more harm than regular errors.
+**Why:** A security vulnerability documented incorrectly could lead to actual exploits. Medical errors could cause harm. The stakes are higher for sensitive knowledge, so verification standards should be stricter.
+**Test:** For high and extreme sensitivity notes: (1) Is verification status: verified? (2) Are sources authoritative? (3) Has review occurred more recently than general notes?
+
+---
+
+## Procedural Precision Tier
+
+*Handling knowledge where precision requirements vary by context and application.*
+
+**Rule:** For procedural knowledge, tag with `precision-tier:` to indicate tolerance requirements.
+**Why:** Procedures have different precision requirements depending on what happens if they fail. A visible joint (dovetails) requires <0.5mm tolerance; a structural joint (mortise-and-tenon) accepts 1-2mm; a rough cut accepts >5mm. Without precision-tier tagging, readers cannot assess whether a procedure meets their accuracy needs.
+**Test:** For procedural notes: (1) Can you identify the precision requirement? (2) Does the note specify tolerance when it matters? (3) Can readers determine if their skill level matches the procedure's precision demands?
+**Values:**
+- `precision-tier: visible-joint` - <0.5mm tolerance, any gap visible, requires high skill
+- `precision-tier: structural` - 1-2mm tolerance, affects strength, moderate skill
+- `precision-tier: rough` - >5mm tolerance, cosmetic or adjustable, beginner-friendly
+**Implementation:**
+```yaml
+precision-tier: structural
+tolerance-notes: "1-2mm gap acceptable if using epoxy fill"
+skill-level-required: intermediate
+```
+
+**Rule:** Include precision-tier in safety-critical procedural domains.
+**Why:** In domains like woodworking, medicine, automotive repair, precision affects safety. A poorly-cut dovetail is ugly; a poorly-set brake is dangerous. Safety-critical procedures need explicit precision requirements.
+**Test:** For safety-critical procedures: (1) Is precision-tier specified? (2) Are consequences of imprecise execution documented? (3) Does the note warn when precision is critical vs. optional?
+
+---
+
 ## Related
 - [[_root|Vault root]] — Entry point demonstrating the Seed in action
+- [[Schema.md]] — Vault frontmatter field documentation
 - [[Atomic Note Principle]] — One idea per note
 - [[Linking Principle]] — Meaningful connections
 - [[Graph Traversal Efficiency]] — Maximum 3 hops navigation
@@ -2928,8 +4171,8 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 - [[Frontier Exploration - User Situational Constraints]] — Handling knowledge constrained by time, budget, equipment access, and other user situations
 - [[Types of Applicability Boundaries]] — Documenting when knowledge DOESN'T apply — edge cases, limitations, and known failure contexts
 - [[Frontier Exploration - Threshold Knowledge]] — Capturing categorical transitions and the moments when states change
-- [[Frontier Exploration - Legal Knowledge Bases]] — Handling legal confidentiality, authority status, and jurisdiction complexity
-- [[Frontier Exploration - Knowledge Debt]] — Managing maintenance burden from shortcuts and incomplete capture
+- [[Seed Stress Test - Legal Knowledge Bases]] — Handling legal confidentiality, authority status, and jurisdiction complexity (merged from Frontier Exploration)
+- [[Frontier Exploration - Knowledge Maintenance]] — Managing maintenance burden, volatile knowledge, and evolving understanding
 - [[Handling Temporal Knowledge]] — Systematically detecting when knowledge has become outdated
 - [[Frontier Exploration - Musical Arrangement Knowledge]] — Handling cyclic-branching knowledge where elements repeat with variations
 - [[Frontier Exploration - Knowledge Context Frames]] — Handling purpose-specific knowledge presentations
@@ -2947,7 +4190,7 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 - [[Frontier Exploration - Amateur Astronomy Knowledge Bases]] — Specialized challenges of astronomy knowledge: equipment dependencies, location sensitivity, pattern recognition
 - [[Frontier Exploration - Tool-Interface Knowledge]] — Handling keybindings, menu paths, and API endpoints
 - [[Seed Stress Test - 5-1 Ratio Across Domains]] — Testing 5:1 personal-to-general ratio across multiple domains
-- [[Seed Stress Test - Finance and Investment Knowledge Base]] — Testing Seed rules in finance and investing domain
+- [[Seed Gaps - Domain-Specific Extensions]] — Consolidated domain-specific gaps and proposed refinements for finance, education, music, tax, language, and workshop crafts (merged from 6 Seed Gap notes)
 - [[Seed Stress Test - Mathematics Knowledge Base]] — Testing Seed rules in mathematics domain
 - [[Seed Stress Test - Stub Notes Rule in Mathematics Knowledge Base]] — Testing stub notes rule in mathematics
 - [[Frontier Gap - Embodied Knowledge]] — Testing diminishing returns rule in photography
@@ -2955,6 +4198,10 @@ See also: [[Frontier Exploration - Humor and Comedy Knowledge]] — Extended exp
 - [[Stress Test - Last-Reviewed Rule in Historical Knowledge]] — Testing last-reviewed rule for historical knowledge
 - [[Stress Test - Thinking Tools Rule in Meditation Mindfulness Knowledge Base]] — Testing thinking tools rule in meditation
 - [[Seed Stress Test - Gardening Knowledge Base]] — Testing long-horizon verification, climate specificity, and seasonal knowledge rules
-- [[Seed Stress Test - Diminishing Returns Rule in Machine Learning Data Science]] — Testing diminishing returns in rapidly-evolving technical domains
-- [[Seed Stress Test - Construction Phase Model in Language Learning]] — Testing construction phase rules in sequential-skill domains
+- [[Seed Stress Test - Diminishing Returns Rule Across Domains]] — Testing diminishing returns across Medical, ML/DS, and Board Game Design domains
+- [[Seed Stress Test - Construction Phase Model in Music Composition]] — Testing construction phase rules in sequential-skill domains (merged with language learning test)
 - [[Seed Stress Test - Philosophy Knowledge Base]] — Testing humanities concepts, contested knowledge, and historical development
+- [[Seed Gaps - Domain-Specific Extensions]] — Gaps in handling fiscal year organization (consolidated from multiple domain-specific gap notes)
+- [[Seed Rule Proposal - Personal Experimentation Tracking]] — Proposed rule for tracking personal experiments
+- [[Seed Stress Test - Decision Threshold Rule in Software Architecture]] — Testing decision thresholds in technical domains
+- [[Seed Stress Test - Veterinary Medicine Knowledge Base]] — Testing Seed rules in medical domain

@@ -1,5 +1,5 @@
 ---
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 last-reviewed: 2026-03-12

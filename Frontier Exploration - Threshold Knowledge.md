@@ -3,7 +3,7 @@ last-reviewed: 2026-03-13
 last-updated: 2026-03-19
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 verification-status: unverified
 tags:
   - frontier-exploration
@@ -124,6 +124,7 @@ project-drift:
 ## Related Notes
 
 - [[Handling Temporal Knowledge]] — temporal knowledge deals with changes over time; threshold knowledge deals with categorical transitions
+- [[Frontier Exploration - Decision Threshold Knowledge]] — decision thresholds are a specific type of threshold knowledge
 - This note is a candidate for inclusion in the Seed as a rule about documenting categorical transitions
 
 ## Test Questions

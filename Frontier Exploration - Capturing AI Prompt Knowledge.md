@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -151,7 +151,7 @@ model-scope: [gpt-4, gpt-4-turbo]
 prompt-version: "1.2"
 created: 2026-03-01
 last-tested: 2026-03-10
-verification-status: tested
+verification-status: verified
 success-criteria: |
   - Output contains 3-5 distinct arguments
   - Each argument is under 30 words
@@ -308,7 +308,7 @@ This distinction affects whether prompts belong in the vault at all, or in a sep
 - [[AI-Assisted Knowledge Management Seed]] — The Seed being extended
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — Related AI-native structure
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
-- [[Confidence Markers]] — Reliability signaling
+- [[Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
 - [[Frontier Exploration - AI Model Version Dependencies in Knowledge Bases]] — Version tracking for AI knowledge
 
 ---

@@ -121,3 +121,4 @@ Most wikilink implementations are case-insensitive but title-sensitive:
 - [[Graph Traversal Efficiency]] — Navigation within 3 hops
 - [[Hub Node Creation]] — When to create navigation hubs
 - [[Graph Maintenance]] — Keeping the graph healthy
+- [[Emergence in Knowledge Graphs]] — How connections create emergent insights

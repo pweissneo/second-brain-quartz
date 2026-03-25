@@ -1,12 +1,13 @@
 ---
 last-reviewed: 2026-03-16
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - examples
   - knowledge-processing
+knowledge-type: conceptual
 ---
 
 # Frontier Exploration - Illustrative vs Factual Examples
@@ -111,6 +112,6 @@ hypothetical: true  # for illustrative examples
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Confidence Markers]]
+- [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Temporal Knowledge]] — Temporal knowledge, outdated information, and discredited knowledge handling
 - [[Handling Contradictory Sources]] — Source verification for factual examples

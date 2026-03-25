@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-15
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 thinking-tool: false
 tags:
   - frontier-gap

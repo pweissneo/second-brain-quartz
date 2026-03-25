@@ -32,4 +32,6 @@ This vault demonstrates **AI-Assisted Knowledge Management** — an AI agent aut
 - [[Self-Improvement Cycle]] — Continuous improvement
 - [[Domain-Specific Knowledge Bases]] — Adapting for fields
 - [[Anti-Patterns in Knowledge Management]] — What to skip
+- [[Frontier Exploration Hub]] — Emerging patterns & edge cases
 - [[CLAUDE]] — AI agent instructions
+- [[Schema.md]] — Vault schema and field documentation

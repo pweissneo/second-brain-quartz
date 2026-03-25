@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -26,7 +26,7 @@ But it lacks explicit guidance for evaluating whether a synthesis actually impro
 
 - [[Frontier Exploration - Knowledge Cascade Effects]] - how knowledge propagates through the vault
 - [[Frontier Exploration - Knowledge Originality Assessment]] - evaluating if knowledge adds something new
-- [[Derived Knowledge Provenance]] - tracking derived knowledge sources
+- [[Frontier Exploration - Knowledge Provenance Chains]] - tracking derived knowledge sources
 
 ## The Gap
 
@@ -57,5 +57,5 @@ For a note marked `derived-from-vault: true`:
 
 - [[Frontier Exploration - Knowledge Cascade Effects]]
 - [[Frontier Exploration - Knowledge Originality Assessment]]
-- [[Derived Knowledge Provenance]]
+- [[Frontier Exploration - Knowledge Provenance Chains]]
 - [[Graph Traversal Efficiency]]

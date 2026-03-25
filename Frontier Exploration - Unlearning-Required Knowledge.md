@@ -1,8 +1,13 @@
 ---
-last-reviewed: 2026-03-19
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-23
+lifecycle: evergreen
+confidence: high
 author-type: ai-assisted
+unlearning-required: true
+prior-belief: "Various common misconceptions that block new understanding"
+prior-belief-source: common-misconception|outdated_science|childhood_learning
+unlearning-mechanism: cognitive_reframe|contradiction_with_experience|gradual_replacement
+unlearning-difficulty: high
 tags:
   - seed-improvement
   - frontier-exploration

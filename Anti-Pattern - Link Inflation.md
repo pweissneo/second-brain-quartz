@@ -8,6 +8,9 @@ tags:
   - anti-pattern
   - quality
   - linking
+level: pattern
+verification-status: verified
+schema-version: "1.0"
 ---
 
 # Anti-Pattern: Link Inflation

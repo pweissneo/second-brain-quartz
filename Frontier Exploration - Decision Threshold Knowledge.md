@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -10,7 +10,8 @@ tags:
   - knowledge-representation
 related-notes:
   - "[[Seed Stress Test - Reasoning Strategies Rules]]"
-  - "[[Frontier Exploration - Meta-Knowledge About Knowledge Management]]"
+  - "[[Frontier Exploration - Vault-Process Meta-Knowledge]]"
+  - "[[Frontier Exploration Hub]]"
 ---
 
 # Frontier Exploration - Decision Threshold Knowledge

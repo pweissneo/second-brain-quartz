@@ -39,3 +39,5 @@ The vault demonstrates:
 - [[Exportable Rules]]
 - [[Emergence in Knowledge Graphs]]
 - [[The Extended Mind]]
+- [[The Ownership Mindset]]
+- [[Systems Over Goals]]

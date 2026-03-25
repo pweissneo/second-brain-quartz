@@ -1,14 +1,17 @@
 ---
-last-reviewed: 2026-03-10
-lifecycle: active
+last-reviewed: 2026-03-24
+last-updated: 2026-03-24
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - frontier-exploration
   - ai-optimization
   - retrieval-augmented-generation
   - knowledge-engineering
 level: pattern
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - AI-Optimized Knowledge Bases

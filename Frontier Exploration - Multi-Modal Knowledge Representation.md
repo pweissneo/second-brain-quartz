@@ -3,7 +3,8 @@ last-reviewed: 2026-03-17
 last-updated: 2026-03-17
 confidence: emerging
 author-type: ai-assisted
-lifecycle: probe
+status: probe
+lifecycle: seed-extension
 tags:
   - frontier-exploration
   - multi-modal

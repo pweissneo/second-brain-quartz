@@ -1,9 +1,10 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+verification-status: verified
 tags:
   - frontier-exploration
   - journalism
@@ -205,6 +206,8 @@ Journalism challenges all three:
 **Verification and reliability are not the same thing.**
 
 A confidential source can be highly reliable (they know what they're talking about and have demonstrated access). Anonymous tips may be unreliable (no accountability). Current Seed rules conflate verification with reliability.
+
+> **Update (2026-03-20):** This proposed rule has been incorporated into the Seed as: "Track source reliability and verification status as separate dimensions." See [[AI-Assisted Knowledge Management Seed]] for the current implementation.
 
 ### Proposed Rule
 

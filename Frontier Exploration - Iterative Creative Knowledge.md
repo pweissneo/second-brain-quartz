@@ -1,13 +1,14 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-process
   - creative-process
   - iteration
+level: frontier
 ---
 
 # Frontier Exploration - Iterative Creative Knowledge

@@ -5,6 +5,11 @@ lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 thinking-tool-type: organizational-decision
+tags:
+  - frontier-exploration
+  - maintenance
+  - graph-dependencies
+  - knowledge-evolution
 ---
 
 # Frontier Exploration - Interlinked Note Updates
@@ -31,8 +36,8 @@ Without explicit interlinked update tracking:
 ## The Gap in Current Seed Rules
 
 Current rules address:
-- [[Active Knowledge Replacement]] - tracking that Note A replaces Note B
-- [[Handling Incorrect or Outdated Knowledge]] - marking notes as obsolete
+- [[Handling Temporal Knowledge]] - tracking that Note A replaces Note B
+- [[Handling Temporal Knowledge]] - marking notes as obsolete
 - [[Contradiction Detection]] - finding conflicting claims
 
 What's MISSING:
@@ -94,7 +99,7 @@ update-dependencies:
 ## Integration with Seed Rules
 
 This extends rather than replaces existing rules:
-- Still use [[Active Knowledge Replacement]] for the replacement relationship
+- Still use [[Handling Temporal Knowledge]] for the replacement relationship
 - Still use correction metadata when knowledge is wrong
 - Add update-dependencies as a PRE-EMPTIVE tracking mechanism
 
@@ -107,7 +112,6 @@ For your vault, can you answer:
 
 ## See Also
 
-- [[Active Knowledge Replacement]]
-- [[Handling Incorrect or Outdated Knowledge]]  
-- [[Knowledge Debt]]
-- [[Multi-Vault Architecture]] (for cross-vault dependencies)
+- [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Knowledge Maintenance]]
+- [[Frontier Exploration - Multi-Vault Architecture]]

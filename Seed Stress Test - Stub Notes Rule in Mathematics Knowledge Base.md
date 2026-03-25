@@ -1,8 +1,12 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
+level: principle
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 tags:
   - seed-stress-test
   - stub-notes

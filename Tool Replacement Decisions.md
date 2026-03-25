@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-18
+last-reviewed: 2026-03-22
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -7,6 +7,8 @@ tags:
   - tool-management
   - decision-making
   - workflow
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Tool Replacement Decisions

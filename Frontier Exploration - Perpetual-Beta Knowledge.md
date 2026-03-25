@@ -91,7 +91,7 @@ Without guidance, agents face two failure modes:
 ## Implementation
 
 ```yaml
-lifecycle: perpetual-beta
+lifecycle: evergreen
 perpetual-beta-type: system|research|project|configuration|philosophy
 knowledge-intent: practice|reference|experimentation
 current-version: 3.2

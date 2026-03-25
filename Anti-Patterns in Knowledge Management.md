@@ -9,6 +9,8 @@ tags:
   - quality
   - hub
 level: principle
+verification-status: verified
+schema-version: "1.0"
 ---
 
 # Anti-Patterns in Knowledge Management

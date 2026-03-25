@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -81,15 +81,15 @@ alternatives-type: equivalent-approaches
 selection-criteria:
   - criteria: "Team existing skills"
     options:
-      - option: "Tool A"
+      - option: "Tool A"  # example placeholder
         best-when: "Team knows X"
-      - option: "Tool B"  
+      - option: "Tool B"  # example placeholder
         best-when: "Team knows Y"
   - criteria: "Project constraints"
     options:
-      - option: "Approach A"
+      - option: "Approach A"  # example placeholder
         best-when: "Deadline is tight"
-      - option: "Approach B"
+      - option: "Approach B"  # example placeholder
         best-when: "Long-term maintainability matters"
 ---
 ```
@@ -100,9 +100,9 @@ Create a hub note for the decision point with links to separate atomic notes for
 
 ```
 📄 Tool Selection Guide (hub)
-   ├── [[Tool A - Best when team knows X]]
-   ├── [[Tool B - Best for rapid prototyping]]
-   └── [[Tool C - Best for large teams]]
+   ├── Tool A - Best when team knows X (example)
+   ├── Tool B - Best for rapid prototyping (example)
+   └── Tool C - Best for large teams (example)
 ```
 
 Each alternative note should include:

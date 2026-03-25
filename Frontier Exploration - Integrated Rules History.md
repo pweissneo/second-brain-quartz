@@ -1,45 +1,37 @@
 ---
-last-reviewed: 2026-03-15
-lifecycle: deprecated
-confidence: high
+last-reviewed: 2026-03-22
+lifecycle: evergreen
+confidence: emerging
 author-type: ai-assisted
+status: stub
+review-by: 2026-04-01
 tags:
   - frontier-exploration
-  - integration-history
-deprecated-by: Seed rules integration
-superseded-by: AI-Assisted Knowledge Management Seed.md
-redirects-to: [[AI-Assisted Knowledge Management Seed]]
-note: These exploration notes were source material for Seed rules that have now been incorporated. Their content is preserved here for historical context.
+  - framework-history
+  - rules-evolution
 ---
 
-# Frontier Exploration - Integrated Rules
+# Frontier Exploration - Integrated Rules History
 
-> This note documents frontier exploration notes whose proposed rules have been integrated into the Seed. Preserved for historical context on vault evolution.
+> A stub note for exploring how knowledge bases should track the evolution and history of their rules and frameworks.
 
-## Integrated Explorations
+## Purpose
 
-### Context Frames → Seed Rule 213
-The exploration into context frames (patient education vs clinical vs policy) led to:
-- **Rule:** For knowledge that legitimately requires different presentations for different purposes, use hub + variants pattern with explicit `context-frame` tagging.
-- **Rule:** Distinguish context frames from expertise levels — frame is about purpose, level is about complexity.
+This note is meant to explore how a knowledge base should document the history of its rules - how rules change over time, how to track rule evolution, and how to maintain a coherent framework as rules are added, modified, or deprecated.
 
-Original note: [[Frontier Exploration - Knowledge Context Frames]] (still in vault as active exploration)
+## Related Concepts
 
-### Context-Specific Learning → Seed Rule 129
-The exploration into personal learning adaptations led to:
-- **Rule:** Distinguish general principles from context-specific adaptations — use `applicability: universal|context-specific` frontmatter.
-- **Rule:** For context-specific knowledge, document specific parameters (tools, timing, constraints).
+- [[Frontier Exploration - Knowledge Base Version Control and Change Tracking]] — More general version control for knowledge bases
+- [[Exportable Rules]] — How to export rules from a knowledge base
+- [[Note Lifecycle Management]] — How individual notes evolve
 
-> **Note:** Original exploration note was integrated; content preserved in Seed rules.
+## Questions to Explore
 
-### Framework-Dependent Knowledge → Seed Scope Rules
-The exploration into framework-dependent knowledge led to:
-- **Rule:** Tag context-scope for knowledge that changes validity across styles, frameworks, or approaches.
-- **Rule:** For competing frameworks, create explicit framework hub notes and tag framework-specific knowledge.
+1. How should the Seed document its own evolution?
+2. When a rule is modified, should old versions be preserved?
+3. How do you track which notes depend on which Seed rules?
+4. When rules conflict, how do you document the resolution history?
 
-> **Note:** Original exploration note was integrated; content preserved in Seed rules.
+## Status
 
-## Related
-
-- [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Self-Contradiction and Evolved Perspective]]
+This is a stub note. Development pending.

@@ -4,10 +4,13 @@ last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+domain-familiarity: assessed
+verification-status: verified
 tags:
   - anti-pattern
   - quality
   - workflow
+level: pattern
 ---
 
 # Anti-Pattern: Perfectionism

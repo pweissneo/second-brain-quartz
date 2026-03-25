@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
+level: frontier
 tags:
   - frontier-exploration
   - emotional-knowledge

@@ -7,7 +7,7 @@ tags:
   - content-creation
 created: 2025-03-17
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 ---
@@ -113,7 +113,7 @@ The podcaster's voice carries:
 - [[Frontier Exploration - Ephemeral and Event-Based Knowledge]] - similar temporal challenges
 - [[Stress Test - Equipment Dependencies Rule Across Domains]] - related equipment chain complexity
 - [[Frontier Exploration - Multi-Modal Knowledge Representation]] - audio is one modality
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] - listener analytics connection
+- [[Frontier Exploration - Knowledge Base Utility Assessment]] - listener analytics connection
 
 ## Questions for Further Exploration
 

@@ -1,12 +1,15 @@
 ---
 last-reviewed: 2026-03-15
-lifecycle: active
+last-updated: 2026-03-24
+lifecycle: evergreen
 confidence: emerging
+verification-status: emerging
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - context-frame
   - knowledge-presentation
+schema-version: "1.0"
 ---
 
 # Frontier Exploration: Knowledge Context Frames
@@ -24,31 +27,37 @@ The Seed currently handles expertise levels but not purpose-specific presentatio
 
 ## What the Seed Covers
 
-- Expertise levels (beginner/intermediate/advanced)
-- Context frame tagging
-- Audience adaptation
+As of 2026-03-23, the Seed now includes context-frame handling:
 
-## What's Missing
+- **Rule:** For knowledge that legitimately requires different presentations for different purposes, use hub + variants pattern with explicit `context-frame` tagging.
+- **Rule:** Distinguish context frames from expertise levels — frame is about purpose, level is about complexity.
+- **Implementation:** Use `context-frame:` frontmatter field with values like `patient-education`, `clinical`, `policy`, `tutorial`, `reference`, `beginner-tutorial`.
 
-### Gap: Purpose-Specific Knowledge Presentation
+## Remaining Considerations
 
-The Seed doesn't address:
-- When to create purpose-specific variants of the same knowledge
-- How to organize variants (hub + linked notes vs. single note with sections)
-- When variants diverge enough to be separate notes vs. sections in one note
-- How to maintain consistency across variants
+While the core rule now exists, some aspects remain partially addressed:
+- Testing criteria could be clearer (provide explicit yes/no checks)
+- Examples in different domains (beyond medical) would strengthen the rule
+- Guidance on when hub+variants vs. single note with sections could be explicit
 
-### Proposed Rule
+## Validation (Cooking Domain Stress Test)
 
-**Rule:** For knowledge that legitimately requires different presentations for different purposes, use hub + variants pattern with explicit `context-frame` tagging.
-
-**Rule:** Distinguish context frames from expertise levels — frame is about purpose, level is about complexity.
+This rule was stress-tested against cooking domain:
+- **Does it make sense?** Yes — recipes need different presentations (quick ref vs tutorial vs narrative)
+- **Is the Test executable?** Partially — questions asked but not binary yes/no
+- **Edge case:** Cooking context frames overlap more with expertise levels than in other domains (a "quick reference" recipe is both frame AND level)
 
 ## Examples
 
+### Medical Domain
 | Knowledge | Patient Ed | Clinical | Policy |
 |-----------|-----------|----------|--------|
 | Diabetes management | Simple explanations | Clinical protocols | Coverage rules |
+
+### Generic/Knowledge Management
+| Knowledge | Tutorial | Reference | Scholarly |
+|-----------|----------|-----------|-----------|
+| Atomicity principle | Step-by-step guide | Quick definition | Full theory + history |
 
 Each variant has different emphasis, detail level, and terminology.
 

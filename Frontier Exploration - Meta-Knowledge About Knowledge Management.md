@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-16
-lifecycle: active
+last-updated: 2026-03-21
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+domain-familiarity: assessed
 tags:
   - frontier-exploration
   - meta-knowledge
@@ -156,7 +158,8 @@ Building meta-knowledge about your vault:
 
 ## Related
 
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 - [[Frontier Exploration - Vault Health Automation]]
+- [[Frontier Exploration - Personal Knowledge vs Vault Knowledge]]
 - [[AI-Assisted Knowledge Management Seed]] - The foundation this builds on
 - [[Anti-Pattern - Tool Overfocus]] - When process becomes the product

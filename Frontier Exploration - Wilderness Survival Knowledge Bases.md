@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -332,7 +332,7 @@ Wilderness survival knowledge bases face unique challenges:
 - [[Seed Stress Test - Home Repair Knowledge Base]] — Similar safety-critical knowledge challenges
 - [[Seed Stress Test - Sports Coaching Knowledge Base]] — Similar experiential knowledge
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
-- [[Frontier Exploration - Seasonal and Cyclical Knowledge]]
+- [[Seed Gap - Recurring and Periodic Knowledge]] — consolidated cyclical knowledge guidance
 - [[Frontier Exploration - Expert Heuristics and Rules of Thumb]]
 - [[Frontier Exploration - Competing Organizational Structures]]
 - [[Stress Test - Verification Status Rule in Home Repair]]

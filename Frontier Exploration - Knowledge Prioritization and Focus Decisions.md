@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -8,6 +8,8 @@ tags:
 - frontier-exploration
 - prioritization
 - decision-making
+- knowledge-gaps
+- gap-identification
 ---
 
 # Frontier Exploration: Knowledge Prioritization and Focus Decisions
@@ -228,6 +230,99 @@ Set explicit triggers for prioritization review:
 
 Without prioritization, you might start with "How to make coq au vin" — too specific, too early.
 
+## Overflow Recovery
+
+When capture exceeds maintenance capacity, apply triage strategies:
+
+### Domain Triage
+
+Rank domains by:
+- **Current utility**: How much are you using this knowledge now?
+- **Growth potential**: How much more valuable could this become?
+- **Maintenance cost**: How often does it need updating?
+- **Time to competence**: How long to reach useful proficiency?
+
+**Action**: Focus on high-utility + low-time-to-competence domains. Defer or abandon high-maintenance + low-utility domains.
+
+### Note Triage
+
+For each unverified/unprocessed note:
+1. **Still relevant?** If the context changed, deprecate
+2. **Still actionable?** If conditions expired, archive
+3. **Worth revisiting?** If may be useful later, batch for future review
+4. **Critical?** If high-stakes, prioritize immediately
+5. **Replaceable?** If web search can replace it in 30s, delete
+
+### Time-Boxed Recovery
+
+Allocate fixed time to recovery:
+- Week 1: Deprecate clearly stale notes (50% time)
+- Week 2-3: Verify critical notes (30% time)
+- Week 4: Process new captures only (20% time)
+
+**Goal**: Return to verification ratio ≤30% before resuming normal capture.
+
+### When to Abandon Domains
+
+Signs a domain should be paused/abandoned:
+1. No practical application in 6+ months
+2. Maintenance burden exceeds utility
+3. Domain has more notes than you've ever accessed
+4. You've moved to a different life phase (career change, etc.)
+
+**Action**: Mark domain hub as `status: dormant`. Keep notes but stop adding new ones.
+
+### Recovery Metrics
+
+Track these to detect overflow early:
+- **Processing backlog age**: Days since oldest unprocessed note
+- **Verification velocity**: Notes verified per week
+- **Access frequency**: Notes accessed per month
+- **Domain activity**: Which domains are actually used?
+
+Healthy vault metrics:
+- Backlog age < 14 days
+- Verification velocity ≥ capture velocity
+- Top 20% notes accessed monthly
+- 3+ domains actively used
+
+## Knowledge Gap Identification
+
+The Seed lacks explicit rules for identifying what knowledge is MISSING and prioritizing which gaps to fill. Without systematic gap identification, vaults accumulate based on what capture agents find interesting rather than what the vault needs.
+
+### Gap Types
+
+| Type | Description | Detection Method |
+|------|-------------|------------------|
+| Prerequisite gaps | Notes mention concepts that don't exist | Scan for undefined wikilinks |
+| Utility gaps | Knowledge you'd need for frequent tasks | Track retrieval failures |
+| Connection gaps | Topics that should link but don't | Graph analysis (high centrality, few connections) |
+| Verification gaps | Areas where verification is impossible due to missing context | Scan for unverifiable claims |
+| Perspective gaps | Single-view knowledge that should be multi-view | Check for contested topics with one side only |
+
+### Gap Identification Protocol
+
+1. **Prerequisite Audit** (monthly): Scan all notes for wikilinks to non-existent notes
+2. **Retrieval Failure Tracking** (weekly): Log queries returning <2 satisfactory results
+3. **Graph Topology Analysis** (monthly): Find high-degree nodes with no outgoing connections
+4. **Contested Topic Scan** (quarterly): Find topics with only one perspective when multiple should exist
+
+### Gap Prioritization
+
+Priority = Impact × (1 / Effort)
+- High impact (8-10): Blocking — prevents understanding other notes
+- Medium impact (4-7): Useful — would significantly improve answers
+- Low impact (1-3): Nice-to-have — interesting but not critical
+
+### 70-20-10 Gap Allocation
+
+For mature vaults (200+ notes):
+- **70%** gap-filling (identified gaps from protocol above)
+- **20%** verification and depth
+- **10%** exploration for new domains
+
+This inverts the bootstrap ratio because maintenance mode means filling known gaps rather than discovering new domains.
+
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — The rules this note extends (see rules 9-11 for exploration/exploitation, diminishing returns, and priority signals)
@@ -235,3 +330,8 @@ Without prioritization, you might start with "How to make coq au vin" — too sp
 - [[Domain-Specific Knowledge Bases]] — Organizing by domain
 - [[Multi-Vault Architecture]] — When to split vaults
 - [[Frontier Exploration - AI Vault Construction Decision Framework]] — Foundational structural decisions when building from scratch
+- [[Note Lifecycle Management]] — Note stages and transitions
+- [[The Knowledge Portfolio]] — Balancing knowledge investments
+- [[Anti-Pattern - Note Hoarding]] — Accumulating without purpose
+- [[Frontier Exploration - Vault Growth Velocity and Sustainable Expansion]] — Growth management
+- [[Frontier Exploration - Unknown Unknowns in Vast Domains]] — The harder problem of discovering what you don't know you don't know

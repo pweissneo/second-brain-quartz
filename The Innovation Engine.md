@@ -62,4 +62,4 @@ For a specific technique that enables this, see [[Interleaving]].
 - [[Linking Principle]]
 - [[The Extended Mind]]
 - [[Knowledge Sharing]]
-- [[The Knowledge Creator]]
+- [[The Ownership Mindset]]

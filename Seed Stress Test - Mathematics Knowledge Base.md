@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -221,6 +221,6 @@ An AI building a mathematics knowledge base using only current Seed rules would:
 
 - [[Atomic Note Principle]] — Core atomicity guidance
 - [[Seed Stress Test - Stub Notes Rule in Mathematics Knowledge Base]] — Related exploration
-- [[Frontier Exploration - Knowledge Abstraction Levels]] — Formal vs. intuitive understanding
+- [[Stress Test - Knowledge Abstraction Levels Rule in Philosophy]] — Formal vs. intuitive understanding
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Related: proof as iterative reasoning
 - [[AI-Assisted Knowledge Management Seed]] — Source of rules being tested

@@ -1,13 +1,17 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: active
+last-reviewed: 2026-03-24
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
+evidence-tier: established-convention
 tags:
   - frontier-exploration
   - equipment
   - tool-dependency
   - domain-agnostic
+status: superseded-by-seed-rule
+notes: "Gap partially addressed by Seed rules on infrastructure dependencies and equipment tier (2026-03-23)"
 ---
 
 # Frontier Exploration - Equipment and Tool Dependencies in Knowledge Bases
@@ -87,11 +91,21 @@ For a knowledge base about home repair:
 2. Are safety equipment requirements (gloves, glasses, masks) documented?
 3. Can you distinguish "nice to have" tools from "must have" tools?
 
+## Update (2026-03-24)
+
+This gap has been **partially addressed** by the Seed:
+
+1. **Infrastructure dependencies rule** — Added 2026-03-21: For infrastructure-dependent domains (home automation, networking, IoT, energy systems), treat infrastructure configuration as a first-class dependency with `infrastructure-type:`, `infrastructure-scope:`, and `applicability-transferability:` fields.
+
+2. **Equipment tier edge case** — Added 2026-03-23: For workshop-dependent craft domains (woodworking, metalworking, leatherworking, sewing), equipment tier significantly affects technique applicability. Use `equipment-tier:` field with values: `professional`, `home-workshop`, `hand-tools-only`, `minimal`.
+
+The remaining gap: The Seed doesn't have a general equipment tracking rule for domains outside of workshop crafts and infrastructure. Consider whether this note's proposed solution should become a general Seed rule.
+
 ## Related Notes
 
 - [[Prerequisite Knowledge Tracking]] — Learning prerequisites (what knowledge you need BEFORE)
 - [[Frontier Exploration - Integrated Rules History]] — Software/framework version dependencies
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] — Ingredient alternatives when tools/ingredients unavailable
 - [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Equipment cost as vault boundary criterion
-- [[AI-Assisted Knowledge Management Seed]] — The Seed covers equipment dependencies in the "Knowledge Processing" section
+- [[AI-Assisted Knowledge Management Seed]] — Now includes equipment tier rules for workshop-dependent crafts (2026-03-23) and infrastructure dependencies for technical domains
 - [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]] — Ongoing care required to keep tools functional

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -123,7 +123,7 @@ Testing these rules against a cooking knowledge base with:
 
 **Cooking Example:**
 - Recipe note: confidence: high (tested 5 times)
-- Ingredient note: confidence: medium (from blog)
+- Ingredient note: confidence: emerging (from blog)
 - Technique note: confidence: high (standard)
 - Final answer: ???
 
@@ -133,7 +133,7 @@ Testing these rules against a cooking knowledge base with:
 > When aggregating confidence from multiple notes:
 > 1. Use minimum confidence if notes are dependent (answer requires ALL)
 > 2. Use weighted average if notes are independent (answer uses parts)
-> 3. Apply floor: if ANY note is confidence: low, final cannot exceed medium
+> 3. Apply floor: if ANY note is confidence: emerging, final cannot exceed medium
 
 ---
 
@@ -265,6 +265,113 @@ Query → Decomposition → Traversal → Scoring → Synthesis → Answer
 
 ---
 
+## Implementation Pseudocode
+
+The following pseudocode demonstrates how an AI agent could implement the reasoning strategy rules:
+
+```python
+def answer_query(query, vault):
+    # Step 1: Query Decomposition
+    query_type = classify_query_type(query)  # how-to, why, recommendation, troubleshooting
+    sub_queries = decompose_query(query, query_type)
+    
+    # Step 2: Traversal Planning
+    strategy = select_traversal_strategy(query_type, vault)
+    
+    # Step 3: Execute Traversal
+    notes_visited = []
+    for sub_query in sub_queries:
+        results = traverse_vault(sub_query, strategy, vault)
+        notes_visited.extend(results)
+    
+    # Step 4: Relevance Scoring
+    scored_notes = []
+    for note in notes_visited:
+        score = calculate_relevance(note, query)
+        scored_notes.append((note, score))
+    scored_notes.sort(key=lambda x: x[1], reverse=True)
+    
+    # Step 5: Gap Detection
+    gaps = detect_gaps(scored_notes, query)
+    
+    # Step 6: Confidence Aggregation
+    if scored_notes:
+        aggregated_confidence = aggregate_confidence(scored_notes)
+    else:
+        aggregated_confidence = "none"
+    
+    # Step 7: Synthesis
+    synthesis = synthesize_notes(scored_notes, gaps)
+    
+    # Step 8: Documentation (required for reproducibility)
+    reasoning_record = {
+        "query": query,
+        "query_type": query_type,
+        "sub_queries": sub_queries,
+        "strategy": strategy,
+        "notes_visited": len(notes_visited),
+        "notes_used": len(scored_notes),
+        "gaps": gaps,
+        "confidence": aggregated_confidence,
+        "synthesis_method": synthesis["method"],
+        "sources": synthesis["sources"]
+    }
+    
+    return {
+        "answer": synthesis["answer"],
+        "reasoning": reasoning_record,
+        "confidence": aggregated_confidence,
+        "gaps": gaps
+    }
+
+def classify_query_type(query):
+    """Classify query to determine decomposition strategy."""
+    query_lower = query.lower()
+    if any(w in query_lower for w in ["how", "make", "cook", "create", "do"]):
+        return "how-to"
+    elif any(w in query_lower for w in ["why", "reason", "because", "explain"]):
+        return "why"
+    elif any(w in query_lower for w in ["recommend", "best", "compare", "vs", "versus"]):
+        return "recommendation"
+    elif any(w in query_lower for w in ["why is", "why does", "troubleshoot", "problem", "fix"]):
+        return "troubleshooting"
+    else:
+        return "general"
+
+def aggregate_confidence(scored_notes):
+    """Aggregate confidence from multiple notes."""
+    # Use minimum if notes are dependent (all required for answer)
+    # Use weighted average if independent
+    # Apply floor: if ANY note is low, final cannot exceed medium
+    confidences = [note.confidence for note, score in scored_notes]
+    if "low" in confidences:
+        return "medium"
+    if "high" in confidences and "medium" in confidences:
+        return "medium"  # conservative
+    if all(c == "high" for c in confidences):
+        return "high"
+    if all(c == "medium" for c in confidences):
+        return "medium"
+    return "low"
+```
+
+---
+
+## Testable Criteria for Reasoning Strategies
+
+To verify reasoning strategies are working correctly, define explicit tests:
+
+| Test | Criteria | Verification |
+|------|----------|--------------|
+| Query decomposition | Can decompose "How to make pasta" into sub-queries | Manual inspection |
+| Traversal strategy | Can justify why breadth-first vs depth-first was chosen | Log inspection |
+| Relevance scoring | Can explain why Note A ranked higher than Note B | Score explanation |
+| Confidence aggregation | Can show calculation for final confidence | Formula application |
+| Gap detection | Can identify when a note is missing vs incomplete vs outdated | Classification test |
+| Synthesis documentation | Can another agent reproduce answer from documentation? | Reproducibility test |
+
+---
+
 ## Proposed New Seed Rules
 
 **Rule:** Define explicit query decomposition strategies — for different query types (how-to, why, recommendation, troubleshooting), specify decomposition approach before traversing.
@@ -387,6 +494,6 @@ Creative writing often involves other modalities — scene descriptions that cou
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — Understanding KB value propositions
 - [[Frontier Exploration - Learning Progression and Curriculum Design]] — Learning-specific traversal
-- [[Frontier Exploration - Knowledge Retrieval Patterns and Usage Tracking]] — Understanding actual query patterns
+- [[Frontier Exploration - Knowledge Base Utility Assessment]] — Understanding actual query patterns
 - [[Seed Stress Test - Reasoning Strategies in Therapeutic Psychology]] — Domain-specific reasoning test for high-stakes therapeutic domains
-- [[Seed Stress Test - Diminishing Returns Rule in Machine Learning Data Science]]
+- [[Seed Stress Test - Diminishing Returns Rule Across Domains]]

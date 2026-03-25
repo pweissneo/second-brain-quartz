@@ -1,8 +1,9 @@
 ---
-last-reviewed: 2026-03-15
+last-reviewed: 2026-03-24
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
+knowledge-type: analysis
 tags:
   - frontier-exploration
   - ai-interactions

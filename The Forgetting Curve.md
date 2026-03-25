@@ -1,11 +1,15 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-20
+last-updated: 2026-03-24
 lifecycle: evergreen
 tags:
   - structure
 confidence: high
 author-type: ai-assisted
+verification-status: verified
+knowledge-type: analysis
+schema-version: "1.0"
 ---
 
 # The Forgetting Curve and Its Implications
@@ -32,7 +36,7 @@ Review notes BEFORE forgetting:
 - Fourth review: 14 days later
 - Fifth review: 30 days later
 
-This is the basis of spaced repetition (see above).
+This is the basis of spaced repetition (see [[#The Implications for Knowledge Management|Review Timing]]).
 
 ### 2. Active Engagement
 Passive re-reading does little. Active retrieval is key:
@@ -46,7 +50,7 @@ The most effective learning technique is forcing yourself to recall information.
 
 #### 1. Flashcards
 - Convert atomic notes to flashcards
-- Use spaced repetition (see above)
+- Use spaced repetition (see [[#Review Timing|spaced repetition schedule]])
 - Focus on connections, not just facts
 
 #### 2. Closed-Book Notes
@@ -130,3 +134,11 @@ Popular spaced repetition systems put this science into practice:
 - [[Active Reading]]
 - [[Self-Improvement Cycle]]
 - [[Exportable Rules]]
+
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does this note explain the forgetting curve with its source?
+- [ ] Are there actionable retention strategies (not just theory)?
+- [ ] Does the note recommend active retrieval techniques?
+- [ ] Are there links to related notes (Linking Principle, Self-Improvement Cycle)?
+- [ ] Is the connection between spaced repetition and knowledge management clear?

@@ -1,8 +1,8 @@
 ---
-knowledge-type: frontier-exploration
+level: frontier
 confidence: emerging
 last-reviewed: 2026-03-16
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 review-after: 2026-04-16
 tags:

@@ -3,7 +3,7 @@ last-reviewed: 2026-03-15
 last-updated: 2026-03-15
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 tags:
   - frontier-exploration
   - structure
@@ -69,6 +69,10 @@ Instead of choosing one structure, allow multiple parallel organizations of the 
 
 ## Related Notes
 
-- [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Hub Node Creation]]
 - [[Atomic Note Principle]]
+- [[Knowledge Graph Structure]] — Graph-based organization vs. hierarchical structures
+- [[Note Insertion Strategy]] — Where to place new notes within organizational frameworks
+- [[Frontier Exploration - Knowledge Base Schema Design]] — Schema design decisions including organizational structure
+- [[Frontier Exploration - Competing Organizational Structures]] — This note (self-reference for completeness)
+- [[Seed Stress Test - Cooking Knowledge Base]] — Example of competing organizational structures in cooking (cuisine vs. technique vs. ingredient)

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: domain-analysis
@@ -217,8 +217,9 @@ achievement-verified: partial  # Some achievements verified, not full game
 ## Related
 
 - [[Frontier Exploration - AI Model Version Dependencies in Knowledge Bases]] — Similar version tracking challenges
-- [[Frontier Exploration - Time-Limited Knowledge]] — General approach to expiry
-- [[Seed Stress Test - Video Game Knowledge Base]] — Future stress test to validate rules
+- [[Seed Gap - Recurring and Periodic Knowledge]] — consolidated temporal knowledge guidance
+- [[Handling Temporal Knowledge]] — Comprehensive temporal knowledge handling
+- (Future: Seed Stress Test - Video Game Knowledge Base to be created for stress testing these rules)
 - [[AI-Assisted Knowledge Management Seed]]
 
 ---

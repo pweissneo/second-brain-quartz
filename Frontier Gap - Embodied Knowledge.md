@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-15
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 tags:
   - frontier-gap
   - tacit-knowledge
@@ -193,6 +193,56 @@ decay-rate: physical  # physical skills decay faster than mental
 
 **Why:** Some knowledge only exists in the group context. Individual notes cannot capture what only emerges from interaction.
 
+### 9. Add "Felt Signal" Links Alongside Logical Links
+
+**Rule:** Add "felt signals" — experiential associations that connect sensory triggers to knowledge reminders.
+
+**Why:** Embodied knowledge has associative connections ("when X feels like this, remember Y") that aren't logical cause-effect but experiential patterns.
+
+**Test:** For embodied knowledge notes, are there links capturing experiential associations, not just logical relationships?
+
+**Implementation:**
+```yaml
+felt-signals:
+  - trigger: "dough springs back too quickly"
+    remember: "[[Too Much Flour]]"
+  - trigger: "dough sticks to finger"
+    remember: "[[Add More Flour]]"
+```
+
+### 10. Include Sensory Anchors — Specific Reference Points
+
+**Rule:** Ground embodied knowledge with specific sensory anchors, not vague descriptions.
+
+**Why:** "Light pressure" is meaningless without a reference. "Light pressure — like testing a ripe peach" gives a sensory anchor.
+
+**Test:** Can you find sensory anchors in embodied notes? Are they specific enough to guide physical experience?
+
+**Implementation:**
+```yaml
+sensory-anchors:
+  - sense: tactile
+    anchor: "Like testing a ripe avocado — slight give but not mushy"
+    contrast: "Not like a rock — no give at all"
+    contrast-anchor: "Like pressing a baseball — completely rigid"
+```
+
+### 11. Separate Teaching Knowledge from Doing Knowledge
+
+**Rule:** In embodied domains, distinguish between teaching content (what the cue is), recognition content (what it feels like), and execution content (how to perform).
+
+**Why:** You can read about the poke test to learn it exists, but you must physically do the poke test to use it. These serve different purposes.
+
+**Test:** For embodied knowledge notes: (1) Does the note teach about the cue? (2) Does it help someone recognize the cue when they experience it? (3) Can someone use this note to actually perform the skill?
+
+**Implementation:**
+```yaml
+embodied-purpose: teaching|recognition|execution
+teaching-content: "What the poke test is and why it works"
+recognition_content: "What it feels like when dough passes the test"
+execution_content: "Step-by-step how to perform the poke test"
+```
+
 ## Open Questions
 
 1. **Marker granularity**: Should experiential markers be binary (has experiential component / doesn't) or gradated (requires: none/some/extensive)?
@@ -307,6 +357,7 @@ For each note in an experiential domain:
 - [[Frontier Exploration - Recipe and Menu Design Knowledge]] — Creative composition in cooking
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Tasting/evaluating experiential knowledge
 - [[Frontier Exploration - Incomplete and Provisional Knowledge]] — Related to unverified status
+- [[Frontier Exploration - Embodied and Sensory Knowledge]] — *(merged: felt signals, sensory anchors, teaching vs doing distinction)*
 
 ---
 
@@ -388,3 +439,8 @@ If execution is not feasible:
 ---
 
 **Note:** This is frontier exploration. The rules proposed here may not be fully mature. Test them against your vault before adding to the Seed proper.
+
+## Related
+- [[Seed Stress Test - Embodied Knowledge Rule]] - Domain stress test for embodied knowledge
+- [[Seed Stress Test - Cooking Knowledge Base]] - Application to cooking
+- [[Seed Stress Test - Martial Arts Knowledge Base]] - Application to martial arts

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 status: draft
@@ -120,7 +120,7 @@ knowledge-type: meta-procedural vs in-game
 
 - [[AI-Assisted Knowledge Management Seed]] - Core Seed rules including expertise-level tagging
 - [[Seed Stress Test - Chess Knowledge Base]] - perfect information strategy
-- [[Frontier Exploration - Game Design Knowledge]] - complementary domain
+- [[Frontier Exploration - Game Design Knowledge Bases]] - complementary domain
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] - similar skill-tier challenge
 
 ## Test Scenarios

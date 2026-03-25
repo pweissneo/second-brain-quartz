@@ -1,6 +1,7 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+last-updated: 2026-03-22
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -46,6 +47,5 @@ Absolute statements imply universal applicability. But most knowledge has bounda
 
 - [[Types of Applicability Boundaries]]
 - [[Frontier Exploration - Metacognitive Knowledge and Thinking Tools]]
-- [[Seed Improvement - Scale Scope Metadata]] — use inverse test to discover scale-dependent boundaries
-- [[Confidence Markers]] — inverse testing helps determine confidence levels
+- [[Stress Test - Confidence Markers Rule Across Domains]] — inverse testing helps determine confidence levels
 - [[Handling Contradictory Sources]] — testing claims against inverses reveals contradictions

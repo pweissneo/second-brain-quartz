@@ -16,15 +16,15 @@ Regular maintenance keeps the knowledge base **healthy and navigable**.
 
 ## Rule
 Perform these checks regularly (using graph analysis tools or manual inspection):
-1. **Isolated notes**: Find notes with <2 outgoing links — reconnect orphans
-2. **Link density**: Ensure each note has 2-3+ links
+1. **Isolated notes**: Find notes with <2 outgoing links unless tagged `foundational: true` or `specialized: true` — reconnect orphans
+2. **Link density**: Ensure each note has 2-3+ links (or appropriate exception tags)
 3. **Note size**: Check for oversized notes — split if needed
 4. **Index health**: Rebuild index after major changes
 
 > **Note:** Graph analysis tools are environment-specific helpers. For vaults without specialized tools, use manual link analysis or generic graph visualization tools.
 
 ## Test Criteria (for AI Evaluation)
-- [ ] Can you find all notes with < 2 links?
+- [ ] Can you find all notes with < 2 links (excluding those with `foundational: true` or `specialized: true`)?
 - [ ] Are all notes reachable from root in ≤3 hops?
 - [ ] Is link density between 2-5 per note?
 - [ ] Are there any notes > 300 words that need splitting?

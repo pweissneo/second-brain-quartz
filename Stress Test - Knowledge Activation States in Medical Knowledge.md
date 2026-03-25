@@ -1,6 +1,7 @@
 ---
 last-reviewed: 2026-03-15
-lifecycle: active
+lifecycle: seed-extension
+protected: true
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis

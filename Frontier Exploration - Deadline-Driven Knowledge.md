@@ -2,8 +2,8 @@
 last-reviewed: 2026-03-18
 last-updated: 2026-03-18
 confidence: emerging
-knowledge-type: frontier
-lifecycle: active
+level: frontier
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -34,6 +34,7 @@ But there's a gap: **deadline-driven knowledge** where:
 - "File taxes by April 15" - After April 15, this is harmful (implies you can still file)
 - Tax deduction deadlines
 - Contribution deadlines for retirement accounts
+- See [[Seed Stress Test - Advisory Validity Tracking in Financial Planning]] for comprehensive analysis of financial advisory validity
 
 ### Application Deadlines
 - College application deadlines
@@ -193,8 +194,6 @@ status: active
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Condition-Triggered Knowledge]]
 - [[Frontier Exploration - Seasonal and Cyclical Knowledge]]
-- [[Stress Test - Temporal Knowledge Rule in Stock Trading]]
-- [[Handling Temporal Knowledge]]
 
 ## Questions for Seed Update
 

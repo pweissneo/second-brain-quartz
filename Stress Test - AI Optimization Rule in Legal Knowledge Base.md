@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 specialized: true
@@ -152,5 +152,5 @@ The rule needs extension for legal knowledge bases.
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — Core Seed rules being tested
-- [[Frontier Exploration - Legal Knowledge Bases]] — Related frontier exploration
+- [[Seed Stress Test - Legal Knowledge Bases]] — Related frontier exploration (merged)
 - [[Stress Test - Every Link Must Be Explainable in Legal Knowledge]] — Related stress test on link explainability

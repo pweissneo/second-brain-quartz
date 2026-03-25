@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 status: draft
@@ -201,4 +201,4 @@ specific-context: [when this applies]
 - [[Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge]]
 - [[Frontier Exploration - Jargon vs Plain Language]]
 - [[Confidence Markers]]
-- [[Knowledge-Type Tagging]]
+- [[Note Types and Templates]]

@@ -1,6 +1,7 @@
 ---
 protected: true
 last-reviewed: 2026-03-15
+last-updated: 2026-03-15
 lifecycle: evergreen
 tags:
   - structure

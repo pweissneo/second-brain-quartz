@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-18
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 schema-version: "1.0"
 tags:
@@ -122,7 +122,7 @@ High-stakes domains need more:
 
 ## Related Notes
 
-- [[Note Types and Templates]] — Content templates (different from schema)
+- [[Schema.md]] — Vault field documentation (the actual schema definition)
 - [[Note Types and Templates]] — Content templates and tagging strategy
 - [[Domain-Specific Knowledge Bases]] — Multi-domain vaults
 - [[Knowledge Base Version Control and Change Tracking]] — Schema changes as vault version control
@@ -136,7 +136,7 @@ A new cooking vault needs to decide its metadata:
 ```yaml
 tags:
   - breakfast
-lifecycle: staging
+lifecycle: seed-extension
 ```
 
 **After 100 notes:**

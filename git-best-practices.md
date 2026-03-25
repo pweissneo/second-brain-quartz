@@ -3,6 +3,7 @@ last-reviewed: 2026-03-16
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - workflow
   - git
@@ -11,53 +12,20 @@ tags:
 
 # Git Best Practices for Knowledge Bases
 
-Using Git properly keeps the knowledge base clean and maintainable.
+> This note covers git practices specifically for maintaining AI-assisted knowledge bases. For general git usage, refer to external git documentation.
 
-## File Naming
-Use consistent naming conventions:
-- Use `kebab-case.md` or `CamelCase.md`
-- Spaces in titles become hyphens in filenames
-- Example: `Atomic Note Principle.md`
+## AI Agent Workflow
 
-## Branching Workflow
-Create a branch before making changes:
+When AI agents make changes to the knowledge base:
 
-```bash
-git checkout -b branch-name  # Create branch
-## Make changes
-git add -A
-git commit -m "[Type] Description"
-git push origin branch-name
-```
+### Automated Commits
+AI agents should commit after each meaningful change:
+- New note added → commit with `[Add] Note title`
+- Link added between notes → commit with `[Link] Note A → Note B`
+- Note updated → commit with `[Improve] Note title`
+- Fix broken link → commit with `[Fix] Broken link in Note`
 
-## Rules
-
-### 1. Atomic Commits
-Each commit should represent **one logical change**:
-- ✅ Good: "Add Zettelkasten Method node"
-- ❌ Bad: "Self-improvement iteration 2"
-
-### 2. Descriptive Messages
-Commit messages should describe the **knowledge added**:
-```
-Add atomic node about [topic]
-Add linking principle for [concept]
-Refactor [node] into smaller atomic nodes
-```
-
-### 3. Ignore Cache Files
-Never commit generated files:
-- `.mcp-cache/` - Graph index cache
-- `.obsidian/` - Editor settings
-- `.vault-sources.sqlite` - Provenance database
-- `*.log` - Log files
-
-### 4. Iteration Log Strategy
-The [[Self-Improvement Cycle]] tracks iterations. It should **not** be updated in every commit. Instead:
-- Only log significant improvements
-- Or keep the log locally and sync periodically
-
-## Commit Template
+### Commit Message Format
 ```
 [Type] Brief description
 
@@ -66,10 +34,31 @@ The [[Self-Improvement Cycle]] tracks iterations. It should **not** be updated i
 - Improved: [change]
 ```
 
-Types: Add, Fix, Refactor, Improve, Document
+Types: Add, Fix, Refactor, Improve, Document, Merge, Delete
+
+## File Naming for AI Agents
+
+AI agents should use consistent naming:
+- Use `kebab-case.md` for filenames
+- Spaces in titles become hyphens: `Atomic Note Principle.md` → `atomic-note-principle.md`
+- This ensures predictable file paths for graph tools
+
+## Excluded Files
+
+AI agents must never commit generated files:
+- `.mcp-cache/` - Graph index cache
+- `.obsidian/` - Editor settings
+- `*.log` - Log files
+- Build artifacts (`public/`, `dist/`)
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Claude Knowledge Base Setup]]
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
+
+## Test Criteria
+
+- [ ] Do AI agents use consistent commit types?
+- [ ] Are filenames in kebab-case?
+- [ ] Are cache files in .gitignore?
+- [ ] Does each commit represent one logical change?

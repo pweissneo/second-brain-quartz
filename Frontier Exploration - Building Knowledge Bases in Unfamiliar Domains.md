@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 review-by: 2026-03-21
@@ -137,10 +137,11 @@ verification-date: YYYY-MM-DD
 
 ## Related Notes
 
-- [[Seed Improvement - Safety-Critical Knowledge Metadata]] — Related to high-stakes domain handling
+- [[Frontier Exploration - Professional Advice Disclaimer Requirements]] — Related to high-stakes domain handling
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — How to measure if KB is working
 - [[Frontier Exploration - Unknown Unknowns in Vast Domains]] — Discovering what you don't know
 - [[AI-Assisted Knowledge Management]] — General AI-KB interaction
+- [[AI-Assisted Knowledge Management Seed]] — Core rules including confidence calibration
 
 ## Open Questions
 

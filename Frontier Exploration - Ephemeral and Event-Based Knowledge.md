@@ -3,8 +3,10 @@ last-reviewed: 2026-03-19
 last-updated: 2026-03-19
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 meta-type: capture-process
+schema-version: "1.0"
+level: frontier
 tags:
   - frontier-exploration
   - temporal-knowledge
@@ -153,9 +155,12 @@ The Seed lacks explicit guidance for:
 
 ## Related Seed Rules
 
-- [[Frontier Gap - Embodied Knowledge]] — touches on experiential components
+- [[Frontier Gap - Embodied Knowledge]] — touches on experiential components; performance knowledge overlaps
 - [[Handling Temporal Knowledge]] — related but covers different temporal aspects
-- [[Frontier Gap - Embodied Knowledge]] — performance knowledge overlaps
+- [[Note Lifecycle Management]] — lifecycle handling for notes that can't be updated
+- [[Frontier Exploration - Living Documents]] — continuously evolving documents, different from ephemeral
+- [[Seed Stress Test - Temporal Knowledge Rule in Stock Trading]] — time-sensitive data handling as contrast
+- [[The Forgetting Curve]] — why capturing ephemeral knowledge quickly matters
 
 ---
 

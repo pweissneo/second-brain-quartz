@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -260,7 +260,7 @@ _root → Food → Cuisines → Asian → Japanese → Sushi → [specific rolls
 
 **Problem:** In cooking, you often cannot assess utility without actually cooking. A recipe may LOOK similar to existing ones but produce dramatically different results.
 
-**Solution:** For recipes, the test should include "have you cooked this?" rather than just assessing the note itself. Require `verification-status: tested` for recipes.
+**Solution:** For recipes, the test should include "have you cooked this?" rather than just assessing the note itself. Require `verification-status: verified` for recipes.
 
 ### Edge Case: Cuisine-Specific Context
 
@@ -277,9 +277,69 @@ _root → Food → Cuisines → Asian → Japanese → Sushi → [specific rolls
 ### Modified Test for Cooking Domain
 
 For the last 5 notes added to a cooking topic:
-1. Do 3+ pass utility/connection/uniqueness/effort tests OR have `verification-status: tested`?
+1. Do 3+ pass utility/connection/uniqueness/effort tests OR have `verification-status: verified`?
 2. For foundational technique notes: are they exempt during bootstrap phase?
 3. For recipe notes: do they have sensory-cues documented?
+
+## 10. 5:1 Personal-to-General Ratio in Cooking
+
+**Seed Rule:** Capture insights, decisions, and experiences (personal) over restatable facts (general) at a 5:1 ratio.
+
+**Cooking Application:**
+
+### Edge Case: Recipes Exist Online
+
+**Problem:** The core assumption of 5:1 is that "a web search can replace this note in <30 seconds." But for recipes, this is almost always true — every recipe exists online. Does this mean most recipe notes fail the 5:1 test?
+
+**Analysis:** The 5:1 rule has an edge case for creative skill domains (line 295 in Seed): "Allow higher general ratio (3:1 or 2:1) during foundational skill acquisition." Cooking is a creative skill where general knowledge (recipes) enables personal creation.
+
+**Refinement:** For recipe notes, the 5:1 test should assess:
+1. Does this include YOUR specific modifications/adaptations?
+2. Does this document YOUR cooking decisions and why?
+3. Does this capture personal tips, timing adjustments, or ingredient swaps YOU made?
+4. Does this include YOUR verification results (what worked/didn't)?
+
+A recipe that is "YOUR version" with modifications counts as personal even if the base recipe exists online.
+
+### Edge Case: "General" Knowledge That's Frequently Referenced
+
+**Problem:** A recipe for "classic béchamel sauce" exists everywhere. Is it worth capturing?
+
+**Seed Edge Case:** "General knowledge is acceptable when: frequently referenced (saves lookup time), synthesized with personal analysis, or domain-specific enough to be hard to find."
+
+**Analysis:** Classic recipes are frequently referenced and benefit from personal synthesis (your notes on texture, timing, troubleshooting). Capture as "general but personal-analysis-added."
+
+---
+
+## 11. Verification Timing for Seasonal Cooking
+
+**Seed Rule:** Verify at least 50% of new captures within 30 days.
+
+**Cooking Application:**
+
+### Edge Case: Seasonal Ingredients
+
+**Problem:** A recipe for "pumpkin soup" captured in March cannot be verified until October (pumpkin season). The 30-day verification window is unrealistic.
+
+**Seed Edge Case:** "In domains with seasonal or cyclical verification constraints, the 30-day verification window may unfairly penalize valid captures."
+
+**Solution:** Apply domain-aware verification windows for cooking:
+- Use `verification-cycle:` field with values `seasonal|annual|circular`
+- Track `verification-season:` for when verification is possible
+- Count seasonal notes as "pending verification" during off-seasons
+- Set verification ratio targets based on capture timing
+
+### Edge Case: Long-Cooked Dishes
+
+**Problem:** Some dishes take 8+ hours (braises, stews, fermented foods). You can't verify multiple recipes in a week.
+
+**Solution:** Track `verification-effort:` field (quick <1hr, moderate 1-4hr, extensive 4hr+) to set realistic verification expectations.
+
+### Edge Case: Ingredient-Specific Verification
+
+**Problem:** A recipe works with one type of ingredient but not another (e.g., grass-fed vs grain-fed beef). Single verification may be insufficient.
+
+**Solution:** For ingredient-sensitive recipes, document verification scope: "Tested with [ingredient type], results may vary with alternatives."
 
 ---
 

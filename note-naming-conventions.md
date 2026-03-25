@@ -3,6 +3,7 @@ last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: high
 author-type: human
+schema-version: "1.0"
 tags:
   - convention
   - naming
@@ -59,4 +60,5 @@ This note expands on that rule with specific guidelines.
 - [[Note Types and Templates]]
 - [[Graph Traversal Efficiency]]
 - [[Zettelkasten Method]]
+- [[Wikilinks]]
 - [[Forward References and Planned Knowledge]]

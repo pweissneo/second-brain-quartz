@@ -4,10 +4,12 @@ last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+verification-status: verified
 tags:
   - anti-pattern
   - quality
   - negative-knowledge
+level: pattern
 ---
 
 # Anti-Pattern: Missing Negative Knowledge
@@ -59,7 +61,7 @@ For every dedicated negative knowledge note, include a link to the positive alte
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Personal Experimentation Results]]
 - [[Note Lifecycle Management]]
-- [[Confidence Markers]] — for signaling reliability of negative knowledge
+- [[Stress Test - Confidence Markers Rule Across Domains]] — for signaling reliability of negative knowledge
 - [[Handling Contradictory Sources]] — when negative knowledge conflicts with positive
-- [[Frontier Exploration - Knowledge Debt]] — accumulated gaps in knowledge quality
+- [[Frontier Exploration - Knowledge Maintenance]] — accumulated gaps in knowledge quality
 - [[AI-Assisted Knowledge Management Seed]]

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-17
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -128,7 +128,7 @@ When answering queries:
 
 - [[Handling Temporal Knowledge]] — Time-based decay (complements condition-triggered)
 - [[Knowledge Activation States]] — Activation framework being extended
-- [[Frontier Exploration - Seasonal and Cyclical Knowledge]] — Calendar-based conditions (related)
+- [[Seed Gap - Recurring and Periodic Knowledge]] — Consolidated guidance on recurring, cyclical, and deadline-driven knowledge (replaces Seasonal/Cyclical and Deadline-Driven notes)
 - [[Frontier Exploration - Emergency and Crisis Knowledge]] — Event-triggered activation
 
 ## Test Questions

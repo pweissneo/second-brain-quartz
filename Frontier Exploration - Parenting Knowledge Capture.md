@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 thinking-tool: true
 thinking-tool-type: reasoning-framework
@@ -162,7 +162,7 @@ empirical-support: none | weak | moderate
 
 **Test:** Does advice that works for some children include notes about which temperaments it applies to?
 
-### Rule: Default parenting knowledge to `confidence: low` unless there's strong evidence
+### Rule: Default parenting knowledge to `confidence: emerging` unless there's strong evidence
 
 **Why:** The appearance of confidence in a domain where confidence is rarely justified creates false certainty.
 

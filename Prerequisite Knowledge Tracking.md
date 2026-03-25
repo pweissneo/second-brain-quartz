@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-19
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 tags:
   - seed-extension

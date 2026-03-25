@@ -1,11 +1,9 @@
 ---
-last-reviewed: 2026-03-18
-lifecycle: active
+last-reviewed: 2026-03-23
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-status: draft
 review-by: 2026-03-25
-knowledge-type: frontier-exploration
 tags:
   - frontier-exploration
   - consistency
@@ -59,7 +57,7 @@ One note covers broad scope, another covers narrow scope, both use same terminol
 ### Type 4: Confidence Mismatch
 Same claim with different confidence levels:
 - Note A: "confidence: high" - "X is true"
-- Note B: "confidence: low" - "X might be true"
+- Note B: "confidence: emerging" - "X might be true"
 
 ### Type 5: Temporal Conflicts
 Information that was true at one time but different at another:
@@ -184,7 +182,7 @@ Cons: Requires discipline to maintain
 - [[Handling Contradictory Sources]] - Existing Seed rule
 - [[Knowledge Cascade Effects]] - When changes require other changes
 - [[Graph Maintenance]] - Structural health checks
-- [[Knowledge Debt]] - Composite quality tracking
+- [[[Frontier Exploration - Knowledge Maintenance]]] - Composite quality tracking
 
 ## Examples
 
@@ -198,7 +196,7 @@ Cons: Requires discipline to maintain
 
 ### Example 2: Confidence Mismatch
 - Note A: "This technique has confidence: high - works reliably"
-- Note B: "confidence: low - uncertain about effectiveness"
+- Note B: "confidence: emerging - uncertain about effectiveness"
 
 **Detection**: Both about same technique with different confidence
 **Resolution**: Investigate, reconcile, update confidence levels

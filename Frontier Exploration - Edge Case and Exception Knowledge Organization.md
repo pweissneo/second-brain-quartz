@@ -3,7 +3,7 @@ last-reviewed: 2026-03-18
 last-updated: 2026-03-18
 confidence: emerging
 author-type: ai-assisted
-lifecycle: active
+lifecycle: evergreen
 tags:
   - frontier-exploration
   - edge-cases
@@ -177,10 +177,10 @@ If you cannot answer yes to all four, the gap exists in your vault.
 
 ## Related Seed Rules
 
-- [[Context-Gated Knowledge]] - Related but focuses on when knowledge applies, not what modifies it
-- [[Condition-Triggered Knowledge]] - Related but focuses on external conditions, not exception structures
-- [[Knowledge Confidence Calibration]] - Confidence may be lower for knowledge with many exceptions
-- [[Framework-Dependent Knowledge]] - Different frameworks can have different exceptions
+- [[Frontier Exploration - Context-Gated Knowledge]] - Related but focuses on when knowledge applies, not what modifies it
+- [[Frontier Exploration - Condition-Triggered Knowledge]] - Related but focuses on external conditions, not exception structures
+- [[Stress Test - Confidence Markers Rule Across Domains]] - Confidence may be lower for knowledge with many exceptions
+- [[Frontier Exploration - Framework-Dependent Knowledge]] - Different frameworks can have different exceptions
 
 ---
 

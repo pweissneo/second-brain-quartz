@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-13
 last-updated: 2026-03-15
-lifecycle: active
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -165,6 +165,7 @@ domain-transfer-potential:
 3. When does cross-domain synthesis create new domain knowledge vs. just connecting existing domains?
 
 ## Related Notes
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Trade-off Knowledge Capture]]
 - [[Prerequisite Knowledge Tracking]]

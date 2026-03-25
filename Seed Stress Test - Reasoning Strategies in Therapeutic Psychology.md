@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-16
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis

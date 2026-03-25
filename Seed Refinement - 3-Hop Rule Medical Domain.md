@@ -1,16 +1,25 @@
 ---
-last-reviewed: 2026-03-13
-lifecycle: active
-confidence: emerging
+last-reviewed: 2026-03-19
+lifecycle: seed-extension
+confidence: high
 author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-refinement
   - navigation
   - medical-domain
+replaces:
+  - note: "[[AI-Assisted Knowledge Management Seed]]"
+    replaced-claims: "Content merged into Seed's 3-hop rule edge cases"
+    reason: "Seed now includes the domain taxonomy edge cases from this note"
+    replacement-type: complete
 ---
 
 # Seed Refinement: 3-Hop Rule Stress Test (Medical Domain)
+
+> **DEPRECATED:** This note's content has been merged into the [[AI-Assisted Knowledge Management Seed]]. The Seed now includes the domain taxonomy edge cases (Medical/Clinical, Pharmacological, Evidence-based medicine, Diagnostic reasoning) that were proposed in this note.
+
+This note is kept for historical purposes - it was an early stress test that contributed to Seed refinement.
 
 ## Original Rule
 

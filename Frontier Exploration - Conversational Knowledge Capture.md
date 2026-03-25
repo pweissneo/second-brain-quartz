@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-14
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -130,3 +130,10 @@ With this rule, an AI would:
 2. Distinguish direct quotes from paraphrase
 3. Track consent status
 4. Note follow-up availability for verification
+
+## Test Criteria (for AI Evaluation)
+- [ ] Does this note clearly identify a gap in the Seed rules?
+- [ ] Does it explain why the gap matters for AI knowledge management?
+- [ ] Does it propose specific new rules with Rule/Why/Test format?
+- [ ] Does it link to at least 2 existing notes in the vault?
+- [ ] Is the content domain-agnostic (not specific to one field)?

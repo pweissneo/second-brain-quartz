@@ -131,6 +131,53 @@ In investing, some sources are universally referenced (SEC, IRS). A note citing 
 
 ---
 
+## Domain: Product Management
+
+Product management is a hybrid domain that combines:
+1. **Strategic decisions** (personal, context-dependent) — "We prioritized feature X over Y because..."
+2. **Framework knowledge** (general but necessary) — "The RICE framework scores features by Reach, Impact, Confidence, Effort"
+3. **Market knowledge** (personal + general mix) — "Our users in Segment A prefer X" vs "B2B users generally prefer..."
+4. **Stakeholder knowledge** (highly personal) — "Engineering team prefers waterfall; Design prefers agile"
+
+The 5:1 ratio makes sense because:
+- Personal product decisions are high-value and non-transferable
+- General framework knowledge is widely available online
+- The combination (framework + personal context) creates unique insight
+
+### Edge Cases Discovered
+
+#### 1. Framework Application vs. Framework Definition
+A note about "RICE scoring resulted in Feature A > Feature B" is personal (your specific scoring). A note about "RICE framework consists of Reach, Impact, Confidence, Effort" is general. The test should distinguish:
+- Framework definition: general (ratio doesn't apply)
+- Framework application: personal (counts toward ratio)
+
+#### 2. Confidential Decisions
+PMs often can't capture strategic decisions due to NDAs, competitive sensitivity, or organizational politics. This creates a gap where the highest-value knowledge is also the most restricted.
+- **Modified test:** Notes about confidential decisions should be tagged `confidentiality-constrained: true` and exempt from ratio calculations
+
+#### 3. Stakeholder-Specific Knowledge
+Knowledge about specific stakeholders ("Engineering lead prefers detailed specs") is highly personal but not "decisions or experiences" in the traditional sense. It's relationship knowledge that enables effective collaboration.
+- **Modified test:** Stakeholder-specific knowledge counts as personal-equivalent because it's non-transferable and context-dependent
+
+#### 4. Metrics and Analytics
+Product metrics (DAU, MAU, conversion rates) are personal to your product but look like general numbers. A conversion rate of 2.3% is data, not insight. The insight is "2.3% is good/bad for our industry because..."
+- **Modified test:** Raw metrics are NOT personal knowledge; metrics WITH interpretation count
+
+#### 5. Competitive Analysis
+"Competitor X launched feature Y" is general (anyone can find this). "Competitor X's feature Y failed because Z (based on our user research)" is personal. The distinction is whether you've added proprietary insight.
+- **Modified test:** Competitive analysis with proprietary research counts; public information does not
+
+### Modified Test for Product Management
+
+For product management notes:
+1. Does this include YOUR specific application of a framework (not just the framework definition)?
+2. Does this document a decision YOU made with reasoning?
+3. Does this capture stakeholder-specific knowledge that wouldn't transfer?
+4. Does this include metrics WITH interpretation (not raw numbers)?
+5. Does this include competitive analysis with proprietary insight?
+
+Count notes as personal if yes to 2+ of 1-5.
+
 ## Domain: Scientific Research
 
 ### Analysis
@@ -195,6 +242,7 @@ Studying existing compositions (general knowledge) creates the foundation for pe
 | Legal | Jurisdiction-specific + confidentiality constraints |
 | Parenting | Safety-critical reversal + child-specific tagging |
 | Personal Finance | Personal application of general + temporal decay |
+| Product Management | Framework application + confidential decision tagging + stakeholder knowledge |
 | Scientific Research | Synthesis + methodology + negative results |
 | Music Composition | Learning phase ratio adjustment |
 
@@ -227,3 +275,4 @@ Count as "personal-equivalent" if yes to ANY of these.
 - [[AI-Assisted Knowledge Management Seed]] — Original Seed rule
 - [[Frontier Exploration - Domain-Specific Knowledge Bases]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Diminishing Returns Rule Across Domains]]

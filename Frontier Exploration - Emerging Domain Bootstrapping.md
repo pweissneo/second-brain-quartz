@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-17
+last-reviewed: 2026-03-22
 confidence: emerging
 lifecycle: evergreen
 author-type: ai-assisted
@@ -7,6 +7,13 @@ tags:
   - frontier-exploration
   - methodology
   - compliance-fix
+limitations:
+  - context: "Highly domain-dependent"
+    effect: "Phase thresholds (10, 30, 50) may need adjustment for different domain sizes"
+    severity: medium
+  - context: "Single-person vaults"
+    effect: "Pattern detection in phase 2 may not work well without external usage data"
+    severity: low
 ---
 
 # Frontier Exploration - Emerging Domain Bootstrapping

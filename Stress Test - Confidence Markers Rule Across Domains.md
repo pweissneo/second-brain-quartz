@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -131,7 +131,7 @@ Treaties have different levels of enforceability. The confidence marker needs to
 
 ---
 
-## Domain 3: Culinary/Knowledge
+## Domain 3: Culinary Knowledge
 
 Cooking knowledge has unique confidence considerations that differ from both scientific and legal domains.
 

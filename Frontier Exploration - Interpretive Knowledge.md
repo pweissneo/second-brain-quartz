@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 specialized: true
@@ -150,7 +150,7 @@ Formal/Classical ←——→ Experimental/Modern
 ```markdown
 ---
 type: personal-opinion
-confidence: subjective
+confidence: emerging
 ---
 ```
 

@@ -1,8 +1,13 @@
 ---
 last-reviewed: 2026-03-15
+last-updated: 2026-03-22
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
+verification-status: verified
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 tags:
   - methodology
   - automation

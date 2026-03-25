@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-18
-lifecycle: active
+last-reviewed: 2026-03-22
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -245,6 +245,60 @@ These are personal.
 | Source Quality | Historical sources lack safety | Add `safety-review-required:` for historical |
 | Atomicity | Project plans exceed 300 words | Separate overview from components |
 | 5:1 Ratio | General techniques with personal approach | Add `personal-insight:` field |
+
+---
+
+## NEW Edge Case (2026-03-22): Wood Species-Specific Technique Adaptation
+
+**Problem**: The same technique often produces different results or requires different approaches depending on wood species. Current Seed rules don't capture this variability:
+
+- **Hardness variation**: Cutting oak requires different blade/gouge sharpness than pine
+- **Grain behavior**: Open-grained woods (oak, ash) vs closed-grained (maple, cherry) respond differently to hand tools
+- **Density effects**: Heavy woods require different feed rates and cutting depths
+- **Oil content**: oily woods (teak, cocobolo) cause glue adhesion problems
+- **Color/staining**: Some woods stain differently, affecting finishing decisions
+
+**Example**: "Plane the surface flat" - but:
+- Pine: light passes, sharp iron, watch for tear-out on end grain
+- Maple: sharper iron needed, watch for burning
+- Walnut: moderate settings, good results relatively easy
+- Oak: heavy passes, watch for interlocked grain tear-out
+
+**Analysis**: The Seed's compound-conditions rule helps but doesn't specifically address **material-variable techniques** - procedures where the same action produces different outcomes based on material properties.
+
+**Test**: For technique notes that apply to multiple wood species:
+1. Does frontmatter include `species-sensitivity:` (high | medium | low)?
+2. For high sensitivity: Are species-specific variations documented?
+3. Does the note warn about species that need special handling?
+
+**Proposed Refinement**: Add species sensitivity field:
+```yaml
+species-sensitivity: high  # technique varies significantly by wood
+species-variations:
+  - species: [oak, ash, elm]  # open-grained hardwoods
+    adjustment: "Use shear cutting angle, watch for tear-out"
+  - species: [maple, cherry, birch]  # closed-grained
+    adjustment: "Keep tools sharper, watch for burning"
+  - species: [teak, cocobilo, rosewood]  # oily
+    adjustment: "Use epoxy or specialized glue, avoid oil finish"
+```
+
+**Status**: IMPLEMENTED - partially covered by compound-conditions rule (2026-03-22), but domain-specific guidance improves AI executability.
+
+---
+
+## Implementation Status (2026-03-23)
+
+| Proposed Addition | Status | Notes |
+|------------------|--------|-------|
+| `equipment-tier:` | ✅ IMPLEMENTED | Added to Seed (lines 176-188) as workshop-dependent craft edge case |
+| `safety-type:` | ✅ IMPLEMENTED | Added to Seed (lines 2882-2895) |
+| `embodied-knowledge:` | ✅ IMPLEMENTED | Covered by `embodied-component:` (lines 440-451) |
+| `safety-review-required:` | ✅ IMPLEMENTED | Added to Seed (line 200) for historical sources |
+| `personal-insight:` | ⚠️ PARTIAL | Covered by `your-context:` for self-regulation; need explicit woodworking guidance |
+| Species-specific variations | ✅ PARTIAL | Covered by compound-conditions rule (2026-03-22) |
+
+**Note (2026-03-23):** This note's implementation status table was out of date. Several proposed additions have been implemented in the Seed. The remaining gap is explicit `personal-insight:` guidance for woodworking-specific personal knowledge capture.
 
 ---
 

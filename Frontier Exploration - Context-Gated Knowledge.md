@@ -1,9 +1,9 @@
 ---
 last-reviewed: 2026-03-17
 last-updated: 2026-03-17
-confidence: medium
-lifecycle: emerging
-verification-status: unverified
+confidence: emerging
+lifecycle: evergreen
+verification-status: verified
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -128,5 +128,7 @@ If yes to any → consider context-gate tagging.
 
 See also:
 - [[Frontier Exploration - Condition-Triggered Knowledge]]
+- [[Seed Gap - Recurring and Periodic Knowledge]] — Consolidated temporal knowledge guidance
+- [[Domain-Specific Knowledge Bases]]
 - [[Anti-Pattern - Missing Negative Knowledge]] (for counter-indications)
 - [[Confidence Markers]] (for certainty levels)

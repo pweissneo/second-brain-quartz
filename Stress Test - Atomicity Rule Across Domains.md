@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-18
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -83,6 +83,7 @@ Testing the atomic note principle across multiple knowledge domains to find univ
 | Gardening | Sequential procedures (planting, building beds) | Seasonal knowledge, plant-specific guides | Temporal cycles + hub pattern |
 | Programming | Code+explanation, API groups, error handling | - | Code is inseparable from explanation |
 | Philosophy | Single concepts, thinkers, arguments | Contested concepts, historical overviews | Opposition pairs + perspectives structure |
+| Legal | Case briefs, single statutes | Multi-issue opinions, jurisdiction-spanning topics | Reference vs analysis distinction |
 
 ---
 
@@ -146,6 +147,25 @@ If yes, it's atomic regardless of word count. This is the ultimate test — not 
 - **Tutorial vs Reference:** Tutorials can be longer; reference should be atomic
 
 **Key insight:** Code and explanation are one atomic unit for programming.
+
+### Legal Domain
+
+**What works ✓:**
+- Case briefs: each case = one note, atomicity works well
+- Single statutes: each statute as one reference unit
+- Legal terminology: definitions are atomic by nature
+
+**What breaks ✗:**
+- Comprehensive statute notes: a single statute may have multiple subsections (definitions, requirements, exceptions) that would require 5+ notes
+- Multi-issue court opinions: one opinion may address multiple legal issues (contract formation, damages, procedural issues)
+- Jurisdiction-spanning topics: "LLC Formation" covering federal + California + Delaware rules
+
+**Edge cases:**
+- **Comprehensive legal references:** Notes like "2024 Tax Act Summary" must cover multiple provisions, effective dates, and prior law interactions — splitting would make them unusable. Solution: tag with `reference-type: comprehensive`.
+- **Multi-part legal tests:** Legal tests often have multiple elements (fraud = misrepresentation + knowledge + intent + reliance + damages). Each element could be separate, but the test is a unit. Solution: tag with `legal-test:`.
+- **Jurisdiction-specific knowledge:** When a topic spans multiple jurisdictions, split by jurisdiction rather than trying to keep everything in one note.
+
+**Key insight:** Distinguish legal reference content (statutes, cases, regulations — consulted, not executed) from legal analysis (synthesizing multiple sources — may violate atomicity but should be broken down).
 
 ---
 
@@ -319,7 +339,7 @@ If yes → atomic. The presence of "and" in a summary is NOT a reliable indicato
 > - Canonical thought experiments: allow brief notes with `type: thought-experiment`
 > - Schools of thought: use hub+spoke with clear doctrine boundaries
 > - Interpretive debates: use perspectives structure
-> - Default to `confidence: low` for contested philosophical claims
+> - Default to `confidence: emerging` for contested philosophical claims
 
 **Test:** Can you apply atomicity rules to philosophy concepts without artificial fragmentation?
 

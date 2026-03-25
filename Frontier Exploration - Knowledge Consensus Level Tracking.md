@@ -3,8 +3,8 @@ last-reviewed: 2026-03-19
 last-updated: 2026-03-19
 confidence: emerging
 author-type: ai-assisted
-lifecycle: emergent
-knowledge-type: frontier-exploration
+lifecycle: evergreen
+level: frontier-exploration
 verification-status: unverified
 tags:
   - frontier-exploration

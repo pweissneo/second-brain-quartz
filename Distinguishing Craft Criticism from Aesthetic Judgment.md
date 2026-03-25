@@ -3,6 +3,8 @@ last-reviewed: 2026-03-16
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
+verification-status: verified
 tags:
   - quality
   - creative-domains
@@ -70,5 +72,5 @@ When reading evaluative content:
 
 - [[Anti-Pattern - Perfectionism]] — Over-focus on craft perfection misses aesthetic growth
 - [[Frontier Exploration - Interpretive Knowledge]]
-- [[Confidence Markers]]
+- [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Frontier Gap - Conflicting Style-Specific Rules]]

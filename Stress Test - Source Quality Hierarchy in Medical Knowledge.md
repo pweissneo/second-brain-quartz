@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -148,7 +148,6 @@ The rule is sound but needs refinement:
 5. **Flag AI-generated content** - mark with author type for credibility assessment
 
 ## Related
-- [[Confidence Markers]]
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]

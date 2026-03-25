@@ -1,15 +1,20 @@
 ---
 last-reviewed: 2026-03-14
-lifecycle: active
+last-updated: 2026-03-24
+lifecycle: evergreen
 confidence: emerging
+verification-status: verified
 author-type: ai-assisted
 tags:
   - seed-stress-test
   - linking
   - graph-structure
+integrated: true
 ---
 
 # Stress Test: Diverse Link Types Rule
+
+> **Status:** INTEGRATED — Edge cases merged into Seed. This note retained as historical record.
 
 > **Note:** This stress test uses hypothetical examples from multiple domains for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply across domains, not actual vault notes.
 

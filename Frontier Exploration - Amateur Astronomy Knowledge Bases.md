@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-18
 last-updated: 2026-03-18
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -121,7 +121,7 @@ The **verification workflow** for experiential domains maps well — "I tried th
 
 ### New Rule: Sensory Threshold Confidence
 
-**Rule:** For knowledge at the boundary of sensory perception, default to `confidence: low` and include the sensory context (equipment, conditions, observer experience).
+**Rule:** For knowledge at the boundary of sensory perception, default to `confidence: emerging` and include the sensory context (equipment, conditions, observer experience).
 **Why:** Knowledge at perceptual limits has inherent uncertainty that should be acknowledged.
 **Test:** For observation notes at the limit of perception, is confidence marked appropriately and sensory context documented?
 
@@ -146,7 +146,6 @@ This is distinct from other experiential domains because:
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — overlaps but lacks astronomy-specific guidance
 - [[Stress Test - Atomicity Rule Across Domains]] — covers recognition knowledge partially but not visual pattern recognition
 - [[Frontier Gap - Embodied Knowledge]] — some overlap but astronomy is visual/mental, not physical
-- [[Expert Heuristics and Rules of Thumb]] — pattern recognition expertise
-- [[Equipment and Tool Dependencies]] — equipment-specific knowledge
+- [[Frontier Exploration - Expert Heuristics and Rules of Thumb]] — pattern recognition expertise
+- [[Frontier Exploration - Equipment and Tool Dependencies]] — equipment-specific knowledge
 - [[Handling Temporal Knowledge]] — time-sensitive celestial events
-- [[Knowledge Abstraction Levels]] — organizing catalog knowledge

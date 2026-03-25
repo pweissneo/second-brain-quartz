@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-17
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - learning
   - technique
@@ -72,7 +74,7 @@ Tag notes with cross-domain indicators:
 
 - [[Seed Stress Test - Cooking Knowledge Base]] — Interleaving applied to mixing different culinary techniques (knife skills, sauce making, heat management) within a single cooking session
 - [[Seed Stress Test - Photography Knowledge Base]] — Interleaving applied to mixing different photography genres (portrait, landscape, street) to develop versatile skills
-- [[Seed Stress Test - 2+ Links Rule in Music Theory]] — Interleaving applied to mixing different musical elements (melody, harmony, rhythm, timbre) in music theory study
+- [[Seed Stress Test - 2+ Links Rule Across Domains]] — Consolidated stress test covering multiple domains
 
 ## Related
 

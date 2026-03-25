@@ -1,9 +1,9 @@
 ---
 last-reviewed: 2026-03-19
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
-verification-status: emerging
+verification-status: verified
 tags:
   - seed-stress-test
   - expertise-level
@@ -219,6 +219,6 @@ inversion-stability: stable|contested|contextual
 
 ## Related Notes
 
-- [[Seed Stress Test - Finance and Investment Knowledge Base]]
+- [[Seed Gap - Finance and Investment Knowledge Bases]]
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
 - [[AI-Assisted Knowledge Management Seed#expertise-level]]

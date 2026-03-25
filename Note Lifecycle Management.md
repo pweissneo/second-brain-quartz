@@ -1,6 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-22
+last-updated: 2026-03-22
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -56,16 +57,19 @@ Seedling → Bud → Evergreen → Deprecated
 - May contain historical value
 - Status: dormant
 
-### 5. Delete (End of Life) - DEPRECATED PRACTICE
+### 5. Delete (End of Life)
 
 > **Seed Rule:** Never delete notes — deprecate them with a marker and a pointer to the replacement.
 
-The Delete stage contradicts the Seed's core principle. Instead of deleting:
+The Delete stage should rarely be used. Instead of deleting:
 - Mark as deprecated with `lifecycle: deprecated`
 - Add pointer to replacement note
 - Keep in vault for historical reference
 
-The only exception: genuinely ephemeral notes (meeting minutes, temporary scratch notes) that have no long-term value may be deleted after their useful life.
+**The only exceptions for deletion:**
+- Genuinely ephemeral notes (meeting minutes, temporary scratch notes) that have no long-term value
+- Notes that are factually incorrect (not just outdated, but wrong)
+- Notes that violate privacy (contain information about living individuals without consent)
 
 ## Deprecation Criteria
 
@@ -137,6 +141,7 @@ Most notes should become evergreen. Be conservative:
 
 ## Related
 - [[Handling Temporal Knowledge]]
+- [[Frontier Exploration - Note Completion Criteria]] - When a note is "done" (maturity stages)
 - [[Frontier Exploration - Living Documents]] - Notes that are intentionally designed to be continuously updated
 - [[Frontier Exploration - Knowledge Cascade Effects]] - How to handle cascading updates across notes
 - [[Anti-Patterns in Knowledge Management]]

@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: active
+last-reviewed: 2026-03-21
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+schema-version: "2026-03"
+verification-status: verified
 tags:
   - frontier-exploration
   - api-dependency
@@ -92,9 +94,9 @@ For a home automation knowledge base:
 
 ## Related Notes
 
-- [[Frontier Exploration - Integrated Rules History]] — Software/framework version dependencies
 - [[Stress Test - Version Scope Rule in Data Science ML]] — Version dependencies in ML workflows
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Physical tool dependencies
 - [[Handling Temporal Knowledge]] — URLs rot; service dependencies rot faster
 - [[Frontier Exploration - Continuous Streaming Knowledge]] — Handling continuously-updating real-time data
+- [[Frontier Exploration - Real-Time API-Dependent Knowledge]] — Live API verification and freshness tracking
 - [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends

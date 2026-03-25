@@ -1,9 +1,17 @@
 ---
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
+level: frontier
 last-reviewed: 2026-03-18
 last-updated: 2026-03-18
 author-type: ai-assisted
+verification-status: pending
+schema-version: "1.0"
+tags:
+  - frontier-exploration
+  - open-question
+  - uncertainty
+  - knowledge-management
 ---
 
 # Frontier Exploration - Open Question Knowledge
@@ -103,5 +111,5 @@ Don't capture as open question when:
 ## Related
 
 - [[Frontier Exploration - Building Knowledge Bases in Unfamiliar Domains]] — where much knowledge starts as open questions
-- [[Frontier Exploration - Meta-Knowledge About Knowledge Management]] — tracking what you don't know about your own vault
+- [[Frontier Exploration - Vault-Process Meta-Knowledge]] — tracking what you don't know about your own vault
 - [[Stress Test - Probabilistic Knowledge Rule Across Domains]] — confidence with genuine uncertainty

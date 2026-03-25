@@ -1,9 +1,12 @@
 ---
 last-reviewed: 2026-03-15
-lifecycle: evergreen
+last-updated: 2026-03-22
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+verification-status: verified
 knowledge-type: analysis
+source-type: secondary
 tags:
   - seed-stress-test
   - craft-domain
@@ -462,6 +465,7 @@ Woodworking has significant US/UK terminology differences:
 
 - [[Seed Stress Test - Chess Knowledge Base]] — Strategy game domain
 - [[Seed Stress Test - Gardening Knowledge Base]] — Agricultural domain
+- [[Seed Stress Test - Cooking Knowledge Base]] — Cooking domain (overlaps with craft domain coverage)
 - [[Domain-Specific Knowledge Bases]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
