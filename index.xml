@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Gap - Craft and Medical Knowledge Base Rules</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Craft-and-Medical-Knowledge-Base-Rules</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Craft-and-Medical-Knowledge-Base-Rules</guid>
-    <description><![CDATA[ Seed Gap: Craft-Specific and Medical Knowledge Base Rules Summary This note documents two frontier gaps discovered during FRONTIER_EXPLORATION: (1) craft-specific knowledge rules for woodworking that are not yet in the Seed, and (2) medical/health knowledge base rules that need more comprehensive co... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 06:08:00 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:22 GMT</pubDate>
   </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Missing Negative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
-    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>git-best-practices</title>
+    <link>https://quartz.jzhao.xyz/git-best-practices</link>
+    <guid>https://quartz.jzhao.xyz/git-best-practices</guid>
+    <description><![CDATA[ Git Best Practices for Knowledge Bases This note covers git practices specifically for maintaining AI-assisted knowledge bases. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Perfectionism</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
-    <description><![CDATA[ Anti-Pattern: Perfectionism Never publishing a note because it’s “not ready” stops all progress. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Confidence Markers</title>
-    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
-    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
-    <description><![CDATA[ Confidence Markers and Verification Status How to signal certainty levels and verification state in knowledge notes. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Distinguishing Craft Criticism from Aesthetic Judgment</title>
-    <link>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</link>
-    <guid>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</guid>
-    <description><![CDATA[ Distinguishing Craft Criticism from Aesthetic Judgment In creative domains, evaluative claims fall into two fundamentally different categories: craft criticism (verifiable, objective) and aesthetic judgment (subjective, opinion-based). ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Access-Controlled Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Access-Controlled Knowledge How do we handle knowledge that requires payment, subscription, or authentication to access? The Problem An increasing amount of valuable knowledge exists behind access controls: Paid courses (Udemy, MasterClass, Skillshare) Members-only content (Su... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Cyclical Timing Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Cyclical Timing Knowledge Knowledge about optimal timing within recurring cycles — not when events occur, but when actions are most effective within a time period. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>Tool Replacement Decisions</title>
+    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
+    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Domain-Specific Communication Styles and Norms</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Specific-Communication-Styles-and-Norms</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Specific-Communication-Styles-and-Norms</guid>
-    <description><![CDATA[ Frontier Exploration: Domain-Specific Communication Styles and Norms The Gap The Seed covers how to structure knowledge (atomicity, linking, navigation) and how to verify it (verification-status, evidence-tier, source-type). ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <title>The Ultimate Goal</title>
+    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
+    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
+    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 06:44:18 GMT</pubDate>
   </item>
     </channel>
   </rss>
