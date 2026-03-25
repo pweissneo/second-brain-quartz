@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Construction Phase Model in Game Development</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Model-in-Game-Development</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Model-in-Game-Development</guid>
-    <description><![CDATA[ Seed Stress Test: Construction Phase Model in Game Development Testing the Construction Phase Model rule in the game development domain. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:05:17 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Decision Threshold Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Decision Threshold Knowledge How do you capture knowledge about when to stop gathering information and make a decision? The Problem The Seed covers: Prioritization (what to work on first) Completion criteria (when domain is “done”) Deadline knowledge (time-bound decisions) Ver... ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Exploration Exploitation Transition Triggers</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</guid>
+    <description><![CDATA[ Frontier Exploration - Exploration-Exploitation Transition Triggers When should an AI agent stop adding new topics and start deepening existing ones? The Gap The Seed provides a ratio-based guideline: Balance exploration (adding new topics) and exploitation (deepening existing ones) based on vault m... ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Inverse Authority Problem</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Inverse-Authority-Problem</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Inverse-Authority-Problem</guid>
+    <description><![CDATA[ Frontier Exploration: The Inverse Authority Problem When should personal synthesis override expert consensus? The Gap The Seed covers: Source verification (checking if sources are credible) Confidence scoring (how certain we are) Contradiction handling (when sources conflict) Personal vs. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Learning Resource Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Learning-Resource-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Learning Resource Knowledge The Gap The Seed covers many knowledge types: factual, procedural, conceptual, temporal, probabilistic, troubleshooting, etc. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Open Question Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Open-Question-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Open-Question-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Open Question Knowledge How should a knowledge base handle genuine uncertainty — questions where the answer is unknown, not just unverified? The Problem The Seed covers: Unverified knowledge — captured but not yet tested Staging states — whisper, draft, probe notes Confidence ... ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Vault-Process Meta-Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Process-Meta-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Process-Meta-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Vault-Process Meta-Knowledge Capturing knowledge about the knowledge management process itself — lessons learned, capture methods, organizational decisions, and usage patterns. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration Hub</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration-Hub</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration-Hub</guid>
+    <description><![CDATA[ Frontier Exploration Hub Notes exploring gaps in the Seed rules — hypotheses about knowledge management that need testing. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+  </item><item>
+    <title>Handling Contradictory Sources</title>
+    <link>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</link>
+    <guid>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</guid>
+    <description><![CDATA[ Handling Contradictory Sources When multiple credible sources disagree, how should an AI agent capture and organize the disagreement? The Problem The Seed requires citing sources, but assumes sources agree. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Craft and Medical Knowledge Base Rules</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Craft-and-Medical-Knowledge-Base-Rules</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Craft-and-Medical-Knowledge-Base-Rules</guid>
     <description><![CDATA[ Seed Gap: Craft-Specific and Medical Knowledge Base Rules Summary This note documents two frontier gaps discovered during FRONTIER_EXPLORATION: (1) craft-specific knowledge rules for woodworking that are not yet in the Seed, and (2) medical/health knowledge base rules that need more comprehensive co... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:05:17 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Missing Negative Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
-    <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge Only capturing successes, not failures, creates an incomplete picture. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Perfectionism</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
-    <description><![CDATA[ Anti-Pattern: Perfectionism Never publishing a note because it’s “not ready” stops all progress. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Confidence Markers</title>
-    <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
-    <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
-    <description><![CDATA[ Confidence Markers and Verification Status How to signal certainty levels and verification state in knowledge notes. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Distinguishing Craft Criticism from Aesthetic Judgment</title>
-    <link>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</link>
-    <guid>https://quartz.jzhao.xyz/Distinguishing-Craft-Criticism-from-Aesthetic-Judgment</guid>
-    <description><![CDATA[ Distinguishing Craft Criticism from Aesthetic Judgment In creative domains, evaluative claims fall into two fundamentally different categories: craft criticism (verifiable, objective) and aesthetic judgment (subjective, opinion-based). ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Access-Controlled Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Access-Controlled-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Access-Controlled Knowledge How do we handle knowledge that requires payment, subscription, or authentication to access? The Problem An increasing amount of valuable knowledge exists behind access controls: Paid courses (Udemy, MasterClass, Skillshare) Members-only content (Su... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Cyclical Timing Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Cyclical Timing Knowledge Knowledge about optimal timing within recurring cycles — not when events occur, but when actions are most effective within a time period. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 04:22:19 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
