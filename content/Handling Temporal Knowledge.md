@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
-verification: human-reviewed
+verification-status: verified
 tags:
   - seed-extension
   - temporal
@@ -21,11 +21,11 @@ Knowledge that changes over time requires different treatment than static knowle
 ### Temporal Knowledge
 Some knowledge is inherently time-bound:
 - Current events and news
-- Market data (stock prices, crypto rates)
+- Population and demographic data
 - Weather forecasts
 - Sports scores and standings
 - Technology versions and releases
-- Population statistics
+- Market statistics (updated quarterly)
 
 The Seed's normal rules assume knowledge is relatively static. But temporal knowledge needs special handling.
 
@@ -98,21 +98,21 @@ Tesla Price Data.md         ← Dynamic: current price (with date)
 
 Instead of embedding the value:
 ```markdown
-# Tesla Stock Price
+# City Population Data
 
-As of March 9, 2026, TSLA was trading at $XXX.
+As of 2024, Tokyo had approximately 37 million residents.
 
-See Stock Price API for current data.
+See World Population API for current data.
 ```
 
 ### Strategy 3: Link to Live Sources
 
 For rapidly changing data, don't capture — link:
 ```markdown
-# Current Market Data
+# Current Weather Data
 
-- S&P 500: [TradingView](https://tradingview.com/spx)
-- Bitcoin: [CoinGecko](https://coingecko.com)
+- Temperature: [Weather Service](https://weather.example.com)
+- Air Quality: [AQICN](https://aqicn.org)
 ```
 
 ### Strategy 4: Temporal Metadata
@@ -140,8 +140,8 @@ For historical tracking:
 |--------|-------------|---------------|
 | Weather | Weather Patterns, Climate Zones | "Today's forecast" → link to service |
 | Technology | Python Programming, React Framework | "Python 3.14 Release Notes" (with date) |
-| Finance | Investment Strategies, Risk Management | "Current Interest Rates" → link to Fed |
-| News | Political Systems, Economic Theories | "2026 Election Results" → archive link |
+| Sports | Team Histories, Scoring Rules | "Current Standings" → link to sports API |
+| Statistics | Statistical Methods, Survey Design | "2026 Population Data" → link to census |
 
 ---
 
@@ -200,7 +200,7 @@ Per [[Graph Maintenance]]:
 *Content integrated from frontier exploration on temporally stale knowledge*
 
 ### 1. Time-Sensitive Data
-- Specific values that change rapidly (stock prices, weather)
+- Specific values that change rapidly (sports scores, weather)
 - Solution: Separate from knowledge, link to live sources
 
 ### 2. Disproven/Superseded
@@ -229,6 +229,64 @@ as-of: 2019-03
 staleness: confirmed
 ---
 ```
+
+---
+
+## Obsolescence Detection Methods
+
+*Enhanced content from Knowledge Obsolescence Detection frontier exploration*
+
+### The Detection Challenge
+
+The Seed assumes obsolescence is knowable, but doesn't provide a method for identifying it. Without obsolescence detection, an AI agent cannot:
+1. **Distinguish stale from obsolete** — Is this knowledge simply old, or has the underlying reality changed?
+2. **Identify context shifts** — Knowledge that was correct for a specific situation but is no longer applicable
+3. **Know when to escalate** — What triggers human review vs. automated updates
+
+### Obsolescence Triggers
+
+#### External Triggers (detectable)
+- **Source changed** — The source document/article was updated
+- **Version mismatch** — The tool/version the knowledge applies to has changed
+- **Link rot** — External references are dead
+- **Authority superseded** — Legal precedent changed, scientific consensus shifted
+
+#### Internal Triggers (inferred)
+- **Contradiction detected** — New knowledge contradicts existing knowledge
+- **Gap in applicability** — Knowledge assumes context that no longer exists
+- **Negative evidence accumulation** — Multiple failed applications suggest the knowledge is wrong
+
+#### Context Shift Triggers (requires user input)
+- **Situation changed** — Your context differs from what the note assumes (job, location, relationship)
+- **Tool/technology changed** — You switched tools and the knowledge no longer applies
+- **Goals changed** — Your objectives shifted and the knowledge is no longer relevant
+
+### Special Case: External Extinction
+
+**When the thing described no longer exists** — a specific type of obsolescence that requires different handling.
+
+#### Examples of External Extinction
+- **Product Discontinuation** — Knowledge about a discontinued camera model, out-of-print book
+- **Service Shutdown** — Knowledge about a defunct API, discontinued platforms
+- **Relationship Dissolution** — Knowledge about former employers, ex-partners
+- **Organizational Death** — Knowledge about dissolved companies, defunct institutions
+- **Biological/Physical Extinction** — Knowledge about extinct species, destroyed landmarks
+
+#### Why Standard Rules Fail
+Standard obsolescence assumes knowledge can be refreshed, the thing described still exists, and updates are possible. External extinction breaks all three.
+
+#### Tagging Strategy for External Extinction
+```yaml
+extinction-type: product|service|relationship|organization|location
+extinction-date: YYYY-MM-DD
+extinction-source: discontinuation-notice|shutdown-announcement|verified-absence
+historical-status: archived|reference-only|deprecated
+```
+
+### Confirmation Methods
+- Product discontinuation: Check manufacturer website, press releases, archive.org
+- Service shutdown: Check status pages, news articles, social media
+- Organizational death: Business registries, news archives
 
 ---
 
@@ -349,21 +407,110 @@ This note provides comprehensive implementation guidance, covering both:
 
 **Rule:** Archive stale recommendations rather than deleting — preserve historical accuracy while maintaining current advice separately.
 
+### Additional Edge Cases for Discredited Knowledge
+
+*Content integrated from frontier exploration on discredited and historically superseded knowledge*
+
+When handling knowledge that was once considered true but has been fundamentally disproven, apply these additional considerations:
+
+#### 1. Partially Wrong Theories
+
+Some theories were partially right:
+- Newtonian physics: wrong at relativistic speeds, but accurate for everyday scales
+- "Germs cause disease": true for infectious disease, but incomplete (doesn't cover genetic, autoimmune)
+
+**Solution:** Use `scope:` tags to specify when the theory applies vs. fails
+
+#### 2. Paradigm Shifts
+
+Some superseded theories require complete worldview changes:
+- Ptolemaic → Copernican: not just different model, different understanding of humanity's place in cosmos
+- Four humors → germ theory: completely different disease model
+
+**Solution:** Note the paradigm shift explicitly - these aren't just "updates"
+
+#### 3. Still-Useful Approximations
+
+Some "wrong" theories are still useful:
+- Ideal gas law: technically wrong (real gases deviate), but useful approximation
+- Classical mechanics: wrong for quantum scales, still used for everyday engineering
+
+**Solution:** Distinguish "fundamentally disproven" from "approximate but useful"
+
+#### 4. Cultural vs. Scientific Supersession
+
+Some knowledge isn't "wrong" but outdated:
+- Etiquette rules from 1950s
+- Fashion trends
+- Cultural norms
+
+**Solution:** These are `status: historical` (not "discredited") - they were never claims about objective truth
+
+#### 5. Dangerous Discredited Knowledge
+
+Some discredited knowledge could cause harm if used:
+- Anti-vaccine ideas from discredited research
+- Dangerous medical treatments that were once standard
+- Racial "science" that was used to justify atrocities
+
+**Solution:** Mark with `harm-potential:` and include strong warnings. Historical preservation ≠ endorsement.
+
+#### Historical Accuracy Tier
+
+Add `historical-accuracy:` tier to distinguish:
+- `historically-accurate`: True representation of what was believed/known at the time
+- `partially-inaccurate`: Some elements were wrong even for the time
+- `known-false-at-time`: Even contemporaries knew this was disputed
+
+**Why:** Not all historical knowledge was considered equally valid at the time. Some theories were contested even before being superseded.
+
+#### Test for AI Agents
+
+Given a note about an old scientific theory:
+1. Is it marked `status: historical-superseded`?
+2. Does it explain *why* the theory was abandoned?
+3. Does it link to the replacement knowledge?
+4. Is there context about what was right/useful even in the wrong theory?
+5. Is there a warning if applying the old theory could cause harm?
+
+### Confirmation Methods
+
+- Product discontinuation: Check manufacturer website, press releases, archive.org
+- Service shutdown: Check status pages, news articles, social media
+- Organizational death: Business registries, news archives
+
+---
+
+## Proposed Seed Rule
+
+**Rule:** Implement obsolescence detection with explicit triggers — separate staleness (time-based) from obsolescence (reality-based) and context shift (user-based).
+
+**Why:** Staleness is mechanical (time passed); obsolescence is semantic (reality changed); context shift is personal (your situation changed). Treating all three the same causes false positives (flagging accurate but old knowledge) and false negatives (missing genuinely obsolete knowledge).
+
+**Test:** Can you categorize knowledge gaps as: (1) time-stale (review needed), (2) reality-obsolete (replace needed), (3) context-shift (user-specific)? Do you have detection methods for each?
+
+---
+
+## Questions for the Seed
+
+1. Should obsolescence be a lifecycle stage separate from deprecation?
+2. How do we distinguish "was never accurate" from "was accurate, now obsolete"?
+3. What's the minimum evidence threshold for marking something obsolete vs. stale?
+
 ---
 
 ## Related
 - [[Note Types and Templates]]
 - [[Note Lifecycle Management]]
-- [[Metadata and Tagging]]
-- [[Handling Temporal Knowledge]]
 - [[Graph Maintenance]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Real-Time and Sensor-Based Knowledge]] — Continuous data streams vs point-in-time
+- [[Frontier Exploration - Real-Time API-Dependent Knowledge]] — Live API verification and freshness tracking for external service dependencies
 - [[Frontier Exploration - Iterative Creative Knowledge]] — Related: covers cyclic evaluation and decision-making processes
-- [[Frontier Exploration - Multi-Modal Knowledge]] — Related: temporal knowledge often involves multiple modalities
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Related: temporal knowledge often involves multiple modalities
 - [[Frontier Exploration - Simulation-Based Knowledge]] — Related: simulation models often encode temporal/sequential relationships
 - [[Frontier Exploration - Learning vs Reference Knowledge Bases]] — Related: learning progressions are sequential
-- [[Frontier Exploration - Predictive Knowledge Capture]] — Related: predictions are a specific type of temporal knowledge that cannot be verified at capture time
+- [[AI-Assisted Knowledge Management Seed]] — covers temporal knowledge including predictions
 
 ---
 

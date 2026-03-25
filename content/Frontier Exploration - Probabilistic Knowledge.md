@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -88,4 +88,4 @@ The same gap applies whether the domain is medicine, finance, engineering, or an
 ## Related
 
 - [[Stress Test - Probabilistic Knowledge Rule Across Domains]] — Comprehensive domain stress tests covering cooking, medicine, AND psychology (consolidated from separate psychology stress test)
-- [[Confidence Markers]] - Current confidence framework
+- [[AI-Assisted Knowledge Management Seed]] (confidence framework)

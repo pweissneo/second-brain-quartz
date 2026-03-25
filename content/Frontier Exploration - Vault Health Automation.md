@@ -1,8 +1,11 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+last-updated: 2026-03-13
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
+verification-status: unverified
 tags:
   - frontier-exploration
   - vault-health
@@ -89,4 +92,4 @@ Automation should handle:
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Note Lifecycle Management]] — Note lifecycle stages
 - [[Hub Node Creation]] — Creating hubs
-- [[Frontier Exploration - Knowledge Debt]] — Knowledge debt tracking
+- [[Frontier Exploration - Knowledge Maintenance]] — Knowledge debt tracking

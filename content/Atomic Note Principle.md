@@ -1,8 +1,10 @@
 ---
 protected: true
 last-reviewed: 2026-03-09
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - atomicity
@@ -136,13 +138,15 @@ If a note just restates what links already contain, it's redundant.
 - [[Linking Principle]]
 - [[Graph Traversal Efficiency]]
 - [[Note Types and Templates]] — Template for consistent note structure
+- [[Frontier Exploration - Decision-Tree Knowledge Organization]] — For branching/procedural knowledge that doesn't fit standard atomicity
 
 
 ## Stress Tests
 This rule has been validated across multiple domains:
 
 - [[Stress Test - Atomicity Rule Across Domains]] — Tests edge cases across cooking, gardening, programming, philosophy domains
-- [[Seed Stress Test - Cooking Knowledge Base]] — Comprehensive stress testing of Seed rules in culinary domain
-- [[Stress Test - 3-Hops Rule in Genealogy]] — Tests navigation depth in medical taxonomies
+- [[Stress Test - Atomicity Rule Across Domains]] — Philosophy-specific atomicity challenges
+- [[Seed Stress Test - Craft Knowledge Bases]] — Comprehensive stress testing of Seed rules in culinary domain
+- [[Seed Stress Test - Graph Density Rule in Genealogy]]
 - [[Stress Test - Temporal Knowledge Rule in Stock Trading]] — Tests temporal data handling
 - [[Frontier Exploration - Single-Work Knowledge vs General Principles]] — Tests atomicity with creative works

@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-11
+last-reviewed: 2026-03-18
 confidence: emerging
-lifecycle: draft
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -89,7 +89,7 @@ Collaborative notes have unique challenges:
 
 ## Related
 
-- [[Confidence Markers]] - For signaling certainty
+- [[Note Lifecycle Management]] - For signaling certainty and lifecycle stages
 - [[Handling Contradictory Sources]] - Related but about sources, not contributors
 - [[Knowledge Sharing]] - Different from collaboration
 - [[Self-Improvement Cycle]] - How knowledge evolves (assumes single editor)

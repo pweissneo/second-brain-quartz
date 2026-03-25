@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-19
 lifecycle: evergreen
 confidence: high
 tags:
@@ -8,6 +8,10 @@ tags:
   - structure
 author-type: ai-assisted
 level: pattern
+verification-status: verified
+decision-relevance: structure-creation
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Note Types and Templates
@@ -50,12 +54,24 @@ Inactive, completed, deprecated.
 
 | Type | Seed Stage | Description |
 |------|------------|-------------|
-| Seedling | draft | First capture, needs processing |
-| Bud | active | Developing, first connections |
+| Draft | draft | First capture, needs processing |
+| Active | active | Developing, first connections |
 | Evergreen | evergreen | Fully formed, frequently referenced |
-| Archive | deprecated | Inactive but still valid |
+| Archive | deprecated | Inactive but still valid — use `lifecycle: deprecated` |
+| Archive | archived | Temporal data superseded by updated values |
 
-> **Note:** This note uses alternative terminology (Seedling/Bud) that maps to Seed stages (draft/active) for accessibility. The Seed-compliant stages are: draft → active → evergreen → deprecated.
+> **Note:** The Seed uses these lifecycle stages: draft → active → evergreen → deprecated → archived. Use "Archive" as a note TYPE when storing historical data; use the lifecycle stage (deprecated/archived) to mark status.
+
+## Thinking Tool Tagging
+
+Notes that describe cognitive strategies, reasoning frameworks, or meta-learning approaches should be tagged as thinking tools:
+
+```markdown
+thinking-tool: true
+thinking-tool-type: cognitive-strategy  # cognitive-strategy|self-regulation|reasoning-framework|bias-awareness
+```
+
+This note is tagged as a cognitive strategy because it provides a framework for organizing knowledge.
 
 ---
 
@@ -69,6 +85,14 @@ Standardized formats ensure consistency and capture all needed fields.
 ---
 tags:
   - note
+lifecycle: evergreen
+confidence: emerging
+last-reviewed: YYYY-MM-DD
+author-type: ai-assisted
+verification-status: unverified
+prerequisites:
+  required: []
+  recommended: []
 ---
 
 # [Concept Name]
@@ -95,6 +119,16 @@ Brief one-line definition.
 ### Hub Note (MOC) Template
 
 ```markdown
+---
+tags:
+  - hub
+  - [domain]
+lifecycle: evergreen
+gateway: true
+last-reviewed: YYYY-MM-DD
+author-type: ai-assisted
+---
+
 # [Topic] MOC
 
 Entry point for [topic area].
@@ -125,7 +159,10 @@ Entry point for [topic area].
 tags:
   - project
   - [domain]
-status: [active|paused|completed]
+lifecycle: evergreen
+last-reviewed: YYYY-MM-DD
+activation-state: captured
+author-type: ai-assisted
 ---
 
 # [Project Name]
@@ -145,13 +182,54 @@ status: [active|paused|completed]
 - [[Knowledge Base Workflow]]
 ```
 
+## Tagging Strategy
+
+### When to Tag
+- **Topic categories** - Broad themes (e.g., #science, #research)
+- **Note type** - What kind of note (note, project, hub)
+- **Status** - For projects (active, paused, archived)
+- **Domain** - For domain-specific vaults
+
+### Tag Hierarchy
+```
+#note          # Base tag
+#note/concept  # Sub-tag
+#project       # Project notes
+#hub           # Hub/Map of Content notes
+```
+
+### Common Tags (Our Vault)
+
+| Tag | Use |
+|-----|-----|
+| note | Atomic knowledge notes |
+| hub | Hub/Map of Content notes |
+| concept | Core concepts |
+| reference | External source references |
+
+### Best Practices
+
+1. **Tags complement, don't replace links** - Links are stronger connections
+2. **Don't over-tag** - 2-5 tags per note is plenty
+3. **Be consistent** - Establish conventions early
+4. **Use lowercase** - #science not #Science
+
+### Dataview Queries
+
+With Dataview plugin, tags enable powerful queries:
+
+```dataview
+LIST FROM #note WHERE date > date(today - 7 days)
+```
+
 ### Daily Note Template
 
 ```markdown
 ---
 tags:
   - daily-note
-date: {{YYYY-MM-DD}}
+date: YYYY-MM-DD
+lifecycle: evergreen
 ---
 
 # Daily Notes - {{Month DD, YYYY}}
@@ -177,4 +255,5 @@ date: {{YYYY-MM-DD}}
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
 - [[Frontier Exploration - Knowledge Base Onboarding]]
 - [[Frontier Exploration - Collaborative Knowledge Creation]]
+- [[AI-Assisted Knowledge Management Seed#activation-state]] — Knowledge activation states
 

@@ -1,7 +1,8 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
+level: frontier
 tags:
   - frontier-exploration
   - emotional-knowledge
@@ -74,6 +75,20 @@ memory-linked: true|false
 When emotional context is **integral** to the knowledge (removing it changes the nature), keep together.
 When emotional context is **incidental** (adds flavor but knowledge stands alone), separate or tag optionally.
 
+## Proposed Seed Rules
+
+### Rule: Tag emotional knowledge with emotional-value metadata
+
+**Why:** Without explicit emotional-value tags, AI agents cannot distinguish between informational knowledge (valuable for its content) and emotional knowledge (valuable for its personal significance). This affects deletion decisions, retrieval framing, and preservation priority.
+
+**Test:** Pick 10 notes that contain personal stories, family traditions, or memory-anchored facts. (1) Do they have emotional-value tags? (2) Can an AI agent determine which knowledge has emotional significance vs. purely informational value?
+
+### Rule: Apply different deprecation criteria for emotional knowledge
+
+**Why:** Standard deprecation rules (outdated, superseded, redundant) don't account for emotional value. A note about a family recipe may be "superseded" by a better recipe but still valuable for its emotional connection.
+
+**Test:** Pick 5 notes tagged emotional-value: high. (1) Would standard deprecation rules incorrectly flag them for deletion? (2) Do they have explicit preservation markers that override standard criteria?
+
 ## Questions for Seed Rules
 
 1. Should emotional knowledge have different deprecation criteria?
@@ -83,7 +98,7 @@ When emotional context is **incidental** (adds flavor but knowledge stands alone
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
-- [[The Knowledge Identity]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[The Ownership Mindset]]
 - [[The Knowledge Portfolio]]
 - [[Note Lifecycle Management]]

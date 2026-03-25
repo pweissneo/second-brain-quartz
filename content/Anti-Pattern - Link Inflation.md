@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-13
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -7,6 +8,9 @@ tags:
   - anti-pattern
   - quality
   - linking
+level: pattern
+verification-status: verified
+schema-version: "1.0"
 ---
 
 # Anti-Pattern: Link Inflation
@@ -40,9 +44,16 @@ Follow [[Linking Principle|quality over quantity]].
 
 For each link, can you explain in one sentence why the reader should follow it? If not, remove the link.
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does each note have fewer than 10 outgoing links?
+- [ ] Are links meaningful (pass the "why follow?" test)?
+- [ ] Do links use descriptive text, not generic "see also"?
+- [ ] Can you explain each link's purpose in one sentence?
+
 ## Related
 
 - [[Linking Principle]]
-- [[Linking Principle]]
 - [[Graph Maintenance]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

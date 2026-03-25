@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -285,7 +285,7 @@ Refined test for any domain:
 3. Determine: (a) Can this be made precise? (b) Is it binary/safety-related? (c) Is it subjective/art-based?
 4. If precise-able: suggest numerical range or confidence marker
 5. If safety-related: mark as binary (no probability needed)
-6. If subjective: suggest "confidence: medium" instead of vague qualifier
+6. If subjective: suggest "confidence: emerging" instead of vague qualifier
 
 ---
 

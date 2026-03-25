@@ -1,8 +1,9 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: emerging
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - knowledge-type
@@ -163,7 +164,7 @@ Also relates to:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[The Knowledge Creator]]
+- [[The Ownership Mindset]]
 - [[Self-Improvement Cycle]]
-- [[Frontier Exploration - Knowledge Debt]]
+- [[Frontier Exploration - Knowledge Maintenance]]
 - [[Note Types and Templates]]

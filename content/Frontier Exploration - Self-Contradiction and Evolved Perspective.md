@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -35,7 +35,7 @@ This is different from:
 
 The Seed covers:
 - [[Handling Contradictory Sources]] - External conflicts
-- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]] - Field-level changes
+- [[Handling Temporal Knowledge]] - Field-level changes (including discredited/superseded knowledge)
 - [[Frontier Exploration - Personal Experimentation Results]] - What didn't work
 
 But missing:
@@ -62,5 +62,5 @@ Can you trace how your recommendation on a core topic has evolved over time? If 
 
 ## Related
 - [[Frontier Exploration - Personal Experimentation Results]]
-- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]]
+- [[Handling Temporal Knowledge]]
 - [[Handling Contradictory Sources]]

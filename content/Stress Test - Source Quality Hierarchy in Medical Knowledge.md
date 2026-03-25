@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -11,6 +11,8 @@ tags:
 ---
 
 # Stress Test: Source Quality Hierarchy in Medical Knowledge
+
+> **Note:** This stress test uses hypothetical medical domain examples for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply in a medical domain, not actual vault notes.
 
 ## Seed Rule Being Tested
 **Rule:** For knowledge domains with established evidence hierarchies (medicine, law, science), capture source quality tier in addition to confidence levels.
@@ -146,9 +148,8 @@ The rule is sound but needs refinement:
 5. **Flag AI-generated content** - mark with author type for credibility assessment
 
 ## Related
-- [[Confidence Markers]]
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Contradictory Sources]]
-- [[Seed Stress Test - Experiential Knowledge in Clinical Practice]]
+- [[Frontier Gap - Embodied Knowledge]]

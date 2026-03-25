@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-09
-lifecycle: active
+last-reviewed: 2026-03-19
+lifecycle: evergreen
 confidence: emerging
 tags:
   - seed-extension
@@ -60,7 +60,7 @@ Create dedicated path notes for sequential topics:
 4. → Advanced Topic D
 ```
 
-### 3. Gateway Note标记
+### 3. Gateway Note Markers
 
 Mark "gateway" notes that unlock many other topics:
 

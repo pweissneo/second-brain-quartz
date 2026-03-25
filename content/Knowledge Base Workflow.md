@@ -1,14 +1,17 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
-verification-status: community-validated
+verification-status: verified
 tags:
   - workflow
   - process
   - methodology
   - ai-assisted
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 author-type: human
 ---
 # Knowledge Base Workflow
@@ -76,6 +79,8 @@ Input → Capture → Process → Connect → Maintain
 **Recommended:**
 - AI systems: process within hours
 - Human systems: process within 24-48 hours
+
+See [[Seed Stress Test - 48-Hour Processing Rule in Academic Research]] for domain-specific edge cases.
 
 ### Ingestion Quality Criteria
 
@@ -163,14 +168,14 @@ Per [[Self-Improvement Cycle]]:
 ## Related
 - [[Atomic Note Principle]]
 - [[Handling Contradictory Sources]]
-- [[Note-Taking Methods Compared]]
+- [[Zettelkasten Method]] — (covers note-taking methods comparison)
 - [[Progressive Summarization]]
 - [[Note Insertion Strategy]]
 - [[Graph Maintenance]]
 - [[Active Reading]]
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
-- [[Frontier Exploration - Vault Query Patterns for Decision-Making]]
+- [[Frontier Exploration - Knowledge Base Utility Assessment]]
 
 ## The Feedback Loop
 

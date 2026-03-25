@@ -1,6 +1,7 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+last-updated: 2026-03-15
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -56,7 +57,7 @@ An AI building a knowledge base using only domain-specific rules will create sil
 ```
 Knowledge: "Progressive overload requires sufficient protein intake"
 Cross-domain connection: Protein needs explained by muscle physiology (biology)
-Decision: Link to [[Muscle Protein Synthesis]] or inline explanation?
+Decision: Link to Muscle Protein Synthesis (example) or inline explanation?
 
 Current Seed guidance: None specific to this scenario
 ```
@@ -128,7 +129,7 @@ domain-conflict:
 
 **Test:** (1) Do you have 5+ notes that reference both domain A and domain B? (2) Do users frequently ask questions at the intersection? (3) Is there a recognized sub-field at the intersection?
 
-**Example:** [[Fitness Nutrition]] hub integrating exercise science + nutrition science
+**Example:** Fitness Nutrition (example hub) integrating exercise science + nutrition science
 
 ### Rule: Tag notes with domain transfer potential
 
@@ -164,6 +165,7 @@ domain-transfer-potential:
 3. When does cross-domain synthesis create new domain knowledge vs. just connecting existing domains?
 
 ## Related Notes
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Trade-off Knowledge Capture]]
 - [[Prerequisite Knowledge Tracking]]

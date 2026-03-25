@@ -188,6 +188,14 @@ If the vault has language learning notes without proper tagging, they need updat
 
 ---
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does this stress test identify at least 3 edge cases where the rule fails?
+- [ ] Does each edge case clearly explain why the rule fails at a specific expertise level?
+- [ ] Are cross-level (universal) knowledge claims identified and marked as NOT needing tags?
+- [ ] Does the stress test provide recommendations for Seed rule refinement?
+- [ ] Are edge cases categorized by failure type (upper-bound, conditional, inverted)?
+
 ## Test Result
 
 **Rule**: Tag expertise-level for knowledge that is only appropriate at certain skill levels
@@ -213,4 +221,4 @@ The rule correctly identifies that expertise-level tagging is needed. However, s
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — AI agents need to understand expertise-level for content serving
 - [[Knowledge Graph Structure]] — Structuring knowledge
 - [[Frontier Exploration - User Situational Constraints]] — User constraint handling
-- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test
+- [[Seed Stress Test - Craft Knowledge Bases]] — Another domain stress test

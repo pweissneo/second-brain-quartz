@@ -1,13 +1,14 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - knowledge-process
   - creative-process
   - iteration
+level: frontier
 ---
 
 # Frontier Exploration - Iterative Creative Knowledge
@@ -82,8 +83,8 @@ The Seed's sequential knowledge rules work for "follow these steps in order" but
 ## Related Notes
 
 - [[Handling Temporal Knowledge]] — Covers linear sequences
-- [[Frontier Exploration - Conditional and Troubleshooting Knowledge]] — Covers branching but in diagnostic context
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Related to aesthetic judgment which is often tacit
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] — Covers branching but in diagnostic context
+- [[Frontier Gap - Embodied Knowledge]] — Related to aesthetic judgment which is often tacit
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Evaluation often involves sensory assessment
 
 ## Test Case: Music Composition Knowledge Base

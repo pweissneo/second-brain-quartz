@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-08
+protected: true
+last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
 tags:
@@ -41,21 +42,20 @@ Hub nodes are highly connected notes that serve as entry points for broad topics
 ## Example
 
 ```markdown
-# Knowledge Management Methods
+# Topic Hub Title
 
-Entry point for PKM methodologies.
+Brief description of what this hub covers.
 
-## Capture Methods
-- [[Progressive Summarization]]
-- [[Zettelkasten Method]]
+## Subtopic A
+- [[Note A1]]
+- [[Note A2]]
 
-## Practice Methods
-- [[The Forgetting Curve]]
-- [[Active Reading]]
-- [[Writing as Thinking]]
+## Subtopic B
+- [[Note B1]]
+- [[Note B2]]
 ```
 
-*(Note: This example uses knowledge management concepts. Replace with examples from your domain.)*
+*(Note: Replace placeholders with actual topic-relevant notes from your domain.)*
 
 ## Maintenance
 - Review hub nodes monthly

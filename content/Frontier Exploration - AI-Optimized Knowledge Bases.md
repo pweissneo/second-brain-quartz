@@ -1,14 +1,17 @@
 ---
-last-reviewed: 2026-03-10
-lifecycle: draft
+last-reviewed: 2026-03-24
+last-updated: 2026-03-24
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - frontier-exploration
   - ai-optimization
   - retrieval-augmented-generation
   - knowledge-engineering
 level: pattern
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - AI-Optimized Knowledge Bases
@@ -97,6 +100,8 @@ AI retrieval (RAG) uses embeddings, not exact text match. Structure affects retr
 ## Domain-Specific Considerations
 
 ### Prompt Engineering Knowledge
+
+See [[Frontier Exploration - Capturing AI Prompt Knowledge]] for detailed guidance on capturing prompt knowledge.
 
 Prompts are procedural knowledge but with unique characteristics:
 - Exact wording matters (small changes = big output differences)

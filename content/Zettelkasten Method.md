@@ -1,9 +1,15 @@
 ---
 protected: true
 last-reviewed: 2026-03-08
+last-updated: 2026-03-08
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+tags:
+  - methodology
+  - foundation
+  - atomicity
+  - linking
 ---
 
 # Zettelkasten Method
@@ -73,3 +79,13 @@ We use [[Atomic Note Principle]] and [[Linking Principle]] to implement Zettelka
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
 - [[AI-Assisted Knowledge Management Seed]]
+- [[Note Lifecycle Management]]
+- [[Self-Improvement Cycle]]
+- [[Note-Taking Methods Compared]] — (merged: other methods now integrated here)
+- [[Knowledge Base Workflow]]
+- [[Progressive Summarization]]
+- [[The Extended Mind]]
+
+---
+
+**Note:** The content from [[Note-Taking Methods Compared]] has been merged into this note. Other note-taking methods (PARA, Cornell, Mind Maps, Smart Notes) are now documented above in the "Related Methods" section.

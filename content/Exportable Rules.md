@@ -46,7 +46,7 @@ Each note contains exactly **one single idea**. ~100-300 words.
 Different notes serve different functions:
 - **Atomic Notes** - Single idea, building blocks
 - **Hub Notes (MOC)** - Notes for navigation
-- **Structure Notes** - System documentation
+- **Structure Notes** - System documentation (see [[Schema.md]])
 - **Project Notes** - Time-bound, outcome-focused
 - **Reference Notes** - External source storage
 
@@ -114,7 +114,7 @@ See [[Knowledge Base Workflow]] for daily practice.
 ---
 
 ## MCP Tools Reference
-See [[Graph Navigation Best Practices]] for tool details.
+See [[Graph Traversal Efficiency]] for tool details.
 
 ## Quick Start Template
 ```markdown
@@ -131,10 +131,10 @@ See [[Graph Navigation Best Practices]] for tool details.
 - [[Linking Principle]] - How to connect notes meaningfully
 - [[Anti-Patterns in Knowledge Management]] - What to avoid
 - [[Frontier Exploration - Illustrative vs Factual Examples]] - Example types
-- [[Frontier Exploration - Vault Boundaries]] - What to include/exclude
+- [[AI-Assisted Knowledge Management Seed]] - What to include/exclude
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
 - [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
-- [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
+- [[Frontier Exploration - Multi-Modal Knowledge Representation]] - Media beyond text
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] - Multi-domain topics
 
 ---
@@ -150,7 +150,7 @@ This note synthesizes guidance from the following vault notes:
 - [[Note Insertion Strategy]] - Knowledge integration process
 - [[Handling Temporal Knowledge]] - Accuracy maintenance
 - [[Knowledge Base Workflow]] - Daily practice pipeline
-- [[Graph Navigation Best Practices]] - Tool reference
+- [[Graph Traversal Efficiency]] - Tool reference
 
 ---
 

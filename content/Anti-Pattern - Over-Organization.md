@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -7,6 +8,9 @@ tags:
   - anti-pattern
   - quality
   - structure
+level: pattern
+verification-status: verified
+schema-version: "1.0"
 ---
 
 # Anti-Pattern: Over-Organization
@@ -34,8 +38,17 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 - Use flat file structure with wikilinks
 - Organize by concept, not by arbitrary categories
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Is the file structure flat (no nested folders)?
+- [ ] Do notes link to each other rather than relying on folder hierarchy?
+- [ ] Are hubs created organically from content, not pre-planned?
+- [ ] Is more time spent creating content than organizing?
+
 ## Related
 
 - [[Knowledge Graph Structure]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[Frontier Exploration - Competing Organizational Structures]]
+- [[AI-Assisted Knowledge Management Seed]]

@@ -1,143 +1,81 @@
 ---
-last-reviewed: 2026-03-09
-lifecycle: evergreen
+last-reviewed: 2026-03-25
+last-updated: 2026-03-25
+lifecycle: seed-extension
 confidence: high
 author-type: ai-assisted
-level: principle
+schema-version: "1.0"
+foundational: true
 tags:
-  - seed-extension
   - metadata
   - confidence
+  - verification
 ---
 
-# Confidence Markers
+# Confidence Markers and Verification Status
 
-Signal the reliability of knowledge in your vault through structured confidence levels.
+> How to signal certainty levels and verification state in knowledge notes.
 
-This note extends the [[AI-Assisted Knowledge Management Seed]] with confidence metadata for notes.
+Knowledge quality requires two complementary metadata dimensions: how certain the knowledge is (confidence) and whether it's been verified (verification status).
 
-## The Problem
+## Part 1: Confidence Markers
 
-Not all knowledge is equal. Some facts are firmly established; others are emerging hypotheses, disputed theories, or outdated information. Readers need to understand reliability without tracing every source.
+Confidence markers help readers (and AI agents) assess how certain the knowledge is. They enable appropriate skepticism and guide verification effort.
 
-## The Solution: Confidence Markers
-
-Add frontmatter to notes indicating confidence level:
+### Frontmatter Field
 
 ```yaml
-confidence: high | emerging | disputed | obsolete
+confidence: high
 ```
 
-## Confidence Levels
+### Levels
 
-### high
-- Established consensus
-- Multiple independent sources agree
-- Low likelihood of change
-- Example: "Water boils at 100°C at sea level"
+- **high**: Well-verified, multiple sources, strong evidence
+- **emerging**: Some verification, reasonable confidence, but not fully established
+- **disputed**: Known contradictions or unresolved debates about this knowledge
+- **obsolete**: Knowledge that was previously correct but is now outdated or superseded
 
-### emerging
-- Newer findings that may evolve
-- Limited confirmation
-- Active area of research
-- Example: "Recent studies suggest..."
+### Usage
 
-### disputed
-- Significant disagreement among experts
-- Conflicting but credible sources
-- No clear consensus
-- Example: "Debate continues on..."
+Add `confidence:` to frontmatter for any note where certainty matters. Default to `emerging` when uncertain.
 
-### obsolete
-- Superseded by newer understanding
-- Was previously accepted but now known to be wrong
-- Keep for historical context with clear deprecation
-- Example: "Previously believed X, now known to be Y"
+## Part 2: Verification Status
 
-## When to Use
+Verification status tracks whether knowledge has been checked for accuracy.
 
-Use confidence markers when:
-- Sources disagree on factual claims
-- New research challenges established views
-- You're capturing personal interpretations vs. facts
-- Temporal changes affect accuracy
-
-## Relationship to Lifecycle
-
-| Lifecycle | Typical Confidence |
-|-----------|---------------------|
-| draft | emerging |
-| active | emerging or disputed |
-| evergreen | high or emerging |
-| deprecated | obsolete |
-
-## Source Quality Tiers (Advanced)
-
-For domains with established evidence hierarchies (medicine, law, science), the Seed requires capturing source quality tier alongside confidence. Add frontmatter to notes indicating the type of evidence supporting major claims:
+### Frontmatter Field
 
 ```yaml
-source-tier: systematic-review | rct | observational | case-study | expert-opinion | anecdote
+verification-status: unverified|verified|pending|disputed
 ```
 
-### Tier Definitions
+### Values
 
-| Tier | Description | Example |
-|------|-------------|---------|
-| systematic-review | Synthesizes multiple studies, highest evidence | Cochrane review |
-| rct | Randomized controlled trial | Clinical drug trial |
-| observational | Study without intervention | Cohort study |
-| case-study | Single patient/event report | "Patient presented with..." |
-| expert-opinion | Expert viewpoint | "In my experience..." |
-| anecdote | Unverified personal account | "I heard that..." |
+- **unverified**: Captured but not yet verified
+- **verified**: Checked and confirmed accurate
+- **pending**: Awaiting verification
+- **disputed**: Known contradiction or unresolved conflict
 
-### Combining with Confidence
+### Verification Ratio
 
-Source tier and confidence are complementary but distinct:
+The Seed requires maintaining a verification ratio:
+> A healthy vault verifies at least 50% of new captures within 30 days.
 
-- **source-tier: systematic-review** + **confidence: high** = Strong evidence, established knowledge
-- **source-tier: rct** + **confidence: emerging** = Good evidence, may change as more research emerges
-- **source-tier: expert-opinion** + **confidence: disputed** = Weak source, experts disagree
+When unverified notes exceed 40% of total vault, pause exploration and prioritize verification.
 
-### Application by Domain
+## When to Use Which
 
-**Medicine:** Evidence hierarchy is well-established. Notes about treatments, drug efficacy, and diagnostic methods should capture what type of study supports each major claim.
+| Scenario | Confidence | Verification Status |
+|----------|------------|---------------------|
+| Personal experience, not yet fact-checked | emerging | unverified |
+| Multiple reputable sources confirm | high | verified |
+| Known controversy in field | disputed | disputed |
+| Old information that may be outdated | emerging or obsolete | pending review |
 
-**Law:** Different source weights — constitutional/statutory text (highest), case law precedent, legal commentary, expert opinion.
+## Related Concepts
 
-**Science:** Distinguish peer-reviewed journal articles, pre-prints (not yet reviewed), conference abstracts, and informal sources.
-
-**Other Domains:** Many fields lack formal evidence hierarchies. Use source-tier metadata only if meaningful; otherwise rely on confidence markers alone.
-
-### Extended Tier Tables
-
-#### Legal Domains
-| Tier | Description |
-|------|-------------|
-| Case Law | Court decisions |
-| Statutory Law | Legislation |
-| Regulatory Guidance | Agency rules |
-| Legal Commentary | Expert analysis |
-
-#### General Knowledge
-| Tier | Description |
-|------|-------------|
-| Primary Source | Direct evidence, original publication |
-| Secondary Source | Analysis, synthesis |
-| Tertiary Source | Summaries, encyclopedias |
-
-## When Source Tier Matters
-
-Source tier matters most when:
-- Knowledge will inform decisions with significant consequences
-- Multiple sources of varying quality exist
-- Readers need to assess reliability themselves
+This note connects to [[Note Types and Templates]], [[Knowledge Graph Structure]], [[Atomic Note Principle]], and [[Note Lifecycle Management]] for how confidence and verification fit into note design.
 
 ## Related
-
-- [[AI-Assisted Knowledge Management Seed]] — Core ruleset this note extends
-- [[Handling Contradictory Sources]] — Using confidence markers when sources disagree
-- [[Handling Temporal Knowledge]] — Keeping sources accessible
-- [[Note Lifecycle Management]] — Note stages and progression
-- [[Stress Test - Confidence Markers Rule Across Domains]] — Stress testing confidence markers across multiple domains
-- [[Frontier Exploration - Discredited and Historically Superseded Knowledge]]
-- [[Frontier Exploration - Self-Contradiction and Evolved Perspective]]
+- [[Graph Maintenance]] — Regular health checks
+- [[Self-Improvement Cycle]] — Review and improvement workflow

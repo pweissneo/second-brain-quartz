@@ -1,9 +1,13 @@
 ---
 last-reviewed: 2026-03-12
+last-updated: 2026-03-21
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+verification-status: verified
 level: principle
+schema-version: "1.0"
+domain-familiarity: assessed
 tags:
   - domain
   - adaptation
@@ -128,10 +132,23 @@ The difference is **content**, not structure.
 
 ---
 
+## Multilingual & International
+
+**Focus:** Content serving multiple languages or regions
+
+**Additions:**
+- Distinguish language-neutral from language-specific knowledge
+- Use language tags for filtering, not primary structure
+- Document untranslatable concepts with `language-of-origin`
+
+**See also:** [[Frontier Exploration - Multi-Language Knowledge Bases]]
+
+---
+
 ## General Adaptation Steps
 
 1. **Identify hub nodes** for your domain
-2. **Create templates** for common note types
+2. **Create templates** for common note types (see [[Schema.md]])
 3. **Set up tagging** for domain-specific categories
 4. **Define entry points** for new knowledge
 
@@ -141,3 +158,7 @@ The difference is **content**, not structure.
 - [[Knowledge Base Workflow]]
 - [[Atomic Note Principle]]
 - [[Frontier Exploration - Multi-Vault Architecture]]
+- [[Seed Gap - Finance and Investment Knowledge Bases]]
+- [[Seed Stress Test - Sports Coaching Knowledge Base]] — Domain-specific stress test for coaching
+- [[Seed Stress Test - Gardening Knowledge Base]] — Domain-specific stress test for gardening (context-dependent knowledge)
+- [[Seed Stress Test - Home Repair Knowledge Base]] — Domain-specific stress test for home repair (assembly/construction knowledge)

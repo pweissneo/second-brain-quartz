@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -81,15 +81,15 @@ alternatives-type: equivalent-approaches
 selection-criteria:
   - criteria: "Team existing skills"
     options:
-      - option: "Tool A"
+      - option: "Tool A"  # example placeholder
         best-when: "Team knows X"
-      - option: "Tool B"  
+      - option: "Tool B"  # example placeholder
         best-when: "Team knows Y"
   - criteria: "Project constraints"
     options:
-      - option: "Approach A"
+      - option: "Approach A"  # example placeholder
         best-when: "Deadline is tight"
-      - option: "Approach B"
+      - option: "Approach B"  # example placeholder
         best-when: "Long-term maintainability matters"
 ---
 ```
@@ -100,9 +100,9 @@ Create a hub note for the decision point with links to separate atomic notes for
 
 ```
 📄 Tool Selection Guide (hub)
-   ├── [[Tool A - Best when team knows X]]
-   ├── [[Tool B - Best for rapid prototyping]]
-   └── [[Tool C - Best for large teams]]
+   ├── Tool A - Best when team knows X (example)
+   ├── Tool B - Best for rapid prototyping (example)
+   └── Tool C - Best for large teams (example)
 ```
 
 Each alternative note should include:
@@ -126,7 +126,8 @@ For a learning/self-improvement domain:
 
 - [[Frontier Exploration - Trade-off Knowledge Capture]] — Capturing what's traded off between options
 - [[Frontier Exploration - User Situational Constraints]] — Handling knowledge constrained by user context
-- [[Frontier Exploration - Competing Frameworks]] — Epistemologically different frameworks
-- [[Frontier Exploration - Knowledge Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
+- [[Frontier Exploration - Competing Organizational Structures]] — Epistemologically different frameworks
+- [[Types of Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
 - [[Frontier Exploration - Comparative Knowledge Structures]] — How to structure comparative knowledge
-- [[Note-Taking Methods Compared]] — Example of comparison structure in the vault
+- [[Zettelkasten Method]] — Example of comparison structure in the vault (methods merged here)
+- [[Frontier Exploration - Multi-Constraint Interaction Knowledge]] — When multiple constraints interact

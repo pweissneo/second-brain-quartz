@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -50,7 +50,7 @@ What's missing: **guidance for capturing knowledge in transitional states** — 
 ```yaml
 ---
 status: whisper|draft|probe
-stage-confidence: low|medium|high
+stage-confidence: emerging
 stage-reason: "fragment from meeting" | "hypothesis needs testing" | "incomplete research"
 review-by: 2026-03-20
 ---
@@ -212,7 +212,9 @@ This pattern is especially valuable for:
 
 ## Related Frontier Explorations
 
+- [[Confidence Markers]] — tracking readiness for practical application
 - [[Frontier Exploration - Knowledge Without Sources]] — Unverified knowledge handling
-- [[Frontier Exploration - Tacit Knowledge Capture]] — Hard-to-articulate knowledge
-- [[Frontier Exploration - Knowledge Debt]] — Incomplete capture as debt
+- [[Frontier Gap - Embodied Knowledge]] — Hard-to-articulate knowledge
+- [[Frontier Exploration - Knowledge Maintenance]] — Incomplete capture as debt
 - [[Note Lifecycle Management]] — Full lifecycle from draft to deprecated
+- [[Frontier Exploration - Single-Point Dependency Knowledge]] — Fragile knowledge dependent on one piece of information

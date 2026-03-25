@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: active
+last-reviewed: 2026-03-18
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -8,9 +8,70 @@ tags:
   - domain-specific
   - stress-test
   - atomicity
+  - philosophy
 ---
 
 # Stress Test: Atomicity Rule Across Domains
+
+> This note consolidates stress tests for atomicity and word count rules across multiple knowledge domains.
+
+## Merged from: Seed Stress Test - Word Count Rule.md
+
+The following findings from the Word Count Rule stress test have been integrated:
+
+### Additional Edge Cases from Word Count Testing
+
+#### 1. Reference Content Not Explicitly Covered
+
+**Problem:** The rule has edge cases for procedural content but misses reference content:
+- Drug monographs (indications, contraindications, dosage, side effects, interactions, pharmacology)
+- Device specifications
+- Anatomical entries
+- Encyclopedia-style entries
+
+**Test scenario:** A note about "Acetaminophen" covering all pharmacological aspects could be 2000+ words but is ONE drug (one "idea" by domain standards).
+
+**Proposed refinement:**
+```
+**Edge case:** Reference content (drug monographs, device specifications, encyclopedia entries, taxonomic classifications) may legitimately exceed 300 words when covering one complete reference unit. The test: (1) Is this a single reference entity? (2) Would splitting make it harder to look up? (3) Are parts not independently reusable? Keep together if yes to 1-2.
+```
+
+#### 2. Legal Documents Misclassified
+
+**Problem:** Edge case mentions "legal documents" as procedural content, but:
+- Contracts aren't executed step-by-step like recipes
+- Statutes aren't tutorials
+- Legal documents are reference content - you consult them, don't follow them
+
+**Proposed refinement:**
+```
+**Edge case:** Legal documents (contracts, statutes, regulations) are reference content, not procedural content. Apply the reference content test: (1) Is this one legal instrument? (2) Does the user consult it rather than execute it linearly? (3) Would splitting impair legal context? Keep together if yes.
+```
+
+#### 3. Hub Notes for Aggregated Collections
+
+**Problem:** Recipe collections, music playlists, reading lists - hub notes that legitimately aggregate many items may need 500+ words.
+
+**Proposed refinement:**
+```
+**Edge case:** Hub notes that aggregate many items may exceed 300 words when each item needs contextual description. The test: (1) Is this a pure navigation hub (under 200 words acceptable)? (2) Does each aggregated item need explanation beyond just a title? Expand hub if yes to 2-3.
+```
+
+#### 4. Domain Patterns vs Individual Works
+
+**Problem:** The rule covers "single creative works" but not:
+- Musical forms (sonata form, rondo form - patterns, not single works)
+- Architectural styles
+- Design patterns in software
+
+**Proposed refinement:**
+```
+**Edge case:** Domain patterns (musical forms, architectural styles, design patterns, methodological frameworks) are valid atomic units even when exceeding 300 words. The test: (1) Is this a reusable pattern rather than a single instance? (2) Does the pattern have multiple components that must be understood together? Keep together if yes.
+```
+
+---
+
+## Original Content: Atomicity Rule Across Domains
 
 Testing the atomic note principle across multiple knowledge domains to find universal patterns and domain-specific edge cases.
 
@@ -22,6 +83,7 @@ Testing the atomic note principle across multiple knowledge domains to find univ
 | Gardening | Sequential procedures (planting, building beds) | Seasonal knowledge, plant-specific guides | Temporal cycles + hub pattern |
 | Programming | Code+explanation, API groups, error handling | - | Code is inseparable from explanation |
 | Philosophy | Single concepts, thinkers, arguments | Contested concepts, historical overviews | Opposition pairs + perspectives structure |
+| Legal | Case briefs, single statutes | Multi-issue opinions, jurisdiction-spanning topics | Reference vs analysis distinction |
 
 ---
 
@@ -85,6 +147,25 @@ If yes, it's atomic regardless of word count. This is the ultimate test — not 
 - **Tutorial vs Reference:** Tutorials can be longer; reference should be atomic
 
 **Key insight:** Code and explanation are one atomic unit for programming.
+
+### Legal Domain
+
+**What works ✓:**
+- Case briefs: each case = one note, atomicity works well
+- Single statutes: each statute as one reference unit
+- Legal terminology: definitions are atomic by nature
+
+**What breaks ✗:**
+- Comprehensive statute notes: a single statute may have multiple subsections (definitions, requirements, exceptions) that would require 5+ notes
+- Multi-issue court opinions: one opinion may address multiple legal issues (contract formation, damages, procedural issues)
+- Jurisdiction-spanning topics: "LLC Formation" covering federal + California + Delaware rules
+
+**Edge cases:**
+- **Comprehensive legal references:** Notes like "2024 Tax Act Summary" must cover multiple provisions, effective dates, and prior law interactions — splitting would make them unusable. Solution: tag with `reference-type: comprehensive`.
+- **Multi-part legal tests:** Legal tests often have multiple elements (fraud = misrepresentation + knowledge + intent + reliance + damages). Each element could be separate, but the test is a unit. Solution: tag with `legal-test:`.
+- **Jurisdiction-specific knowledge:** When a topic spans multiple jurisdictions, split by jurisdiction rather than trying to keep everything in one note.
+
+**Key insight:** Distinguish legal reference content (statutes, cases, regulations — consulted, not executed) from legal analysis (synthesizing multiple sources — may violate atomicity but should be broken down).
 
 ---
 
@@ -170,6 +251,33 @@ For concepts that evolved significantly over time:
 
 **Test:** Has this concept changed meaning over 50+ years? → Hub + spokes pattern
 
+### Edge Case 10: Equipment-Specific Procedures (Technical Domains)
+
+Some procedures ONLY apply to specific equipment or software. Example: "NINA imaging workflow" — only applies to that specific software.
+
+**Test:** Is this specific to one tool/product? → Keep as separate atomic note from general principle
+- The general principle: "imaging workflow" (general)
+- The specific implementation: "NINA workflow" (atomic to that specific tool)
+
+This applies to: photography software, programming frameworks, domain-specific tools.
+
+### Edge Case 11: Temporal Knowledge with Expiration
+
+Knowledge that changes over time (ephemeris data, yearly events, equipment models, yearly guides) needs time-boxing.
+
+**Test:** Does this knowledge have a known expiration? → Add `valid-until: YYYY-MM-DD` frontmatter
+- Link to general principles note
+- Mark with `lifecycle: transient` if appropriate
+
+This applies to: astronomy ephemeris, yearly planning guides, equipment compatibility lists, event schedules.
+
+### Edge Case 12: Large Procedural Workflows
+
+Some workflows are sequential and MUST be followed in order - splitting them makes them harder to use. Examples: astrophotography processing pipeline, CI/CD workflows, complex recipes.
+
+**Test:** (1) Does user need to execute linearly? (2) Would splitting make it harder to use? (3) Are parts independently reusable?
+If yes to 1-2 and no to 3: Keep together even if >300 words.
+
 ---
 
 ## Recommendations for Seed
@@ -184,6 +292,21 @@ Given any note:
 4. Are parts independently reusable? → Split if yes
 5. Is it a standard domain unit? → Accept brevity
 ```
+
+### Issue Found: The "And" Test is Problematic
+
+The Seed's current test states: "If the summary requires 'and', split it."
+
+This heuristic is too simplistic because:
+- "The relationship between X and Y" is ONE idea, even with "and"
+- Comparative notes like "X vs Y" are single ideas
+- Hub notes may list multiple topics but are still single navigation ideas
+- The word "and" is connective, not indicative of multiple ideas
+
+**Better test:** Use the One-Sentence Summary Test without the "and" prohibition:
+"Can this note be summarized in one sentence that captures its core purpose?"
+
+If yes → atomic. The presence of "and" in a summary is NOT a reliable indicator of multiple ideas.
 
 ### Domain-Specific Guidance
 
@@ -206,6 +329,52 @@ Given any note:
 
 ---
 
+## Philosophy Domain: Additional Refinements
+
+### Rule Update Proposal (from Philosophy Stress Test)
+
+> **Additional Edge Case - Philosophical Concepts:** For philosophy knowledge bases:
+> - Opposition-dependent concepts (materialism/idealism): create bidirectional pairs
+> - Historical development across eras: prefer temporal splitting with hub
+> - Canonical thought experiments: allow brief notes with `type: thought-experiment`
+> - Schools of thought: use hub+spoke with clear doctrine boundaries
+> - Interpretive debates: use perspectives structure
+> - Default to `confidence: emerging` for contested philosophical claims
+
+**Test:** Can you apply atomicity rules to philosophy concepts without artificial fragmentation?
+
+### Specific Philosophy Challenges Validated
+
+The philosophy stress test confirmed these challenges:
+
+1. **Opposition-Dependent Concepts:** Free Will cannot be understood without Determinism - create bidirectional pairs
+2. **Multi-Premise Arguments:** Keep argument as atomic unit; individual premises MAY be separate notes
+3. **Philosophical Works:** 500+ page works violate word count - solution is overview + linked deep-dives
+4. **Historical Development:** Split by era (Ancient/Medieval/Modern/Contemporary) with hub
+5. **Schools of Thought:** Hub+spoke pattern works well (Stoicism hub → Stoic Ethics, Stoic Physics, etc.)
+
+### Additional Edge Cases from Philosophy Testing
+
+#### Edge Case: Philosophical Jargon
+Philosophy uses precise technical terms (epistemology, ontology, phenomenology) that are inherently brief but essential. These are like domain unit concepts.
+
+**Test:** Allow under 100 words with `type: terminology` tag.
+
+#### Edge Case: Thought Experiments
+Classic thought experiments (Trolley Problem, Ship of Theseus, Brain in a Vat) are atomic units even when brief because:
+- Referenced as complete units
+- Can be applied across multiple philosophical debates
+- Breaking them apart loses their identity
+
+**Test:** Allow under 100 words with `type: thought-experiment` tag.
+
+#### Edge Case: Interpretive Debates
+Major philosophical texts have centuries of interpretation. Present multiple interpretive positions within one note using the perspectives structure.
+
+**Test:** This is where the perspectives structure applies - the note presents multiple views, which IS the single idea.
+
+---
+
 ## Related
 - [[Atomic Note Principle]]
 - [[AI-Assisted Knowledge Management Seed]] — Core atomicity rules
@@ -213,3 +382,9 @@ Given any note:
 - [[Stress Test - Confidence Markers Rule Across Domains]]
 - [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test
 - [[Frontier Exploration - Game Design Knowledge]] — tests atomicity in mechanical systems with high interdependence
+
+---
+## Consolidation Note
+
+This note now consolidates content from the following merged files:
+- **Seed Stress Test - Word Count Rule.md** (merged 2026-03-14) — Word count and reference content edge cases

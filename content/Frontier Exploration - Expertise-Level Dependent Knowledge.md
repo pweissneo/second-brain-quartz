@@ -1,33 +1,35 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: draft
+last-reviewed: 2026-03-22
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - structure
   - expertise-level
+thinking-tool: true
+thinking-tool-type: reasoning-framework
 ---
 
-# Frontier Exploration - Skill-Level Dependent Knowledge
+# Frontier Exploration - Expertise-Level Dependent Knowledge
 
 > How should a knowledge base handle knowledge that is true/valid at one expertise level but false at another?
 
-## or limiting The Problem
+## The Problem
 
-Some-dependent:
+Some knowledge is expertise-level dependent:
 
-- ** level knowledge is inherentlyProgramming "Don't use recursion:**" — good bad advice for advanced advice for beginners, developers
+- **Programming:** "Don't use recursion" — good advice for beginners, bad advice for advanced developers
 - **Cooking:** "Start with simple recipes" — appropriate for novices, unnecessarily limiting for experts
-- **Writing:** "Avoid passive voice" — good guidance wrong for beginners, sometimes for advanced writers
-- **Finance funds are:** "Index" — reasonable for most best for everyone people, not for sophisticated investors
+- **Writing:** "Avoid passive voice" — good guidance for beginners, sometimes wrong for advanced writers
+- **Finance:** "Index funds are best" — reasonable for most people, not best for sophisticated investors
 
 The Seed has rules for:
 - Difficulty tagging (`difficulty: advanced`)
 - Abstraction levels (concrete → pattern → principle → philosophy)
 - Audience-specific entry points
 
-But it's missing clear guidance forex **pertise-level dependent knowledge** — advice that's technically correct but only appropriate for certain skill levels.
+But it's missing clear guidance for **expertise-level dependent knowledge** — advice that's technically correct but only appropriate for certain skill levels.
 
 ## Where AI Agents Get Stuck
 
@@ -123,7 +125,7 @@ problems with recursive structure.
 ## Related Notes
 
 - [[Atomic Note Principle]] — atomicity still applies, consider splitting if level-specific notes get too long
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — related: context-dependent validity
+- [[Frontier Exploration - Integrated Rules History]] — related: context-dependent validity
 - [[Frontier Exploration - Interpretive Knowledge]] — related: perspective-dependent knowledge
 - [[Hub Node Creation]] — level-specific variants can be linked via hub
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Stress test validating this rule

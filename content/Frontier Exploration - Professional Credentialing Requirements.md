@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-10
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -28,7 +28,7 @@ An AI agent applying current rules would treat all "tested" knowledge as equally
 
 When building a knowledge base on medicine:
 1. AI finds "How to treat hypertension" 
-2. Seed rules say add `verification-status: tested`
+2. Seed rules say add `verification-status: verified`
 3. AI assumes it's safe to recommend
 4. But treating hypertension requires medical license, diagnosis, monitoring
 
@@ -57,6 +57,6 @@ The Seed doesn't distinguish between:
 
 ## Related
 - [[Confidence Markers]]
-- [[Stress Test - 3-Hops Rule in Genealogy]]
+- [[Stress Test - 3-Hops Rule in Genealogy]] → now merged into [[Seed Stress Test - Graph Density Rule in Genealogy]]
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Professional Advice Disclaimer Requirements]] - When advice requires disclaimers

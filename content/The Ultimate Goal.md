@@ -34,19 +34,10 @@ The vault demonstrates:
 
 **Test:** Can you trace every structural choice in the vault to an explicit Seed rule? Can every Seed rule be demonstrated by a note in the vault?
 
-## Progress Tracking
-
-| Metric | Current | Target |
-|--------|---------|--------|
-| Nodes | 148 | Growing |
-| Edges | ~200+ | Dense but clean |
-| Isolated | 0 | 0 |
-| Broken links | 0 | 0 |
-
-This vault started with 19 notes. After many cycles: 148 nodes (7.8x growth), 200+ edges, multiple Frontier Exploration notes → Seed rules.
-
 ## Related
 - [[Self-Improvement Cycle]]
 - [[Exportable Rules]]
 - [[Emergence in Knowledge Graphs]]
 - [[The Extended Mind]]
+- [[The Ownership Mindset]]
+- [[Systems Over Goals]]

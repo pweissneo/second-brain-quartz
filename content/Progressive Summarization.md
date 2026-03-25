@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-21
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -8,6 +8,9 @@ tags:
   - note-taking
   - methodology
   - capture
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Progressive Summarization
@@ -52,6 +55,10 @@ Progressive Summarization feeds into [[Atomic Note Principle]]:
 - [[Atomic Note Principle]]
 - [[The Forgetting Curve]]
 
+## Domain Application Examples
+- [[Seed Stress Test - Cooking Knowledge Base]] — Progressive Summarization applied to recipe processing and culinary technique capture
+- [[Seed Stress Test - Photography Knowledge Base]] — Progressive Summarization applied to processing photography technique notes
+
 ## Comparison with Zettelkasten
 
 Progressive Summarization and Zettelkasten are complementary methodologies:
@@ -69,3 +76,10 @@ Progressive Summarization and Zettelkasten are complementary methodologies:
 **When to use Zettelkasten:** Doing research or writing, wanting to generate new ideas, building a knowledge network
 
 **Best practice:** Use Progressive Summarization for initial capture, then convert summaries to atomic Zettelkasten notes for linking (Highlight → Bold → Bullet → Extract atomic idea → Write in own words → Link to related notes)
+
+## Test Criteria (for AI Evaluation)
+- [ ] Does this note define a clear methodology?
+- [ ] Can this methodology be applied across multiple domains?
+- [ ] Does it link to at least 2 domain-specific examples?
+- [ ] Is the `thinking-tool:` tag present with appropriate type?
+- [ ] Is `last-reviewed` within 12 months?

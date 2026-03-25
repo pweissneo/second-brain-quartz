@@ -1,12 +1,15 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-18
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+verification-status: verified
 tags:
   - anti-pattern
   - quality
   - negative-knowledge
+level: pattern
 ---
 
 # Anti-Pattern: Missing Negative Knowledge
@@ -46,8 +49,19 @@ Document failures, dead ends, and warnings. Link negative knowledge to the posit
 
 For every dedicated negative knowledge note, include a link to the positive alternative. Don't let the negative overwhelm the positive.
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Does the vault contain anti-pattern notes?
+- [ ] Are failure modes and warnings documented?
+- [ ] Is negative knowledge linked to positive alternatives?
+- [ ] Can you find at least 3 examples of documented failures or mistakes?
+
 ## Related
 
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Personal Experimentation Results]]
 - [[Note Lifecycle Management]]
+- [[Stress Test - Confidence Markers Rule Across Domains]] — for signaling reliability of negative knowledge
+- [[Handling Contradictory Sources]] — when negative knowledge conflicts with positive
+- [[Frontier Exploration - Knowledge Maintenance]] — accumulated gaps in knowledge quality
+- [[AI-Assisted Knowledge Management Seed]]

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:

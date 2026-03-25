@@ -1,9 +1,11 @@
 ---
 last-reviewed: 2026-03-12
+last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+verification-status: unverified
 tags:
   - seed-stress-test
   - chess-domain
@@ -227,11 +229,11 @@ diagram-required: true    # Visual position essential
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Domain-Specific Knowledge Bases]]
-- [[Seed Stress Test - Cooking Knowledge Base]]
+- [[Seed Stress Test - Craft Knowledge Bases]]
 - [[Stress Test - Tags vs Links Rule in Gardening]]
 - [[Handling Temporal Knowledge]]
-- [[Frontier Exploration - Canonical vs Analysis Knowledge]]
-- [[Seed Stress Test - Experiential Knowledge Rule in Pottery]]
-- [[Seed Stress Test - Self-Contained Notes in Photography]]
+- [[Handling Contradictory Sources]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[Stress Test - Self-Contained Notes Rule Across Domains]] — photography domain test (now merged)
 - [[Stress Test - AI Optimization Rule in Legal Knowledge Base]]
 - [[Stress Test - Knowledge-Type Rule in Investing]]

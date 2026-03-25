@@ -1,5 +1,5 @@
 ---
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 last-reviewed: 2026-03-12
@@ -104,8 +104,9 @@ These abstract principles become evergreen; specific keybindings are version-dep
 
 ## Related
 
+- [[Note Types and Templates]] - Note types include project notes and reference notes
 - [[Frontier Exploration - API and External Service Dependencies]] - Related to API endpoint knowledge
 - [[Linking Principle]] - The Seed rule about meaningful connections between notes
-- [[Graph Navigation Best Practices]] - How to navigate knowledge using graph tools
+- [[Graph Traversal Efficiency]] - How to navigate knowledge using graph tools
 - [[Stress Test - Seed Rules in Programming Knowledge Bases]] - Testing Seed rules in software development
 - [[AI-Assisted Knowledge Management Seed]] - Foundation rules including version scope requirements

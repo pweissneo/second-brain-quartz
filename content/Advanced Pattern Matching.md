@@ -1,8 +1,12 @@
 ---
 last-reviewed: 2026-03-12
+last-updated: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
+knowledge-type: procedural
+verification-status: verified
 tags:
   - graph-analysis
   - vault-health
@@ -95,6 +99,7 @@ def find_star_pattern(nodes, edges):
 ## Related
 
 - [[Graph Maintenance]]
-- [[Graph Navigation Best Practices]]
+- [[Graph Traversal Efficiency]]
 - [[Hub Node Creation]]
 - [[Anti-Patterns in Knowledge Management]]
+- [[AI-Assisted Knowledge Management Seed]]

@@ -1,261 +1,157 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: draft
+last-reviewed: 2026-03-21
+last-updated: 2026-03-21
 confidence: emerging
+level: frontier
+lifecycle: evergreen
 author-type: ai-assisted
 tags:
   - frontier-exploration
-  - trade-offs
+  - trade-off
+  - knowledge-structure
   - decision-making
-  - knowledge-types
 ---
 
-# Frontier Exploration - Trade-off Knowledge Capture
+# Frontier Exploration: Trade-off Knowledge Capture
 
-> How to capture knowledge about权衡 (trade-offs), competing priorities, and contextual decision-making — the "it depends" knowledge that resists atomic capture
-
-This note extends the [[AI-Assisted Knowledge Management Seed]] with patterns for trade-off knowledge, building on [[Atomic Note Principle]] and [[Linking Principle]].
+> Knowledge about what you gain and lose when choosing one approach over another is fundamentally different from knowledge about the approaches themselves — and current Seed rules don't explicitly address capturing it.
 
 ## The Problem
 
-Much valuable knowledge exists not as absolute truths but as **trade-off decisions** — choices where optimizing for one thing necessarily means compromising another. The Seed handles atomicity (one idea per note), linking (meaningful connections), and even framework-dependent knowledge (truth varies by paradigm), but lacks guidance for **trade-off knowledge** — knowledge that is conditional on priorities, constraints, and context.
+The Seed provides rules for organizing knowledge, but when you choose one organizational approach, you inevitably sacrifice another. This "what you give up" knowledge is valuable but currently invisible in vaults:
 
-Examples of trade-off knowledge:
-- "Use X for small datasets, Y for large datasets" (performance vs. simplicity)
-- "Prefer A in production, B in development" (stability vs. flexibility)
-- "Team size >5 favors process, <5 favors ad-hoc" (scale-dependent rules)
-- "In emergencies, speed trumps thoroughness; otherwise, thoroughness beats speed" (context-dependent)
+- **Atomicity vs. Context**: Splitting into atomic notes loses the coherent narrative; keeping together loses reusability
+- **Breadth vs. Depth**: Covering many topics superficially vs. few topics deeply
+- **Discovery vs. Stability**: Hub structures change as understanding evolves vs. fixed structures that become rigid
+- **Flexibility vs. Performance**: General-purpose organization vs. optimized for specific queries
+- **Novelty vs. Reliability**: New/unusual knowledge vs. well-verified mainstream knowledge
 
-This knowledge is neither:
-- **Universally true** — it depends on context/priorities
-- **Contradictory** — both options are valid, just optimal in different situations
-- **Subjective preference** — there's often reasoning behind the trade-off
+Current Seed rules discuss trade-offs in specific contexts (construction phases, diminishing returns) but don't treat **trade-off knowledge as a distinct knowledge type** that should be explicitly captured.
 
-## Why This Matters for AI Agents
+## Examples
 
-An AI building a knowledge base from scratch using only current Seed rules would:
-- ✓ Correctly identify and link atomic ideas
-- ✓ Correctly handle framework-dependent knowledge
-- ✗ FAIL to recognize when knowledge is inherently about trade-offs
-- ✗ Potentially give misleading advice by presenting trade-offs as absolutes
-- ✗ Lose valuable contextual decision knowledge that doesn't fit atomic templates
+### Example 1: Hub Structure Decisions
 
-### The "It Depends" Problem
+You create a hub for "Woodworking Joints" with spokes for dovetail, mortise-tenon, dowel, etc.
+- **Gain**: Easy navigation, clear taxonomy
+- **Lose**: Notes about joinery might link to the hub but not to each other (reduced cross-linking)
 
-Trade-off knowledge often manifests as "it depends" statements:
-- "It depends on your priorities"
-- "It depends on the context"
-- "It depends on constraints"
+This trade-off isn't captured anywhere.
 
-These feel unsatisfying to capture atomically — they don't resolve to a single answer. But they're among the most valuable knowledge for decision-making.
+### Example 2: Verification Strictness
 
-## Solution Pattern: Trade-off Note Structure
+You apply strict verification (70% ratio) for a medical knowledge base:
+- **Gain**: High confidence in accuracy
+- **Lose**: Slower capture rate, might miss time-sensitive knowledge
 
-### 1. The Trade-off Note Pattern
+### Example 3: Atomicity Decisions
 
-Create dedicated notes for significant trade-offs with this structure:
+A recipe for "Sunday Roast Chicken" is 800 words including technique, timing, and sides:
+- **Split**: Each component becomes reusable (can use the roasting technique elsewhere)
+- **Keep**: The complete experience is preserved, context isn't lost
 
-```markdown
-# Trade-off: [What] vs [What Else]
+The decision made (and rationale) isn't captured as knowledge.
 
-## The Trade-off
-[One sentence describing what's being traded off]
+## Why This Matters
 
-## When [Option A] is Better
-- Condition 1
-- Condition 2
+1. **Informed Reorganization**: When you eventually refactor, knowing what you gained/lost helps avoid repeating the same trade-offs
+2. **Context for Future You**: Future-you won't remember why certain decisions were made
+3. **Teaching Others**: If the vault is shared, understanding the reasoning behind structure helps others adapt
+4. **Avoiding Regret**: Knowing what you're sacrificing prevents "grass is always greener" refactoring loops
 
-## When [Option B] is Better  
-- Condition 1
-- Condition 2
+## Proposed Rule
 
-## Reasoning
-[Why these conditions matter]
+### Rule: Capture structural trade-offs as explicit knowledge notes
+
+**Why:** Trade-off knowledge has unique characteristics:
+- It's meta-level (about the vault, not in the vault)
+- It's time-sensitive (trade-offs change as vaults evolve)
+- It's personal (what you value differs from others)
+
+Without explicit capture, trade-off decisions become invisible and unreviewable.
+
+**Test:** Can you identify 3+ structural trade-offs you've made? Are they documented somewhere?
+
+**Implementation:**
+
+```yaml
+trade-off-category: organization|verification|atomicity|structure
+trade-off-type: gain-lose|either-or|compromise
+description: "What you gain vs. lose"
+rationale: "Why this trade-off was chosen"
+alternatives-considered:
+  - "Option A: ..."
+  - "Option B: ..."
+review-trigger: "When to reconsider this decision"
+last-reviewed: 2026-03-21
 ```
 
-### 2. The Decision Factor Pattern
-
-For complex multi-factor decisions:
-
-```markdown
-# Decision: [What to Choose]
-
-## Options
-- [[Option A]]
-- [[Option B]]
-- [[Option C]]
-
-## Factors (weighted)
-| Factor | Weight | A | B | C |
-|--------|--------|---|---|---|
-| Speed  | 40%    | 8 | 3 | 5 |
-| Cost   | 30%    | 4 | 9 | 6 |
-| Quality| 30%    | 5 | 4 | 9 |
-
-## Decision Framework
-[How to apply this weighting in practice]
+**Example frontmatter:**
+```yaml
+trade-off: "Atomicity over context for technique notes"
+gain: "Techniques are reusable across recipes"
+lose: "Complete recipe context split across notes"
+rationale: "I reference techniques more often than specific recipes"
+revisit-when: "Recipe notes become hard to use in isolation"
 ```
 
-### 3. The Conditional Rule Pattern
+## Test Cases
 
-For rules that apply conditionally:
+### Test Case 1: Recipe Organization
 
-```markdown
-# Rule: [What to do in situation X]
+Domain: Cooking knowledge base
 
-## Default Guidance
-[What to do normally]
+Trade-off decision: Organize recipes by technique (roasting, grilling, braising) vs. by meal type (breakfast, lunch, dinner) vs. by cuisine (Italian, Japanese, Mexican)
 
-## Exception: [When to deviate]
-- Condition: [Specific condition]
-- Override: [Different action]
-- Reason: [Why the exception exists]
-```
+- **Current decision**: By technique
+- **Gain**: Easy to find techniques, good for learning cooking methods
+- **Lose**: Harder to plan complete meals, cuisine relationships invisible
+- **When to revisit**: If meal-planning queries become frequent
 
-## Integration with Seed Rules
+### Test Case 2: Note Size Standards
 
-### Atomicity and Trade-offs
+Domain: General vault
 
-**Challenge**: Trade-off knowledge often requires context from multiple domains — splitting it too aggressively loses the comparison.
+Trade-off decision: Strict 100-300 word limit vs. flexible sizing
 
-**Solution**: 
-- Keep the trade-off comparison as a single atomic note
-- Link to detailed notes on each option for deep dives
-- The trade-off note is about the *relationship* between options, not the options themselves
+- **Current decision**: Flexible (allow longer for procedures)
+- **Gain**: Practical usability for executables
+- **Lose**: Some inconsistency, harder to predict note size
+- **When to revisit**: If search results become unpredictable
 
-**Test**: Can you summarize this note as "[Option A] is better when [conditions], [Option B] is better when [conditions]"? If yes, it's a valid atomic trade-off note.
+### Test Case 3: Verification Standards
 
-### Linking and Trade-offs
+Domain: Medical knowledge base
 
-**Challenge**: Trade-off notes link to multiple options but the links represent different relationships (not just "learn more about").
+Trade-off decision: High verification threshold (70%) vs. standard (50%)
 
-**Solution**:
-- Use the `[[option-a]]` and `[[option-b]]` links for the options being compared
-- Add explicit relationship context: "See [[Option A]] for details on when to use it"
-- Link to the factors that determine the choice
+- **Current decision**: 70% (high-stakes domain)
+- **Gain**: Reliable knowledge for decisions
+- **Lose**: Slower capture, might miss emerging information
+- **When to revisit**: If capture rate drops below 5 notes/month
 
-**Test**: Can you explain why each link exists? A link to [[Option A]] should be explainable as "link to learn about Option A which is one side of this trade-off."
+## Related Notes
 
-### Hub Pattern for Multiple Trade-offs
+- [[Note Insertion Strategy]]
+- [[Note Lifecycle Management]]
+- [[Seed Stress Test - Diminishing Returns Rule Across Domains]]
+- [[Frontier Exploration - Vault Construction Completion Criteria]]
+- [[Frontier Exploration - Knowledge Maintenance]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]
 
-When a topic has multiple trade-offs, create a hub:
+## Questions for Seed Update
 
-```markdown
-# Trade-offs in [Topic]
+1. Should trade-off notes be their own category, or embedded in structural notes?
+2. How often should trade-offs be reviewed? (Annually? When problems emerge?)
+3. Should trade-offs be domain-specific (per hub) or vault-level?
+4. How to handle trade-offs that conflict with each other?
 
-## Overview
-[Brief description of the key trade-offs in this domain]
+## Gap Status
 
-## Trade-offs
-- [[Trade-off: Speed vs Quality]]
-- [[Trade-off: Cost vs Flexibility]]
-- [[Trade-off: Simplicity vs Power]]
-```
+This is a **frontier exploration** — the concept is identified but lacks:
+- [ ] Extensive testing across domains
+- [ ] Refined rules with clear tests
+- [ ] Integration with existing Seed rules
+- [ ] Practical implementation examples
 
-## Examples by Domain
-
-### Software Development
-- "Build vs Buy" trade-offs
-- "Simplicity vs Extensibility"
-- "Now vs Later" (technical debt decisions)
-
-### Cooking
-- "Speed vs Quality" (quick meals vs. slow cooking)
-- "Cost vs Quality" (ingredients)
-- " Variety vs Consistency" (menu planning)
-
-### Investment
-- "Risk vs Return" (the fundamental trade-off)
-- "Liquidity vs Returns"
-- "Concentration vs Diversification"
-
-### Learning
-- "Breadth vs Depth"
-- "Theory vs Practice"
-- "Speed vs Retention"
-
-## Handling Unknown Trade-offs
-
-Some trade-offs aren't known until encountered. Capture these as "discovered trade-offs":
-
-```markdown
-# Discovered Trade-off: [Topic]
-
-## Discovery Context
-[Where/when this trade-off was discovered]
-
-## The Trade-off
-[What's being traded off]
-
-## Resolution
-[How it was resolved or decision made]
-
-## Lessons
-[Generalizable insights about this type of trade-off]
-```
-
-## Test for Trade-off Knowledge Capture
-
-To verify trade-off knowledge is properly captured:
-
-1. **Summarizability Test**: Can you state the trade-off in one sentence?
-2. **Completeness Test**: Are both/all options represented fairly?
-3. **Applicability Test**: Can a reader determine which side applies to their situation?
-4. **Reasoning Test**: Is the reasoning behind the trade-off explained?
-5. **Actionability Test**: Can someone make a decision after reading this note?
-
-## Edge Cases
-
-### False Trade-offs
-Some apparent trade-offs are actually false — one option dominates. Flag these:
-```markdown
-# Apparent Trade-off: [Topic]
-
-## Analysis
-[Why this isn't actually a trade-off]
-
-## Conclusion
-[One option is clearly better in all cases]
-```
-
-### Evolving Trade-offs
-Trade-offs can change over time as contexts evolve:
-```markdown
-# Trade-off: [Topic]
-
-## Current State
-[As of [date]]
-
-## Historical Context
-[How the trade-off has evolved]
-
-## Monitoring
-[Conditions that would change the trade-off]
-```
-
-### Trade-offs That Aren't
-Some "trade-offs" are actually skill issues in disguise:
-- "Speed vs Quality" → With practice, you can have both
-- "Cost vs Quality" → With knowledge, cheap can be high quality
-
-Distinguish between:
-- **Inherent trade-offs**: Fundamental limits (can't have both)
-- **Apparent trade-offs**: Limits of current skill/knowledge (can be overcome)
-
-## Rule Recommendation
-
-Add to Seed section on Knowledge Types:
-
-**Rule:** Capture trade-off knowledge explicitly using trade-off note patterns — state both options, conditions for each, and reasoning.
-**Why:** Trade-off knowledge is among the most valuable for decision-making but resists atomic capture. Explicit patterns prevent losing this knowledge and help readers make contextual decisions.
-**Test:** For notes containing "it depends," "trade-off," "versus," or "vs": (1) Is there explicit structure capturing what's traded off? (2) Are conditions for each option stated? (3) Can a reader determine which applies to their situation?
-
-**Rule:** Distinguish inherent trade-offs from skill/knowledge limits — apparent trade-offs that can be overcome with practice should be marked as such.
-**Why:** False trade-outs create unnecessary hesitation. Recognizing when a trade-off is illusory empowers decision-making.
-**Test:** For each trade-off: (1) Is this fundamentally a limit or a skill gap? (2) Can the "trade-off" be eliminated with learning/practice? (3) If yes, mark as "developable skill" rather than inherent trade-off.
-
-## Related
-
-- [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
-- [[Frontier Exploration - Knowledge Abstraction Levels]] — Related knowledge organization
-- [[Frontier Exploration - User Situational Constraints]] — Related contextual knowledge
+**Next steps:** Test trade-off capture in one vault for 30 days, document outcomes, refine rule.

@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: active
+lifecycle: seed-extension
 author-type: ai-assisted
+thinking-tool: true
+thinking-tool-type: reasoning-framework
 tags:
   - frontier-exploration
   - parenting
@@ -160,7 +162,7 @@ empirical-support: none | weak | moderate
 
 **Test:** Does advice that works for some children include notes about which temperaments it applies to?
 
-### Rule: Default parenting knowledge to `confidence: low` unless there's strong evidence
+### Rule: Default parenting knowledge to `confidence: emerging` unless there's strong evidence
 
 **Why:** The appearance of confidence in a domain where confidence is rarely justified creates false certainty.
 
@@ -188,6 +190,12 @@ An AI building a parenting knowledge base using only current Seed rules would st
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] - Related but parenting doesn't fit the model
 - [[Frontier Exploration - Knowledge Without Sources]] - Related to inherently uncertain knowledge
 - [[Frontier Exploration - User Situational Constraints]] - Parenting is extremely situational
+
+## Domain Application Notes
+
+*Notes where this thinking tool framework has been applied:*
+
+- *(This framework is proposed but not yet applied to specific domain notes. When parenting-specific notes are created with temperament tagging, value-trade-off tracking, or consensus: none markers, they should be linked here.)*
 
 ## Test Case: Building a Parenting Knowledge Base
 

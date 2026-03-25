@@ -1,93 +1,86 @@
 ---
-last-reviewed: 2026-03-09
-lifecycle: draft
+last-reviewed: 2026-03-16
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - examples
   - knowledge-processing
+knowledge-type: conceptual
 ---
 
-# Frontier Exploration - Illustrative vs. Factual Examples
+# Frontier Exploration - Illustrative vs Factual Examples
 
-> How should a knowledge base distinguish between examples that illustrate a concept versus examples that demonstrate real-world application?
+> How to distinguish examples that illustrate concepts from examples demonstrating real-world application.
 
 ## The Problem
 
-The Seed addresses source citation and factual claims, but treats "examples" as a monolithic category. In practice, examples serve fundamentally different purposes:
+The Seed treats "examples" as monolithic, but they serve different purposes:
 
-1. **Illustrative examples** — Hypothetical or simplified scenarios used to explain a concept
-2. **Factual examples** — Real-world instances that demonstrate a principle in practice
+1. **Illustrative** — Hypothetical scenarios explaining concepts
+2. **Factual** — Real-world instances demonstrating principles
 
- conflating these creates several problems:
+Conflating these causes: illustrative examples cited as facts, factual examples become outdated unnoticed, readers can't distinguish theory from practice.
 
-- Illustrative examples get cited as factual knowledge
-- Factual examples become outdated without notice
-- Readers can't distinguish "this is how it works in theory" from "this is how it works in practice"
+## Gap in Seed Rules
 
-## The Gap in Current Seed Rules
+- No distinction between illustrative and factual
+- No guidance on dating factual examples
+- No guidance on marking illustrative as hypothetical
 
-The Seed has:
-- Rules about citing sources (Rule: Cite sources)
-- Rules about temporal data (Rule: Separate time-sensitive data)
-- Rules about confidence markers
+## Proposed Rules
 
-But missing:
-- **No distinction** between illustrative and factual examples
-- **No guidance** on dating factual examples
-- **No guidance** on marking illustrative examples as hypothetical
-- **No test** for whether examples are being used appropriately
+### Distinguish Example Types
+**Rule:** Categorize examples as illustrative (hypothetical) or factual (real-world with source).
+**Test:** Can you categorize 5 random examples?
+
+### Date Factual Examples
+**Rule:** Factual examples must include verification date.
+**Test:** Can you determine when factual examples were verified?
+
+### Mark Illustrative as Hypothetical
+**Rule:** Use "for example" or "imagine" rather than presenting as real.
+**Test:** Can you distinguish types without clicking links?
+
+## Why It Matters
+
+Without distinction: AI cites hypotheticals as evidence, misses outdated facts.
+With distinction: AI evaluates appropriately, triggers reviews, maintains clarity.
+
+---
 
 ## Domain Variations
 
-This gap manifests differently across domains:
-
 | Domain | Illustrative Example | Factual Example |
 |--------|---------------------|------------------|
-| Cooking | "Imagine a basic vinaigrette" | " recipe for classic vinaigrette" |
+| Cooking | "Imagine a basic vinaigrette" | "Recipe for classic vinaigrette" |
 | Programming | "Consider a function that adds numbers" | "Array.prototype.reduce() in JavaScript" |
 | Music | "A simple melodic interval" | "The opening of Beethoven's 5th" |
 | Medicine | "How a vaccine works conceptually" | "Pfizer COVID-19 vaccine mechanism" |
+| Law | "A hypothetical breach of contract" | "Hadley v. Baxendale (1854) case facts" |
+| Finance | "How compound interest works conceptually" | "S&P 500 returns 2015-2024" |
+| Science | "Imagine atoms as tiny spheres" | "Water molecule H2O structure" |
 
-The problem: Illustrative examples can be generic; factual examples must be accurate and may become obsolete.
+**Key Insight:** Illustrative examples can be generic; factual examples must be accurate and may become obsolete.
 
-## Proposed Seed Rules
-
-### Rule: Distinguish Illustrative from Factual Examples
-
-**Rule:** When including examples in notes, explicitly categorize them as either illustrative (hypothetical/simplified) or factual (real-world with source).
-
-**Why:** Readers and AI agents need to know whether an example represents reality or a teaching abstraction. Misunderstanding this leads to citing illustrative examples as facts or missing when factual examples become outdated.
-
-**Test:** Pick 5 notes with examples. Can you categorize each as illustrative or factual? Are factual examples dated?
-
-### Rule: Date Factual Examples
-
-**Rule:** Factual examples must include a date or time range in their frontmatter or inline, indicating when the example was verified.
-
-**Why:** Facts change. A "real-world example" from 2020 may no longer be accurate in 2026. Dating helps readers assess relevance and triggers review when examples become stale.
-
-**Test:** For notes with factual examples, can you determine when the example was last verified? Is there a review date?
-
-### Rule: Mark Illustrative Examples as Hypothetical
-
-**Rule:** Illustrative examples should be clearly marked as hypothetical, using phrases like "for example" or "imagine" rather than presenting them as real occurrences.
-
-**Why:** An illustrative example of "how a nuclear reactor works" shouldn't be mistaken for a factual description of a specific reactor. Clear signaling prevents confusion.
-
-**Test:** Can you distinguish illustrative from factual examples without clicking any links? Are illustrative examples clearly framed as hypothetical?
+---
 
 ## Edge Cases
 
+### General Edge Cases
+
 1. **Historical examples** — These are factual but historical. Treat as factual with explicit date range.
+
 2. **Canonical examples** — Widely-known examples (Beethoven's 5th, Newton's apple) are factual but stable. Date of first verification is sufficient.
+
 3. **Statistical examples** — "In a 2023 study..." are factual and must be dated.
+
 4. **Tutorial examples** — Step-by-step guides are typically illustrative unless linking to real documentation. Mark as "example tutorial" rather than "how to."
 
-## Domain-Specific Edge Cases
+### Domain-Specific Edge Cases
 
-### Legal Knowledge
+#### Legal Knowledge
 
 The legal domain provides particularly important edge cases due to high stakes:
 
@@ -103,30 +96,22 @@ The legal domain provides particularly important edge cases due to high stakes:
 
 6. **Pending Legislation** — Proposed laws (e.g., "The proposed EU AI Regulation would require...") are factual about the proposal but not about enacted law. Mark with `status: pending`.
 
-## The Test (Combined)
+---
 
-1. Pick 5 random notes containing examples
-2. For each: Is it illustrative or factual?
-3. If factual: Is there a date when it was verified?
-4. If illustrative: Is it clearly marked as hypothetical?
+## Implementation Guidance
 
-## Why This Matters for AI Agents
+For marking examples:
 
-Without this distinction:
-- An AI might cite a hypothetical example as evidence for a factual claim
-- An AI might not flag outdated factual examples for review
-- An AI might create new "factual" examples that are actually illustrative
-
-With this distinction:
-- AI can appropriately evaluate and cite examples
-- AI can trigger timely reviews of factual examples
-- AI can maintain clarity about what's real vs. teaching abstraction
+```yaml
+example-type: illustrative | factual | comparative
+example-date: YYYY-MM-DD  # for factual examples
+example-status: verified | pending | proposed  # as appropriate
+hypothetical: true  # for illustrative examples
+```
 
 ## Related
 
-- [[AI-Assisted Knowledge Management Seed]] — The rules this note extends
-- [[Handling Contradictory Sources]] — Related to source quality
-- [[Handling Temporal Knowledge]] — Temporal data handling
-- [[Confidence Markers]] — Signaling reliability
-- [[Knowledge Base Workflow]] — How new knowledge enters
-- [[Stress Test - Confidence Markers Rule Across Domains]] — Cross-domain stress test
+- [[AI-Assisted Knowledge Management Seed]]
+- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Handling Temporal Knowledge]] — Temporal knowledge, outdated information, and discredited knowledge handling
+- [[Handling Contradictory Sources]] — Source verification for factual examples

@@ -1,8 +1,9 @@
 ---
 last-reviewed: 2026-03-13
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+specialized: true
 tags:
   - seed-stress-test
   - ai-optimization
@@ -11,6 +12,8 @@ tags:
 ---
 
 # Stress Test: AI Agent Optimization Rule in Legal Knowledge Base
+
+> **Note:** This stress test uses hypothetical legal domain examples for illustrative purposes. These are teaching examples demonstrating how Seed rules would apply in a legal domain, not actual vault notes.
 
 ## Seed Rule Being Tested
 **Rule:** For vaults primarily serving AI agents (RAG systems, AI agents, automated reasoning), optimize structure for retrieval precision over human comprehension.
@@ -149,5 +152,5 @@ The rule needs extension for legal knowledge bases.
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — Core Seed rules being tested
-- [[Frontier Exploration - Legal Knowledge Bases]] — Related frontier exploration
+- [[Seed Stress Test - Legal Knowledge Bases]] — Related frontier exploration (merged)
 - [[Stress Test - Every Link Must Be Explainable in Legal Knowledge]] — Related stress test on link explainability

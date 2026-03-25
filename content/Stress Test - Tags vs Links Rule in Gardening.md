@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -100,10 +100,18 @@ For gardening specifically:
 - Use tags for: hardiness zones, seasons, plant types (filterable facets)
 - Use links for: related plants, techniques, tools, diseases (navigable relationships)
 
+## Seed Update (2026-03-19)
+
+The Seed has been updated to incorporate these edge cases:
+- Multiple classification systems: use frontmatter fields instead of simple tags
+- Temporal categories: when temporal navigation is primary, prefer hub notes over tags
+
+This stress test directly contributed to Seed rule refinement.
+
 ## Related
 - [[Linking Principle]]
 - [[Frontier Exploration - Climate-Zone-Dependent Knowledge]]
-- [[Metadata and Tagging]]
+- [[Note Types and Templates]]
 - [[Frontier Exploration - Equipment and Tool Dependencies]] — Tool dependencies
-- [[Frontier Exploration - Knowledge Applicability Boundaries]] — Applicability scope
-- [[Seed Stress Test - Cooking Knowledge Base]] — Another domain stress test
+- [[Types of Applicability Boundaries]] — Applicability scope
+- [[Seed Stress Test - Craft Knowledge Bases]] — Another domain stress test

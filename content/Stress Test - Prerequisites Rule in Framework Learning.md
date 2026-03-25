@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -241,6 +241,6 @@ prerequisites:
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Prerequisite Knowledge Tracking]]
-- [[Frontier Exploration - Framework-Dependent Knowledge]]
+- [[Frontier Exploration - Integrated Rules History]]
 - [[Stress Test - Expertise Level Rule in Foreign Language Learning]]
-- [[Note Prioritization Strategy]]
+- [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]]

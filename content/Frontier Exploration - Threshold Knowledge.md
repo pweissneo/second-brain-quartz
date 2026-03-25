@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-13
+last-updated: 2026-03-19
 confidence: emerging
 author-type: ai-assisted
-lifecycle: draft
+lifecycle: evergreen
+verification-status: unverified
 tags:
   - frontier-exploration
   - knowledge-types
@@ -115,14 +117,15 @@ project-drift:
 
 ## Relationship to Existing Seed Rules
 
-- Complements [[Frontier Exploration - Knowledge Applicability Boundaries]] — thresholds are specific boundary cases
+- Complements [[Types of Applicability Boundaries]] — thresholds are specific boundary cases
 - Complements [[Frontier Exploration - Probabilistic Knowledge]] — threshold knowledge often involves probability of transition
 - Complements [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — thresholds may differ by skill level
 
 ## Related Notes
 
 - [[Handling Temporal Knowledge]] — temporal knowledge deals with changes over time; threshold knowledge deals with categorical transitions
-- [[Frontier Exploration - Threshold Knowledge]] is a candidate for inclusion in the Seed as a rule about documenting categorical transitions
+- [[Frontier Exploration - Decision Threshold Knowledge]] — decision thresholds are a specific type of threshold knowledge
+- This note is a candidate for inclusion in the Seed as a rule about documenting categorical transitions
 
 ## Test Questions
 

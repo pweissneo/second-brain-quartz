@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-21
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
@@ -43,6 +43,31 @@ But there's no explicit `climate-zone` or `hardiness-zone` tag, and no guidance 
 **Why:** Without environmental scope tags, AI agents cannot distinguish between universally applicable gardening advice and zone-specific guidance. This creates risk of applying incorrect advice (planting tomatoes in January in Zone 4 would fail spectacularly).
 **Test:** Pick 5 gardening notes. Do they have hardiness-zone or climate-scope tags? Can you determine which zone(s) the advice applies to?
 
+## Examples
+
+### Gardening Domain
+
+| Knowledge | Climate Scope | Tag |
+|----------|--------------|-----|
+| "Plant tomatoes after last frost" | USDA Zone dependent | `hardiness-zone: [4-9]` |
+| "Mulch before winter" | Cold-hardiness dependent | `hardiness-zone: [3-7]` |
+| "Water deeply once a week" | Aridity zone dependent | `climate-zone: arid` |
+
+### Construction Domain
+
+| Knowledge | Climate Scope | Tag |
+|----------|--------------|-----|
+| "Use exterior latex paint" | Humidity dependent | `climate-zone: humid` |
+| "Insulation R-value requirements" | Temperature dependent | `climate-zone: [cold-temperate]` |
+| "Roof pitch recommendations" | Precipitation dependent | `climate-zone: high-rainfall` |
+
+### Energy/Solar Domain
+
+| Knowledge | Climate Scope | Tag |
+|----------|--------------|-----|
+| "Panel efficiency peaks at 25°C" | Temperature range | `operating-range: [15-35C]` |
+| "Optimal panel angle = latitude" | Hemisphere dependent | `hemisphere: [northern-southern]` |
+
 ## Edge Cases
 
 1. **Microclimates**: A garden in a city may be one zone warmer than surrounding rural areas. How granular should scope be?
@@ -54,6 +79,6 @@ But there's no explicit `climate-zone` or `hardiness-zone` tag, and no guidance 
 
 - [[AI-Assisted Knowledge Management Seed]] (jurisdiction/region rules)
 - [[Frontier Exploration - User Situational Constraints]] — Related: scope metadata for user context
+- [[Frontier Exploration - Geographically-Constrained Knowledge]] — Overlapping concern: geographic scope of knowledge applicability
 - [[Handling Temporal Knowledge]]
-- [[Stress Test - Atomicity Rule Across Domains]] — Domain stress tests including climate-dependent knowledge handling
-- [[Frontier Exploration - Framework-Dependent Knowledge]] — Similar scope-tag pattern for conceptual frameworks
+- [[Stress Test - Tags vs Links Rule in Gardening]] — Domain stress tests including climate-dependent knowledge handling

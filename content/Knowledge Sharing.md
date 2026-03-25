@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-16
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -65,5 +65,5 @@ Benefits of sharing:
 - [[Writing as Thinking]]
 - [[Knowledge Base Workflow]]
 - [[Active Reading]]
-- [[The Knowledge Creator]]
+- [[The Ownership Mindset]]
 - [[The Innovation Engine]]

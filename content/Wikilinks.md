@@ -1,6 +1,7 @@
 ---
-last-reviewed: 2026-03-08
-lifecycle: active
+protected: true
+last-reviewed: 2026-03-18
+lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
 tags:
@@ -19,14 +20,14 @@ tags:
 |------|--------|------------|
 | Direct | `[[Atomic Note Principle]]` | Atomic Note Principle |
 | With label | `[[Linking Principle|Connection Quality]]` | Connection Quality |
-| Section | &#91;&#91;Note Title#Section Name&#93;&#93; (example syntax) | Graph Navigation Best Practices → MCP Tools Reference |
+| Section | &#91;&#91;Note Title#Section Name&#93;&#93; (example syntax) | Graph Traversal Efficiency → MCP Tools Reference |
 
 ## Why Wikilinks Over Markdown Links
 
 1. **No IDs needed** — Link by title, not by arbitrary identifier
 2. **Auto-complete** — Tools suggest existing notes as you type
 3. **Refactoring friendly** — Rename a note, links update automatically
-4. **Readable source** — <code>[[Graph Navigation Best Practices]]</code> is clearer than `[Note 123](./notes/note-123.md)`
+4. **Readable source** — <code>[[Graph Traversal Efficiency]]</code> is clearer than `[Note 123](./notes/note-123.md)`
 5. **Bidirectional by default** — Most tools show backlinks automatically
 
 This aligns with the Seed rule requiring flat file structure with wikilinks — no nested folders.
@@ -45,7 +46,7 @@ When you write a wikilink to a note that doesn't exist (e.g., &#91;&#91;New Note
 | Prefer | Avoid |
 |--------|-------|
 | `[[Atomic Note Principle]]` | `ANP` (unclear abbreviation - don't use) |
-| `[[Note Naming Conventions|Naming]]` for variety | Same link text repeated |
+| `[[note-naming-conventions|Naming]]` for variety | Same link text repeated |
 
 ### When NOT to Link
 
@@ -71,9 +72,9 @@ The Seed requires every note be reachable from [[_root]] in 3 hops or fewer. Wik
 Most modern knowledge management tools support wikilinks:
 - **Obsidian**, **Logseq**, **RemNote** — Native support
 - **Roam Research** — Uses double bracket syntax
-- **Quartz**, **Ara** — Static site generators parse wikilinks
+- **Quartz**, **Obsidian Publish**, **Logseq Publish** — Static site generators parse wikilinks
 
-This vault's [[Graph Navigation Best Practices]] can query the link structure programmatically.
+This vault's [[Graph Traversal Efficiency]] can query the link structure programmatically.
 
 ## Best Practices Summary
 
@@ -96,7 +97,7 @@ When a linked note is deleted or renamed:
 
 Use aliases to avoid duplicate notes:
 ```markdown
-# This note covers the same topic as [[Alternative Title]]
+# This note covers the same topic as [[note-naming-conventions]]
 # Use this canonical note instead
 ```
 This prevents fragmentation when the same concept has multiple names.
@@ -120,3 +121,4 @@ Most wikilink implementations are case-insensitive but title-sensitive:
 - [[Graph Traversal Efficiency]] — Navigation within 3 hops
 - [[Hub Node Creation]] — When to create navigation hubs
 - [[Graph Maintenance]] — Keeping the graph healthy
+- [[Emergence in Knowledge Graphs]] — How connections create emergent insights

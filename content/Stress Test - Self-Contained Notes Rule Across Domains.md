@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: active
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -10,6 +10,7 @@ tags:
 - multi-domain
 - legal-knowledge
 - music-composition
+- photography
 ---
 
 # Stress Test: Self-Contained Notes Rule Across Domains
@@ -147,6 +148,73 @@ For Music Composition, refine to:
 
 ---
 
+## Domain 3: Photography
+
+### Does the rule make sense?
+
+**Partially.** Photography knowledge bases face unique challenges:
+- Heavy technical terminology (aperture, ISO, shutter speed, focal length)
+- Equipment-specific knowledge (camera bodies, lenses, accessories)
+- Artistic judgment mixed with technical facts
+- Workflow knowledge (post-processing, editing, file management)
+- Context-dependent advice (lighting conditions, subjects, genres)
+
+### Edge Cases
+
+**Edge Case 1: Technical Terminology Challenge**
+
+Photography has dense technical vocabulary where terms build on each other:
+- "Aperture" depends on understanding "f-stop," "depth of field," "lens"
+- "Shutter speed" depends on "motion blur," "exposure triangle"
+- "ISO" depends on "noise," "grain," "exposure triangle"
+
+> **Illustrative example:**
+> A note about "Bokeh" defines it as "the aesthetic quality of blur" — but reader doesn't know what "aesthetic blur" means vs. "bad blur."
+> **Verdict:** NOT self-contained — needs visual example description or comparison.
+
+**Proposed Solution:**
+> Photography notes should include inline parenthetical definitions for technical terms on first use. Example: "Use a neutral density (ND) filter — a dark glass that reduces light entering the lens — to enable longer exposures."
+
+**Edge Case 2: Equipment Dependencies**
+
+Photography equipment knowledge has layers of dependencies:
+- Camera brand → lens mount → specific lenses
+- Flash system → trigger → modifiers
+- Tripod → head type → mounting plate
+
+> **Illustrative example:**
+> "Nikon Z-mount" explains flange distance, mount diameter — but assumes reader knows what "flange distance" means.
+> **Verdict:** NOT self-contained for beginners.
+
+**Edge Case 3: The Visual Problem**
+
+Photography is inherently visual, but notes are text. Some techniques cannot be truly understood without seeing:
+
+> **Illustrative example:**
+> "Panning Shot" — "Follow subject with camera, use slow shutter" — impossible to truly understand without video example.
+> **Verdict:** Self-contained BUT incomplete — describes action, not outcome.
+
+> **Illustrative example:**
+> "Rule of Thirds" — explains grid, placing subject at intersections — works well, visual concept translated to text.
+> **Verdict:** SELF-CONTAINED — good model.
+
+**Suggested Improvement:**
+> For visually-dependent domains like photography: notes should describe what the viewer SEES, not just what the photographer DOES. "Use panning" → "Keep subject sharp while blurring background to show motion."
+
+### Photography-Specific Refinement
+
+**Rule:** For photography and other technically dense visual domains:
+1. Include brief inline definitions (1-2 sentences) for core technical terms
+2. Describe observable outcomes, not just actions
+3. For equipment: explain what it DOES even if not the specific model
+
+**Test:** Pick 5 random photography notes. For each:
+1. Identify all technical terms
+2. Can you understand the note's meaning without looking up any term?
+3. Can you picture what the result looks like?
+
+---
+
 ## Unified Refinements
 
 ### Refinement 1: The Core + Supporting Distinction
@@ -184,6 +252,6 @@ For experiential concepts (music, cooking, physical skills):
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
-- [[Frontier Exploration - Tacit Knowledge Capture]]
+- [[Frontier Gap - Embodied Knowledge]]
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]]
 - [[Stress Test - Confidence Markers Rule Across Domains]]

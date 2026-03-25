@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-10
+last-reviewed: 2026-03-19
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -171,5 +171,5 @@ Imagine building a knowledge base about heart disease:
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]] — The authoritative rules
-- [[Note Naming Conventions]] — Related to terminology
+- [[note-naming-conventions]] — Related to terminology
 - [[Atomic Note Principle]] — One idea per note (applies to definitions too)

@@ -1,8 +1,9 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+specialized: true
 tags:
   - frontier-exploration
   - interpretive-knowledge
@@ -149,7 +150,7 @@ Formal/Classical ←——→ Experimental/Modern
 ```markdown
 ---
 type: personal-opinion
-confidence: subjective
+confidence: emerging
 ---
 ```
 
@@ -213,8 +214,8 @@ When capturing interpretive knowledge:
 
 ## Related
 
+- [[AI-Assisted Knowledge Management Seed]] — Foundation rules
 - [[Frontier Exploration - Probabilistic Knowledge]] — Where certainty differs
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Different audiences
 - [[Frontier Exploration - Illustrative vs Factual Examples]] — Types of knowledge
 - [[Confidence Markers]] — Expressing certainty levels
-- [[AI-Assisted Knowledge Management Seed]] — Foundation rules

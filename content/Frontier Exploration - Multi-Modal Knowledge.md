@@ -1,78 +1,166 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: draft
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-tags:
-  - frontier-exploration
-  - multi-modal
-  - knowledge-types
+last-reviewed: 2026-03-24
+verification-status: unverified
+schema-version: "1.0"
+level: principle
+tags: [knowledge-type, multi-modal, media, frontier]
+merged-from: Frontier Exploration - Multi-Modal Knowledge Representation.md
 ---
 
-# Frontier Exploration - Multi-Modal Knowledge
+# Frontier Exploration - Multi-Modal Knowledge in Knowledge Bases
 
-> How do we handle knowledge that exists beyond text?
+> Knowledge that exists in forms beyond plain text — images, audio, video, diagrams, interactive content.
 
-## The Problem
+## The Gap
 
-The Seed focuses on text-based atomic notes with wikilinks. But many knowledge domains inherently involve multiple modalities:
+The Seed treats all knowledge as text-based notes with wikilinks. But significant knowledge domains involve or depend on multi-modal content:
 
-- **Music theory**: Audio recordings, sheet music, performances
-- **Cooking**: Video demonstrations, technique photos
-- **Sports**: Technique videos, biomechanical analysis
-- **Languages**: Audio pronunciation, conversation recordings
-- **Art**: Visual references, technique demonstrations
+- **Visual knowledge**: Photographs, diagrams, charts, maps, architectural plans
+- **Audio knowledge**: Music, spoken content (podcasts, lectures), environmental sounds
+- **Video knowledge**: Screencasts, tutorials, demonstrations, performance recordings
+- **Interactive knowledge**: Simulations, calculators, interactive visualizations
 
-An AI building a knowledge base on these topics using only text-based rules will miss core knowledge.
+The Seed has no guidance on:
+1. When to embed/link multi-modal content vs. describe it in text
+2. How to make multi-modal knowledge discoverable and searchable
+3. Storage and organization of media files
+4. Verification of multi-modal knowledge
 
-## Current Seed Gaps
+## Why This Matters
 
-1. **No guidance on embedding non-text media** - When should media be linked vs. embedded? How to handle broken media links?
-2. **No guidance on multi-media atomicity** - Is a "note" with a 10-minute video one idea or many?
-3. **No guidance on media-specific metadata** - Duration, format, quality, source reliability for recordings
-4. **No guidance on text+media synthesis** - How to write a text note that references media without becoming meaningless if the media link dies
+Multi-modal knowledge is fundamentally different from text:
 
-## Emerging Rule Suggestions
+- **Cannot be searched** in the same way (OCR aside)
+- **Requires different tools** to verify (watch a video vs. read a note)
+- **Has different redundancy patterns** (same image vs. same idea expressed differently)
+- **Embodied knowledge** often requires visual/audio demonstration
 
-### Rule: Separate media references from core knowledge
+Without Seed rules, AI agents either ignore multi-modal content or treat it as decorative, missing the knowledge value.
 
-**Why:** Media files rot, URLs die, platforms shut down. A knowledge base that depends on external media becomes unreliable over time.
+## Proposed Seed Rules
 
-**Test:** Can you understand the core knowledge from the text alone? If yes, the media is supplementary (good). If no, the note is fragile (needs fixing).
+### Rule: Identify knowledge types in frontmatter
 
-### Rule: Provide text summaries for all media
+For notes involving multi-modal content, add `knowledge-modality:` field:
 
-**Why:** Searchability. An AI can search text but cannot search inside a video or audio file without transcription.
-
-**Test:** Does every media reference include a text summary that captures the key knowledge?
-
-**Example:**
 ```yaml
-media:
-  - type: audio
-    url: https://example.com/chord-progression.mp3
-    summary: "Demonstrates ii-V-I progression in C major, 4 bars each"
+knowledge-modality: text-only|text+image|text+audio|text+video|interactive
+media-files:
+  - image: filename.jpg
+    description: "What this image shows"
+  - audio: recording.mp3
+    description: "What this audio demonstrates"
 ```
 
-### Rule: Use domain-appropriate media formats
+**Test:** Can you categorize each note by its knowledge modality? Are media files properly documented?
 
-**Why:** Some formats are domain-standard (MIDI for music, SVG) and for diagrams are more searchable/portable than proprietary formats.
+### Rule: Prefer text descriptions for searchable knowledge; link media for verification
 
-**Test:** For the domain, what is the standard format? Are media files in that format when possible?
+Knowledge that needs to be discovered via search should exist primarily in text. Media serves as verification or demonstration, not the primary carrier of knowledge.
 
-## Test Case: Music Theory Knowledge Base
+**Test:** Can a user find this knowledge by searching text? Is the media supplementary (verification/demonstration) rather than essential (the knowledge only exists in the media)?
 
-An AI building a music theory vault using only current Seed rules would:
-- ✓ Create notes on chord theory, harmony, form
-- ✓ Link between concepts
-- ✗ Miss that listening to a chord progression is core knowledge, not supplementary
-- ✗ Not know how to handle a 500-piece recording collection
-- ✗ Not know whether to transcribe recordings to text (ABC notation, chord charts)
+### Rule: Handle visual pattern recognition separately
 
-## Related
+Visual pattern recognition (identifying species, detecting defects, reading charts) requires exposure to multiple examples. Notes should link to media galleries or collections rather than describing in text alone.
 
-- [[AI-Assisted Knowledge Management Seed]] — The Seed this note extends
-- [[Frontier Exploration - Symbolic and Notational Knowledge]] — Handling notation systems (music, math, chess)
-- [[Knowledge Base Workflow]] - How new knowledge enters the vault
-- [[Handling Temporal Knowledge]] - Media links rot too
-- [[Frontier Exploration - Jargon vs Plain Language]]
+**Test:** For visual recognition notes: Are there 5+ example images linked? Could someone learn the pattern from the linked examples?
+
+### Rule: Track media dependencies
+
+Knowledge that depends on specific media files should document:
+- What media is required
+- Where it's stored
+- How to access it
+
+**Test:** For knowledge requiring media: Can you identify all dependencies? Are they accessible (local files exist, URLs still work)?
+
+### Rule: Assess modal essentiality before capturing knowledge
+
+**Why:** In some domains, text alone cannot convey the knowledge. Attempting to capture "how dough should feel" in text alone guarantees failure. Assessing modal essentiality upfront prevents incomplete knowledge capture.
+
+**Test:** For the knowledge you want to capture: (1) Can this be fully conveyed in text alone? (2) Would missing the visual/audio/kinesthetic element make the knowledge incomplete? (3) Can you name what text cannot capture?
+
+**Modal essentiality levels:**
+- `text-sufficient`: Text alone conveys the knowledge fully
+- `text-primary-media-optional`: Text works but media significantly enhances understanding
+- `media-essential`: Cannot be understood without the non-text modality
+- `multi-modal-required`: Requires multiple modalities (e.g., video with audio)
+
+**Implementation:**
+```yaml
+modal-essentiality: text-primary-media-optional
+media-types-required: [image, audio]
+media-purpose: "Conveys [X] that text cannot"
+```
+
+### Rule: Create dual-layer notes for media-essential knowledge
+
+**Why:** Media files rot (links die, platforms shut down, formats become obsolete). A knowledge base that depends on external media becomes unreliable over time. Dual-layer notes ensure knowledge survives media loss while preserving enhancement value.
+
+**Test:** For notes tagged media-essential: (1) Is there a text layer that conveys the core knowledge? (2) Does the media enhance but not replace text? (3) If all media links died, would the note still have value?
+
+### Rule: Tag media with accessibility metadata
+
+**Why:** Media is often inaccessible to some users (blind/visually impaired for images, deaf/hard-of-hearing for audio, those with slow connections for video). Accessibility metadata enables appropriate alternatives.
+
+**Test:** For each media element: (1) Is there alt-text for images? (2) Are there captions/transcripts for audio/video? (3) Can users understand the content without requiring the media?
+
+### Rule: Prefer portable, open formats for media capture
+
+**Why:** Proprietary formats become obsolete; open formats survive. MIDI survives while QuickTime videos from 1990 may be unwatchable. Domain-appropriate open formats (SVG for diagrams, ABC notation for music, Markdown with embedded images) ensure longevity.
+
+**Domain-specific preferences:**
+- Diagrams: SVG > PNG > JPEG
+- Music: ABC notation, MIDI > MP3
+- Technical drawings: SVG > PDF > raster images
+- Video: WebM > MP4 (for web-native)
+- 3D: OBJ, GLTF > proprietary formats
+
+### Rule: Separate media source from media summary
+
+**Why:** Linking to external media (YouTube, Spotify, external servers) creates dependency on service availability. Media summary ensures knowledge survives link rot while source enables access when available.
+
+### Rule: For temporal-spatial knowledge, capture both media AND text description of what to observe
+
+**Why:** "Watch this video" without guidance on what to look for is passive consumption, not knowledge capture. Explicit observation prompts transform media into learning.
+
+### Rule: For experiential domains, require media capture of successful outcomes
+
+**Why:** In domains like cooking, music, crafts, the gap between "knowing the theory" and "executing successfully" is large. Media of successful outcomes provides reference for self-assessment.
+
+### Rule: Include scale/reference indicators in visual media
+
+**Why:** Images without scale are misleading - "this mushroom looks like this" fails when the photo is close-up. Reference indicators enable accurate assessment.
+
+## Domains Where This Matters Most
+
+1. **Cooking/Food**: Visual doneness, texture, color
+2. **Music/Audio**: Sound quality, technique execution  
+3. **Medicine/Clinical**: Physical exam findings, imaging
+4. **Art/Design**: Visual techniques, color theory
+5. **Crafts/Trades**: Physical techniques, tool use
+6. **Science/Engineering**: Diagrams, equipment, procedures
+7. **Sports/Fitness**: Movement patterns, form
+
+## Edge Cases
+
+- **Diagrams vs. text**: Flowcharts and diagrams often convey structure better than text. Use embedded images when they genuinely improve understanding.
+- **Audio learning**: Language learning, music education benefit from audio. Track audio files with transcript references.
+- **Video tutorials**: Technical skills often better demonstrated than described. Link to videos; summarize key points in text for searchability.
+- **Obsolete media**: Links to YouTube videos, hosted images can die. Track `media-valid-until:` for time-sensitive content.
+
+## Related Seed Rules
+
+- [[AI-Assisted Knowledge Management Seed#Separate core knowledge from supplementary media]]
+- [[AI-Assisted Knowledge Management Seed#Use domain-appropriate formats for embedded media]]
+- [[AI-Assisted Knowledge Management Seed#Rule (NEW - 2026-03-21): For embodied knowledge]]
+- [[Frontier Gap - Embodied Knowledge]]
+- [[Frontier Exploration - Molecular and Structural Knowledge Representation]] — Related for domains where structure determines function
+
+---
+
+*This note captures a frontier gap in the Seed for multi-modal knowledge representation. The rules above are proposals for Seed extension. Merged from redundant note "Frontier Exploration - Multi-Modal Knowledge Representation.md" on 2026-03-24.*

@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: draft
+last-reviewed: 2026-03-17
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -13,6 +13,17 @@ tags:
 # Frontier Exploration - Knowledge Ethics and Exclusion
 
 > When should a knowledge base choose NOT to capture knowledge? What wisdom lies in what we choose not to record?
+
+## Integration Status
+
+**Status:** INCORPORATED INTO SEED (2026-03-16)
+
+The following rules from this exploration have been integrated into the Seed:
+- ✅ "Assess harm potential before capturing personal or sensitive information"
+- ✅ "Exclude or protect knowledge about living individuals without consent"
+- ✅ "Separate personal biometric and location-sensitive data" (related rule)
+
+This note is retained as documentation of the exploration process and test cases.
 
 ## The Problem
 
@@ -40,13 +51,13 @@ This gap creates risks:
 - **Financial**: Account numbers, SSNs, detailed financial records
 - **Legal**: Client confidential information
 
-## Current Seed Gaps
+## Seed Rules Addressed
 
-1. **No guidance on living person privacy** - How to handle information about living individuals who haven't consented to being documented
-2. **No guidance on harm assessment** - When does capturing knowledge create risk of harm?
-3. **No guidance on consent** - Should knowledge about others require consent?
-4. **No guidance on exclusion criteria** - What types of knowledge should explicitly NOT be captured?
-5. **No guidance on secure storage** - Should sensitive knowledge be encrypted or isolated?
+1. ✅ **Guidance on living person privacy** — Added "Exclude or protect knowledge about living individuals without consent"
+2. ✅ **Guidance on harm assessment** — Added "Assess harm potential before capturing personal or sensitive information"
+3. ✅ **Guidance on consent** — Covered by living individual rule
+4. ✅ **Guidance on exclusion criteria** — Covered by harm assessment rule
+5. ✅ **Guidance on secure storage** — Added "Separate personal biometric and location-sensitive data"
 
 ## The Complementary Question
 
@@ -116,7 +127,7 @@ An AI building a personal health vault using only current Seed rules would:
 
 ## Related
 
-- [[Frontier Exploration - Vault Boundaries]] - What topics to include (complementary)
+- [[AI-Assisted Knowledge Management Seed]] - What topics to include (complementary)
 - [[Frontier Exploration - Probabilistic Knowledge]] - Handling uncertainty in captured knowledge
 - [[Note Lifecycle Management]] - When to deprecate (partial overlap)
 - [[Confidence Markers]] - Current confidence framework

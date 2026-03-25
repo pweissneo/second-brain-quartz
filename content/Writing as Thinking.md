@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-22
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -8,6 +8,9 @@ tags:
   - methodology
   - cognitive-science
   - process
+  - thinking-tool
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 ---
 
 # Writing as Thinking
@@ -51,7 +54,7 @@ Explain a concept simply — if you can't, you don't understand it well enough. 
 
 ## Related
 - [[Active Reading]]
-- [[Note Naming Conventions]]
+- [[note-naming-conventions]]
 - [[Progressive Summarization]]
 - [[Note Lifecycle Management]]
 - [[Atomic Note Principle]]

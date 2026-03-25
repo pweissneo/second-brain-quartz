@@ -1,8 +1,11 @@
 ---
 last-reviewed: 2026-03-12
-lifecycle: draft
+last-updated: 2026-03-25
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
+level: frontier
 tags:
   - frontier-exploration
   - graph-theory
@@ -119,5 +122,6 @@ Well-designed structure can also ENABLE discovery:
 - [[Emergence in Knowledge Graphs]] — Related: how connections generate insights
 - [[Graph Traversal Efficiency]] — Navigation rules
 - [[Hub Node Creation]] — How to create effective hubs
-- [[Frontier Exploration - Knowledge Debt]] — Related: maintenance burden
+- [[Frontier Exploration - Knowledge Maintenance]] — Related: maintenance burden
 - [[Self-Improvement Cycle]] — Continuous vault improvement
+- [[Knowledge Graph Structure]] — Graph organization principles

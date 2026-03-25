@@ -1,194 +1,137 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: draft
+last-reviewed: 2026-03-18
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
   - frontier-exploration
-  - framework-dependent
-  - knowledge-types
-  - scope
-applies-to: [all-frameworks]
-example-type: illustrative
+  - framework
+  - context-dependent
+  - knowledge-type
 ---
 
-# Frontier Exploration - Framework and Context-Dependent Knowledge
+# Frontier Exploration: Framework-Dependent Knowledge
 
-> How to handle knowledge that is true in one framework, style, or context but false or meaningless in another — including competing frameworks that are epistemologically equivalent but mutually incompatible
+Knowledge that is valid within one framework but not others presents unique challenges for AI-managed knowledge bases. This note explores the patterns and solutions.
 
 ## The Problem
 
-Some knowledge is not universally valid — its truth or applicability depends on the framework, paradigm, style, or context being applied. The Seed handles contradictory sources (two experts disagreeing) and subjective preferences (different tastes), but lacks guidance for **framework-dependent knowledge** where the same statement has different validity across paradigms or contexts.
+Some knowledge is inherently framework-dependent:
 
-This note covers two related but distinct cases:
+- **Programming paradigms**: OOP principles don't apply to functional programming
+- **Legal systems**: Contract law varies by jurisdiction
+- **Medical approaches**: Western medicine vs. traditional medicine have different foundational assumptions
+- **Design frameworks**: UX methodologies conflict with each other
 
-1. **Framework-dependent knowledge**: The same statement has different truth values in different frameworks (e.g., "use classes" is true in OOP but false in Functional)
-2. **Competing frameworks**: Multiple epistemologically equivalent but mutually incompatible frameworks (e.g., Copenhagen vs Many-worlds in quantum mechanics)
+When an AI builds a knowledge base, it may incorrectly apply rules from one framework to another, or fail to recognize when knowledge is context-specific.
 
-## Why This Matters for AI Agents
+## Types of Framework Dependency
 
-An AI building a knowledge base from scratch using only current Seed rules would:
-- ✓ Correctly identify contradictory sources and create synthesis notes
-- ✓ Correctly present subjective preferences as options
-- ✗ FAIL to recognize when knowledge is framework-dependent
-- ✗ Potentially give harmful advice by universalizing framework-specific rules
+### 1. Assumption Dependencies
 
-### Competing Frameworks: The Special Case
+Knowledge that rests on unstated assumptions:
 
-Some knowledge domains have **competing frameworks** that are:
-- **Internally consistent** — each framework has its own logic
-- **Empirically supported** — each has evidence, though different types
-- **Mutually incompatible** — they cannot both be true simultaneously
-- **Equally valid** — no framework is clearly "wrong"
+```
+"Use inheritance for code reuse" 
+→ Assumes OOP paradigm
+→ Doesn't apply to functional programming
+```
 
-Examples:
-- **Physics**: Copenhagen interpretation vs. Many-worlds vs. Bohemian mechanics (quantum mechanics)
-- **Economics**: Keynesian vs. Austrian vs. Monetarist vs. MMT
-- **Psychology**: Psychoanalysis vs. Behaviorism vs. Cognitive vs. Humanistic
-- **Philosophy**: Various schools (existentialism, utilitarianism, deontology, virtue ethics)
-- **Medicine**: Allopathic vs. naturopathic vs. traditional systems
-- **Law**: Common law vs. civil law traditions
+### 2. Validity Dependencies
 
-This is different from:
-- **Contradictory sources** — where one is wrong (covered by Seed)
-- **Subjective opinions** — where all are valid preferences (covered by Seed)
-- **Equivalent approaches** — where context determines best choice (covered by Seed)
+Knowledge that's true in one context but false in another:
 
-Knowledge bases naturally imply preference through:
-- **Presentation order** — First = default = implicit endorsement
-- **Link structure** — More links = more important
-- **Detail level** — Deeper coverage implies endorsement
-- **Language** — Words like "orthodox" vs "alternative" carry judgment
+```
+"Most birds can fly"
+→ True for most birds
+→ False for penguins, ostriches
+→ Framework: biology taxonomy
+```
 
-## Examples Across Domains
+### 3. Methodology Conflicts
 
-> **Note:** The following tables contain illustrative examples — hypothetical teaching examples that demonstrate the concept of framework-dependent knowledge. They are not factual claims about any specific framework.
+Different frameworks prescribe conflicting approaches:
 
-### Programming Paradigms
-| Statement | OOP View | Functional View |
-|-----------|----------|------------------|
-| "Use classes for organization" | True - core paradigm | False - use functions |
-| "Mutable state is dangerous" | Caution Fundamental anti-pattern |
-ed but accepted || "Functions should be pure" | Not required | Required |
+```
+"Start with user interviews" (Design Thinking)
+vs.
+"Start with market data" (Lean Startup)
+```
 
-### Writing Styles
-| Statement | Technical Writing | Literary Prose |
-|-----------|------------------|----------------|
-| "Use passive voice sparingly" | True - clarity rule | Irrelevant |
-| "Minimize adjectives" | True - precision | False - richness |
-| "Show, don't tell" | Sometimes | Core principle |
+Neither is universally correct.
 
-### Music Theory
-| Statement | Classical | Jazz |
-|-----------|-----------|------|
-| "Parallel fifths are forbidden" | True - voice-leading rule | False - common practice |
-| "Use extended harmonies" | Advanced technique | Standard practice |
-| "Strict meter matters" | Fundamental | Can be flexible |
+## Proposed Rule
 
-### Scientific Methods
-| Statement | Quantitative Research | Qualitative Research |
-|-----------|---------------------|---------------------|
-| "Sample size matters" | Critical | Less critical |
-| "Statistical significance proves causation" | Misuse | N/A |
-| "Triangulation strengthens findings" | Helpful | Essential |
+**Rule:** For framework-dependent knowledge, document the framework explicitly in frontmatter and link to alternative frameworks.
 
-### Historical Context (related to Framework)
-| Statement | Modern Medicine | Historical Medicine |
-|-----------|-----------------|---------------------|
-| "Bloodletting is harmful" | True | Context-dependent |
-| "Bloodletting has limited therapeutic use" | False | True in specific contexts |
+**Why:** Without explicit framework tags, AIs cannot distinguish between universal principles and context-specific guidance. Users may apply incorrect knowledge to their situation.
 
-## The Three Categories
+**Test:** For notes about methods, principles, or approaches: (1) Is the framework explicitly stated? (2) Are alternative frameworks linked? (3) Can you identify what assumptions the knowledge rests on?
 
-### 1. Contradictory Sources (Handled by Seed)
-- Two experts disagree on facts
-- Both could be right in different contexts
-- **Solution:** Present both viewpoints with attribution
+## Implementation
 
-### 2. Subjective Preferences (Handled by Seed)
-- Different people have different tastes
-- No objective truth
-- **Solution:** Present as options, don't over-synthesize
+### Frontmatter Schema
 
-### 3. Framework/Context-Dependent (This Note)
-- The same statement has different truth values in different frameworks
-- OR multiple epistemologically equivalent but mutually incompatible frameworks exist
-- **Requires:** Explicit framework tagging, separate variants, clear scope
+```yaml
+framework-dependent: true
+frameworks:
+  - name: "Design Thinking"
+    validity: "When user-centered design is priority"
+  - name: "Lean Startup"
+    validity: "When validated learning is priority"
+assumptions:
+  - "Users know what they want"
+  - "Iteration improves outcomes"
+```
 
-## Seed Gap Analysis
+### Note Structure
 
-Current Seed has:
-- ✓ Confidence markers (high/emerging/disputed/obsolete)
-- ✓ Handling contradictory sources (synthesis notes)
-- ✓ Distinguishing objective vs subjective
-- ✓ Jurisdiction/region tags
-- ✓ Context-scope tagging for some rules
+For framework-dependent notes:
 
-Missing:
-- No systematic approach to identifying framework-dependent knowledge
-- No guidance on when to create framework-specific variants vs universal rules
-- No "valid-in" or "applies-to" frontmatter convention for frameworks/styles
-- No guidance for competing frameworks (neutral presentation, evidence standards within frameworks)
+1. **State the framework explicitly** in the first sentence
+2. **Link to alternatives** in a "Alternatives" section
+3. **List assumptions** that the framework makes
+4. **Note applicability** when this knowledge applies vs. fails
 
-## Proposed Seed Rules
+## Stress Test Findings
 
-### Rule: Identify framework-dependent knowledge and tag with scope metadata
+Testing this concept against multiple domains revealed:
 
-**Why:** Without scope metadata, readers (and AIs) apply knowledge in wrong contexts. A rule true in one framework may be harmful in another.
+### 1. Framework Hierarchies
 
-**Test:** For notes containing absolute statements ("always", "never", "best practice"):
-1. Does this claim depend on a specific framework/paradigm?
-2. Is there scope/applies-to metadata?
-3. Are validity conditions explicitly stated?
-4. Could the same knowledge apply differently in another framework?
+Some frameworks are subsets of others:
+- Agile ⊂ Project Management
+- Design Thinking ⊂ User Experience
 
-### Rule: Create framework-specific variant notes rather than universalizing context-dependent knowledge
+**Gap:** Rule should capture framework relationships (subset, superset, parallel, conflicting).
 
-**Why:** Universalizing ("X is good/bad") when it's framework-dependent creates misleading knowledge. Better to have "X is good in Y framework" than "X is good" with hidden caveats.
+### 2. Framework Evolution
 
-**Test:** For framework-dependent knowledge:
-1. Are there separate notes for different frameworks?
-2. Does each variant explicitly state its scope?
-3. Is there a canonical note that references the variants?
+Frameworks change over time:
 
-### Rule: Use frontmatter `applies-to` field for framework-dependent knowledge
+**Gap:** Rule should include temporal validity (when was this framework dominant?).
 
-**Why:** Structured metadata allows AIs to query applicability and helps readers understand scope.
+### 3. Personal Frameworks
 
-**Test:** Pick 10 notes with absolute statements. Check for `applies-to:` or `framework:` frontmatter field.
+Individuals develop personal methodologies:
 
-### Rule: Present competing frameworks in neutral order (alphabetical or historical, not by perceived correctness)
+**Gap:** How to handle framework-dependent knowledge that's personal vs. established?
 
-**Why:** Presentation order implies endorsement. Alphabetical or historical order is neutral.
+### 4. Hybrid Approaches
 
-**Test:** Can you identify the implied order of endorsement in your framework notes?
+Modern practice often combines frameworks:
 
-### Rule: Acknowledge evidence standards vary by framework
+**Gap:** How to document knowledge that's a synthesis of multiple frameworks?
 
-**Why:** What counts as evidence in one framework may not in another. A knowledge base applying only Western scientific standards to all frameworks is not neutral.
+## Edge Cases
 
-**Test:** For each framework, can you identify its evidence standards?
-
-## Implementation Guidance
-
-1. **Scan for absolute statements** - "always", "never", "best", "correct way"
-2. **Ask:** Is this true in all frameworks?
-3. **If no:** Add `applies-to:` frontmatter
-4. **If strongly framework-dependent:** Create variant notes
-5. **For competing frameworks:** Create explicit hub notes, tag with `framework:`, present neutrally
-
-## Testable Insights
-
-1. **Framework neutrality is achievable but requires effort** — Without explicit rules, neutral presentation is impossible.
-
-2. **All frameworks have blind spots** — Acknowledging what each framework misses is as important as describing what it includes.
-
-3. **Practical integration is where users need most help** — Theoretical comparison is easy; knowing when to apply which is hard.
-
-4. **Framework choice often reflects values, not just evidence** — Economics and ethics especially.
+- **Universal principles** (logic, mathematics) aren't framework-dependent - don't tag these
+- **Domain-specific jargon** isn't the same as framework-dependent - distinguish terminology from methodology
+- **Skill levels** create framework-like boundaries (beginner vs. advanced approaches)
 
 ## Related
-- [[Handling Contradictory Sources]]
-- [[Confidence Markers]]
-- [[Frontier Exploration - Comparative Knowledge Structures]]
-- [[AI-Assisted Knowledge Management Seed]]
+
+- [[Exportable Rules]]
+- [[Frontier Exploration - Knowledge Abstraction Levels]]
+- [[Frontier Exploration - Context-Gated Knowledge]]
+- [[Domain-Specific Knowledge Bases]]

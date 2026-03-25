@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-11
-lifecycle: draft
+lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -45,7 +45,7 @@ tags:
 
 **Recommendation:** Add `jurisdiction` field to procedural notes:
 ```yaml
-verification-status: tested
+verification-status: verified
 jurisdiction: [US-NEC, California]
 ```
 
@@ -61,7 +61,7 @@ jurisdiction: [US-NEC, California]
 
 **Recommendation:** Add `materials-tested` field:
 ```yaml
-verification-status: tested
+verification-status: verified
 materials-tested: ["3M DP1000 epoxy", "Jorgensen clamps"]
 ```
 
@@ -78,7 +78,7 @@ materials-tested: ["3M DP1000 epoxy", "Jorgensen clamps"]
 
 **Recommendation:** Add `risk-level` field:
 ```yaml
-verification-status: community-validated
+verification-status: verified
 risk-level: high  # structural, electrical, gas
 risk-level: medium  # plumbing, HVAC
 risk-level: low  # cosmetic, non-structural
@@ -110,7 +110,7 @@ risk-level: low  # cosmetic, non-structural
 
 **Recommendation:** Add `skill-level` field:
 ```yaml
-verification-status: tested
+verification-status: verified
 skill-level: beginner  # no prior experience needed
 skill-level: intermediate  # some experience
 skill-level: advanced  # professional experience recommended
@@ -128,7 +128,7 @@ skill-level: advanced  # professional experience recommended
 
 **Recommendation:** Add `last-verified` date:
 ```yaml
-verification-status: tested
+verification-status: verified
 last-verified: 2024-03-15
 ```
 
@@ -163,3 +163,4 @@ A simple `tested`/`unverified` binary cannot capture this complexity. The rule n
 - [[Frontier Exploration - Professional Credentialing Requirements]]
 - [[Stress Test - Note Lifecycle Rule Across Domains]]
 - [[Handling Temporal Knowledge]]
+- [[Seed Improvement - Safety-Critical Knowledge Metadata]]
