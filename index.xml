@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Trade-off-Knowledge-in-Home-Automation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Trade-off-Knowledge-in-Home-Automation</guid>
     <description><![CDATA[ Seed Stress Test: Trade-off Knowledge Rules in Home Automation Testing Seed rules about trade-off capture against the home automation domain. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 11:08:53 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 11:17:59 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Note Naming Conventions Redundancy</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Note-Naming-Conventions-Redundancy</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Note-Naming-Conventions-Redundancy</guid>
     <description><![CDATA[ Seed Gap - Note Naming Conventions Redundancy (RESOLVED) Status: RESOLVED (2026-03-25) This gap has been resolved through the following actions: Added guidance to Seed — Added missing naming guidance to the note naming rule: Additional naming guidance: Avoid “How to…” prefixes (use noun phrases), av... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 11:08:53 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 11:17:59 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Empirically Validatable Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Empirically-Validatable-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Empirically-Validatable-Knowledge</guid>
     <description><![CDATA[ Seed Gap - Empirically Validatable Knowledge (RESOLVED) Status: RESOLVED (2026-03-25) This gap has been resolved through Seed rule additions on 2026-03-24: Added empirical validation rule — Seed now includes: Edge case for domains requiring empirical validation (game design, UX, teaching) Rule: “Dis... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 11:08:52 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 11:17:59 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Crisis and Emergency Response Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Crisis-and-Emergency-Response-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Crisis-and-Emergency-Response-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Crisis and Emergency Response Knowledge How should knowledge bases handle domains where retrieval speed and decision accuracy directly affect outcomes? The Problem The Seed’s rules assume: Knowledge is consumed at the user’s pace Atomicity enables reuse and recombination Verifi... ]]></description>
+    <pubDate>Wed, 25 Mar 2026 11:17:59 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Open-Question-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Open-Question-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Open Question Knowledge How should a knowledge base handle genuine uncertainty — questions where the answer is unknown, not just unverified? The Problem The Seed covers: Unverified knowledge — captured but not yet tested Staging states — whisper, draft, probe notes Confidence ... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Vault-Process Meta-Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Process-Meta-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Process-Meta-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Vault-Process Meta-Knowledge Capturing knowledge about the knowledge management process itself — lessons learned, capture methods, organizational decisions, and usage patterns. ]]></description>
     <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
   </item>
     </channel>
