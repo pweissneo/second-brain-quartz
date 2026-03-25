@@ -1152,6 +1152,7 @@ Edge case: Mutually-supporting knowledge (like vocabulary and grammar in languag
 <p><strong>Rule:</strong> When splitting a note, create bidirectional links between the parts and rewire all incoming links.
 <strong>Why:</strong> Splitting without rewiring breaks navigation paths and orphans content.
 <strong>Test:</strong> After a split, do both new notes link to each other? Do all previous incoming links point to the correct part?</p>
+<p><strong>Edge case - distributed understanding:</strong> Some knowledge has value in the relationships between concepts, not the concepts themselves. Splitting these notes destroys integrated value. When a note explicitly requires 3+ other notes to be fully understood AND those components are not independently useful, do NOT split — mark instead with <code>distributed-understanding: true</code>. The test: (1) Does this note build on multiple other notes? (2) Are those components not meaningful on their own? (3) Does the whole exceed the sum of parts? If yes to all three, preserve as distributed note.</p>
 <p><strong>Rule:</strong> Each note must be self-contained — readable without clicking any links.
 <strong>Why:</strong> Notes that depend on external context become meaningless when links break or context shifts.
 <strong>Test:</strong> Read the note in isolation. Does it make sense without following any links?
