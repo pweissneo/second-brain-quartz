@@ -128,9 +128,12 @@ pre:hover > .expand-button {
 <ul>
 <li><strong>high</strong>: Well-verified, multiple sources, strong evidence</li>
 <li><strong>emerging</strong>: Some verification, reasonable confidence, but not fully established</li>
+<li><strong>speculative</strong>: Knowledge that cannot be verified through any known verification pathway (future predictions, private subjective experience, philosophical claims)</li>
 <li><strong>disputed</strong>: Known contradictions or unresolved debates about this knowledge</li>
-<li><strong>obsolete</strong>: Knowledge that was previously correct but is now outdated or superseded</li>
 </ul>
+<blockquote>
+<p><strong>Note:</strong> For knowledge that was previously correct but is now outdated, use <code>lifecycle: deprecated</code> or <code>correction-type: outdated</code> rather than a confidence level. Confidence describes certainty about correctness, not currency.</p>
+</blockquote>
 <h3 id="usage">Usage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#usage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>Add <code>confidence:</code> to frontmatter for any note where certainty matters. Default to <code>emerging</code> when uncertain.</p>
 <h2 id="part-2-verification-status">Part 2: Verification Status<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#part-2-verification-status" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
@@ -143,6 +146,10 @@ pre:hover > .expand-button {
 <li><strong>verified</strong>: Checked and confirmed accurate</li>
 <li><strong>pending</strong>: Awaiting verification</li>
 <li><strong>disputed</strong>: Known contradiction or unresolved conflict</li>
+<li><strong>testing</strong>: Actively being experimentally verified (for experiential domains)</li>
+<li><strong>failed</strong>: Tested but did not work (also valuable — document what didn’t work)</li>
+<li><strong>blocked</strong>: Cannot test due to constraints (add <code>blocker:</code> field)</li>
+<li><strong>multi-year-pending</strong>: Verification requires multi-year cycle (gardening, perennials)</li>
 </ul>
 <h3 id="verification-ratio">Verification Ratio<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#verification-ratio" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
 <p>The Seed requires maintaining a verification ratio:</p>
@@ -181,7 +188,12 @@ pre:hover > .expand-button {
 
 
 
-<div class="table-container"><table><thead><tr><th>Scenario</th><th>Confidence</th><th>Verification Status</th></tr></thead><tbody><tr><td>Personal experience, not yet fact-checked</td><td>emerging</td><td>unverified</td></tr><tr><td>Multiple reputable sources confirm</td><td>high</td><td>verified</td></tr><tr><td>Known controversy in field</td><td>disputed</td><td>disputed</td></tr><tr><td>Old information that may be outdated</td><td>emerging or obsolete</td><td>pending review</td></tr></tbody></table></div>
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Scenario</th><th>Confidence</th><th>Verification Status</th></tr></thead><tbody><tr><td>Personal experience, not yet fact-checked</td><td>emerging</td><td>unverified</td></tr><tr><td>Multiple reputable sources confirm</td><td>high</td><td>verified</td></tr><tr><td>Known controversy in field</td><td>disputed</td><td>disputed</td></tr><tr><td>Knowledge that cannot be verified (future, philosophical)</td><td>speculative</td><td>verification-pathway: none</td></tr><tr><td>Old information that may be outdated</td><td>emerging</td><td>pending review (then lifecycle: deprecated when confirmed)</td></tr></tbody></table></div>
 <h2 id="related-concepts">Related Concepts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related-concepts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
 <p>This note connects to <a href="./Note-Types-and-Templates" class="internal alias" data-slug="Note-Types-and-Templates">Note Types and Templates</a>, <a href="./Knowledge-Graph-Structure" class="internal alias" data-slug="Knowledge-Graph-Structure">Knowledge Graph Structure</a>, <a href="./Atomic-Note-Principle" class="internal alias" data-slug="Atomic-Note-Principle">Atomic Note Principle</a>, and <a href="./Note-Lifecycle-Management" class="internal alias" data-slug="Note-Lifecycle-Management">Note Lifecycle Management</a> for how confidence and verification fit into note design.</p>
 <h2 id="related">Related<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#related" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>

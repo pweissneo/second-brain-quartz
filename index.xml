@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Trade-off Knowledge in Home Automation</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Trade-off-Knowledge-in-Home-Automation</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Trade-off-Knowledge-in-Home-Automation</guid>
-    <description><![CDATA[ Seed Stress Test: Trade-off Knowledge Rules in Home Automation Testing Seed rules about trade-off capture against the home automation domain. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Verification Timeline for High-Iteration Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Timeline-for-High-Iteration-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Timeline-for-High-Iteration-Domains</guid>
-    <description><![CDATA[ Seed Gap - Verification Timeline for High-Iteration Domains Identified Gap The Seed’s verification timeline assumes standard cycles (30 days), but domains like pottery and ceramics require fundamentally different verification approaches due to inherent iteration constraints. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
+    <title>Frontier Exploration - AI Model Version Dependencies in Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Model-Version-Dependencies-in-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration - AI Model Version Dependencies in Knowledge Bases How to handle knowledge that depends on specific AI models or versions — and what happens when models change. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Note Naming Conventions Redundancy</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Note-Naming-Conventions-Redundancy</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Note-Naming-Conventions-Redundancy</guid>
-    <description><![CDATA[ Seed Gap - Note Naming Conventions Redundancy (RESOLVED) Status: RESOLVED (2026-03-25) This gap has been resolved through the following actions: Added guidance to Seed — Added missing naming guidance to the note naming rule: Additional naming guidance: Avoid “How to…” prefixes (use noun phrases), av... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Knowledge with Inherent Expiration Windows</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-with-Inherent-Expiration-Windows</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-with-Inherent-Expiration-Windows</guid>
-    <description><![CDATA[ Seed Gap - Knowledge with Inherent Expiration Windows The Identified Gap The Seed has rules for several temporal knowledge types: TypeSeed CoverageExampleTime-sensitive data✅ Rule about utility-expiryStock prices, weatherOutdated knowledge✅ correction-type: outdatedWas correct, now wrongDeadline-dri... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Empirically Validatable Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Empirically-Validatable-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Empirically-Validatable-Knowledge</guid>
-    <description><![CDATA[ Seed Gap - Empirically Validatable Knowledge (RESOLVED) Status: RESOLVED (2026-03-25) This gap has been resolved through Seed rule additions on 2026-03-24: Added empirical validation rule — Seed now includes: Edge case for domains requiring empirical validation (game design, UX, teaching) Rule: “Dis... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Access-Pattern-Aware Knowledge Organization</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Access-Pattern-Aware-Knowledge-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Access-Pattern-Aware-Knowledge-Organization</guid>
-    <description><![CDATA[ Seed Gap - Access-Pattern-Aware Knowledge Organization Status: IDENTIFIED (2026-03-25) Discovered during: REDUNDANCY_SCAN heartbeat (2026-03-25) The Gap The Seed covers how to structure knowledge (atomicity, linking) and maintain it (quality, lifecycle), but doesn’t address: the same knowledge may n... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
+    <title>Frontier Exploration - AI-Synthesized Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesized-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - AI-Synthesized Knowledge How to handle knowledge that AI agents create by synthesizing multiple sources into novel insights. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Crisis and Emergency Response Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Crisis-and-Emergency-Response-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Crisis-and-Emergency-Response-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration: Crisis and Emergency Response Knowledge How should knowledge bases handle domains where retrieval speed and decision accuracy directly affect outcomes? The Problem The Seed’s rules assume: Knowledge is consumed at the user’s pace Atomicity enables reuse and recombination Verifi... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 19:21:49 GMT</pubDate>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+    <title>Frontier Exploration - Emergency and Crisis Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Emergency-and-Crisis-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Emergency-and-Crisis-Knowledge</guid>
+    <description><![CDATA[  ⚠️ SUPERSEDED: This note has been merged into Frontier Exploration - Crisis and Emergency Response Knowledge.md. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Decision Threshold Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Threshold-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Decision Threshold Knowledge How do you capture knowledge about when to stop gathering information and make a decision? The Problem The Seed covers: Prioritization (what to work on first) Completion criteria (when domain is “done”) Deadline knowledge (time-bound decisions) Ver... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+    <title>Frontier Exploration - Equivalent Alternatives and Contextual Selection</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Equivalent-Alternatives-and-Contextual-Selection</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Equivalent-Alternatives-and-Contextual-Selection</guid>
+    <description><![CDATA[ Frontier Exploration - Equivalent Alternatives and Contextual Selection The Gap The Seed covers: Competing frameworks — epistemologically different worldviews (Copenhagen vs Many-worlds physics) Contradictory sources — where one source is objectively wrong Subjective preferences — matters of taste w... ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Exploration Exploitation Transition Triggers</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Exploration-Exploitation-Transition-Triggers</guid>
-    <description><![CDATA[ Frontier Exploration - Exploration-Exploitation Transition Triggers When should an AI agent stop adding new topics and start deepening existing ones? The Gap The Seed provides a ratio-based guideline: Balance exploration (adding new topics) and exploitation (deepening existing ones) based on vault m... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 07:25:25 GMT</pubDate>
+    <title>Frontier Exploration - Explanatory Knowledge Structure</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Explanatory-Knowledge-Structure</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Explanatory-Knowledge-Structure</guid>
+    <description><![CDATA[ Frontier Exploration: Explanatory Knowledge Structure How should knowledge be organized WITHIN a note to maximize understanding? This gap explores the pedagogical structure of individual notes - how to present knowledge so readers (and AIs) can actually learn from it. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Fitness and Exercise Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Fitness-and-Exercise-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Fitness-and-Exercise-Knowledge-Bases</guid>
+    <description><![CDATA[ Frontier Exploration: Fitness and Exercise Knowledge Bases Fitness and exercise knowledge presents unique challenges for AI-assisted knowledge management that differ from other health domains. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Inverse Authority Problem</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Inverse-Authority-Problem</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Inverse-Authority-Problem</guid>
+    <description><![CDATA[ Frontier Exploration: The Inverse Authority Problem When should personal synthesis override expert consensus? The Gap The Seed covers: Source verification (checking if sources are credible) Confidence scoring (how certain we are) Contradiction handling (when sources conflict) Personal vs. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Media Consumption and Recommendation Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Media-Consumption-and-Recommendation-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Media Consumption and Recommendation Knowledge Exploring how knowledge bases should handle personal media consumption tracking, recommendations, and ranked lists. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 19:43:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
