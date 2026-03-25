@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Stress Test - Practice Meta-Knowledge in Cooking</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Practice-Meta-Knowledge-in-Cooking</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Practice-Meta-Knowledge-in-Cooking</guid>
-    <description><![CDATA[ Seed Stress Test - Practice Meta-Knowledge in Cooking Stress testing the “separate practice meta-knowledge” rule against a cooking knowledge base. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Knowledge Source Type Rule in Cooking</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Cooking</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Source-Type-Rule-in-Cooking</guid>
-    <description><![CDATA[ Seed Stress Test: Knowledge Source Type Rule in Cooking Testing the “Knowledge Source Type” rule in cooking domain. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>note-naming-conventions</title>
+    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
+    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
+    <description><![CDATA[ Note Naming Conventions How to title notes for maximum clarity and discoverability. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Home Automation Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Automation-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Home-Automation-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: Home Automation Knowledge Base Testing Seed rules against the home automation domain to identify edge cases and gaps. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>git-best-practices</title>
+    <link>https://quartz.jzhao.xyz/git-best-practices</link>
+    <guid>https://quartz.jzhao.xyz/git-best-practices</guid>
+    <description><![CDATA[ Git Best Practices for Knowledge Bases This note covers git practices specifically for maintaining AI-assisted knowledge bases. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Seed Rule - Vault Change Tracking</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule---Vault-Change-Tracking</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule---Vault-Change-Tracking</guid>
-    <description><![CDATA[ Seed Rule: Vault Change Tracking and Version Control Rule: Track note changes with attribution and distinguish significant edits from minor updates. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Zettelkasten Method</title>
+    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
+    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
+    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Practice Routine Structure</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Practice-Routine-Structure</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Practice-Routine-Structure</guid>
-    <description><![CDATA[ Seed Gap - Practice Routine Structure for Skill-Building Domains The Gap The Seed covers separating practice meta-knowledge from skill knowledge, but lacks guidance for structuring practice routines themselves — how to organize a deliberate practice session for skill-building domains. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Writing as Thinking</title>
+    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
+    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
+    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Distributed Understanding Threshold</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Distributed-Understanding-Threshold</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Distributed-Understanding-Threshold</guid>
-    <description><![CDATA[ Seed Gap - Distributed Understanding Threshold The Problem The Seed’s atomicity rules focus on keeping executable workflows together and splitting genuinely reusable components. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Wikilinks</title>
+    <link>https://quartz.jzhao.xyz/Wikilinks</link>
+    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
+    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Language Learning Vocabulary Organization</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Language-Learning-Vocabulary-Organization</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Language-Learning-Vocabulary-Organization</guid>
-    <description><![CDATA[ Frontier Exploration: Language Learning Vocabulary Organization Identified gap: The Seed covers multi-language vaults and sequential-skill domain construction, but lacks specific guidance for organizing vocabulary vs grammar vs usage notes in a language learning context. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Weekly Review Process</title>
+    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
+    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
+    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Presentation Calibration</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Presentation-Calibration</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Presentation-Calibration</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Presentation Calibration The Gap The Seed tracks multiple dimensions of knowledge quality: Confidence (high/medium/low/emerging) Verification status (verified/unverified/testing/failed) Knowledge source type (intuition/analysis/authority/experiment) Evidence tier (te... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Verification Status</title>
+    <link>https://quartz.jzhao.xyz/Verification-Status</link>
+    <guid>https://quartz.jzhao.xyz/Verification-Status</guid>
+    <description><![CDATA[ Verification Status How to track whether knowledge has been verified. Note: This page explains the verification-status frontmatter field. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Freshness Dating</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Freshness-Dating</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Freshness-Dating</guid>
-    <description><![CDATA[ Frontier Exploration: Knowledge Freshness Dating How should knowledge bases track temporal currency — ensuring knowledge is current rather than just verified? The Problem The Seed covers verification (is this knowledge correct?) and correction (what do we do when it’s wrong?), but lacks guidance on ... ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Types of Applicability Boundaries</title>
+    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
+    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
+    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Cyclical Timing Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Cyclical Timing Knowledge Knowledge about optimal timing within recurring cycles — not when events occur, but when actions are most effective within a time period. ]]></description>
-    <pubDate>Wed, 25 Mar 2026 02:19:48 GMT</pubDate>
+    <title>Tool Replacement Decisions</title>
+    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
+    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
+    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
+    <pubDate>Wed, 25 Mar 2026 02:47:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
