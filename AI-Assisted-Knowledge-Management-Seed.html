@@ -525,10 +525,11 @@ Every rule is domain-agnostic — works for any topic.</p>
 <p><strong>Edge case (NEW - stress test 2026-03-17):</strong> In long-horizon verification domains (gardening, permaculture, tree fruits, forestry, beekeeping, wine-making), verification takes years, not weeks. Standard verification workflow assumes days-to-months timeframes, but:</p>
 <ul>
 <li>Perennials may take 3-5 years to truly assess (does the fruit tree thrive? survive winter? produce well?)</li>
-<li>One year’s failure may be weather, not the knowledge (need multiple years to confirm)</li>
+<li>One year’s success may be weather-related, not the knowledge — need multiple years to confirm</li>
 <li>Seasonal variations mean spring planting ≠ fall planting success</li>
+<li><strong>Explicit requirement for “verified” status:</strong> Require 2+ growing seasons with consistent results before marking perennial notes as verified</li>
 </ul>
-<p>Apply long-horizon verification: (1) Use <code>verification-cycle:</code> field with values <code>annual|multi-year|perennial</code>, (2) Mark notes as <code>verification-status: multi-year-pending</code> with explicit <code>verification-completion-target: YYYY</code>, (3) Don’t count toward verification ratio until cycle completes, (4) Allow higher unverified backlog for long-horizon domains (up to 50%) since verification is inherently slower.</p>
+<p>Apply long-horizon verification: (1) Use <code>verification-cycle:</code> field with values <code>annual|multi-year|perennial</code>, (2) Mark notes as <code>verification-status: multi-year-pending</code> with explicit <code>verification-completion-target: YYYY</code>, (3) Don’t count toward verification ratio until cycle completes (minimum 2 growing seasons), (4) Allow higher unverified backlog for long-horizon domains (up to 50%) since verification is inherently slower.</p>
 <p>Example frontmatter for long-horizon knowledge:</p>
 <figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="yaml" data-theme="github-light github-dark"><code data-language="yaml" data-theme="github-light github-dark" style="display:grid;"><span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">verification-status</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">multi-year-pending</span></span>
 <span data-line><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">verification-cycle</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">: </span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">perennial</span></span>
