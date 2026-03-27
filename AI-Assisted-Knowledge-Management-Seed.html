@@ -531,24 +531,6 @@ Every rule is domain-agnostic — works for any topic.</p>
 <p><strong>Rule:</strong> Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (adds new knowledge), effort (maintenance worth value).
 <strong>Why:</strong> Notes that don’t improve utility, can’t connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value.
 <strong>Test:</strong> For the last 5 notes added to a mature topic: Do 3+ pass all four tests?</p>
-<p><strong>Enhanced test (temporal-aware domains):</strong> For knowledge in version-sensitive or rapidly-evolving domains, also check:</p>
-<ol>
-<li>Is this for an ACTIVE version/framework (not deprecated)?</li>
-<li>Does the note include temporal validity markers (<code>utility-expiry:</code>, <code>version:</code>, <code>framework-status:</code>)?</li>
-<li>Is the uniqueness assessment based on YOUR specific context rather than general availability?</li>
-</ol>
-<p><strong>Stakes-aware effort weighting:</strong> Weight the effort test by stakes:</p>
-<ul>
-<li>High-stakes knowledge (medical, legal, safety) with high effort = valuable even if redundant</li>
-<li>Low-stakes knowledge with high effort = marginal value, likely not worth capture</li>
-</ul>
-<p><strong>Override conditions:</strong> Bypass diminishing returns test when:</p>
-<ul>
-<li><code>criticality: high</code> (safety-critical, life-threatening conditions)</li>
-<li><code>rare-condition: true</code> (niche knowledge essential for completeness)</li>
-<li><code>prerequisite: true</code> (foundational for understanding other notes)</li>
-<li><code>design-phase: ideation</code> (creative exploration needs divergent capture)</li>
-</ul>
 <p><strong>Rule (NEW - 2026-03-22):</strong> Evaluate maintenance burden before capturing volatile knowledge — exclude or deprioritize knowledge that is high-maintenance (frequently changing) AND low-utility (easily looked up elsewhere) AND lacks personalization (no unique context you provide).
 <strong>Why:</strong> Some knowledge is “expensive” to maintain — it requires ongoing updates just to stay accurate, but provides low value because it’s easily found elsewhere. Capturing version-sensitive technical trivia, frequently-changing prices, or transient opportunities creates maintenance debt without proportional benefit. The vault should capture what can’t be easily found or what includes your unique context.
 <strong>Test:</strong> For knowledge about version-locked software, price-sensitive topics, time-sensitive opportunities, or frequently-changing facts: (1) Does this include personalized context that can’t be found elsewhere? (2) Is the volatility so high the knowledge will be stale within 30 days? (3) Could a web search provide current information faster than maintaining this note? If 2-3 are true and 1 is false, exclude or mark with short expiration-interval.
