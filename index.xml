@@ -48,6 +48,12 @@
     <description><![CDATA[ Seed Gap: Referenced Anti-Patterns That Don’t Exist The Gap During REDUNDANCY_SCAN, discovered documentation inconsistency: The Best Practice - Multi-Path Knowledge Discovery note references “Discovery Fragility” as an anti-pattern in its table: Anti-Pattern ConceptBest PracticeStatusDiscovery Fragi... ]]></description>
     <pubDate>Fri, 27 Mar 2026 15:22:56 GMT</pubDate>
   </item><item>
+    <title>AGENTS</title>
+    <link>https://quartz.jzhao.xyz/AGENTS</link>
+    <guid>https://quartz.jzhao.xyz/AGENTS</guid>
+    <description><![CDATA[ AGENTS.md - Your Workspace This folder is home. Treat it that way. First Run If BOOTSTRAP.md exists, that’s your birth certificate. ]]></description>
+    <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management How AI enhances each stage of the knowledge management pipeline. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[ Anti-Pattern: Link Inflation Linking everything to everything dilutes meaning and creates navigational noise. ]]></description>
     <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
   </item>
     </channel>
