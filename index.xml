@@ -6,6 +6,18 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Rule Proposal - Voice Consistency</title>
+    <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</guid>
+    <description><![CDATA[ Seed Rule Proposal: Knowledge Base Voice Consistency Rule Statement Rule: Define explicit voice and persona standards for the knowledge base — document the intended tone, terminology preferences, and stylistic guidelines that all notes should follow. ]]></description>
+    <pubDate>Fri, 27 Mar 2026 12:21:07 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Base Persona and Voice Consistency</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Persona-and-Voice-Consistency</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Persona-and-Voice-Consistency</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Base Persona and Voice Consistency The Problem The Seed provides rules for organizing knowledge, verification, and structural patterns — but it doesn’t address how a knowledge base should present itself when interacted with by AI agents or users. ]]></description>
+    <pubDate>Fri, 27 Mar 2026 12:21:06 GMT</pubDate>
+  </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
     <description><![CDATA[ Anti-Pattern: Perfectionism Never publishing a note because it’s “not ready” stops all progress. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency Depending entirely on one source makes notes fragile and unverifiable. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Tool Overfocus</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Tool-Overfocus</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Tool-Overfocus</guid>
-    <description><![CDATA[ Anti-Pattern: Tool Overfocus Obsessing over the perfect tool prevents any actual knowledge work. ]]></description>
     <pubDate>Fri, 27 Mar 2026 11:35:45 GMT</pubDate>
   </item>
     </channel>
