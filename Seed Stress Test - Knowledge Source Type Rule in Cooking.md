@@ -213,4 +213,4 @@ The Cooking stress test focuses on:
 - Uncontrolled personal experimentation
 - Sensory expertise as distinct from general intuition
 
-**Key difference:** Medical knowledge has strong evidence hierarchies; cooking knowledge is mostly traditional/experiential with weak evidence base. The rule needs adaptation for domains where "authority" is often traditional, not scientific.
+**Key difference:** Medical knowledge has strong evidence hierarchies; cooking knowledge is mostly traditional/experiential with weak evidence base. The rule needs adaptation for domains where "authority" is often traditional, not scientific.- [[_root]]

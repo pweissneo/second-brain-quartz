@@ -6,7 +6,11 @@ last-reviewed: 2026-03-24
 verification-status: unverified
 schema-version: "1.0"
 level: principle
-tags: [knowledge-type, temporal, timing, frontier, gap]
+tags:
+  - frontier-exploration
+  - temporal
+  - timing
+  - cyclical
 ---
 
 # Frontier Exploration - Cyclical Timing Knowledge
@@ -129,3 +133,10 @@ This captures that baking timing depends on seasonal conditions, not just a fixe
 ---
 
 *This note captures a frontier gap in the Seed for cyclical timing knowledge — knowledge about optimal timing within recurring cycles, distinct from event timing and duration timing.*
+
+## Related
+
+- [[_root]]
+- [[Seed Gap - Recurring and Periodic Knowledge]]
+- [[AI-Assisted Knowledge Management Seed]]
+- [[Frontier Exploration - Context-Gated Knowledge]]

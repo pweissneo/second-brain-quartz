@@ -1,8 +1,8 @@
 ---
-last-reviewed: 2026-03-24
-last-updated: 2026-03-24
-lifecycle: nascent
-confidence: emerging
+last-reviewed: 2026-03-26
+last-updated: 2026-03-26
+lifecycle: deprecated
+confidence: high
 author-type: ai-assisted
 knowledge-type: structural
 tags:
@@ -11,7 +11,25 @@ tags:
 - distributed-knowledge
 ---
 
-# Seed Gap - Distributed Understanding Threshold
+# Seed Gap - Distributed Understanding Threshold (RESOLVED)
+
+## Status: RESOLVED (2026-03-26)
+
+This gap has been resolved by:
+
+1. **Adding new Seed rule** — Created [[Seed Rule - Distributed Understanding]] with explicit handling for notes requiring multi-note synthesis
+2. **Adding edge case to splitting rule** — Updated the atomicity rule to include an edge case for distributed understanding notes
+
+## Summary of Resolution
+
+The Seed now includes:
+- Explicit `distributed-understanding: true` frontmatter for marking notes requiring synthesis
+- Edge case in the splitting rule that prevents inappropriate fragmentation of distributed notes
+- Test criteria for identifying when a note has distributed value
+
+## Previous Content
+
+The problem was: notes that require distributed understanding — knowledge that cannot be fully understood by reading any single note, but requires synthesizing information across 3+ notes.
 
 ## The Problem
 

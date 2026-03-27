@@ -32,8 +32,10 @@ confidence: high
 
 - **high**: Well-verified, multiple sources, strong evidence
 - **emerging**: Some verification, reasonable confidence, but not fully established
+- **speculative**: Knowledge that cannot be verified through any known verification pathway (future predictions, private subjective experience, philosophical claims)
 - **disputed**: Known contradictions or unresolved debates about this knowledge
-- **obsolete**: Knowledge that was previously correct but is now outdated or superseded
+
+> **Note:** For knowledge that was previously correct but is now outdated, use `lifecycle: deprecated` or `correction-type: outdated` rather than a confidence level. Confidence describes certainty about correctness, not currency.
 
 ### Usage
 
@@ -55,6 +57,10 @@ verification-status: unverified|verified|pending|disputed
 - **verified**: Checked and confirmed accurate
 - **pending**: Awaiting verification
 - **disputed**: Known contradiction or unresolved conflict
+- **testing**: Actively being experimentally verified (for experiential domains)
+- **failed**: Tested but did not work (also valuable — document what didn't work)
+- **blocked**: Cannot test due to constraints (add `blocker:` field)
+- **multi-year-pending**: Verification requires multi-year cycle (gardening, perennials)
 
 ### Verification Ratio
 
@@ -70,7 +76,8 @@ When unverified notes exceed 40% of total vault, pause exploration and prioritiz
 | Personal experience, not yet fact-checked | emerging | unverified |
 | Multiple reputable sources confirm | high | verified |
 | Known controversy in field | disputed | disputed |
-| Old information that may be outdated | emerging or obsolete | pending review |
+| Knowledge that cannot be verified (future, philosophical) | speculative | verification-pathway: none |
+| Old information that may be outdated | emerging | pending review (then lifecycle: deprecated when confirmed) |
 
 ## Related Concepts
 
@@ -79,3 +86,4 @@ This note connects to [[Note Types and Templates]], [[Knowledge Graph Structure]
 ## Related
 - [[Graph Maintenance]] — Regular health checks
 - [[Self-Improvement Cycle]] — Review and improvement workflow
+- [[_root]] — Vault root

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-25
-lifecycle: emerging
+lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -13,6 +13,8 @@ tags:
 # Seed Gap - Mathematical Proof Representation
 
 > Gap identified via SEED_STRESS_TEST on 2026-03-25
+
+See also: [[Frontier Exploration Hub]] | [[Seed Gap Analysis Methodology]]
 
 ## Gap Description
 
@@ -76,7 +78,11 @@ The Seed's procedural content exception handles recipes, code tutorials, and tec
 
 - [[Seed Stress Test - Mathematics Knowledge Base]] (full analysis)
 - [[AI-Assisted Knowledge Management Seed]] (rules being tested)
+- [[Atomic Note Principle]] (general atomicity rules)
+- [[Frontier Exploration - Single-Work Knowledge vs General Principles]] (proof vs theorem distinction)
+- [[Confidence Markers]] (confidence levels for emerging knowledge)
 
 ## Status
 
 **Proposed** - Enhancements should be added to Seed section 2 (Atomicity)
+- [[_root]]

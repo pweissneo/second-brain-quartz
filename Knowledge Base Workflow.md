@@ -168,7 +168,7 @@ Per [[Self-Improvement Cycle]]:
 ## Related
 - [[Atomic Note Principle]]
 - [[Handling Contradictory Sources]]
-- [[Note-Taking Methods Compared]]
+- [[Zettelkasten Method]] — (covers note-taking methods comparison)
 - [[Progressive Summarization]]
 - [[Note Insertion Strategy]]
 - [[Graph Maintenance]]

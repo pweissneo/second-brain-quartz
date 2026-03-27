@@ -1,21 +1,59 @@
 ---
-last-reviewed: 2026-03-23
-last-updated: 2026-03-23
-confidence: emerging
-lifecycle: seed-extension
+last-reviewed: 2026-03-25
+last-updated: 2026-03-25
+confidence: high
+lifecycle: historical
 author-type: ai-assisted
-verification-status: unverified
+verification-status: verified
 tags:
   - seed-gap
   - evidence-weighting
   - knowledge-sources
-  - frontier-exploration
+  - resolved
 schema-version: "1.0"
 ---
 
-# Seed Gap: General Evidence Hierarchy for Non-Domain-Specific Knowledge
+# Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge (RESOLVED)
 
-> Identifying the missing framework for evidence weighting in general-purpose knowledge bases.
+## Status: RESOLVED (2026-03-25)
+
+This gap was resolved when the Seed was updated on 2026-03-23 with evidence tier classification guidance (Seed lines 547-566).
+
+## Test for Gap Closure
+
+✅ 1. Does the Seed contain evidence tier classification for general-purpose knowledge? — **YES** (Seed lines 547-566)
+
+✅ 2. Does the Seed include `evidence-tier:` and `evidence-basis:` frontmatter fields? — **YES**
+
+✅ 3. Does the Seed distinguish evidence tier from confidence and verification-status? — **YES**
+
+✅ 4. Does the Seed address tier inflation and contradictory tiers? — **YES**
+
+## Resolution Details
+
+The Seed now includes:
+
+1. **Evidence tier table** (6 tiers from Tested Methodology to Personal Discovery)
+2. **Implementation guidance** with `evidence-tier:` and `evidence-basis:` fields
+3. **Distinction from existing fields** — clarifies how evidence tier differs from confidence, verification-status, and knowledge source type
+4. **Edge cases** — tier inflation, contradictory tiers, and subjective domain adjustments
+5. **Stress test example** — "Should you salt pasta water?" demonstrates the framework in action
+
+## Key Seed Addition (2026-03-23)
+
+> **Edge case (NEW - 2026-03-23):** For general-purpose knowledge bases without domain-specific evidence hierarchies, use evidence tier classification to weight knowledge appropriately:
+> - **Tested Methodology (Tier 1):** Directly verified through controlled execution or experiment
+> - **Documented Experience (Tier 2):** Multiple instances of successful application, tracked outcomes
+> - **Expert Consensus (Tier 3):** Widely agreed within community of practice, no known contradictions
+> - **Authoritative Source (Tier 4):** Single trusted source, credible credentials
+> - **Established Convention (Tier 5):** Commonly accepted practice, origin unclear
+> - **Personal Discovery (Tier 6):** Individual's own findings, untested by others
+
+## Related
+
+- [[AI-Assisted Knowledge Management Seed]] (lines 547-566)
+- [[Seed Stress Test - Cooking Knowledge Base]]
+- [[Frontier Exploration - Intuition vs Analysis Knowledge]]
 
 ## The Gap
 

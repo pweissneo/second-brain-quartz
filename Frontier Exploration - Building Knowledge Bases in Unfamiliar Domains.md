@@ -1,9 +1,9 @@
 ---
-last-reviewed: 2026-03-14
+last-reviewed: 2026-03-26
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
-review-by: 2026-03-21
+review-by: 2026-04-02
 tags:
   - frontier-exploration
   - ai-assistance

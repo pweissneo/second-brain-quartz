@@ -153,7 +153,7 @@ The Seed covers discrete updates (incorrect, outdated, deprecated) but not knowl
 - [[Graph Maintenance]] — Structural health checks
 - [[Note Lifecycle Management]] — Evolution stages
 - [[Anti-Patterns in Knowledge Management]] — What to avoid
-- [[Anti-Pattern - Note Hoarding]] — Related to capture discipline
+- [[Best Practice - Selective Capture]] — Related to capture discipline
 
 ---
 

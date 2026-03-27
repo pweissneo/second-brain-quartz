@@ -171,6 +171,25 @@ A knowledge base using ONLY the current Seed rules would:
 - [[Diminishing Returns Testing]] — Tests utility of captures, not systematic exclusions
 - [[Capture Priority Signals]] — What to prioritize, not what to reject
 
+### 9. Ethical Exclusion (Incorporated from Frontier Exploration - Knowledge Ethics and Exclusion)
+
+Knowledge that raises ethical concerns even if technically relevant:
+
+- **Living individuals without consent**: Knowledge about specific living people that they haven't consented to being recorded
+- **Harm potential**: Knowledge that could cause harm if exposed (identity theft, professional liability, personal embarrassment)
+- **Right to be forgotten**: Personal knowledge that no longer serves a purpose and the person would not want captured
+
+**Test:** For knowledge about people: (1) Did they consent? (2) Could this cause them harm? (3) Is there a "right to be forgotten" consideration?
+
+**Implementation:** Use frontmatter:
+```yaml
+exclusion-ethics: living-individual|harm-potential|right-to-be-forgotten
+consent-status: explicit|implied|unknown
+harm-assessment: low|medium|high
+```
+
+**Note:** This category was incorporated from [[Frontier Exploration - Knowledge Ethics and Exclusion]] (now archived), which was incorporated into the Seed on 2026-03-16.
+
 ## Questions This Gap Raises
 
 1. Should exclusion criteria be domain-specific or universal?

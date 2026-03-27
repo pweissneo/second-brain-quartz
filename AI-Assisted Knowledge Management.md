@@ -93,3 +93,4 @@ Auto-action risks losing context AI can't fully appreciate.
 - [[Self-Improvement Cycle]]
 - [[Graph Maintenance]]
 - [[Note Lifecycle Management]]
+- [[_root]]

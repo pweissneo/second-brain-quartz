@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-21
-lifecycle: seed-extension
-confidence: emerging
+last-reviewed: 2026-03-25
+lifecycle: resolved
+confidence: high
 author-type: ai-assisted
 knowledge-type: analysis
 tags:
@@ -9,42 +9,30 @@ tags:
   - experimentation
   - personal-knowledge
   - verification
+  - resolved
+redirect: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
-# Seed Rule Proposal: Personal Experimentation Tracking
+# Seed Rule Proposal: Personal Experimentation Tracking (RESOLVED)
 
 > Proposing a new Seed rule based on frontier exploration in fitness and personal health domains.
 
-## Gap Identified
+## Status: RESOLVED (2026-03-25)
 
-In domains requiring personal experimentation to validate knowledge (fitness, nutrition, productivity, health), the Seed has verification workflows but doesn't explicitly cover **systematic experimentation tracking**.
+This proposal has been **incorporated into the Seed**.
 
-## Proposed Rule
+The following rule now exists in the Seed (incorporated 2026-03-22):
+> **Rule:** Capture personal experimentation results — document specific things you tried that didn't work for your specific context.
 
-**Rule:** For domains requiring personal experimentation to validate knowledge (fitness, nutrition, productivity, health), track experiments with structured format: hypothesis, variables, duration, outcome, conclusion.
+## Test for Gap Closure
 
-**Why:** Personal knowledge in these domains is often wrong for your specific body/system. Systematic tracking distinguishes anecdotal from validated personal knowledge. Without structured experimentation notes, it's impossible to distinguish what "works for you" from what you've simply tried.
+✅ 1. Does the Seed have a rule about capturing personal experimentation results? — **YES**
 
-**Test:** Can you list 3+ personal experiments with documented variables and outcomes? For each: (1) What was the hypothesis? (2) What variables were controlled? (3) How long did the experiment run? (4) What was the outcome? (5) What conclusion was drawn?
-
-**Implementation:** Use frontmatter and structured format:
-```yaml
-experiment-tracking: true
-experiment-hypothesis: "What you expected to happen"
-experiment-variables:
-  - variable: "What you changed"
-  - control: "What you kept constant"
-  - duration: "How long"
-experiment-outcome:
-  result: "What happened"
-  conclusion: "What this means for your knowledge"
-  confidence: high|medium|low
-verification-method: personal-experimentation
-```
+✅ 2. Does the Seed include implementation guidance for experimentation tracking? — **YES** (includes frontmatter structure)
 
 ## Related Notes
 
+- [[AI-Assisted Knowledge Management Seed]] — authoritative source
+- [[Frontier Exploration - Personal Experimentation Results]] — frontier exploration note
 - [[Frontier Exploration - Fitness and Exercise Knowledge Bases]]
 - [[Frontier Exploration - Personal Health Metrics and Body Knowledge]]
-- [[Frontier Exploration - Personal Experimentation Results]]
-- [[AI-Assisted Knowledge Management Seed#Verification]]

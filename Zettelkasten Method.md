@@ -81,3 +81,11 @@ We use [[Atomic Note Principle]] and [[Linking Principle]] to implement Zettelka
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
+- [[Note-Taking Methods Compared]] — (merged: other methods now integrated here)
+- [[Knowledge Base Workflow]]
+- [[Progressive Summarization]]
+- [[The Extended Mind]]
+
+---
+
+**Note:** The content from [[Note-Taking Methods Compared]] has been merged into this note. Other note-taking methods (PARA, Cornell, Mind Maps, Smart Notes) are now documented above in the "Related Methods" section.

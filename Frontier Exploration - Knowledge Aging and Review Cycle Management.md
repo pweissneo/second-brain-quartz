@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-24
-lifecycle: emerging
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:

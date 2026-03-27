@@ -4,6 +4,7 @@ lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+verification-status: testing
 tags:
   - seed-stress-test
   - genealogy-domain

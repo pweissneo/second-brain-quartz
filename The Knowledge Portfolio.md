@@ -1,8 +1,12 @@
 ---
 last-reviewed: 2026-03-11
+last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
+verification-status: verified
+level: principle
 tags:
   - methodology
   - strategy

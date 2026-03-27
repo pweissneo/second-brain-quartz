@@ -9,6 +9,7 @@ tags:
   - contradiction
   - sources
 author-type: ai-assisted
+level: principle
 ---
 
 # Handling Contradictory Sources

@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-19
+last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
@@ -281,7 +282,7 @@ recommendation-accuracy:
 
 - [[Frontier Exploration - Emotional and Sentimental Knowledge]] - Related to personal value
 - [[Frontier Exploration - User Situational Constraints]] - Context-dependent knowledge
-- [[Frontier Exploration - Temporal Categories]] - Time-based knowledge
+- [[Handling Temporal Knowledge]] - Time-based knowledge
 - [[Active Reading]] - Reading habit tracking (partial coverage)
 
 ## Test Questions

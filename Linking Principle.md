@@ -1,8 +1,10 @@
 ---
 protected: true
 last-reviewed: 2026-03-14
+last-updated: 2026-03-14
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - methodology

@@ -4,6 +4,7 @@ lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+level: frontier
 tags:
   - seed-stress-test
   - financial-domain

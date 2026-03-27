@@ -28,7 +28,7 @@ This is different from **tacit knowledge** (knowledge that cannot be articulated
 
 1. **Value differentiation**: Not all knowledge is equal in personal significance. Treating everything as neutral information loses what makes certain knowledge meaningful.
 
-2. **Preservation priority**: Whenkbases grow large, emotional knowledge may need explicit preservation markers to prevent accidental deletion or deprecation.
+2. **Preservation priority**: When knowledge bases grow large, emotional knowledge may need explicit preservation markers to prevent accidental deletion or deprecation.
 
 3. **Retrieval context**: Emotional knowledge may need different retrieval framing — "here's what you know about X" vs. "here's what X means to you."
 

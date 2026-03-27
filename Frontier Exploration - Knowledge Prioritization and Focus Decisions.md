@@ -332,6 +332,6 @@ This inverts the bootstrap ratio because maintenance mode means filling known ga
 - [[Frontier Exploration - AI Vault Construction Decision Framework]] — Foundational structural decisions when building from scratch
 - [[Note Lifecycle Management]] — Note stages and transitions
 - [[The Knowledge Portfolio]] — Balancing knowledge investments
-- [[Anti-Pattern - Note Hoarding]] — Accumulating without purpose
+- [[Best Practice - Selective Capture]] — Accumulating without purpose
 - [[Frontier Exploration - Vault Growth Velocity and Sustainable Expansion]] — Growth management
 - [[Frontier Exploration - Unknown Unknowns in Vast Domains]] — The harder problem of discovering what you don't know you don't know

@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-12
 confidence: emerging
-lifecycle: evergreen
+lifecycle: seed-extension
 author-type: ai-assisted
 thinking-tool: true
 thinking-tool-type: reasoning-framework

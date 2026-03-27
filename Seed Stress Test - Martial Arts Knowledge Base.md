@@ -394,4 +394,4 @@ expertise-levels: [white, blue]
 - [[Seed Stress Test - Dance Knowledge Base]] (future)
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Temporal Knowledge]]
-- [[Seed Stress Test - Embodied Knowledge Rule]]
+- [[Seed Gap - Sensory Anchor Standardization]]

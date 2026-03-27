@@ -129,5 +129,5 @@ For a learning/self-improvement domain:
 - [[Frontier Exploration - Competing Organizational Structures]] — Epistemologically different frameworks
 - [[Types of Applicability Boundaries]] — Documenting when knowledge DOESN'T apply
 - [[Frontier Exploration - Comparative Knowledge Structures]] — How to structure comparative knowledge
-- [[Note-Taking Methods Compared]] — Example of comparison structure in the vault
+- [[Zettelkasten Method]] — Example of comparison structure in the vault (methods merged here)
 - [[Frontier Exploration - Multi-Constraint Interaction Knowledge]] — When multiple constraints interact

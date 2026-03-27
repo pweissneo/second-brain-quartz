@@ -69,4 +69,4 @@ Legal knowledge has inherent hierarchical structure that differs from typical PK
 - **Test conducted:** 2026-03-24
 - **Domain:** Legal knowledge management
 - **Verdict:** Rule needs domain adaptation for hierarchical knowledge domains
-- **Severity:** Medium — works for research notes, fails for code/rule organization
+- **Severity:** Medium — works for research notes, fails for code/rule organization- [[_root]]

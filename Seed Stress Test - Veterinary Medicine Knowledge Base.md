@@ -4,6 +4,7 @@ last-updated: 2026-03-21
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - seed-stress-test
   - veterinary-medicine

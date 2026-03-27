@@ -5,7 +5,7 @@ lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 schema-version: "2026-03"
-verification-status: verified
+verification-status: unverified
 tags:
   - frontier-exploration
   - knowledge-type

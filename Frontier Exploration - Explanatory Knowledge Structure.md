@@ -222,7 +222,7 @@ Not all notes need equal explanatory depth:
 
 ## Related Notes
 
-- [[Note-Taking Methods Compared]] — capture methods (different from presentation)
+- [[Zettelkasten Method]] — capture methods (covers note-taking approaches)
 - [[Frontier Exploration - Learning Progression and Curriculum Design]] — multi-note sequences
 - [[Frontier Exploration - Knowledge Abstraction Levels]] — concept tiers
 - [[The Inverse Test]] — testing knowledge quality

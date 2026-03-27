@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-03-24
 last-updated: 2026-03-25
-lifecycle: seed-gap
-confidence: emerging
+lifecycle: resolved
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-gap
@@ -13,6 +13,23 @@ schema-version: "1.0"
 ---
 
 # Seed Gap - Practice Routine Structure for Skill-Building Domains
+
+## Status: RESOLVED (2026-03-25)
+
+This gap has been resolved through Seed additions on 2026-03-25:
+
+1. **Rule: Track skill progression using explicit milestone and state tracking** — Added explicit progression frontmatter with current-level, target-level, milestones, regression-risk, plateau-detected, and transfer-learning tracking.
+
+2. **Rule: Classify practice by type and apply appropriate session structure** — Added practice-type frontmatter (deliberate, maintenance, exploratory, performance) with appropriate session structures for each type.
+
+The Seed now covers:
+- Practice meta-knowledge separation (2026-03-24)
+- Verification modality tracking (2026-03-19)
+- Practice status fields (not-attempted, in-progress, successful, failed)
+- Skill progression tracking with milestones (2026-03-25)
+- Practice type classification with session structures (2026-03-25)
+
+This gap is now CLOSED.
 
 ## The Gap
 
@@ -175,3 +192,6 @@ If yes to all 4, the gap is closed.
 **See also:**
 - [[Seed Stress Test - Music Performance Knowledge Base]]
 - [[Seed Stress Test - Practice Meta-Knowledge in Cooking]]
+
+**Gap resolved by:** Seed rules added 2026-03-25 — "Track skill progression" and "Classify practice by type"
+---

@@ -289,6 +289,6 @@ Pottery exposes gaps in the Seed's embodied knowledge handling:
 
 - [[AI-Assisted Knowledge Management Seed]] — The Seed rules being tested
 - [[Frontier Exploration Hub]] — Domain-specific exploration index
-- [[Seed Stress Test - Embodied Knowledge Rule]] — Related stress test
+- [[Seed Gap - Sensory Anchor Standardization]] — Related stress test
 - [[Seed Stress Test - Craft Knowledge Bases]] — Cross-domain craft testing
 - [[Frontier Exploration - Embodied Knowledge]] — Embodied knowledge handling

@@ -137,7 +137,7 @@ This extends:
 ## Related
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
-- [[Frontier Exploration - Emergency and Crisis Knowledge]] - Extreme case of time constraint
+- [[Frontier Exploration - Crisis and Emergency Response Knowledge]] - Extreme case of time constraint
 - [[Frontier Exploration - Parenting Knowledge Capture]] - Extremely context-dependent
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] - Substitutions as missing-ingredient constraints
 - [[Note Types and Templates]]

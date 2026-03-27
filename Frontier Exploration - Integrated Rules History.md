@@ -1,37 +1,65 @@
 ---
-last-reviewed: 2026-03-22
-lifecycle: evergreen
+last-reviewed: 2026-03-26
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-status: stub
-review-by: 2026-04-01
 tags:
   - frontier-exploration
-  - framework-history
-  - rules-evolution
+  - seed-evolution
+  - rules-history
 ---
 
-# Frontier Exploration - Integrated Rules History
+# Frontier Exploration - Seed Rule Evolution Tracking
 
-> A stub note for exploring how knowledge bases should track the evolution and history of their rules and frameworks.
+> An exploration of how a knowledge base should document and track the evolution of its own rules (the Seed).
 
 ## Purpose
 
-This note is meant to explore how a knowledge base should document the history of its rules - how rules change over time, how to track rule evolution, and how to maintain a coherent framework as rules are added, modified, or deprecated.
+This note explores how a knowledge base should document the history of its rules — how rules change over time, how to track rule evolution, and how to maintain a coherent framework as rules are added, modified, or deprecated.
+
+## Why This Matters
+
+The Seed is not static — it evolves through:
+- New frontier explorations that become Seed rules
+- Stress tests that reveal edge cases
+- Gap identification that adds new rules
+- Conflict resolutions that refine existing rules
+
+Without tracking this evolution, the Seed becomes a static document rather than a living system.
+
+## Proposed Implementation
+
+### Rule Version Tracking
+Each Seed rule should have:
+- `rule-version:` — semantic version (1.0, 1.1, 2.0)
+- `rule-added:` — date the rule was introduced
+- `rule-modified:` — date of last significant change
+- `rule-deprecated:` — date (if deprecated)
+
+### Changelog Note
+Maintain a `Seed-Changelog.md` note that tracks:
+- Date
+- Rule affected
+- Type of change (added/modified/deprecated)
+- Rationale
+- Related frontier exploration or stress test
+
+### Backward Compatibility
+When modifying a rule:
+- Keep previous version as "historical" note
+- Mark with `lifecycle: historical` and `superseded-by: [[new-rule-version]]`
+- This allows testing rules against previous versions
+
+## Test for AI Agents
+
+- [ ] Can you identify when each Seed rule was added?
+- [ ] Can you trace the evolution of any rule through versions?
+- [ ] Is there a changelog or version history?
+- [ ] Can you revert mental model to any previous Seed version?
 
 ## Related Concepts
 
-- [[Frontier Exploration - Knowledge Base Version Control and Change Tracking]] — More general version control for knowledge bases
-- [[Exportable Rules]] — How to export rules from a knowledge base
-- [[Note Lifecycle Management]] — How individual notes evolve
-
-## Questions to Explore
-
-1. How should the Seed document its own evolution?
-2. When a rule is modified, should old versions be preserved?
-3. How do you track which notes depend on which Seed rules?
-4. When rules conflict, how do you document the resolution history?
-
-## Status
-
-This is a stub note. Development pending.
+- [[Seed Rule - Vault Change Tracking]] — general change tracking (different focus)
+- [[Exportable Rules]] — how to export rules from a knowledge base
+- [[Note Lifecycle Management]] — how individual notes evolve
+- [[AI-Assisted Knowledge Management Seed]] — the rules being evolved

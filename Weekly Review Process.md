@@ -92,7 +92,7 @@ Insights: [Brief notes]
 Track reviews with frontmatter:
 ```yaml
 ---
-last-reviewed: 2026-03-08
+last-reviewed: 2026-03-26
 review-count: 42
 ---
 ```

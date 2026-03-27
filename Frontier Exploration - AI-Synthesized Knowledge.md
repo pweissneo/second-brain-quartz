@@ -137,6 +137,7 @@ synthesis-verification-method: tested|expert-validated|logical-check
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]] — Main Seed file
+- [[Frontier Exploration Hub]] — Index of frontier exploration notes
 - [[Frontier Exploration - Cross-Domain Knowledge Synthesis]] — Existing cross-domain synthesis exploration
 - [[Confidence Markers]] — Confidence level guidance
 - [[Knowledge Originality Assessment]] — Evaluating knowledge novelty
@@ -144,3 +145,4 @@ synthesis-verification-method: tested|expert-validated|logical-check
 ---
 
 *This frontier exploration was created during a vault heartbeat using FRONTIER_EXPLORATION method.*
+- [[_root]]

@@ -1,6 +1,6 @@
 ---
 last-reviewed: 2026-03-24
-lifecycle: emerging
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -102,6 +102,7 @@ Create domain-specific convention notes that document how to present knowledge i
 
 ## See Also
 
+- [[Domain-Specific Knowledge Bases]] — How to adapt knowledge management for different fields
 - [[Atomic Note Principle]] - structuring knowledge for different use cases
 - [[Knowledge Graph Structure]] - how presentation affects graph connectivity
 

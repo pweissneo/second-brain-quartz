@@ -1,9 +1,11 @@
 ---
 last-reviewed: 2026-03-12
+last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+verification-status: unverified
 tags:
   - seed-stress-test
   - chess-domain

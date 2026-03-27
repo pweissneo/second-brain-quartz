@@ -1,9 +1,13 @@
 ---
 last-reviewed: 2026-03-21
+last-updated: 2026-03-25
 confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
 schema-version: "1.0"
+knowledge-source-type: analysis
+analysis-type: comparative
+evidence-tier: expert-consensus
 tags:
   - domain-specific
   - fitness

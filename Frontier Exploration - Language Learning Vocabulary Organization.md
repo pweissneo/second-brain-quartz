@@ -117,4 +117,4 @@ A language learning knowledge base using only current Seed rules would struggle 
 3. Proficiency level tracking
 4. Spaced repetition system connection
 
-If these issues are not addressed, an AI building a language learning vault would make arbitrary organizational choices that reduce long-term utility.
+If these issues are not addressed, an AI building a language learning vault would make arbitrary organizational choices that reduce long-term utility.- [[_root]]

@@ -1,64 +1,46 @@
 ---
-last-reviewed: 2026-03-13
-lifecycle: evergreen
+last-reviewed: 2026-03-25
+last-updated: 2026-03-25
+lifecycle: deprecated
 confidence: high
-author-type: human
-schema-version: "1.0"
+author-type: ai-assisted
 tags:
   - convention
   - naming
-  - structure
-level: convention
+  - deprecated
+schema-version: "1.0"
+redirect: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
-# Note Naming Conventions
+# Note Naming Conventions (DEPRECATED)
 
-> How to title notes for maximum clarity and discoverability.
+> This note is deprecated. Refer to [[AI-Assisted Knowledge Management Seed]] for authoritative guidance.
 
-## The Problem
+## Deprecation Notice (2026-03-25)
 
-Without naming conventions, notes become inconsistent:
-- "Zettelkasten method" vs "Zettelkasten Method"
-- "AI assistance" vs "How AI helps knowledge management"
-- "The Learning Stack" vs "Learning Stack"
+This note is now deprecated. The Seed contains the authoritative note naming rule and associated edge cases. All guidance in this note has been consolidated into the Seed.
 
-This hurts search and graph quality.
+## Previous Content (For Reference Only)
 
-## Seed Alignment
+The old content covered:
+- Descriptive titles (2-4 words)
+- Title case
+- Don't use "How to...", dates, version numbers
+- Kebab-case for filenames
 
-The Seed already covers note naming under Foundation:
+## Current Guidance
+
+See the Seed rule on note naming:
 > **Rule:** Use consistent note naming — descriptive noun phrases, title case, kebab-case for filenames.
 
-This note expands on that rule with specific guidelines.
+And additional guidance (added 2026-03-25):
+> **Additional naming guidance:** Avoid "How to..." prefixes (use noun phrases), avoid dates in titles, avoid version numbers (v1, v2) — these create noise and reduce searchability.
 
-## Guidelines
+## Why This Was Deprecated
 
-### Do
-- Use descriptive titles (2-4 words)
-- Be consistent with case (title case recommended)
-- Include the core concept first
-- Use kebab-case for files: `note-naming-conventions.md`
-
-### Don't
-- Don't start with "How to..." or "Why..."
-- Don't use dates in titles
-- Don't use version numbers (v1, v2)
-- Don't include articles (The, A, An) unless essential
-
-## Examples
-
-| Instead of | Use |
-|------------|-----|
-| How to take notes | Note-Taking Methods |
-| Why Zettelkasten works | Zettelkasten Benefits |
-| The complete guide to X | X Complete Guide |
-| Notes about AI in 2024 | AI Assistance in Knowledge Management |
+This note was redundant with the Seed, which is the authoritative source for structural rules. Having multiple sources of truth on naming conventions created confusion.
 
 ## Related
+
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Atomic Note Principle]]
-- [[Note Types and Templates]]
-- [[Graph Traversal Efficiency]]
-- [[Zettelkasten Method]]
-- [[Wikilinks]]
-- [[Forward References and Planned Knowledge]]
+- [[Seed Gap - Note Naming Conventions Redundancy]]

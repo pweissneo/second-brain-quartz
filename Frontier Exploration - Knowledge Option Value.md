@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-23
+last-reviewed: 2026-03-26
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted

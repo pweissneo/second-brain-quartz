@@ -323,5 +323,6 @@ knowledge-modality: mechanic-definition|genre-context|design-principle|troublesh
 - [[Frontier Exploration - Game Design Knowledge Bases]]
 - [[Seed Stress Test - 5-1 Ratio Across Domains]] (for ratio edge cases)
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]] (for diminishing returns edge cases)
-- [[Seed Stress Test - Embodied Knowledge Rule]] (for experiential verification)
+- [[Seed Gap - Sensory Anchor Standardization]] (for experiential verification)
 - [[Seed Stress Test - Knowledge Modality Rule in Cooking]] (for modality tagging precedent)
+- [[_root]]

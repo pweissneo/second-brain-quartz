@@ -114,4 +114,4 @@ The Test should include medical-specific criteria:
 
 - [[Seed Stress Test - Source Reliability vs Verification in Medical Domain]]
 - [[Frontier Exploration - Intuition vs Analysis Knowledge]]
-- [[Seed Stress Test - Embodied Knowledge Rule]] (for tactile/clinical examination knowledge)
+- [[Seed Gap - Sensory Anchor Standardization]] (for tactile/clinical examination knowledge)
