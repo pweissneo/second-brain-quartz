@@ -1,7 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://quartz.jzhao.xyz/AGENTS</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
@@ -23,9 +20,6 @@
     <loc>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</loc>
-    <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Anti-Pattern---Over-Organization</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
@@ -44,35 +38,32 @@
     <loc>https://quartz.jzhao.xyz/Atomic-Note-Principle</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/BOOTSTRAP</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Balanced-Capture</loc>
-    <lastmod>2026-03-27T05:37:49.610Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</loc>
-    <lastmod>2026-03-27T05:37:49.611Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Minimal-Organization</loc>
-    <lastmod>2026-03-27T05:37:49.613Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Multi-Source-Synthesis</loc>
-    <lastmod>2026-03-27T05:37:49.614Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</loc>
-    <lastmod>2026-03-27T05:37:49.615Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Progress-Over-Perfection</loc>
-    <lastmod>2026-03-27T05:37:49.616Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Regular-Review</loc>
-    <lastmod>2026-03-27T05:37:49.617Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practice---Selective-Capture</loc>
-    <lastmod>2026-03-27T05:37:49.618Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Best-Practices-Hub</loc>
-    <lastmod>2026-03-27T05:37:49.619Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.532Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/CLAUDE</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -102,7 +93,7 @@
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Synthesis-Provenance</loc>
-    <lastmod>2026-03-27T05:37:49.630Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.533Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -135,7 +126,7 @@
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Capture-Method-Optimization</loc>
-    <lastmod>2026-03-27T05:37:49.643Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.534Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
@@ -188,12 +179,6 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Cyclical-Timing-Knowledge</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Daily-Practice-Knowledge</loc>
-    <lastmod>2026-03-24T13:27:43.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Deadline-Driven-Knowledge</loc>
-    <lastmod>2026-03-22T01:15:48.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
   </url><url>
@@ -208,9 +193,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Edge-Case-and-Exception-Knowledge-Organization</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Emergency-and-Crisis-Knowledge</loc>
-    <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Emerging-Domain-Bootstrapping</loc>
     <lastmod>2026-03-22T14:10:43.000Z</lastmod>
@@ -257,14 +239,11 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge-Bases</loc>
     <lastmod>2026-03-24T18:22:09.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Game-Design-Knowledge</loc>
-    <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Geographically-Constrained-Knowledge</loc>
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Habit-and-Behavior-Change-Knowledge-Organization</loc>
-    <lastmod>2026-03-27T05:37:49.685Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.535Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Home-Automation-Knowledge-Bases</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -356,23 +335,14 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Context-Frames</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Debt</loc>
-    <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Deprecation-and-Obsolescence-Management</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Ethics-and-Exclusion</loc>
-    <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Freshness-Dating</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-From-Obsolescing-Domains</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Maintenance-Burden</loc>
-    <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Maintenance</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
@@ -408,7 +378,7 @@
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Aware-Review-Cycles</loc>
-    <lastmod>2026-03-27T05:37:49.736Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.537Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Known-Limitations-Documentation</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -434,9 +404,6 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Memorization-vs.-Retrieval-Strategy-in-Knowledge-Bases</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Meta-Knowledge-About-Knowledge-Management</loc>
-    <lastmod>2026-03-22T07:16:10.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Metacognitive-Knowledge-and-Thinking-Tools</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
@@ -448,9 +415,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Language-Knowledge-Bases</loc>
     <lastmod>2026-03-22T01:15:48.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Modal-Knowledge-Representation</loc>
-    <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Multi-Modal-Knowledge</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -478,9 +442,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Note-Completion-Criteria</loc>
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Ongoing-Knowledge-Maintenance-Decisions</loc>
-    <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Open-Question-Knowledge</loc>
     <lastmod>2026-03-25T07:25:25.000Z</lastmod>
@@ -528,7 +489,7 @@
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Problem-Centered-Knowledge-Organization</loc>
-    <lastmod>2026-03-27T05:37:49.775Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.538Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Professional-Advice-Disclaimer-Requirements</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
@@ -550,9 +511,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Safety-Critical-Knowledge-Thresholds</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Seasonal-and-Cyclical-Knowledge</loc>
-    <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Seed-Rule-Conflict-Resolution</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
@@ -588,7 +546,7 @@
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Subjective-Knowledge-Type-System</loc>
-    <lastmod>2026-03-27T05:37:49.798Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.539Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Symbolic-and-Notational-Knowledge</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
@@ -659,11 +617,8 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Structure-and-Discovery-Bias</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Success-Measurement</loc>
-    <lastmod>2026-03-22T19:44:47.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Level-Pattern-Discovery</loc>
-    <lastmod>2026-03-27T05:37:49.824Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.540Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Vault-Process-Meta-Knowledge</loc>
     <lastmod>2026-03-25T07:25:25.000Z</lastmod>
@@ -681,7 +636,7 @@
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Visual-Knowledge-Representation-in-Knowledge-Bases</loc>
-    <lastmod>2026-03-27T05:37:49.832Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.540Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Visual-Literacy-and-Aesthetic-Evaluation-Knowledge</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
@@ -713,9 +668,6 @@
     <loc>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</loc>
     <lastmod>2026-03-17T12:09:45.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/HEARTBEAT</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</loc>
     <lastmod>2026-03-25T07:25:25.000Z</lastmod>
   </url><url>
@@ -724,9 +676,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Hub-Node-Creation</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/IDENTITY</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Interleaving</loc>
     <lastmod>2026-03-21T13:56:56.000Z</lastmod>
@@ -743,11 +692,8 @@
     <loc>https://quartz.jzhao.xyz/Linking-Principle</loc>
     <lastmod>2026-03-21T13:56:56.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/MEMORY</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Note-Creation-Decision-Framework</loc>
-    <lastmod>2026-03-27T05:37:49.854Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.541Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Note-Insertion-Strategy</loc>
     <lastmod>2026-03-19T15:12:04.000Z</lastmod>
@@ -758,17 +704,11 @@
     <loc>https://quartz.jzhao.xyz/Note-Types-and-Templates</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Note-Taking-Methods-Compared</loc>
-    <lastmod>2026-03-13T18:11:55.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Prerequisite-Knowledge-Tracking</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Progressive-Summarization</loc>
     <lastmod>2026-03-21T13:56:56.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/SOUL</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Schema</loc>
     <lastmod>2026-03-24T18:22:09.000Z</lastmod>
@@ -777,10 +717,10 @@
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Anti-Pattern-Without-Corresponding-Best-Practices</loc>
-    <lastmod>2026-03-27T05:37:49.865Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Code-Switching-and-Translanguaging</loc>
-    <lastmod>2026-03-27T05:37:49.866Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Craft-and-Medical-Knowledge-Base-Rules</loc>
     <lastmod>2026-03-25T07:25:25.000Z</lastmod>
@@ -789,43 +729,43 @@
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Domain-Velocity-Confidence-Decay</loc>
-    <lastmod>2026-03-27T05:37:49.869Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Dual-Nature-Domain-Handling</loc>
-    <lastmod>2026-03-27T05:37:49.870Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Empirically-Validatable-Knowledge</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Functional-Threshold-for-Knowledge-Bases</loc>
-    <lastmod>2026-03-27T05:37:49.873Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---General-Evidence-Hierarchy-for-Non-Domain-Specific-Knowledge</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Discovery-Pathways</loc>
-    <lastmod>2026-03-27T05:37:49.876Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Modality-Rule-Refinements</loc>
-    <lastmod>2026-03-27T05:37:49.877Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Reorganization-vs-In-Place-Updates</loc>
     <lastmod>2026-03-24T18:22:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Source-Type-Missing-Synthesis-Category</loc>
-    <lastmod>2026-03-27T05:37:49.879Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-with-Inherent-Expiration-Windows</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Material-Variability-in-Craft-Domains</loc>
-    <lastmod>2026-03-27T05:37:49.882Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Mathematical-Proof-Representation</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Multi-Modal-Knowledge-Organization</loc>
-    <lastmod>2026-03-27T05:37:49.883Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Note-Naming-Conventions-Redundancy</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
@@ -834,7 +774,7 @@
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Reasoning-Trace-Documentation</loc>
-    <lastmod>2026-03-27T05:37:49.887Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Recurring-and-Periodic-Knowledge</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -843,7 +783,7 @@
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Seed-Gap-Note-Lifecycle-Management</loc>
-    <lastmod>2026-03-27T05:37:49.890Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.542Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Sensory-Anchor-Standardization</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
@@ -852,16 +792,16 @@
     <lastmod>2026-03-23T17:11:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Subjective-Personal-Knowledge-Handling</loc>
-    <lastmod>2026-03-27T05:37:49.894Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Technology-Heavy-Dual-Nature-Domain-Handling</loc>
-    <lastmod>2026-03-27T05:37:49.894Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Vault-Self-Monitoring-and-Health-Intelligence</loc>
-    <lastmod>2026-03-27T05:37:49.895Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Verification-Requiring-External-Tooling</loc>
-    <lastmod>2026-03-27T05:37:49.896Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Verification-Timeline-for-High-Iteration-Domains</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
@@ -876,7 +816,7 @@
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Domain-Velocity-Aware-Confidence-Decay</loc>
-    <lastmod>2026-03-27T05:37:49.901Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Enhanced-Note-Lifecycle-Model</loc>
     <lastmod>2026-03-24T18:22:09.000Z</lastmod>
@@ -885,7 +825,7 @@
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Rule---Distributed-Understanding</loc>
-    <lastmod>2026-03-27T05:37:49.905Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Rule---Vault-Change-Tracking</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
@@ -906,10 +846,10 @@
     <lastmod>2026-03-22T08:46:38.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Gardening</loc>
-    <lastmod>2026-03-27T05:37:49.913Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Sewing</loc>
-    <lastmod>2026-03-27T05:37:49.914Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.543Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Advisory-Validity-Tracking-in-Financial-Planning</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
@@ -942,7 +882,7 @@
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Threshold-for-Diminishing-Returns</loc>
-    <lastmod>2026-03-27T05:37:49.927Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.544Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Contradiction-Rule-in-Philosophy</loc>
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
@@ -966,13 +906,13 @@
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Tier-Rule-Test</loc>
-    <lastmod>2026-03-27T05:37:49.942Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.544Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Error-Knowledge-Capture-in-Programming</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Every-Link-Must-Be-Explainable-in-Music-Composition</loc>
-    <lastmod>2026-03-27T05:37:49.944Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.544Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Expertise-Level-Inversion-in-Investing</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
@@ -999,7 +939,7 @@
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Inverse-Authority-Rule-in-Personal-Finance</loc>
-    <lastmod>2026-03-27T05:37:49.955Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.544Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Debt-Rule-in-Woodworking</loc>
     <lastmod>2026-03-25T07:25:25.000Z</lastmod>
@@ -1023,7 +963,7 @@
     <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Linking-Rule-in-Cooking</loc>
-    <lastmod>2026-03-27T05:37:49.965Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.545Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Maintenance-Burden-Rule-in-Cooking</loc>
     <lastmod>2026-03-24T18:22:09.000Z</lastmod>
@@ -1036,9 +976,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Music-Performance-Knowledge-Base</loc>
     <lastmod>2026-03-25T04:22:19.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Atomicity-in-Legal-Knowledge-Base</loc>
-    <lastmod>2026-03-22T19:44:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Note-Naming-in-Photography</loc>
     <lastmod>2026-03-22T05:55:38.000Z</lastmod>
@@ -1080,7 +1017,7 @@
     <lastmod>2026-03-21T06:17:02.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Tool-Dependent-Verification-in-Medical-Knowledge</loc>
-    <lastmod>2026-03-27T05:37:49.986Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.545Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Trade-off-Knowledge-in-Home-Automation</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
@@ -1092,7 +1029,7 @@
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Visual-Knowledge-Rule-Across-Domains</loc>
-    <lastmod>2026-03-27T05:37:49.991Z</lastmod>
+    <lastmod>2026-03-27T06:21:45.546Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Stress-Test---Wilderness-Survival-Knowledge-Base</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
@@ -1181,9 +1118,6 @@
     <loc>https://quartz.jzhao.xyz/Systems-Over-Goals</loc>
     <lastmod>2026-03-22T09:40:28.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/TOOLS</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/The-Extended-Mind</loc>
     <lastmod>2026-03-21T03:26:10.000Z</lastmod>
   </url><url>
@@ -1216,9 +1150,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</loc>
     <lastmod>2026-03-24T13:27:43.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/USER</loc>
-    <lastmod>2026-03-24T18:22:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Weekly-Review-Process</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
