@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Frontier Exploration - Anticipatory Knowledge Capture</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Anticipatory-Knowledge-Capture</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Anticipatory-Knowledge-Capture</guid>
-    <description><![CDATA[ Frontier Exploration - Anticipatory Knowledge Capture The Problem Space The Seed covers several knowledge types: factual, procedural, conceptual, contextual, and experiential. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:42:59 GMT</pubDate>
-  </item><item>
     <title>Seed Stress Test - Visual Knowledge Rule Across Domains</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Visual-Knowledge-Rule-Across-Domains</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Visual-Knowledge-Rule-Across-Domains</guid>
     <description><![CDATA[ Seed Stress Test: Visual Knowledge Rule Across Domains Testing the Visual Knowledge rule (added 2026-03-26) across different knowledge domains to identify edge cases, test executability, and refine the rule. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Tool-Dependent Verification in Medical Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Tool-Dependent-Verification-in-Medical-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Tool-Dependent-Verification-in-Medical-Knowledge</guid>
     <description><![CDATA[ Seed Stress Test: Tool-Dependent Verification in Medical Knowledge Testing Seed rules against knowledge that requires external tools or expertise to verify in medical/health domains. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Linking Rule in Cooking</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Linking-Rule-in-Cooking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Linking-Rule-in-Cooking</guid>
     <description><![CDATA[ Seed Stress Test: Linking Rule in Cooking Domain Rule tested: Every note must link to at least 2 other notes OR be tagged with foundational: true OR be tagged with specialized: true. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Inverse Authority Rule in Personal Finance</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Inverse-Authority-Rule-in-Personal-Finance</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Inverse-Authority-Rule-in-Personal-Finance</guid>
     <description><![CDATA[ Seed Stress Test: Inverse Authority Rule in Personal Finance Testing the “inverse authority calibration” rule in personal finance/investing domain. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Every Link Must Be Explainable in Music Composition</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Every-Link-Must-Be-Explainable-in-Music-Composition</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Every-Link-Must-Be-Explainable-in-Music-Composition</guid>
     <description><![CDATA[ Seed Stress Test: Every Link Must Be Explainable in Music Composition Testing the “Every link must be explainable” rule against music composition knowledge reveals unique challenges around structural relationships, temporal composition, and harmonic dependencies. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Equipment Tier Rule Test</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Tier-Rule-Test</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Tier-Rule-Test</guid>
     <description><![CDATA[ Seed Stress Test: Equipment Tier Rule Test (2026-03-26) Tested the equipment tier rule from the Seed in the woodworking domain: Rule Tested Edge case (2026-03-23): In workshop-dependent craft domains (woodworking, metalworking, leatherworking, sewing), equipment tier significantly affects technique ... ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Construction Phase Threshold for Diminishing Returns</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Threshold-for-Diminishing-Returns</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Threshold-for-Diminishing-Returns</guid>
     <description><![CDATA[ Seed Stress Test: Construction Phase Threshold for Diminishing Returns Testing when diminishing returns testing should “turn on” during vault construction. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - 5-1 Ratio in Sewing</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Sewing</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Sewing</guid>
     <description><![CDATA[ Seed Stress Test: 5:1 Ratio in Sewing Knowledge Base Testing the 5:1 personal-to-general knowledge ratio rule in the sewing domain reveals unique challenges around technique specificity, pattern fitting, material knowledge, and the relationship between published patterns and personal alterations. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - 5-1 Ratio in Gardening</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Gardening</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---5-1-Ratio-in-Gardening</guid>
     <description><![CDATA[ Seed Stress Test: 5:1 Ratio in Gardening Knowledge Base Testing the 5:1 personal-to-general knowledge ratio rule in the gardening domain reveals unique challenges around context-dependence, local experimentation, and the relationship between general horticultural knowledge and personal growing exper... ]]></description>
-    <pubDate>Fri, 27 Mar 2026 10:34:36 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
+  </item><item>
+    <title>Seed Rule - Distributed Understanding</title>
+    <link>https://quartz.jzhao.xyz/Seed-Rule---Distributed-Understanding</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Rule---Distributed-Understanding</guid>
+    <description><![CDATA[ Seed Rule: Distributed Understanding Handling Knowledge that requires synthesizing across multiple notes must be explicitly marked to prevent inappropriate splitting. ]]></description>
+    <pubDate>Fri, 27 Mar 2026 10:51:29 GMT</pubDate>
   </item>
     </channel>
   </rss>
