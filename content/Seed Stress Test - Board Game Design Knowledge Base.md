@@ -325,3 +325,4 @@ knowledge-modality: mechanic-definition|genre-context|design-principle|troublesh
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]] (for diminishing returns edge cases)
 - [[Seed Gap - Sensory Anchor Standardization]] (for experiential verification)
 - [[Seed Stress Test - Knowledge Modality Rule in Cooking]] (for modality tagging precedent)
+- [[_root]]

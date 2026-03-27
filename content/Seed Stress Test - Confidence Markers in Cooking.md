@@ -4,6 +4,7 @@ lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 schema-version: "1.0"
+specialized: true
 tags:
   - verification
   - edge-case
@@ -57,6 +58,9 @@ For cooking notes: Can you identify both the source confidence AND whether you'v
 
 ## Related Seed Rules
 
-- [[Verification Status]] - already handles verification separately
-- [[Embodied Knowledge]] - has sensory component guidance
-- Diminishing returns testing for experiential domains
+- [[Confidence Markers]] - the rule under test
+- [[Frontier Exploration - Place-Specific Verification Knowledge]] - verification in context-dependent domains
+- [[Frontier Exploration - Verification Hierarchy]] - verification levels
+- [[Frontier Gap - Embodied Knowledge]] - knowledge requiring physical execution
+- [[Seed Gap - Verification Timeline for High-Iteration Domains]] - verification in fast-moving fields
+- [[Seed Stress Test - Embodied Knowledge Rule]] - related stress test

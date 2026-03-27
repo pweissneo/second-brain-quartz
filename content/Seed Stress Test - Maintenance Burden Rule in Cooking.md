@@ -243,4 +243,4 @@ For cooking notes, the test should be:
 
 - [[Seed Stress Test - Cooking Knowledge Base]] — General cooking domain stress test
 - [[Frontier Exploration - Knowledge Maintenance Burden]] — General maintenance burden exploration
-- [[Seed Gap - Sensory Anchor Standardization]] — Related to cooking sensory knowledge
+- [[Seed Gap - Sensory Anchor Standardization]] — Related to cooking sensory knowledge- [[_root]]

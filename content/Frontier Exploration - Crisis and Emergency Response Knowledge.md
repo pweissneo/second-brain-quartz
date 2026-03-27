@@ -188,6 +188,77 @@ Emergency procedures vary by:
 
 Use explicit context gates: `applies-when: adult conscious choking`
 
+## Offline and Solo Operation Requirements
+
+Emergencies often occur under conditions that break normal knowledge access patterns:
+- **Must work offline** — May not have internet/phone access when emergency happens
+- **May need to work when alone** — Can't call for help; user must act independently
+- **Device may be unavailable** — Phone could be lost, dead, or in another room
+- **Physical printing** — Emergency knowledge should be printable to physical cards
+
+Add frontmatter fields:
+```yaml
+offline-capable: true
+solo-operation: true
+printable-format: reference-card
+```
+
+## Unique Emergency Knowledge Types
+
+The older note defined four distinct emergency knowledge types that should be integrated here:
+
+### 1. Immediate Action Steps
+
+**Description:** Steps that must be taken NOW, in exact order.
+
+**Structure:**
+```yaml
+emergency-type: immediate-action
+access-time-target: <5 seconds
+prerequisites: none
+```
+
+**Example:** "Stop the bleeding: Apply direct pressure with clean cloth"
+
+### 2. Decision Trees (Emergency Version)
+
+**Description:** Simple yes/no decisions that route to actions.
+
+**Structure:**
+```yaml
+emergency-type: decision-tree
+decision-points: 3
+max-decisions-to-action: 2
+```
+
+**Example:** "Is the person breathing? → Yes: Monitor → No: Start CPR"
+
+### 3. Reference Cards
+
+**Description:** Single-screen summaries for physical printing/display.
+
+**Structure:**
+```yaml
+emergency-type: reference-card
+format: printable
+word-limit: 50
+```
+
+**Example:** "Emergency phone numbers, one card per location"
+
+### 4. Checklist Knowledge
+
+**Description:** Items that must be checked off in order.
+
+**Structure:**
+```yaml
+emergency-type: checklist
+sequential: true
+abortable: false
+```
+
+**Example:** "Pre-flight checklist, aviation"
+
 ## Connection to Other Frontier Notes
 
 - **Decision-Tree Knowledge Organization** — extends with emergency-specific formatting

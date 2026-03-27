@@ -224,3 +224,4 @@ A knowledge base is most valuable when it's honest about what it doesn't know. N
 ---
 
 *This is an emerging area. The rules around personal knowledge auditing are not yet well-established.*
+- [[_root]]

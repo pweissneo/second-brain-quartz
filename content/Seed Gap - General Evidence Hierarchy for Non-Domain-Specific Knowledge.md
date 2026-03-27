@@ -2,7 +2,7 @@
 last-reviewed: 2026-03-25
 last-updated: 2026-03-25
 confidence: high
-lifecycle: resolved
+lifecycle: historical
 author-type: ai-assisted
 verification-status: verified
 tags:

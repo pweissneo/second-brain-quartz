@@ -1,17 +1,26 @@
 ---
-last-reviewed: 2026-03-14
-lifecycle: evergreen
-confidence: emerging
+last-reviewed: 2026-03-26
+last-updated: 2026-03-26
+lifecycle: deprecated
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-rule
-  - domain-agnostic
-  - canonical-structures
-  - frontier-exploration
-level: pattern
+  - deprecated
+  - redundant
+schema-version: "1.0"
+redirect: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
-# Seed Rule: Capture Canonical Domain Structures
+# Seed Rule: Capture Canonical Domain Structures (DEPRECATED)
+
+> ⚠️ **DEPRECATED (2026-03-26):** This rule has been incorporated into the [[AI-Assisted Knowledge Management Seed]]. The authoritative version is in the Seed at line ~3842. This note is retained for historical reference only.
+
+## Status Change
+
+This Seed Rule note is now redundant with the Seed, which contains the complete rule with edge cases and implementation guidance. The rule was absorbed into the Seed during a previous update.
+
+## Previous Content (For Reference Only)
 
 ## Rule
 

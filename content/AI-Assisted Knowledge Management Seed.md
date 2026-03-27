@@ -68,11 +68,93 @@ author-type: ai-assisted
 **Why:** Pure exploration creates shallow vaults with many thin topics; pure exploitation creates stagnant vaults that miss valuable new domains. Explicit balance ensures both breadth and depth grow healthily.
 **Test:** Can you categorize your recent capture activity as primarily exploration or exploitation? Is the ratio appropriate for your vault's maturity (new <50 notes = exploration, mature >200 notes = exploitation)?
 
+**Rule (NEW - 2026-03-27):** Allocate capture resources explicitly — maintain capture-to-verify ratio based on vault maturity (70/30 for new vaults, 30/70 for mature vaults), pause capture when unverified notes exceed 40%, evaluate marginal value before adding notes, and shift from capture to verification when ROI declines for 3+ consecutive periods.
+**Why:** The exploration/exploitation rule addresses breadth vs. depth but lacks operational thresholds. Without explicit resource allocation rules, AI agents default to capture (visible, rewarding) over verification (invisible, tedious). This creates verification debt that undermines knowledge quality. Explicit thresholds force strategic shifts and ensure capture effort delivers verified, usable knowledge.
+**Test:** (1) Can you calculate your current capture-to-verify ratio? (2) Is your ratio appropriate for your vault's maturity (new <50 notes = 70/30 capture/verify, mature >200 notes = 30/70)? (3) Do you pause capture when unverified exceeds 40%? (4) Do you evaluate marginal value (utility vs. maintenance cost) before adding notes? (5) Do you track ROI and shift strategy when it declines?
+**Implementation:** Track in frontmatter:
+```yaml
+vault-metrics:
+  capture-verify-ratio: 65/35  # adjust based on maturity
+  unverified-percentage: 38
+  verification-backlog: 23
+  capture-pause-threshold: 40
+  roi-trend: declining|stable|improving
+```
+**Marginal value assessment:** High-value captures fill retrieval gaps, address prerequisites, solve recurring needs, and can be verified. Low-value captures are curiosity-driven, no demonstrated need, one-time interest only.
+**Pareto analysis:** Identify the 20% of domains delivering 80% of utility — prioritize verification there first.
+**See also:** [[Frontier Exploration - Knowledge Capture Resource Allocation]]
+
 **Rule (NEW - 2026-03-22):** Systematically identify knowledge gaps and prioritize filling them — use prerequisite audits, retrieval failure tracking, graph topology analysis, and contested topic scans.
 **Why:** The Seed tells you how to manage existing knowledge (when to merge, split, verify) but not how to identify what's missing. Without gap identification, vaults accumulate based on what capture agents find interesting rather than what the vault needs. This creates coverage illusions where obvious gaps go unnoticed.
 **Test:** (1) Can you identify prerequisite gaps (undefined wikilinks to non-existent notes)? (2) Do you track retrieval failures (queries returning insufficient results)? (3) Does graph analysis find high-centrality nodes with poor connectivity? (4) Do you scan for contested topics with only one perspective? (5) Is there an explicit gap prioritization framework (impact × 1/effort)?
 **Implementation:** Run gap audits monthly: (1) Prerequisite audit — scan for wikilinks to missing notes, (2) Retrieval failure log — track search queries with <2 satisfactory results, (3) Graph topology — find nodes with high centrality but low outgoing links, (4) Contested scan — find consensus-level: mainstream on potentially debated topics. Prioritize gaps by impact (blocking/useful/nice-to-have) × inverse effort.
-**Gap types:** Prerequisite (concepts the vault assumes), Utility (knowledge needed for frequent tasks), Connection (topics that should link but don't), Verification (unverifiable due to missing context), Perspective (single-view when multi-view expected).
+**Gap types:** Prerequisite (concepts the vault assumes), Utility (knowledge needed for frequent tasks), Connection (topics that should link but don't), Verification (unverifiable due to missing context), Perspective (single-view when multi-view expected), Safety (safety-critical procedures missing, outdated, or incomplete).
+**Gap metadata schema:** Use frontmatter to track gap lifecycle:
+```yaml
+gap-status: identified|in-progress|resolved|superseded
+gap-priority: critical|high|medium|low
+gap-phase: discovery|analysis|implementation|verification
+gap-severity: blocking|useful|nice-to-have  # aligns with impact assessment
+gap-source: prerequisite-audit|retrieval-failure|graph-topology|contested-scan|manual
+discovered: 2026-03-26
+resolved: 2026-03-27
+resolved-by: [[Note Name]]  # links to the note that fills the gap
+gap-owner: optional  # for collaborative vaults
+```
+**Gap-to-Seed pathway:** When gap analysis reveals a pattern where the Seed lacks a rule to prevent the gap, create a Seed Gap note with `gap-type: seed-missing` documenting: (1) what gap occurred, (2) what rule is missing from the Seed, (3) proposed rule in Rule/Why/Test format. This transforms gap discovery into Seed improvement.
+
+**Rule (NEW - 2026-03-26):** For knowledge bases serving multiple domains, create cross-topic hubs for universal problems (debugging, decision-making, risk assessment, prioritization, failure analysis) — problems are orthogonal to topics and benefit from shared structure.
+**Why:** The same problem type appears in every domain but with domain-specific implementations. Without explicit problem-centered structure, this cross-cutting knowledge is invisible and users must rediscover universal patterns in each new domain. The Seed covers thinking tools but doesn't explicitly address organizing problem-solving knowledge across domains.
+**Test:** Can you navigate from any domain note about a problem (debugging, deciding, assessing risk) to a universal problem-solving hub? Do domain-specific implementations link to the hub rather than existing in isolation?
+**Implementation:** Use frontmatter to tag problem-type:
+```yaml
+problem-type: debugging|decision|risk|prioritization|failure-analysis|verification
+problem-domain: universal|implementation  # universal=applies everywhere, implementation=domain-specific
+cross-topic-hub: [[Universal Problem Hub Name]]
+```
+**Example structure:**
+- [[Problem Debugging]] (universal hub)
+  - links to [[Debugging Cooking]] (implementation)
+  - links to [[Debugging Code]] (implementation)
+  - links to [[Debugging Garden]] (implementation)
+
+**See also:** [[Frontier Exploration - Problem-Centered Knowledge Organization]]
+
+**Rule (NEW - 2026-03-26):** For knowledge that depends on visual representation (diagrams, charts, maps, architectural drawings, genealogical charts, molecular structures, musical notation, engineering schematics), include visual format alongside text explanation. For other knowledge, default to text unless visual clearly adds value.
+**Why:** Some knowledge conveys information through spatial, structural, or visual relationships that text cannot capture equivalently. Converting visual knowledge to text loses essential structure. However, visual formats add maintenance burden (format migration, accessibility, searchability), so they should not be the default.
+**Test:** (1) Does this knowledge depend on spatial or structural relationships that text cannot capture? (2) Would a visual representation make this understandable in under 10 seconds? (3) Is there an established visual standard for this domain (flowcharts, UML, family trees, circuit diagrams)? If yes to any, include visual format. Otherwise, default to text.
+**Implementation:** Use frontmatter to track visual knowledge:
+```yaml
+visual-format: diagram|chart|map|diagram|molecular|musical|schematic|photograph
+visual-essential: true  # vs false - whether visual is required for understanding
+visual-alt-text: "Description for accessibility"
+```
+**Storage options:**
+- Embedded (appropriate for essential visuals under 200KB, vault stays on one platform)
+- Separate note (appropriate for standalone diagrams, reusable across notes)
+- External reference (appropriate for large files, version-controlled separately)
+**Accessibility:** Include text alternatives for all visual knowledge. Use `visual-alt-text` field and ensure visual content can be understood through text description.
+
+**See also:** [[Frontier Exploration - Visual Knowledge Representation in Knowledge Bases]]
+
+**Edge case (stress test 2026-03-26):** In software architecture knowledge bases, system diagrams communicate structural information that text cannot. Apply this rule for: architecture diagrams, sequence diagrams, ER diagrams, class diagrams, data flow diagrams. Document what each visual element represents in accompanying text.
+
+**Edge case (stress test 2026-03-26):** In genealogy knowledge bases, family trees are inherently visual. Apply this rule to: family trees, ancestor charts, relationship diagrams. Include text equivalents for searchability but preserve visual format.
+
+**Edge case:** In mathematics and logic, notation and graphs convey meaning textually but have visual components (geometric figures, graphs, diagrams). Include visual elements when they are standard notation in the field.
+
+**Edge case:** Visual knowledge creates accessibility barriers. For vaults that must serve screen-reader users, prioritize text alternatives and describe visual relationships in text. Use `visual-accessibility: full|partial|text-only` frontmatter.
+
+**Edge case:** Visual formats have migration risk. If the vault may move platforms, export visuals to portable formats (SVG over PNG, standard notation over proprietary). Document visual dependencies in frontmatter.
+
+**Edge case:** Visual search is limited. Text-based search cannot find content within images. For visual-heavy knowledge, include searchable text summaries or descriptions.
+
+**See also:** [[Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge]] (different angle on visual content)
+**See also:** [[Frontier Exploration - Multi-Modal Knowledge]] (broader multi-modal capture)
+
+**Edge case (stress test 2026-03-26):** In safety-critical domains (home repair, automotive, medical, electrical, woodworking with power tools), gap identification must account for safety-specific gaps that are invisible to standard graph analysis. Safety gaps include: missing contra-indications, outdated safety warnings (historical sources predate modern equipment), missing PPE requirements, absent escalation guidance, and incomplete emergency procedures.
+
+Apply safety gap detection: specifically audit for (1) safety-warning frontmatter on procedural notes, (2) contra-indication sections in safety-critical notes, (3) historical sources lacking modern safety information, (4) missing escalation/emergency guidance, (5) outdated equipment-specific safety (tools have changed since source was written). Tag safety gaps with `safety-gap-type:` (missing-warning|outdated-warning|missing-ppe|missing-escalation|equipment-specific) and `safety-review-required: true`.
 **70-20-10 allocation:** Mature vaults should allocate 70% gap-filling, 20% verification/depth, 10% exploration. This inverts the bootstrap ratio because maintenance mode means filling known gaps rather than discovering new domains.
 **See also:** [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] (gap identification merged)
 
@@ -271,6 +353,25 @@ confidence: speculative
 **Note:** This is distinct from unverified — unverified means "not yet checked but checkable," unverifiable means "cannot be checked by any known method." Use `verification-pathway: none` for unverifiable knowledge, not verification-status fields.
 **See also:** [[Frontier Exploration - Unverifiable Knowledge Handling]]
 
+**Rule (NEW - 2026-03-26):** For knowledge claims requiring external tools or specialized equipment to verify (not code execution, but physical measurement devices, test kits, or expert consultation), tag with `verification-mode: tool-dependent` and document the required verification tool.
+**Why:** The Seed covers tool-executable knowledge (running code/commands) but misses knowledge requiring physical tools to verify (water quality test, multimeter, lab equipment, expert eye). Without explicit tagging, AI agents may mark knowledge as "source verified" when the source itself might be wrong (counterfeit product, mislabeled substance, corrupted file). Tool-dependent verification requires external equipment not part of the vault.
+**Test:** For knowledge claims about physical states (safety, authenticity, correctness, measurement): (1) Is verification possible with a tool/equipment? (2) Is the required tool documented? (3) Has tool verification been performed? (4) Is confidence tied to tool-verification status, not just source presence?
+**Implementation:** Use frontmatter:
+```yaml
+verification-mode: tool-dependent
+verification-tool: [specific-tool-or-expertise-required]
+tool-accessibility: available|requires-purchase|requires-expert
+verified-by-tool: true|false
+tool-verification-date: 2026-03-26
+```
+**Verification pathway for tool-dependent:** Mark as `verification-status: tool-dependent-pending` until tool verification is performed. Use `verification-status: tool-verified` after confirmed by appropriate tool.
+**Edge cases:**
+- **Source + tool-dependent:** "This medication was prescribed" is source-verifiable. "This medication is authentic" is tool-dependent (could be counterfeit).
+- **Embodied vs tool-dependent:** Eating food to verify it's safe = embodied. Testing food in a lab = tool-dependent.
+- **Expertise as tool:** Some verifications require human experts (botanist, electrician). Treat expert consultation as tool verification.
+**Relationship to existing rules:** If tool is unavailable or verification is infeasible, apply unverifiable handling. High-stakes domains (medical, safety, structural) often have critical tool-dependent knowledge.
+**See also:** [[Seed Gap - Verification Requiring External Tooling]], [[Seed Stress Test - Tool-Dependent Verification in Medical Knowledge]]
+
 **Rule:** Handle incorrect or outdated knowledge explicitly — when discovering knowledge is wrong, mark rather than silently delete.
 **Why:** Wrong knowledge contains valuable context: why you believed it, what source led you astray, what you learned from the correction. Deleting loses this meta-knowledge. Marking preserves the learning while preventing the vault from spreading incorrect information.
 **Test:** Can you trace how each incorrect note was handled? Does each have correction metadata (correction-type, correction-date, corrected-by)?
@@ -439,6 +540,32 @@ change-count: 5
 
 **See also:** [[Frontier Exploration - Knowledge Maintenance]]
 
+**Rule (NEW - 2026-03-25):** Tag knowledge with inherent expiration windows using validity-period metadata — distinguish from outdated knowledge by understanding the difference between "was correct, now wrong" vs. "was applicable, context has passed."
+
+**Why:** Knowledge with built-in expiration (event dates, seasonal applicability, time-limited opportunities) requires different handling than outdated knowledge. Both end up "not currently useful" but the reason differs: outdated means "the knowledge itself was flawed"; inherent expiration means "the context the knowledge applied to has passed." AI agents need to distinguish these to apply correct handling (correction workflow vs. archival workflow).
+
+**Test:** Pick 10 notes containing time-specific information (event details, seasonal guidance, promotional context). (1) Can you identify which have inherent expiration vs. general applicability? (2) Do they have metadata distinguishing "window has closed" from "knowledge is wrong"?
+
+**Implementation:**
+```yaml
+expiration-type: inherent
+validity-period:
+  start: 2026-03-25
+  end: 2026-03-27
+applicability-status: active|expired|archived
+post-expiration-handling: historical-archive|delete|review
+```
+
+**Distinction guide:**
+- `was-valid-until` + `correction-type: outdated`: Was believed true, discovered false
+- `validity-period` with `expiration-type: inherent`: Was applicable, context passed
+- `utility-expiry`: Time-sensitive data that can be refreshed
+- `expiration-interval`: Review frequency, not applicability window
+
+**See also:** [[Seed Gap - Knowledge with Inherent Expiration Windows]]
+
+**Edge case (NEW - 2026-03-25):** Seasonal knowledge has cyclic applicability — applies during specific seasons, then becomes "dormant" but not "wrong." A planting guide is valid in spring, "wrong" in fall only if applied literally, but actually just "not currently applicable."
+
 **Edge case:** In domains where knowledge is highly subjective (art criticism, aesthetic evaluation, creative domains), "utility" is context-dependent and hard to measure objectively. A note about "moody desaturated look" in photography has high utility for some users and none for others. For subjective domains, apply the test to connection + uniqueness + effort only; use "applicability-scope" (who is this for?) as a proxy for utility. Alternatively, use domain-appropriate utility criteria specific to the domain's goals.
 
 **Edge case (NEW - stress tested):** In context-dependent objective domains (medicine, law, engineering) and high-stakes domains, the diminishing returns test needs modification:
@@ -463,10 +590,11 @@ This is distinct from subjective domains — the issue is not that value is subj
 
 **Edge case (NEW - stress test 2026-03-17):** In long-horizon verification domains (gardening, permaculture, tree fruits, forestry, beekeeping, wine-making), verification takes years, not weeks. Standard verification workflow assumes days-to-months timeframes, but:
 - Perennials may take 3-5 years to truly assess (does the fruit tree thrive? survive winter? produce well?)
-- One year's failure may be weather, not the knowledge (need multiple years to confirm)
+- One year's success may be weather-related, not the knowledge — need multiple years to confirm
 - Seasonal variations mean spring planting ≠ fall planting success
+- **Explicit requirement for "verified" status:** Require 2+ growing seasons with consistent results before marking perennial notes as verified
 
-Apply long-horizon verification: (1) Use `verification-cycle:` field with values `annual|multi-year|perennial`, (2) Mark notes as `verification-status: multi-year-pending` with explicit `verification-completion-target: YYYY`, (3) Don't count toward verification ratio until cycle completes, (4) Allow higher unverified backlog for long-horizon domains (up to 50%) since verification is inherently slower.
+Apply long-horizon verification: (1) Use `verification-cycle:` field with values `annual|multi-year|perennial`, (2) Mark notes as `verification-status: multi-year-pending` with explicit `verification-completion-target: YYYY`, (3) Don't count toward verification ratio until cycle completes (minimum 2 growing seasons), (4) Allow higher unverified backlog for long-horizon domains (up to 50%) since verification is inherently slower.
 
 Example frontmatter for long-horizon knowledge:
 ```yaml
@@ -583,6 +711,21 @@ prediction-validated: true|false|pending
 inverse-authority-justified: true|false
 ```
 **High-stakes exception:** In medical, legal, and safety domains, always default to authoritative sources unless you hold domain credentials.
+
+**Edge case (stress test 2026-03-25 - personal finance):** The rule's high/low dichotomy misses "medium-stakes" domains like personal finance, career decisions, and educational choices — significant consequences but not catastrophic if wrong. Apply modified criteria:
+- **Medium-stakes require stronger expertise evidence:** Unlike high-stakes (where credentials are clear) or low-stakes (where expertise matters less), medium-stakes needs explicit expertise documentation. Require: demonstrable track record, relevant experience years, or verifiable outcomes.
+- **Validation timelines vary by domain:** Finance strategies might take years to validate; the rule's "prediction tested" criterion assumes shorter feedback loops. Add `validation-timeline: short|medium|long` to set expectations.
+- **Source quality classification matters more:** In finance, "authoritative sources" range from peer-reviewed research to blog posts. Classify sources as `peer-reviewed`, `industry-recognized`, `credentialed-expert`, or `popular` with appropriate weighting.
+- **Stakes-category field:** Add `stakes-category: high|medium|low` to notes where inverse authority applies:
+```yaml
+stakes-category: medium
+expertise-evidence:
+  track-record-years: 10
+  market-cycles-survived: 3
+  verifiable-outcomes: true
+authoritative-source-type: peer-reviewed
+validation-timeline: long
+```
 **See also:** [[Frontier Exploration - Inverse Authority Problem]]
 
 **Edge case (stress test 2026-03-16):** In hybrid technical-aesthetic domains (photography, videography, music production, audio engineering), diminishing returns testing must distinguish between:
@@ -1151,6 +1294,8 @@ patch-change-type: mechanic-rebalance|bug-fix|new-content|balance-change
 **Rule:** When splitting a note, create bidirectional links between the parts and rewire all incoming links.
 **Why:** Splitting without rewiring breaks navigation paths and orphans content.
 **Test:** After a split, do both new notes link to each other? Do all previous incoming links point to the correct part?
+
+**Edge case - distributed understanding:** Some knowledge has value in the relationships between concepts, not the concepts themselves. Splitting these notes destroys integrated value. When a note explicitly requires 3+ other notes to be fully understood AND those components are not independently useful, do NOT split — mark instead with `distributed-understanding: true`. The test: (1) Does this note build on multiple other notes? (2) Are those components not meaningful on their own? (3) Does the whole exceed the sum of parts? If yes to all three, preserve as distributed note.
 
 **Rule:** Each note must be self-contained — readable without clicking any links.
 **Why:** Notes that depend on external context become meaningless when links break or context shifts.
@@ -2115,6 +2260,9 @@ expected-answer-form: boolean|quantitative|qualitative
 - Music: `performance` (how to execute), `analysis` (understanding existing works), `compositional` (how to create), `hybrid`
 - Medicine: `diagnosis` (identifying conditions), `prognosis` (predicting outcomes), `treatment` (intervention selection), `hybrid`
 - Engineering: `theoretical` (principles), `practical` (implementation), `design` (creation), `hybrid`
+
+**Refinements (tested via domain stress tests):** For multi-modal notes (notes serving multiple use cases), use `knowledge-modality: mixed` with explicit `modalities-served:` list. For context-dependent applicability, add `context-scope:` field (values: domain-appropriate like `home-cooking`, `professional`, `field`, `historical`). For competing methodological frameworks within a domain, add `framework:` field (e.g., `traditional`, `modernist`, `classical`, `contemporary`). For atomic vs. composable knowledge, add `compositionality:` field (`atomic` for complete units like recipes, `composable` for reusable components like techniques). For personal vs. universal knowledge, add `subjectivity:` field (`universal` for domain truths like safety rules, `personal` for individual preferences, `contextual` for situation-dependent judgments). For evolving knowledge, add `temporal-scope:` field (`current`, `historical`, `evolving`).
+
 **Why it matters:** Performance knowledge is sequential and physical; analytical knowledge is hierarchical and comparative; compositional knowledge is creative and principle-based. Without distinguishing modalities, the vault can't serve different use cases effectively.
 
 **Rule:** For condition-triggered knowledge, include explicit `activation-conditions` frontmatter specifying what state must be true for this knowledge to apply.
@@ -3846,6 +3994,23 @@ examples:
 | 3 | 50 |
 | 4 | 100 |
 
+**Rule (NEW - 2026-03-26):** Extract and act on vault-level patterns systematically — use graph analytics to reveal growth imbalances, hidden hubs, topic clusters, structural gaps, and temporal patterns.
+**Why:** The vault's structure contains latent knowledge about knowledge management that can't be extracted from any single note. Without systematic pattern extraction, valuable insights about the vault's own health and direction are invisible. Growth patterns reveal capture focus; hidden hubs show implicit structure; topic clusters reveal emergent themes; structural gaps appear only in graph topology.
+**Test:** Can you answer: (1) What's the growth rate by topic? (2) Which non-hub notes have the most incoming links? (3) What topic clusters exist? (4) Where does graph topology suggest missing knowledge? (5) What's the content churn pattern?
+**Implementation:** Run graph analysis monthly: topic growth rates, hub discovery, gap detection. Track growth patterns in a dedicated "vault health" note. Use frontmatter to tag notes with `growth-pattern:` (accelerating|stable|declining). Create explicit hub notes for high-connectivity concepts that lack them.
+```yaml
+# For vault analytics note
+vault-analytics: true
+last-analyzed: 2026-03-26
+metrics:
+  growth-by-topic: {topic: count}
+  hidden-hubs: [non-hub high-connectivity notes]
+  topic-clusters: [naturally grouped topics]
+  structural-gaps: [high-centrality low-connectivity]
+  content-churn: [frequently-updated notes]
+```
+**See also:** [[Frontier Exploration - Vault-Level Pattern Discovery]]
+
 ---
 
 ## 10. Tacit Knowledge
@@ -4220,6 +4385,8 @@ skill-level-required: intermediate
 ## Related
 - [[_root|Vault root]] — Entry point demonstrating the Seed in action
 - [[Schema.md]] — Vault frontmatter field documentation
+- [[Note Insertion Strategy]] — Where to place new knowledge in the graph
+- [[Note Creation Decision Framework]] — When to create a new note vs. extend an existing one
 - [[Atomic Note Principle]] — One idea per note
 - [[Linking Principle]] — Meaningful connections
 - [[Graph Traversal Efficiency]] — Maximum 3 hops navigation
@@ -4265,6 +4432,8 @@ skill-level-required: intermediate
 - [[Frontier Exploration - Amateur Astronomy Knowledge Bases]] — Specialized challenges of astronomy knowledge: equipment dependencies, location sensitivity, pattern recognition
 - [[Frontier Exploration - Tool-Interface Knowledge]] — Handling keybindings, menu paths, and API endpoints
 - [[Seed Stress Test - 5-1 Ratio Across Domains]] — Testing 5:1 personal-to-general ratio across multiple domains
+- [[Seed Gap - Code-Switching and Translanguaging]] — New gap: handling code-switching and translanguaging in multilingual knowledge bases
+- [[Seed Gap - Multi-Modal Knowledge Organization]] — New gap: organizing knowledge across text, image, audio, video, and code modalities
 - [[Seed Gaps - Domain-Specific Extensions]] — Consolidated domain-specific gaps and proposed refinements for finance, education, music, tax, language, and workshop crafts (merged from 6 Seed Gap notes)
 - [[Seed Stress Test - Mathematics Knowledge Base]] — Testing Seed rules in mathematics domain
 - [[Seed Stress Test - Stub Notes Rule in Mathematics Knowledge Base]] — Testing stub notes rule in mathematics
@@ -4280,5 +4449,7 @@ skill-level-required: intermediate
 - [[Seed Rule Proposal - Personal Experimentation Tracking]] — Proposed rule for tracking personal experiments
 - [[Seed Stress Test - Decision Threshold Rule in Software Architecture]] — Testing decision thresholds in technical domains
 - [[Seed Stress Test - Veterinary Medicine Knowledge Base]] — Testing Seed rules in medical domain
+
+- [[Seed Gap - Functional Threshold for Knowledge Bases]] — Missing: functional readiness test beyond structural metrics — when is a vault actually usable?
 
 - [[Frontier Exploration - Crisis and Emergency Response Knowledge]] — Handling time-critical, high-stakes knowledge requiring single-view retrieval and panic-optimized formatting

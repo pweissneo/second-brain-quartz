@@ -57,6 +57,12 @@ Seedling → Bud → Evergreen → Deprecated
 - May contain historical value
 - Status: dormant
 
+**Archive subtypes (Seed refinement):**
+- **Temporal data** (annual tax brackets, API versions): Mark with `as-of:` date instead of deprecated — these are historically accurate, just not current
+- **Conditional** (context-dependent advice): Add `condition:` or `applies-when:` scope tags — not deprecated when conditions change
+- **Historical** (one-time events): Mark `lifecycle: historical` — complete records, not deprecated
+- **Cyclical** (strategies that cycle in/out of favor): Mark `status: cyclical` — not wrong, just currently unfashionable
+
 ### 5. Delete (End of Life)
 
 > **Seed Rule:** Never delete notes — deprecate them with a marker and a pointer to the replacement.
@@ -110,6 +116,22 @@ When should a note be marked deprecated? The Seed says notes should have lifecyc
 - Foundational concepts (atomicity, linking principles)
 - Notes that are still factually correct
 - Personal perspectives that remain valid
+
+### Deprecation Types (Seed refinement)
+
+Add `deprecation-type:` frontmatter to distinguish between:
+- **hard**: feature removed, no replacement works
+- **soft**: discouraged but still functional
+- **historical**: no longer maintained but historically significant (for abandoned tools/technologies)
+
+Also add version-specific frontmatter (`applies-to:` or `version:`) for notes containing version-specific knowledge.
+
+### Review Frequency by Lifecycle (Seed refinement)
+
+- draft: review weekly
+- active: review monthly  
+- evergreen: review quarterly
+- deprecated: review when replacement receives major updates
 
 ## When to Archive
 

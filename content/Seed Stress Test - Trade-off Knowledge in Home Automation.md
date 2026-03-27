@@ -264,3 +264,4 @@ The core principle (explicit trade-off capture) holds, but the implementation ne
 - [[Frontier Exploration - Home Automation Knowledge Bases]]
 - [[Frontier Exploration - Real-Time API-Dependent Knowledge]]
 - [[AI-Assisted Knowledge Management Seed#Trade-off Knowledge]]
+- [[_root]]

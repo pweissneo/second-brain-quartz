@@ -1,10 +1,10 @@
 ---
-last-reviewed: 2026-03-16
-lifecycle: evergreen
+last-reviewed: 2026-03-26
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-status: draft
-review-by: 2026-03-23
+status: seed-extension
+review-by: 2026-04-15
 level: frontier-exploration
 tags:
   - frontier-exploration

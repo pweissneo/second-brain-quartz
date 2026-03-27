@@ -22,7 +22,7 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 ## The Anti-Patterns
 
 ### Workflow Anti-Patterns
-- [[Anti-Pattern - Note Hoarding]] — Saving everything without processing (combines Note Hoarding + Capturing What Should Be Skipped; see "Timing Confusion" section for capture-process separation)
+- [[Best Practice - Selective Capture]] — Saving everything without processing (combines Note Hoarding + Capturing What Should Be Skipped; see "Timing Confusion" section for capture-process separation)
 - [[Anti-Pattern - Perfectionism]] — Never publishing because it's "not ready"
 
 ### Structure Anti-Patterns

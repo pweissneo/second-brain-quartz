@@ -234,4 +234,4 @@ When applying Seed to home automation knowledge:
 - [[Frontier Exploration - Home Automation Knowledge Bases]]
 - [[AI-Assisted Knowledge Management Seed#Infrastructure-dependent domains]]
 - [[Seed Stress Test - Home Repair Knowledge Base]] (similar infrastructure dependencies)
-- [[Frontier Exploration - Real-Time API-Dependent Knowledge]]
+- [[Frontier Exploration - Real-Time API-Dependent Knowledge]]- [[_root]]

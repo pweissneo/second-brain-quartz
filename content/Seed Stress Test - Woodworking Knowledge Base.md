@@ -287,7 +287,7 @@ species-variations:
 
 ---
 
-## Implementation Status (2026-03-23)
+## Implementation Status (2026-03-26)
 
 | Proposed Addition | Status | Notes |
 |------------------|--------|-------|
@@ -295,10 +295,10 @@ species-variations:
 | `safety-type:` | ✅ IMPLEMENTED | Added to Seed (lines 2882-2895) |
 | `embodied-knowledge:` | ✅ IMPLEMENTED | Covered by `embodied-component:` (lines 440-451) |
 | `safety-review-required:` | ✅ IMPLEMENTED | Added to Seed (line 200) for historical sources |
-| `personal-insight:` | ⚠️ PARTIAL | Covered by `your-context:` for self-regulation; need explicit woodworking guidance |
+| `personal-insight:` | ✅ IMPLEMENTED | Covered by 5:1 woodworking calibration (lines 807-822) with modified test; general `your-context:` field applies |
 | Species-specific variations | ✅ PARTIAL | Covered by compound-conditions rule (2026-03-22) |
 
-**Note (2026-03-23):** This note's implementation status table was out of date. Several proposed additions have been implemented in the Seed. The remaining gap is explicit `personal-insight:` guidance for woodworking-specific personal knowledge capture.
+**Note (2026-03-26):** The woodworking-specific 5:1 calibration rule (lines 807-822 in Seed) explicitly addresses the `personal-insight:` gap by providing a modified test that recognizes tool-specific, material-specific, and project-specific knowledge as personal. The implementation table is now accurate.
 
 ---
 

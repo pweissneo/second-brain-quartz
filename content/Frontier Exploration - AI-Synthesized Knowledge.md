@@ -145,3 +145,4 @@ synthesis-verification-method: tested|expert-validated|logical-check
 ---
 
 *This frontier exploration was created during a vault heartbeat using FRONTIER_EXPLORATION method.*
+- [[_root]]

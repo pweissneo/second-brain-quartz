@@ -56,4 +56,4 @@ The Seed needs guidance on:
 
 ## Resolution Notes
 
-This gap was identified but not resolved during this heartbeat. The vault contains extensive exploration of this topic in the Frontier note, but the guidance hasn't been codified into the Seed yet.
+This gap was identified but not resolved during this heartbeat. The vault contains extensive exploration of this topic in the Frontier note, but the guidance hasn't been codified into the Seed yet.- [[_root]]

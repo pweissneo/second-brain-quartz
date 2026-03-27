@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-09
+last-reviewed: 2026-03-26
 lifecycle: evergreen
 tags:
   - structure
@@ -134,7 +134,7 @@ See [[Graph Traversal Efficiency]] for tool details.
 - [[AI-Assisted Knowledge Management Seed]] - What to include/exclude
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
 - [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
-- [[Frontier Exploration - Multi-Modal Knowledge Representation]] - Media beyond text
+- [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] - Multi-domain topics
 
 ---
