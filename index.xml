@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Tool-Dependent-Verification-in-Medical-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Tool-Dependent-Verification-in-Medical-Knowledge</guid>
     <description><![CDATA[ Seed Stress Test: Tool-Dependent Verification in Medical Knowledge Testing Seed rules against knowledge that requires external tools or expertise to verify in medical/health domains. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Linking Rule in Cooking</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Linking-Rule-in-Cooking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Linking-Rule-in-Cooking</guid>
     <description><![CDATA[ Seed Stress Test: Linking Rule in Cooking Domain Rule tested: Every note must link to at least 2 other notes OR be tagged with foundational: true OR be tagged with specialized: true. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Inverse Authority Rule in Personal Finance</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Inverse-Authority-Rule-in-Personal-Finance</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Inverse-Authority-Rule-in-Personal-Finance</guid>
     <description><![CDATA[ Seed Stress Test: Inverse Authority Rule in Personal Finance Testing the “inverse authority calibration” rule in personal finance/investing domain. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Equipment Tier Rule Test</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Tier-Rule-Test</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Tier-Rule-Test</guid>
     <description><![CDATA[ Seed Stress Test: Equipment Tier Rule Test (2026-03-26) Tested the equipment tier rule from the Seed in the woodworking domain: Rule Tested Edge case (2026-03-23): In workshop-dependent craft domains (woodworking, metalworking, leatherworking, sewing), equipment tier significantly affects technique ... ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Construction Phase Threshold for Diminishing Returns</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Threshold-for-Diminishing-Returns</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Construction-Phase-Threshold-for-Diminishing-Returns</guid>
     <description><![CDATA[ Seed Stress Test: Construction Phase Threshold for Diminishing Returns Testing when diminishing returns testing should “turn on” during vault construction. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Rule - Distributed Understanding</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule---Distributed-Understanding</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule---Distributed-Understanding</guid>
     <description><![CDATA[ Seed Rule: Distributed Understanding Handling Knowledge that requires synthesizing across multiple notes must be explicitly marked to prevent inappropriate splitting. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Verification Requiring External Tooling</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Requiring-External-Tooling</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Requiring-External-Tooling</guid>
-    <description><![CDATA[ Seed Gap - Verification Requiring External Tooling Gap Type: Verification Pathway Missing Observed Problem: The Seed covers source verification, empirical verification, tool-executable verification (tests/code), and embodied verification. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Vault Self-Monitoring and Health Intelligence</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Vault-Self-Monitoring-and-Health-Intelligence</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Vault-Self-Monitoring-and-Health-Intelligence</guid>
     <description><![CDATA[ Seed Gap - Vault Self-Monitoring and Health Intelligence The Gap The Seed contains scattered health-related concepts but lacks a unified framework for vault self-monitoring — the ability for a knowledge base to track, assess, and report on its own health state programmatically. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Verification Requiring External Tooling</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Requiring-External-Tooling</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Requiring-External-Tooling</guid>
+    <description><![CDATA[ Seed Gap - Verification Requiring External Tooling Gap Type: Verification Pathway Missing Observed Problem: The Seed covers source verification, empirical verification, tool-executable verification (tests/code), and embodied verification. ]]></description>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Subjective Personal Knowledge Handling</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Subjective-Personal-Knowledge-Handling</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Subjective-Personal-Knowledge-Handling</guid>
     <description><![CDATA[ Seed Gap - Subjective Personal Knowledge Handling The Gap The Seed has rules for confidence levels (high, emerging, speculative, disputed) and verification status (verified, unverified, pending, disputed), but lacks explicit guidance for subjective personal knowledge — knowledge that is true for an ... ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Seed Gap Note Lifecycle Management</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Seed-Gap-Note-Lifecycle-Management</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Seed-Gap-Note-Lifecycle-Management</guid>
     <description><![CDATA[ Seed Gap - Seed Gap Note Lifecycle Management The Gap The vault contains 23 Seed Gap notes, but they have inconsistent lifecycle management: Some marked “identified” with no clear resolution path Some marked “resolved” but the resolution is incomplete No clear process for resolving vs. ]]></description>
-    <pubDate>Fri, 27 Mar 2026 00:35:41 GMT</pubDate>
+    <pubDate>Fri, 27 Mar 2026 01:21:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
