@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Refinement - Diminishing Returns Testing Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</guid>
-    <description><![CDATA[ Seed Refinement: Diminishing Returns Testing Across Domains Synthesizing insights from multiple Seed stress tests to propose a refined rule for diminishing returns testing. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
+    <title>Seed Stress Test - Version Scope Rule in Data Science ML</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Version-Scope-Rule-in-Data-Science-ML</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Version-Scope-Rule-in-Data-Science-ML</guid>
+    <description><![CDATA[ Stress Test: Version Scope Rule in Data Science / Machine Learning Seed Rule Being Tested Rule: For knowledge that applies only to specific software versions, tool releases, or library iterations, include explicit version scope in frontmatter. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
   </item><item>
-    <title>Knowledge Pruning and Deprecation Workflows</title>
-    <link>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</link>
-    <guid>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</guid>
-    <description><![CDATA[ Knowledge Pruning and Deprecation Workflows How should an AI agent systematically prune deprecated knowledge and manage knowledge lifecycle transitions? The Gap The Seed covers: Note lifecycle (evergreen, staging, draft) Verification status (verified, unverified) Obsolescence detection triggers Depr... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - When Does Personal Context Add Value</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---When-Does-Personal-Context-Add-Value</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---When-Does-Personal-Context-Add-Value</guid>
-    <description><![CDATA[ Frontier Exploration: When Does Personal Context Add Value? How do you determine if capturing YOUR specific context (vs. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Interaction Knowledge Type</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
-    <description><![CDATA[ Seed Gap: Interaction Knowledge Type What Knowledge Type Is Missing The Seed has rules for many knowledge types: Procedural (how to do X) Conceptual (what X means) Temporal (time-dependent) Conditional (if-then) Recognition (pattern identification) Troubleshooting (diagnostic reasoning) But it lacks... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Seed Rules in Programming Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</guid>
-    <description><![CDATA[ Stress Test - Seed Rules in Programming Knowledge Bases Testing whether Seed rules hold up when applied to software development knowledge bases. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Rule Proposal - Voice Consistency</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</guid>
-    <description><![CDATA[ Seed Rule Proposal: Knowledge Base Voice Consistency Rule Statement Rule: Define explicit voice and persona standards for the knowledge base — document the intended tone, terminology preferences, and stylistic guidelines that all notes should follow. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Every Link Must Be Explainable in Legal Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Every-Link-Must-Be-Explainable-in-Legal-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Every-Link-Must-Be-Explainable-in-Legal-Knowledge</guid>
-    <description><![CDATA[ Stress Test: Every Link Must Be Explainable in Legal Knowledge Note: This stress test uses hypothetical legal domain examples for illustrative purposes. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
+    <title>Seed Stress Test - Verification Status Rule in Home Repair</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Status-Rule-in-Home-Repair</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Status-Rule-in-Home-Repair</guid>
+    <description><![CDATA[ Stress Test: Verification-Status Rule in Home Repair/DIY Seed Rule Being Tested Rule: For procedural content (recipes, code, tutorials, technical specs), include a verification-status field: unverified | tested | community-validated. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Thinking Tools Rule in Meditation Mindfulness Knowledge Base</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Thinking-Tools-Rule-in-Meditation-Mindfulness-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Thinking-Tools-Rule-in-Meditation-Mindfulness-Knowledge-Base</guid>
     <description><![CDATA[ Stress Test: Thinking Tools Rule in Meditation &amp; Mindfulness Knowledge Base Testing: Distinguish thinking tools from domain knowledge — tag notes containing metacognitive strategies, reasoning frameworks, or cognitive patterns with thinking-tool: true. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Automated Vault Health Monitoring</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Automated-Vault-Health-Monitoring</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Automated-Vault-Health-Monitoring</guid>
-    <description><![CDATA[ Seed Gap - Automated Vault Health Monitoring Status: IDENTIFIED (2026-03-27) The Gap The Seed includes rules for: Quarterly consistency scans (manual) Debt score calculation (formula provided) Verification backlog tracking Construction phase completion criteria However, the Seed lacks explicit guida... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
+    <title>Seed Stress Test - Temporal Knowledge Rule in Stock Trading</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Temporal-Knowledge-Rule-in-Stock-Trading</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Temporal-Knowledge-Rule-in-Stock-Trading</guid>
+    <description><![CDATA[ Stress Test: Temporal Knowledge Rule in Stock Trading Rule handles trading domain well. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Expertise Level Rule in Foreign Language Learning</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Expertise-Level-Rule-in-Foreign-Language-Learning</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Expertise-Level-Rule-in-Foreign-Language-Learning</guid>
-    <description><![CDATA[ Stress Test: Expertise-Level Rule in Foreign Language Learning Testing the rule: “Tag expertise-level for knowledge that is only appropriate at certain skill levels — don’t present beginner advice as universal truth.” The Domain Foreign language learning has distinct expertise levels with fundamenta... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
+    <title>Seed Stress Test - Tags vs Links Rule in Gardening</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Tags-vs-Links-Rule-in-Gardening</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Tags-vs-Links-Rule-in-Gardening</guid>
+    <description><![CDATA[ Stress Test: Tags vs Links Rule in Gardening Knowledge Base Seed Rule Being Tested Rule: Use tags for broad categorization and filtering; use links for essential relationships and navigation. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Source Quality Hierarchy in Medical Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Source-Quality-Hierarchy-in-Medical-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Source-Quality-Hierarchy-in-Medical-Knowledge</guid>
+    <description><![CDATA[ Stress Test: Source Quality Hierarchy in Medical Knowledge Note: This stress test uses hypothetical medical domain examples for illustrative purposes. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Seed Rules in Programming Knowledge Bases</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</guid>
+    <description><![CDATA[ Stress Test - Seed Rules in Programming Knowledge Bases Testing whether Seed rules hold up when applied to software development knowledge bases. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Self-Contained Notes Rule Across Domains</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Self-Contained-Notes-Rule-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Self-Contained-Notes-Rule-Across-Domains</guid>
+    <description><![CDATA[ Stress Test: Self-Contained Notes Rule Across Domains Testing Seed rule: “Every note must be self-contained — readable without clicking any links.” This note consolidates stress tests from multiple domains (Legal, Music Composition) to provide a comprehensive view of the Self-Contained Notes rule’s ... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Probabilistic Knowledge Rule Across Domains</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Probabilistic-Knowledge-Rule-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Probabilistic-Knowledge-Rule-Across-Domains</guid>
+    <description><![CDATA[ Stress Test: Probabilistic Knowledge Rule Across Domains Testing the Seed’s probabilistic knowledge rule across multiple domains to identify edge cases and refinements. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Stress Test - Prerequisites Rule in Framework Learning</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Prerequisites-Rule-in-Framework-Learning</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Prerequisites-Rule-in-Framework-Learning</guid>
+    <description><![CDATA[ Stress Test: Prerequisites Rule in Framework Learning (Programming) Seed Rule Being Tested Rule: For notes tagged difficulty: advanced or covering multi-step concepts, include explicit prerequisites in frontmatter listing required background notes. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:06:46 GMT</pubDate>
   </item>
     </channel>
   </rss>
