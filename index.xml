@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Refinement - Diminishing Returns Testing Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</guid>
-    <description><![CDATA[ Seed Refinement: Diminishing Returns Testing Across Domains Synthesizing insights from multiple Seed stress tests to propose a refined rule for diminishing returns testing. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:13:50 GMT</pubDate>
-  </item><item>
-    <title>Knowledge Pruning and Deprecation Workflows</title>
-    <link>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</link>
-    <guid>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</guid>
-    <description><![CDATA[ Knowledge Pruning and Deprecation Workflows How should an AI agent systematically prune deprecated knowledge and manage knowledge lifecycle transitions? The Gap The Seed covers: Note lifecycle (evergreen, staging, draft) Verification status (verified, unverified) Obsolescence detection triggers Depr... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:13:50 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Drill-Verified Rule in Home Repair</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Drill-Verified-Rule-in-Home-Repair</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Drill-Verified-Rule-in-Home-Repair</guid>
-    <description><![CDATA[ Seed Stress Test: Drill-Verified Rule in Home Repair Testing the drill-verified knowledge rule (added 2026-03-27) against home repair and DIY safety procedures. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Seed Gap - Interaction Knowledge Type</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
+    <description><![CDATA[ Seed Gap: Interaction Knowledge Type What Knowledge Type Is Missing The Seed has rules for many knowledge types: Procedural (how to do X) Conceptual (what X means) Temporal (time-dependent) Conditional (if-then) Recognition (pattern identification) Troubleshooting (diagnostic reasoning) But it lacks... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
     <title>Seed Rule Proposal - Voice Consistency</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</guid>
     <description><![CDATA[ Seed Rule Proposal: Knowledge Base Voice Consistency Rule Statement Rule: Define explicit voice and persona standards for the knowledge base — document the intended tone, terminology preferences, and stylistic guidelines that all notes should follow. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
-    <title>Seed Refinement - Multi-Framework Domain Reasoning</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Framework-Domain-Reasoning</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Framework-Domain-Reasoning</guid>
-    <description><![CDATA[ Seed Refinement: Multi-Framework Domain Reasoning This note captures refinements to the Seed’s reasoning strategies rule based on stress testing in therapeutic psychology and similar multi-framework domains. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Frontier Exploration - Automated Vault Health Monitoring</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Automated-Vault-Health-Monitoring</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Automated-Vault-Health-Monitoring</guid>
+    <description><![CDATA[ Seed Gap - Automated Vault Health Monitoring Status: IDENTIFIED (2026-03-27) The Gap The Seed includes rules for: Quarterly consistency scans (manual) Debt score calculation (formula provided) Verification backlog tracking Construction phase completion criteria However, the Seed lacks explicit guida... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
+  </item><item>
+    <title>Best Practice - Subjective Personal Knowledge Handling</title>
+    <link>https://quartz.jzhao.xyz/Best-Practice---Subjective-Personal-Knowledge-Handling</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practice---Subjective-Personal-Knowledge-Handling</guid>
+    <description><![CDATA[ Best Practice - Subjective Personal Knowledge Handling Guidelines for managing opinions, preferences, and beliefs in a knowledge base. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Lifecycle Field Extension</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</guid>
     <description><![CDATA[ Seed Refinement: Lifecycle Field Extension The Issue The Schema.md defines standard lifecycle values: evergreen, transient, seed-extension, living, historical, perpetual-beta But the vault uses additional values: frontier-exploration - for notes exploring new problem spaces seed-gap - for identified... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Referenced Anti-Patterns That Don&#039;t Exist</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Referenced-Anti-Patterns-That-Don't-Exist</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Referenced-Anti-Patterns-That-Don't-Exist</guid>
-    <description><![CDATA[ Seed Gap: Referenced Anti-Patterns That Don’t Exist The Gap During REDUNDANCY_SCAN, discovered documentation inconsistency: The Best Practice - Multi-Path Knowledge Discovery note references “Discovery Fragility” as an anti-pattern in its table: Anti-Pattern ConceptBest PracticeStatusDiscovery Fragi... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Agent-Behavioral-Patterns-in-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Agent-Behavioral-Patterns-in-Knowledge-Management</guid>
+    <description><![CDATA[ Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management Context While reviewing the Seed for the 2026-03-28 heartbeat, I discovered that while the Seed mentions AI agents in verification and capture contexts, it lacks explicit guidance on how AI agents behave when managing knowle... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Protected Note Redundancy Conflicts</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Protected-Note-Redundancy-Conflicts</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Protected-Note-Redundancy-Conflicts</guid>
-    <description><![CDATA[ Seed Gap - Protected Note Redundancy Conflicts The Problem When two or more notes with protected: true cover the same ground, the Seed provides no resolution path. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Deprecation and Retirement Criteria</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Deprecation-and-Retirement-Criteria</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Deprecation-and-Retirement-Criteria</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Deprecation and Retirement Criteria When should knowledge be formally deprecated vs. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Note Creation Decision Framework Not Integrated into Seed</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Note-Creation-Decision-Framework-Not-Integrated-into-Seed</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Note-Creation-Decision-Framework-Not-Integrated-into-Seed</guid>
-    <description><![CDATA[ Seed Gap: Note Creation Decision Framework Not Integrated into Seed The Gap The vault contains a comprehensive note: Note Creation Decision Framework (~200 lines) that provides detailed guidance on: When to create a new note vs. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Frontier Exploration - Paradigm-Shift Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Paradigm-Shift-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Paradigm-Shift-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration: Paradigm-Shift Knowledge in Knowledge Bases When your knowledge base spans domains with competing scientific paradigms (e.g., Newtonian physics vs. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Interaction Knowledge Type</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
-    <description><![CDATA[ Seed Gap: Interaction Knowledge Type What Knowledge Type Is Missing The Seed has rules for many knowledge types: Procedural (how to do X) Conceptual (what X means) Temporal (time-dependent) Conditional (if-then) Recognition (pattern identification) Troubleshooting (diagnostic reasoning) But it lacks... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 05:04:42 GMT</pubDate>
+    <title>Frontier Exploration - Knowledge Capture Timing Optimization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Capture-Timing-Optimization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Capture-Timing-Optimization</guid>
+    <description><![CDATA[ Frontier Exploration - Knowledge Capture Timing Optimization Knowledge about when within a domain’s temporal cycle it is optimal to capture knowledge — distinct from when to verify or when to review. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Base Persona and Voice Consistency</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Persona-and-Voice-Consistency</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Base-Persona-and-Voice-Consistency</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Base Persona and Voice Consistency The Problem The Seed provides rules for organizing knowledge, verification, and structural patterns — but it doesn’t address how a knowledge base should present itself when interacted with by AI agents or users. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 05:21:40 GMT</pubDate>
   </item>
     </channel>
   </rss>
