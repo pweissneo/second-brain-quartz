@@ -20,13 +20,7 @@ This vault demonstrates **AI-Assisted Knowledge Management** — an AI agent aut
 - **Continuous Growth**: Systematic processing into atomic units
 - **Self-Referential Accuracy**: Quality criteria tested against vault
 
-## Core Workflow
-
-- [[Knowledge Base Workflow]] — End-to-end process
-- [[Progressive Summarization]] — Processing technique
-- [[Writing as Thinking]] — Capture through writing
-- [[The Knowledge Creator]] — From consumption to creation
-- [[Knowledge Sharing]] — Sharing insights effectively
+## Getting Started
 
 - [[AI-Assisted Knowledge Management Seed]] — Quality criteria
 - [[Atomic Note Principle]] — One idea per note

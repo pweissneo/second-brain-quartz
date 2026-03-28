@@ -509,6 +509,32 @@ conflict-resolution:
 **Why:** Notes that don't improve utility, can't connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value.
 **Test:** For the last 5 notes added to a mature topic: Do 3+ pass all four tests?
 
+**Edge case (REFINED - 2026-03-28):** Apply domain-specific modifications to diminishing returns testing:
+1. **Domain risk profile:** Adjust threshold based on domain stakes — strict (skip if fails 1+) for high-stakes domains (medical, legal, veterinary), relaxed (skip if fails 3+) for exploration-phase vaults
+2. **Temporal utility:** For version-sensitive knowledge (ML frameworks, software), assess whether utility is current, declining, or expired
+3. **Contextual uniqueness:** Distinguish global uniqueness (new concept) from contextual uniqueness (your specific implementation, troubleshooting, experimental results)
+4. **Override conditions:** Always capture notes with `criticality: critical`, `rare-condition: true`, `prerequisite: true`, `design-phase: ideation`, or `emergency-protocol: true`
+
+**Implementation:** Use extended frontmatter:
+```yaml
+diminishing-returns:
+  utility-score: 0-3
+  connection-score: 0-3
+  uniqueness-score: 0-3
+  effort-score: 0-3
+  failures: 0-4
+  passed: true|false
+  domain-modifier: strict|standard|relaxed
+  override-applied: true|false
+domain-risk-profile: standard|rapid-evolution|high-variance|high-stakes
+utility-timeline: current|declining|expiring|expired
+stakes: none|low|medium|high|critical
+override-diminishing-returns: true|false
+override-reason: rare-condition|emergency-protocol|prerequisite|design-ideation|criticality
+```
+
+**See also:** [[Seed Refinement - Diminishing Returns Testing Across Domains]] — detailed cross-domain analysis and implementation guidance
+
 **Rule (NEW - 2026-03-22):** Evaluate maintenance burden before capturing volatile knowledge — exclude or deprioritize knowledge that is high-maintenance (frequently changing) AND low-utility (easily looked up elsewhere) AND lacks personalization (no unique context you provide).
 **Why:** Some knowledge is "expensive" to maintain — it requires ongoing updates just to stay accurate, but provides low value because it's easily found elsewhere. Capturing version-sensitive technical trivia, frequently-changing prices, or transient opportunities creates maintenance debt without proportional benefit. The vault should capture what can't be easily found or what includes your unique context.
 **Test:** For knowledge about version-locked software, price-sensitive topics, time-sensitive opportunities, or frequently-changing facts: (1) Does this include personalized context that can't be found elsewhere? (2) Is the volatility so high the knowledge will be stale within 30 days? (3) Could a web search provide current information faster than maintaining this note? If 2-3 are true and 1 is false, exclude or mark with short expiration-interval.
@@ -1376,6 +1402,44 @@ next-decisions:
 **Why:** Meaningless links inflate the graph without adding navigational or conceptual value.
 **Test:** For each link in a note, can you state why the reader should follow it? Remove any link where you cannot.
 **Edge case:** Domain-specific citation links (legal statutes, academic references, technical specifications) may serve authority rather than navigation — "This statement is supported by [[15 U.S.C. § 78j(b)]]" is explainable as establishing legal authority, even if readers wouldn't follow it for learning.
+
+**Refinement (NEW - stress test 2026-03-27):** The "explainable" test works for learning links but doesn't distinguish between different link purposes. Apply this refined framework:
+
+**Link type categories:**
+1. **Learning links** (primary) — "Understanding X helps you understand Y" — the original test applies directly
+2. **Constitutive links** (acceptable) — "X is part of Y" — structural descriptions that clarify composition but aren't learning paths (e.g., "The exposition introduces the [[primary theme]]")
+3. **Reference links** (decorative) — Basic assumed knowledge for the target audience — explainable but add no value in specialized vaults (e.g., linking to "violin" in a composer's vault)
+4. **Notation links** (convert to tags) — Harmonic/melodic shorthand patterns (e.g., [[I-vi-IV-V]] should be a tag, not a link)
+5. **Developmental links** (describe, don't link) — Transformation/evolution relationships that don't map to "follow this link" (e.g., "The motif [[develops]] throughout" — describe the relationship instead)
+
+**Refined test:** For each link:
+1. Is this basic assumed knowledge for your target audience? → Reference → remove or mark decorative
+2. Is this notation shorthand (chord symbols, scale degrees)? → Notation → convert to tag
+3. Is this constitutive ("X is part of Y") or learning ("X helps understand Y")? → Mark constitutive in frontmatter if keeping
+4. Can you state what the reader learns by following? → Learning → keep
+
+**Test (AI-executable):**
+```python
+def evaluate_link(link, note_context, target_audience):
+    if is_basic_assumed_knowledge(link, target_audience):
+        return "reference - likely decorative, remove"
+    if is_notation_shorthand(link):
+        return "notation - convert to tag"
+    if is_constitutive(link, note_context):
+        return "constitutive - acceptable, consider marking"
+    if can_state_learning_value(link):
+        return "learning - keep"
+    return "remove - no clear purpose"
+```
+
+**Implementation:** Use frontmatter to track link types for quality audits:
+```yaml
+link-type: learning|constitutive|reference|notation|developmental
+```
+
+**Edge case - Circular links:** Linking to [[functional harmony]] from a note about functional harmony is neither learning nor constitutive — it's circular and should be removed.
+
+**See also:** [[Seed Refinement - Link Explainability Rule]], [[Seed Stress Test - Every Link Must Be Explainable in Music Composition]]
 **Edge case:** Hierarchical references (statutes referencing other statutes, regulations referencing statutes) are explainable — "This regulation implements Section 10(b)" explains the relationship.
 **Edge case:** Terminology chains where defining terms link to their components may be circular — "A [[proxy]] is someone who acts as a [[proxy]]" is tautological. Test: Can you explain the connection without repeating the term?
 **Edge case:** Links to umbrella/broad terms (e.g., linking "contract law" to "Contract Law") may be too vague. Prefer linking to specific concepts the note actually discusses.
