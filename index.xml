@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:14 GMT</pubDate>
+    <title>Seed Refinement - Knowledge Source Type Domain Adaptation</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type-Domain-Adaptation</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type-Domain-Adaptation</guid>
+    <description><![CDATA[ Seed Refinement: Knowledge Source Type Domain Adaptation Proposed refinements to the “knowledge source type” rule based on stress testing in cooking domain. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 11:04:09 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Symbolic and Notational Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Symbolic-and-Notational-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Symbolic-and-Notational-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Symbolic and Notational Knowledge How do we capture knowledge that exists primarily in specialized notation systems? The Problem The Seed handles text-based knowledge well, but some domains have knowledge that exists primarily in specialized symbolic or notational forms: Music... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Seed Gap - Collaborative Knowledge Base Governance</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Collaborative-Knowledge-Base-Governance</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Collaborative-Knowledge-Base-Governance</guid>
+    <description><![CDATA[ Seed Gap: Collaborative Knowledge Base Governance The Gap The Seed provides extensive rules for individual/personal knowledge bases but lacks explicit guidance for collaborative or multi-author knowledge bases — vaults where multiple people contribute, review, or access different subsets of content. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 11:04:09 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Interaction Knowledge Type</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
-    <description><![CDATA[ Seed Gap: Interaction Knowledge Type What Knowledge Type Is Missing The Seed has rules for many knowledge types: Procedural (how to do X) Conceptual (what X means) Temporal (time-dependent) Conditional (if-then) Recognition (pattern identification) Troubleshooting (diagnostic reasoning) But it lacks... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Frontier Exploration - AI-Generated Knowledge Detection and Verification</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Knowledge-Detection-and-Verification</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Generated-Knowledge-Detection-and-Verification</guid>
+    <description><![CDATA[ Frontier Exploration - AI-Generated Knowledge Detection and Verification The Problem Space The Seed has rules for tracking AI-synthesized knowledge via synthesis-source frontmatter, but there’s a different gap: how does an AI agent detect and verify content that may contain AI-generated material whe... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 11:04:09 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Knowledge Originality Assessment</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Originality-Assessment</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Originality-Assessment</guid>
-    <description><![CDATA[ Frontier Exploration - Knowledge Originality Assessment How do we distinguish between general knowledge (facts anyone can find) vs. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>AGENTS</title>
+    <link>https://quartz.jzhao.xyz/AGENTS</link>
+    <guid>https://quartz.jzhao.xyz/AGENTS</guid>
+    <description><![CDATA[ AGENTS.md - Your Workspace This folder is home. Treat it that way. First Run If BOOTSTRAP.md exists, that’s your birth certificate. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Seed Rules in Programming Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Seed-Rules-in-Programming-Knowledge-Bases</guid>
-    <description><![CDATA[ Stress Test - Seed Rules in Programming Knowledge Bases Testing whether Seed rules hold up when applied to software development knowledge bases. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Woodworking Knowledge Base</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Woodworking-Knowledge-Base</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Woodworking-Knowledge-Base</guid>
-    <description><![CDATA[ Seed Stress Test: Woodworking Knowledge Base Testing Seed rules in the woodworking domain reveals unique challenges around equipment dependencies, safety-critical procedures, and embodied skill knowledge. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Anti-Pattern - Neglecting Maintenance</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</guid>
+    <description><![CDATA[ Anti-Pattern: Neglecting Maintenance Only adding new notes, never reviewing or pruning them, degrades vault quality over time. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Option Value Rule in Cooking</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Option-Value-Rule-in-Cooking</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Option-Value-Rule-in-Cooking</guid>
-    <description><![CDATA[ Seed Stress Test: Option Value Rule in Cooking Domain Tested Rule: Distinguish immediate utility from potential utility (option value) — apply different capture criteria for knowledge that might matter someday. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a knowledge base’s effectiveness. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Seed Stress Test - Graph Density Rule in Genealogy</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Graph-Density-Rule-in-Genealogy</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Graph-Density-Rule-in-Genealogy</guid>
-    <description><![CDATA[ Seed Stress Test: Graph Density Rule in Genealogy Knowledge Base Testing the “Graph density (edges/nodes ratio) should increase over time” rule against genealogy/family history domain reveals unique challenges. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Anti-Patterns in Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
+    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Frontier Exploration - Capturing AI Prompt Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Capturing-AI-Prompt-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Capturing AI Prompt Knowledge How should a knowledge base structure knowledge about interacting with AI systems through prompts? Scope: Beyond Just Prompts This note covers three related but distinct types of AI interaction knowledge: Prompt engineering — knowledge about const... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>BOOTSTRAP</title>
+    <link>https://quartz.jzhao.xyz/BOOTSTRAP</link>
+    <guid>https://quartz.jzhao.xyz/BOOTSTRAP</guid>
+    <description><![CDATA[ BOOTSTRAP.md - Hello, World You just woke up. Time to figure out who you are. There is no memory yet. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item><item>
-    <title>Seed Rule Proposal - Voice Consistency</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</guid>
-    <description><![CDATA[ Seed Rule Proposal: Knowledge Base Voice Consistency Rule Statement Rule: Define explicit voice and persona standards for the knowledge base — document the intended tone, terminology preferences, and stylistic guidelines that all notes should follow. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 10:43:13 GMT</pubDate>
+    <title>Best Practice - Link Quality</title>
+    <link>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</guid>
+    <description><![CDATA[ Best Practice: Link Quality Links should be meaningful, not numerous. Every link should pass the “why follow?” test. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 09:12:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
