@@ -429,9 +429,25 @@ Every rule is domain-agnostic — works for any topic.</p>
 </ul>
 <p><strong>Edge cases:</strong></p>
 <ul>
-<li><strong>Self-taught emergency knowledge:</strong> If you learned from YouTube而非certified course, note <code>certification-equivalent: self-taught</code> and consider formal certification</li>
-<li><strong>Drill failure:</strong> If you fail to perform correctly during drill, mark as <code>verification-status: drill-failed</code> and update note with what went wrong</li>
-<li><strong>Domain-specific drill:</strong> Cooking (choking response), woodworking (first-aid for injuries), travel (emergency protocols) — each domain needs drill-verified procedures</li>
+<li>
+<p><strong>Self-taught emergency knowledge:</strong> If you learned from YouTube而非certified course, note <code>certification-equivalent: self-taught</code> and consider formal certification</p>
+</li>
+<li>
+<p><strong>Drill failure:</strong> If you fail to perform correctly during drill, mark as <code>verification-status: drill-failed</code> and update note with what went wrong</p>
+</li>
+<li>
+<p><strong>Domain-specific drill:</strong> Cooking (choking response), woodworking (first-aid for injuries), travel (emergency protocols) — each domain needs drill-verified procedures</p>
+</li>
+<li>
+<p><strong>Edge case (stress test 2026-03-28 - home repair):</strong> Safety procedures in high-consequence domains (home repair, woodworking, electrical, structural work) face unique drill verification challenges:</p>
+<ul>
+<li>Some procedures cannot be fully drilled (ladder fall response, electrical emergency response) — use <code>drill-type: mental-rehearsal</code> when full drill is not feasible</li>
+<li>High-consequence knowledge (electrical, structural, height work) requires both source AND drill verification for full confidence</li>
+<li>Add <code>exposure-frequency:</code> (daily|weekly|monthly|rarely) to calculate appropriate drill frequency based on how often the person uses these skills</li>
+<li>For procedures requiring professional certification, tag <code>professional-required: true</code></li>
+<li>Safety-critical knowledge is often both drill-verified AND source-verified — the two verification modes are orthogonal, not mutually exclusive</li>
+</ul>
+</li>
 </ul>
 <p><strong>Why this matters:</strong> Knowledge you hope to never use still needs verification — but the verification method is fundamentally different. CPR knowledge that “looks correct” in a note may fail under stress if not internalized through practice.</p>
 <p><strong>See also:</strong> <a href="./Frontier-Exploration---Emergency-and-First-Aid-Knowledge-in-Knowledge-Bases" class="internal alias" data-slug="Frontier-Exploration---Emergency-and-First-Aid-Knowledge-in-Knowledge-Bases">Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases</a></p>
