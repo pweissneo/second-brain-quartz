@@ -6,6 +6,24 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Refinement - Diminishing Returns Testing Across Domains</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Diminishing-Returns-Testing-Across-Domains</guid>
+    <description><![CDATA[ Seed Refinement: Diminishing Returns Testing Across Domains Synthesizing insights from multiple Seed stress tests to propose a refined rule for diminishing returns testing. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
+  </item><item>
+    <title>Knowledge Pruning and Deprecation Workflows</title>
+    <link>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</link>
+    <guid>https://quartz.jzhao.xyz/Knowledge-Pruning-and-Deprecation-Workflows</guid>
+    <description><![CDATA[ Knowledge Pruning and Deprecation Workflows How should an AI agent systematically prune deprecated knowledge and manage knowledge lifecycle transitions? The Gap The Seed covers: Note lifecycle (evergreen, staging, draft) Verification status (verified, unverified) Obsolescence detection triggers Depr... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - When Does Personal Context Add Value</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---When-Does-Personal-Context-Add-Value</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---When-Does-Personal-Context-Add-Value</guid>
+    <description><![CDATA[ Frontier Exploration: When Does Personal Context Add Value? How do you determine if capturing YOUR specific context (vs. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 08:40:51 GMT</pubDate>
+  </item><item>
     <title>Seed Gap - Interaction Knowledge Type</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
@@ -46,24 +64,6 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Expertise-Level-Rule-in-Foreign-Language-Learning</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Expertise-Level-Rule-in-Foreign-Language-Learning</guid>
     <description><![CDATA[ Stress Test: Expertise-Level Rule in Foreign Language Learning Testing the rule: “Tag expertise-level for knowledge that is only appropriate at certain skill levels — don’t present beginner advice as universal truth.” The Domain Foreign language learning has distinct expertise levels with fundamenta... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Verification Status Rule in Home Repair</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Status-Rule-in-Home-Repair</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Status-Rule-in-Home-Repair</guid>
-    <description><![CDATA[ Stress Test: Verification-Status Rule in Home Repair/DIY Seed Rule Being Tested Rule: For procedural content (recipes, code, tutorials, technical specs), include a verification-status field: unverified | tested | community-validated. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Equipment Dependencies Rule Across Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Dependencies-Rule-Across-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Equipment-Dependencies-Rule-Across-Domains</guid>
-    <description><![CDATA[ Stress Test: Equipment Dependencies Rule Across Domains Seed Rule Being Tested Rule: Document physical equipment dependencies for procedural knowledge — include what tools are required, which are optional, and what alternatives exist. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Stress Test - Knowledge Abstraction Levels Rule in Philosophy</title>
-    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Abstraction-Levels-Rule-in-Philosophy</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Abstraction-Levels-Rule-in-Philosophy</guid>
-    <description><![CDATA[ Stress Test - Knowledge Abstraction Levels Rule in Philosophy Testing the Seed’s abstraction levels rule against the domain of philosophy, where the hierarchy inverts. ]]></description>
     <pubDate>Sat, 28 Mar 2026 08:36:52 GMT</pubDate>
   </item>
     </channel>
