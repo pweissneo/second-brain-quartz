@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Drill-Verified-Rule-in-Home-Repair</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Drill-Verified-Rule-in-Home-Repair</guid>
     <description><![CDATA[ Seed Stress Test: Drill-Verified Rule in Home Repair Testing the drill-verified knowledge rule (added 2026-03-27) against home repair and DIY safety procedures. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Rule Proposal - Voice Consistency</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule-Proposal---Voice-Consistency</guid>
     <description><![CDATA[ Seed Rule Proposal: Knowledge Base Voice Consistency Rule Statement Rule: Define explicit voice and persona standards for the knowledge base — document the intended tone, terminology preferences, and stylistic guidelines that all notes should follow. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
-  </item><item>
-    <title>Seed Refinement - Lifecycle Field Extension</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</guid>
-    <description><![CDATA[ Seed Refinement: Lifecycle Field Extension The Issue The Schema.md defines standard lifecycle values: evergreen, transient, seed-extension, living, historical, perpetual-beta But the vault uses additional values: frontier-exploration - for notes exploring new problem spaces seed-gap - for identified... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Multi-Framework Domain Reasoning</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Framework-Domain-Reasoning</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Framework-Domain-Reasoning</guid>
     <description><![CDATA[ Seed Refinement: Multi-Framework Domain Reasoning This note captures refinements to the Seed’s reasoning strategies rule based on stress testing in therapeutic psychology and similar multi-framework domains. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Lifecycle Field Extension</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</guid>
+    <description><![CDATA[ Seed Refinement: Lifecycle Field Extension The Issue The Schema.md defines standard lifecycle values: evergreen, transient, seed-extension, living, historical, perpetual-beta But the vault uses additional values: frontier-exploration - for notes exploring new problem spaces seed-gap - for identified... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Referenced Anti-Patterns That Don&#039;t Exist</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Referenced-Anti-Patterns-That-Don't-Exist</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Referenced-Anti-Patterns-That-Don't-Exist</guid>
     <description><![CDATA[ Seed Gap: Referenced Anti-Patterns That Don’t Exist The Gap During REDUNDANCY_SCAN, discovered documentation inconsistency: The Best Practice - Multi-Path Knowledge Discovery note references “Discovery Fragility” as an anti-pattern in its table: Anti-Pattern ConceptBest PracticeStatusDiscovery Fragi... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Note Creation Decision Framework Not Integrated into Seed</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Note-Creation-Decision-Framework-Not-Integrated-into-Seed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Note-Creation-Decision-Framework-Not-Integrated-into-Seed</guid>
     <description><![CDATA[ Seed Gap: Note Creation Decision Framework Not Integrated into Seed The Gap The vault contains a comprehensive note: Note Creation Decision Framework (~200 lines) that provides detailed guidance on: When to create a new note vs. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Interaction Knowledge Type</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Knowledge-Type</guid>
     <description><![CDATA[ Seed Gap: Interaction Knowledge Type What Knowledge Type Is Missing The Seed has rules for many knowledge types: Procedural (how to do X) Conceptual (what X means) Temporal (time-dependent) Conditional (if-then) Recognition (pattern identification) Troubleshooting (diagnostic reasoning) But it lacks... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Analysis-Sensitive Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Analysis-Sensitive-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Analysis-Sensitive-Knowledge</guid>
-    <description><![CDATA[ Seed Gap - Analysis-Sensitive Knowledge Knowledge that loses value when fully articulated or analyzed — distinct from tacit knowledge. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Comparative and Cross-Jurisdictional Legal Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Comparative-and-Cross-Jurisdictional-Legal-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Comparative-and-Cross-Jurisdictional-Legal-Knowledge</guid>
-    <description><![CDATA[ Seed Gap: Comparative and Cross-Jurisdictional Legal Knowledge How should a knowledge base handle knowledge that spans multiple legal jurisdictions with potentially conflicting rules? The Problem The Seed Stress Test - Legal Knowledge Bases identifies jurisdiction as a critical field for legal notes... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Compound Gap Pattern - Domain-Velocity and Dual-Nature Intersection</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Compound-Gap-Pattern---Domain-Velocity-and-Dual-Nature-Intersection</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Compound-Gap-Pattern---Domain-Velocity-and-Dual-Nature-Intersection</guid>
     <description><![CDATA[ Seed Gap: Compound Gap Pattern - Intersection of Domain-Velocity and Dual-Nature Gap Identification What was found: REDUNDANCY_SCAN revealed two Seed Gap notes covering related territory with significant content overlap: Seed Gap - Dual-Nature Domain Handling (discovered 2026-03-26) Seed Gap - Techn... ]]></description>
-    <pubDate>Sat, 28 Mar 2026 03:34:33 GMT</pubDate>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Comparative and Cross-Jurisdictional Legal Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Comparative-and-Cross-Jurisdictional-Legal-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Comparative-and-Cross-Jurisdictional-Legal-Knowledge</guid>
+    <description><![CDATA[ Seed Gap: Comparative and Cross-Jurisdictional Legal Knowledge How should a knowledge base handle knowledge that spans multiple legal jurisdictions with potentially conflicting rules? The Problem The Seed Stress Test - Legal Knowledge Bases identifies jurisdiction as a critical field for legal notes... ]]></description>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Analysis-Sensitive Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Analysis-Sensitive-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Analysis-Sensitive-Knowledge</guid>
+    <description><![CDATA[ Seed Gap - Analysis-Sensitive Knowledge Knowledge that loses value when fully articulated or analyzed — distinct from tacit knowledge. ]]></description>
+    <pubDate>Sat, 28 Mar 2026 03:41:46 GMT</pubDate>
   </item>
     </channel>
   </rss>
