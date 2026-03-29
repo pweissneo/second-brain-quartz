@@ -17,9 +17,6 @@
     <loc>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</loc>
     <lastmod>2026-03-27T11:35:45.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Anti-Pattern---Neglecting-Maintenance</loc>
-    <lastmod>2026-03-29T03:34:39.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</loc>
     <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
@@ -94,9 +91,6 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Emergence-in-Knowledge-Graphs</loc>
     <lastmod>2026-03-20T23:56:41.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Exportable-Rules</loc>
-    <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Forward-References-and-Planned-Knowledge</loc>
     <lastmod>2026-03-23T13:27:42.000Z</lastmod>
@@ -195,7 +189,7 @@
     <lastmod>2026-03-29T03:34:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Creative-Writing-Knowledge-Base-Gaps</loc>
-    <lastmod>2026-03-29T07:13:23.872Z</lastmod>
+    <lastmod>2026-03-29T12:04:19.743Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Crisis-and-Emergency-Response-Knowledge</loc>
     <lastmod>2026-03-25T19:43:49.000Z</lastmod>
@@ -734,16 +728,10 @@
     <loc>https://quartz.jzhao.xyz/Frontier-Gap---Embodied-Knowledge</loc>
     <lastmod>2026-03-22T07:16:10.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Frontier-Gap---Temporal-and-Sequential-Knowledge-Organization</loc>
-    <lastmod>2026-03-29T03:34:39.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Graph-Maintenance</loc>
     <lastmod>2026-03-21T14:15:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Graph-Traversal-Efficiency</loc>
-    <lastmod>2026-03-28T09:12:26.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/HEARTBEAT</loc>
     <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Handling-Contradictory-Sources</loc>
@@ -797,6 +785,9 @@
     <loc>https://quartz.jzhao.xyz/Schema</loc>
     <lastmod>2026-03-29T03:34:39.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Seed-Development-Hub</loc>
+    <lastmod>2026-03-29T12:04:19.981Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---AI-Agent-Behavior-Patterns-in-Knowledge-Management</loc>
     <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
@@ -843,7 +834,7 @@
     <lastmod>2026-03-27T11:35:45.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Equipment-Scope-in-Verification-Status</loc>
-    <lastmod>2026-03-29T09:42:44.592Z</lastmod>
+    <lastmod>2026-03-29T12:04:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Evolving-Terminology-in-Fast-Moving-Domains</loc>
     <lastmod>2026-03-29T03:34:39.000Z</lastmod>
@@ -912,9 +903,6 @@
     <lastmod>2026-03-23T17:11:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Sequential-Processing-Chain-Knowledge</loc>
-    <lastmod>2026-03-29T03:34:39.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/Seed-Gap---Source-Free-Knowledge-Validation</loc>
     <lastmod>2026-03-29T03:34:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Gap---Technology-Heavy-Dual-Nature-Domain-Handling</loc>
@@ -1274,6 +1262,9 @@
     <loc>https://quartz.jzhao.xyz/TOOLS</loc>
     <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Test-Legal</loc>
+    <lastmod>2026-03-29T11:49:04.019Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/The-Extended-Mind</loc>
     <lastmod>2026-03-27T11:35:45.000Z</lastmod>
   </url><url>
@@ -1310,9 +1301,6 @@
     <loc>https://quartz.jzhao.xyz/USER</loc>
     <lastmod>2026-03-29T03:34:39.000Z</lastmod>
   </url><url>
-    <loc>https://quartz.jzhao.xyz/Weekly-Review-Process</loc>
-    <lastmod>2026-03-29T04:52:02.000Z</lastmod>
-  </url><url>
     <loc>https://quartz.jzhao.xyz/Wikilinks</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
@@ -1330,7 +1318,4 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2026-03-27T11:35:45.000Z</lastmod>
-  </url><url>
-    <loc>https://quartz.jzhao.xyz/note-naming-conventions</loc>
-    <lastmod>2026-03-25T19:43:49.000Z</lastmod>
   </url></urlset>
