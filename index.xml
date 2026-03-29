@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:48 GMT</pubDate>
+    <title>Seed Stress Test - 2-Outgoing-Links Rule in Woodworking</title>
+    <link>https://quartz.jzhao.xyz/Seed-Stress-Test---2-Outgoing-Links-Rule-in-Woodworking</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---2-Outgoing-Links-Rule-in-Woodworking</guid>
+    <description><![CDATA[ Seed Stress Test: 2-Outgoing-Links Rule in Woodworking Testing whether the “at least 2 outgoing links” rule works in the woodworking domain. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>note-naming-conventions</title>
-    <link>https://quartz.jzhao.xyz/note-naming-conventions</link>
-    <guid>https://quartz.jzhao.xyz/note-naming-conventions</guid>
-    <description><![CDATA[ Note Naming Conventions (DEPRECATED) This note is deprecated. Refer to AI-Assisted Knowledge Management Seed for authoritative guidance. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Refinement - Knowledge Source Type Domain Adaptation</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type-Domain-Adaptation</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type-Domain-Adaptation</guid>
+    <description><![CDATA[ Seed Refinement: Knowledge Source Type Domain Adaptation Proposed refinements to the “knowledge source type” rule based on stress testing in cooking domain. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>git-best-practices</title>
-    <link>https://quartz.jzhao.xyz/git-best-practices</link>
-    <guid>https://quartz.jzhao.xyz/git-best-practices</guid>
-    <description><![CDATA[ Git Best Practices for Knowledge Bases This note covers git practices specifically for maintaining AI-assisted knowledge bases. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Topic Splitting Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Topic-Splitting-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Topic-Splitting-Decision-Framework</guid>
+    <description><![CDATA[ Seed Gap: Topic Splitting Decision Framework The Gap The Seed has clear guidance for: Merging: When notes are redundant → merge into one stronger note Atomicity: When to keep procedural content together vs split reusable parts Multi-vault: When to split one vault into multiple But it lacks guidance ... ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Sequential Processing Chain Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Sequential-Processing-Chain-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Sequential-Processing-Chain-Knowledge</guid>
+    <description><![CDATA[ Seed Gap: Sequential Processing Chain Knowledge Gap Identified The Seed lacks explicit handling for knowledge domains organized around sequential processing chains where each stage transforms the output of the previous. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Knowledge Prioritization Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Prioritization-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Prioritization-Decision-Framework</guid>
+    <description><![CDATA[ Seed Gap: Knowledge Prioritization Decision Framework The Gap The Seed provides rules for: How to structure individual notes (atomicity) How to connect notes (linking) How to organize the graph (hubs, navigation) How to maintain quality over time But it lacks guidance on: What to capture next when s... ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Jurisdiction and Legal Authority Type Handling</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Jurisdiction-and-Legal-Authority-Type-Handling</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Jurisdiction-and-Legal-Authority-Type-Handling</guid>
+    <description><![CDATA[ Seed Gap: Jurisdictional Knowledge Representation and Legal Knowledge Type Distinction How should knowledge bases handle knowledge that varies by jurisdiction, and distinguish authoritative legal claims from interpretive analysis? Gap Summary Two related gaps in the current Seed: Jurisdictional Know... ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Weekly Review Process</title>
-    <link>https://quartz.jzhao.xyz/Weekly-Review-Process</link>
-    <guid>https://quartz.jzhao.xyz/Weekly-Review-Process</guid>
-    <description><![CDATA[ Weekly Review Process Structured review to maintain your second brain. Why Weekly Review Daily is too frequent. Monthly is too infrequent. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Evolving Terminology in Fast-Moving Domains</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Evolving-Terminology-in-Fast-Moving-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Evolving-Terminology-in-Fast-Moving-Domains</guid>
+    <description><![CDATA[ Seed Gap: Evolving Terminology in Fast-Moving Domains This note documents a gap in the Seed where existing rules don’t adequately address how to handle terminology evolution, deprecated concepts, and emerging language in rapidly-changing knowledge domains. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>USER</title>
-    <link>https://quartz.jzhao.xyz/USER</link>
-    <guid>https://quartz.jzhao.xyz/USER</guid>
-    <description><![CDATA[ USER.md - About Your Human Learn about the person you’re helping. Update this as you go. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Creative Project Phase Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Creative-Project-Phase-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Creative-Project-Phase-Knowledge</guid>
+    <description><![CDATA[ Seed Gap - Creative Project Phase Knowledge Gap: Seed lacks rules for creative project phase knowledge where phases are non-linear, iterations are normal, and outputs are subjective. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Types of Applicability Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
-    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Seed Gap - Collaborative Knowledge Base Governance</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Collaborative-Knowledge-Base-Governance</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Collaborative-Knowledge-Base-Governance</guid>
+    <description><![CDATA[ Seed Gap: Collaborative Knowledge Base Governance The Gap The Seed provides extensive rules for individual/personal knowledge bases but lacks explicit guidance for collaborative or multi-author knowledge bases — vaults where multiple people contribute, review, or access different subsets of content. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:15 GMT</pubDate>
   </item><item>
-    <title>Tool Replacement Decisions</title>
-    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
-    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
-    <pubDate>Sat, 28 Mar 2026 23:51:47 GMT</pubDate>
+    <title>Frontier Exploration - Technique Adaptation Based on Ingredient Variation</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Technique-Adaptation-Based-on-Ingredient-Variation</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Technique-Adaptation-Based-on-Ingredient-Variation</guid>
+    <description><![CDATA[ Frontier Exploration: Technique Adaptation Based on Ingredient Variation “Recipes assume ideal ingredients. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 00:11:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
