@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</guid>
     <description><![CDATA[ Seed Refinement - Vault Guidance Taxonomy The Seed’s guidance exists across three distinct categories: main rules, frontier explorations, and stress tests. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Chemistry Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Chemistry Domain Extensions Rule extensions for chemistry knowledge bases derived from stress testing. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Social Validation Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</guid>
     <description><![CDATA[ Seed Gap: Social Validation Knowledge Knowledge that requires external human feedback to verify (not expert consultation, not empirical testing). ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</guid>
+    <description><![CDATA[ Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay Gap Identification What is missing from the Seed: The Seed has rules for: Domain velocity classification (fast/medium/slow/static) — Seed Rule - Domain-Velocity-Aware Confidence Decay Confidence markers with numeric levels — Con... ]]></description>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Evaluative Knowledge Organization in Creative Domains</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</guid>
+    <description><![CDATA[ Seed Gap - Evaluative Knowledge Organization in Creative Domains Gap: The Seed lacks guidance on organizing evaluative knowledge (craft criticism vs. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Emergency Knowledge Retrieval Speed</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Emergency-Knowledge-Retrieval-Speed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Emergency-Knowledge-Retrieval-Speed</guid>
     <description><![CDATA[ Seed Gap: Emergency Knowledge Retrieval Speed Identified: 2026-03-30 via FRONTIER_EXPLORATION on crisis/emergency response note Gap type: seed-missing Confidence: emerging Gap Description The Seed covers drill-verified knowledge (Rule 2026-03-27) but lacks guidance for retrieval speed in emergency c... ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Tacit Assumption Documentation</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Assumption-Documentation</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Assumption-Documentation</guid>
-    <description><![CDATA[ Frontier Exploration - Tacit Assumption Documentation The Problem Many notes contain knowledge that assumes specific background context the reader may not have. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Tacit Knowledge Transfer Mechanisms</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Knowledge-Transfer-Mechanisms</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Knowledge-Transfer-Mechanisms</guid>
     <description><![CDATA[ Frontier Exploration: Tacit Knowledge Transfer Mechanisms The Gap The Seed covers: Embodied knowledge — knowledge that requires physical sensation to fully understand Sensory anchors — textual approximations of sensory cues Experiential verification — testing through practice But it misses a distinc... ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Tacit Assumption Documentation</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Assumption-Documentation</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Tacit-Assumption-Documentation</guid>
+    <description><![CDATA[ Frontier Exploration - Tacit Assumption Documentation The Problem Many notes contain knowledge that assumes specific background context the reader may not have. ]]></description>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Sensory Anchor Standardization</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Anchor-Standardization</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Sensory-Anchor-Standardization</guid>
     <description><![CDATA[ Frontier Exploration: Sensory Anchor Standardization for Embodied Knowledge When capturing embodied knowledge — knowledge that requires physical sensation to fully understand — textual descriptions alone create false confidence. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:07 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Pattern Synthesis - Cross-Exploration Observations</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Pattern-Synthesis---Cross-Exploration-Observations</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Pattern-Synthesis---Cross-Exploration-Observations</guid>
     <description><![CDATA[ Frontier Exploration - Pattern Synthesis: Cross-Exploration Observations What patterns emerge across the 40+ frontier explorations in this vault? A meta-analysis of gaps, resolutions, and recurring themes. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 23:34:06 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 21:14:34 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Link Inflation</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Link-Inflation</guid>
-    <description><![CDATA[  ⚠️ This note has been merged into Best Practice - Link Quality The content has been incorporated into the best practice note, which provides more comprehensive guidance on link quality. ]]></description>
-    <pubDate>Sun, 29 Mar 2026 21:14:34 GMT</pubDate>
+    <pubDate>Sun, 29 Mar 2026 23:50:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
