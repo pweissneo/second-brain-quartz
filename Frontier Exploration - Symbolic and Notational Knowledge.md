@@ -124,7 +124,7 @@ Current Seed temporal rules focus on sequence (A before B). But music analysis a
 | Dual representation | Self-contained | Not notation-specific |
 
 ## Related Notes
-- [[Frontier Exploration - Multi-Modal Knowledge Representation]]
+- [[Frontier Exploration - Multi-Modal Knowledge]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Handling Temporal Knowledge]]
 - [[Seed Stress Test - Chess Knowledge Base]] (partial - notation in chess)

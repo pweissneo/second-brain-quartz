@@ -87,6 +87,6 @@ This extends:
 ## See Also
 
 - [[Seed Stress Test - Version-Upgrade Path Knowledge]]
-- [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management]]
+- [[Frontier Exploration - Knowledge Deprecation and Retirement Criteria]]
 - [[Frontier Exploration - Tool-Executable Knowledge]]
 - [[Frontier Exploration - Real-Time API-Dependent Knowledge]]

@@ -3,6 +3,7 @@ last-reviewed: 2026-03-26
 last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice

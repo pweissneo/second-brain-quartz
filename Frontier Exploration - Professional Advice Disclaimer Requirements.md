@@ -1,8 +1,9 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-28
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+application-scope: public
 tags:
   - frontier-exploration
   - disclaimers
@@ -143,4 +144,4 @@ For advisory notes, can you identify:
 - [[Frontier Exploration - Professional Credentialing Requirements]] — For who can give advice
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — For who can understand advice
 - [[Frontier Exploration - User Situational Constraints]] — For contextual limitations
-- [[Frontier Exploration - Knowledge Ethics and Exclusion]] — For harm prevention
+- [[Frontier Exploration - Systematic Knowledge Exclusion Criteria]] — For harm prevention

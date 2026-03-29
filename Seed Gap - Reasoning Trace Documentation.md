@@ -1,26 +1,28 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-03-28
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: structural
-gap-status: identified
+gap-status: resolved
 gap-priority: medium
 gap-type: seed-missing
-discovered: 2026-03-26
-gap-source: frontier-exploration
+discovered: 2026-03-28
+resolved: 2026-03-29
+gap-resolution-note: Rule added to Seed on 2026-03-28 - "Document reasoning traces for complex queries"
+replaced-by: [[AI-Assisted Knowledge Management Seed]]
 tags:
   - seed-gap
   - reasoning-trace
-  - ai-behavior
   - query-response
+  - auditability
 ---
 
 # Seed Gap - Reasoning Trace Documentation
 
 ## The Gap
 
-The Seed covers query answering strategies and reasoning strategies for AI agents (lines 1477-1513), but lacks explicit guidance for documenting the **reasoning trace** — the step-by-step path the AI took to generate an answer. Without reasoning traces, users cannot verify the AI's logic, audit how conclusions were reached, or improve the vault based on reasoning failures.
+The Seed covers query answering strategies and reasoning strategies for AI agents, but lacks explicit guidance for documenting the **reasoning trace** — the step-by-step path the AI took to generate an answer. Without reasoning traces, users cannot verify the AI's logic, audit how conclusions were reached, or improve the vault based on reasoning failures.
 
 ## Why This Matters
 
@@ -45,195 +47,90 @@ The Seed covers query answering strategies and reasoning strategies for AI agent
 
 How should the AI document its reasoning process?
 
-Current: Minimal guidance on "document synthesis logic"
+Current guidance: None — the Seed only mentions "document synthesis logic" without specifying structure.
 
-Missing:
-- What fields to capture (query, decomposition, notes consulted, confidence path, conclusion)
-- Format for machine-readable traces
-- What level of detail is appropriate (verbose for complex, concise for simple)
+Required guidance:
+- What information to capture at each reasoning step
+- How to represent uncertainty and confidence at each step
+- When to include vs. exclude intermediate reasoning
+- How to handle multi-hop reasoning paths
 
-### 2. Source Tracking
+### 2. Trace Retention and Retrieval
 
-Which sources were consulted and how were they weighted?
+Should reasoning traces be stored? For how long?
 
-Current: Confidence aggregation rules exist
+Missing guidance:
+- Storage format (embedded in response, stored as notes, logged externally)
+- Retention policy (ephemeral, session-based, permanent)
+- Retrieval interface (how to access past reasoning traces)
+- Privacy considerations (traces may reveal query patterns)
 
-Missing:
-- Explicit list of notes consulted (not just confidence scores)
-- Why each source was chosen (relevance, quality, recency)
-- What was rejected and why
-- How sources were combined
+### 3. Trace Quality Metrics
 
-### 3. Gap Detection During Query
+How to evaluate reasoning trace quality?
 
-How to document when knowledge was insufficient?
+Missing guidance:
+- Completeness metrics (are all key steps documented?)
+- Correctness verification (can the trace be re-executed?)
+- Gap identification (does the trace reveal missing knowledge?)
+- User-facing vs. internal traces
 
-Current: "Detect and flag knowledge gaps encountered during reasoning"
+## Proposed Seed Rule Addition
 
-Missing:
-- What triggered the gap detection (no results, low confidence, contradiction)
-- What the AI tried that failed
-- What additional knowledge would have helped
+**Rule:** Document reasoning traces for complex queries — capture the step-by-step path from question to answer, including consulted notes, weighting rationale, confidence at each step, and identified gaps.
 
-### 4. Confidence Path
+**Why:** Without reasoning traces, users cannot verify AI logic, audit conclusions, or improve the vault based on reasoning failures. The Seed covers reasoning strategies but not the explicit documentation of reasoning execution. This gap matters especially when AI assists decision-making — users need to see how conclusions were reached.
 
-How does confidence flow from sources to conclusion?
-
-Current: Confidence aggregation exists
-
-Missing:
-- Explicit confidence path documentation
-- Which sources contributed most to final confidence
-- Where confidence dropped along the path
-
-### 5. User-Visible Reasoning
-
-How much of the trace should users see?
-
-Current: None specified
-
-Missing:
-- Summary level for end users
-- Detailed level for auditing
-- When to show vs. hide reasoning
-
-## Proposed Seed Rules
-
-### Rule: Capture reasoning trace for all substantive queries
-
-**Why:** Substantive queries (those requiring synthesis beyond simple retrieval) should produce reasoning traces that can be audited, verified, and learned from. Without traces, reasoning is invisible and unimprovable.
-
-**Test:** For the last 10 substantive answers generated: (1) Can you identify what notes were consulted? (2) Can you trace the logic path from sources to conclusion? (3) Are gaps during reasoning documented? (4) Can you identify where confidence changed along the path?
+**Test:** (1) For a complex query (3+ notes consulted), can you generate a reasoning trace showing the path from question to answer? (2) Does the trace include consulted notes, weighting rationale, confidence at each step, and any gaps identified? (3) Can a user follow the trace to verify or replicate the reasoning? (4) Does the trace identify specific vault gaps that caused reasoning failures?
 
 **Implementation:**
 ```yaml
+# Reasoning trace structure
 reasoning-trace:
-  query: "The original query"
-  decomposition:
-    - sub-question-1
-    - sub-question-2
-  sources-consulted:
-    - note: "[[Note Name]]"
-      relevance: high|medium|low
-      contribution: "What this contributed"
-  sources-rejected:
-    - note: "[[Note Name]]"
-      reason: "Why rejected (irrelevant, low quality, etc.)"
-  confidence-path:
-    - source-confidence: 0.8
-      adjustment: "downgraded for age"
-      final-confidence: 0.7
-  gaps-encountered:
-    - trigger: "No results for X"
-      attempted: ["approach 1", "approach 2"]
-      resolution: "Used broader search"
-  conclusion: "Final answer"
-  confidence: 0.7
+  query-decomposition:
+    - sub-question 1
+    - sub-question 2
+  traversal-path:
+    - note: [[Note Name]]
+      relevance-score: 0.0-1.0
+      confidence: 0.0-1.0
+      role: primary|supporting|corroborating
+  synthesis:
+    - sources-combined: [note1, note2]
+    - reasoning: "How sources were combined"
+    - confidence: aggregated score
+  gaps-identified:
+    - gap: "Missing knowledge"
+      severity: blocking|minor
+  final-confidence: 0.0-1.0
 ```
 
-### Rule: Document gap detection with attempted resolution
+**Trace retention:**
+- Default: ephemeral (discard after response delivered)
+- Option: session-based (retain for current session)
+- Option: permanent (store as notes for audit)
 
-**Why:** When reasoning encounters gaps, what the AI tried and how it resolved (or didn't) is valuable vault feedback. This reveals structural problems that can be fixed.
+**Quality criteria:**
+- Every step identifies the source note
+- Confidence scores at each step
+- Explicit synthesis rationale
+- Clear gap identification
 
-**Test:** For queries where the AI flagged knowledge gaps: (1) Is the gap trigger documented? (2) Are resolution attempts recorded? (3) Do gap patterns inform vault improvement?
+## Resolution Options
 
-**Implementation:**
-```yaml
-gap-during-reasoning:
-  gap-type: prerequisite-gap|utility-gap|connection-gap|verification-gap
-  trigger: "What revealed the gap"
-  attempted-resolutions:
-    - approach: "Broadened search"
-      result: "Found partial answer"
-    - approach: "Asked user clarification"
-      result: "Received additional context"
-  final-resolution: "answered-with-partial-confidence"
-  vault-improvement-needed:
-    - "Add note on X prerequisite"
-    - "Strengthen connection between Y and Z"
-```
+1. **Add rule to Seed** — Include reasoning trace documentation as a core Seed rule
+2. **Create detailed note** — Create a comprehensive Reasoning Trace Implementation note and reference from Seed
+3. **Hybrid** — Add high-level rule to Seed with detailed note as implementation guide
 
-### Rule: Include confidence path in trace
+**Recommendation:** Option 3 — add core rule to Seed (Rule/Why/Test) and create detailed implementation note.
 
-**Why:** Confidence isn't static — it changes as the AI weighs sources, identifies contradictions, or encounters uncertainty. Documenting this path reveals where reasoning is strong vs. weak.
+## Related Notes
 
-**Test:** For answers with confidence below high: (1) Can you identify where confidence dropped? (2) What triggered each drop? (3) Can you see the reasoning chain from confident sources to uncertain conclusion?
+- [[AI-Assisted Knowledge Management Seed]] — Foundation rules (needs reasoning trace rule)
+- [[Query Answering Strategies]] — Related but covers execution, not trace documentation
+- [[Reasoning Strategies for Knowledge Agents]] — Related but focuses on strategy selection
+- [[Confidence Aggregation]]]] — Related but covers scoring, not trace structure
 
-**Implementation:**
-```yaml
-confidence-path:
-  - stage: "initial-retrieval"
-    confidence: 0.9
-    note: "3 high-quality sources found"
-  - stage: "cross-reference"
-    confidence: 0.7
-    adjustment: "contradiction found between sources A and B"
-  - stage: "gap-fill"
-    confidence: 0.6
-    adjustment: "inferred missing link"
-  - stage: "final"
-    confidence: 0.65
-    rationale: "Some uncertainty from source conflict + inference"
-```
+---
 
-### Rule: Make reasoning trace accessible for auditing
-
-**Why:** Reasoning traces are only useful if they can be reviewed. The Seed should specify what level of access users and AI agents have to reasoning history.
-
-**Test:** For recent AI-generated answers: (1) Can users access the reasoning trace? (2) Can AI agents query reasoning history? (3) Are traces retained long enough for pattern analysis?
-
-**Implementation:**
-```yaml
-reasoning-access:
-  user-visible: summary  # none | summary | full
-  ai-queryable: true
-  retention-days: 90
-  storage-location: reasoning-trace-index
-```
-
-### Rule: Use reasoning failures to improve vault structure
-
-**Why:** Reasoning traces reveal systematic problems — consistent gaps, missing connections, poor source quality. This feedback should drive vault improvement.
-
-**Test:** Over last 30 days: (1) Can you identify patterns in reasoning failures? (2) Do gaps inform note creation priorities? (3) Are structural issues being fixed based on reasoning analysis?
-
-**Implementation:**
-```yaml
-# Periodic audit
-reasoning-audit:
-  frequency: monthly
-  metrics:
-    - average-confidence
-    - gap-detection-rate
-    - source-rejection-rate
-    - common-gap-patterns
-  output:
-    - priority-note-creations
-    - structural-improvements
-    - verification-priorities
-```
-
-## Related Seed Rules
-
-- [[Query Answering Strategy]] — Current reasoning guidance
-- [[Reasoning Success Rate]] — Tracking query completion
-- [[Gap Detection During Query]] — Current gap handling
-- [[Confidence Aggregation]] — How confidence combines
-
-## Test for Gap Closure
-
-Can you:
-1. Document full reasoning trace for substantive queries?
-2. Track sources consulted and rejected with rationale?
-3. Document gap detection with attempted resolutions?
-4. Include confidence path showing where confidence changed?
-5. Make traces accessible for auditing?
-6. Use reasoning failures to improve vault structure?
-
-If yes to all 6, the gap is closed.
-
-## See Also
-
-- [[Frontier Exploration - AI Reasoning Transparency]]
-- [[Knowledge Gap Detection Patterns]]
-- [[Vault Health Metrics Beyond Structural]]
+*Discovered during: Frontier Exploration heartbeat (2026-03-28)*

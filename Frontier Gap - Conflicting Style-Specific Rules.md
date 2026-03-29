@@ -1,14 +1,17 @@
 ---
-last-reviewed: 2026-03-15
-confidence: emerging
+last-reviewed: 2026-03-28
+confidence: high
 author-type: ai-assisted
-lifecycle: evergreen
-thinking-tool: false
+lifecycle: addressed
+status: addressed
+gap-resolution-date: 2026-03-28
+resolved-by: Seed rule "Prescriptive vs Descriptive Knowledge" + style-specific edge case
 tags:
   - frontier-gap
   - style-specific
   - music
   - conflicting-rules
+  - addressed
 ---
 
 # Frontier Gap: Conflicting Style-Specific Rules in Creative Domains
@@ -69,3 +72,13 @@ An AI building a music knowledge base should be able to answer:
 - "When is parallel motion correct?" → It depends on style intent
 - "Can I apply jazz voice-leading to classical composition?" → With modification, rarely directly
 - "Who can I ask to resolve this conflict?" → A practitioner of BOTH styles, not a single-style expert
+
+---
+
+> **Update (2026-03-28):** This gap has been addressed in the Seed through two mechanisms:
+> 
+> 1. **Rule: Prescriptive vs Descriptive Knowledge Distinction** (lines 468-483) — introduces `prescriptive-type`, `prescriptive-intent`, and `conflict-resolution-mode: intent-based` to handle prescriptive rule conflicts that depend on user intent rather than framework choice.
+> 
+> 2. **Edge case at line 3075** — explicitly addresses style-specific contradictions like parallel fifths vs. parallel voice-leading, requiring `style:` frontmatter and `style-compatibility:` mapping.
+> 
+> The Seed now correctly distinguishes prescriptive contradictions (what produces desired results in different contexts) from framework disagreements (descriptive models of reality).

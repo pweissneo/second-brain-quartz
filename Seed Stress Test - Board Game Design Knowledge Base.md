@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-24
+last-reviewed: 2026-03-28
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -9,6 +9,8 @@ tags:
   - game-design
   - experiential-knowledge
   - diminishing-returns
+  - phase-aware
+  - seed-extension-required
 ---
 
 # Seed Stress Test: Board Game Design Knowledge Base

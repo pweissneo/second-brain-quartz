@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-13
-last-updated: 2026-03-18
+last-reviewed: 2026-03-26
+last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -10,6 +10,7 @@ tags:
   - quality
   - negative-knowledge
 level: pattern
+counterpart-bestpractice: [[Best Practice - Balanced Capture]]
 ---
 
 # Anti-Pattern: Missing Negative Knowledge

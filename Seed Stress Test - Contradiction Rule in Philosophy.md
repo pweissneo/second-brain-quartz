@@ -4,6 +4,7 @@ lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+framework-dependent: true
 tags:
   - seed-stress-test
   - philosophy-domain

@@ -3,6 +3,7 @@ last-reviewed: 2026-03-26
 last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice
@@ -10,7 +11,7 @@ tags:
   - selection
   - anti-pattern
 schema-version: "1.0"
-counterpart-antipattern: "[[Best Practice - Selective Capture]] (deprecated, superseded)"
+counterpart-antipattern: [[Anti-Pattern - Note Hoarding]]
 ---
 
 # Best Practice: Selective Capture
@@ -100,6 +101,25 @@ Capture knowledge that:
 | Ephemeral | One-off, won't reference | Process if it creates insight |
 | Duplicate | Already exists | Update existing note |
 | Momentum capture | Breaks flow | Jot quick note, process later |
+
+## Capture the Negative Too
+
+For every "how to X" note, consider adding:
+- A note about what doesn't work when trying X
+- Context about when X doesn't apply
+- Failed experiments and why they failed
+
+This makes your knowledge base complete, not just positive. Complete knowledge includes failures — they often teach more than successes.
+
+Document negative knowledge with:
+```yaml
+experiment: What you tried
+outcome: What happened  
+reason-for-failure: Why it didn't work
+context: Your specific situation
+```
+
+See [[Best Practice - Balanced Capture]] for more on capturing negative knowledge.
 
 ## Test Criteria (for AI Evaluation)
 

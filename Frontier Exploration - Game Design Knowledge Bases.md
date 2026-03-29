@@ -5,6 +5,7 @@ confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
 verification-status: emerging
+level: frontier
 tags:
   - frontier-exploration
   - domain-specific

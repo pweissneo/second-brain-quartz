@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-24
+last-updated: 2026-03-28
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -13,6 +14,8 @@ tags:
 # Frontier Exploration - Knowledge Aging and Review Cycle Management
 
 > When should knowledge be reviewed, refreshed, or deprecated? How do you manage knowledge lifecycle beyond simple "last-reviewed" timestamps?
+
+**Note:** This gap has been superseded by [[Frontier Exploration - Knowledge-Aware Review Cycles]] which provides a more developed proposed rule with implementation details. This note is retained for reference but new work should target the newer note.
 
 ## The Problem
 
@@ -118,7 +121,7 @@ reason-deprecated: "Version升级|incorrect|source-lost|merged"
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]] - verification rules
-- [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management]]
+- [[Frontier Exploration - Knowledge Deprecation and Retirement Criteria]]
 - [[Seed Stress Test - Error Knowledge Capture in Programming]]
 - [[Frontier Exploration - When a Note Has Become Obsolete]]
 

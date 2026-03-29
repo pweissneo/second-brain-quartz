@@ -8,6 +8,9 @@ tags:
   - subjective-knowledge
   - epistemic
   - confidence
+level: pattern
+schema-version: "1.0"
+verification-status: verified
 ---
 
 # Best Practice - Subjective Personal Knowledge Handling

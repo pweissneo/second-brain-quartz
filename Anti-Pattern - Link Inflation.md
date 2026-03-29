@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-13
-last-updated: 2026-03-13
+last-reviewed: 2026-03-26
+last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -11,6 +11,7 @@ tags:
 level: pattern
 verification-status: verified
 schema-version: "1.0"
+counterpart-bestpractice: [[Best Practice - Link Quality]]
 ---
 
 # Anti-Pattern: Link Inflation
@@ -34,7 +35,7 @@ The graph becomes meaningless noise.
 
 ## Solution
 
-Follow [[Linking Principle|quality over quantity]].
+Follow [[Best Practice - Link Quality]] — quality over quantity.
 
 - Each link must pass the "why follow?" test
 - Prefer 2-3 meaningful links over 10 decorative ones
@@ -53,6 +54,7 @@ For each link, can you explain in one sentence why the reader should follow it? 
 
 ## Related
 
+- [[Best Practice - Link Quality]] — Detailed best practice with examples
 - [[Linking Principle]]
 - [[Graph Maintenance]]
 - [[Anti-Patterns in Knowledge Management]]

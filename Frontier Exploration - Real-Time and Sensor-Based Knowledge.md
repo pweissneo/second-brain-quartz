@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: evergreen
+last-reviewed: 2026-03-28
+lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 tags:
@@ -9,6 +9,9 @@ tags:
   - sensor-data
   - iot
 level: principle
+gap-status: identified
+gap-priority: medium
+gap-type: seed-missing
 ---
 
 # Frontier Exploration - Real-Time and Sensor-Based Knowledge
@@ -122,3 +125,15 @@ An AI building a knowledge base about "my smart home" using only current Seed ru
 - [[Handling Temporal Knowledge]] — Point-in-time capture strategies
 - [[The Extended Mind]] — External knowledge and cognitive extensions
 - [[Frontier Exploration - Knowledge Maintenance]] — Knowledge that needs periodic refresh
+
+---
+
+## Seed Rule Proposal (for consideration)
+
+**Rule:** For real-time data domains, store synthesized insights as notes; link to live data sources rather than embedding changing values.
+**Why:** Embedded live data creates stale notes. Continuous streams are inherently incomplete — capturing every reading pollutes the vault. Insights that would remain true even if the live source goes offline are knowledge; raw sensor readings are data.
+**Test:** For real-time domain notes: (1) Can you state the insight without the current reading? (2) Does the note remain valid if the live source goes offline? (3) Is there a link to the live source for current data?
+
+**Rule:** Define data freshness requirements based on the decisions the knowledge supports.
+**Why:** "Current temperature" for comfort differs from "current heart rate" for medical decisions. Acceptable staleness depends on use case.
+**Test:** For notes referencing real-time data: (1) Can you state the decision this knowledge supports? (2) How stale can the data be before it's useless?

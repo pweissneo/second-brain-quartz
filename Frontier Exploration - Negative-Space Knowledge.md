@@ -1,9 +1,13 @@
 ---
-last-reviewed: 2026-03-19
-lifecycle: evergreen
+last-reviewed: 2026-03-27
+lifecycle: seed-gap-identified
 confidence: emerging
 author-type: ai-assisted
 schema-version: "1.0"
+gap-status: identified
+gap-priority: medium
+gap-source: frontier-exploration
+discovered: 2026-03-19
 tags:
   - frontier-exploration
   - knowledge-boundaries

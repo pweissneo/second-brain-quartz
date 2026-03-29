@@ -1,61 +1,69 @@
 ---
-last-reviewed: 2026-03-18
-last-updated: 2026-03-20
+last-reviewed: 2026-03-28
+last-updated: 2026-03-28
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - anti-pattern
-  - quality
   - maintenance
+  - workflow
 level: pattern
-verification-status: verified
-schema-version: "1.0"
+counterpart-bestpractice: [[Best Practice - Regular Review]]
 ---
 
 # Anti-Pattern: Neglecting Maintenance
 
-Only adding new notes without reviewing or updating existing ones.
+Only adding new notes, never reviewing or pruning them, degrades vault quality over time.
 
 ## Problem
 
-A knowledge base that only grows but never gets reviewed becomes:
-- Stale with outdated information
-- Full of broken links and inconsistencies
-- Less reliable over time
+A knowledge base that only grows without maintenance becomes:
+- Full of outdated information
+- Hard to navigate (broken links, orphan notes)
+- Unreliable (unverified knowledge treated as fact)
+- Cluttered with stale content
+
+Without review, errors propagate and quality decays.
 
 ## Signs
 
-- Notes never get updated after creation
-- Links break without correction
-- Outdated information sits alongside current
-- Verification status remains perpetually "unverified"
-- New notes are added but old notes show no activity for 90+ days
-- Knowledge marked as temporary ("to be verified later") never gets verified
+- No notes have been verified in >30 days
+- Orphan rate exceeds 15%
+- Broken links accumulate
+- Stale content (>90 days old) never reviewed
+- Verification ratio below 30%
 
 ## Solution
 
-Follow [[Graph Maintenance]] and [[Self-Improvement Cycle]]:
+Follow [[Best Practice - Regular Review]] — schedule consistent review cycles.
 
-- Schedule regular review sessions (weekly 15-min scans, monthly deeper reviews)
-- Update notes when new information emerges
-- Fix broken links promptly
-- Verify unverified knowledge within 30 days of capture
-- Use the heartbeat protocol to systematically cycle through old notes
-- Set reminder triggers when notes exceed 60 days without review
+- Weekly: Process inbox, verify new notes
+- Monthly: Check graph health, fix broken links
+- Quarterly: Archive outdated content, schema review
 
-## The Maintenance Rule
+## The Maintenance Mindset
 
-> **Rule:** Every note should have a `last-reviewed` date, updated on each review.
-> **Why:** Without review tracking, stale notes accumulate undetected.
-> **Test:** Do all notes have a `last-reviewed` field? Flag notes not reviewed in the last 30 days.
+A knowledge base is a living system, not a static archive. Notes need:
+- Verification (is this still accurate?)
+- Pruning (is this still relevant?)
+- Linking (does it connect to the graph?)
+
+Without maintenance, the vault becomes a dumping ground.
+
+## Test Criteria (for AI Evaluation)
+
+- [ ] Are there notes older than 90 days without recent review?
+- [ ] Is orphan rate >10%?
+- [ ] Are broken links accumulating?
+- [ ] Is verification ratio >50% for recent captures?
+- [ ] Is there a scheduled review cadence?
 
 ## Related
 
-- [[Graph Maintenance]]
-- [[Self-Improvement Cycle]]
-- [[Note Lifecycle Management]]
-- [[Handling Temporal Knowledge]]
-- [[Anti-Pattern - Note Hoarding]]
+- [[Best Practice - Regular Review]] — What to do instead
+- [[Graph Maintenance]] — Technical guidance
+- [[Note Lifecycle Management]] — Note stages
+- [[Anti-Patterns in Knowledge Management]]
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Knowledge That Requires Active Practice to Validate]] — Knowledge requiring hands-on testing

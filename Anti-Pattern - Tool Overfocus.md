@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-18
-last-updated: 2026-03-19
+last-reviewed: 2026-03-26
+last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -12,6 +12,7 @@ tags:
 level: pattern
 verification-status: verified
 schema-version: "1.0"
+counterpart-bestpractice: [[Best Practice - Outcome Over Tool]]
 ---
 
 # Anti-Pattern: Tool Overfocus

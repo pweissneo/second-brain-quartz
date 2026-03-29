@@ -58,6 +58,13 @@ Knowledge that is:
 
 **Threshold:** General knowledge is acceptable when frequently referenced OR synthesized with personal analysis OR domain-specific enough to be hard to find — but otherwise should be excluded.
 
+**Implementation:** Use frontmatter:
+```yaml
+exclusion-considered: true
+exclusion-reason: public-utility
+exclusion-alternative: "What to capture instead (pattern vs snapshot)"
+```
+
 ### 2. Ephemeral Temporal Knowledge
 Knowledge that:
 - Becomes stale within 7 days
@@ -167,11 +174,11 @@ A knowledge base using ONLY the current Seed rules would:
 ## Related Seed Rules
 
 - [[[Frontier Exploration - Knowledge Maintenance]]] — Related but focuses on maintenance, not initial exclusion
-- [[Vault Boundaries]] — Defines categories to keep, not what to exclude
-- [[Diminishing Returns Testing]] — Tests utility of captures, not systematic exclusions
-- [[Capture Priority Signals]] — What to prioritize, not what to reject
+- [[[Anti-Pattern - Note Hoarding]]] — The inverse problem: what happens when you capture too much
+- [[[Seed Stress Test - Diminishing Returns Rule Across Domains]]] — Tests utility of captures
+- [[[Best Practice - Selective Capture]]] — What to prioritize in capture decisions
 
-### 9. Ethical Exclusion (Incorporated from Frontier Exploration - Knowledge Ethics and Exclusion)
+### 9. Ethical Exclusion
 
 Knowledge that raises ethical concerns even if technically relevant:
 
@@ -188,7 +195,7 @@ consent-status: explicit|implied|unknown
 harm-assessment: low|medium|high
 ```
 
-**Note:** This category was incorporated from [[Frontier Exploration - Knowledge Ethics and Exclusion]] (now archived), which was incorporated into the Seed on 2026-03-16.
+**Note:** This category addresses ethical exclusion considerations that apply to any knowledge base.
 
 ## Questions This Gap Raises
 

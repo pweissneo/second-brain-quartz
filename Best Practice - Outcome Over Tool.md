@@ -3,6 +3,7 @@ last-reviewed: 2026-03-26
 last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice
@@ -61,4 +62,4 @@ This doesn't mean ignore tools entirely. Use what works. But don't let tool deci
 
 - [[Anti-Pattern - Tool Overfocus]] — What to avoid
 - [[Tool Replacement Decisions]] — When tools do matter
-- [[AI-Assisted Knowledge Management]] — System that works
+- [[AI-Assisted Knowledge Management Seed]] — System that works

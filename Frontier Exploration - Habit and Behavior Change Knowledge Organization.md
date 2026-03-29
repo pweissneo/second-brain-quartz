@@ -1,10 +1,15 @@
 ---
+last-reviewed: 2026-03-26
+lifecycle: seed-extension
+confidence: emerging
+author-type: ai-assisted
 gap-status: identified
 gap-priority: medium
 gap-phase: discovery
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-03-26
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - Habit and Behavior Change Knowledge Organization

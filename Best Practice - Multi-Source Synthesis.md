@@ -1,8 +1,9 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice
@@ -10,6 +11,7 @@ tags:
   - synthesis
 schema-version: "1.0"
 counterpart-antipattern: [[Anti-Pattern - Single-Source Dependency]]
+x-source-gaps: verified through redundancy scan
 ---
 
 # Best Practice - Multi-Source Synthesis
@@ -56,5 +58,5 @@ Your knowledge base should contain YOUR synthesis, not just copied sources. That
 ## Related
 
 - [[Anti-Pattern - Single-Source Dependency]] — What to avoid
-- [[Confidence Markers]] — Source quality assessment
+- [[Confidence Markers]] — Source quality assessment (see also: verification-status fields)
 - [[Handling Contradictory Sources]] — When sources conflict

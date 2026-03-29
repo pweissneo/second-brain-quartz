@@ -1,7 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-03-23
-last-updated: 2026-03-23
+last-reviewed: 2026-03-27
+last-updated: 2026-03-27
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -67,22 +67,6 @@ author-type: ai-assisted
 **Rule:** Balance exploration (adding new topics) and exploitation (deepening existing ones) based on vault maturity — new vaults favor exploration (70/30), mature vaults favor exploitation (80/20).
 **Why:** Pure exploration creates shallow vaults with many thin topics; pure exploitation creates stagnant vaults that miss valuable new domains. Explicit balance ensures both breadth and depth grow healthily.
 **Test:** Can you categorize your recent capture activity as primarily exploration or exploitation? Is the ratio appropriate for your vault's maturity (new <50 notes = exploration, mature >200 notes = exploitation)?
-
-**Rule (NEW - 2026-03-27):** Allocate capture resources explicitly — maintain capture-to-verify ratio based on vault maturity (70/30 for new vaults, 30/70 for mature vaults), pause capture when unverified notes exceed 40%, evaluate marginal value before adding notes, and shift from capture to verification when ROI declines for 3+ consecutive periods.
-**Why:** The exploration/exploitation rule addresses breadth vs. depth but lacks operational thresholds. Without explicit resource allocation rules, AI agents default to capture (visible, rewarding) over verification (invisible, tedious). This creates verification debt that undermines knowledge quality. Explicit thresholds force strategic shifts and ensure capture effort delivers verified, usable knowledge.
-**Test:** (1) Can you calculate your current capture-to-verify ratio? (2) Is your ratio appropriate for your vault's maturity (new <50 notes = 70/30 capture/verify, mature >200 notes = 30/70)? (3) Do you pause capture when unverified exceeds 40%? (4) Do you evaluate marginal value (utility vs. maintenance cost) before adding notes? (5) Do you track ROI and shift strategy when it declines?
-**Implementation:** Track in frontmatter:
-```yaml
-vault-metrics:
-  capture-verify-ratio: 65/35  # adjust based on maturity
-  unverified-percentage: 38
-  verification-backlog: 23
-  capture-pause-threshold: 40
-  roi-trend: declining|stable|improving
-```
-**Marginal value assessment:** High-value captures fill retrieval gaps, address prerequisites, solve recurring needs, and can be verified. Low-value captures are curiosity-driven, no demonstrated need, one-time interest only.
-**Pareto analysis:** Identify the 20% of domains delivering 80% of utility — prioritize verification there first.
-**See also:** [[Frontier Exploration - Knowledge Capture Resource Allocation]]
 
 **Rule (NEW - 2026-03-22):** Systematically identify knowledge gaps and prioritize filling them — use prerequisite audits, retrieval failure tracking, graph topology analysis, and contested topic scans.
 **Why:** The Seed tells you how to manage existing knowledge (when to merge, split, verify) but not how to identify what's missing. Without gap identification, vaults accumulate based on what capture agents find interesting rather than what the vault needs. This creates coverage illusions where obvious gaps go unnoticed.
@@ -372,6 +356,43 @@ tool-verification-date: 2026-03-26
 **Relationship to existing rules:** If tool is unavailable or verification is infeasible, apply unverifiable handling. High-stakes domains (medical, safety, structural) often have critical tool-dependent knowledge.
 **See also:** [[Seed Gap - Verification Requiring External Tooling]], [[Seed Stress Test - Tool-Dependent Verification in Medical Knowledge]]
 
+**Rule (NEW - 2026-03-27):** For knowledge that can only be validated through practice drills (not through source-checking, actual use, or tool execution), tag with `verification-mode: drill-verified` and track drill frequency.
+**Why:** The Seed covers source verification, empirical verification, tool-dependent verification, and embodied verification — but misses knowledge that should be validated through practice drills. Emergency/first-aid knowledge, safety procedures, and survival skills are verified through practice (CPR training, fire drills, evacuation practice) rather than through reading sources or testing in actual emergencies. This is distinct from experiential verification (testing a recipe) — the goal is to never use the knowledge in real situations, so only drill-based verification is appropriate.
+**Test:** For emergency, safety, or survival knowledge: (1) Does the note have `verification-mode: drill-verified`? (2) Is there `last-practiced:` frontmatter? (3) Is there `next-drill-due:`? (4) Is certification-equivalent documented (e.g., "AHA CPR 2020")?
+**Implementation:** Use frontmatter:
+```yaml
+verification-mode: drill-verified
+verification-status: drill-validated|drill-overdue|drill-pending
+certification-equivalent: "Organization and version (e.g., AHA CPR 2020)"
+certification-valid-until: 2027-03-27
+last-practiced: 2026-01-15
+next-drill-due: 2026-04-15
+drill-frequency: quarterly|annually|biannual
+drill-type: physical|paper-scenario|mental-rehearsal
+```
+**Drill status guidance:**
+- `drill-validated` — practiced within the drill frequency window
+- `drill-overdue` — past the next-drill-due date
+- `drill-pending` — captured but not yet practiced
+**Verification pathway:** Drill-verified knowledge achieves "verified" status through documented practice, not through source quality. The verification is about recall capability under stress, not about the correctness of the source material.
+**Relationship to existing rules:** If drill equipment or certification is unavailable, apply unverifiable handling. Drill verification is orthogonal to source verification — a note can be drill-verified AND source-verified (certified procedure from recognized body).
+
+**Edge cases:**
+- **Self-taught emergency knowledge:** If you learned from YouTube而非certified course, note `certification-equivalent: self-taught` and consider formal certification
+- **Drill failure:** If you fail to perform correctly during drill, mark as `verification-status: drill-failed` and update note with what went wrong
+- **Domain-specific drill:** Cooking (choking response), woodworking (first-aid for injuries), travel (emergency protocols) — each domain needs drill-verified procedures
+
+- **Edge case (stress test 2026-03-28 - home repair):** Safety procedures in high-consequence domains (home repair, woodworking, electrical, structural work) face unique drill verification challenges:
+  - Some procedures cannot be fully drilled (ladder fall response, electrical emergency response) — use `drill-type: mental-rehearsal` when full drill is not feasible
+  - High-consequence knowledge (electrical, structural, height work) requires both source AND drill verification for full confidence
+  - Add `exposure-frequency:` (daily|weekly|monthly|rarely) to calculate appropriate drill frequency based on how often the person uses these skills
+  - For procedures requiring professional certification, tag `professional-required: true`
+  - Safety-critical knowledge is often both drill-verified AND source-verified — the two verification modes are orthogonal, not mutually exclusive
+
+**Why this matters:** Knowledge you hope to never use still needs verification — but the verification method is fundamentally different. CPR knowledge that "looks correct" in a note may fail under stress if not internalized through practice.
+
+**See also:** [[Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases]]
+
 **Rule:** Handle incorrect or outdated knowledge explicitly — when discovering knowledge is wrong, mark rather than silently delete.
 **Why:** Wrong knowledge contains valuable context: why you believed it, what source led you astray, what you learned from the correction. Deleting loses this meta-knowledge. Marking preserves the learning while preventing the vault from spreading incorrect information.
 **Test:** Can you trace how each incorrect note was handled? Does each have correction metadata (correction-type, correction-date, corrected-by)?
@@ -508,6 +529,22 @@ conflict-resolution:
 **Rule:** Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (adds new knowledge), effort (maintenance worth value).
 **Why:** Notes that don't improve utility, can't connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value.
 **Test:** For the last 5 notes added to a mature topic: Do 3+ pass all four tests?
+
+**Enhanced test (temporal-aware domains):** For knowledge in version-sensitive or rapidly-evolving domains, also check:
+1. Is this for an ACTIVE version/framework (not deprecated)?
+2. Does the note include temporal validity markers (`utility-expiry:`, `version:`, `framework-status:`)?
+3. Is the uniqueness assessment based on YOUR specific context rather than general availability?
+
+**Stakes-aware effort weighting:** Weight the effort test by stakes:
+- High-stakes knowledge (medical, legal, safety) with high effort = valuable even if redundant
+- Low-stakes knowledge with high effort = marginal value, likely not worth capture
+
+**Override conditions:** Bypass diminishing returns test when:
+- `criticality: high` (safety-critical, life-threatening conditions)
+- `rare-condition: true` (niche knowledge essential for completeness)
+- `prerequisite: true` (foundational for understanding other notes)
+- `design-phase: ideation` (creative exploration needs divergent capture)
+
 
 **Rule (NEW - 2026-03-22):** Evaluate maintenance burden before capturing volatile knowledge — exclude or deprioritize knowledge that is high-maintenance (frequently changing) AND low-utility (easily looked up elsewhere) AND lacks personalization (no unique context you provide).
 **Why:** Some knowledge is "expensive" to maintain — it requires ongoing updates just to stay accurate, but provides low value because it's easily found elsewhere. Capturing version-sensitive technical trivia, frequently-changing prices, or transient opportunities creates maintenance debt without proportional benefit. The vault should capture what can't be easily found or what includes your unique context.
@@ -654,19 +691,30 @@ last-executed: 2026-03-21
 **Test:** For key knowledge notes used in decisions: (1) Can you identify the source type (intuition|analysis|authority|experiment)? (2) Is the source type appropriate for the domain? (3) Does verification method match the source type?
 **Implementation:** Use frontmatter:
 ```yaml
-knowledge-source-type: intuition|analysis|authority|experiment
+knowledge-source-type: intuition|analysis|authority|experiment|synthesis
+synthesis-type: cross-source|inductive|deductive|analogical  # for synthesis
 intuition-type: pattern-recognition|expert-tacit|gut-feeling  # for intuition
 analysis-type: statistical|deductive|comparative  # for analysis
 authority-type: expert|publication|institution  # for authority
 experiment-context: controlled|field|observational  # for experiment
 ```
+
 **Source-appropriate verification:**
 - **Intuition**: Verify through real-world outcomes, not source citation; track experience level of source
 - **Analysis**: Verify through methodology review, reproducibility, and sensitivity testing
 - **Authority**: Verify through source credibility assessment and citation cross-check
 - **Experiment**: Verify through replication and effect size confirmation
+- **Synthesis**: Verify through re-synthesis from current sources; check if any source changed; validate reasoning chain
 
 **Intuition reliability heuristic:** Intuition is more reliable when: (1) Domain has stable patterns, (2) Source has deep experience (thousands of relevant exposures), (3) Intuition is specific, not vague. Intuition is less reliable when: (1) Domain has novel elements, (2) Source has limited relevant experience, (3) Intuition is general or vague.
+
+**Synthesis reliability heuristic:** Synthesis is more reliable when: (1) Sources are independent (not citing each other), (2) Reasoning chain is explicit and traceable, (3) Multiple synthesis paths converge on same conclusion, (4) Sources are current (no outdated information). Synthesis is less reliable when: (1) Sources are not independent (circular citations), (2) Reasoning chain is implicit or missing, (3) Single synthesis path, (4) Any source is known to be outdated or contested.
+
+**Synthesis metadata requirements:** For notes tagged with `knowledge-source-type: synthesis`, include:
+- `synthesis-sources:` — list of 2+ notes/sources combined
+- `reasoning-chain:` — brief explanation of how sources combine
+- `last-synthesized:` — date of synthesis (important for re-synthesis checking)
+- `synthesis-confidence-calibration:` — high|medium|low (typically medium or lower)
 
 **Edge case:** Expert intuition (thousands of pattern recognitions) differs from novice "gut feeling" (may be random or biased). Distinguish with `intuition-experience-level:` field (expert|experienced|novice).
 
@@ -1179,6 +1227,40 @@ See also: [[Frontier Exploration - Vault Merging and Migration]] for detailed ex
 **When NOT to rebuild:** Vault <50 notes (refactor instead), problems are localizable (split instead), only 1-2 symptoms present (repair is faster), recent improvement trend.
 **Hybrid approach:** Archive old vault, start new with Seed; selectively migrate notes passing quality filters.
 
+**Rule (NEW - 2026-03-27):** Create a new note when the knowledge represents a distinct atomic idea that could stand alone; extend an existing note when the knowledge is a variation, example, or elaboration of an existing concept.
+**Why:** Without explicit criteria for note creation vs. extension, AI agents default to creating new notes (easier, more visible) even when extending existing notes would strengthen the graph. This creates fragmentation where related ideas are scattered across multiple thin notes instead of concentrated in robust, interconnected ones.
+**Test:** For incoming knowledge: (1) Can this idea be expressed in one sentence as a standalone insight? (2) Does it have its own prerequisite structure? (3) Would it naturally link to 2+ existing notes in a way that isn't just "related to"? (4) Could someone search for this specifically and expect a dedicated result? If yes to 2+ criteria, create new. Otherwise, extend existing. See [[Note Creation Decision Framework]] for detailed decision tree.
+**Implementation:** Use frontmatter to track note creation rationale:
+```yaml
+creation-rationale: new-note|extension|split
+extension-target: [[Existing Note Name]]  # if extension
+creation-criteria-met: [list of criteria met]
+```
+**Edge case:** When in doubt, extend — it's easier to split later than to merge scattered notes. Stub notes (brief, <100 words) are acceptable placeholders that signal "more coming" and can be expanded.
+
+**Rule (NEW - 2026-03-28):** Track and counteract systematic AI agent behavioral patterns — monitor capture patterns for recency bias, confirmation bias, pattern-matching over discovery, efficiency tunneling, and authority amplification.
+**Why:** AI agents have predictable behavioral tendencies that can distort vault structure. Without explicit behavioral monitoring, vaults develop artifacts from agent behavior rather than organic knowledge needs. The Seed assumes a rational capture agent but doesn't account for its systematic biases.
+**Test:** (1) Can you identify recency bias in recent captures (recent topics over foundational)? (2) Does the vault show confirmation bias (self-referential links, few external sources)? (3) Are new hubs emerging or only existing hubs growing? (4) Is capture targeting easy wins over high-value work? (5) Is personal synthesis present or only external source aggregation?
+
+**Implementation:** Run behavioral audits quarterly. Track metrics:
+```yaml
+behavioral-metrics:
+  recency-bias: low|medium|high  # recent vs foundational capture ratio
+  confirmation-bias: low|medium|high  # self-referential vs external links
+  pattern_matching: low|medium|high  # existing-hub vs new-hub creation
+  efficiency_tunneling: low|medium|high  # shallow vs deep captures
+  authority_amplification: low|medium|high  # external vs personal synthesis
+```
+
+**Counter-measures:**
+- Recency: Require gap identification (3+ gaps) before capture sessions
+- Confirmation: Set hub creation targets (minimum 1 new hub per 10 sessions)
+- Pattern-matching: Require cross-domain links in each capture session
+- Efficiency: Apply quality gates (utility+connection+uniqueness test)
+- Authority: Enforce 5:1 personal-to-general ratio strictly
+
+**Behavioral health in completion criteria:** Include behavioral metrics in vault completion criteria. Alert when any metric exceeds "high" threshold.
+
 ---
 
 ## 2. Atomicity
@@ -1380,6 +1462,27 @@ next-decisions:
 **Edge case:** Terminology chains where defining terms link to their components may be circular — "A [[proxy]] is someone who acts as a [[proxy]]" is tautological. Test: Can you explain the connection without repeating the term?
 **Edge case:** Links to umbrella/broad terms (e.g., linking "contract law" to "Contract Law") may be too vague. Prefer linking to specific concepts the note actually discusses.
 **Edge case:** Precedent chains (case A established X, refined in case B) are explainable when each link clarifies HOW the later case modified the earlier principle.
+
+**Refinement (NEW - stress test 2026-03-27):** The "explainable" test works for learning links but doesn't distinguish between different link purposes. Apply this refined framework:
+
+1. **Learning links** (primary) — "Understanding X helps you understand Y" — the original test applies directly
+2. **Constitutive links** (acceptable) — "X is part of Y" — structural descriptions that clarify composition but aren't learning paths (e.g., "The exposition introduces the [[primary theme]]")
+3. **Reference links** (decorative) — Basic assumed knowledge for the target audience — explainable but add no value in specialized vaults (e.g., linking to "violin" in a composer's vault)
+4. **Notation links** (convert to tags) — Harmonic/melodic shorthand patterns (e.g., [[I-vi-IV-V]] should be a tag, not a link)
+5. **Developmental links** (describe, don't link) — Transformation/evolution relationships that don't map to "follow this link" (e.g., "The motif [[develops]] throughout" — describe the relationship instead)
+
+**Refined test:** For each link:
+1. Is this basic assumed knowledge for your target audience? → Reference → remove
+2. Is this notation shorthand (chord symbols, scale degrees)? → Notation → convert to tag
+3. Is this constitutive ("X is part of Y") or learning ("X helps understand Y")? → Mark constitutive if keeping
+4. Can you state what the reader learns by following? → Learning → keep
+
+**Implementation:** Use frontmatter to track link types:
+```yaml
+link-type: learning|constitutive|reference|notation|developmental
+```
+
+**Edge case - Circular links:** Linking to [[functional harmony]] from a note about functional harmony is neither learning nor constitutive — it's circular and should be removed.
 
 **Rule:** Use diverse link types — relevance, contrast, analogy, cause/effect, category membership.
 **Why:** Homogeneous links create a flat graph; diverse connection types enable richer traversal and insight.
@@ -1774,7 +1877,21 @@ See also: [[Frontier Exploration - Speculative and Predictive Knowledge]] — De
 **Rule:** Run consistency scans quarterly — proactively detect terminology drift, contradictory claims, and scope mismatches across notes.
 **Why:** Knowledge bases evolve organically and silently accumulate inconsistencies. Without systematic detection, the vault erodes in reliability as contradictory claims multiply undetected. Users discover inconsistencies through use rather than through maintenance.
 **Test:** (1) Can you scan for terminology variations of the same concept? (2) Can you find notes with contradictory claims on the same topic? (3) Do you have a process for resolving found inconsistencies?
-**Implementation:** Group notes by topic, compare key claims, identify conflicts, prioritize resolution by impact (decision-critical > frequently-referenced > obscure).
+
+**Rule (NEW - 2026-03-28):** For knowledge domains where terminology changes frequently (technology, research, medicine), track term lifecycle status and maintain migration paths between deprecated and current terminology.
+**Why:** Without explicit terminology tracking, knowledge bases in fast-moving domains become cluttered with outdated terms, users get confused about current best practices, and historical context is lost. Terminology evolution is distinct from knowledge obsolescence — a concept may still be valid but the name has changed.
+**Test:** (1) Can you identify deprecated terms in the vault? (2) Do deprecated terms link to current alternatives? (3) Is terminology status (current/deprecated/emerging) trackable via frontmatter? (4) Can users find current terminology when searching outdated terms?
+**Implementation:** Use frontmatter to track terminology lifecycle:
+```yaml
+terminology-status: current|deprecated|emerging|archival
+deprecated-replaced-by: [[Current Term]]
+deprecated-date: 2024-03
+emerging-stability: experimental|unstable|stable
+```
+**Migration path:** When a term is deprecated: (1) Mark old term with `terminology-status: deprecated`, (2) Add `deprecated-replaced-by:` pointing to current term, (3) Keep old note (don't delete) for historical context, (4) Create redirect note for searchability. For emerging terms, capture with `confidence: emerging` and track expected stabilization timeline.
+**Edge case:** Meaning shift — same term with evolved definition over time. Track via `definition-evolution:` with timeline periods.
+**Edge case:** Sub-field variations — same term means different things in different contexts (e.g., "function" in math vs. programming). Use disambiguation notes and scope tagging.
+**See also:** [[Seed Gap - Evolving Terminology in Fast-Moving Domains]]
 
 **Rule:** Track knowledge debt explicitly — monitor verification backlog, staleness, structural decay, redundancy, and retrieval noise as a composite debt score.
 **Why:** Knowledge debt (accumulated unverified, outdated, or low-quality notes) misleads users about vault reliability. Unlike technical debt (which slows development), knowledge debt creates false confidence. Tracking debt enables proactive management before it overwhelms the vault.
@@ -2436,6 +2553,24 @@ investigation-priority:
     safety: "no-risk|low-risk|high-risk"
 diagnosis-status: investigating|probable|confirmed|ruled-out
 ```
+
+**Rule (NEW - 2026-03-28):** For interaction knowledge (knowledge about how elements combine, affect each other, or produce emergent properties), tag with `knowledge-type: interaction` with explicit metadata.
+**Why:** Interaction knowledge differs from procedural (do X→get Y), conditional (if A→then B), or conceptual (X is Y) — the combination produces something neither element has alone. Without explicit handling, AI agents cannot distinguish "A goes with B" (simple pairing) from "A and B interact to produce C" (emergent interaction).
+**Test:** For notes about combinations: (1) Are participating elements explicitly identified? (2) Is interaction direction stated (A→B, B→A, mutual)? (3) Is the mechanism explained (chemical, structural, cultural)? (4) Is subjectivity level indicated (structural | cultural | preference)?
+**Implementation:** Use frontmatter:
+```yaml
+knowledge-type: interaction
+interaction-type: complement|contrast|conflict|neutral
+direction: a-enhances-b|b-enhances-a|mutual|neutral
+mechanism: chemical|structural|cultural|preference
+subjectivity: structural|cultural|preference
+participating-elements:
+  - "Element A"
+  - "Element B"
+```
+**Edge case:** Distinguish interaction from substitution — substitution replaces one element with another; interaction combines elements to produce new properties. "Butter can be replaced with oil" = substitution; "Butter + eggs = emulsification" = interaction.
+**Edge case:** Distinguish interaction from simple pairing — "wine goes with fish" is preference; "acid in wine breaks down fat in fish" is structural interaction. The mechanism distinguishes the type.
+**See also:** [[Seed Gap - Interaction Knowledge Type]] — Gap that prompted this rule addition
 
 **Rule:** Include investigation priority in troubleshooting notes — what to check first, second, third, with reasoning for each priority.
 **Why:** Without priority, users face analysis paralysis. Some investigations are quick, some are time-consuming, some are dangerous. Priority enables efficient diagnosis and prevents wasted effort on unlikely causes.
@@ -3206,6 +3341,19 @@ When handling jurisdiction or region-dependent knowledge, choose between creatin
 **Why:** High confidence without recent review can be misleading; knowledge may have evolved since last review. Domain-appropriate intervals reflect how quickly knowledge changes in each field.
 **Test:** For notes with confidence: high (1) Is last-reviewed within the appropriate timeframe? (2) If older, downgrade to confidence: emerging until re-reviewed?
 
+**Rule:** For domains with inherently different knowledge velocities, use domain-velocity classification to calibrate confidence decay expectations — fast-velocity domains (technology, finance, current events) require shorter review cycles and lower confidence ceilings, while static domains (mathematics, history, philosophy) have extended review intervals.
+**Why:** Treating all domains equally causes fast-velocity domains to accumulate false confidence (stale knowledge appears reliable) and slow-velocity domains to suffer unnecessary review overhead. Photography knowledge about 2018 cameras shouldn't have the same confidence decay timeline as fundamental mathematics. Without domain-velocity awareness, AI agents cannot appropriately calibrate confidence and review frequency.
+**Test:** 
+1. Can you classify your vault's primary domains by velocity (fast/medium/slow/static)?
+2. Do high-velocity domain notes (technology, finance, current events) have review intervals ≤90 days?
+3. Do static domain notes (mathematics, history, philosophy) have `review-interval: historical` or `review-interval: never`?
+4. For fast-velocity domains, does `confidence: high` require verification within the last 30 days?
+**Implementation:** Use `domain-velocity:` frontmatter (fast/medium/slow/static) with domain-appropriate default review intervals:
+- Fast (30-90 days): consumer electronics, software, social media, market data, current events
+- Medium (90-180 days): professional equipment, domain methodologies, industry regulations
+- Slow (180-365 days): craft techniques, practice methodologies, health research
+- Static (historical/never): mathematical proofs, historical facts, philosophical arguments, foundational definitions
+
 **Rule:** For domains with no consensus, explicitly tag notes with `consensus: none` and default to `confidence: emerging`.
 **Why:** In domains where experts fundamentally disagree and empirical verification is impossible (parenting, relationships, personal development), presenting claims as if there's consensus misleads readers. Explicit consensus tracking helps readers understand that uncertainty is inherent to the domain.
 **Test:** For notes in domains with no consensus: (1) Does the note explicitly state that consensus is absent? (2) Is confidence tagged as low/emerging by default? (3) Are multiple perspectives presented rather than one "correct" answer?
@@ -3750,7 +3898,7 @@ Scan quarterly for obsolescence triggers in fast-moving domains.
 
 Example: Graph Visualization was deprecated and merged into [[Knowledge Graph Structure]] — see how deprecation handles the transition while preserving access to the historical note.
 
-**See also:** [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management]]
+**See also:** [[Frontier Exploration - Knowledge Deprecation and Retirement Criteria]]
 
 **Rule:** Iterate on existing notes rather than creating new ones on the same topic.
 **Why:** Parallel notes on the same idea fragment knowledge; iteration concentrates and deepens it.
@@ -4010,6 +4158,27 @@ metrics:
   content-churn: [frequently-updated notes]
 ```
 **See also:** [[Frontier Exploration - Vault-Level Pattern Discovery]]
+
+**Rule (NEW - 2026-03-28):** When two or more protected notes have >50% content overlap, designate one as canonical and add a redirect section to the other(s).
+**Why:** Protected notes prevent accidental deletion, but when they overlap they create redundancy that violates the Seed's core principle. The solution is not merging but designating a canonical source while preserving the protected status of both.
+**Test:** Can you identify any pairs of protected notes with >50% content overlap? For each overlap pair: (1) Is one clearly more comprehensive? (2) Does the less comprehensive note include a redirect section pointing to the canonical note? (3) Do both notes still exist (none deleted)?
+**Implementation:** In the non-canonical protected note, add frontmatter:
+```yaml
+canonical-note: [[Canonical Note Name]]
+redirect-sections:
+  - section-1
+  - section-2
+```
+And add redirect section in content:
+```markdown
+## Redirect
+
+This note has been superseded by [[Canonical Note Name]]. The content below has been migrated:
+
+[Migrated content or summary]
+
+All future updates should be made to [[Canonical Note Name]].
+```
 
 ---
 
@@ -4294,6 +4463,11 @@ trade-off:
 **Rule:** Provide explicit conflict-resolution guidance when vault notes contradict each other.
 **Why:** Well-maintained vaults accumulate multiple perspectives over time. When notes conflict, users need guidance on how to resolve or weigh them.
 **Test:** For notes on contested topics: (1) Is there explicit conflict-resolution guidance? (2) Are the competing perspectives each linked to their source/authority? (3) Is there guidance on which to prefer for different contexts?
+
+**Rule (NEW - 2026-03-28):** Document reasoning traces for complex queries — capture the step-by-step path from question to answer, including consulted notes, weighting rationale, confidence at each step, and identified gaps.
+**Why:** Without reasoning traces, users cannot verify AI logic, audit conclusions, or improve the vault based on reasoning failures. The Seed covers reasoning strategies but not the explicit documentation of reasoning execution. This gap matters especially when AI assists decision-making — users need to see how conclusions were reached.
+**Test:** For a complex query (3+ notes consulted): (1) Can you generate a reasoning trace showing the path from question to answer? (2) Does the trace include consulted notes, weighting rationale, confidence at each step, and any gaps identified? (3) Can a user follow the trace to verify or replicate the reasoning? (4) Does the trace identify specific vault gaps that caused reasoning failures?
+**Implementation:** Reasoning traces should include: query decomposition (sub-questions), traversal path (each note consulted with relevance score, confidence, and role), synthesis rationale (how sources were combined), gaps identified, and final confidence. Default: ephemeral (discard after response). Optional: session-based or permanent storage for audit.
 
 ---
 

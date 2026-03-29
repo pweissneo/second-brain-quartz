@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-26
+last-reviewed: 2026-03-28
 lifecycle: evergreen
 tags:
   - structure
@@ -18,15 +18,17 @@ author-type: ai-assisted
 ## Quick Reference
 
 ### Core Principles
-- **Atomic:** One idea per note, 100-300 words max
+- **Atomic:** One idea per note, 100-300 words max (but procedural content can exceed)
 - **Linked:** 2-3 connections per note minimum
-- **Hubbed:** 3-hop maximum to any node
+- **Hubbed:** 3-hop maximum to any node (4 hops for sequential domains)
 - **Maintained:** Regular health checks, updates
+- **Verified:** Maintain verification ratio (50%+ within 30 days for mature vaults)
+- **Protected:** 26 structural pillars (protected: true) must never be merged or deleted
 
 ### Anti-Patterns
-- Note Hoarding, Over-Organization, Link Inflation, Perfectionism, Neglecting Maintenance
+- Note Hoarding, Over-Organization, Link Inflation, Perfectionism, Single-Source Dependency, Tool Overfocus, Missing Negative Knowledge
 
-See [[Anti-Patterns in Knowledge Management]] for details.
+Every anti-pattern has a corresponding best practice. See [[Anti-Patterns in Knowledge Management]] for details.
 
 ---
 
@@ -49,8 +51,34 @@ Different notes serve different functions:
 - **Structure Notes** - System documentation (see [[Schema.md]])
 - **Project Notes** - Time-bound, outcome-focused
 - **Reference Notes** - External source storage
+- **Seed Rules** - The core ruleset (in [[AI-Assisted Knowledge Management Seed]])
+- **Seed Gaps** - Proposed rules that need testing
+- **Seed Stress Tests** - Rules tested across domains
 
 **Demonstrated by:** [[Note Types and Templates]]
+
+---
+
+## Quality Rules
+
+### Confidence & Verification
+The Seed tracks multiple quality dimensions:
+- **Confidence:** high, medium, low, emerging
+- **Verification status:** verified, unverified, testing, failed
+- **Knowledge source type:** intuition, analysis, authority, experiment
+- **Evidence tier:** tested methodology → personal discovery
+- **Consensus level:** mainstream, debated, emerging, fringe
+
+**Demonstrated by:** [[Confidence Markers]], [[AI-Assisted Knowledge Management Seed]]
+
+### Knowledge Presentation Calibration
+Present knowledge based on its quality dimensions:
+- High certainty (verified, high confidence, mainstream): Direct statements
+- Medium certainty: Qualified statements with light hedging
+- Low certainty (unverified, emerging, fringe): Tentative language with explicit uncertainty
+- Contested: Balanced presentation with multiple perspectives
+
+**Demonstrated by:** [[Frontier Exploration - Knowledge Presentation Calibration]]
 
 ---
 
@@ -100,6 +128,26 @@ Keep notes accurate:
 
 ---
 
+## Vault Health Metrics
+
+### Construction Phase Model
+Apply relaxed standards during bootstrap, tighten as vault matures:
+- **Skeleton (1-20 notes):** Minimum 1 link, 4 hop depth, 50+ words
+- **Flesh (20-100 notes):** Transition to full rules at 50 notes
+- **Muscle (100-200 notes):** Full rules apply
+- **Maturity (200+ notes):** Full Seed rules, 70% gap-filling, 20% verification
+
+**Completion criteria:** orphan rate <10%, hub coverage >80%, verification ratio >50%, schema stable 60+ days, compliance score >85%
+
+### Capture-to-Verify Ratio
+- **New vaults (<50 notes):** 70/30 capture/verify
+- **Mature vaults (>200 notes):** 30/70 capture/verify
+- Pause capture when unverified exceeds 40%
+
+**Demonstrated by:** [[AI-Assisted Knowledge Management Seed]]
+
+---
+
 ## The Pipeline
 Input → Capture → Process → Connect → Maintain
 
@@ -130,8 +178,11 @@ See [[Graph Traversal Efficiency]] for tool details.
 - [[Graph Traversal Efficiency]] - Finding your way around
 - [[Linking Principle]] - How to connect notes meaningfully
 - [[Anti-Patterns in Knowledge Management]] - What to avoid
+- [[Best Practices Hub]] - Positive alternatives to anti-patterns
+- [[Frontier Exploration Hub]] - Emerging ideas being tested
+- [[Seed Gaps - Domain-Specific Extensions]] - Proposed rules for specific fields
+- [[AI-Assisted Knowledge Management Seed]] - Full ruleset
 - [[Frontier Exploration - Illustrative vs Factual Examples]] - Example types
-- [[AI-Assisted Knowledge Management Seed]] - What to include/exclude
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Context-dependent validity
 - [[Frontier Exploration - Jargon vs Plain Language]] - Different expertise levels
 - [[Frontier Exploration - Multi-Modal Knowledge]] - Media beyond text
@@ -151,7 +202,9 @@ This note synthesizes guidance from the following vault notes:
 - [[Handling Temporal Knowledge]] - Accuracy maintenance
 - [[Knowledge Base Workflow]] - Daily practice pipeline
 - [[Graph Traversal Efficiency]] - Tool reference
+- [[Confidence Markers]] - Quality tracking
+- [[Frontier Exploration - Knowledge Presentation Calibration]] - How to present knowledge based on quality
 
 ---
 
-*Last updated: 2026-03-09*
+*Last updated: 2026-03-28*

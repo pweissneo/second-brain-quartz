@@ -7,6 +7,9 @@ lifecycle: seed-gap
 meta-type: capture-process
 schema-version: "1.0"
 level: frontier
+discovered: 2026-03-26
+gap-status: identified
+gap-priority: medium
 tags:
   - frontier-exploration
   - multi-language

@@ -54,6 +54,12 @@ The Seed needs guidance on:
 - [[Graph Traversal Efficiency]] — Current navigation rules (assumes single use case)
 - [[Hub Node Creation]] — Entry points (domain-agnostic)
 
-## Resolution Notes
+## Resolution Notes (2026-03-28)
 
-This gap was identified but not resolved during this heartbeat. The vault contains extensive exploration of this topic in the Frontier note, but the guidance hasn't been codified into the Seed yet.- [[_root]]
+This gap was identified during a previous heartbeat. The Seed has since been updated with `access-pattern:` frontmatter guidance (line ~1681), partially addressing this gap. However, full implementation guidance for use-case-specific entry points is still pending.
+
+**Current Seed coverage:**
+- Line 1681: access-pattern frontmatter field exists
+- Still missing: explicit guidance for use-case-specific entry points (reference indexes, learning paths, decision trees)
+
+[[_root]]

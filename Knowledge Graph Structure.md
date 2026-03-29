@@ -138,6 +138,12 @@ Graph visualization helps:
 - **Path length** — Navigation distance (shorter is better)
 - **Isolation** — Notes with few connections, hard to discover
 
+## Emergence in Knowledge Graphs
+
+The graph structure doesn't just enable navigation — it enables **emergence**: new insights arising from unexpected connections between notes. This is covered in detail in [[Emergence in Knowledge Graphs]].
+
+**Key insight:** When notes from different domains connect, they can produce insights neither had alone. This is why cross-topic linking matters — it's not just navigation, it's knowledge generation.
+
 ## Related
 - [[Zettelkasten Method]]
 - [[Graph Traversal Efficiency]]
