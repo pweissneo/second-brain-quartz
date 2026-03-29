@@ -75,7 +75,7 @@ author-type: ai-assisted
 **Gap types:** Prerequisite (concepts the vault assumes), Utility (knowledge needed for frequent tasks), Connection (topics that should link but don't), Verification (unverifiable due to missing context), Perspective (single-view when multi-view expected), Safety (safety-critical procedures missing, outdated, or incomplete).
 **Gap metadata schema:** Use frontmatter to track gap lifecycle:
 ```yaml
-gap-status: identified|in-progress|resolved|superseded
+gap-status: identified|analyzed|proposed|integrated|deprecated  # 5-stage lifecycle
 gap-priority: critical|high|medium|low
 gap-phase: discovery|analysis|implementation|verification
 gap-severity: blocking|useful|nice-to-have  # aligns with impact assessment
@@ -84,7 +84,13 @@ discovered: 2026-03-26
 resolved: 2026-03-27
 resolved-by: [[Note Name]]  # links to the note that fills the gap
 gap-owner: optional  # for collaborative vaults
+gap-review-date: 2026-03-26  # when last reviewed
+resolution-deadline: 2026-05-26  # optional target date
 ```
+**Gap lifecycle stages:** (1) **identified** — Gap documented, needs analysis; (2) **analyzed** — Root cause understood, solution approach defined; (3) **proposed** — Rule written in Rule/Why/Test format, ready for Seed integration; (4) **integrated** — Rule merged into Seed, gap note archived; (5) **deprecated** — Gap no longer relevant (domain changed, resolved differently, etc.).
+
+**Gap review cadence:** Review Seed Gap notes monthly. If a gap remains "identified" for >60 days without progress, either move to "analyzed" with proposed approach or deprecate if no longer relevant.
+
 **Gap-to-Seed pathway:** When gap analysis reveals a pattern where the Seed lacks a rule to prevent the gap, create a Seed Gap note with `gap-type: seed-missing` documenting: (1) what gap occurred, (2) what rule is missing from the Seed, (3) proposed rule in Rule/Why/Test format. This transforms gap discovery into Seed improvement.
 
 **Rule (NEW - 2026-03-26):** For knowledge bases serving multiple domains, create cross-topic hubs for universal problems (debugging, decision-making, risk assessment, prioritization, failure analysis) — problems are orthogonal to topics and benefit from shared structure.
