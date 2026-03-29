@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-28
 last-updated: 2026-03-28
-lifecycle: resolved
+lifecycle: historical
 confidence: high
 author-type: ai-assisted
 tags:

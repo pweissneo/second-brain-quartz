@@ -54,7 +54,7 @@ Explain a concept simply — if you can't, you don't understand it well enough. 
 
 ## Related
 - [[Active Reading]]
-- [[note-naming-conventions]]
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Progressive Summarization]]
 - [[Note Lifecycle Management]]
 - [[Atomic Note Principle]]

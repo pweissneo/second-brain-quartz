@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-03-28
 last-updated: 2026-03-28
-lifecycle: frontier-exploration
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 tags:

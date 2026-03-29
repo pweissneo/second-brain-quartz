@@ -1,16 +1,24 @@
 ---
-last-reviewed: 2026-03-25
-last-updated: 2026-03-25
-lifecycle: emerging
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
+lifecycle: archived
 confidence: emerging
 author-type: ai-assisted
 tags:
-  - seed-stress-test
+  - seed-gap
   - verification
   - pottery
   - ceramics
   - iterative-verification
   - domain-specific
+  - superseded
+gap-type: seed-missing
+gap-status: superseded
+gap-source: stress-test
+discovered: 2026-03-25
+superseded-date: 2026-03-29
+superseded-reason: "Content merged into [[Seed Gap - Verification Timeline Management]] — pottery/ceramics multi-context verification integrated into unified timeline framework"
+merged-into: [[Seed Gap - Verification Timeline Management]]
 ---
 
 # Seed Gap - Verification Timeline for High-Iteration Domains

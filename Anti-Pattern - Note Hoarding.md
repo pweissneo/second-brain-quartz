@@ -8,6 +8,7 @@ tags:
   - anti-pattern
   - quality
   - capture
+  - note-hoarding
 level: pattern
 verification-status: verified
 schema-version: "1.0"
@@ -28,12 +29,19 @@ Note hoarding creates:
 
 ## Signs
 
+**Capture-related:**
 - Inbox never gets processed (capture-process separation broken)
 - Notes are verbatim copies from sources
 - No wikilinks exist between notes
 - Notes contain easily retrievable facts (web search finds in 5 seconds)
 - Every note takes 30+ minutes to create (trying to process at capture time)
 - Duplicate content already in vault
+
+**Tool-focused (related failure mode):**
+- More time researching tools than creating content
+- Notes about tools but no substantive content notes
+- Vault is "setup" but nearly empty after 30+ days
+- Can't remember the last time a content note was created
 
 ## The Solution
 
@@ -65,6 +73,12 @@ Skip if it fails 2+ criteria.
 ## Related
 
 - [[Best Practice - Selective Capture]] — The corresponding best practice
+- [[Anti-Pattern - Over-Organization]] — Related anti-pattern: over-organizing vs. under-processing (linked symptoms)
+- [[Anti-Pattern - Tool Overfocus]] — Related anti-pattern: obsessing over tools vs. doing the work (linked symptoms)
 - [[Note Lifecycle Management]]
 - [[Knowledge Base Workflow]]
 - [[Anti-Patterns in Knowledge Management]]
+
+---
+
+**Note:** [[Best Practice - Selective Capture]] covers the positive solution; this note covers the failure mode. Both share the two-phase workflow and diminishing returns test because they are mirror images of the same principle. See [[Note Lifecycle Management]] for how refinement cycles prevent both hoarding and perfectionism.

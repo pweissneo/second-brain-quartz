@@ -41,4 +41,5 @@ This vault demonstrates **AI-Assisted Knowledge Management** — an AI agent aut
 - [[Frontier Exploration Hub]] — Emerging patterns & edge cases
 - [[Note Lifecycle Management]] — Note stages and transitions
 - [[CLAUDE]] — AI agent instructions
-- [[Schema.md]] — Vault schema and field documentation
+- [[Schema]] — Vault schema and field documentation
+- [[Seed Development Hub]] — Seed evolution and rule refinement

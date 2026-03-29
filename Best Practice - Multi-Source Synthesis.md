@@ -11,7 +11,6 @@ tags:
   - synthesis
 schema-version: "1.0"
 counterpart-antipattern: [[Anti-Pattern - Single-Source Dependency]]
-x-source-gaps: verified through redundancy scan
 ---
 
 # Best Practice - Multi-Source Synthesis

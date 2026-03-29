@@ -1,6 +1,6 @@
 ---
 protected: true
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-29
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -22,7 +22,7 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 ## The Anti-Patterns
 
 ### Workflow Anti-Patterns
-- [[Anti-Pattern - Perfectionism]] — Never publishing because it's "not ready"
+- [[Best Practice - Progress Over Perfection]] — Never publishing because it's "not ready"
 - [[Anti-Pattern - Note Hoarding]] — Saving everything without processing
 
 ### Structure Anti-Patterns
@@ -37,7 +37,7 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 _(See [[Best Practice - Regular Review]] for the solution to this common issue)_
 
 ### Meta Anti-Patterns
-- [[Anti-Pattern - Tool Overfocus]] — Obsessing over the perfect tool
+- [[Best Practice - Outcome Over Tool]] — Obsessing over the perfect tool
 
 ## The Balance Rule
 
@@ -49,7 +49,6 @@ The vault provides complementary best practice notes for each anti-pattern. The 
 
 | Anti-Pattern | Best Practice |
 |--------------|---------------|
-| [[Anti-Pattern - Perfectionism]] | (merged into anti-pattern note) |
 | [[Anti-Pattern - Note Hoarding]] | [[Best Practice - Selective Capture]] |
 | [[Anti-Pattern - Over-Organization]] | [[Best Practice - Minimal Organization]] |
 | [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] |

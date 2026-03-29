@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -9,6 +9,9 @@ gap-priority: medium
 gap-type: seed-missing
 discovered: 2026-03-26
 gap-source: frontier-exploration
+gap-phase: analysis
+gap-review-date: 2026-03-29
+analysis-notes: "Seed contains scattered health metrics but lacks unified programmatic framework. No Seed rule for vault self-monitoring dashboard, health state classification, or automated health reporting."
 tags:
   - seed-gap
   - vault-self-monitoring

@@ -10,6 +10,7 @@ tags:
   - quality
   - negative-knowledge
 level: pattern
+schema-version: "1.0"
 counterpart-bestpractice: [[Best Practice - Balanced Capture]]
 ---
 
@@ -62,7 +63,7 @@ For every dedicated negative knowledge note, include a link to the positive alte
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Personal Experimentation Results]]
 - [[Note Lifecycle Management]]
-- [[Stress Test - Confidence Markers Rule Across Domains]] — for signaling reliability of negative knowledge
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — for signaling reliability of negative knowledge
 - [[Handling Contradictory Sources]] — when negative knowledge conflicts with positive
 - [[Frontier Exploration - Knowledge Maintenance]] — accumulated gaps in knowledge quality
 - [[AI-Assisted Knowledge Management Seed]]

@@ -23,12 +23,12 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 
 | Anti-Pattern Concept | Best Practice | Status |
 |---------------------|---------------|--------|
-| Link Inflation | [[Best Practice - Link Quality]] | ✅ Integrated |
+| Link Inflation | [[Best Practice - Link Quality]] | ✅ Merged (2026-03-29) |
 | Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Integrated |
 | Neglecting Maintenance | [[Best Practice - Regular Review]] | ✅ Integrated |
 | Missing Negative Knowledge | [[Best Practice - Balanced Capture]] | ✅ Integrated |
 | Note Hoarding | [[Best Practice - Selective Capture]] | ✅ Integrated |
-| Perfectionism | (merged into [[Anti-Pattern - Perfectionism]]) | ✅ Integrated |
+| [[Best Practice - Progress Over Perfection]] | (primary reference — anti-pattern consolidated here 2026-03-29) | ✅ Integrated |
 | Single-Source Dependency | [[Best Practice - Multi-Source Synthesis]] | ✅ Integrated |
 | Tool Overfocus | [[Best Practice - Outcome Over Tool]] | ✅ Integrated |
 

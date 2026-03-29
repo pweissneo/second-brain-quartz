@@ -1,5 +1,6 @@
 ---
 last-reviewed: 2026-03-28
+last-updated: 2026-03-29
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -8,14 +9,14 @@ tags:
   - legal-knowledge
   - jurisdiction
   - knowledge-type
-gap-status: identified
+gap-status: analyzed
 gap-priority: high
-gap-phase: analysis
+gap-phase: proposed-phase
 gap-type: seed-missing
 discovered: 2026-03-28
 ---
 
-# Seed Gap: Jurisdictional Knowledge Representation and Legal Knowledge Type Distinction
+# Seed Gap: Jurisdiction and Legal Authority Type Handling
 
 > How should knowledge bases handle knowledge that varies by jurisdiction, and distinguish authoritative legal claims from interpretive analysis?
 
@@ -38,58 +39,43 @@ When organizing legal or regulatory knowledge across jurisdictions, notes may co
 
 The Seed doesn't address how to organize these variants.
 
-### Proposed Seed Rules
+## Proposed Seed Rules
 
-**Rule: Track jurisdiction-dependent validity**
+### Rule 1: Track Jurisdiction-Dependent Validity
 
-> For knowledge that varies by jurisdiction, include explicit `jurisdiction-validity:` mapping in frontmatter.
+**Rule:** For knowledge that varies by jurisdiction, use frontmatter to explicitly map applicability — list jurisdictions where this applies, does not apply, and link to alternatives for excluded jurisdictions.
 
-```yaml
-jurisdiction-validity:
-  applies-to: [US-common-law, UK, Australia]
-  does-not-apply-to: [civil-law-jurisdictions]
-  conflict-resolution: "For civil law, see [[Contract Formation - Civil Law]]"
-```
+**Why:** Without explicit jurisdiction-validity mapping, notes appear universally applicable when they're jurisdiction-specific. Users and AI agents cannot distinguish "this is true everywhere" from "this is true in jurisdiction X but not Y."
 
-**Test:** For notes about jurisdiction-dependent rules: (1) Is jurisdiction-validity mapped? (2) Does it explicitly list applicable jurisdictions? (3) Is there a hub note linking jurisdictional variants?
+**Test:** For jurisdiction-dependent notes: (1) Does frontmatter list applicable jurisdictions? (2) Are excluded jurisdictions identified? (3) Is there a link to the note covering excluded jurisdictions?
 
-**Rule: Create hub notes for multi-jurisdiction topics**
+**Implementation:** Use `jurisdiction-validity` frontmatter with applies-to, excludes, and alternative fields.
 
-> When knowledge about the same topic differs across jurisdictions, create a hub note linking to atomic jurisdictional variants.
+**Note:** This complements existing `jurisdiction:` field. `jurisdiction:` says WHAT jurisdiction a note covers. `jurisdiction-validity:` says WHEN the knowledge applies (and where it doesn't).
 
-**Test:** For topics with jurisdictional variation: (1) Is there a hub? (2) Can you quickly identify which jurisdiction a note applies to?
+### Rule 2: Create Hub Notes for Multi-Jurisdiction Topics
 
-## Problem 2: Legal Knowledge Type Distinction
+**Rule:** When the same topic has different rules in different jurisdictions, create a hub note linking to atomic jurisdictional variants.
 
-The Seed has general knowledge types (canonical, analysis, personal) but legal knowledge requires more specific distinctions:
+**Why:** Without hub structure, users must search to find the jurisdiction-specific variant. Hubs enable quick navigation and make multi-jurisdiction research efficient.
 
-- **Authoritative** — what the law says (binding)
-- **Persuasive** — what someone argues (non-binding)
-- **Analytical** — your interpretation (not verified)
-- **Practical** — how to navigate the legal system
+**Test:** For topics with jurisdictional variation: (1) Is there a hub note? (2) Can you quickly identify which jurisdiction a note applies to from the hub?
 
-This matters for verification: authoritative legal sources (statutes, cases) are verified differently than your analysis.
+### Rule 3: Distinguish Legal Authority Types
 
-### Proposed Seed Rules
+**Rule:** For legal knowledge, use `legal-authority-type:` frontmatter to distinguish binding primary sources from non-binding persuasive authority and personal analysis.
 
-**Rule: Distinguish legal authority types**
+**Why:** Legal claims have explicit hierarchy — statutes and controlling cases are binding; secondary sources and commentary are persuasive; your interpretation is not verified. Without this distinction, verification is meaningless.
 
-> For legal knowledge, use `legal-authority-type:` to distinguish binding authority from non-binding argument.
+**Test:** For legal notes: (1) Is `legal-authority-type:` specified? (2) Can you tell whether this is "what the law says" vs "what I think it means"?
 
-```yaml
-legal-authority-type: primary  # statutes, cases - binding
-legal-authority-type: secondary  # treatises, articles - persuasive
-legal-authority-type: analytical  # your interpretation - not verified
-legal-authority-type: practical  # how-to navigate legal system
-```
+### Rule 4: Require Primary Source Citation for Authoritative Legal Claims
 
-**Test:** For legal notes: (1) Is legal-authority-type specified? (2) Can you tell whether this is "what the law says" vs "what I think it means"?
+**Rule:** Notes tagged as authoritative legal sources must cite specific statutes, cases, or regulations with full citations.
 
-**Rule: Require primary source citation for authoritative legal claims**
+**Why:** Primary legal authority must be verifiable against the actual source. Vague citations to "the law" don't enable verification.
 
-> Notes tagged `legal-authority-type: primary` must cite specific statutes, cases, or regulations.
-
-**Test:** For authoritative legal claims: (1) Are specific sources cited? (2) Can you look up the primary source?
+**Test:** For authoritative legal claims: (1) Are specific sources cited with case citation or statute number? (2) Can you look up the primary source independently?
 
 ## Gap Severity
 

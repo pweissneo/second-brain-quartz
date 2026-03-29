@@ -179,7 +179,7 @@ If you cannot answer yes to all four, the gap exists in your vault.
 
 - [[Frontier Exploration - Context-Gated Knowledge]] - Related but focuses on when knowledge applies, not what modifies it
 - [[Frontier Exploration - Condition-Triggered Knowledge]] - Related but focuses on external conditions, not exception structures
-- [[Stress Test - Confidence Markers Rule Across Domains]] - Confidence may be lower for knowledge with many exceptions
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] - Confidence may be lower for knowledge with many exceptions
 - [[Frontier Exploration - Framework-Dependent Knowledge]] - Different frameworks can have different exceptions
 
 ---

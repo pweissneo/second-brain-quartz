@@ -254,4 +254,4 @@ For experiential concepts (music, cooking, physical skills):
 - [[Linking Principle]]
 - [[Frontier Gap - Embodied Knowledge]]
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]

@@ -70,7 +70,7 @@ When reading evaluative content:
 
 ## Related
 
-- [[Anti-Pattern - Perfectionism]] — Over-focus on craft perfection misses aesthetic growth
+- [[Best Practice - Progress Over Perfection]] — Over-focus on craft perfection misses aesthetic growth
 - [[Frontier Exploration - Interpretive Knowledge]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]
 - [[Frontier Gap - Conflicting Style-Specific Rules]]

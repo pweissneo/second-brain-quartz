@@ -150,6 +150,6 @@ The rule is sound but needs refinement:
 ## Related
 - [[Handling Temporal Knowledge]]
 - [[Frontier Exploration - Professional Credentialing Requirements]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Contradictory Sources]]
 - [[Frontier Gap - Embodied Knowledge]]

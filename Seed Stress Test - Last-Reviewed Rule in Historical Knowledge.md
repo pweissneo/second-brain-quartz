@@ -105,7 +105,7 @@ Can an AI agent determine the appropriate review interval without human guidance
 
 - [[AI-Assisted Knowledge Management Seed#Every note should have a last-reviewed date]] — parent rule
 - [[AI-Assisted Knowledge Management Seed#Notes with confidence high should have last-reviewed within a domain-appropriate timeframe]] — partial fix that needs expansion
-- [[Stress Test - Confidence Markers Rule Across Domains]] — related testing
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — related testing
 
 ## Conclusion
 

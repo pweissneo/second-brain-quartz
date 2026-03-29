@@ -138,6 +138,6 @@ example-phrases:
 
 - [[Frontier Exploration - Knowledge Consensus Level Tracking]] — consensus tracking
 - [[Handling Contradictory Sources]] — contradiction handling
-- [[Stress Test - Confidence Markers Rule Across Domains]] — confidence calibration
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — confidence calibration
 - [[Evidence Tier Classification]] — weighting knowledge appropriately
 - [[Knowledge Source Type Tracking]] — source-appropriate verification

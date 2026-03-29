@@ -379,7 +379,7 @@ Major philosophical texts have centuries of interpretation. Present multiple int
 - [[Atomic Note Principle]]
 - [[AI-Assisted Knowledge Management Seed]] — Core atomicity rules
 - [[Domain-Specific Knowledge Bases]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]
 - [[Stress Test - Prerequisites Rule in Framework Learning]] — consolidated prerequisites stress test
 - [[Frontier Exploration - Game Design Knowledge]] — tests atomicity in mechanical systems with high interdependence
 

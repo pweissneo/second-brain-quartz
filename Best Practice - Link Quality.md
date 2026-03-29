@@ -1,5 +1,4 @@
 ---
-last-reviewed: 2026-03-26
 last-updated: 2026-03-28
 lifecycle: evergreen
 confidence: high

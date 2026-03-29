@@ -9,6 +9,8 @@ tags:
   - applicability
   - testing
   - metacognitive
+thinking-tool: true
+thinking-tool-type: reasoning-framework
 ---
 
 # The Inverse Test
@@ -47,5 +49,5 @@ Absolute statements imply universal applicability. But most knowledge has bounda
 
 - [[Types of Applicability Boundaries]]
 - [[Frontier Exploration - Metacognitive Knowledge and Thinking Tools]]
-- [[Stress Test - Confidence Markers Rule Across Domains]] — inverse testing helps determine confidence levels
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — inverse testing helps determine confidence levels
 - [[Handling Contradictory Sources]] — testing claims against inverses reveals contradictions

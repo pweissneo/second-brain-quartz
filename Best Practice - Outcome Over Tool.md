@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
 lifecycle: evergreen
 confidence: high
 verification-status: verified
@@ -16,6 +16,8 @@ counterpart-antipattern: [[Anti-Pattern - Tool Overfocus]]
 # Best Practice - Outcome Over Tool
 
 > The tool serves the goal, not the reverse. Focus on what you achieve, not what you use.
+
+> **Note (2026-03-29):** This note is the primary reference. [[Anti-Pattern - Tool Overfocus]] has been consolidated here — redirect references to this note. See [[Anti-Patterns in Knowledge Management]] for the complete anti-pattern hub.
 
 ## The Principle
 

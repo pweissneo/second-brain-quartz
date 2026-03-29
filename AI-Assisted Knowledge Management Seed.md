@@ -60,6 +60,13 @@ author-type: ai-assisted
 **Test:** For notes about creative composition: (1) Does this express a principle that could apply to multiple creations? (2) Does it connect to examples showing the principle in action? (3) Could someone use this to create something new? If yes to 1 and 2, organize as principle+examples; if yes to 3, it's a reusable component, not a single-use procedure.
 **Edge case:** Specific creative works with unique value (family recipes, signature dishes, original compositions) should remain as specific notes but link to the compositional principles they embody.
 
+**Rule (NEW - 2026-03-29):** For creative project knowledge bases (albums, films, novels, games, podcasts), structure notes around project phases and iteration tracking — phase transitions, abandoned directions, deadline trade-offs, and cross-project retrospective capture.
+**Why:** Creative output differs from procedural or factual knowledge. Phases are non-linear (mixing triggers re-recording), decisions are subjective ("done" is judgment), and abandonment is normal process, not failure. Without project-phase structure, vaults lose critical creative judgment knowledge that the Seed's general rules don't capture.
+**Test:** For creative project knowledge base: (1) Can you identify which iteration a note belongs to? (2) Are phase transition rationales documented? (3) Is abandoned direction stored with learning (not deleted)? (4) Are deadline trade-offs explicit? (5) Is cross-project retrospective captured?
+**Implementation:** Use `project-type:` (album|film|novel|game|podcast), `project-phase:` (concept|pre-production|production|post|release|retrospective), `iteration:` frontmatter on project notes. On abandoned direction notes, use `abandoned-direction: true` with `abandonment-rationale:` and `replaced-by:` links. Store phase transition rationales and deadline trade-offs as explicit decision notes.
+**Phase structure:** Concept → Pre-production → Production → Post-production → Release → Retrospective. Allow non-linear transitions (rewriting is normal, not failure). Store abandoned directions with rationale — "why abandoned" is learning.
+**See also:** [[Seed Gap - Creative Project Phase Knowledge]]
+
 **Rule:** Prioritize foundational concepts before applications when bootstrapping a new vault.
 **Why:** Without prioritization guidance, agents face analysis paralysis. Foundations (prerequisites, core terminology, high-connectivity nodes) should exist before specialized content.
 **Test:** Can you identify 5+ foundational notes that other notes depend on? Are they created early in the vault's history?
@@ -178,6 +185,21 @@ For cooking specifically:
 **Why:** Without explicit completion criteria, vaults stay in construction mode indefinitely (never tightening quality standards) or switch to maintenance too early (leaving structural gaps). Explicit criteria enable intentional phase transitions.
 **Test:** Run: orphan_rate()<10% AND hub_coverage()>=80% AND verification_ratio()>50% AND schema_stable_days()>60 AND compliance_score()>85%. If all true, transition to maintenance mode. If any false, continue construction until criteria met.
 **Post-transition:** After completing construction, apply full Seed rules with no relaxed thresholds. Shift emphasis from expansion to verification and depth. Increase scrutiny on new note quality.
+
+**Edge case (stress test 2026-03-29):** Structural completion criteria measure vault HEALTH, not vault UTILITY. A vault can pass all structural metrics (orphan rate <10%, hub coverage >80%, verification ratio >50%) but still be unable to answer real questions. The current test measures whether the vault is well-built, not whether it works.
+
+Add functional utility testing to completion criteria:
+- **Entry Point Test:** Can a newcomer find the vault's purpose and 2+ starting points?
+- **Utility Test:** Can the vault answer 5+ questions someone in this domain would actually ask, using only internal knowledge?
+- **Breadth Test:** Does the vault cover 2+ distinct topic areas with cross-topic connections?
+
+For domain-specific utility testing:
+- **Philosophy:** Can explain 3+ major positions, identify core arguments for 2+ traditions
+- **Cooking:** Can answer 3+ "how do I do X?" questions without external lookup
+- **Home repair:** Can provide guidance on 3+ common tasks
+- **Medical:** Can verify claims using internal sources, identify confidence levels
+
+The test becomes: structural_criteria_passed AND functional_utility_passed. Both must pass before transition to maintenance mode.
 
 **Rule:** Capture structural trade-offs as explicit knowledge notes when making vault organization decisions.
 **Why:** Trade-off knowledge (what you gain vs. lose when choosing one approach) is fundamentally different from knowledge about the approaches themselves. Without explicit capture, vault organization decisions become invisible and unreviewable, leading to repeated mistakes and inability to learn from past choices.
@@ -532,24 +554,57 @@ conflict-resolution:
 ```
 **Resolution strategies:** Choose rule with more specific scope; default to safer option; escalate to human if truly unresolvable.
 
-**Rule:** Use diminishing returns testing before adding notes to existing topics — skip or defer if the note fails 2+ of: utility (improves vault answers), connection (links to 2+ existing naturally), uniqueness (adds new knowledge), effort (maintenance worth value).
-**Why:** Notes that don't improve utility, can't connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value.
-**Test:** For the last 5 notes added to a mature topic: Do 3+ pass all four tests?
+**Rule (UPDATED - 2026-03-29):** Use diminishing returns testing before adding notes to existing topics — apply stakes-aware thresholds, use override conditions for critical knowledge, and handle temporal/experiential domains with domain-appropriate tests.
+**Why:** Notes that don't improve utility, can't connect naturally, duplicate existing content, or require high maintenance for low value bloat the vault without adding proportional value. But different domains have different stakes, different temporal sensitivity, and different execution uncertainty — a one-size-fits-all test fails across domain boundaries.
+**Test:** For the last 5 notes added to a mature topic, do 3+ pass?
 
-**Enhanced test (temporal-aware domains):** For knowledge in version-sensitive or rapidly-evolving domains, also check:
-1. Is this for an ACTIVE version/framework (not deprecated)?
-2. Does the note include temporal validity markers (`utility-expiry:`, `version:`, `framework-status:`)?
-3. Is the uniqueness assessment based on YOUR specific context rather than general availability?
+**Stakes-aware test:** Apply different threshold strictness based on `stakes-category`:
+- **High-stakes (medical, legal, safety, financial):** Override test if any override condition is true; otherwise pass 3+ tests
+- **Medium-stakes (personal finance, career, education):** Pass at least 2 tests AND have expertise-evidence; override requires both
+- **Low-stakes (hobbies, leisure, exploration):** Pass 3+ tests (standard threshold)
+
+**Override conditions (bypass test if any true):**
+- `criticality: high` — safety-critical, life-threatening conditions
+- `rare-condition: true` — niche knowledge essential for completeness
+- `emergency-protocol: true` — life-threatening emergency procedures
+- `prerequisite: true` — foundational for understanding other notes
+- `foundational-prerequisite: true` — unlocks multiple domains
+- `asymmetric-consequence: true` — catastrophic failure possible
+- `design-phase: ideation` — creative exploration needs divergent capture
+
+**Stakes-criteria for classification:**
+```yaml
+stakes-category: high|medium|low
+stakes-criteria:
+  impact-magnitude: "Scale of potential harm/gain"
+  reversibility: "Can outcome be reversed if wrong?"
+  time-horizon: "When will consequences manifest?"
+  social-consequences: "Relationship/reputation impacts?"
+```
+**Evidence requirements:** High-stakes override requires `criticality: high` OR `rare-condition: true` only. Medium-stakes override requires 2+ test passes AND expertise-evidence.
+
+**Domain-specific test adaptations:**
+
+*Temporal-aware domains (software, rapidly-evolving fields):* Check: Is this for an ACTIVE version/framework? Does it have temporal validity markers? Notes with `framework-status: deprecated` automatically fail the utility test.
+
+*Experiential domains (cooking, crafts, music, physical skills):* If execution-uncertainty is high: capture with `verification-status: unverified` and `verification-modality: practice-required`, prioritize testing over passive rejection. Don't reject based on paper assessment when hands-on execution may reveal value.
+
+*Role-dependent domains (medical, specialized professions):* Assess utility against primary intended audience. Use `applicability-role:` frontmatter.
+
+**Version and framework tracking for technical domains:**
+```yaml
+version-scope: "2.0+"  # Version range this note applies to
+framework: [pytorch|tensorflow|jax|...]
+framework-status: active|deprecated|legacy
+utility-expiry: YYYY-MM  # When utility likely expires
+```
 
 **Stakes-aware effort weighting:** Weight the effort test by stakes:
-- High-stakes knowledge (medical, legal, safety) with high effort = valuable even if redundant
-- Low-stakes knowledge with high effort = marginal value, likely not worth capture
+- High-stakes + high effort = valuable even if redundant
+- Medium-stakes + high effort = marginal value unless expertise-evidence is strong
+- Low-stakes + high effort = likely not worth capture
 
-**Override conditions:** Bypass diminishing returns test when:
-- `criticality: high` (safety-critical, life-threatening conditions)
-- `rare-condition: true` (niche knowledge essential for completeness)
-- `prerequisite: true` (foundational for understanding other notes)
-- `design-phase: ideation` (creative exploration needs divergent capture)
+**Edge case (stress test 2026-03-29):** The unified stakes-aware test consolidates findings from: personal finance domain (medium-stakes distinction), experiential domains (execution uncertainty), game design (phase-aware testing), medical domain (role-dependent utility, critical knowledge exemption), and version-sensitive domains (temporal validity markers). The test structure remains the same — skip or defer if note fails 2+ of utility/connection/uniqueness/effort — but stakes-category and override conditions determine how strictly the test applies.
 
 
 **Rule (NEW - 2026-03-22):** Evaluate maintenance burden before capturing volatile knowledge — exclude or deprioritize knowledge that is high-maintenance (frequently changing) AND low-utility (easily looked up elsewhere) AND lacks personalization (no unique context you provide).
@@ -1179,6 +1234,35 @@ See also: [[Frontier Exploration - Learning Progression and Curriculum Design]] 
 **Edge case:** Keep the Seed in English as a technical lingua franca — translate only after domain concepts stabilize.
 **Edge case:** For language learning vaults, use separate notes for concept (native language) and vocabulary (target language) with explicit `learning-relationship:` linking.
 
+**Rule (NEW - 2026-03-29):** For multilingual knowledge bases, determine cognitive model before choosing organizational structure — cognitive integration (naturally mixing languages in thought) requires different treatment than language separation (different languages for different audiences).
+**Why:** The Seed's multilingual guidance assumes languages are co-equal and separate. But bilingual cognitive processes vary: some users naturally code-switch (translanguaging) as a unified thought process, others switch languages for audience separation. Treating both identically creates either fragmentation (over-separating bilingual-integrated notes) or混乱 (unsystematic mixing in bilingual-separated contexts).
+**Cognitive models:**
+- `cognitive-model: monolingual` — One language primary, others as lookup
+- `cognitive-model: bilingual-integrated` — Multiple languages used naturally in single thought (code-switching/translanguaging as cognitive process)
+- `cognitive-model: bilingual-separated` — Languages used for different audiences/purposes
+
+**For bilingual-integrated vaults (natural code-switching):**
+- Use `languages-used: [lang1, lang2, ...]` frontmatter (multi-language, not single convention)
+- Tag technical terminology separately from explanatory context — in technical domains (programming, science), the technical language (often English) may differ from the explanatory context language (native language)
+- Create bidirectional terminology indexes, not hierarchical search — bilingual users need both directions of lookup
+- Use `language-role:` per note: `technical-primary | context-primary | mixed`
+- Use `term-status:` for terminology mapping: `natural-loanword | hybrid | full-translation | false-friend-warning`
+
+**For bilingual-separated vaults (audience-based switching):**
+- Use `language-convention: separate-notes | same-note-translation` per domain
+- Apply search hierarchy (primary/secondary/tertiary)
+- Create terminology maps that preserve distinction between translation equivalence and conceptual equivalence
+
+**Test:**
+1. Can you determine the cognitive model of the vault?
+2. For bilingual-integrated: Are multiple languages handled as natural co-occurrence with multi-language frontmatter?
+3. For bilingual-integrated: Is there a bidirectional terminology index?
+4. For bilingual-integrated: Is technical terminology separated from explanatory context?
+5. For bilingual-separated: Can users find content in their preferred language?
+6. For any multilingual note: Does it have `languages-used:` and `cognitive-model:`?
+
+**See also:** [[Seed Stress Test - Code-Switching in Japanese-English Programming Vault]] — stress test that refined this rule
+
 **Rule:** For timeline-organized vaults (project histories, personal life events, historical research, meeting logs), recognize temporal structure as primary and apply modified Seed rules.
 **Why:** The Seed treats time primarily as a decay factor, but many knowledge domains are fundamentally organized around chronology. When time IS the primary structure, standard rules about hubs, atomicity, and linking create friction. Timeline vaults need explicit guidance to avoid forcing topic-based organization where chronology is primary.
 **Test:** Can you identify if the vault's primary structure is chronological (timeline) or topical? For timeline-organized vaults: (1) Is there a timeline hub note that sequences major events? (2) Are entries organized by period (year, month, iteration) rather than by topic? (3) Do cross-references link across the timeline (thematic connections) rather than only along it (temporal neighbors)?
@@ -1437,6 +1521,35 @@ next-decisions:
 **Edge case:** Subjective spectra (spiciness, loudness, sweetness) differ from objective ones — track both objective measurement and subjective threshold separately.
 **Edge case:** Cultural spectra vary significantly (politeness, personal space, punctuality) — add `cultural-scope` to spectrum-based notes.
 **Edge case:** Evolving spectra (music genres, technology generations) may change over time — use `spectrum-stable: stable|evolving|contested`.
+
+**Rule (NEW - 2026-03-29):** For growing topics, apply topic-splitting decision framework — distinguish between deepening in place, hub-and-spoke branching, and sequential development based on concept coherence and independence.
+**Why:** The Seed provides robust guidance for merging (redundant notes) but lacks complementary guidance for splitting (growing notes). Without this framework, AI agents face ambiguity: a note on "cooking techniques" that expands to include knife skills, heat management, sauces, and ingredient preparation can become unwieldy without clear splitting criteria.
+**Trigger conditions for splitting:**
+1. Multiple distinct concepts covered (not just length) — test: Can you summarize the note in one sentence, or does it require multiple sentences for fundamentally different topics?
+2. Different audiences for different parts — test: Does the note serve learners AND experts, or different domains?
+3. Parts useful independently — test: Would a reader interested only in part X benefit from the whole note?
+4. Internal navigation difficulty — test: Does the note require internal section jumping to use?
+
+**Splitting strategies:**
+- **Hub-and-spoke:** One hub note linking to specialized child notes — use when topics share a category but have independent subtopics
+- **Sequential:** Note series with bidirectional prerequisite links — use when concepts build on each other
+- **Parallel:** Alternative approaches to same problem — use when different methods achieve the same goal
+- **Layered:** Overview note + detailed deep-dives — use when some readers need summary, others need depth
+
+**When to deepen in place (don't split):**
+- Educational/explanatory content that requires depth for comprehension
+- Comprehensive principle notes covering related sub-points in a coherent framework
+- Complete creative works (analyzing one specific work)
+- Contested concepts with no consensus (use perspectives structure within one note)
+
+**Preservation rules when splitting:**
+- Keep internal links between split parts (cross-references)
+- Update all incoming links to correct parts
+- Maintain cross-reference in parent note (summary + links to children)
+- Use `split-from:` frontmatter on child notes pointing to parent for traceability
+
+**Test:** Pick a note over 400 words or covering multiple topics. Can you apply the trigger test? Does splitting vs deepening produce better navigability?
+**See also:** [[Seed Gap - Topic Splitting Decision Framework]] — detailed analysis and domain examples
 
 ---
 
@@ -2186,7 +2299,7 @@ data-freshness: seconds|minutes|hours
 ```
 **Distinction from time-sensitive:** Time-sensitive data expires (refresh periodically); continuous data is obsolete immediately (always link to live source).
 
-See also: [[Stress Test - Confidence Markers Rule Across Domains]] — Stress test that proposed the attention priority and decay function rules
+See also: [[Seed Stress Test - Confidence Markers Rule Across Domains]] — Stress test that proposed the attention priority and decay function rules
 
 **Rule:** Add advisory validity tracking for prescriptive advice notes — include `advisory-validity-period:` specifying when the advice was accurate and `review-trigger:` for when to reassess.
 **Why:** Advice that was sound can become unsound as conditions change. Without explicit validity periods, readers cannot distinguish current advice from historical guidance that may no longer apply. This is especially critical for high-stakes domains (finance, medical, legal) where outdated advice can cause real harm.

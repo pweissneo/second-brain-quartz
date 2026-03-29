@@ -12,6 +12,7 @@ tags:
   - functional-threshold
   - bootstrap
   - gap-identified
+verification-status: unverified
 ---
 
 # Seed Gap - Functional Threshold for Knowledge Bases
@@ -82,6 +83,35 @@ A functional knowledge base should be able to answer:
 
 **Test:** Can the vault pass the functional threshold test?
 
+### Cross-Domain Application
+
+This gap applies to ALL domains. The question "Is this vault useful yet?" cannot be answered by current Seed metrics. A philosophy vault with 100 notes could pass all structural metrics but still be unable to answer "What is the trolley problem?" or explain major philosophical positions.
+
+The Seed measures **structural health**, not **practical utility**.
+
+### Domain-Specific Utility Test Examples
+
+**For philosophy:**
+- Can explain 3+ major philosophical positions
+- Can identify core arguments for 2+ traditions
+- Can navigate between related philosophical concepts
+- Can distinguish between major philosophical traditions
+
+**For cooking:**
+- Can answer 3+ "how do I do X?" questions without external lookup
+- Can provide guidance on ingredient substitutions
+- Can explain technique rationale
+
+**For home repair:**
+- Can provide guidance on 3+ common tasks
+- Can identify safety considerations for procedures
+- Can troubleshoot common problems
+
+**For medical (with appropriate caveats):**
+- Can verify claims using internal sources
+- Can identify confidence levels
+- Can distinguish source quality
+
 ### Functional Threshold Test
 
 **Entry Point Test (all must pass):**
@@ -132,13 +162,19 @@ MVKB provides:
 2. Differentiates "built" from "usable"
 3. Actionable transition trigger
 
+### Domain-Specific Utility Test
+
+These examples were validated through SEED_STRESS_TEST across multiple domains including philosophy, cooking, home repair, and medical knowledge bases.
+
 ## Related Notes
 
+- [[Seed Gap - Functional Threshold Extended]] — ~~This note's domain-specific extensions~~ (merged into this note 2026-03-29)
 - [[AI-Assisted Knowledge Management Seed]] — Construction completion criteria (Section on bootstrap)
 - [[Frontier Exploration - Emerging Domain Bootstrapping]] — Related bootstrap phases
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] — Completion heuristics
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — Related utility testing
+- [[Seed Stress Test - Philosophy Knowledge Base]] — Domain-specific stress test
 
 ---
 
-*This gap was identified during frontier exploration on 2026-03-26. The rule needs testing across domains to validate the functional threshold.*
+*This gap was identified during frontier exploration on 2026-03-26. Additional stress testing in philosophy domain on 2026-03-29 confirmed the gap. The rule needs testing across domains to validate the functional threshold.*

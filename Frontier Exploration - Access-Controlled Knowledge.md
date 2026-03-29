@@ -3,6 +3,7 @@ last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - frontier-exploration
   - access-control

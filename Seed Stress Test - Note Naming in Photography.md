@@ -128,5 +128,5 @@ The core principle (consistency over chaos) holds - but photographers expect equ
 ## Related Notes
 
 - [[Seed Stress Test - Photography Knowledge Base]] - General photography domain stress test
-- [[note-naming-conventions]] - Vault's note naming conventions
+- [[AI-Assisted Knowledge Management Seed]] - Vault's note naming conventions
 - [[Seed Stress Test - Note Naming in Photography]] - Self-reference for completeness- [[_root]]

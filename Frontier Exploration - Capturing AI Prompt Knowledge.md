@@ -308,7 +308,7 @@ This distinction affects whether prompts belong in the vault at all, or in a sep
 - [[AI-Assisted Knowledge Management Seed]] — The Seed being extended
 - [[Frontier Exploration - AI-Optimized Knowledge Bases]] — Related AI-native structure
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field for procedural content
-- [[Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
 - [[Frontier Exploration - AI Model Version Dependencies in Knowledge Bases]] — Version tracking for AI knowledge
 
 ---

@@ -12,11 +12,11 @@ gap-type: seed-missing
 gap-source: seed-stress-test
 ---
 
-# Seed Gap: Sequential Processing Chain Knowledge
+# Seed Gap: Sequential Processing Chain Knowledge (Resolution In Progress)
 
 ## Gap Identified
 
-The Seed lacks explicit handling for knowledge domains organized around **sequential processing chains** where each stage transforms the output of the previous.
+The Seed lacks explicit handling for knowledge domains organized around **sequential processing chains** where each stage transforms the output of the previous. Note: Related guidance exists at Seed lines 275-280 (sequential-skill domains) but this covers prerequisite chains, not processing pipelines.
 
 ### Examples of Sequential Chain Domains
 
@@ -45,13 +45,16 @@ The Audio Engineering stress test identified this gap when analyzing signal chai
 >
 > **Test:** Can you filter notes by chain position? Do cross-chain notes document their dependencies?
 
-## Implementation
+## Implementation (Proposed for Seed)
 
 ```yaml
 chain-position: input|capture|correction|enhancement|space|output
 chain-stage-number: 1-6  # position in sequence
 adjacent-stages: ["stage-before", "stage-after"]  # optional explicit links
+impact-radius: early-stage|mid-stage|late-stage|full-chain  # downstream effect scope
 ```
+
+**Key insight:** Rules at early chain stages have wider impact. Rules at late stages only affect final output. This distinguishes "use EQ before compression" (early stage, affects everything) from "leave headroom for mastering" (late stage, only affects output).
 
 ## Related
 

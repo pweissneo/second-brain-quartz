@@ -1,8 +1,9 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-03-29
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 gap-type: seed-missing
 gap-status: identified
 gap-priority: medium

@@ -75,8 +75,49 @@ Without regular review, vaults become:
 
 Review is maintenance — it's how your knowledge base stays useful.
 
+## Daily Review Protocol (Optional Supplement)
+
+For those who want more frequent engagement, add daily reviews:
+
+**Morning (5 min)**
+1. Check inbox — process new captures
+2. Review 3 random notes
+3. Add 1 new link if possible
+
+**Evening (5 min)**
+1. Add new notes from today
+2. Check for gaps in recent notes
+3. Update any stale notes
+
+The 10-Minute Rule: 10 minutes daily can be more effective than 1 hour weekly for retention. Daily catches updates, weekly provides structure.
+
+## Tracking Template
+
+```
+Week: 2026-WXX
+Notes added: X
+Links added: X
+Issues fixed: X
+Insights: [Brief notes]
+```
+
+Track with frontmatter:
+```yaml
+---
+last-reviewed: 2026-03-29
+review-count: N
+---
+```
+
+## Adjust to Your Pace
+
+- New users: Start with 15 min/week
+- Growing vault: 30 min/week
+- Mature vault: 20 min/week maintenance
+
 ## Related
 
 - [[Graph Maintenance]] — Technical guidance
 - [[Note Lifecycle Management]] — Note stages
 - [[Anti-Patterns in Knowledge Management]]
+- [[The Forgetting Curve]] — Why review matters

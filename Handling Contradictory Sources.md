@@ -91,7 +91,7 @@ Consider adding frontmatter to notes:
 
 This helps readers understand the reliability of each piece of knowledge without reading the full source chain.
 
-See [[Stress Test - Confidence Markers Rule Across Domains]] for the full confidence marker specification.
+See [[Seed Stress Test - Confidence Markers Rule Across Domains]] for the full confidence marker specification.
 
 ## Parallel Valid Alternatives
 
@@ -303,5 +303,5 @@ For a knowledge base handling contradictions:
 - [[Knowledge Base Workflow]] — How new knowledge enters the vault
 - [[Self-Improvement Cycle]] — Continuous improvement process
 - [[Handling Temporal Knowledge]] — Source verification and reliability
-- [[Stress Test - Confidence Markers Rule Across Domains]] — Signaling reliability
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — Signaling reliability
 - [[Seed Stress Test - Contradiction Rule in Philosophy]] — Domain-specific contradiction handling

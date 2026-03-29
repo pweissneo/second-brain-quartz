@@ -274,5 +274,5 @@ Count as "personal-equivalent" if yes to ANY of these.
 
 - [[AI-Assisted Knowledge Management Seed]] — Original Seed rule
 - [[Frontier Exploration - Domain-Specific Knowledge Bases]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]]

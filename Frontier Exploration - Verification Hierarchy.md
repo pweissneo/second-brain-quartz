@@ -111,7 +111,7 @@ Prioritize high-ROI verifications. Skip low-ROI.
 
 ## Related Notes
 
-- [[Stress Test - Confidence Markers Rule Across Domains]] — confidence markers that enable verification prioritization
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — confidence markers that enable verification prioritization
 - [[[Frontier Exploration - Knowledge Maintenance]]] — debt tracking that affects verification priority
 - [[AI-Assisted Knowledge Management Seed]] — current verification guidance
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] — prioritization frameworks that interact with verification priority

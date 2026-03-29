@@ -81,5 +81,5 @@ For any factual claim in the vault:
 ## Related Seed Rules
 
 - [[Handling Contradictory Sources]] — contradiction handling (could use consensus level to prioritize which source to prefer)
-- [[Stress Test - Confidence Markers Rule Across Domains]] — confidence calibration (could extend to include consensus context)
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — confidence calibration (could extend to include consensus context)
 - [[Frontier Exploration - Multi-Perspective Knowledge]] — closely related - tracks different viewpoints

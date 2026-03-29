@@ -49,6 +49,7 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 ## Related
 
 - [[Knowledge Graph Structure]]
+- [[Anti-Pattern - Note Hoarding]] — Related anti-pattern: over-organizing vs. under-processing (linked symptoms)
 - [[Graph Traversal Efficiency]]
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Competing Organizational Structures]]

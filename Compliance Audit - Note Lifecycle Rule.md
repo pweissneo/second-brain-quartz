@@ -8,6 +8,7 @@ tags:
   - seed-rule
   - lifecycle
   - refinement-needed
+verification-status: unverified
 ---
 
 # Compliance Audit: Note Lifecycle Rule

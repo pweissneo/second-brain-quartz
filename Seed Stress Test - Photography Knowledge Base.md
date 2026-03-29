@@ -206,13 +206,25 @@ equipment-scope:
 
 ## Summary
 
-The photography domain reveals three key gaps in the Seed:
+The photography stress test (2026-03-22) identified three gaps:
 
-1. **Diminishing returns test doesn't account for execution uncertainty** — Many photography techniques cannot be evaluated without trying in specific conditions
-2. **Confidence decay is domain-uniform** — Fast-changing technology domains need shorter review cycles
-3. **Verification status lacks equipment scope** — A technique tested on one camera brand may not work identically on others
+1. **Execution uncertainty** — ✅ ADDRESSED (2026-03-16 edge case for experiential domains)
+2. **Confidence decay by domain-velocity** — ✅ ADDRESSED (domain-velocity classification rule)
+3. **Equipment scope in verification** — ⚠️ PARTIALLY ADDRESSED
+   - Equipment-tier exists for craft domains (woodworking, metalworking)
+   - But photography-specific equipment scope in verification-status is not explicitly covered
+   - The Seed has equipment-scope for tool-dependent verification but not brand-model scope
 
-These gaps suggest the Seed needs domain-specific modifiers for experiential/technical hybrid domains like photography.
+**Remaining gap:** Photography knowledge needs explicit equipment-scope in verification-status:
+```yaml
+# Add for photography verification
+equipment-scope:
+  brand: Canon|Nikon|Sony|Fuji
+  model-scope: "specific model or range"
+  tested-models: [list of tested bodies]
+```
+
+This gap should be filed as a Seed Gap note to generalize equipment-scope across equipment-dependent domains.
 
 ## Related Seed Rules
 

@@ -1,14 +1,17 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-03-29
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: structural
-gap-status: identified
+gap-status: resolved
 gap-priority: medium
+gap-phase: analysis
 gap-type: seed-missing
 discovered: 2026-03-26
 gap-source: frontier-exploration
+resolved: 2026-03-29
+gap-resolution-note: Seed already contains extensive multi-modal guidance (lines 48, 140-143, 785, 2387, 2629-2680, 2878-2900, 3076, 3492-3521). Most proposed rules are already implemented. Only minor refinement needed on cross-modal linking specificity.
 tags:
   - seed-gap
   - multi-modal

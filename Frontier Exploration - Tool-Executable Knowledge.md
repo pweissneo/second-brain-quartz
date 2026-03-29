@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-21
-last-updated: 2026-03-21
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
@@ -107,6 +107,20 @@ last-executed: 2026-03-21
 execution-status: verified|failed|pending
 ```
 
+## Example Applications
+
+Thinking tools gain value through demonstrated transfer. Examples of tool-executable knowledge in practice:
+
+1. **Command validation**: A note about `ffmpeg` conversion commands includes execution-environment (ffmpeg version, OS), expected-output (exit code 0, output file exists), and last-executed tracking. When the command fails after a system update, the metadata helps diagnose whether the knowledge or the environment changed.
+
+2. **Config validation**: A note about nginx configuration includes execution-type: config and validation-criteria (nginx -t passes). The execution-status tracks whether the config has been tested on the current system.
+
+3. **API integration**: A note about a third-party API includes execution-type: api, expected-output: JSON with specific schema, and execution-environment: API key valid, network accessible. Without these, the note provides false confidence that the API call will work.
+
+4. **Build process**: A note about a multi-step build command includes execution-type: build, execution-safety: destructive (overwrites output), and expected-output: exit code 0, artifacts in expected directory. The safety flag prevents accidental execution.
+
+These examples show tool-executable knowledge in different domains (media processing, web serving, external APIs, software builds) demonstrating transfer across use cases.
+
 ## Relationship to Existing Seed Rules
 
 - **Verification Status Rule**: Tool-executable verification is a third category beyond source verification and experiential verification
@@ -119,6 +133,19 @@ execution-status: verified|failed|pending
 2. What safety protocols are needed before executing destructive commands?
 3. How to validate output without executing (static analysis)?
 4. Should tool-executable knowledge have shorter validity windows than other knowledge?
+
+## What This Teaches About Knowledge Bases
+
+Tool-executable knowledge reveals an important principle: **knowledge validity can be machine-checkable without the knowledge itself being executable by machines**. A note about `ffmpeg` commands is text (not executable), but its validity (does the command work?) is checkable by running `ffmpeg`. This is different from:
+
+- **Source verification**: Correctness is determined by checking authoritative sources (can a manual confirm this?)
+- **Experiential verification**: Correctness is determined by human practice (can a person try this?)
+- **Embodied verification**: Correctness requires human sensation (does this feel right?)
+- **Drill verification**: Correctness requires practiced recall (can you perform this under stress?)
+
+Tool-executable verification is automated checking — no human judgment involved. This makes it uniquely valuable for knowledge that operates in deterministic environments (software, systems, configurations) where execution outcomes are predictable.
+
+The deeper lesson: verification modality should match the knowledge type. Source-verifying tool-executable knowledge gives false confidence. Tool-executing experiential knowledge wastes resources. Matching verification method to knowledge type is what makes a knowledge base reliable.
 
 ## See Also
 

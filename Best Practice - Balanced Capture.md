@@ -11,6 +11,7 @@ tags:
   - balance
 schema-version: "1.0"
 counterpart-antipattern: [[Anti-Pattern - Missing Negative Knowledge]]
+x-source-gaps: verified through redundancy scan
 ---
 
 # Best Practice - Balanced Capture

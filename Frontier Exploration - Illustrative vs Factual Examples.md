@@ -112,6 +112,6 @@ hypothetical: true  # for illustrative examples
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Stress Test - Confidence Markers Rule Across Domains]]
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]]
 - [[Handling Temporal Knowledge]] — Temporal knowledge, outdated information, and discredited knowledge handling
 - [[Handling Contradictory Sources]] — Source verification for factual examples

@@ -46,7 +46,7 @@ When you write a wikilink to a note that doesn't exist (e.g., &#91;&#91;New Note
 | Prefer | Avoid |
 |--------|-------|
 | `[[Atomic Note Principle]]` | `ANP` (unclear abbreviation - don't use) |
-| `[[note-naming-conventions|Naming]]` for variety | Same link text repeated |
+| `[[AI-Assisted Knowledge Management Seed|Naming conventions]]` for variety | Same link text repeated |
 
 ### When NOT to Link
 
@@ -97,8 +97,8 @@ When a linked note is deleted or renamed:
 
 Use aliases to avoid duplicate notes:
 ```markdown
-# This note covers the same topic as [[note-naming-conventions]]
-# Use this canonical note instead
+# This note covers the same topic as [[AI-Assisted Knowledge Management Seed]]
+# Use the Seed for canonical naming guidance
 ```
 This prevents fragmentation when the same concept has multiple names.
 

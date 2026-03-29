@@ -4,12 +4,14 @@ last-updated: 2026-03-28
 lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
-gap-status: identified
+gap-status: proposed
 gap-priority: medium
-gap-phase: discovery
+gap-phase: implementation
 gap-type: seed-missing
 gap-source: manual
 discovered: 2026-03-28
+proposed-date: 2026-03-29
+resolved: pending
 tags:
   - seed-gap
   - creative-projects
@@ -83,6 +85,63 @@ deadline-trade-off: "What was deprioritized"
 
 ---
 
+## Deeper Exploration Content
+
+From merged [[Frontier Exploration - Creative Project Phase Knowledge]]:
+
+### Why Current Rules Fail
+
+**Construction-phase model assumes:**
+- Progress is measurable (note count, link density)
+- Phases have completion criteria
+- Quality is verifiable through source checking or testing
+
+**Creative project phases differ:**
+- Rewriting is normal, not failure to complete
+- "Good enough" is judgment, not metric
+- Abandonment of direction is learning, not waste
+- Deadlines exist externally (release dates, bookings)
+- Multiple valid outputs (different mixes, endings, versions)
+
+**Edge case: Non-linear workflow**
+- Recording happens before "final" songwriting is done
+- Mixing reveals new issues requiring re-recording
+- Mastering triggers mix changes
+- Post-production may require re-shoots
+
+### Decision Knowledge
+
+Store decisions as notes:
+- Why this song/track/scene was included or excluded
+- What trade-offs were made (time vs quality)
+- What was abandoned and why (not failure, information)
+- What would do differently in future project
+
+### Timeline Milestones
+
+Different from temporal knowledge:
+- External deadlines (release dates, shows, submissions)
+- Phase duration norms (baseline tracking for estimation)
+- Buffer allocation (mixing ALWAYS takes longer)
+- Deadline trade-offs explicit (what gets cut?)
+
+### Retrospective Knowledge
+
+Distinct from regular review:
+- What worked for THIS project type
+- What would change for next similar project
+- What knowledge was missing going in
+- What knowledge was gained during project
+
+### Track Abandoned Directions
+
+Critical gap: Storing abandoned work as knowledge:
+- "Why this direction was abandoned" has value
+- Keep abbreviated versions with rationale
+- Cross-link to what replaced it
+
+---
+
 ## Edge Cases to Test
 
 - Solo projects vs. collaborative (who owns tracking?)
@@ -90,3 +149,11 @@ deadline-trade-off: "What was deprioritized"
 - Series vs. standalone (iteration vs. sequel)
 - Client work with external deadlines
 - hobby vs. professional (different tracking needs)
+
+### Questions for Further Exploration
+
+1. How to handle "director cut" vs "released version" as knowledge?
+2. Should abandoned directions live in same vault or separate archive?
+3. How to verify "quality" in subjective creative output?
+4. What's minimum viable iteration tracking for small projects?
+5. How to structure cross-project learning (what transfers)?
