@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</guid>
     <description><![CDATA[ Seed Gap - Verification Mode Conflict Resolution Gap Identified: 2026-03-30 Gap Analyzed: 2026-03-30 What Is Missing The Seed has extensive rules for different verification modes (source, empirical, tool-dependent, drill-verified, embodied). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 18:21:25 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:11:19 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Multi-Person Knowledge Coordination</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Multi-Person-Knowledge-Coordination</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Multi-Person-Knowledge-Coordination</guid>
     <description><![CDATA[ Seed Gap: Multi-Person Knowledge Coordination Gap Description The Seed covers multi-item coordination (cooking meals, event planning) and participant-count validity (games, team sports), but lacks explicit guidance for coordinated execution by multiple people — where the coordination itself is the k... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 18:21:25 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:11:19 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Base Completion Thresholds</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
     <description><![CDATA[ Seed Gap - Knowledge Base Completion Thresholds The Gap The Seed contains completion criteria at the vault level: “Declare construction complete when orphan rate &lt;10%, core domains have hubs, verification ratio &gt;50%, schema is stable (60+ days), and compliance score &gt;85%” But it lacks guida... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 18:21:25 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:11:19 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Travel Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Travel-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Travel-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration - Travel Knowledge Organization Domain Context Travel knowledge sits at the intersection of multiple knowledge types: Project knowledge — each trip is a bounded project with phases Experiential knowledge — lessons learned from trips Reference knowledge — destination information,... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 19:11:19 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Decision Threshold Rule</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</link>
     <guid>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</guid>
     <description><![CDATA[ Best Practice - Link Quality Links should be meaningful, not numerous. Every link should pass the “why follow?” test. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
-  </item><item>
-    <title>Best Practice - Outcome Over Tool</title>
-    <link>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</link>
-    <guid>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</guid>
-    <description><![CDATA[ Best Practice - Outcome Over Tool The tool serves the goal, not the reverse. Focus on what you achieve, not what you use. ]]></description>
     <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item>
     </channel>
