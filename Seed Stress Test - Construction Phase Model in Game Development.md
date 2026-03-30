@@ -239,3 +239,5 @@ The Construction Phase Model **works for game development** but needs domain-spe
 4. ⚠️ Frontmatter extensions required - construction-track, engine-scope, platform-scope
 
 **Recommendation:** Add a game-development-specific edge case to the Seed rule covering these modifications.
+
+**See also:** [[Frontier Exploration Hub]]

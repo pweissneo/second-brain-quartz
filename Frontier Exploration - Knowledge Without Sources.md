@@ -1,17 +1,59 @@
 ---
-last-reviewed: 2026-03-10
-lifecycle: evergreen
+last-reviewed: 2026-03-30
+lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 tags:
-  - seed-extension
-  - frontier-exploration
+  - seed-gap
   - source-missing
+  - original-knowledge
+  - knowledge-types
+gap-source: frontier-exploration
+gap-phase: documented
+gap-status: open
+gap-priority: medium
+analysis-notes: "The Seed covers source verification for external sources, but lacks explicit guidance for original/synthesized knowledge that has no external source. This is a genuine gap."
 ---
 
-# Frontier Exploration - Knowledge Without Sources
+# Seed Gap - Knowledge Without External Sources
 
-> When knowledge has no source — original insights, personal experiments, or unprecedented ideas.
+> **Status:** SEED GAP — the Seed does not explicitly address how to handle knowledge that has no external source.
+
+## The Problem
+
+The Seed requires citing sources for factual claims. But what about:
+- **Original synthesis** — your own insights combining multiple concepts
+- **Personal experiments** — results from your own testing
+- **Unprecedented ideas** — novel concepts with no prior art
+- **Intuitive knowledge** — valuable but un-sourceable
+
+An AI following the Seed strictly might:
+1. Refuse to add original insights (no source)
+2. Mark personal synthesis as low-confidence (no external validation)
+3. Undervalue knowledge that can't be sourced
+4. Miss valuable original content
+
+## Why This Is a Gap
+
+The Seed addresses:
+- Source verification (external sources)
+- Experiential verification (personal testing)
+- Embodied verification (sensory judgment)
+- Tool-executable verification (automated testing)
+
+But it lacks a **category** for knowledge that is intentionally source-less by design — original synthesis, hypothesis, or invention.
+
+## Proposed Rule Addition
+
+**Rule:** For knowledge without external sources, distinguish source type explicitly.
+**Why:** Original insights, personal experiments, and novel ideas are valuable. The Seed should provide a category for them, not force them into a "unsourced" box.
+**Test:** For notes without external sources: (1) Is this original synthesis? (2) Is this from personal experiment? (3) Is this intuition? Can the AI agent categorize the source type?
+
+## References
+
+- [[AI-Assisted Knowledge Management Seed]] — see "Cite sources" rule (2651) and derived knowledge provenance (2677)
+- [[Frontier Exploration - Experiential Knowledge vs Descriptive Knowledge]] — experiential vs external
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — confidence framework
 
 ## The Problem
 

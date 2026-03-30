@@ -1,12 +1,15 @@
 ---
-last-reviewed: 2026-03-13
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - self-improvement
   - evolution
   - knowledge-processing
+schema-version: "1.0"
 ---
 
 # Frontier Exploration: Self-Contradiction and Evolved Perspective

@@ -1,8 +1,19 @@
 ---
-last-reviewed: 2026-03-23
-lifecycle: seed-extension
-confidence: emerging
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
+confidence: high
 author-type: ai-assisted
+lifecycle: seed-gap
+meta-type: seed-gap
+schema-version: "1.0"
+gap-type: seed-missing
+gap-status: integrated
+gap-priority: medium
+gap-phase: complete
+gap-severity: useful
+gap-source: frontier-exploration
+integrated: 2026-03-26
+integrated-into: AI-Assisted Knowledge Management Seed
 tags:
   - seed-gap
   - safety

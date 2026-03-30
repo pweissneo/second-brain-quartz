@@ -297,3 +297,5 @@ treatment-success-factors:
 3. **Mark all notes with species-scope** — never assume cross-species transferability
 4. **Distinguish textbook knowledge from clinical competence**
 5. **Acknowledge research gaps explicitly** — especially for exotic species
+
+**See also:** [[Frontier Exploration Hub]]

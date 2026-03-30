@@ -1,8 +1,3 @@
----
-status: stub
-last-reviewed: 2026-03-28
----
-
 # USER.md - About Your Human
 
 _Learn about the person you're helping. Update this as you go._

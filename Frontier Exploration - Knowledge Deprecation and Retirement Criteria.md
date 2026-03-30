@@ -142,16 +142,6 @@ For deprecated notes, include visible notice:
 
 ## Related Seed Rules
 
-- [[Note Lifecycle Management]] — extends to include deprecated state
-- [[Frontier Exploration - Knowledge Aging and Review Cycle Management]] — review triggers
-- [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management]] — complementary perspective with domain-specific examples
-- [[Confidence Markers]] — can signal temporal confidence
-- [[Seed Rule - Vault Change Tracking]] — tracks evolution over time
-
----
-
-**Note merged (2026-03-28):** This note absorbed content from [[Frontier Exploration - Knowledge Deprecation and Obsolescence Management.md]] which was redundant. The older note is now deprecated. Both notes covered deprecation workflow, obsolescence detection, and archive vs. delete decisions. This note was chosen as the merge target because it has clearer Rule/Why/Test structure and explicit Seed Gap labeling.
-
 ## Test Criteria
 
 - [ ] Can you identify deprecated notes via frontmatter?

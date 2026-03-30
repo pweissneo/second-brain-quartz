@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-25
-last-updated: 2026-03-25
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -11,15 +11,26 @@ tags:
   - standardization
 level: principle
 schema-version: "1.0"
+redirect: "[[Frontier Exploration - Sensory Anchor Standardization]]"  # Conceptual context in Frontier note; implementation here
 ---
 
 # Seed Gap: Sensory Anchor Standardization
 
-> Standardizing sensory cues across notes for embodied knowledge domains.
+> Standardizing sensory cues across notes for embodied knowledge domains. This is the **canonical implementation reference** for sensory anchors in the vault.
 
 **Date:** 2026-03-25
-**Discovery Method:** REDUNDANCY_SCAN - Merged from Seed Stress Test - Embodied Knowledge Rule
-**Status:** CONTENT MERGED - Previously referenced file now consolidated
+**Last Updated:** 2026-03-30 (consolidated from Frontier Exploration analysis)
+**Status:** ACTIVE — Canonical reference for embodied knowledge implementation
+
+---
+
+## Note on Relationship
+
+This note is the **canonical implementation reference**. For conceptual context and gap discovery reasoning, see [[Frontier Exploration - Sensory Anchor Standardization]].
+
+The Frontier Exploration note provides: problem context, gap analysis, and reasoning behind the solution approach.
+
+This note provides: complete frontmatter templates, domain examples, edge case handling, and test criteria for implementation.
 
 ---
 

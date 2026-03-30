@@ -1836,6 +1836,61 @@ For vaults with significant mixed usage, create parallel entry points optimized 
 - **Context-shift:** User reports situation change, tool/technology migration, goal shift — requires user input
 **Lifecycle implication:** Notes marked `confidence: obsolete` should be distinct from `confidence: stale` — obsolete notes need replacement, stale notes need review.
 
+**Rule (NEW - 2026-03-30):** Implement staleness scoring with automatic confidence decay — use `last-verified` (distinct from `last-updated`) to compute a quantitative staleness score and adjust effective confidence accordingly.
+**Why:** Detection rules tell you staleness EXISTS; staleness scoring makes it MEASURABLE. Without quantitative staleness scores, AI agents cannot automatically prioritize review queues, adjust effective confidence, or surface knowledge needing attention. The gap between "knowledge verified" and "note edited" is invisible without explicit tracking and computation.
+**Test:** For vaults with time-stale knowledge:
+1. Can you compute a staleness score for any note using `last-verified` + domain velocity?
+2. Does retrieval include effective confidence (original adjusted by staleness)?
+3. Can you list all notes with staleness score > 0.7?
+4. Do notes have `last-verified` and `last-updated` as separate fields?
+5. Can you identify notes that are "stale but not obsolete" (verified accuracy but overdue for review)?
+
+**Implementation:**
+
+```yaml
+# Core fields (add to existing frontmatter)
+last-verified: 2026-03-01  # When knowledge was last confirmed accurate
+last-updated: 2026-03-30  # When note was last edited (may be more recent)
+staleness-score: 0.65  # Computed: 0=fresh, 1=fully stale
+needs-review: true     # Derived: staleness-score > threshold
+
+# Decay parameters
+domain-velocity: fast  # Determines base review interval
+decay-rate: 0.1  # 10% confidence loss per review cycle overdue
+review-interval-days: 90  # From domain-velocity (fast=90, medium=180, slow=365)
+
+# Computed effective confidence
+original-confidence: 0.9
+effective-confidence: 0.58  # Original × (1 - decay-rate)^staleness_score
+
+# Override for evergreen knowledge
+staleness-immune: true  # Exempt from staleness scoring
+```
+
+**Staleness score formula:**
+```
+staleness_score = min(1.0, days_since_verified / (review_interval_days × decay_threshold_multiplier))
+```
+Where `decay_threshold_multiplier = 2` (score=1.0 after 2× review interval).
+
+**Confidence decay formula:**
+```
+effective_confidence = original_confidence × (1 - decay_rate) ^ cycles_overdue
+```
+Where `cycles_overdue = days_since_verified / review_interval_days`.
+
+**Staleness thresholds:** 0.0-0.3 (Fresh), 0.3-0.5 (Aging), 0.5-0.7 (Stale), 0.7-1.0 (Critical).
+
+**Edge cases:**
+- **Static domains** (mathematics, philosophy, ancient history): Use `domain-velocity: static` to skip computation entirely.
+- **Evergreen notes** (fundamental principles, proven theorems): Use `staleness-immune: true` to exempt from decay.
+- **Notes without last-verified**: Default to staleness_score = 0.5 and prompt for verification. `last-updated` alone is insufficient — it captures editing, not verification.
+- **Grace period**: Don't compute staleness until first review interval has passed. A note verified 10 days ago in a fast domain isn't stale — staleness computation starts after 1× review interval.
+- **Verification vs. update distinction**: `last-verified` advances when you confirm accuracy; `last-updated` advances on any edit. Keeping them separate enables accurate staleness tracking.
+- **Reality-obsolete vs. time-stale**: A note can be time-stale (overdue for review) AND reality-obsolete (underlying facts changed). Staleness score handles time-stale; obsolescence requires semantic detection.
+
+**See also:** [[Seed Gap - Staleness Detection vs. Staleness Computation]] — gap note that produced this rule
+
 **Rule:** Handle external extinction separately from obsolescence — when the thing described no longer exists, apply different detection and disposition rules.
 **Why:** Standard obsolescence handles knowledge that was once true but is now false (facts changed, sources updated). External extinction is different — the knowledge isn't wrong, it's about something that no longer exists (discontinued products, defunct services, dissolved organizations, extinct species, destroyed places). Treating extinct knowledge like obsolete knowledge wastes review effort and misses the unique disposition decisions these notes require.
 **Test:** For notes about external entities (products, services, organizations, places): (1) Can you confirm the entity still exists? (2) Is extinct knowledge appropriately tagged vs. standard obsolete knowledge? (3) Does each extinct entity note have a disposition decision (archive/reference-only/deprecate/delete)?
@@ -3968,7 +4023,26 @@ allows-change:
 
 *How notes and structure improve over time.*
 
-**Rule:** Notes evolve through lifecycle stages: draft -> active -> evergreen -> deprecated -> archived.
+**Rule:** Notes evolve through lifecycle stages: draft -> active -> evergreen -> abandoned -> deprecated -> archived.
+**Why:** Not all notes are equal; lifecycle tracking focuses review effort on notes that matter. The archived stage preserves historical accuracy while signaling that temporal data is no longer current. The abandoned stage distinguishes unmaintained notes (unknown quality, no updates) from deprecated notes (deliberately evaluated and marked).
+**Test:** Can each note be assigned a lifecycle stage? Are deprecated notes marked clearly? Are abandoned notes distinguished from deprecated ones?
+
+**Extensions for time-sensitive domains:**
+- **Cyclical strategies:** For notes that come in/out of favor (fashion cycles, trend strategies), use `status: cyclical` rather than deprecated — the knowledge is valid, just temporarily unfashionable. Tag with `cycle-period:` to indicate pattern.
+- **Abandoned tools:** For unmaintained tools (no updates, no community, superseded by alternatives) use `lifecycle: abandoned` distinct from `deprecated` — abandoned means unmaintained and unknown quality, deprecated means deliberately evaluated and marked.
+- **Deprecation types:** Use `deprecation-type: hard` (actively wrong), `soft` (superseded by better), or `historical` (accurate for past era but no longer current).
+- **Archived data:** Use `as-of: YYYY-MM` for archived temporal data (tax brackets, annual limits) to clearly mark the time scope. Archived data remains accurate for its period, just no longer current.
+
+**Implementation:**
+```yaml
+lifecycle: draft|active|evergreen|abandoned|deprecated|archived|living
+status: cyclical  # for fashion/cycle patterns
+cycle-period: 3y  # estimated cycle length
+deprecation-type: hard|soft|historical
+as-of: 2024  # for archived temporal data
+```
+
+**Rule:** For knowledge spanning multiple domains, use domain tags on atomic notes and create cross-domain hub notes that connect domain-specific perspectives.
 **Why:** Not all notes are equal; lifecycle tracking focuses review effort on notes that matter. The archived stage preserves historical accuracy while signaling that temporal data is no longer current.
 **Test:** Can each note be assigned a lifecycle stage? Are deprecated notes marked clearly?
 
@@ -4561,6 +4635,53 @@ trade-off:
 **Why:** People have different risk tolerances and value outcomes differently. Trade-off calibration enables personalized decision support rather than generic recommendations.
 **Test:** Can you articulate your personal trade-off preferences (e.g., speed-vs-quality: 0.7 meaning 70% speed preference)? Do these differ from "default" recommendations?
 
+**Rule (NEW - 2026-03-30):** For rapidly-evolving domains, include temporal validity bounds on trade-off notes.
+**Why:** Trade-off assessments become stale as technology advances. Without time bounds, readers may act on outdated information. In domains with >6 month technology cycles, trade-offs can flip entirely.
+**Test:** For trade-off notes in domains with >6 month technology cycles: (1) Is there `trade-off-valid-as-of` date? (2) Is there a `review-when` or `review-cycle`? (3) Have trade-offs been reviewed within the review cycle?
+**Implementation:** Add frontmatter fields:
+```yaml
+trade-off-valid-as-of: "YYYY-MM"
+trade-off-review-cycle: quarterly|annually
+next-review-date: "YYYY-MM-DD"
+```
+
+**Rule (NEW - 2026-03-30):** For infrastructure-dependent trade-offs (hardware, network, protocol), define applicability scope.
+**Why:** Generic trade-offs ("WiFi is less reliable") are dangerously incomplete without context. A trade-off that applies to cheap WiFi bulbs may not apply to enterprise-grade WiFi thermostats.
+**Test:** For infrastructure-dependent trade-offs: (1) Does frontmatter define `applies-to` and `excludes`? (2) Can a reader determine if the trade-off applies to their specific configuration?
+**Implementation:** Use fields:
+```yaml
+trade-off-scope:
+  applies-to:
+    - protocol: wifi
+      device-category: lighting
+  excludes:
+    - professional-grade devices
+```
+
+**Rule (NEW - 2026-03-30):** Document minimum required dimensions for trade-off notes — cost, reliability, flexibility, future-proofing, skill-required.
+**Why:** Notes that mention only some trade-off dimensions mislead readers into thinking they've captured the full picture. Partial trade-off capture is worse than none.
+**Test:** For trade-off notes >200 words: (1) Are at least 3 of 5 dimensions covered? (2) Is the dimension coverage documented in frontmatter or explicitly stated?
+
+**Rule (NEW - 2026-03-30):** Track trade-off lifecycle — mark as active, resolved, or superseded when technology renders the trade-off obsolete.
+**Why:** What was a genuine trade-off may be resolved by new technology. Stale trade-offs create confusion. The "Matter vs. HomeKit" trade-off that existed in 2021-2023 is now resolved.
+**Test:** For trade-offs in technology domains: (1) Can you identify resolved trade-offs? (2) Are resolved trade-offs tagged as such? (3) Do resolved trade-offs link to the resolution?
+**Implementation:** Use fields:
+```yaml
+trade-off-status: active|resolved|superseded
+resolution-date: "YYYY-MM-DD"
+resolution-note: "Brief note on how the trade-off was resolved"
+superseded-by: "[[Note Name]]"
+```
+
+**Rule (NEW - 2026-03-30):** Distinguish inherent trade-offs from developable skill limitations — tag as `trade-off-type: developable` when the "trade-off" can be overcome with learning.
+**Why:** False trade-offs create unnecessary hesitation. Many "it depends" situations are actually "you just need to learn this." Recognizing skill gaps empowers rather than paralyzes.
+**Test:** For trade-off notes: (1) Can you identify which dimension is actually a skill gap? (2) Is there a `developable` flag on skill-based trade-offs? (3) Is there guidance on what's needed to resolve it?
+**Implementation:** Add to trade-off frontmatter:
+```yaml
+trade-off-type: inherent|contextual|developable
+developable-note: "Guidance on what's needed to resolve this skill gap"
+```
+
 ---
 
 ## 13. Vault Query and Retrieval
@@ -4587,6 +4708,29 @@ trade-off:
 **Why:** Without reasoning traces, users cannot verify AI logic, audit conclusions, or improve the vault based on reasoning failures. The Seed covers reasoning strategies but not the explicit documentation of reasoning execution. This gap matters especially when AI assists decision-making — users need to see how conclusions were reached.
 **Test:** For a complex query (3+ notes consulted): (1) Can you generate a reasoning trace showing the path from question to answer? (2) Does the trace include consulted notes, weighting rationale, confidence at each step, and any gaps identified? (3) Can a user follow the trace to verify or replicate the reasoning? (4) Does the trace identify specific vault gaps that caused reasoning failures?
 **Implementation:** Reasoning traces should include: query decomposition (sub-questions), traversal path (each note consulted with relevance score, confidence, and role), synthesis rationale (how sources were combined), gaps identified, and final confidence. Default: ephemeral (discard after response). Optional: session-based or permanent storage for audit.
+
+**Rule (NEW - 2026-03-30):** For knowledge used in decisions, distinguish epistemic type — direct evidence (vault has specific support), interpolated inference (vault has adjacent data), extrapolated projection (vault has partial range), or analogical transfer (vault has similar-domain knowledge) — and present with appropriate uncertainty markers.
+**Why:** Users need to know not just what the vault knows, but how the vault knows it. A claim supported by 5 direct examples is different from one interpolated from 2 adjacent notes or projected from a different domain. Without explicit epistemic type markers, users cannot calibrate trust appropriately. The Seed covers confidence levels but not epistemic basis type.
+**Test:** For any knowledge used in a decision: (1) Is this direct evidence, interpolation, extrapolation, or analogy? (2) Does the presentation distinguish the epistemic type? (3) Can a user determine how much confidence is warranted?
+**Implementation:** Use frontmatter:
+```yaml
+epistemic-type: direct|interpolated|extrapolated|analogical
+evidence-basis:
+  direct-examples: 5
+  adjacent-notes: 2
+  analogical-source: [[Other Domain Note]]
+interpolation-confidence: high
+transferability-assessment: medium
+applicability-boundary: "Known valid range: X to Y"
+```
+**Coverage density assessment:** When a topic is queried, assess: direct matches (N notes), related notes (within 1-2 hops), adjacent domains (analogical sources), and unlinked gaps. Present appropriate response: solid evidence (5+ direct), interpolatable (2-4 direct, verify edges), extrapolated (1 direct, high uncertainty), or analogical transfer possible (cross-domain with transferability assessment).
+**Distinguishing types:**
+- **Direct**: Multiple specific notes support the claim; present with standard confidence
+- **Interpolated**: Vault has A and C, user needs B; present with "pattern suggests..." and mark applicability boundary
+- **Extrapolated**: Vault has range [A, B], user needs [C] outside; present with explicit warning and boundary markers
+- **Analogical**: Domain X has knowledge, Domain Y needs it; present with transferability assessment and conditions
+**Edge cases:** Non-continuous domains (discrete jumps, paradigm shifts) mark as `interpolation-valid: false`. Anti-inductive domains (case 11 fails where cases 1-10 succeeded) tag with `anti-inductive: true`. Track `transfer-success-cases` vs `transfer-failure-cases` for analogical sources.
+**See also:** [[Frontier Exploration - Sparse Knowledge Reasoning]] — detailed exploration of this gap
 
 ---
 

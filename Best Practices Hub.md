@@ -23,13 +23,13 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 
 | Anti-Pattern Concept | Best Practice | Status |
 |---------------------|---------------|--------|
-| Link Inflation | [[Best Practice - Link Quality]] | ✅ Merged (2026-03-29) |
+| [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] | ✅ Merged into Best Practice (2026-03-30) |
 | Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Integrated |
 | Neglecting Maintenance | [[Best Practice - Regular Review]] | ✅ Integrated |
 | Missing Negative Knowledge | [[Best Practice - Balanced Capture]] | ✅ Integrated |
-| Note Hoarding | [[Best Practice - Selective Capture]] | ✅ Integrated |
-| [[Best Practice - Progress Over Perfection]] | (primary reference — anti-pattern consolidated here 2026-03-29) | ✅ Integrated |
-| Single-Source Dependency | [[Best Practice - Multi-Source Synthesis]] | ✅ Integrated |
+| [[Anti-Pattern - Note Hoarding]] | [[Best Practice - Selective Capture]] | ✅ Integrated |
+| [[Anti-Pattern - Perfectionism]] | [[Best Practice - Progress Over Perfection]] | ✅ Merged into Best Practice (2026-03-30) |
+| [[Anti-Pattern - Single-Source Dependency]] | [[Best Practice - Multi-Source Synthesis]] | ✅ Integrated |
 | Tool Overfocus | [[Best Practice - Outcome Over Tool]] | ✅ Integrated |
 
 <!-- Discovery Fragility row removed 2026-03-27: corresponding anti-pattern note does not exist in vault. See [[Seed Gap - Referenced Anti-Patterns That Don't Exist]] for details. -->

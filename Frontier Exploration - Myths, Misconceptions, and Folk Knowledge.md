@@ -1,12 +1,12 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: evergreen
-review-by: 2026-03-18
-confidence: emerging
-schema-version: "1.0"
+last-reviewed: 2026-03-30
+lifecycle: historical-reference
+confidence: high
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
-  - frontier-exploration
+  - historical-reference
+  - rule-evolution
   - myths
   - misconceptions
   - folk-knowledge
@@ -15,15 +15,9 @@ tags:
 
 # Frontier Exploration - Handling Myths, Misconceptions, and Folk Knowledge
 
-## The Gap
+> **Status:** This gap has been incorporated into the Seed. This note is now a **historical reference** documenting the rule evolution. See [[AI-Assisted Knowledge Management Seed]] for the current rule.
 
-The Seed covers:
-- **Discredited knowledge** — theories proven wrong (e.g., phlogiston theory)
-- **Superseded knowledge** — was accurate, now outdated (e.g., Pluto as planet)
-- **Contradictory sources** — sources that disagree on facts
-- **Subjective knowledge** — matters of taste with no right answer
-
-But the Seed is silent on: **Myths, misconceptions, and folk knowledge** — widely-held beliefs that were **never accurate** but persist in popular understanding.
+**Rule added (2026-03-30):** "Distinguish myths and misconceptions from verified knowledge — mark folk wisdom and widely-believed but unverified claims explicitly." (Seed rules 3347-3351)
 
 ## Why This Matters
 

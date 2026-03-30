@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-21
-last-updated: 2026-03-21
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -9,6 +9,7 @@ tags:
   - access-pattern
   - organization
   - retrieval
+  - compliance-audit-2026-03-30
 ---
 
 # Frontier Exploration: Knowledge Access Pattern Optimization
@@ -142,6 +143,10 @@ Use markdown details/summary for hybrid access:
 - Track actual access patterns to guide optimization
 
 ## Proposed Solution
+
+**Rule:** Tag notes with primary access pattern and create use-case-specific entry points when a domain serves multiple access modes.
+**Why:** The same knowledge serves different purposes (lookup, learning, decision-making, inspiration), and optimizing for one structure may hurt others. Without explicit access pattern tagging, vaults default to one use case and serve others poorly.
+**Test:** (1) Can you identify the primary access pattern for each hub note? (2) Do multi-purpose domains have parallel entry points for different access patterns? (3) Can you measure which access pattern dominates retrieval behavior?
 
 ### Tag Notes with Access Pattern
 

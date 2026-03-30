@@ -49,8 +49,8 @@ Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
 ## Related
 
 - [[Knowledge Graph Structure]]
-- [[Anti-Pattern - Note Hoarding]] — Related anti-pattern: over-organizing vs. under-processing (linked symptoms)
 - [[Graph Traversal Efficiency]]
+- [[Best Practice - Selective Capture]] — Related best practice: captures what matters, not everything
 - [[Anti-Patterns in Knowledge Management]]
 - [[Frontier Exploration - Competing Organizational Structures]]
 - [[AI-Assisted Knowledge Management Seed]]

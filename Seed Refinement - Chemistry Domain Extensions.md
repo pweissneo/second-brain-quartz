@@ -51,4 +51,12 @@ tags:
 | Knowledge-type frontmatter | All chemistry notes | Required field |
 | Foundational tags | Core chemistry concepts | Avoid false orphan flags |
 
-**See also:** [[Seed Stress Test - Chemistry Knowledge Base]]
+## Related
+
+- [[Seed Stress Test - Chemistry Knowledge Base]] — Original stress test that identified these gaps
+- [[Seed Development Hub]] — Hub for all seed refinements and extensions
+- [[Seed Refinement - Assembly Process Type Extensions]] — Similar domain extension pattern
+- [[Seed Refinement - Knowledge Source Type Domain Adaptation]] — Verification type refinement approach
+- [[Seed Refinement - Domain-Velocity-Aware Confidence Decay]] — Related confidence decay rules
+- [[Frontier Exploration - Dual-Nature Domain Handling]] — Context for domain-specific overrides
+- [[Handling Contradictory Sources]] — General contradiction handling (chemistry uses `condition-dependent` flag)

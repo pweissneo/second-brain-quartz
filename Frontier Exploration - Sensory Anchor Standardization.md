@@ -160,6 +160,18 @@ This extends the existing `embodied-component` frontmatter by providing:
 
 This doesn't replace existing Seed rules — it operationalizes the embodied-component guidance that already exists.
 
+## Relationship to Existing Seed
+
+Current Seed references [[Seed Gap - Sensory Anchor Standardization]] as the authoritative source for sensory anchor standardization. This Frontier Exploration note provides complementary depth and context — use the Seed Gap note for implementation guidance.
+
+### Canonical Reference
+
+**For implementation guidance:** Use [[Seed Gap - Sensory Anchor Standardization]] — this note has the complete frontmatter templates, domain examples, and test criteria.
+
+**For conceptual exploration:** This note (Frontier Exploration) provides the problem context and reasoning behind the gap.
+
+---
+
 ## Test Criteria
 
 - [ ] Can you find sensory anchors in embodied notes?
@@ -173,4 +185,5 @@ This doesn't replace existing Seed rules — it operationalizes the embodied-com
 - [[Frontier Gap - Embodied Knowledge]] — Broader exploration of tacit/embodied knowledge capture
 - [[Frontier Exploration - Sensory Knowledge Capture]] — Related: tasting and evaluation knowledge
 - [[Seed Stress Test - Embodied Knowledge Rule]] — Domain stress test
-- [[Seed Gap - Sensory Anchor Standardization]] — Corresponding Seed Gap note for rule integration
+- [[Seed Gap - Sensory Anchor Standardization]] — **Primary reference for implementation**
+- [[AI-Assisted Knowledge Management Seed]] — Contains embodied knowledge rule referencing this gap

@@ -57,6 +57,13 @@ The following notes explore specific edge cases and emerging patterns:
 - [[Frontier Exploration - Spatial Knowledge Organization]] — Geographic structure
 - [[Frontier Exploration - Interpersonal and Social Skill Knowledge]] — Social dynamics
 - [[Frontier Exploration - Multi-Representation Knowledge]] — Multiple valid representations
+- [[Frontier Exploration - Experiential Knowledge vs Descriptive Knowledge]] — When practice is required
+- [[Frontier Exploration - Knowledge Calibration by Use Intent]] — Calibration for usage patterns
+- [[Frontier Exploration - Subjective Knowledge Type System]] — Subjective knowledge categorization
+- [[Frontier Exploration - Paradigm-Shift Knowledge]] — Knowledge during paradigm transitions
+- [[Frontier Exploration - Prompt and Template Capture]] — Capturing reusable prompts
+- [[Frontier Exploration - Tacit Assumption Documentation]] — Documenting unstated assumptions
+- [[Seed Gap - Social Validation Knowledge]] — Knowledge requiring social validation
 
 ### Process & Workflow
 - [[Frontier Exploration - Verification Hierarchy]] — Verification priority guidance
@@ -70,6 +77,22 @@ The following notes explore specific edge cases and emerging patterns:
 - [[Frontier Exploration - Vault Construction Completion Criteria]] — When construction ends
 - [[Frontier Exploration - Vault Reset and Rebuild Decisions]] — When to start fresh
 - [[Frontier Exploration - Decision Framework Selection Knowledge]] — Choosing decision approaches
+- [[Frontier Exploration - Capture Method Optimization]] — Optimizing capture workflows
+- [[Frontier Exploration - Knowledge Capture Timing Optimization]] — When to capture
+- [[Frontier Exploration - Knowledge Re-Evaluation Triggers]] — When to revisit knowledge
+- [[Frontier Exploration - Dynamically Updating Knowledge]] — Updating live knowledge
+- [[Frontier Exploration - Multi-Person Knowledge Execution]] — Team-based knowledge use
+- [[Frontier Exploration - Pattern Synthesis - Cross-Exploration Observations]] — Cross-note synthesis
+- [[Seed Gap - Emergency Knowledge Retrieval Speed]] — Fast retrieval in emergencies
+
+### AI & Knowledge Synthesis
+- [[Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management]] — AI behavior monitoring
+- [[Frontier Exploration - AI Synthesis Provenance]] — Tracing AI synthesis sources
+- [[Frontier Exploration - AI-Generated Knowledge Detection and Verification]] — Detecting AI content
+- [[Frontier Exploration - Multi-Vault Knowledge Coordination]] — Coordinating across vaults
+- [[Frontier Exploration - Personal Knowledge vs Vault Knowledge]] — Boundary between personal and vault
+- [[Frontier Exploration - Anticipatory Knowledge Capture]] — Proactive capture
+- [[Frontier Exploration - Domain-Specific Communication Styles and Norms]] — Communication norms in domains
 
 ### Meta-Knowledge
 - [[Frontier Exploration - Knowledge Sensitivity and Responsible Capture]] — Handling sensitive knowledge
@@ -84,6 +107,16 @@ The following notes explore specific edge cases and emerging patterns:
 - [[Frontier Exploration - Inherent Trade-Off Knowledge]] — Balancing competing priorities
 - [[Frontier Exploration - Personal Taste Calibration Knowledge]] — Personal preferences in sensory domains
 - [[Seed Gap - Sensory Evaluation Knowledge]] — Proposed rules for sensory evaluation (taste, smell, audio)
+- [[Frontier Exploration - Tacit Knowledge Transfer Mechanisms]] — Mechanisms for tacit transfer
+- [[Frontier Exploration - Memorization vs. Retrieval Strategy in Knowledge Bases]] — Memory strategies
+- [[Frontier Exploration - Language Learning Vocabulary Organization]] — Vocabulary in language learning
+- [[Frontier Exploration - Habit and Behavior Change Knowledge Organization]] — Habit change patterns
+- [[Frontier Exploration - Knowledge Freshness Dating]] — Dating knowledge freshness
+- [[Frontier Exploration - Knowledge Presentation Calibration]] — Calibrating presentation for audience
+- [[Frontier Exploration - Knowledge Retrieval vs Recognition]] — Retrieval vs recognition in knowledge
+- [[Frontier Exploration - Knowledge Capture Resource Allocation]] — Resource allocation for capture
+- [[Frontier Exploration - Cyclical Timing Knowledge]] — Knowledge about cyclical timing
+- [[Seed Gap - Evaluative Knowledge Organization in Creative Domains]] — Organization in creative fields
 
 ### Seed Stress Tests
 - [[Seed Stress Test - Compound Context Rule in Cooking]] — Testing compound context rule

@@ -232,10 +232,12 @@ If yes to all 5, the gap is closed.
 ## Related Notes
 
 - [[Self-Improvement Cycle]]
-- [[Seed Rule - Vault Growth Velocity]]
 - [[Seed Rule - Verification Ratio]]
-- [[Structural Health]]
+- [[Graph Maintenance]]
+- [[Seed Gap Analysis Methodology]]
+- [[Seed Gap - Seed Gap Note Lifecycle Management]]
 - [[Frontier Exploration - Vault-Level Pattern Discovery]]
+- [[Frontier Exploration - Automated Vault Health Monitoring]]
 
 ---
 

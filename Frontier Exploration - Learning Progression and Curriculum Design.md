@@ -101,3 +101,5 @@ This frontier needs:
 1. Stress testing across multiple domains (language, crafts, technical subjects)
 2. Testing whether learning progressions should be explicit notes vs. metadata
 3. Determining minimum viable entry criteria for different domain types
+
+**See also:** [[Frontier Exploration Hub]]

@@ -8,10 +8,9 @@ tags:
   - frontier-exploration
   - social-validation
   - feedback-knowledge
-gap-status: identified
-gap-priority: medium
-gap-phase: discovery
-gap-severity: useful
+gap-status: analyzed
+gap-phase: analysis
+gap-review-date: 2026-03-30
 gap-source: frontier-exploration
 discovered: 2026-03-30
 schema-version: "1.0"
@@ -88,5 +87,31 @@ confidence: calibrated-by-feedback
 
 ---
 
-**Status:** Identified — needs analysis phase
-**Next:** Explore whether this overlaps with existing rules or represents genuine gap
+**Status:** Analyzed — rule proposal drafted
+**Next:** Advance to proposed phase with Seed rule in Rule/Why/Test format
+
+## Seed Rule Proposal
+
+**Rule:** For creative domain knowledge bases where validity depends on audience response (music, writing, design, visual art), tag feedback-dependent knowledge with verification-mode: social and track feedback with source, date, and sample characteristics.
+
+**Why:** Social validation differs from empirical testing (user studies) and expert review — it's about audience reception, aesthetic response, and subjective quality assessment. Without explicit tracking, feedback data is lost and confidence calibration becomes impossible. Creative knowledge without feedback tracking is incomplete even if source-quality is high.
+
+**Test:** For creative work notes: (1) Does frontmatter include `verification-mode: social`? (2) Is feedback tracked with source, date, and sample size? (3) Are conflicting responses (positive/negative) documented? (4) Is feedback type distinguished (majority-audience | expert | peer | self)?
+
+**Implementation:**
+```yaml
+verification-mode: social
+feedback-type: majority-audience|expert|peer|self
+feedback-sample-size: number
+feedback-positive: count
+feedback-negative: count
+feedback-date: YYYY-MM-DD
+feedback-context: "What feedback was given"
+conflicting-feedback: true|false
+```
+
+**When to use:** Apply to creative work knowledge where correctness is defined by audience response, not objective measurement. Do not apply to craft technical knowledge (anatomy, technique) which IS objectively verifiable.
+
+**Relationship to existing rules:** Orthogonal to empirical verification (user testing with controlled conditions), tool verification (physical measurement), and drill verification (emergency procedures). Social validation is distinct — it's about subjective reception, not objective performance.
+
+**See also:** [[Frontier Exploration - Personal Taste Calibration Knowledge]] | [[Seed Gap - Empirically Validatable Knowledge]]

@@ -21,23 +21,15 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 
 ## The Anti-Patterns
 
-### Workflow Anti-Patterns
-- [[Best Practice - Progress Over Perfection]] — Never publishing because it's "not ready"
-- [[Anti-Pattern - Note Hoarding]] — Saving everything without processing
-
 ### Structure Anti-Patterns
 - [[Anti-Pattern - Over-Organization]] — Spending more time organizing than learning
-- [[Anti-Pattern - Link Inflation]] — Linking everything to everything
+- [[Anti-Pattern - Single-Source Dependency]] — One note depends entirely on one source
 
 ### Quality Anti-Patterns
-- [[Anti-Pattern - Single-Source Dependency]] — One note depends entirely on one source
 - [[Anti-Pattern - Missing Negative Knowledge]] — Only capturing successes, not failures
 
 ### Maintenance Anti-Patterns
 _(See [[Best Practice - Regular Review]] for the solution to this common issue)_
-
-### Meta Anti-Patterns
-- [[Best Practice - Outcome Over Tool]] — Obsessing over the perfect tool
 
 ## The Balance Rule
 
@@ -47,15 +39,18 @@ For every dedicated negative knowledge note, there should be a corresponding pos
 
 The vault provides complementary best practice notes for each anti-pattern. The complete mapping with status tracking is maintained in [[Best Practices Hub]].
 
-| Anti-Pattern | Best Practice |
-|--------------|---------------|
-| [[Anti-Pattern - Note Hoarding]] | [[Best Practice - Selective Capture]] |
+| Anti-Pattern | Best Practice | Status |
+|--------------|---------------|--------|
 | [[Anti-Pattern - Over-Organization]] | [[Best Practice - Minimal Organization]] |
-| [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] |
 | [[Anti-Pattern - Single-Source Dependency]] | [[Best Practice - Multi-Source Synthesis]] |
 | [[Anti-Pattern - Missing Negative Knowledge]] | [[Best Practice - Balanced Capture]] |
 | _Maintenance neglect_ | [[Best Practice - Regular Review]] |
-| [[Anti-Pattern - Tool Overfocus]] | [[Best Practice - Outcome Over Tool]] |
+
+**Merged into Best Practices** (content consolidated for efficiency):
+- [[Anti-Pattern - Perfectionism]] → [[Best Practice - Progress Over Perfection]]
+- [[Anti-Pattern - Note Hoarding]] → [[Best Practice - Selective Capture]]
+- [[Anti-Pattern - Link Inflation]] → [[Best Practice - Link Quality]]
+- [[Anti-Pattern - Tool Overfocus]] → [[Best Practice - Outcome Over Tool]]
 
 See [[Best Practices Hub]] for detailed guidance, implementation examples, and status tracking on each best practice pair.
 

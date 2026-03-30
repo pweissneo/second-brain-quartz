@@ -28,6 +28,7 @@ Notes documenting gaps in the Seed that need to be addressed.
 - [[Seed Gap - Comparative and Cross-Jurisdictional Legal Knowledge]]
 - [[Seed Gap - Compound Gap Pattern - Domain-Velocity and Dual-Nature Intersection]]
 - [[Seed Gap - Craft and Medical Knowledge Base Rules]]
+- [[Seed Gap - Evaluative Knowledge Organization in Creative Domains]] — Organizing evaluative knowledge in creative fields
 - [[Seed Gap - Creative Project Phase Knowledge]]
 - [[Seed Gap - Distributed Understanding Threshold]]
 - [[Seed Gap - Domain-Velocity Confidence Decay]]
@@ -65,17 +66,22 @@ Notes documenting gaps in the Seed that need to be addressed.
 Notes refining specific Seed rules based on domain testing.
 
 - [[Seed Refinement - Assembly Process Type Extensions]]
+- [[Seed Refinement - Cross-Domain Knowledge Transfer]] — Transfer patterns across domains
 - [[Seed Refinement - Domain-Velocity-Aware Confidence Decay]]
 - [[Seed Refinement - Enhanced Note Lifecycle Model]]
 - [[Seed Refinement - Knowledge Source Type Domain Adaptation]]
+- [[Seed Refinement - Knowledge Source Type Medical Domain Extensions]] — Medical source type rules
 - [[Seed Refinement - Lifecycle Field Extension]]
 - [[Seed Refinement - Link Explainability Rule]]
 - [[Seed Refinement - Multi-Framework Domain Reasoning]]
+- [[Seed Refinement - Chemistry Domain Extensions]] — Chemical domain refinements
+- [[Seed Refinement - Unified Diminishing Returns Rule]] — Cross-domain diminishing returns
+- [[Seed Refinement - Vault Guidance Taxonomy]] — Vault guidance classification
 
 ### Seed Stress Tests
 Notes testing Seed rules against specific domains to find edge cases.
 
-- [[Seed Stress Test - 2+ Links Rule Across Domains]]
+- [[Seed Stress Test - Note Creation Decision Framework (Cooking)]] — Testing creation framework in cooking
 - [[Seed Stress Test - 2-Outgoing-Links Rule in Woodworking]]
 - [[Seed Stress Test - 48-Hour Processing Rule in Academic Research]]
 - [[Seed Stress Test - 5-1 Ratio Across Domains]]
