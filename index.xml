@@ -6,6 +6,12 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Gap - Verification Mode Conflict Resolution</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</guid>
+    <description><![CDATA[ Seed Gap - Verification Mode Conflict Resolution Gap Identified: 2026-03-30 What Is Missing The Seed has extensive rules for different verification modes (source, empirical, tool-dependent, drill-verified, embodied). ]]></description>
+    <pubDate>Mon, 30 Mar 2026 13:36:11 GMT</pubDate>
+  </item><item>
     <title>Seed Gap - Knowledge Base Completion Thresholds</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/CLAUDE</link>
     <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
     <description><![CDATA[ protected: true last-reviewed: 2026-03-29 last-updated: 2026-03-25 lifecycle: evergreen confidence: high author-type: ai-assisted AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledg... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
-  </item><item>
-    <title>Compliance Audit - Note Lifecycle Rule</title>
-    <link>https://quartz.jzhao.xyz/Compliance-Audit---Note-Lifecycle-Rule</link>
-    <guid>https://quartz.jzhao.xyz/Compliance-Audit---Note-Lifecycle-Rule</guid>
-    <description><![CDATA[ Compliance Audit: Note Lifecycle Rule Audit target: Seed Stress Test - Note Lifecycle Rule Across Domains vs. ]]></description>
     <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item>
     </channel>
