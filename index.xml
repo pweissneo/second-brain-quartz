@@ -9,62 +9,62 @@
     <title>heartbeat-log</title>
     <link>https://quartz.jzhao.xyz/heartbeat-log</link>
     <guid>https://quartz.jzhao.xyz/heartbeat-log</guid>
-    <description><![CDATA[ Heartbeat Log 2026-03-30 Vault Health Scan Total notes: 456 Reachable from root: 445 (97.6%) Unreachable: 11 (mostly meta files: AGENTS, IDENTITY, SOUL, USER, HEARTBEAT + 5 orphan frontier notes) Orphan frontier notes needing links: Creative Writing Knowledge Base Gaps, Technique Adaptation Based on... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <description><![CDATA[ 2026-03-29 20:20 (Europe/Berlin) Method: COMPLIANCE_AUDIT (8%) Actions: 447 notes scanned across Anti-Pattern, Best Practice, Seed Stress Test, Seed Refinement categories Cross-category content overlap checked (none found) Wikilink integrity checked (5 broken link groups found, minor) 41 merged/supe... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Verification Workflow</title>
     <link>https://quartz.jzhao.xyz/Verification-Workflow</link>
     <guid>https://quartz.jzhao.xyz/Verification-Workflow</guid>
     <description><![CDATA[ Verification Workflow How to verify knowledge and when to use each verification mode. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Rule Addition - Knowledge Without External Sources</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</guid>
     <description><![CDATA[ Seed Rule Addition - Knowledge Without External Sources Original insights, untested hypotheses, and novel syntheses are valid vault entries even without external citations. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Vault Guidance Taxonomy</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</guid>
     <description><![CDATA[ Seed Refinement - Vault Guidance Taxonomy The Seed’s guidance exists across three distinct categories: main rules, frontier explorations, and stress tests. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Chemistry Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Chemistry Domain Extensions Rule extensions for chemistry knowledge bases derived from stress testing. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Staleness Detection vs. Staleness Computation</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</guid>
     <description><![CDATA[ Seed Gap - Staleness Detection vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Social Validation Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</guid>
     <description><![CDATA[ Seed Gap: Social Validation Knowledge Knowledge that requires external human feedback to verify (not expert consultation, not empirical testing). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Seed Rule Lifecycle Management</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Seed-Rule-Lifecycle-Management</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Seed-Rule-Lifecycle-Management</guid>
     <description><![CDATA[ Seed Gap - Seed Rule Lifecycle Management The Gap The Seed contains 100+ rules covering foundation, atomicity, linking, navigation, quality, verification, domain adaptation, and more. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</guid>
     <description><![CDATA[ Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay Gap Identification What is missing from the Seed: The Seed has rules for: Domain velocity classification (fast/medium/slow/static) — Seed Rule - Domain-Velocity-Aware Confidence Decay Confidence markers with numeric levels — Con... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Evaluative Knowledge Organization in Creative Domains</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</guid>
     <description><![CDATA[ Seed Gap - Evaluative Knowledge Organization in Creative Domains Gap: The Seed lacks guidance on organizing evaluative knowledge (craft criticism vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 07:29:23 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 09:42:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
