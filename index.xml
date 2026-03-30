@@ -6,41 +6,41 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Seed Refinement - Decision Threshold Rule</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</guid>
-    <description><![CDATA[ Seed Refinement: Decision Threshold Rule Based on: Seed Stress Test - Decision Threshold Rule in Emergency Medicine Original Rule: Add decision threshold guidance for actionable knowledge — when knowledge recommends a decision, include explicit criteria for when to stop gathering information and act... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:41:43 GMT</pubDate>
-  </item><item>
     <title>Seed Gap - Verification Mode Conflict Resolution</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</guid>
     <description><![CDATA[ Seed Gap - Verification Mode Conflict Resolution Gap Identified: 2026-03-30 Gap Analyzed: 2026-03-30 What Is Missing The Seed has extensive rules for different verification modes (source, empirical, tool-dependent, drill-verified, embodied). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:41:43 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Knowledge Base Completion Thresholds</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
-    <description><![CDATA[ Seed Gap - Knowledge Base Completion Thresholds The Gap The Seed contains completion criteria at the vault level: “Declare construction complete when orphan rate &lt;10%, core domains have hubs, verification ratio &gt;50%, schema is stable (60+ days), and compliance score &gt;85%” But it lacks guida... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:41:43 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:51:52 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Multi-Person Knowledge Coordination</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Multi-Person-Knowledge-Coordination</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Multi-Person-Knowledge-Coordination</guid>
     <description><![CDATA[ Seed Gap: Multi-Person Knowledge Coordination Gap Description The Seed covers multi-item coordination (cooking meals, event planning) and participant-count validity (games, team sports), but lacks explicit guidance for coordinated execution by multiple people — where the coordination itself is the k... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:34:01 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:51:52 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Knowledge Base Completion Thresholds</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
+    <description><![CDATA[ Seed Gap - Knowledge Base Completion Thresholds The Gap The Seed contains completion criteria at the vault level: “Declare construction complete when orphan rate &lt;10%, core domains have hubs, verification ratio &gt;50%, schema is stable (60+ days), and compliance score &gt;85%” But it lacks guida... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 19:51:52 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Travel Knowledge Organization</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Travel-Knowledge-Organization</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Travel-Knowledge-Organization</guid>
     <description><![CDATA[ Frontier Exploration - Travel Knowledge Organization Domain Context Travel knowledge sits at the intersection of multiple knowledge types: Project knowledge — each trip is a bounded project with phases Experiential knowledge — lessons learned from trips Reference knowledge — destination information,... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:34:01 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:51:52 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Emergent Knowledge from Node Intersections</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Emergent-Knowledge-from-Node-Intersections</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Emergent-Knowledge-from-Node-Intersections</guid>
     <description><![CDATA[ Frontier Exploration: Emergent Knowledge from Node Intersections The Gap The Seed addresses how to create atomic notes and how to link them, but it does not address how knowledge emerges from the intersection of multiple nodes in combination. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 19:34:01 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 19:51:52 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Decision Threshold Rule</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</guid>
+    <description><![CDATA[ Seed Refinement: Decision Threshold Rule Based on: Seed Stress Test - Decision Threshold Rule in Emergency Medicine Original Rule: Add decision threshold guidance for actionable knowledge — when knowledge recommends a decision, include explicit criteria for when to stop gathering information and act... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 19:41:43 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
