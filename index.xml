@@ -9,62 +9,62 @@
     <title>heartbeat-log</title>
     <link>https://quartz.jzhao.xyz/heartbeat-log</link>
     <guid>https://quartz.jzhao.xyz/heartbeat-log</guid>
-    <description><![CDATA[ 2026-03-30 Heartbeat (5:30 AM) Tasks completed: Frontier Exploration - Sparse Knowledge Reasoning (NEW) Full exploration note: 9,527 bytes Addresses: interpolation vs extrapolation, analogical transfer confidence, synthesis gap awareness, uncertainty communication, example density assessment Identif... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <description><![CDATA[ 2026-03-30 Heartbeat (6:10 AM) Tasks completed: Structural health check 456 notes (up from 451 yesterday) 3 deprecated redirect notes confirmed valid (Anti-Pattern - Link Inflation, Note Hoarding, Perfectionism → properly merged) 2 thinking-tool notes missing thinking-tool-type: flagged for Seed com... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 04:36:13 GMT</pubDate>
   </item><item>
     <title>Verification Workflow</title>
     <link>https://quartz.jzhao.xyz/Verification-Workflow</link>
     <guid>https://quartz.jzhao.xyz/Verification-Workflow</guid>
     <description><![CDATA[ Verification Workflow How to verify knowledge and when to use each verification mode. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Rule Addition - Knowledge Without External Sources</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</guid>
     <description><![CDATA[ Seed Rule Addition - Knowledge Without External Sources Original insights, untested hypotheses, and novel syntheses are valid vault entries even without external citations. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Vault Guidance Taxonomy</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</guid>
     <description><![CDATA[ Seed Refinement - Vault Guidance Taxonomy The Seed’s guidance exists across three distinct categories: main rules, frontier explorations, and stress tests. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Chemistry Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Chemistry Domain Extensions Rule extensions for chemistry knowledge bases derived from stress testing. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Staleness Detection vs. Staleness Computation</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</guid>
     <description><![CDATA[ Seed Gap - Staleness Detection vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Social Validation Knowledge</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</guid>
     <description><![CDATA[ Seed Gap: Social Validation Knowledge Knowledge that requires external human feedback to verify (not expert consultation, not empirical testing). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</guid>
     <description><![CDATA[ Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay Gap Identification What is missing from the Seed: The Seed has rules for: Domain velocity classification (fast/medium/slow/static) — Seed Rule - Domain-Velocity-Aware Confidence Decay Confidence markers with numeric levels — Con... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Evaluative Knowledge Organization in Creative Domains</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</guid>
     <description><![CDATA[ Seed Gap - Evaluative Knowledge Organization in Creative Domains Gap: The Seed lacks guidance on organizing evaluative knowledge (craft criticism vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Emergency Knowledge Retrieval Speed</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Emergency-Knowledge-Retrieval-Speed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Emergency-Knowledge-Retrieval-Speed</guid>
     <description><![CDATA[ Seed Gap: Emergency Knowledge Retrieval Speed Identified: 2026-03-30 via FRONTIER_EXPLORATION on crisis/emergency response note Gap type: seed-missing Confidence: emerging Gap Description The Seed covers drill-verified knowledge (Rule 2026-03-27) but lacks guidance for retrieval speed in emergency c... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 03:42:14 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 04:36:12 GMT</pubDate>
   </item>
     </channel>
   </rss>
