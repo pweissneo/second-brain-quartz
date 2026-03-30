@@ -1,18 +1,26 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
 confidence: emerging
 author-type: ai-assisted
 lifecycle: seed-gap
+verification-status: unverified
 meta-type: capture-process
 schema-version: "1.0"
 level: frontier
+discovered: 2026-03-26
+gap-status: resolved
+gap-phase: integrated-into-seed
+resolved: 2026-03-29
+gap-resolution-note: Rule added to Seed on 2026-03-29 — "For multilingual knowledge bases, determine cognitive model before choosing organizational structure"
+replaced-by: [[AI-Assisted Knowledge Management Seed]]
 tags:
   - frontier-exploration
   - multi-language
   - code-switching
   - translanguaging
   - gap-identified
+  - resolved
 ---
 
 # Seed Gap - Code-Switching and Translanguaging in Knowledge Bases
@@ -112,10 +120,8 @@ This gap would be validated by stress-testing the Seed against:
 - A polyglot's vocabulary vault (5+ languages)
 - A community language vault (e.g., Singlish)
 
-## Priority
+## Resolution
 
-**Gap Severity:** Medium — affects multilingual users but not the majority of knowledge bases
+**Phase:** Integrated into Seed (2026-03-29) — cognitive model rule added covering bilingual-integrated and bilingual-separated handling.
 
-**Estimated Effort:** Medium — requires research on multilingual knowledge organization, community input
-
-**Phase:** Frontier exploration (needs more investigation before becoming a Seed rule)
+**See also:** [[AI-Assisted Knowledge Management Seed]] (line ~1237) — the integrated rule

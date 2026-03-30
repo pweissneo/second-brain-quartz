@@ -1,15 +1,17 @@
 ---
 last-reviewed: 2026-03-16
-last-updated: 2026-03-16
+last-updated: 2026-03-29
 confidence: emerging
 level: frontier
-lifecycle: evergreen
+lifecycle: seed-gap
 author-type: ai-assisted
 tags:
   - frontier-gap
   - assembly
   - process-type
   - knowledge-structure
+verification-status: unverified
+schema-version: "1.0"
 ---
 
 # Frontier Gap: Assembly and Kit-Based Knowledge

@@ -1,14 +1,16 @@
 ---
-last-reviewed: 2026-03-19
-lifecycle: evergreen
-confidence: emerging
+last-reviewed: 2026-03-28
+lifecycle: addressed
+confidence: high
 author-type: ai-assisted
-level: frontier
-verification-status: unverified
+status: addressed
+gap-resolution-date: 2026-03-28
+resolved-by: Seed rule "Practice-Required Knowledge Verification"
 tags:
 - frontier-exploration
 - verification
 - experiential-knowledge
+- addressed
 ---
 
 # Frontier Exploration: Knowledge That Requires Active Practice to Validate
@@ -127,3 +129,10 @@ For knowledge requiring active practice:
 - [[Note Lifecycle Management]] — practice-required notes may need longer lifecycle phases
 - [[Handling Temporal Knowledge]] — correction protocols for practice-failed knowledge
 - [[Seed Gap - Music Composition Knowledge Bases]] — music is a practice-intensive domain
+
+> **Update (2026-03-28):** This gap has been addressed in the Seed. The following rules now cover practice-required knowledge:
+> - **Verification modality** — `verification-modality: passive | practice-required | hybrid` field added
+> - **Practice status tracking** — `practice-status: not-attempted | in-progress | successful | failed` 
+> - **Realistic timeframes** — Domain-aware verification windows for practice-dependent knowledge
+> 
+> See Seed rule: "Rule (NEW - 2026-03-21): For practice-required knowledge..." in the Foundation section.

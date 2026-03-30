@@ -93,17 +93,18 @@ synthesis-vs-authority:
 
 - [[Frontier Exploration - Personal Experience vs Published Knowledge Conflicts]] — addresses personal vs. published, but not synthesis vs. single authority
 - [[Seed Stress Test - Intuition vs Analysis Knowledge]] — related but focuses on how knowledge was derived, not when to override
+- [[Handling Contradictory Sources]] — how to handle conflicts between multiple sources
 
 ## Status
 
-This is a **seedling** idea. The principle needs:
+This is a **seed-extension** idea. The principle needs:
 - More edge case testing across domains
 - Refinement of the 5-condition test
 - Validation against known examples of legitimate and illegitimate inverse authority
 
 ---
 
-**Questions for refinement:**
-- Should field-specific thresholds exist? (physics might allow more inverse authority than medicine)
-- How should time horizons affect this? (your synthesis from 2020 might be outdated)
-- What's the interaction with conventional wisdom tagging?
+**Proposed Seed Rule:**
+> **Rule:** Trust personal synthesis over authoritative sources only when synthesis draws from 3+ independent sources, in a stable domain, with transparent reasoning, in an area of relevant expertise, and with tested predictions.
+> **Why:** Over-relying on authority creates discovery paralysis; over-relying on personal synthesis creates Dunning-Kruger risk. The 5-condition test balances both.
+> **Test:** For a synthesis contradicting authoritative sources: (1) 3+ independent sources? (2) Stable domain? (3) Transparent reasoning? (4) Relevant expertise? (5) Tested predictions? Yes to all 5 = justified.

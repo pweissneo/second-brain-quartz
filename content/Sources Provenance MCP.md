@@ -66,7 +66,7 @@ This enables **provenance tracking** — knowing the origin of every piece of kn
 
 ## Related
 - [[Graph Traversal Efficiency]] - For navigating the knowledge graph
-- [[AI-Assisted Knowledge Management]] - AI-powered knowledge management
+- [[AI-Assisted Knowledge Management Seed]] - AI-powered knowledge management
 - [[Claude Knowledge Base Setup]] - Setting up AI agents with MCP servers
 - [[Exportable Rules]] - Rules that can be exported to other AI agents
 - [[Self-Improvement Cycle]] - How the vault uses MCP tools in its improvement cycle

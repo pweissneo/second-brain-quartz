@@ -149,6 +149,7 @@ When stress-testing the Seed for a new domain:
 4. **Check cross-domain categories** — Use the list above
 5. **Propose Seed modifications** — Rule/Why/Test format
 6. **Verify proposals** — Test against multiple examples
+7. **Check for compound gaps** — Look for intersections between existing gaps that create failure modes neither addresses alone
 
 ## Test for Gap Identification
 

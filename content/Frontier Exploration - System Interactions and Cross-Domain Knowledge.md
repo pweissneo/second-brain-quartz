@@ -166,7 +166,7 @@ domain-transfer-potential:
 
 ## Related Notes
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Frontier Exploration - Knowledge Abstraction Levels]]
+- [[Stress Test - Knowledge Abstraction Levels Rule in Philosophy]]
 - [[Frontier Exploration - Trade-off Knowledge Capture]]
 - [[Prerequisite Knowledge Tracking]]
 - [[Knowledge Graph Structure]]

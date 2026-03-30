@@ -106,6 +106,6 @@ The remaining gap: The Seed doesn't have a general equipment tracking rule for d
 - [[Prerequisite Knowledge Tracking]] — Learning prerequisites (what knowledge you need BEFORE)
 - [[Frontier Exploration - Integrated Rules History]] — Software/framework version dependencies
 - [[Frontier Exploration - Ingredient Substitution Knowledge]] — Ingredient alternatives when tools/ingredients unavailable
-- [[Frontier Exploration - Knowledge Ethics and Exclusion]] — Equipment cost as vault boundary criterion
+- [[Frontier Exploration - Systematic Knowledge Exclusion Criteria]] — Equipment cost as vault boundary criterion
 - [[AI-Assisted Knowledge Management Seed]] — Now includes equipment tier rules for workshop-dependent crafts (2026-03-23) and infrastructure dependencies for technical domains
 - [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]] — Ongoing care required to keep tools functional

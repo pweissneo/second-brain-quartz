@@ -140,7 +140,7 @@ verification-date: YYYY-MM-DD
 - [[Frontier Exploration - Professional Advice Disclaimer Requirements]] — Related to high-stakes domain handling
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — How to measure if KB is working
 - [[Frontier Exploration - Unknown Unknowns in Vast Domains]] — Discovering what you don't know
-- [[AI-Assisted Knowledge Management]] — General AI-KB interaction
+- [[AI-Assisted Knowledge Management Seed]] — General AI-KB interaction
 - [[AI-Assisted Knowledge Management Seed]] — Core rules including confidence calibration
 
 ## Open Questions

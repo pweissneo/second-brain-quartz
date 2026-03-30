@@ -1,16 +1,17 @@
 ---
 last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-updated: 2026-03-29
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice
   - capture
   - selection
-  - anti-pattern
+  - note-hoarding
 schema-version: "1.0"
-counterpart-antipattern: "[[Best Practice - Selective Capture]] (deprecated, superseded)"
+counterpart-antipattern: [[Anti-Pattern - Note Hoarding]]
 ---
 
 # Best Practice: Selective Capture
@@ -34,7 +35,7 @@ Saving everything without processing undermines a second brain's effectiveness. 
 - Capturing during momentum instead of staying in flow
 
 **3. Timing Confusion:** Trying to fully process at capture time breaks the workflow:
-- Notes take hours to create
+- Time spent capturing but never processing
 - No distinction between quick capture and processed notes
 - Ideas lost before they can be captured
 
@@ -49,18 +50,18 @@ Saving everything without processing undermines a second brain's effectiveness. 
 - Capture breaks your flow
 - Every note takes 30+ minutes to create (trying to process at capture)
 
-## The Solution: Selective Capture
+## The Solution: Two-Phase Workflow
 
-Apply the capture-process separation:
-1. **Quick capture** to inbox
-2. **Process within 48 hours**
-3. **Create atomic notes with links**
+The note-hoarding anti-pattern shows what happens when capture and processing blur together. The solution is strict separation:
 
-The key is the **two-phase workflow**:
-1. **Capture** - Quick save, any format, get the idea down
-2. **Process** - Transform into atomic notes with links
+1. **Capture** — Quick save, any format, get the idea down. No structure required. Stay in flow.
+2. **Process** — Within 48 hours, transform into atomic notes with links. This is where structure happens.
 
-Never try to fully process notes at capture time — it breaks your flow and leads to either no capture (ideas lost) or no processing (note hoard).
+Never try to fully process notes at capture time — it leads to either no capture (ideas lost) or no processing (note hoard). The goal of capture is to capture; the goal of processing is to structure. They have different mindsets and belong in different sessions.
+
+**Why it works:** The two-phase approach separates intent. Capture mode is about getting the signal down with minimal friction. Process mode is about building the graph with full attention. Mixing them creates cognitive load that kills both.
+
+See [[Anti-Pattern - Note Hoarding]] for what happens when this separation breaks down.
 
 ## The Diminishing Returns Test
 
@@ -101,21 +102,34 @@ Capture knowledge that:
 | Duplicate | Already exists | Update existing note |
 | Momentum capture | Breaks flow | Jot quick note, process later |
 
-## Test Criteria (for AI Evaluation)
+## Capture the Negative Too
 
-- [ ] Is the inbox processed within 48 hours?
-- [ ] Are captured notes processed into atomic notes with links?
-- [ ] Does each note require more than a web search to obtain?
-- [ ] Are there duplicate notes that should be merged?
-- [ ] Does the vault contain more than minimal useful content?
-- [ ] Does captured knowledge pass the diminishing returns test (utility + connection + uniqueness + effort)?
+For every "how to X" note, consider adding:
+- A note about what doesn't work when trying X
+- Context about when X doesn't apply
+- Failed experiments and why they failed
+
+This makes your knowledge base complete, not just positive. Complete knowledge includes failures — they often teach more than successes.
+
+Document negative knowledge with:
+```yaml
+experiment: What you tried
+outcome: What happened  
+reason-for-failure: Why it didn't work
+context: Your specific situation
+```
+
+See [[Best Practice - Balanced Capture]] for more on capturing negative knowledge.
 
 ## Related
 
 - [[Atomic Note Principle]]
 - [[Note Lifecycle Management]]
-- [[Knowledge Base Workflow]]
-- [[Progressive Summarization]]
+- [[Best Practice - Balanced Capture]]
 - [[Graph Maintenance]]
 - [[Self-Improvement Cycle]]
-- [[Frontier Exploration - Knowledge Base Onboarding]]
+- [[Anti-Pattern - Note Hoarding]] — The failure case this best practice prevents
+
+---
+
+**Note:** This best practice and [[Anti-Pattern - Note Hoarding]] share substantial content (two-phase workflow, diminishing returns test). The anti-pattern covers the failure mode; this note covers the solution. See [[Note Lifecycle Management]] for the refinement cycle that prevents perfectionism-driven hoarding.

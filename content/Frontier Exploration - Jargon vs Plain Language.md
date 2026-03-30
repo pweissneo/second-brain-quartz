@@ -171,5 +171,5 @@ Imagine building a knowledge base about heart disease:
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]] — The authoritative rules
-- [[note-naming-conventions]] — Related to terminology
+- [[AI-Assisted Knowledge Management Seed]] — Related to terminology (naming guidance)
 - [[Atomic Note Principle]] — One idea per note (applies to definitions too)

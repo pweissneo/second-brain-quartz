@@ -1,12 +1,16 @@
 ---
-last-reviewed: 2026-03-11
-lifecycle: evergreen
-confidence: emerging
+last-reviewed: 2026-03-27
+lifecycle: superseded
+confidence: high
 author-type: ai-assisted
 tags:
   - frontier-exploration
   - comparative-knowledge
   - structure
+  - superseded
+superseded-by: [[AI-Assisted Knowledge Management Seed]]
+superseded-date: 2026-03-23
+notes: "Rule was incorporated into Seed. This note retained for historical reference."
 ---
 
 # Frontier Exploration - Comparative Knowledge Structures

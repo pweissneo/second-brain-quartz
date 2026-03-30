@@ -146,6 +146,7 @@ Track your captures for a week:
 
 ## See Also
 
+- [[Knowledge Base Workflow]] — The vault's end-to-end workflow (covers capture phase)
 - [[Frontier Exploration - Vault-Process Meta-Knowledge]] — Capturing knowledge about the vault process itself
 - [[Frontier Exploration - Knowledge Option Value]] — Capturing knowledge with potential future value (different from immediate capture)
 - [[Frontier Exploration - Conversational Knowledge Capture]] — Capture during dialogue/interview

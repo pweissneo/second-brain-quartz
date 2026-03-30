@@ -89,7 +89,7 @@ Sensory knowledge is:
 
 - [[Frontier Gap - Embodied Knowledge]] — General framework
 - [[Frontier Exploration - Multi-Modal Knowledge Representation]] — Media separation
-- [[Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
+- [[Seed Stress Test - Confidence Markers Rule Across Domains]] — Reliability signaling
 
 ## Limitations
 

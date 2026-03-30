@@ -1,8 +1,9 @@
 ---
 last-reviewed: 2026-03-23
-lifecycle: seed-extension
+lifecycle: staging
 confidence: emerging
-verification-status: unverified
+verification-status: partial
+interaction-mode: exploratory
 tags:
   - frontier-exploration
   - knowledge-modes

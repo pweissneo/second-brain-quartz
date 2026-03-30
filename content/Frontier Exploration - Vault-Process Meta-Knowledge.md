@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-24
+last-reviewed: 2026-03-29
 last-updated: 2026-03-24
 lifecycle: seed-extension
 confidence: emerging
@@ -197,5 +197,5 @@ Assessing vault-process meta-knowledge coverage:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]] — Foundation being extended
-- [[Anti-Pattern - Tool Overfocus]] — When process becomes the product
+- [[Best Practice - Outcome Over Tool]] — When process becomes the product
 - [[Vault Health Automation]] — Technical vault health tracking

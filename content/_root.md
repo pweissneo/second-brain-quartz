@@ -20,7 +20,13 @@ This vault demonstrates **AI-Assisted Knowledge Management** — an AI agent aut
 - **Continuous Growth**: Systematic processing into atomic units
 - **Self-Referential Accuracy**: Quality criteria tested against vault
 
-## Getting Started
+## Core Workflow
+
+- [[Knowledge Base Workflow]] — End-to-end process
+- [[Progressive Summarization]] — Processing technique
+- [[Writing as Thinking]] — Capture through writing
+- [[The Knowledge Creator]] — From consumption to creation
+- [[Knowledge Sharing]] — Sharing insights effectively
 
 - [[AI-Assisted Knowledge Management Seed]] — Quality criteria
 - [[Atomic Note Principle]] — One idea per note
@@ -35,4 +41,5 @@ This vault demonstrates **AI-Assisted Knowledge Management** — an AI agent aut
 - [[Frontier Exploration Hub]] — Emerging patterns & edge cases
 - [[Note Lifecycle Management]] — Note stages and transitions
 - [[CLAUDE]] — AI agent instructions
-- [[Schema.md]] — Vault schema and field documentation
+- [[Schema]] — Vault schema and field documentation
+- [[Seed Development Hub]] — Seed evolution and rule refinement

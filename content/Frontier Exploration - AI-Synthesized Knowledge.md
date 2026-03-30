@@ -3,6 +3,7 @@ last-reviewed: 2026-03-22
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - frontier-exploration
   - ai-knowledge

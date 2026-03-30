@@ -1,11 +1,13 @@
 ---
 last-reviewed: 2026-03-26
+lifecycle: seed-extension
+confidence: emerging
+author-type: ai-assisted
 gap-status: identified
 gap-priority: medium
 gap-source: frontier-exploration
 discovered: 2026-03-26
-confidence: emerging
-author-type: ai-assisted
+schema-version: "1.0"
 ---
 
 # Frontier Exploration - Visual Knowledge Representation in Knowledge Bases

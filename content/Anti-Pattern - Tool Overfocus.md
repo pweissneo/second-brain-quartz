@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-18
-last-updated: 2026-03-19
-lifecycle: evergreen
+last-reviewed: 2026-03-29
+last-updated: 2026-03-29
+lifecycle: deprecated
 confidence: high
 author-type: ai-assisted
 knowledge-type: analysis
@@ -12,47 +12,32 @@ tags:
 level: pattern
 verification-status: verified
 schema-version: "1.0"
+redirects-to: [[Best Practice - Outcome Over Tool]]
+reason: Consolidated into Best Practice - Outcome Over Tool.md (2026-03-29). Both notes covered the same topic from opposite angles; the best practice provides positive framing. See [[Anti-Patterns in Knowledge Management]] for anti-pattern hub.
 ---
 
 # Anti-Pattern: Tool Overfocus
 
-Obsessing over the perfect tool prevents any actual knowledge work.
+> **Redirected (2026-03-29):** Content consolidated into [[Best Practice - Outcome Over Tool]].
+> This anti-pattern note mirrored the same content as its counterpart. The vault now has a single reference with both positive and negative framing — see the best practice note for full guidance.
 
-## Problem
+## Quick Summary
 
-Tool overfocus creates:
-- Constant app switching
-- No actual knowledge captured
-- Setup takes priority over use
+**What:** Obsessing over the perfect tool prevents any actual knowledge work.
 
-## Signs
-
+**Signs:**
 - Can't remember last time content was created
 - More time researching tools than using them
 - Vault is "setup" but empty
 
-## Solution
-
-Use [[Zettelkasten Method|principles over tools]].
-
-- Any tool can work with the right method
-- Start capturing now, optimize later
-- Principles matter more than software
+**Solution:** Use principles over tools — any tool can work with the right method, start capturing now, optimize later.
 
 ## The Reality Check
 
 If you haven't created a note in 30 days, the tool isn't the problem.
 
-## Test Criteria (for AI Evaluation)
-
-- [ ] Has the vault produced at least one note in the last 30 days?
-- [ ] Is time spent on tool configuration > time spent creating content?
-- [ ] Are there notes about tools but no substantive content notes?
-- [ ] Does the vault have <10 notes after 30+ days of "setup"?
-
 ## Related
 
-- [[AI-Assisted Knowledge Management Seed]]
-- [[Zettelkasten Method]]
-- [[Knowledge Base Workflow]]
-- [[Anti-Patterns in Knowledge Management]]
+- [[Best Practice - Outcome Over Tool]] — Primary reference (full content)
+- [[Tool Replacement Decisions]] — When tools do matter
+- [[Anti-Patterns in Knowledge Management]] — Anti-pattern hub

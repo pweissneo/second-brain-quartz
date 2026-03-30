@@ -19,14 +19,20 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 
 ## Anti-Pattern to Best Practice Pairs
 
-| [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] | ✅ Created |
-| [[Best Practice - Selective Capture]] | [[Best Practice - Selective Capture]] | ✅ Created |
-| [[Anti-Pattern - Over-Organization]] | [[Best Practice - Minimal Organization]] | ✅ Created |
-| [[Anti-Pattern - Neglecting Maintenance]] | [[Best Practice - Regular Review]] | ✅ Created |
-| [[Anti-Pattern - Missing Negative Knowledge]] | [[Best Practice - Balanced Capture]] | ✅ Created |
-| [[Anti-Pattern - Perfectionism]] | [[Best Practice - Progress Over Perfection]] | ✅ Created |
-| [[Anti-Pattern - Single-Source Dependency]] | [[Best Practice - Multi-Source Synthesis]] | ✅ Created |
-| [[Anti-Pattern - Tool Overfocus]] | [[Best Practice - Outcome Over Tool]] | ✅ Created |
+> Note: Individual anti-pattern notes have been refactored. The Anti-Patterns hub now references best practices directly, creating a cleaner positive-negative balance.
+
+| Anti-Pattern Concept | Best Practice | Status |
+|---------------------|---------------|--------|
+| [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] | ✅ Merged into Best Practice (2026-03-30) |
+| Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Integrated |
+| Neglecting Maintenance | [[Best Practice - Regular Review]] | ✅ Integrated |
+| Missing Negative Knowledge | [[Best Practice - Balanced Capture]] | ✅ Integrated |
+| [[Anti-Pattern - Note Hoarding]] | [[Best Practice - Selective Capture]] | ✅ Integrated |
+| [[Anti-Pattern - Perfectionism]] | [[Best Practice - Progress Over Perfection]] | ✅ Merged into Best Practice (2026-03-30) |
+| [[Anti-Pattern - Single-Source Dependency]] | [[Best Practice - Multi-Source Synthesis]] | ✅ Integrated |
+| Tool Overfocus | [[Best Practice - Outcome Over Tool]] | ✅ Integrated |
+
+<!-- Discovery Fragility row removed 2026-03-27: corresponding anti-pattern note does not exist in vault. See [[Seed Gap - Referenced Anti-Patterns That Don't Exist]] for details. -->
 
 ## Core Best Practices
 

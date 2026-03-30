@@ -1,10 +1,9 @@
 ---
-last-reviewed: 2026-03-18
+last-reviewed: 2026-03-27
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
-status: draft
-review-by: 2026-03-25
+status: seed-extension
 tags:
   - frontier-exploration
   - board-games

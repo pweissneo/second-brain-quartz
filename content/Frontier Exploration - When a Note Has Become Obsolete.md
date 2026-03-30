@@ -133,7 +133,7 @@ Imagine a web dev knowledge base in 2026:
 
 ## Related Seed Rules
 
-This note connects to [[Note Lifecycle Management]], [[Knowledge Deprecation and Obsolescence Management]], and [[Frontier Exploration Hub]].
+This note connects to [[Note Lifecycle Management]], [[Frontier Exploration - Knowledge Deprecation and Retirement Criteria]], and [[Frontier Exploration Hub]].
 
 The Seed already has substantial lifecycle and deprecation rules in Section 7 (Evolution). This note supplements them:
 

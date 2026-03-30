@@ -4,9 +4,12 @@ last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+knowledge-type: principle
 schema-version: "1.0"
 verification-status: verified
 level: principle
+thinking-tool: true
+thinking-tool-type: cognitive-strategy
 tags:
   - methodology
   - strategy

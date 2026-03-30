@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-22
+last-reviewed: 2026-03-29
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -72,7 +72,7 @@ See [[Anti-Pattern - Tool Overfocus]] — switching tools as optimization is dif
 
 ## Related
 
-- [[Anti-Pattern - Tool Overfocus]] — When tool obsession prevents progress
+- [[Best Practice - Outcome Over Tool]] — When tool obsession prevents progress
 - [[Frontier Exploration - Tool and Equipment Maintenance Knowledge]]
 - [[Frontier Exploration - Equipment and Tool Dependencies]]
 - [[Frontier Exploration - Tool-Interface Knowledge]]

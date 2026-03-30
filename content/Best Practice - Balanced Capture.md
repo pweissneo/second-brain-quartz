@@ -3,6 +3,7 @@ last-reviewed: 2026-03-26
 last-updated: 2026-03-26
 lifecycle: evergreen
 confidence: high
+verification-status: verified
 author-type: ai-assisted
 tags:
   - best-practice
@@ -10,6 +11,7 @@ tags:
   - balance
 schema-version: "1.0"
 counterpart-antipattern: [[Anti-Pattern - Missing Negative Knowledge]]
+x-source-gaps: verified through redundancy scan
 ---
 
 # Best Practice - Balanced Capture
@@ -65,8 +67,11 @@ For every "how to X" note, consider adding:
 
 This makes your knowledge base complete, not just positive.
 
+See [[Best Practice - Selective Capture]] for how to apply the diminishing returns test to ensure every capture is worth maintaining.
+
 ## Related
 
 - [[Anti-Pattern - Missing Negative Knowledge]] — What to avoid
 - [[Personal Experimentation Results]] — Capturing failures
 - [[Handling Contradictory Sources]] — Dealing with conflicts
+- [[Best Practice - Selective Capture]] — Complements balance with selection criteria

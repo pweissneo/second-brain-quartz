@@ -5,6 +5,7 @@ last-updated: 2026-03-22
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+schema-version: "1.0"
 tags:
   - seed-stress-test
   - construction-phase
@@ -118,8 +119,13 @@ For vaults covering multiple languages, the "50 note" threshold is unclear:
 
 ### Add to Seed:
 
-**Edge case (stress test 2026-03-21):** In sequential-skill domains with strict prerequisite chains (music composition, mathematics, programming), the construction phase model needs modification:
+**Rule:** In sequential-skill domains with strict prerequisite chains, the construction phase model needs modification — allow extended skeleton phase (75-100 notes), extend hop depth to 6, track phase by knowledge type, exempt foundational notes from orphan detection, and apply form-specific hub tracking.
 
+**Why:** Sequential skill domains (music, language, mathematics, programming) have inherent knowledge dependencies creating prerequisite chains longer than 4 hops. The standard hop depth assumes topic-based organization where hops are optional. Sequential domains have mandatory pedagogical chains. Without explicit guidance, AI agents apply generic thresholds to sequential domains and create artificial navigation blocks or incomplete foundations.
+
+**Test:** For sequential skill vaults: (1) Can foundational notes be reached from entry points within 6 hops? (2) Are prerequisite chains documented? (3) Is construction phase tracked separately for theory vs. practical vs. experiential? (4) Are foundational notes tagged `foundational: true` to exempt from orphan detection?
+
+**Implementation:**
 - **Extended skeleton phase:** Music composition vaults may need 75-100 notes in skeleton phase because foundational music theory (notation, intervals, scales, basic harmony = 100+ concepts) is required before meaningful composition is possible.
 - **Allow hop depth up to 6:** Prerequisite chains in music naturally exceed 4 hops (Note values → Time signatures → Metric patterns → Phrase structures → Formal sections → Advanced composition). Allow up to 6 hops for genuine learning progressions.
 - **Track phase by knowledge type:** Theory, practical skills, and experiential knowledge have different structural needs. Track construction phase separately for each.

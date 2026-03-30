@@ -9,6 +9,7 @@ tags:
   - consistency
   - cross-reference
   - vault-health
+verification-status: unverified
 ---
 
 # Frontier Exploration - Knowledge Consistency Across Vaults

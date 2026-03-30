@@ -21,12 +21,18 @@ domain-familiarity: assessed
 | `schema-version` | semantic version (e.g., 1.0, 1.1) | Schema version this note follows |
 | `last-reviewed` | YYYY-MM-DD | Last human/AI review date |
 | `last-updated` | YYYY-MM-DD | Last modification date |
-| `lifecycle` | evergreen, transient, seed-extension, living, historical, perpetual-beta | Note lifecycle stage |
+| `lifecycle` | evergreen, transient, seed-extension, living, historical, perpetual-beta, frontier-exploration, seed-gap, seed-refinement, abandoned | Note lifecycle stage |
 | `confidence` | high, emerging, disputed, obsolete | Reliability of knowledge |
 | `author-type` | human, ai-assisted, ai-generated | Origin of content |
 | `domain-familiarity` | assessed, learning, unknown | AI's familiarity level with the domain |
 | `verification-status` | verified, unverified, testing, disputed | Factual verification status |
 | `tags` | [kebab-case] | Categorization tags |
+| `exclusion-considered` | true/false | Whether exclusion was evaluated for this note |
+| `exclusion-reason` | public-utility, ephemeral, duplicate, decorative, scope-violation, high-maintenance, sensitive-risk, incomplete-speculation | Reason note was retained despite exclusion consideration |
+| `exclusion-alternative` | text | What to capture instead if excluding |
+| `exclusion-ethics` | living-individual, harm-potential, right-to-be-forgotten | Ethical exclusion category |
+| `consent-status` | explicit, implied, unknown | Consent status for personal information |
+| `harm-assessment` | low, medium, high | Potential for harm if exposed |
 
 ## Vault-Specific Fields
 
@@ -76,6 +82,15 @@ Used to categorize notes by their abstraction level within the knowledge hierarc
 | Field | Values | Description |
 |-------|--------|-------------|
 | `infrastructure-type` | network, hardware, geographic, power, configuration | Type of dependency |
+
+### For Link Density Exceptions
+
+| Field | Values | Description |
+|-------|--------|-------------|
+| `foundational: true` | boolean | Note is a prerequisite/foundation, exempt from 2-link minimum |
+| `specialized: true` | boolean | Note is highly domain-specific with limited connection opportunities |
+
+**Why:** Some notes are intentionally narrow (specialized equipment, domain-specific jargon) or foundational (prerequisites that enable other notes). These should be exempt from the standard link density requirement.
 
 ### For Thinking Tools and Cognitive Strategies
 

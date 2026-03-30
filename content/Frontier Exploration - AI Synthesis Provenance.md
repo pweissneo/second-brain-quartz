@@ -1,9 +1,63 @@
 ---
+last-reviewed: 2026-03-29
+lifecycle: seed-extension
+confidence: emerging
+author-type: ai-assisted
+verification-status: unverified
 gap-type: seed-missing
 gap-status: identified
 gap-priority: medium
 gap-source: frontier-exploration
 discovered: 2026-03-26
+schema-version: "1.0"
+---
+
+## What Is AI-Synthesized Knowledge?
+
+AI-synthesized knowledge differs from:
+- **Copying**: Reproducing what a source says
+- **Summarizing**: Condensing a single source
+- **Translating**: Converting between formats
+- **Inferring**: Drawing direct conclusions (syllogistic)
+
+AI synthesis involves:
+- Combining insights from multiple sources
+- Identifying patterns across domains
+- Creating novel connections
+- Generating actionable insights from existing knowledge
+
+## Examples
+
+### Example 1: Cross-Domain Pattern Recognition
+- Source A: "Exercise improves mood through endorphin release"
+- Source B: "Social connection improves mood through oxytocin"
+- AI Synthesis: "Physical social activities may compound mood benefits through multiple neurotransmitter pathways"
+
+### Example 2: Practical Implication Synthesis
+- Source A: "Coffee has 95mg caffeine per cup"
+- Source B: "Caffeine has 5-hour half-life"
+- Source C: "Adults should sleep 7-9 hours"
+- AI Synthesis: "Stop caffeine by 2pm to ensure sleep quality"
+
+### Example 3: Framework Transfer
+- Source A: (Business) "Market segmentation improves targeting"
+- Source B: (Education) "Differentiated instruction improves learning"
+- AI Synthesis: "Personalization works by matching approach to segment characteristics"
+
+### Example 4: Cooking Synthesis (from complementary note)
+When combining:
+- [[Maillard Reaction]] (chemical principle)
+- [[Temperature Guide]] (practical thresholds)
+- [[Searing Techniques]] (method knowledge)
+
+To produce: "Searing creates flavor compounds through the Maillard reaction at 280°F+ surface temperature"
+
+This synthesis needs metadata documenting:
+- Sources combined
+- Reasoning chain (high heat → maillard → flavor)
+- That this is a synthesis, not a direct source claim
+- Confidence calibration appropriate for cross-domain synthesis
+
 ---
 
 # Frontier Exploration - AI Synthesis Provenance

@@ -1,9 +1,9 @@
 ---
 last-reviewed: 2026-03-25
-last-updated: 2026-03-25
+last-updated: 2026-03-27
 confidence: emerging
 author-type: ai-assisted
-lifecycle: seed-gap
+lifecycle: resolved
 meta-type: capture-process
 schema-version: "1.0"
 level: frontier
@@ -12,6 +12,11 @@ tags:
   - temporal-knowledge
   - expiration
   - gap-identified
+gap-status: resolved
+gap-resolution: 2026-03-27
+gap-resolution-note: >
+  Rule merged into Seed (2026-03-25). Now includes expiration-type:
+  inherent, validity-period metadata, and distinction from was-valid-until.
 ---
 
 # Seed Gap - Knowledge with Inherent Expiration Windows

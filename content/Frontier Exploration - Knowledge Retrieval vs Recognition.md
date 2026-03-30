@@ -120,6 +120,7 @@ synonyms:
 
 ## Related Notes
 
+- [[Best Practice - Multi-Path Knowledge Discovery]] — This best practice integrates the solutions proposed here
 - [[Frontier Exploration - Knowledge Access Pattern Optimization]]
 - [[Frontier Exploration - Cross-Domain Knowledge Synthesis]]
 - [[Frontier Exploration - Unknown Unknowns in Vast Domains]]

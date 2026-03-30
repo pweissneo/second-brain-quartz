@@ -8,6 +8,7 @@ tags:
   - decision-making
   - software-architecture
   - threshold
+verification-status: unverified
 ---
 
 # Seed Stress Test - Decision Threshold Rule in Software Architecture

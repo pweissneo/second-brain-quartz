@@ -18,7 +18,7 @@ related-seed-rules:
 
 > How should a knowledge base handle knowledge where incorrect application can cause real-world harm?
 
-This frontier exploration connects to [[AI-Assisted Knowledge Management Seed]] and relates to [[Stress Test - Confidence Markers Rule Across Domains]], [[Frontier Exploration - Verification Hierarchy]], [[Frontier Exploration - Decision Threshold Knowledge]], and the high-stakes domains edge cases in the Seed.
+This frontier exploration connects to [[AI-Assisted Knowledge Management Seed]] and relates to [[Seed Stress Test - Confidence Markers Rule Across Domains]], [[Frontier Exploration - Verification Hierarchy]], [[Frontier Exploration - Decision Threshold Knowledge]], and the high-stakes domains edge cases in the Seed.
 
 ## The Problem
 

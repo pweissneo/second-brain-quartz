@@ -1,10 +1,9 @@
 ---
-last-reviewed: 2026-03-12
+last-reviewed: 2026-03-28
 confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
-thinking-tool: true
-thinking-tool-type: reasoning-framework
+verification-status: unverified
 tags:
   - frontier-exploration
   - parenting
