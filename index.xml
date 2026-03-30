@@ -6,17 +6,23 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Refinement - Decision Threshold Rule</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Decision-Threshold-Rule</guid>
+    <description><![CDATA[ Seed Refinement: Decision Threshold Rule Based on: Seed Stress Test - Decision Threshold Rule in Emergency Medicine Original Rule: Add decision threshold guidance for actionable knowledge — when knowledge recommends a decision, include explicit criteria for when to stop gathering information and act... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 18:05:38 GMT</pubDate>
+  </item><item>
     <title>Seed Gap - Verification Mode Conflict Resolution</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Verification-Mode-Conflict-Resolution</guid>
     <description><![CDATA[ Seed Gap - Verification Mode Conflict Resolution Gap Identified: 2026-03-30 Gap Analyzed: 2026-03-30 What Is Missing The Seed has extensive rules for different verification modes (source, empirical, tool-dependent, drill-verified, embodied). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 16:20:50 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 18:05:38 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Base Completion Thresholds</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
     <description><![CDATA[ Seed Gap - Knowledge Base Completion Thresholds The Gap The Seed contains completion criteria at the vault level: “Declare construction complete when orphan rate &lt;10%, core domains have hubs, verification ratio &gt;50%, schema is stable (60+ days), and compliance score &gt;85%” But it lacks guida... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 16:20:50 GMT</pubDate>
+    <pubDate>Mon, 30 Mar 2026 18:05:38 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Best-Practice---Progress-Over-Perfection</link>
     <guid>https://quartz.jzhao.xyz/Best-Practice---Progress-Over-Perfection</guid>
     <description><![CDATA[ Best Practice: Progress Over Perfection A good note today beats a perfect note never. Capture the core idea, refine over time. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
-  </item><item>
-    <title>CLAUDE</title>
-    <link>https://quartz.jzhao.xyz/CLAUDE</link>
-    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
-    <description><![CDATA[ protected: true last-reviewed: 2026-03-29 last-updated: 2026-03-25 lifecycle: evergreen confidence: high author-type: ai-assisted AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledg... ]]></description>
     <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item>
     </channel>
