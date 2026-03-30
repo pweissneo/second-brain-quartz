@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Verification Workflow</title>
-    <link>https://quartz.jzhao.xyz/Verification-Workflow</link>
-    <guid>https://quartz.jzhao.xyz/Verification-Workflow</guid>
-    <description><![CDATA[ Verification Workflow How to verify knowledge and when to use each verification mode. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Seed Gap - Knowledge Base Completion Thresholds</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Completion-Thresholds</guid>
+    <description><![CDATA[ Seed Gap - Knowledge Base Completion Thresholds The Gap The Seed contains completion criteria at the vault level: “Declare construction complete when orphan rate &lt;10%, core domains have hubs, verification ratio &gt;50%, schema is stable (60+ days), and compliance score &gt;85%” But it lacks guida... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:51:43 GMT</pubDate>
   </item><item>
-    <title>Seed Rule Addition - Knowledge Without External Sources</title>
-    <link>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Rule-Addition---Knowledge-Without-External-Sources</guid>
-    <description><![CDATA[ Seed Rule Addition - Knowledge Without External Sources Original insights, untested hypotheses, and novel syntheses are valid vault entries even without external citations. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Refinement - Vault Guidance Taxonomy</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Vault-Guidance-Taxonomy</guid>
-    <description><![CDATA[ Seed Refinement - Vault Guidance Taxonomy The Seed’s guidance exists across three distinct categories: main rules, frontier explorations, and stress tests. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Anti-Pattern - Note Hoarding</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Note-Hoarding</guid>
+    <description><![CDATA[ Anti-Pattern: Note Hoarding Saving everything without processing undermines a knowledge base’s effectiveness. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Refinement - Chemistry Domain Extensions</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Chemistry-Domain-Extensions</guid>
-    <description><![CDATA[ Seed Refinement: Chemistry Domain Extensions Rule extensions for chemistry knowledge bases derived from stress testing. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Anti-Pattern - Perfectionism</title>
+    <link>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Perfectionism</guid>
+    <description><![CDATA[  ⚠️ This anti-pattern has been merged into Best Practice - Progress Over Perfection The content has been incorporated into the best practice note, which provides more comprehensive guidance with both positive and negative framing. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Staleness Detection vs. Staleness Computation</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Staleness-Detection-vs.-Staleness-Computation</guid>
-    <description><![CDATA[ Seed Gap - Staleness Detection vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Anti-Patterns in Knowledge Management</title>
+    <link>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</link>
+    <guid>https://quartz.jzhao.xyz/Anti-Patterns-in-Knowledge-Management</guid>
+    <description><![CDATA[ Anti-Patterns in Knowledge Management Common mistakes that undermine a second brain’s effectiveness. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Social Validation Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Social-Validation-Knowledge</guid>
-    <description><![CDATA[ Seed Gap: Social Validation Knowledge Knowledge that requires external human feedback to verify (not expert consultation, not empirical testing). ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Best Practice - Link Quality</title>
+    <link>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practice---Link-Quality</guid>
+    <description><![CDATA[ Best Practice - Link Quality Links should be meaningful, not numerous. Every link should pass the “why follow?” test. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Seed Rule Lifecycle Management</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Seed-Rule-Lifecycle-Management</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Seed-Rule-Lifecycle-Management</guid>
-    <description><![CDATA[ Seed Gap - Seed Rule Lifecycle Management The Gap The Seed contains 100+ rules covering foundation, atomicity, linking, navigation, quality, verification, domain adaptation, and more. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Best Practice - Outcome Over Tool</title>
+    <link>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</guid>
+    <description><![CDATA[ Best Practice - Outcome Over Tool The tool serves the goal, not the reverse. Focus on what you achieve, not what you use. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Staleness-Detection-and-Automatic-Confidence-Decay</guid>
-    <description><![CDATA[ Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay Gap Identification What is missing from the Seed: The Seed has rules for: Domain velocity classification (fast/medium/slow/static) — Seed Rule - Domain-Velocity-Aware Confidence Decay Confidence markers with numeric levels — Con... ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Best Practice - Progress Over Perfection</title>
+    <link>https://quartz.jzhao.xyz/Best-Practice---Progress-Over-Perfection</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practice---Progress-Over-Perfection</guid>
+    <description><![CDATA[ Best Practice: Progress Over Perfection A good note today beats a perfect note never. Capture the core idea, refine over time. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Seed Gap - Evaluative Knowledge Organization in Creative Domains</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Evaluative-Knowledge-Organization-in-Creative-Domains</guid>
-    <description><![CDATA[ Seed Gap - Evaluative Knowledge Organization in Creative Domains Gap: The Seed lacks guidance on organizing evaluative knowledge (craft criticism vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>CLAUDE</title>
+    <link>https://quartz.jzhao.xyz/CLAUDE</link>
+    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
+    <description><![CDATA[ protected: true last-reviewed: 2026-03-29 last-updated: 2026-03-25 lifecycle: evergreen confidence: high author-type: ai-assisted AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledg... ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item><item>
-    <title>Frontier Observation - Transferable vs Style-Bound Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Observation---Transferable-vs-Style-Bound-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Observation---Transferable-vs-Style-Bound-Knowledge</guid>
-    <description><![CDATA[ Frontier Observation: Transferable vs. Style-Bound Knowledge in Creative Domains Observation: The Seed’s rule on craft criticism vs. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 11:52:08 GMT</pubDate>
+    <title>Compliance Audit - Note Lifecycle Rule</title>
+    <link>https://quartz.jzhao.xyz/Compliance-Audit---Note-Lifecycle-Rule</link>
+    <guid>https://quartz.jzhao.xyz/Compliance-Audit---Note-Lifecycle-Rule</guid>
+    <description><![CDATA[ Compliance Audit: Note Lifecycle Rule Audit target: Seed Stress Test - Note Lifecycle Rule Across Domains vs. ]]></description>
+    <pubDate>Mon, 30 Mar 2026 12:42:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
