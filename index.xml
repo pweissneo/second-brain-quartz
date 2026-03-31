@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Source-Quality-Hierarchy-Refinements</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Source-Quality-Hierarchy-Refinements</guid>
     <description><![CDATA[ Seed Refinement: Source Quality Hierarchy Refinements Refinements to the Source Quality Hierarchy rule based on stress testing in medical domain. ]]></description>
-    <pubDate>Tue, 31 Mar 2026 01:51:31 GMT</pubDate>
+    <pubDate>Tue, 31 Mar 2026 02:51:17 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Multi-Modal Knowledge Verification Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Modal-Knowledge-Verification-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Modal-Knowledge-Verification-Extensions</guid>
     <description><![CDATA[ Seed Refinement - Multi-Modal Knowledge Verification Extensions Refinement based on stress testing the Seed against veterinary medicine and clinical domains. ]]></description>
-    <pubDate>Tue, 31 Mar 2026 01:51:31 GMT</pubDate>
+    <pubDate>Tue, 31 Mar 2026 02:51:17 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Sparse Knowledge Epistemic Markers</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Sparse-Knowledge-Epistemic-Markers</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Sparse-Knowledge-Epistemic-Markers</guid>
+    <description><![CDATA[ Seed Gap - Sparse Knowledge Epistemic Markers Gap: The Seed lacks guidance on marking epistemic type (direct, interpolated, extrapolated, analogical) to help users calibrate trust when reasoning with partial vault coverage. ]]></description>
+    <pubDate>Tue, 31 Mar 2026 02:51:17 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Bootstrapping-Knowledge-Bases-in-Unfamiliar-Domains</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Bootstrapping-Knowledge-Bases-in-Unfamiliar-Domains</guid>
     <description><![CDATA[ Frontier Exploration: Bootstrapping Knowledge Bases in Unfamiliar Domains The Problem The Seed provides comprehensive rules for organizing, verifying, and maintaining knowledge bases — but it assumes the vault owner has foundational knowledge of the domain. ]]></description>
-    <pubDate>Tue, 31 Mar 2026 01:51:31 GMT</pubDate>
+    <pubDate>Tue, 31 Mar 2026 02:51:16 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Best-Practice---Selective-Capture</link>
     <guid>https://quartz.jzhao.xyz/Best-Practice---Selective-Capture</guid>
     <description><![CDATA[ Best Practice: Selective Capture Capture less, but capture better. Apply the diminishing returns test before every capture. ]]></description>
-    <pubDate>Mon, 30 Mar 2026 23:22:31 GMT</pubDate>
-  </item><item>
-    <title>Best Practices Hub</title>
-    <link>https://quartz.jzhao.xyz/Best-Practices-Hub</link>
-    <guid>https://quartz.jzhao.xyz/Best-Practices-Hub</guid>
-    <description><![CDATA[ Best Practices Hub Complementary positive knowledge for anti-patterns — what TO do, not just what to avoid. ]]></description>
     <pubDate>Mon, 30 Mar 2026 23:22:31 GMT</pubDate>
   </item>
     </channel>
