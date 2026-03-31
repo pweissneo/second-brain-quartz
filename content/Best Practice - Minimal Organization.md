@@ -16,6 +16,8 @@ counterpart-antipattern: [[Anti-Pattern - Over-Organization]]
 # Best Practice - Minimal Organization
 
 > Let structure emerge from connections, not from folders. Trust the graph.
+> 
+> **Note (2026-03-30):** [[Anti-Pattern - Over-Organization]] has been consolidated here — redirect references to this note. This note now contains both the positive guidance and the failure mode it prevents.
 
 ## The Principle
 

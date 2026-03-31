@@ -203,7 +203,7 @@ domain-velocity-assessment:
 - [[Seed Stress Test - Automotive Repair Knowledge Base]] — Tested domain with mixed velocity (slow techniques, fast equipment)
 - [[Seed Stress Test - Photography Knowledge Base]] — Mixed velocity example
 - [[Seed Stress Test - Cooking Knowledge Base]] — Mixed velocity example
-- [[Frontier Exploration - Knowledge Aging and Review Cycle Management]] — Related exploration
+- [[Frontier Exploration - Knowledge-Aware Review Cycles]] — Related exploration
 - [[Frontier Exploration - Building Knowledge Bases in Unfamiliar Domains]] — Related but focuses on bootstrapping
 
 ## Questions for Seed Incorporation

@@ -4,6 +4,7 @@ last-updated: 2026-03-25
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: verified
 schema-version: "1.0"
 level: frontier
 tags:

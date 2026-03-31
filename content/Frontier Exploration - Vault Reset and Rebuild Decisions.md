@@ -125,7 +125,7 @@ If rebuild is chosen:
 - [[Frontier Exploration - Multi-Vault Architecture]]
 - [[AI-Assisted Knowledge Management Seed]] (construction phase, knowledge debt)
 - [[Graph Maintenance]]
-- [[Schema.md]]
+- [[Schema]]
 
 ## Seed Rule Candidate
 

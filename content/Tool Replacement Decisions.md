@@ -53,7 +53,7 @@ If current tool serves 80% of needs, the 80% improvement from switching rarely j
 
 ## Anti-Pattern Warning
 
-See [[Anti-Pattern - Tool Overfocus]] — switching tools as optimization is different from switching as procrastination. If you're constantly evaluating alternatives, the tool isn't the problem.
+See [[Best Practice - Outcome Over Tool]] — switching tools as optimization is different from switching as procrastination. If you're constantly evaluating alternatives, the tool isn't the problem.
 
 ## Migration Principles
 

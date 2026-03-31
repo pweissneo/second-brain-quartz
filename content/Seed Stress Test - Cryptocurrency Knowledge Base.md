@@ -204,5 +204,5 @@ These gaps suggest the Seed needs domain-specific modifiers for financial/specul
 
 - [[AI-Assisted Knowledge Management Seed]] — Primary Seed rules
 - [[Confidence Markers]] — Confidence system
-- [[Seed Stress Test - Advisory Validity Tracking in Financial Planning.md]] — Related financial domain test
-- [[Seed Stress Test - Decision Threshold Rule in Software Architecture.md]] — Threshold guidance
+- [[Seed Stress Test - Advisory Validity Tracking in Financial Planning]] — Related financial domain test
+- [[Seed Stress Test - Decision Threshold Rule in Software Architecture]] — Threshold guidance

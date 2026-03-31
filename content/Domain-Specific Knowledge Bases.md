@@ -148,7 +148,7 @@ The difference is **content**, not structure.
 ## General Adaptation Steps
 
 1. **Identify hub nodes** for your domain
-2. **Create templates** for common note types (see [[Schema.md]])
+2. **Create templates** for common note types (see [[Schema]])
 3. **Set up tagging** for domain-specific categories
 4. **Define entry points** for new knowledge
 

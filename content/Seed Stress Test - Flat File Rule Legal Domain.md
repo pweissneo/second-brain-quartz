@@ -10,7 +10,7 @@ verification-status: testing
 
 ## Rule Under Test
 
-**Source:** [[AI-Assisted Knowledge Management Seed.md]]
+**Source:** [[AI-Assisted Knowledge Management Seed]]
 
 > Use flat file structure with wikilinks — no nested folders.
 > **Why:** Folders impose hierarchy that constrains discovery; links create organic, multi-dimensional structure.
@@ -62,7 +62,7 @@ Legal knowledge has inherent hierarchical structure that differs from typical PK
 
 - [[Domain-Specific Knowledge Bases]]
 - [[Seed Stress Test - Gap Identification Rule in Cooking]]
-- [[AI-Assisted Knowledge Management Seed.md]]
+- [[AI-Assisted Knowledge Management Seed]]
 
 ## Meta
 

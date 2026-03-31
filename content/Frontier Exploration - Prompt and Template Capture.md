@@ -96,4 +96,4 @@ Create a "vault about the vault" (meta-vault) separate from domain knowledge:
 
 - [[Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management]]
 - [[AI-Assisted Knowledge Management Seed]]
-- [[TOOLS.md]] — Local tool notes
+- [[TOOLS]] — Local tool notes

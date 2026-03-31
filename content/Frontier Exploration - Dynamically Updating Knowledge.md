@@ -103,5 +103,5 @@ Result: Dynamic knowledge is manageable, not a maintenance burden.
 
 - [[Handling Temporal Knowledge]] — time-bound knowledge
 - [[Frontier Exploration - Real-Time API-Dependent Knowledge]] — live data integration
-- [[Frontier Exploration - Knowledge Aging and Review Cycle Management]] — review cycles
+- [[Frontier Exploration - Knowledge-Aware Review Cycles]] — review cycles
 - [[Seed Stress Test - Version-Upgrade Path Knowledge]] — version tracking in specific domains

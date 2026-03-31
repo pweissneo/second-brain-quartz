@@ -17,6 +17,8 @@ counterpart-antipattern: [[Anti-Pattern - Note Hoarding]]
 # Best Practice: Selective Capture
 
 > Capture less, but capture better. Apply the diminishing returns test before every capture.
+> 
+> **Note (2026-03-30):** [[Anti-Pattern - Note Hoarding]] has been consolidated here — redirect references to this note. This note now contains both the positive guidance and the failure mode it prevents.
 
 ## The Problem: Note Hoarding
 
@@ -49,6 +51,12 @@ Saving everything without processing undermines a second brain's effectiveness. 
 - Duplicate content already in vault
 - Capture breaks your flow
 - Every note takes 30+ minutes to create (trying to process at capture)
+
+**Tool-focused (related failure mode):**
+- More time researching tools than creating content
+- Notes about tools but no substantive content notes
+- Vault is "setup" but nearly empty after 30+ days
+- Can't remember the last time a content note was created
 
 ## The Solution: Two-Phase Workflow
 

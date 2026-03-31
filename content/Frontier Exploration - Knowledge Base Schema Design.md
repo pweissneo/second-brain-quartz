@@ -122,7 +122,7 @@ High-stakes domains need more:
 
 ## Related Notes
 
-- [[Schema.md]] — Vault field documentation (the actual schema definition)
+- [[Schema]] — Vault field documentation (the actual schema definition)
 - [[Note Types and Templates]] — Content templates and tagging strategy
 - [[Domain-Specific Knowledge Bases]] — Multi-domain vaults
 - [[Knowledge Base Version Control and Change Tracking]] — Schema changes as vault version control

@@ -67,6 +67,13 @@ Each variant has different emphasis, detail level, and terminology.
 - [ ] Do variants use consistent `context-frame` tagging?
 - [ ] Can users find the appropriate variant for their purpose?
 
+**Binary Test (YES/NO):**
+1. Does the note identify at least one knowledge type that requires different presentations for different purposes?
+2. Do all variants in examples use consistent `context-frame:` frontmatter values?
+3. Does each variant clearly state its purpose and target audience?
+4. Is there a hub note that links to all variants?
+5. Can a user navigate from any variant to the hub and find other variants?
+
 ## Related
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]]
 - [[Frontier Exploration - Knowledge Base Onboarding]]

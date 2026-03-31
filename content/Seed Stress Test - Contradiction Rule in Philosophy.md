@@ -206,4 +206,4 @@ Replace the Seed's contradiction test with domain-specific version:
 - [[Seed Stress Test - Cooking Knowledge Base]]
 - [[Handling Contradictory Sources]]
 - [[Frontier Exploration - Probabilistic Knowledge]]
-- [[Schema.md]]
+- [[Schema]]

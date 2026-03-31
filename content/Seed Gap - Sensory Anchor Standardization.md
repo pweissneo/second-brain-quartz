@@ -1,25 +1,27 @@
 ---
-last-reviewed: 2026-03-25
-last-updated: 2026-03-25
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
 tags:
   - seed-gap
-  - sensory
+  - frontier-exploration
   - embodied-knowledge
-  - standardization
-level: principle
+  - sensory-anchors
+  - tacit-knowledge
+  - knowledge-representation
 schema-version: "1.0"
 ---
 
 # Seed Gap: Sensory Anchor Standardization
 
-> Standardizing sensory cues across notes for embodied knowledge domains.
+> Standardizing sensory cues across notes for embodied knowledge domains — how to capture tactile, visual, auditory, olfactory, and taste cues that cannot be verified by reading.
 
-**Date:** 2026-03-25
-**Discovery Method:** REDUNDANCY_SCAN - Merged from Seed Stress Test - Embodied Knowledge Rule
-**Status:** CONTENT MERGED - Previously referenced file now consolidated
+**Date:** 2026-03-30
+**Discovery Method:** REDUNDANCY_SCAN — Merged duplicate notes
+**Status:** EMERGING — Content consolidated from two related notes
 
 ---
 
@@ -32,13 +34,28 @@ This note consolidates guidance on sensory anchors for embodied knowledge — kn
 3. Frontmatter fields for embodied knowledge tagging
 4. Handling edge cases where anchoring is difficult or impossible
 
-The Seed references this note in two places for embodied knowledge guidance.
+## The Problem
+
+Embodied knowledge domains (cooking, crafts, music, physical skills, medicine) contain knowledge that:
+
+1. **Cannot be fully captured in text** — The "feel" of a correct technique is not translatable
+2. **Creates false confidence when captured as text** — "I read about it, therefore I know it"
+3. **Lacks verification through reading** — You can't verify a physical sensation by re-reading a note
+
+Examples of where this fails:
+
+| Domain | Vague Capture | What It Actually Means |
+|--------|---------------|------------------------|
+| Cooking | "cook until golden" | No indication of what golden looks like vs. burnt |
+| Craft | "sand until smooth" | No reference for smooth vs. still rough |
+| Music | "light touch on keys" | No calibration for what "light" means |
+| Medicine | "apply gentle pressure" | No reference for how much pressure |
 
 ---
 
 ## Why Sensory Anchors Matter
 
-Embodied knowledge (tactile cues, kinesthetic feel, sensory judgment) cannot be verified by reading sources. A note may be "correct" intellectually but incomplete without the sensory component. Without standardized sensory anchors:
+Without standardized sensory anchors:
 
 1. AI agents have no guidance on what sensory cues to capture
 2. There's no standard format for expressing tactile, visual, auditory cues
@@ -98,6 +115,65 @@ skill_level_anchors:
   intermediate: "Feel subtle engagement without visible torso movement"
   advanced: "Feel deep stabilization without apparent effort"
 ```
+
+---
+
+## Proposed Seed Rule
+
+**Rule:** For embodied knowledge notes, provide standardized sensory anchors using target/contrast/verification structure — anchors must be concrete, familiar, and testable.
+
+**Why:** Vague descriptors ("light pressure," "smooth texture," "gentle touch") provide no actionable guidance. Concrete anchors with familiar references and explicit contrast points give readers a fighting chance of recognizing the correct sensation without direct instruction.
+
+**Test:** For notes tagged `embodied-component: essential`: (1) Is there at least one sensory anchor? (2) Does the anchor include a target AND a contrast? (3) Is the anchor testable by a reader who hasn't experienced the sensation? (4) Is the reference familiar to the target audience?
+
+---
+
+## Proposed Frontmatter Structure
+
+```yaml
+sensory-anchors:
+  - sense: tactile
+    target: "Like pressing a ripe avocado — slight give but not mushy"
+    target-description: "Gentle pressure that yields slightly"
+    negative-contrast: "Not like a rock — completely rigid with no give"
+    negative-description: "No give whatsoever"
+    verification: "Press gently with thumb; if it yields slightly and springs back, it's ready"
+    failure-indicator: "If it indents without springing back, it's overripe"
+    anchor-type: analogy|comparison|physical-reference
+```
+
+### Anchor Types and When to Use Each
+
+| Anchor Type | When to Use | Example |
+|-------------|-------------|---------|
+| Analogy | When the target sensation has no direct physical equivalent | "Feels like pressing into a ripe tomato" (nothing else is exactly like this) |
+| Comparison | When a known object provides reliable calibration | "Like testing bread dough — should spring back slowly" (common cooking reference) |
+| Physical reference | When an instrument or tool provides exact measurement | "Resistance equal to pressing through a sheet of paper" |
+| Negative-space | When the key is knowing what it's NOT | "Should not feel like chalk — too dry and rough" |
+
+---
+
+## Domain-Specific Anchor Conventions
+
+### Cooking
+- Temperature references: "pan hot enough to sizzle a drop of water immediately" (not just "medium-high")
+- Texture references: "like thick pancake batter" (not "should coat the spoon")
+- Doneness: "spring back when poked" vs. "stays indented" as the key difference
+
+### Crafts (woodworking, pottery)
+- Surface feel: "like fine sandpaper (220 grit) — smooth but not slippery"
+- Resistance: "should feel like pressing through soft cheese — some resistance but yields"
+- Fit tolerance: "you should feel the fit before you hear it" (no gaps, no force needed)
+
+### Music
+- Touch weight: "like touching a soap bubble — enough contact to feel but not break"
+- Pressure: "like writing with a pencil — firm enough for control, light enough for expression"
+- Timing feel: "like the space between heartbeats — present but unhurried"
+
+### Medical/physical examination
+- Tissue resistance: "like pressing into a firm orange — some resistance with slight give"
+- Pain response: "sharp stabbing vs. dull ache — distinct quality difference"
+- Temperature: "warm to touch vs. hot to touch — compare to your own forearm as reference"
 
 ---
 
@@ -163,23 +239,35 @@ Some cues ARE verifiable through social means — "everyone knows what properly 
 
 **Handling:** Use `anchoring_type: collective` with `collective_standard_example`.
 
-### 3. Ingredient-Specific Cues
+### 3. Anchor when no familiar reference exists
 
-"Golden brown" varies by ingredient (bread vs. cookies vs. meat).
+If the sensation has no familiar equivalent, use "what to listen for" or "what to look for" instead. Not all senses apply to all situations.
 
-**Handling:** Provide ingredient-specific anchors or note the variability.
+### 4. Anchors for absolute beginners
 
-### 4. Time-Based vs. Embodied
+Some anchors assume experience ("like a ripe avocado"). For beginners, pair with video links or explicit "here's what to look for" guidance. Tag anchors with `requires-prior-experience: true` if the reference itself assumes familiarity.
 
-Some "ready" cues are time-based, not sensory — "wood is ready to plane" after acclimating.
+### 5. Culture-dependent references
 
-**Handling:** Clarify when rule applies vs. doesn't apply. Time-based knowledge is NOT embodied.
+"Like a ripe banana" works in some cultures, not others. Mark anchors with `cultural-scope:` and provide alternatives for different audiences when possible.
 
-### 5. Multi-Sensory Integration
+### 6. Anchors vs. measurements
 
-Some knowledge requires combining multiple senses — perfect espresso needs visual + auditory + tactile + olfactory.
+When a tool can provide exact measurement (thermometer, pressure gauge), prefer measurement and treat the anchor as backup. Use "thermometer reads X but feels like Y" pattern.
 
-**Handling:** Use `sensory_integration` field and prioritize senses.
+### 7. Cross-reference anchors
+
+Sensory experiences transfer across domains. Create links between anchors:
+
+```yaml
+sensory-cross-references:
+  - related-anchor: "[[Dough Spring-Back Test]]"
+    transfer: "Same feeling as testing bread — both use spring-back as indicator"
+    domain: cooking
+  - related-anchor: "[[Clay Center Test]]"
+    transfer: "Same resistance feel as centering clay on wheel"
+    domain: pottery
+```
 
 ---
 
@@ -249,6 +337,18 @@ Some knowledge requires combining multiple senses — perfect espresso needs vis
 - [ ] Are sensory anchors cross-referenced with similar techniques?
 - [ ] For `embodied-component: essential` notes: does the note acknowledge what sensory information is required?
 - [ ] Is there a sensory anchor or reference point (unless `anchoring_feasibility: low`)?
+- [ ] Do anchors include target AND contrast?
+- [ ] Are references familiar to the target audience?
+
+---
+
+## Relationship to Existing Seed
+
+This extends the existing `embodied-component` frontmatter by providing:
+1. A standardized structure for sensory anchors (not just one vague field)
+2. Contrast anchors (both positive and negative calibration)
+3. Domain-specific conventions
+4. Cross-reference mechanism for anchor network building
 
 ---
 

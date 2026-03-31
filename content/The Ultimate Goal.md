@@ -1,12 +1,15 @@
 ---
-last-reviewed: 2026-03-29
+last-reviewed: 2026-03-30
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+thinking-tool: true
+thinking-tool-type: reasoning-framework
 tags:
   - vision
   - goals
   - self-reference
+  - seed-rule
 ---
 
 # The Ultimate Goal
@@ -18,6 +21,14 @@ The self-referential purpose of a knowledge base that documents how to build kno
 > A perfect knowledge base that describes how to build a perfect knowledge base.
 
 This self-referential loop is the vault's core purpose: the vault demonstrates the principles it documents.
+
+## Example Applications
+
+The self-documentation test has been applied across multiple Seed development contexts:
+
+- [[Seed Stress Test - Philosophy Knowledge Base]] — Tests whether Seed rules generalize to domains without empirical verification (where self-documentation reveals gaps when rules assume source verification)
+- [[Seed Stress Test - Gardening Knowledge Base]] — Tests whether Seed rules adapt to long-horizon verification domains (multi-year growth cycles vs. standard 30-day windows)
+- [[Seed Gap - Seed Rule Lifecycle Management]] — Documents when rules are proposed, tested, integrated, or deprecated (meta-level application of self-documentation)
 
 ## The Self-Referential Loop
 

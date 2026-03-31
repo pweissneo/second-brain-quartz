@@ -54,6 +54,8 @@ author-type: ai-assisted
 **Rule:** Distinguish conceptual notes from procedural content — atomicity applies to ideas, not to executable workflows.
 **Why:** Recipes, code samples, and technical specs must stay together for usability, even when >300 words. Splitting them breaks the workflow.
 **Test:** For notes >300 words: (1) Is this an executable procedure? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Keep together if yes to 1-2; split if yes to 3.
+**Edge case (stress test 2026-03-30):** For safety-critical procedural knowledge (aviation checklists, emergency medicine protocols, critical infrastructure operations), keep complete procedures together even if >300 words. Split ONLY if parts are independently executable AND safety-independent. The risk of fragmented safety procedures outweighs reusability benefits.
+**Edge case:** Recipes, code samples, and technical specs must stay together for usability, even when >300 words. Splitting them breaks the workflow.
 
 **Rule:** Organize creative composition knowledge (recipe design, artistic creation, creative writing craft) as principles connected to examples, not as standalone procedures.
 **Why:** Composition knowledge is about relationships between elements that can be recombined. Organizing by principles creates reusable frameworks; organizing by specific outputs creates collections that don't transfer. Technical procedures stay together as atomic units; composition principles should be broken into reusable components.
@@ -418,6 +420,81 @@ drill-type: physical|paper-scenario|mental-rehearsal
   - Safety-critical knowledge is often both drill-verified AND source-verified — the two verification modes are orthogonal, not mutually exclusive
 
 **Why this matters:** Knowledge you hope to never use still needs verification — but the verification method is fundamentally different. CPR knowledge that "looks correct" in a note may fail under stress if not internalized through practice.
+
+**See also:** [[Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases]], [[Seed Gap - Emergency Knowledge Retrieval Speed]]
+
+**Rule (NEW - 2026-03-30):** When verification modes produce conflicting results, apply a verification-mode conflict resolution protocol that distinguishes test type, weights by domain-appropriateness, and preserves both results with explicit conflict documentation.
+**Why:** Different verification modes test different aspects of truth quality. A drill-verified procedure has survived practical testing under stress conditions; a source-verified claim has not. Without explicit hierarchy and domain-weighting, conflicting verifications create false confidence and AI agents default to source (the most accessible mode) regardless of reliability.
+**Test:** For any note where two verification modes produced different results: (1) Is the conflict documented with `verification-conflict: {mode1} vs {mode2}`? (2) Is the resolution methodology explicit (domain-priority or mode-priority)? (3) Does confidence reflect the resolution (disputed if unresolved, weighted if resolved)? (4) Is both verification evidence preserved (not deleted to force single source)?
+**Implementation:**
+```yaml
+verification-conflict:
+  mode1: tool-dependent
+  mode1-result: fail
+  mode1-date: 2026-03-28
+  mode2: source
+  mode2-result: pass
+  mode2-date: 2026-03-25
+  resolution-methodology: domain-priority
+  resolution-outcome: tool-dependent-wins
+  resolution-rationale: "Chemical analysis overrides historical record"
+  confidence: disputed
+  conflict-status: resolved|acknowledged|escalated
+```
+
+**Conflict Resolution Hierarchy:**
+
+*Mode-priority (default when no domain context):*
+1. **Drill-verified** — Highest reliability for action/safety knowledge (survived real-world stress test)
+2. **Empirical** — Direct execution produces consistent results
+3. **Tool-dependent** — Physical/chemical measurement (objective, repeatable)
+4. **Embodied** — Personal sensory experience
+5. **Source** — Authority vouching (depends on source quality)
+
+*Domain-priority (override mode-priority for specific domains):*
+- Safety/emergency → drill-verified wins always
+- Experiential quality (taste, feel) → embodied wins over source
+- Physical/chemical claims → tool-dependent wins over empirical
+- Historical facts → source (no other mode applicable) wins
+- UX/effectiveness → empirical wins over source
+
+*Resolution strategies:*
+- **Mode-priority**: Higher mode in hierarchy wins (use when no domain context)
+- **Domain-priority**: Domain-appropriate mode wins (use when domain has established verification standards)
+- **Preservation**: Keep both results with conflict documentation (use when both modes are valid but context differs)
+- **Escalation**: Mark as disputed and defer to human judgment (use when resolution is truly ambiguous)
+
+**Edge cases:**
+- **Source quality within mode**: "Source verified" conflicts between high-quality source (peer-reviewed) and low-quality source (blog) should weight by quality within the mode, not just mode-level priority.
+- **Temporal recency within mode**: Recent empirical results may override older empirical results within the empirical mode. Track `verification-date` per mode.
+- **Cross-tier conflicts**: A lower-tier verification mode (source) can produce stronger evidence than a higher-tier mode (flawed drill test) — domain-priority override applies.
+- **Embodied knowledge conflict**: Experiential knowledge that contradicts empirical findings should be preserved (not deleted) with explicit conflict notation — embodied may capture edge cases.
+
+**See also:** [[Seed Gap - Verification Mode Conflict Resolution]] — detailed gap analysis and edge case documentation
+
+**Rule (NEW - 2026-03-30):** For emergency and crisis-response knowledge, design for single-view retrieval with minimum confidence thresholds, explicit recency requirements, and panic-optimized formatting.
+**Why:** Crisis domains require execution under stress. Standard navigation depth (3 hops), standard verification timelines (weeks), and standard atomicity (multi-note traversals) assume calm reading — not panic retrieval. Without explicit emergency knowledge guidance, vaults produce "helpful" notes that are useless when seconds count. Drill verification (correct procedure) and emergency retrieval (can execute under stress) are orthogonal requirements — both may apply to the same note.
+**Test:** For notes tagged `emergency-knowledge: true`: (1) Is the core action self-contained without requiring navigation to other notes? (2) Is confidence `high` or `immediate-action` (not `emerging`, `low`, or `speculative`)? (3) Is `last-updated` within 90 days for life-critical content? (4) Is a visual aid (flowchart/image) present for panic-state retrieval? (5) Is `offline-capable: true` if connectivity cannot be assumed? (6) Does drill-verified knowledge also meet emergency retrieval requirements?
+
+**Retrieval format hierarchy for emergency notes:**
+1. **Visual flowchart** — process in single image (primary for crisis use)
+2. **Abbreviated text** — signal → action, no explanation (secondary)
+3. **Full note** — explanation for training, not crisis use (tertiary)
+4. **Background/links** — deep context after crisis resolves (never in crisis)
+
+**Single-action note structure for critical-response:**
+- **Header:** Clear signal (e.g., "CHOKING: ADULT")
+- **One-line action:** The exact step to take
+- **Visual aid:** Embedded flowchart or image
+- **Fallback:** "If no equipment" alternatives when known
+- **No links required:** Self-contained within one view
+
+**Edge cases:**
+- **Contested procedures:** Different authorities teach different approaches (e.g., Heimlich vs. chest thrusts). Tag with `procedure-status: contested`, document which authorities recommend what, and do NOT present contested knowledge as single truth.
+- **Equipment-dependent procedures:** Some emergencies require specific equipment (AED, EpiPen). Include required equipment explicitly, equipment alternatives when known, and "If no equipment" fallback procedures.
+- **Minimum confidence threshold:** Emergency knowledge tagged `emergency-knowledge: true` with `confidence: emerging` should trigger a compliance audit warning. The minimum confidence for life-critical knowledge is `high`.
+
+**Relationship to drill-verified rule:** Drill verification answers "is the procedure correct?" Emergency retrieval answers "can the procedure be executed under stress?" Both may apply to the same note. Tag accordingly — a note can be drill-verified AND meet emergency retrieval requirements.
 
 **See also:** [[Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases]]
 
@@ -1836,61 +1913,6 @@ For vaults with significant mixed usage, create parallel entry points optimized 
 - **Context-shift:** User reports situation change, tool/technology migration, goal shift — requires user input
 **Lifecycle implication:** Notes marked `confidence: obsolete` should be distinct from `confidence: stale` — obsolete notes need replacement, stale notes need review.
 
-**Rule (NEW - 2026-03-30):** Implement staleness scoring with automatic confidence decay — use `last-verified` (distinct from `last-updated`) to compute a quantitative staleness score and adjust effective confidence accordingly.
-**Why:** Detection rules tell you staleness EXISTS; staleness scoring makes it MEASURABLE. Without quantitative staleness scores, AI agents cannot automatically prioritize review queues, adjust effective confidence, or surface knowledge needing attention. The gap between "knowledge verified" and "note edited" is invisible without explicit tracking and computation.
-**Test:** For vaults with time-stale knowledge:
-1. Can you compute a staleness score for any note using `last-verified` + domain velocity?
-2. Does retrieval include effective confidence (original adjusted by staleness)?
-3. Can you list all notes with staleness score > 0.7?
-4. Do notes have `last-verified` and `last-updated` as separate fields?
-5. Can you identify notes that are "stale but not obsolete" (verified accuracy but overdue for review)?
-
-**Implementation:**
-
-```yaml
-# Core fields (add to existing frontmatter)
-last-verified: 2026-03-01  # When knowledge was last confirmed accurate
-last-updated: 2026-03-30  # When note was last edited (may be more recent)
-staleness-score: 0.65  # Computed: 0=fresh, 1=fully stale
-needs-review: true     # Derived: staleness-score > threshold
-
-# Decay parameters
-domain-velocity: fast  # Determines base review interval
-decay-rate: 0.1  # 10% confidence loss per review cycle overdue
-review-interval-days: 90  # From domain-velocity (fast=90, medium=180, slow=365)
-
-# Computed effective confidence
-original-confidence: 0.9
-effective-confidence: 0.58  # Original × (1 - decay-rate)^staleness_score
-
-# Override for evergreen knowledge
-staleness-immune: true  # Exempt from staleness scoring
-```
-
-**Staleness score formula:**
-```
-staleness_score = min(1.0, days_since_verified / (review_interval_days × decay_threshold_multiplier))
-```
-Where `decay_threshold_multiplier = 2` (score=1.0 after 2× review interval).
-
-**Confidence decay formula:**
-```
-effective_confidence = original_confidence × (1 - decay_rate) ^ cycles_overdue
-```
-Where `cycles_overdue = days_since_verified / review_interval_days`.
-
-**Staleness thresholds:** 0.0-0.3 (Fresh), 0.3-0.5 (Aging), 0.5-0.7 (Stale), 0.7-1.0 (Critical).
-
-**Edge cases:**
-- **Static domains** (mathematics, philosophy, ancient history): Use `domain-velocity: static` to skip computation entirely.
-- **Evergreen notes** (fundamental principles, proven theorems): Use `staleness-immune: true` to exempt from decay.
-- **Notes without last-verified**: Default to staleness_score = 0.5 and prompt for verification. `last-updated` alone is insufficient — it captures editing, not verification.
-- **Grace period**: Don't compute staleness until first review interval has passed. A note verified 10 days ago in a fast domain isn't stale — staleness computation starts after 1× review interval.
-- **Verification vs. update distinction**: `last-verified` advances when you confirm accuracy; `last-updated` advances on any edit. Keeping them separate enables accurate staleness tracking.
-- **Reality-obsolete vs. time-stale**: A note can be time-stale (overdue for review) AND reality-obsolete (underlying facts changed). Staleness score handles time-stale; obsolescence requires semantic detection.
-
-**See also:** [[Seed Gap - Staleness Detection vs. Staleness Computation]] — gap note that produced this rule
-
 **Rule:** Handle external extinction separately from obsolescence — when the thing described no longer exists, apply different detection and disposition rules.
 **Why:** Standard obsolescence handles knowledge that was once true but is now false (facts changed, sources updated). External extinction is different — the knowledge isn't wrong, it's about something that no longer exists (discontinued products, defunct services, dissolved organizations, extinct species, destroyed places). Treating extinct knowledge like obsolete knowledge wastes review effort and misses the unique disposition decisions these notes require.
 **Test:** For notes about external entities (products, services, organizations, places): (1) Can you confirm the entity still exists? (2) Is extinct knowledge appropriately tagged vs. standard obsolete knowledge? (3) Does each extinct entity note have a disposition decision (archive/reference-only/deprecate/delete)?
@@ -2651,6 +2673,14 @@ See also: [[Frontier Exploration - Geographically-Constrained Knowledge]] for de
 **Rule:** Cite sources — every factual claim should trace back to an origin.
 **Why:** Unsourced claims cannot be verified or updated when the underlying knowledge changes.
 **Test:** Do factual notes include source references? Can each claim be traced to its origin?
+
+**Edge case (NEW - 2026-03-31):** Distinguish source types — original insights, personal experiments, and experiential knowledge may have no external source but are still valuable.
+- Original knowledge (your synthesis): mark `source-type: original`, no citation required but mark originality
+- Empirical knowledge (your experiments): mark `source-type: empirical`, document methodology
+- Experiential knowledge (personal experience): mark `source-type: experiential`, note the experience context
+- External knowledge: standard citation required
+
+**Test:** For notes without external sources: (1) Can you classify source-type (original|empirical|experiential)? (2) Does the note mark originality appropriately? (3) Is confidence assigned based on evidence type, not just source presence?
 
 **Rule:** Validate cited sources periodically — URLs rot over time and ghost citations accumulate.
 **Why:** A citation that leads nowhere is noise, not knowledge. The vault accumulates dead references unless checked.
@@ -4798,7 +4828,7 @@ skill-level-required: intermediate
 
 ## Related
 - [[_root|Vault root]] — Entry point demonstrating the Seed in action
-- [[Schema.md]] — Vault frontmatter field documentation
+- [[Schema]] — Vault frontmatter field documentation
 - [[Note Insertion Strategy]] — Where to place new knowledge in the graph
 - [[Note Creation Decision Framework]] — When to create a new note vs. extend an existing one
 - [[Atomic Note Principle]] — One idea per note

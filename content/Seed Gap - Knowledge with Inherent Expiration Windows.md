@@ -109,7 +109,7 @@ Without this distinction:
 - [[Frontier Exploration - Ephemeral and Event-Based Knowledge]] — related but covers capture, not expiration
 - [[Handling Temporal Knowledge]] — covers related temporal aspects
 - [[Seed Gap - Recurring and Periodic Knowledge]] — similar but for recurring patterns
-- [[Knowledge Aging and Review Cycle Management]] — aging but not expiration windows
+- [[Knowledge-Aware Review Cycles]] — aging but not expiration windows
 
 ---
 

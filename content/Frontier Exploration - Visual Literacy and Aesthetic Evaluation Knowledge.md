@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-03-12
-lifecycle: evergreen
-confidence: emerging
+last-reviewed: 2026-03-30
+lifecycle: seed-extension
+confidence: high
 author-type: ai-assisted
 tags:
   - frontier-exploration
@@ -9,11 +9,15 @@ tags:
   - aesthetic-judgment
   - photography
   - creative-domain
+gap-status: integrated
+see-also: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
 # Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge
 
-## The Gap
+> This exploration is now covered by Seed rule 120 (visual knowledge) and related rules. Retained for historical reference.
+
+## Historical Gap Documentation
 
 The Seed covers:
 - **Subjective knowledge** in creative domains (`claim-type: subjective`, `consensus:`)

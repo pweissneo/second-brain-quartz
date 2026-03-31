@@ -5,7 +5,7 @@ level: frontier
 last-reviewed: 2026-03-18
 last-updated: 2026-03-18
 author-type: ai-assisted
-verification-status: pending
+verification-status: unverified
 schema-version: "1.0"
 tags:
   - frontier-exploration

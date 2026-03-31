@@ -22,22 +22,14 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 ## The Anti-Patterns
 
 ### Workflow Anti-Patterns
-- [[Best Practice - Progress Over Perfection]] — Never publishing because it's "not ready"
-- [[Anti-Pattern - Note Hoarding]] — Saving everything without processing
+- [[Best Practice - Selective Capture]] (anti-pattern merged here 2026-03-30) — Saving everything without processing
 
 ### Structure Anti-Patterns
-- [[Anti-Pattern - Over-Organization]] — Spending more time organizing than learning
-- [[Anti-Pattern - Link Inflation]] — Linking everything to everything
+- [[Best Practice - Minimal Organization]] (anti-pattern merged here 2026-03-30) — Spending more time organizing than learning
 
 ### Quality Anti-Patterns
 - [[Anti-Pattern - Single-Source Dependency]] — One note depends entirely on one source
 - [[Anti-Pattern - Missing Negative Knowledge]] — Only capturing successes, not failures
-
-### Maintenance Anti-Patterns
-_(See [[Best Practice - Regular Review]] for the solution to this common issue)_
-
-### Meta Anti-Patterns
-- [[Best Practice - Outcome Over Tool]] — Obsessing over the perfect tool
 
 ## The Balance Rule
 
@@ -47,18 +39,16 @@ For every dedicated negative knowledge note, there should be a corresponding pos
 
 The vault provides complementary best practice notes for each anti-pattern. The complete mapping with status tracking is maintained in [[Best Practices Hub]].
 
-| Anti-Pattern | Best Practice |
-|--------------|---------------|
-| [[Anti-Pattern - Perfectionism]] | [[Best Practice - Progress Over Perfection]] | ✅ Merged into Best Practice |
-| [[Anti-Pattern - Note Hoarding]] | [[Best Practice - Selective Capture]] | ✅ Integrated |
-| [[Anti-Pattern - Over-Organization]] | [[Best Practice - Minimal Organization]] |
-| [[Anti-Pattern - Link Inflation]] | [[Best Practice - Link Quality]] | ✅ Merged into Best Practice |
-| [[Anti-Pattern - Single-Source Dependency]] | [[Best Practice - Multi-Source Synthesis]] |
-| [[Anti-Pattern - Missing Negative Knowledge]] | [[Best Practice - Balanced Capture]] |
-| _Maintenance neglect_ | [[Best Practice - Regular Review]] |
-| [[Anti-Pattern - Tool Overfocus]] | [[Best Practice - Outcome Over Tool]] |
+> **See [[Best Practices Hub]]** for the full anti-pattern → best practice mapping with implementation status, action tests, and detailed guidance on each solution.
 
-See [[Best Practices Hub]] for detailed guidance, implementation examples, and status tracking on each best practice pair.
+## Hub Maintenance
+
+This hub and [[Best Practices Hub]] are synchronized:
+- This hub maintains the anti-pattern list (what NOT to do)
+- [[Best Practices Hub]] maintains the solution mapping (what TO do, with test criteria)
+- Both hubs cross-reference each other
+
+When adding a new anti-pattern: (1) Add it here, (2) Create corresponding Best Practice note, (3) Update [[Best Practices Hub]] mapping with status.
 
 ## Related
 

@@ -90,5 +90,5 @@ original-author: human|ai-synthesized|ai-assisted
 
 - [[Seed Gap - AI Agent Behavior Patterns in Knowledge Management]] — related behavioral patterns
 - [[Frontier Exploration - AI Vault Construction Decision Framework]] — AI decision-making in vaults
-- [[Schema.md]] — existing schema structure
+- [[Schema]] — existing schema structure
 - [[AI-Assisted Knowledge Management Seed]] — primary Seed

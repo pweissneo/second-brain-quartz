@@ -7,12 +7,13 @@ lifecycle: seed-gap
 meta-type: seed-gap
 schema-version: "1.0"
 gap-type: seed-missing
-gap-status: identified
+gap-status: merged
 gap-priority: high
-gap-phase: analysis
+gap-phase: complete
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-03-30
+merged-with: Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay
 tags:
   - seed-gap
   - staleness
@@ -175,6 +176,7 @@ For staleness-aware retrieval:
 ## Related Seed Rules
 
 - [[Seed Rule - Distinguish Staleness from Obsolescence]] — defines the three staleness states (foundation)
+- [[Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay]] — precursor analysis, partially integrated
 - [[Seed Rule - Domain-Velocity-Aware Confidence Decay]] — domain velocity sets review intervals (ingredient)
 - [[Confidence Markers]] — confidence scoring system (target for decay)
 - [[Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay]] — this gap's discovery note (separate, precursor)

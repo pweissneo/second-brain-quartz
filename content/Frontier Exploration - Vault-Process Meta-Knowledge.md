@@ -119,7 +119,8 @@ notable-events: [what caused changes]
 ## Relationship to Existing Seed Rules
 
 This extends rather than conflicts with:
-- `thinking-tool: true` — applies to cognitive strategies for learning, not vault management
+- `thinking-tool: true
+thinking-tool-type: cognitive-strategy` — applies to cognitive strategies for learning, not vault management
 - `trade-off-category` in frontmatter — specific to structural decisions, not comprehensive meta-knowledge
 - Error knowledge — about domain errors, not vault process errors
 

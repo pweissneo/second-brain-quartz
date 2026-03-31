@@ -11,7 +11,7 @@ tags:
   - workflow
   - progress-over-perfection
 schema-version: "1.0"
-counterpart-antipattern: [[Anti-Pattern - Perfectionism]]
+counterpart-antipattern: _Perfectionism (anti-pattern removed — merged)_
 ---
 
 # Best Practice: Progress Over Perfection

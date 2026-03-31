@@ -221,7 +221,7 @@ code-compliance: <array>
 
 ## Related
 
-- [[Seed Stress Test - Home Repair Knowledge Base.md]] - Source of edge cases
+- [[Seed Stress Test - Home Repair Knowledge Base]] - Source of edge cases
 - [[Seed Stress Test - Craft Knowledge Bases]] - Related domain
 - [[Frontier Gap - Assembly and Kit-Based Knowledge]] - Assembly exploration
 - [[AI-Assisted Knowledge Management Seed]] - Source of original rule

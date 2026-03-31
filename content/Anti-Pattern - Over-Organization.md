@@ -1,56 +1,15 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
-lifecycle: evergreen
-confidence: high
-author-type: ai-assisted
-tags:
-  - anti-pattern
-  - quality
-  - structure
-level: pattern
-verification-status: verified
-schema-version: "1.0"
-counterpart-bestpractice: [[Best Practice - Minimal Organization]]
+redirect_to: [[Best Practice - Minimal Organization]]
+lifecycle: deprecated
+correction-type: merged
+correction-date: 2026-03-30
+corrected-by: [[Best Practice - Minimal Organization]]
 ---
 
-# Anti-Pattern: Over-Organization
-
-Spending more time organizing than learning wastes energy on the wrong priorities.
-
-## Problem
-
-Excessive organization creates:
-- Perfect folder hierarchies that no one navigates
-- Complex tagging systems that become inconsistent
-- No actual notes being created
-
-## Signs
-
-- More time spent on structure than content
-- Notes that never get created because "the system isn't ready"
-- Folder depth exceeds note count
-
-## Solution
-
-Let structure [[Knowledge Graph Structure|emerge from links]], not folders.
-
-- Start with content, let hubs form naturally
-- Use flat file structure with wikilinks
-- Organize by concept, not by arbitrary categories
-
-## Test Criteria (for AI Evaluation)
-
-- [ ] Is the file structure flat (no nested folders)?
-- [ ] Do notes link to each other rather than relying on folder hierarchy?
-- [ ] Are hubs created organically from content, not pre-planned?
-- [ ] Is more time spent creating content than organizing?
-
-## Related
-
-- [[Knowledge Graph Structure]]
-- [[Anti-Pattern - Note Hoarding]] — Related anti-pattern: over-organizing vs. under-processing (linked symptoms)
-- [[Graph Traversal Efficiency]]
-- [[Anti-Patterns in Knowledge Management]]
-- [[Frontier Exploration - Competing Organizational Structures]]
-- [[AI-Assisted Knowledge Management Seed]]
+> ⚠️ **This anti-pattern has been merged into [[Best Practice - Minimal Organization]]**
+> 
+> The content has been incorporated into the best practice note, which provides more comprehensive guidance with both positive framing and the failure mode.
+> 
+> **Why merge:** This anti-pattern and its counterpart best practice contained nearly identical content (flat file approach, wikilinks, folder vs link debate). They have been consolidated to reduce redundancy.
+> 
+> **Related:** [[Best Practice - Minimal Organization]] | [[Knowledge Graph Structure]] | [[Anti-Patterns in Knowledge Management]]

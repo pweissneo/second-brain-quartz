@@ -1,13 +1,25 @@
 ---
-last-reviewed: 2026-03-23
-lifecycle: seed-extension
-confidence: emerging
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
+lifecycle: documented
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-gap
   - safety
   - historical-sources
   - woodworking
+  - documented-in-seed
+# Structured gap metadata (per Seed gap rule)
+gap-type: seed-missing
+gap-status: integrated
+gap-priority: medium
+gap-severity: useful
+gap-source: seed-gap-extension
+discovered: 2026-03-23
+resolved: 2026-03-26
+resolved-by: "[[AI-Assisted Knowledge Management Seed]]"
+seed-location: equipment-tier-edge-case
 ---
 
 # Seed Gap: Safety Review for Historical Sources

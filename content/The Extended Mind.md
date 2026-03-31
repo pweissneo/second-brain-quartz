@@ -142,5 +142,5 @@ Your second brain is the foundation. The network amplifies it.
 - [[The Forgetting Curve]]
 - [[Self-Improvement Cycle]]
 - [[The Last Skill]]
-- [[Weekly Review Process]]
+- [[Best Practice - Regular Review]]
 - [[The Ownership Mindset]]

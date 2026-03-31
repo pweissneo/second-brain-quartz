@@ -38,7 +38,7 @@ The Seed's verification timeline assumes standard cycles (30 days), but domains 
 
 ## Evidence from Existing Stress Test
 
-The note [[Seed Stress Test - Pottery and Ceramics Knowledge Base.md]] (2026-03-25) already documents this:
+The note [[Seed Stress Test - Pottery and Ceramics Knowledge Base]] (2026-03-25) already documents this:
 
 > **Issue Found:** The Seed's verification timeline assumes days-to-months, but pottery verification requires:
 > 1. Multi-week cycles — clay → dry → bisque fire → glaze → glaze fire → final result (2-4 weeks minimum)
@@ -68,7 +68,7 @@ verification-contexts-required:
 
 ## Related
 
-- [[Seed Stress Test - Pottery and Ceramics Knowledge Base.md]] - Documents the specific issues
-- [[Seed Stress Test - Cooking Knowledge Base.md]] - May have similar iteration issues (taste testing)
+- [[Seed Stress Test - Pottery and Ceramics Knowledge Base]] - Documents the specific issues
+- [[Seed Stress Test - Cooking Knowledge Base]] - May have similar iteration issues (taste testing)
 - [[Verification Ratio Rule]] - The rule being extended
 - [[Embodied Knowledge Rule]] - Related to why verification differs- [[_root]]

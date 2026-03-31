@@ -1,12 +1,14 @@
 ---
 protected: true
-last-reviewed: 2026-03-15
-last-updated: 2026-03-15
+last-reviewed: 2026-03-30
+last-updated: 2026-03-30
 lifecycle: evergreen
-tags:
-  - structure
 confidence: high
 author-type: ai-assisted
+verification-status: verified
+schema-version: "1.0"
+tags:
+  - structure
 ---
 
 # Emergence in Knowledge Graphs

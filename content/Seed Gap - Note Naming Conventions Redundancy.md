@@ -34,7 +34,7 @@ This gap has been resolved through the following actions:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[note-naming-conventions.md]] (now deprecated)
+- [[note-naming-conventions]] (now deprecated)
 
 ---
 

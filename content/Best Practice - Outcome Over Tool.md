@@ -10,7 +10,7 @@ tags:
   - tools
   - outcomes
 schema-version: "1.0"
-counterpart-antipattern: [[Anti-Pattern - Tool Overfocus]]
+counterpart-antipattern: _Tool overfocus (anti-pattern removed — merged)_
 ---
 
 # Best Practice - Outcome Over Tool

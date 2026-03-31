@@ -10,7 +10,7 @@ tags:
   - linking
   - quality
 schema-version: "1.0"
-counterpart-antipattern: [[Anti-Pattern - Link Inflation]]
+counterpart-antipattern: _Link inflation (anti-pattern removed — merged)_
 ---
 
 # Best Practice - Link Quality

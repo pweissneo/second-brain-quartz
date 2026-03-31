@@ -1,18 +1,25 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-03-30
 lifecycle: seed-extension
-confidence: emerging
+confidence: high
 author-type: ai-assisted
-gap-status: identified
+gap-status: integrated
 gap-priority: medium
 gap-source: frontier-exploration
 discovered: 2026-03-26
 schema-version: "1.0"
+see-also: "[[AI-Assisted Knowledge Management Seed]]"
 ---
 
 # Frontier Exploration - Visual Knowledge Representation in Knowledge Bases
 
-The Seed provides extensive guidance on organizing textual knowledge — atomic notes, linking patterns, context frames, metadata schemas — but almost no guidance on knowledge that is inherently visual or on when/how to incorporate visual representations into a knowledge base.
+> This gap has been integrated into the Seed (rule added 2026-03-26). Retained as reference/exploration archive.
+
+The Seed now includes comprehensive guidance on visual knowledge representation (see [[AI-Assisted Knowledge Management Seed]] lines 120-137).
+
+## Historical Gap Documentation
+
+This note was an early exploration that preceded the Seed rule. Original gap content:
 
 ## The Gap
 
@@ -58,11 +65,11 @@ Without guidance, AI agents default to text-only representations, losing visual 
 2. **Visual as separate notes** — appropriate when the visual is a standalone reference (e.g., a complete diagram note)
 3. **External visual with text link** — appropriate for heavy visuals that would bloat note size or when visuals need to be version-controlled separately
 
-## Related Notes
+## Related Notes (archived after Seed integration)
 
-- [[Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge]] — different angle, about evaluating visual content
+- [[Frontier Exploration - Visual Literacy and Aesthetic Evaluation Knowledge]] — superseded by Seed rule 120 (visual literacy for creative domains now covered)
+- [[Frontier Exploration - Multi-Modal Knowledge]] — superseded (multi-modal now covered by Seed rule 120)
 - [[Knowledge Graph Structure]] — could benefit from visual examples
-- [[Frontier Exploration - Multi-Modal Knowledge]] — related but covers broader multi-modal capture (video, audio, etc.)
 
 ## Gap Status
 

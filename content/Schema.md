@@ -25,7 +25,8 @@ domain-familiarity: assessed
 | `confidence` | high, emerging, disputed, obsolete | Reliability of knowledge |
 | `author-type` | human, ai-assisted, ai-generated | Origin of content |
 | `domain-familiarity` | assessed, learning, unknown | AI's familiarity level with the domain |
-| `verification-status` | verified, unverified, testing, disputed | Factual verification status |
+| `verification-status` | source-verified, drill-verified, empirically-verified, tool-verified, verified, unverified, testing, disputed | Factual verification status |
+| `knowledge-type` | conceptual, procedural, factual, analysis, reference, conditional | What type of knowledge the note contains |
 | `tags` | [kebab-case] | Categorization tags |
 | `exclusion-considered` | true/false | Whether exclusion was evaluated for this note |
 | `exclusion-reason` | public-utility, ephemeral, duplicate, decorative, scope-violation, high-maintenance, sensitive-risk, incomplete-speculation | Reason note was retained despite exclusion consideration |
@@ -150,7 +151,7 @@ For notes in transition states (not yet stable), an optional `status:` field may
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]] — Core rules that define frontmatter requirements
-- [[_root.md]] — Vault purpose and overview
+- [[_root]] — Vault purpose and overview
 - [[Note Types and Templates]] — How to use the schema in practice
 
 ## Schema Version

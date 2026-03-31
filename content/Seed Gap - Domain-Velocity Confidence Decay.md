@@ -91,8 +91,8 @@ confidence-downgrade:
 
 - [[AI-Assisted Knowledge Management Seed]] — Primary Seed rules
 - [[Confidence Markers]] — Current confidence system
-- [[Seed Stress Test - Photography Knowledge Base.md]] — Source of gap discovery
-- [[Seed Stress Test - Cryptocurrency Knowledge Base.md]] — Related domain with fast change
-- [[Seed Stress Test - Chess Knowledge Base.md]] — Related domain with slow change (rules stable)
+- [[Seed Stress Test - Photography Knowledge Base]] — Source of gap discovery
+- [[Seed Stress Test - Cryptocurrency Knowledge Base]] — Related domain with fast change
+- [[Seed Stress Test - Chess Knowledge Base]] — Related domain with slow change (rules stable)
 - [[Handling Temporal Knowledge]] — Temporal knowledge handling
-- [[Frontier Exploration - Knowledge Aging and Review Cycle Management]] — Related exploration
+- [[Frontier Exploration - Knowledge-Aware Review Cycles]] — Related exploration

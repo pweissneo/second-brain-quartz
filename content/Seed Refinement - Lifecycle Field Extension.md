@@ -8,7 +8,7 @@ tags:
   - seed-refinement
   - schema
   - lifecycle
-redirect: "[[Schema.md]]"
+redirect: "[[Schema]]"
 ---
 
 # Seed Refinement: Lifecycle Field Extension (RESOLVED)
@@ -43,7 +43,7 @@ Updated Schema.md to include extended lifecycle values:
 
 ## Related Notes
 
-- [[Schema.md]] — Updated with extended lifecycle values
+- [[Schema]] — Updated with extended lifecycle values
 - [[Seed Gap Note Lifecycle Management]] — Existing guidance for seed-gap notes
 - [[Note Lifecycle Management]] — Core lifecycle model
 - [[Confidence Markers]] — Confidence field usage in the vault
