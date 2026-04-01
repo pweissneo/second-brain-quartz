@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Refinement - Verification Priority in Cooking Domain</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</guid>
+    <description><![CDATA[ Seed Refinement: Verification Priority in Cooking Domain The Edge Case The verification priority hierarchy rule (Level 1: safety-critical → Level 4: low) works well for most domains but has an edge case in cooking: Problem: Food safety knowledge in cooking has dual nature: General food safety rules ... ]]></description>
+    <pubDate>Wed, 01 Apr 2026 06:52:41 GMT</pubDate>
+  </item><item>
     <title>Seed Refinement - Knowledge Source Type - Cross-Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Knowledge Source Type — Cross-Domain Extensions Proposed refinements to the “knowledge source type” rule based on stress testing across multiple domains (cooking, medical). ]]></description>
-    <pubDate>Wed, 01 Apr 2026 06:43:00 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 06:52:41 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://quartz.jzhao.xyz/AGENTS</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</guid>
     <description><![CDATA[ Frontier Exploration - Amateur Astronomy Knowledge Bases Amateur astronomy presents unique knowledge management challenges that stress-test several Seed rules in ways not fully addressed by existing frontier explorations. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 05:36:55 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Beverage-Food Pairing Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Beverage-Food-Pairing-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Beverage-Food-Pairing-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration: Beverage-Food Pairing Knowledge The Gap The Seed handles: Ingredient substitution (replacing one ingredient with another) Sensory evaluation (assessing quality through sight, smell, taste) Conditional knowledge (if-then troubleshooting) User situational constraints (time, budge... ]]></description>
     <pubDate>Wed, 01 Apr 2026 05:36:55 GMT</pubDate>
   </item>
     </channel>
