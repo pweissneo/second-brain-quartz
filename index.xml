@@ -10,37 +10,37 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Hierarchy-in-Woodworking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Hierarchy-in-Woodworking</guid>
     <description><![CDATA[ Seed Stress Test: Verification Priority Hierarchy in Woodworking Domain Testing the “verification priority hierarchy” rule (added 2026-04-01) against the woodworking domain to identify edge cases and refinements. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:25 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:56 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority in Cooking Domain</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority in Cooking Domain Status: This gap has been resolved and merged into the Seed on 2026-04-01. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:25 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:55 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Knowledge Source Type - Cross-Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Knowledge Source Type — Cross-Domain Extensions Proposed refinements to the “knowledge source type” rule based on stress testing across multiple domains (cooking, medical). ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:25 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:55 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Cross-Domain Rule Adaptation Methodology</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Cross-Domain-Rule-Adaptation-Methodology</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Cross-Domain-Rule-Adaptation-Methodology</guid>
     <description><![CDATA[ Seed Gap - Cross-Domain Rule Adaptation Methodology The Gap The Seed provides domain-agnostic rules (“every note should have 2+ outgoing links”, “verify high-stakes knowledge”) but lacks explicit guidance on how an AI agent should adapt these rules when entering a new domain. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:25 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:55 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Anti-Pattern Best Practice Merge Criteria</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Anti-Pattern-Best-Practice-Merge-Criteria</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Anti-Pattern-Best-Practice-Merge-Criteria</guid>
     <description><![CDATA[ Seed Gap: Anti-Pattern to Best Practice Merge Criteria Identified gap: The Seed lacks explicit guidance on when to merge an anti-pattern into its corresponding best practice vs. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:25 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:55 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Vault Knowledge Deduplication</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Vault-Knowledge-Deduplication</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Vault-Knowledge-Deduplication</guid>
     <description><![CDATA[ Frontier Exploration - Cross-Vault Knowledge Deduplication How should AI agents handle duplicate or overlapping knowledge when managing multiple vaults or merging content from external sources? The Problem When managing multiple knowledge vaults or importing content from external sources, duplicate ... ]]></description>
-    <pubDate>Wed, 01 Apr 2026 09:21:24 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 09:42:55 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://quartz.jzhao.xyz/AGENTS</link>
