@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Hierarchy-in-Woodworking</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Hierarchy-in-Woodworking</guid>
     <description><![CDATA[ Seed Stress Test: Verification Priority Hierarchy in Woodworking Domain Testing the “verification priority hierarchy” rule (added 2026-04-01) against the woodworking domain to identify edge cases and refinements. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
-  </item><item>
-    <title>Seed Refinement - Verification Priority in Cooking Domain</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</guid>
-    <description><![CDATA[ Seed Refinement: Verification Priority in Cooking Domain Status: This gap has been resolved and merged into the Seed on 2026-04-01. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Hierarchy - Woodworking Edge Cases</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Hierarchy---Woodworking-Edge-Cases</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Hierarchy---Woodworking-Edge-Cases</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy — Woodworking Domain Edge Cases Status: Draft — edge cases identified for Seed incorporation Date: 2026-04-01 Background The verification priority hierarchy rule was added to the Seed on 2026-04-01 with this structure: Level 1 (Critical): Safety-criti... ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Verification Priority in Cooking Domain</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</guid>
+    <description><![CDATA[ Seed Refinement: Verification Priority in Cooking Domain Status: This gap has been resolved and merged into the Seed on 2026-04-01. ]]></description>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Species-Variation and Compliance Knowledge Handling</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Species-Variation-and-Compliance-Knowledge-Handling</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Species-Variation-and-Compliance-Knowledge-Handling</guid>
     <description><![CDATA[ Seed Refinement - Species-Variation and Patient-Reported Knowledge Handling Summary Stress-testing the Seed against veterinary medicine reveals two critical gaps: Species-variation handling — The Seed lacks explicit rules for domains where the same concept applies differently across species/types, m... ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Knowledge Source Type - Cross-Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Knowledge Source Type — Cross-Domain Extensions Proposed refinements to the “knowledge source type” rule based on stress testing across multiple domains (cooking, medical). ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Equipment Scope in Verification Status</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Equipment-Scope-in-Verification-Status</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Equipment-Scope-in-Verification-Status</guid>
     <description><![CDATA[ Seed Refinement - Equipment Scope in Verification Status Problem The Seed has equipment-tier (line 290) for craft domains and verification-mode: tool-dependent (line 438), but lacks explicit integration between verification-status and equipment-tier. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:23 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Temporal Legal Knowledge Handling</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Temporal-Legal-Knowledge-Handling</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Temporal-Legal-Knowledge-Handling</guid>
     <description><![CDATA[ Seed Gap - Temporal Legal Knowledge Handling The Gap The Seed has stress tests for legal knowledge bases but lacks explicit rules for temporal legal knowledge — knowledge whose validity changes based on time. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:22 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Domain Allocation Strategy</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Domain-Allocation-Strategy</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Domain-Allocation-Strategy</guid>
     <description><![CDATA[ Seed Gap - Knowledge Domain Allocation Strategy Status: IDENTIFIED (2026-04-01) The Problem The Seed covers: Exploration vs exploitation balance at the note capture level (add new vs deepen) Knowledge portfolio allocation (core/domain/adjacent/exploratory percentages) Completion criteria for individ... ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:22 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Knowledge Deprecation and Obsolescence Management</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Deprecation-and-Obsolescence-Management</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Deprecation-and-Obsolescence-Management</guid>
     <description><![CDATA[ Seed Gap - Knowledge Deprecation and Obsolescence Management Gap Description The Seed covers knowledge capture, verification, and organization in great detail, but provides minimal guidance on what happens when knowledge becomes outdated, obsolete, or incorrect. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:22 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Domain-Level Resource Allocation</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Domain-Level-Resource-Allocation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Domain-Level-Resource-Allocation</guid>
     <description><![CDATA[ Seed Gap: Domain-Level Resource Allocation Gap Type seed-missing — The Seed covers note-level maintenance but lacks domain-level resource allocation guidance. ]]></description>
-    <pubDate>Wed, 01 Apr 2026 19:51:52 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 20:11:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
