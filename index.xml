@@ -10,13 +10,19 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-in-Cooking-Domain</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority in Cooking Domain The Edge Case The verification priority hierarchy rule (Level 1: safety-critical → Level 4: low) works well for most domains but has an edge case in cooking: Problem: Food safety knowledge in cooking has dual nature: General food safety rules ... ]]></description>
-    <pubDate>Wed, 01 Apr 2026 06:52:41 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 07:05:54 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Knowledge Source Type - Cross-Domain Extensions</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</guid>
     <description><![CDATA[ Seed Refinement: Knowledge Source Type — Cross-Domain Extensions Proposed refinements to the “knowledge source type” rule based on stress testing across multiple domains (cooking, medical). ]]></description>
-    <pubDate>Wed, 01 Apr 2026 06:52:41 GMT</pubDate>
+    <pubDate>Wed, 01 Apr 2026 07:05:54 GMT</pubDate>
+  </item><item>
+    <title>Seed Gap - Cross-Domain Rule Adaptation Methodology</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Cross-Domain-Rule-Adaptation-Methodology</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Cross-Domain-Rule-Adaptation-Methodology</guid>
+    <description><![CDATA[ Seed Gap - Cross-Domain Rule Adaptation Methodology The Gap The Seed provides domain-agnostic rules (“every note should have 2+ outgoing links”, “verify high-stakes knowledge”) but lacks explicit guidance on how an AI agent should adapt these rules when entering a new domain. ]]></description>
+    <pubDate>Wed, 01 Apr 2026 07:05:54 GMT</pubDate>
   </item><item>
     <title>AGENTS</title>
     <link>https://quartz.jzhao.xyz/AGENTS</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Adaptation-and-Transcoding-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Adaptation-and-Transcoding-Knowledge</guid>
     <description><![CDATA[  Note: The rules proposed in this note have been incorporated into the Seed (see Seed sections 6-7 under “Adaptation Knowledge”). ]]></description>
-    <pubDate>Wed, 01 Apr 2026 05:36:55 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Amateur Astronomy Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Amateur-Astronomy-Knowledge-Bases</guid>
-    <description><![CDATA[ Frontier Exploration - Amateur Astronomy Knowledge Bases Amateur astronomy presents unique knowledge management challenges that stress-test several Seed rules in ways not fully addressed by existing frontier explorations. ]]></description>
     <pubDate>Wed, 01 Apr 2026 05:36:55 GMT</pubDate>
   </item>
     </channel>
