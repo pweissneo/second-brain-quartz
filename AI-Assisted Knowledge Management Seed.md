@@ -2826,7 +2826,9 @@ expected-answer-form: boolean|quantitative|qualitative
 3. **Rediscoverability check (score 2):** Is this from transient source (video, podcast, conversation) not archived?
 4. **Uniqueness check (score 1):** Does this contain your original analysis, not just copied facts?
 5. **Shelf-life check (score 1):** Is source dated >1 year old? (low = score 1, recent = score 1)
+
 **Executable verification:** Score ≥5 = IMMEDIATE, 3-4 = DEFER, 1-2 = ON-DEMAND, 0 = IGNORE. Required frontmatter: `triage-category:` with value. If AI cannot determine scoring factors, default to DEFER with explanation in note.
+
 **Edge case:** When scoring is unclear, classify as DEFER rather than risk under-capture. Document scoring uncertainty in triage notes.
 **Implementation:** During active learning sessions, apply real-time triage before capture. Priority factors: blocker (prevents progress on intended work), connection (links to 2+ existing notes), rediscoverable (will take >5 min to find again if deferred), unique (contains your analysis/context, not just facts), shelf-life (accurate in 30+ days). Batch sessions may skip triage; stream sessions require it.
 
