@@ -175,7 +175,7 @@ With option value rules:
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]] — Current utility test
 - [[Frontier Exploration - Knowledge Prioritization and Focus Decisions]] — Gap identification
 - [[Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains]] — Unknown domain bootstrapping
-- [[Frontier Exploration - Knowledge Re-Evaluation Triggers]] — Context-change triggered audits (complements option value time-horizon consideration)
+- [[Frontier Exploration - Knowledge Decision Framework]] — Unified framework covering option value, context triggers, and verification priority (merged from Knowledge Re-Evaluation Triggers)
 
 ---
 

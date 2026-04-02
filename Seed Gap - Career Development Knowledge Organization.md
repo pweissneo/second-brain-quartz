@@ -1,16 +1,22 @@
 ---
-last-reviewed: 2026-04-01
-last-updated: 2026-04-01
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-gap
-confidence: emerging
+confidence: medium
 author-type: ai-assisted
-gap-status: analyzed
+tags:
+  - seed-gap
+  - career-development
+  - personal-knowledge
+  - domain-specific
+gap-status: partial-resolution
 gap-priority: medium
-gap-type: seed-missing
+gap-type: seed-incomplete
 discovered: 2026-04-01
 analyzed: 2026-04-01
+resolution-note: "Seed includes personal experience handling (line 744) and temporal validity bounds. Still missing: career-specific implementation guidance, network knowledge privacy handling, decision framework weighting."
 domain: career-development
-analysis-conclusion: "Valid gap. Career knowledge is distinct from other knowledge types due to personal/contextual nature, time-sensitivity, network-dependency, and outcome-orientation. The proposed rule should be integrated into the Seed under the Personal Knowledge section or as a new domain-specific guidance note."
+analysis-conclusion: "Partially resolved. Seed rule at line 744 covers personal-vs-published conflicts which applies to career knowledge. Still needs: career-specific frontmatter categories, temporal validity for market data, network knowledge privacy schema."
 ---
 
 # Seed Gap - Career Development Knowledge Organization

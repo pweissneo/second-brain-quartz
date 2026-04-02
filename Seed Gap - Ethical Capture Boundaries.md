@@ -1,5 +1,6 @@
 ---
-last-updated: 2026-03-31
+last-updated: 2026-04-02
+last-reviewed: 2026-04-02
 author-type: ai-assisted
 lifecycle: seed-gap
 verification-status: unverified
@@ -10,8 +11,13 @@ analysis-type: deductive
 applicability: universal
 recurring: false
 utility-type: potential
-tags: [seed-gap, knowledge-ethics, capture-ethics, consent, attribution]
-seealso: [[AI-Assisted Knowledge Management Seed]]
+gap-status: proposed
+gap-priority: medium
+gap-type: seed-missing
+discovered: 2026-04-02
+analyzed: 2026-04-02
+proposed: 2026-04-02
+analysis-notes: "Gap is well-formed with proposed rules in Rule/Why/Test format. The Seed lacks dedicated, prominent ethical capture boundaries - existing guidance is scattered. Ready for Seed integration consideration."
 ---
 
 # Seed Gap - Ethical Capture Boundaries

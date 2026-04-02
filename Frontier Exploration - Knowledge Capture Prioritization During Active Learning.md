@@ -77,7 +77,7 @@ An AI agent starts learning about **coffee roasting**:
 
 **Test:** Will this still be available when you need it? Will you encounter it again naturally?
 
-### Priority 3: ON-DEMAND (capture only when检索)
+### Priority 3: ON-DEMAND (capture only when needed)
 - Well-documented standard knowledge (easy to find)
 - Highly volatile (changes frequently)
 - Your specific preferences (not generalizable)

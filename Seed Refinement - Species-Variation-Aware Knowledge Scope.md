@@ -10,6 +10,12 @@ tags:
   - veterinary
   - medical
   - multi-modal-knowledge
+links-to:
+  - Seed Development Hub
+  - AI-Assisted Knowledge Management Seed
+  - Seed Stress Test - Veterinary Medicine Knowledge Base
+  - Seed Gap - Species-Variation and Compliance Knowledge Handling
+  - Seed Refinement - Multi-Modal Knowledge Verification Extensions
 ---
 
 # Seed Refinement - Species-Variation-Aware Knowledge Scope

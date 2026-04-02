@@ -1,21 +1,16 @@
 ---
-gap-status: resolved
+gap-status: proposed
 gap-priority: medium
-gap-phase: resolved
+gap-phase: resolution
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-04-01
-resolution-date: 2026-04-02
-resolved-by: Seed already has temporal validity rules
-resolution-note: "The Seed already covers temporal validity through applies-from-version, applies-until-version, valid-from, valid-until. See Seed Refinement - Temporal Validity Bounds Rule for domain-specific guidance."
+gap-review-date: 2026-04-01
+resolution-target: 2026-04-07
 ---
 # Seed Gap - Temporal Legal Knowledge Handling
 
-## Status: RESOLVED (2026-04-02)
-
-This gap has been analyzed and the Seed already contains relevant rules. The Seed Refinement - Temporal Validity Bounds Rule provides the needed guidance.
-
-## Original Gap
+## The Gap
 
 The Seed has stress tests for legal knowledge bases but lacks explicit rules for **temporal legal knowledge** — knowledge whose validity changes based on time. Example questions the Seed doesn't answer:
 

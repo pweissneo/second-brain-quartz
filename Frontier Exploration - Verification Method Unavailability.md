@@ -120,7 +120,7 @@ verification-method-alternatives: ["alternative-method-1", "alternative-method-2
 
 ## Related Seed Sections
 
-- Section 4 (Verification): Covers verification status but not method availability
+- [[AI-Assisted Knowledge Management Seed|Section 4 (Verification)]]: Covers verification status but not method availability
 - Section 6 (Knowledge Types): Equipment-dependent, experiential knowledge
 - Section 9 (Correction Workflow): Handles outdated knowledge but not temporarily unverifiable
 

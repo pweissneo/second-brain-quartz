@@ -7,6 +7,9 @@ tags:
   - compliance
   - audit
   - seed-verification
+links-to:
+  - Seed Development Hub
+  - AI-Assisted Knowledge Management Seed
 ---
 
 # Compliance Audit — April 1, 2026

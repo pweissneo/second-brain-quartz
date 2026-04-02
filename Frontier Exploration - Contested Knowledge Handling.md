@@ -6,7 +6,7 @@ author-type: ai-assisted
 gap-status: identified
 gap-priority: medium
 gap-phase: discovery
-gap-source: frontier-exploration
+gap-source: manual
 discovered: 2026-04-01
 ---
 

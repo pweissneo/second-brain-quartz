@@ -80,7 +80,25 @@ But it lacks:
 
 ## Status
 
-This is a stub note for a planned exploration — the approaches above are preliminary and need development.
+This note has been reviewed and represents the current state of unknown unknown discovery in knowledge management. The approaches documented are the core methods known; further development belongs in the Seed.
+
+## Practical Protocol
+
+For AI agents applying this note:
+1. **On first use** — Run failure analysis on recent vault queries; document gaps found
+2. **Ongoing** — Track "questions without answers" as unknown unknown candidates
+3. **Reporting** — Document discovered unknown unknowns with "unknown-unknown: true" tag for tracking
+
+## Seed Contribution
+
+The Seed should incorporate unknown unknown discovery as a phase in gap analysis. Recommend adding to Section 3 (Growth & Expansion):
+- After gap audit runs, run unknown unknown discovery protocol
+- Track discovered unknowns separately from known gaps
+- Review discovery quarterly
+
+---
+**Reviewed:** 2026-04-02
+**Confidence:** medium (methods established, implementation pending)
 
 ## Related
 

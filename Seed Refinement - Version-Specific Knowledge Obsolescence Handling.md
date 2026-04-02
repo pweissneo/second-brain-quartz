@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-04-01
-last-updated: 2026-04-01
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-refinement
 confidence: emerging
 author-type: ai-assisted
@@ -9,6 +9,8 @@ tags:
   - lifecycle
   - obsolescence
   - versioning
+resolution-status: absorbed
+resolution-note: "Version-specific handling complements (not duplicates) general deprecation workflow in Seed lines 2147+. This note remains as domain-specific extension - not resolved, just distinct scope."
 ---
 
 # Seed Refinement - Version-Specific Knowledge Obsolescence Handling

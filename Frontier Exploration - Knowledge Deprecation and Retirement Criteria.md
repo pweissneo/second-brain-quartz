@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-27
+last-reviewed: 2026-04-02
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -9,6 +9,8 @@ tags:
   - deletion
   - obsolescence
 schema-version: "1.0"
+resolution-status: validated
+resolution-note: "General deprecation workflow now in Seed lines 2147+. This note provides comprehensive exploration/extension - validates the need and provides detailed implementation guidance beyond the Seed's consolidated workflow."
 ---
 
 # Frontier Exploration: Knowledge Deprecation and Retirement Criteria

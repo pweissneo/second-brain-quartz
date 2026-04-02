@@ -228,4 +228,4 @@ Medical knowledge often requires tool-dependent verification that standard sourc
 
 ---
 
-**Discovered during:** REDUNDANCY_SCAN (2026-03-26) — Found gap note references missing stress test
+**Discovered during:** Compliance audit (manual source)

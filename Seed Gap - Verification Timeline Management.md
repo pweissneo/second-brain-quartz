@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-29
-last-updated: 2026-03-29
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted

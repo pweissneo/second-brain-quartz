@@ -118,6 +118,86 @@ trade-off-calibration:
   autonomy-vs-coordination: 0.5
 ```
 
+## Concrete Examples (from Related Note)
+
+### Example 1: Hub Structure Decisions
+You create a hub for "Woodworking Joints" with spokes for dovetail, mortise-tenon, dowel, etc.
+- **Gain**: Easy navigation, clear taxonomy
+- **Lose**: Notes about joinery might link to the hub but not to each other (reduced cross-linking)
+
+### Example 2: Verification Strictness
+You apply strict verification (70% ratio) for a medical knowledge base:
+- **Gain**: High confidence in accuracy
+- **Lose**: Slower capture rate, might miss time-sensitive knowledge
+
+### Example 3: Atomicity Decisions
+A recipe for "Sunday Roast Chicken" is 800 words including technique, timing, and sides:
+- **Split**: Each component becomes reusable (can use the roasting technique elsewhere)
+- **Keep**: The complete experience is preserved, context isn't lost
+
+### Example 4: Recipe Organization by Technique vs Cuisine
+- Organize by technique (roasting, grilling, braising) vs. by cuisine (Italian, Japanese, Mexican)
+- **Gain (by technique)**: Easy to find techniques, good for learning cooking methods
+- **Lose (by technique)**: Harder to plan complete meals, cuisine relationships invisible
+
+## Implementation
+
+### Basic Trade-Off Tracking
+
+```yaml
+trade-off:
+  category: organization|verification|atomicity|structure
+  type: gain-lose|either-or|compromise
+  description: "What you gain vs. lose"
+  rationale: "Why this trade-off was chosen"
+  alternatives-considered:
+    - "Option A: ..."
+    - "Option B: ..."
+  review-trigger: "When to reconsider this decision"
+```
+
+### Context-Dependent Trade-Off
+
+```yaml
+trade-off-contexts:
+  - context: startup-early-stage
+    favored-side: speed
+    rationale: "velocity matters more than quality when validating product-market fit"
+  - context: enterprise-production
+    favored-side: thoroughness
+    rationale: "errors cost more than delays in production systems"
+```
+
+### Personal Trade-Off Calibration
+
+```yaml
+trade-off-calibration:
+  speed-vs-quality: 0.7  # 0 = always thorough, 1 = always fast
+  exploration-vs-exploitation: 0.6  # 0 = always exploit, 1 = always explore
+  autonomy-vs-coordination: 0.5
+```
+
+### Test Case 1: Recipe Organization
+- Domain: Cooking knowledge base
+- Trade-off: Organize by technique vs. by cuisine
+- Current: By technique
+- Gain: Easy to find techniques
+- Lose: Harder to plan complete meals
+
+### Test Case 2: Note Size Standards
+- Domain: General vault
+- Trade-off: Strict 100-300 word limit vs. flexible sizing
+- Current: Flexible (allow longer for procedures)
+- Gain: Practical usability for executables
+- Lose: Some inconsistency
+
+### Test Case 3: Verification Standards  
+- Domain: Medical knowledge base
+- Trade-off: High verification (70%) vs. standard (50%)
+- Current: 70% for high-stakes
+- Gain: Reliable knowledge for decisions
+- Lose: Slower capture rate
+
 ## Domains Where This Matters Most
 
 - **Project management** — schedule vs. scope vs. resources

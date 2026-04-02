@@ -55,11 +55,12 @@ Notes documenting gaps in the Seed that need to be addressed.
 - [[Seed Gap - Sensory Anchor Standardization]]
 - [[Seed Gap - Sensory Evaluation Knowledge]]
 - [[Seed Gap - Sequential Processing Chain Knowledge]]
+- [[Seed Gap - Cross-Domain Rule Adaptation Methodology]] — PROPOSED (2026-04-02)
 - [[Seed Gap - Technology-Heavy Dual-Nature Domain Handling]]
 - [[Seed Gap - Topic Splitting Decision Framework]]
 - [[Seed Gap - Vault Self-Monitoring and Health Intelligence]]
 - [[Seed Gap - Verification Timeline Management]]
-- [[Seed Gap - Verification Timeline for High-Iteration Domains]]
+- [[Seed Gap - Verification Timeline for High-Iteration Domains]] ✅ MERGED → [[Seed Gap - Verification Timeline Management]]
 
 ### Seed Refinements
 Notes refining specific Seed rules based on domain testing.

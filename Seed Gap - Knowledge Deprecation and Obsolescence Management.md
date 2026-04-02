@@ -1,12 +1,15 @@
 ---
-gap-status: proposed
+gap-status: deprecated
 gap-priority: medium
 gap-phase: implementation
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-04-01
 analyzed: 2026-04-01
-lifecycle: emerging
+resolved: 2026-04-02
+resolved-by: "[[AI-Assisted Knowledge Management Seed]]"
+resolution-note: "Seed already contains comprehensive deprecation workflow. This Seed Gap is resolved - the rule exists at lines 2147-2182 in the Seed."
+lifecycle: deprecated
 analysis-notes: "Gap is well-formed with proposed rule. Ready for Seed integration consideration. Strong overlap with Seed Refinement - Version-Specific Knowledge Obsolescence Handling (different focus: general vs version-specific). Recommend general deprecation rule in Seed with reference to version-specific handling as edge case. NOTE: Seed already contains substantial deprecation guidance (staleness vs obsolescence distinction, maturity staging, framework-status, terminology-status, external extinction handling) but it's scattered across multiple sections. This gap validates the need for a CONSOLIDATED deprecation workflow section, not new rules. Integration recommendation: Create explicit 'Knowledge Deprecation Workflow' subsection in Seed Quality Maintenance section (around line 2132) that synthesizes existing guidance into a cohesive end-to-end workflow."
 ---
 

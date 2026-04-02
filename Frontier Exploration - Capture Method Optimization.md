@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-26
-last-updated: 2026-03-30
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -12,10 +12,12 @@ tags:
   - vault-maintenance
 schema-version: "1.0"
 gap-type: seed-missing
-gap-status: identified
-gap-phase: discovery
+gap-status: analyzed
+gap-phase: analysis
 gap-priority: medium
 discovered: 2026-03-26
+analyzed: 2026-04-02
+resolution-approach: add-capture-method-selection-rule-to-seed
 ---
 
 # Frontier Exploration - Capture Method Optimization

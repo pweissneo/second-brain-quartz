@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-04-01
-last-updated: 2026-04-01
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-gap
 confidence: medium
 author-type: ai-assisted
@@ -9,14 +9,21 @@ tags:
   - frontier-exploration
   - knowledge-organization
   - topic-division
+  - resolved
 gap-type: seed-missing
-gap-phase: analysis
-gap-status: proposed
+gap-phase: complete
+gap-status: resolved
+discovered: 2026-03-28
+resolved: 2026-04-02
+gap-resolution-note: "Rule integrated into Seed on 2026-03-29: 'For growing topics, apply topic-splitting decision framework — distinguish between deepening in place, hub-and-spoke branching, and sequential development based on concept coherence and independence.' Trigger conditions (multiple distinct concepts, different audiences, independently useful parts, navigation difficulty), splitting strategies (hub-and-spoke, sequential, parallel, layered), and preservation rules all added to Seed section 2.4."
+replaced-by: "[[AI-Assisted Knowledge Management Seed]] (line ~1828)"
 ---
 
 # Seed Gap: Topic Splitting Decision Framework
 
-## The Gap
+## Gap Status: RESOLVED
+
+> **Resolved:** 2026-04-02 — Rule integrated into Seed (2026-03-29)
 
 The Seed has clear guidance for:
 - **Merging**: When notes are redundant → merge into one stronger note

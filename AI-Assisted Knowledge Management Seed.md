@@ -33,6 +33,12 @@ author-type: ai-assisted
 **Rule:** Use flat file structure with wikilinks — no nested folders.
 **Why:** Folders impose hierarchy that constrains discovery; links create organic, multi-dimensional structure.
 **Test:** Are all notes in a single directory? Are connections made via `[[Wikilinks]]`, not folder paths?
+**Edge case (stress test 2026-04-02):** In domains where the knowledge itself has inherent hierarchical structure (legal codes, technical standards, regulatory frameworks, academic curricula), pure flat-file organization loses important context. Apply modified approach:
+- **Flat files still:** All notes in single directory
+- **Hierarchical metadata:** Use frontmatter to encode structural relationships (`jurisdiction:`, `rule-number:`, etc.)
+- **Structured wikilinks:** Allow `[[Parent/Child]]` pattern for encoding hierarchy in links
+- **Faceted retrieval:** Use tags for multi-dimensional classification
+- **Test:** For hierarchical domains: (1) Does frontmatter capture structural relationships? (2) Can you reconstruct hierarchy from metadata? (3) Do wikilinks encode parent-child relationships? (4) Is retrieval efficient without folder navigation?
 
 **Rule:** Ignore generated files — never commit cache, logs, or build artifacts.
 **Why:** Generated files bloat the repository and cause merge conflicts.
@@ -1805,7 +1811,7 @@ branches:
   - Test Firewall Rules
 
 # Node note
-decision-type: diagnostic|setup|troubleshooting
+decision-type: diagnostic|setup|troubleshooting|selection|prioritization|context-dependent
 prerequisites:
   required:
     - Previous decision outcome
@@ -1874,6 +1880,20 @@ next-decisions:
 **Edge case:** Filter or category notes may legitimately have fewer outgoing links because users navigate TO these notes for filtering, not FROM them for learning. In board game design, genre categories (worker placement, deck building), player count specifications, and play time categories serve as filter criteria. In e-commerce, product category pages are navigated to, not from. The test: (1) Is this note primarily used as a filter or category entry point? (2) Do users arrive here to find specific items rather than learn about a concept? If yes to both, tag with `type: filter` or `category-type: genre-filter` and apply relaxed thresholds.
 
 **Edge case:** Instance or case-study notes about specific entities (individual games, specific projects, concrete examples) may have fewer outgoing links because they are referenced BY conceptual notes, not vice versa. A note about "Catan" as a specific game links to game design concepts, but the conceptual notes (mechanics, genres) are what users explore from. The test: (1) Is this note about a specific instance rather than a general concept? (2) Does it primarily serve as an example for other notes to reference? If yes to both, track backlinks rather than enforcing outgoing link minimums.
+
+**Rule (refined - 2026-04-02):** Apply note-type-aware link density — different note types have different link expectations based on their function in navigation.
+**Why:** The uniform "at least 2 outgoing links" rule treats all notes as exploratory navigation points, but notes serve different functions: exploratory notes enable navigation, safety notes are reached via backlinks, foundational notes are referenced by everything, filter notes are entry points. Uniform rules create false positives and miss actual graph health issues.
+**Test:** For each note, identify its primary function, then apply the appropriate check:
+- Exploratory notes: ≥2 outgoing links (enable navigation to related concepts)
+- Reference/definition notes: ≥2 backlinks OR linked from hub (enable discovery)
+- Safety-critical notes: Backlinks from the equipment/procedure they protect (users reach via context, not explore)
+- Foundational notes: `foundational: true` tag present (everything references them)
+- Specialized notes: `specialized: true` tag present (single-use entities)
+- Filter/category notes: ≥2 backlinks (users navigate TO for filtering)
+**Implementation:** Use `note-type:` frontmatter field with values `exploratory|reference|safety|foundational|specialized|filter`. Apply appropriate link expectations based on type rather than uniform 2-link minimum.
+
+**Equipment-tier connectivity test:** For equipment-dependent notes: Does frontmatter include `equipment-tier:`? Is there a tier-agnostic hub note that users with different equipment can navigate to?
+**Cross-domain bridging test:** For notes that reference adjacent domains: Is there a bridging hub note that connects the domain to adjacent domains?
 
 **Rule:** Every link must be explainable in one sentence — no decorative or keyword-match links.
 **Why:** Meaningless links inflate the graph without adding navigational or conceptual value.

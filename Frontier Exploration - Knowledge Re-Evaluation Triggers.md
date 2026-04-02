@@ -1,19 +1,21 @@
 ---
-last-reviewed: 2026-03-28
-lifecycle: evergreen
-confidence: emerging
+last-reviewed: 2026-04-02
+lifecycle: deprecated
+confidence: n/a
 author-type: ai-assisted
-verification-status: verified
 tags:
   - frontier-exploration
-  - knowledge-transition
-  - context-change
-  - methodology
+  - deprecated
+  - redirect
+redirect_to: [[Frontier Exploration - Knowledge Decision Framework]]
+correction-type: merged
+correction-date: 2026-04-02
+corrected-by: [[Frontier Exploration - Knowledge Decision Framework]]
 ---
 
 # Frontier Exploration - Knowledge Re-Evaluation Triggers
 
-> When should you re-evaluate existing knowledge in your vault? What life or context changes should trigger a knowledge audit?
+> **DEPRECATED (2026-04-02):** This note has been merged into [[Frontier Exploration - Knowledge Decision Framework]], which provides a unified framework covering option value, context validity, and verification priority.
 
 ## The Problem
 

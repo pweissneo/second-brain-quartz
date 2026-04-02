@@ -65,7 +65,7 @@ If you can't write an explainable sentence, remove the link.
 
 ## Related
 
-- [[Anti-Pattern - Link Inflation]] — What to avoid (excessive linking)
+- [[Anti-Patterns in Knowledge Management]] — Common anti-patterns to avoid
 - [[Wikilinks]] — Technical implementation
 - [[Linking Principle]] — Foundational guidance
 - [[Graph Maintenance]]

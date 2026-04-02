@@ -1,8 +1,8 @@
 ---
-last-reviewed: 2026-03-21
-last-updated: 2026-03-25
-confidence: emerging
-lifecycle: seed-extension
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
+confidence: high
+lifecycle: resolved
 author-type: ai-assisted
 schema-version: "1.0"
 knowledge-source-type: analysis
@@ -14,6 +14,8 @@ tags:
   - exercise
   - health
   - frontier-exploration
+resolved: 2026-04-02
+resolution: "All 3 gaps now covered by Seed rules (lines 1474-1487, 1079-1107, 2429-2431)"
 ---
 
 # Frontier Exploration: Fitness and Exercise Knowledge Bases
@@ -51,40 +53,41 @@ Each works, but which works *for you* requires experimentation.
 
 ## Seed Rule Gaps Identified
 
-### Gap 1: User-Specific Applicability tagging
+### Gap 1: User-Specific Applicability tagging ✅ RESOLVED
 
-The Seed has `applicability: universal|context-specific` but doesn't have guidance for **person-specific knowledge** where the same advice has opposite validity for different people.
+The Seed now includes `individual-variation` tagging:
 
-**Needed rule:**
-- Rule: For knowledge domains with extreme individual variation (fitness, nutrition, learning styles), include explicit `applicability-scope` tagging distinguishing universal principles from person-specific adaptations.
-- Why: Without explicit scope tagging, AI agents cannot distinguish "this works for everyone" from "this works for specific body types/conditions."
-- Test: Can you identify which fitness notes are universally applicable vs. person-specific?
+**Seed Rule (lines 1474-1487):**
+- Rule: For domains with extreme individual variation (fitness, nutrition, learning styles, sensory preferences), add `individual-variation` tagging to distinguish person-specific knowledge from universal principles.
+- Why: In domains like fitness, nutrition, and personal productivity, the same advice can be correct for one person and incorrect for another. Without explicit individual-variation tagging, AI agents cannot distinguish "this works for everyone" from "this works for specific body types/conditions/preferences."
+- Test: For fitness/nutrition/productivity notes: (1) Does the note include `individual-variation: high` for person-dependent knowledge? (2) Are person-specific experiments documented separately from universal principles? (3) Can you identify which claims apply broadly vs. only to specific individuals?
 
-### Gap 2: Experimentation Tracking for Knowledge Validation
+### Gap 2: Experimentation Tracking for Knowledge Validation ✅ RESOLVED
 
-Fitness knowledge often requires *personal experimentation* to validate. The Seed has verification workflow but doesn't explicitly cover **systematic experimentation tracking**.
+**Seed Rule (lines 1079-1107):**
+- Rule: Track original knowledge provenance separately from sourced knowledge — for knowledge without external sources (original synthesis, personal experiments, untested hypotheses, intuition-based insights), use `source-origin` frontmatter to distinguish from external-sourced knowledge.
+- Why: Enables systematic tracking of personal experiments with structured format (hypothesis, variables, duration, outcome, conclusion) via `source-origin-type: empirical` and `test-protocol` fields.
+- Test: For notes without `source:` or `source-url:` frontmatter: (1) Is `source-origin: original` present? (2) Is `source-origin-type:` specified (synthesis|hypothesis|invention|intuition|experiential|empirical)? (3) Does confidence reflect the knowledge type?
 
-**Needed rule:**
-- Rule: For domains requiring personal experimentation (fitness, nutrition, productivity), track experiments with structured format: hypothesis, variables, duration, outcome, conclusion.
-- Why: Fitness knowledge is often wrong for your specific body. Systematic tracking distinguishes anecdotal from validated personal knowledge.
-- Test: Can you list 3+ personal fitness experiments with documented variables and outcomes?
+### Gap 3: Conflicting Expert Consensus ✅ RESOLVED
 
-### Gap 3: Conflicting Expert Consensus
-
-In fitness, experts actively contradict each other:
-- "Carbs are essential for performance" vs. "Ketogenic diets work for athletes"
-- "High protein is necessary" vs. "Protein requirements are exaggerated"
-- "Train to failure" vs. "Never train to failure"
-
-This is different from medical contradiction because both sides often have evidence.
-
-**Needed rule:**
+**Seed Rule (lines 2429-2431):**
 - Rule: For domains with active expert disagreement and conflicting studies, tag notes with `consensus-level: debated` AND include both major positions with evidence summary.
 - Why: Fitness domains often have legitimate debate. Presenting one side as consensus misleads users.
 - Test: For contested fitness claims, can you identify both major positions and the nature of disagreement?
 
+## Resolution Summary
+
+All three gaps identified in this frontier exploration are now resolved in the Seed:
+1. **Individual variation** → Seed lines 1474-1487 (`individual-variation` tagging)
+2. **Personal experimentation** → Seed lines 1079-1107 (`source-origin` frontmatter)
+3. **Consensus levels** → Seed lines 2429-2431 (`consensus-level` frontmatter)
+
+This frontier note served its purpose in identifying gaps that the Seed now addresses. The vault maintains zero gaps in the fitness domain area.
+
 ## Related Notes
 
+- [[AI-Assisted Knowledge Management Seed]] — Core rules covering all three gaps
 - [[Frontier Exploration - Personal Experimentation Results]]
 - [[Frontier Exploration - Knowledge Consensus Level Tracking]]
 - [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]]
