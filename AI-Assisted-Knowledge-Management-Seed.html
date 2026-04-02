@@ -443,6 +443,13 @@ Every rule is domain-agnostic — works for any topic.</p>
 <strong>Test:</strong> Count notes with verification-status: unverified. Divide by total note count. Is it &lt;30%? If above 40%, do not add new notes until verification catches up.
 <strong>Edge case:</strong> Domain-critical knowledge (safety procedures, legal requirements) may warrant exemption — tag with criticality: high to allow exception.
 <strong>Edge case:</strong> Staging notes (whisper/draft/probe) don’t count toward unverified — they have explicit uncertainty markers.</p>
+<p><strong>Edge case (stress test 2026-04-02):</strong> In automated vaults managed by AI agents (heartbeat-style automation), verification has different constraints:</p>
+<ul>
+<li><strong>Agent verification limitations:</strong> AI agents can verify source quality, consistency, and structural correctness but cannot perform embodied verification (taste food, test physical skills) or empirical validation (user testing, playtesting)</li>
+<li><strong>Verification-mode tagging:</strong> Distinguish what agents CAN verify vs. what requires human verification — use <code>verification-mode: agent-verifiable|human-required</code></li>
+<li><strong>Test for automated vaults:</strong> Can you identify which notes require human verification vs. agent verification? Are verification expectations appropriate to who/what performs them?</li>
+<li><strong>Implication:</strong> Verification ratios in automated vaults measure agent-verifiable knowledge only; human-verification-dependent notes may remain perpetually unverified by agents but are not indicators of vault health issues</li>
+</ul>
 <p><strong>Rule (NEW - 2026-04-01):</strong> Apply verification priority hierarchy when verification resources are limited — prioritize in order: (1) safety-critical knowledge, (2) decision-critical knowledge, (3) frequently-referenced knowledge, (4) verification cost-effective knowledge.
 <strong>Why:</strong> The Seed enforces verification ratios (50%+ within 30 days) and ceilings (pause at 40% unverified) but provides no guidance on <em>which</em> notes to verify first. Without priority hierarchy, AI agents verify randomly or default to easiest, wasting effort on low-value items while high-impact items remain unverified.
 <strong>Test:</strong> For your verification backlog: (1) Can you identify notes tagged <code>criticality: high</code> or <code>safety-critical: true</code>? (2) Do these have <code>verification-status: verified</code>? (3) Are hub notes (high backlink count) verified before peripheral notes? (4) Does your verification history prioritize in Level 1→4 order?</p>
