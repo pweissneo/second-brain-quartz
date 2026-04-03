@@ -150,7 +150,7 @@
     <lastmod>2026-04-01T05:36:55.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures-(MERGED)</loc>
-    <lastmod>2026-04-03T18:11:39.197Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.300Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures</loc>
     <lastmod>2026-04-01T05:36:55.000Z</lastmod>
@@ -438,7 +438,7 @@
     <lastmod>2026-03-28T09:12:26.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</loc>
-    <lastmod>2026-04-03T18:11:39.306Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.410Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Validity-Window-Handling</loc>
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
@@ -803,6 +803,9 @@
     <loc>https://quartz.jzhao.xyz/Handling-Temporal-Knowledge</loc>
     <lastmod>2026-03-22T07:16:10.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Heartbeat-Audit---Redundancy-Scan</loc>
+    <lastmod>2026-04-03T19:42:15.558Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Hub-Node-Creation</loc>
     <lastmod>2026-03-20T13:26:03.000Z</lastmod>
   </url><url>
@@ -1148,6 +1151,9 @@
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Evaluative-Knowledge-in-Creative-Domains</loc>
     <lastmod>2026-04-01T05:36:55.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Seed-Refinement---Fitness-Verification-Timeline-Integration</loc>
+    <lastmod>2026-04-03T19:42:15.692Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Interaction-Mode-Specification</loc>
     <lastmod>2026-04-03T12:23:10.000Z</lastmod>
   </url><url>
@@ -1166,8 +1172,11 @@
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Source-Type---Cross-Domain-Extensions</loc>
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Type-Taxonomy-Implementation</loc>
+    <lastmod>2026-04-03T19:42:15.700Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Learning-Progression-Organization</loc>
-    <lastmod>2026-04-03T18:11:39.590Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.702Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Lifecycle-Field-Extension</loc>
     <lastmod>2026-03-30T23:22:31.000Z</lastmod>
@@ -1248,10 +1257,10 @@
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</loc>
-    <lastmod>2026-04-03T18:11:39.620Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.729Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</loc>
-    <lastmod>2026-04-03T18:11:39.621Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.730Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Hierarchy---Physics-Edge-Cases</loc>
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
@@ -1266,7 +1275,7 @@
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</loc>
-    <lastmod>2026-04-03T18:11:39.627Z</lastmod>
+    <lastmod>2026-04-03T19:42:15.735Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Seed-Refinement---Version-Specific-Knowledge-Obsolescence-Handling</loc>
     <lastmod>2026-04-03T10:22:58.000Z</lastmod>
@@ -1618,6 +1627,9 @@
   </url><url>
     <loc>https://quartz.jzhao.xyz/Sources-Provenance-MCP</loc>
     <lastmod>2026-03-27T11:35:45.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Structural-Health-Check---2026-04-03</loc>
+    <lastmod>2026-04-03T19:42:15.867Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Systems-Over-Goals</loc>
     <lastmod>2026-03-22T09:40:28.000Z</lastmod>
