@@ -6,52 +6,52 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Rule Addition - Multi-Agent Knowledge Base Coordination</title>
+    <link>https://quartz.jzhao.xyz/Seed-Rule-Addition---Multi-Agent-Knowledge-Base-Coordination</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Rule-Addition---Multi-Agent-Knowledge-Base-Coordination</guid>
+    <description><![CDATA[ Seed Rule Addition: Multi-Agent Knowledge Base Coordination This note proposes integrating multi-agent coordination into the Seed based on gap analysis from the vault’s self-improvement cycle. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
+  </item><item>
     <title>Seed Refinement - Verification Ratio Adaptation for Creative Writing</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</guid>
     <description><![CDATA[ Seed Refinement: Verification Ratio Adaptation for Creative Writing Documenting a gap found during frontier exploration: the Seed’s verification-ratio rule (50% within 30 days) fails in creative writing domains due to inherently long feedback cycles and subjective verification criteria. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Foundational vs Hub</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy - Foundational vs Hub Distinction Date: 2026-04-03 Method: SEED_STRESS_TEST Source: Seed Stress Test - Verification Priority in Physics.md Rule Refined: Verification Priority Hierarchy (lines 404-441) Problem Identified The current Verification Priori... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Cross-Domain Synthesis</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy Cross-Domain Synthesis Synthesizing verification priority refinements from physics, woodworking, and cooking domain stress tests. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Learning Progression Organization</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Learning-Progression-Organization</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Learning-Progression-Organization</guid>
     <description><![CDATA[ Seed Refinement - Learning Progression Organization Context The Seed Gap “Learning Progression Organization” identified that the Seed lacked an explicit rule for organizing learning progressions in learning-focused knowledge bases. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Type and Process Type Taxonomy Interaction</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Type and Process Type Interaction Gaps The Gap The Seed now has two taxonomies: Knowledge Type Taxonomy (added 2026-04-03) — classifies notes by primary knowledge type: Procedural, Conceptual, Factual, Experiential, Relational, Meta-Knowledge Process Type Taxonomy — c... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Competing Organizational Structures (MERGED)</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures-(MERGED)</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures-(MERGED)</guid>
     <description><![CDATA[ Frontier Exploration - Competing Organizational Structures (SUPERSEDED) When the same knowledge can be organized in multiple valid ways, how should an AI agent choose? NOTE: This note has been merged into Frontier Exploration - Comparative Knowledge Structures. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:43:10 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 17:51:34 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</guid>
     <description><![CDATA[ Frontier Exploration - Cross-Domain Knowledge Synthesis This note explores a gap in the current Seed: how to handle knowledge that exists at the intersection of multiple domains where different Seed rules may apply. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 12:23:10 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - Verification Impractical Knowledge</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Verification-Impractical-Knowledge</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Verification-Impractical-Knowledge</guid>
-    <description><![CDATA[ Frontier Exploration - Verification Impractical Knowledge When building a knowledge base in domains where verification is expensive, dangerous, or simply impractical, how should an AI agent decide what to capture and how to flag knowledge appropriately? The Problem The Seed’s verification rules assu... ]]></description>
     <pubDate>Fri, 03 Apr 2026 12:23:10 GMT</pubDate>
   </item><item>
     <title>Seed Development Hub</title>
