@@ -10,31 +10,37 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</guid>
     <description><![CDATA[ Seed Refinement: Verification Ratio Adaptation for Creative Writing Documenting a gap found during frontier exploration: the Seed’s verification-ratio rule (50% within 30 days) fails in creative writing domains due to inherently long feedback cycles and subjective verification criteria. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:04:06 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Foundational vs Hub</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy - Foundational vs Hub Distinction Date: 2026-04-03 Method: SEED_STRESS_TEST Source: Seed Stress Test - Verification Priority in Physics.md Rule Refined: Verification Priority Hierarchy (lines 404-441) Problem Identified The current Verification Priori... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:04:06 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Cross-Domain Synthesis</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy Cross-Domain Synthesis Synthesizing verification priority refinements from physics, woodworking, and cooking domain stress tests. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:04:06 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Learning Progression Organization</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Learning-Progression-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Learning-Progression-Organization</guid>
+    <description><![CDATA[ Seed Refinement - Learning Progression Organization Context The Seed Gap “Learning Progression Organization” identified that the Seed lacked an explicit rule for organizing learning progressions in learning-focused knowledge bases. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Knowledge Type and Process Type Taxonomy Interaction</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</guid>
     <description><![CDATA[ Frontier Exploration: Knowledge Type and Process Type Interaction Gaps The Gap The Seed now has two taxonomies: Knowledge Type Taxonomy (added 2026-04-03) — classifies notes by primary knowledge type: Procedural, Conceptual, Factual, Experiential, Relational, Meta-Knowledge Process Type Taxonomy — c... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:04:05 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Competing Organizational Structures (MERGED)</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures-(MERGED)</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Competing-Organizational-Structures-(MERGED)</guid>
     <description><![CDATA[ Frontier Exploration - Competing Organizational Structures (SUPERSEDED) When the same knowledge can be organized in multiple valid ways, how should an AI agent choose? NOTE: This note has been merged into Frontier Exploration - Comparative Knowledge Structures. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 16:04:05 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 16:11:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Mode-Specification</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Interaction-Mode-Specification</guid>
     <description><![CDATA[ Seed Gap - Interaction Mode Specification Gap Description The Seed has rules for context frames (purpose/audience: patient-education, clinical, tutorial, reference) but lacks explicit rules for interaction modes — how knowledge is consumed and what structural format it needs for effective use. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 12:23:10 GMT</pubDate>
-  </item><item>
-    <title>Seed Refinement - Interaction Mode Specification</title>
-    <link>https://quartz.jzhao.xyz/Seed-Refinement---Interaction-Mode-Specification</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Interaction-Mode-Specification</guid>
-    <description><![CDATA[ Seed Refinement - Interaction Mode Specification Refinement Target Extends the Knowledge Type Taxonomy rule (Seed lines 68-98) to add interaction mode as a complementary dimension to knowledge type. ]]></description>
     <pubDate>Fri, 03 Apr 2026 12:23:10 GMT</pubDate>
   </item>
     </channel>
