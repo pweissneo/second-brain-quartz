@@ -6,11 +6,17 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Refinement - Verification Ratio Adaptation for Creative Writing</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</guid>
+    <description><![CDATA[ Seed Refinement: Verification Ratio Adaptation for Creative Writing Documenting a gap found during frontier exploration: the Seed’s verification-ratio rule (50% within 30 days) fails in creative writing domains due to inherently long feedback cycles and subjective verification criteria. ]]></description>
+    <pubDate>Fri, 03 Apr 2026 13:52:22 GMT</pubDate>
+  </item><item>
     <title>Seed Refinement - Verification Priority Foundational vs Hub</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy - Foundational vs Hub Distinction Date: 2026-04-03 Method: SEED_STRESS_TEST Source: Seed Stress Test - Verification Priority in Physics.md Rule Refined: Verification Priority Hierarchy (lines 404-441) Problem Identified The current Verification Priori... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 13:23:17 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 13:52:22 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Anti-Pattern---Missing-Negative-Knowledge</guid>
     <description><![CDATA[ Anti-Pattern: Missing Negative Knowledge DEPRECATED (2026-04-02): This anti-pattern has been merged into Best Practice - Balanced Capture. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 10:22:58 GMT</pubDate>
-  </item><item>
-    <title>Anti-Pattern - Single-Source Dependency</title>
-    <link>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</link>
-    <guid>https://quartz.jzhao.xyz/Anti-Pattern---Single-Source-Dependency</guid>
-    <description><![CDATA[ Anti-Pattern: Single-Source Dependency DEPRECATED (2026-04-02): This anti-pattern has been merged into Best Practice - Multi-Source Synthesis. ]]></description>
     <pubDate>Fri, 03 Apr 2026 10:22:58 GMT</pubDate>
   </item>
     </channel>
