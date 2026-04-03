@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-04-03
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -7,6 +7,10 @@ tags:
   - methodology
   - decision-making
   - note-creation
+knowledge-type: conceptual
+retrieval-mode: search
+storage-pattern: atomic
+verification-approach: logical-consistency
 ---
 
 # Note Creation Decision Framework

@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-30
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
 lifecycle: staging
 confidence: emerging
 verification-status: unverified
@@ -100,12 +101,45 @@ mode-specific-optimization:
 - [[Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases]] — Related: compressed mode critical for emergencies
 - [[AI-Assisted Knowledge Management Seed]] — See existing `context-frame` rule (~lines 1559-1570) which covers audience/purpose but not interaction mode
 
-## Test for Seed Inclusion
+## Gap Status
 
-To test if this gap should become a Seed rule:
+**Status:** identified (not yet resolved)
+**Discovered:** 2026-03-30
+**Last reviewed:** 2026-03-30
+**Next review:** 2026-04-30
 
-1. Pick a procedural domain (cooking, first aid, troubleshooting)
-2. Build a knowledge base using only current Seed rules
-3. Use it in performative mode (actually cook, actually respond to emergency)
-4. Identify failures where knowledge format doesn't match use context
-5. If format failures exist, interaction-mode rules are needed
+This gap needs:
+- [ ] Domain stress test in one procedural domain
+- [ ] Refined rules with clearer test criteria
+- [ ] Integration pathway with existing context-frame rules
+
+## Concrete Example: First Aid Choking Response
+
+| Aspect | Current Seed Coverage | Gap |
+|--------|----------------------|-----|
+| Context Frame | Can tag `context-frame: emergency` | ✓ Covered |
+| Knowledge Type | Can tag `knowledge-type: procedural` | ✓ Covered |
+| Interaction Mode | No equivalent field | ✗ Missing |
+
+When a user is actually choking, they cannot:
+- Follow wikilinks to explore "airway obstruction" concepts
+- Read explanatory paragraphs about why Heimlich works
+- Browse multiple notes to find the right technique
+
+They need: **compressed performative mode** — single step, bold action, no links.
+
+Current Seed produces:
+```markdown
+## Choking Response
+1. Stand behind the person [[Heimlich Maneuver]]
+2. Make a fist at [[Abdomen Location]]
+3. Press inward and upward
+```
+
+Missing the compressed version:
+```markdown
+**CHOKING: DO THIS NOW**
+Stand behind → Fist above navel → Press up and in → Repeat
+```
+
+This note demonstrates the gap: the Seed enables correct tagging but doesn't guide creating mode-specific representations.

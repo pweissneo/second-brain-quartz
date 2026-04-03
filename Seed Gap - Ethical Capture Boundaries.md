@@ -1,55 +1,49 @@
 ---
-last-updated: 2026-04-02
-last-reviewed: 2026-04-02
+last-updated: 2026-04-03
+last-reviewed: 2026-04-03
 author-type: ai-assisted
 lifecycle: seed-gap
-verification-status: unverified
-confidence: emerging
+verification-status: partially-verified
+confidence: high
 evidence-tier: reasoning-by-analogy
 knowledge-source-type: analysis
 analysis-type: deductive
 applicability: universal
 recurring: false
 utility-type: potential
-gap-status: proposed
-gap-priority: medium
-gap-type: seed-missing
+gap-status: partially-resolved
+gap-priority: low
+gap-type: seed-incomplete
 discovered: 2026-04-02
 analyzed: 2026-04-02
 proposed: 2026-04-02
-analysis-notes: "Gap is well-formed with proposed rules in Rule/Why/Test format. The Seed lacks dedicated, prominent ethical capture boundaries - existing guidance is scattered. Ready for Seed integration consideration."
+resolution-date: 2026-04-03
+resolution-note: "Seed already contains ethical capture guidance (privacy, verification-avoid, consent, ethical-dimension tagging). Gap is for consolidation - request is valid but redundant with existing scattered guidance."
 ---
 
-# Seed Gap - Ethical Capture Boundaries
+# Seed Gap - Ethical Capture Boundaries (PARTIALLY RESOLVED)
 
-> What knowledge should an AI agent explicitly refuse to capture, regardless of utility?
+> Status: PARTIALLY RESOLVED — The Seed already contains ethical capture guidance; this gap is for consolidation rather than missing content.
 
-## The Gap
+## Current Seed State
 
-The Seed addresses:
-- What knowledge to capture (priority signals, diminishing returns)
-- What knowledge to exclude for utility (ephemeral, public utility, duplicates)
-- Vault boundaries and exclusion criteria
-- Sensitive knowledge handling
+The Seed DOES contain ethical capture boundaries:
 
-But the Seed lacks explicit guidance on:
-- **Ethical exclusions** — knowledge that should never be captured regardless of value
-- **Consent-based capture** — knowledge about living individuals
-- **Attribution obligations** — when capturing others' ideas requires credit
-- **Harmful technique documentation** — how to handle "how-to" harmful content
+| Topic | Location | Coverage |
+|-------|----------|----------|
+| Privacy for living individuals | Line ~200 | Full rule with consent/exclusion test |
+| Verification-avoid | Line ~2850 | Dangerous/illegal/unethical/irreversible |
+| Ethical dimension tagging | Line ~650 | For interpersonal/social skill knowledge |
+| Consent documentation | Line ~720 | Conversation-based notes |
+| Sensitive knowledge | Line ~210 | Exposure/harm assessment |
 
-## Why This Matters
+**Finding:** The claim that "the Seed lacks dedicated, prominent ethical capture boundaries" is INCORRECT. The Seed has extensive guidance scattered across multiple sections.
 
-An AI bootstrapping a knowledge base using only current Seed rules would:
-- ✓ Know to exclude ephemeral temporal knowledge
-- ✓ Know to exclude public utility knowledge
-- ✓ Know to apply sensitivity classification to dual-use knowledge
-- ✗ Not know that capturing "how to harm someone" is inherently problematic
-- ✗ Not know whether it's appropriate to document private conversations about living people
-- ✗ Not know when attribution is required vs. optional
-- ✗ Not have a framework for "irreducible harm" — knowledge that has no defensible use case
+## What This Gap Actually Identifies
 
-This creates risk: a zealous AI optimizing for "capture everything useful" could capture knowledge that causes harm, violates privacy, or creates liability.
+The valid insight is that ethical guidance is SCATTERED rather than consolidated into one prominent section. An AI agent would need to know to look in multiple places for ethical rules.
+
+**Remaining gap:** Consolidation request - create a unified "Ethical Capture Boundaries" section in the Seed that references all existing ethical rules.
 
 ## Proposed Rule
 

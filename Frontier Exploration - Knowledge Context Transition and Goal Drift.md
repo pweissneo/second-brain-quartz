@@ -1,7 +1,7 @@
 ---
-gap-status: analyzed
+gap-status: proposed
 gap-priority: high
-gap-phase: analysis
+gap-phase: implementation
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-04-02
@@ -9,6 +9,12 @@ domain: knowledge-management
 lifecycle: seed-gap
 last-analyzed: 2026-04-02
 analysis-conclusion: "Seed covers staleness/obsolescence/context-shift but lacks goal-transition handling. This is distinct and worth adding as a Seed extension."
+proposed-rule: |
+  **Rule:** Track goal/context dependencies in purpose-specific knowledge — when the user's goals change, apply goal-transition handling.
+  
+  **Why:** Without goal tracking, AI agents cannot distinguish between stale (time), obsolete (reality), or goal-transitioned (priorities changed) knowledge. Goal-transitioned knowledge wastes maintenance effort and creates retrieval noise.
+  
+  **Test:** For purpose-specific notes: (1) Can you identify the goal that made this relevant? (2) Is there mechanism to detect goal changes? (3) Does vault reflect current vs abandoned goals? (4) Is there a goal-transition workflow?
 ---
 
 # Frontier Exploration - Knowledge Context Transition and Goal Drift

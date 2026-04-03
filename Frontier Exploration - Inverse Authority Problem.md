@@ -92,7 +92,7 @@ synthesis-vs-authority:
 ## See Also
 
 - [[Frontier Exploration - Personal Experience vs Published Knowledge Conflicts]] — addresses personal vs. published, but not synthesis vs. single authority
-- [[Seed Stress Test - Intuition vs Analysis Knowledge]] — related but focuses on how knowledge was derived, not when to override
+- [[Frontier Exploration - Intuition vs Analysis Knowledge]] — related but focuses on how knowledge was derived, not when to override
 - [[Handling Contradictory Sources]] — how to handle conflicts between multiple sources
 
 ## Status

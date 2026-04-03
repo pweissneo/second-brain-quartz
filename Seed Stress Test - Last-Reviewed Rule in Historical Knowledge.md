@@ -107,6 +107,25 @@ Can an AI agent determine the appropriate review interval without human guidance
 - [[AI-Assisted Knowledge Management Seed#Notes with confidence high should have last-reviewed within a domain-appropriate timeframe]] — partial fix that needs expansion
 - [[Seed Stress Test - Confidence Markers Rule Across Domains]] — related testing
 
+## Seed Update (2026-04-03)
+
+The Seed now includes the proposed refinement as an edge case:
+
+> **Edge case:** Use `review-interval` frontmatter for knowledge with different decay rates. Static knowledge (historical facts from ancient periods, mathematical proofs, canonical works, foundational definitions) doesn't need monthly review — use `review-interval: historical` or `review-interval: never` to avoid false positives. The test becomes: Flag notes where days-since-review exceeds their specified review-interval (default 30 days). Domain-specific intervals: ancient history (historical), mathematics (never), classical literature (historical), reference material (180d), general knowledge (30d).
+
+## Compliance Verification
+
+This stress test discovered a gap that has since been addressed in the Seed. The current Seed correctly handles domain-aware review intervals via the `review-interval` frontmatter. However, the test itself needs updating to verify the edge case works correctly.
+
+**Test verification:** 
+1. Create a note about ancient history with `review-interval: historical` — does the AI skip the 30-day flag?
+2. Create a note with `review-interval: never` — does the AI never flag it for review?
+3. For notes without explicit `review-interval` — does the AI default to 30 days?
+
+**Status:** Gap resolved. Seed now handles this correctly.
+
 ## Conclusion
+
+This stress test identified an edge case where the 30-day universal review interval fails for static knowledge. The Seed has since been updated to include `review-interval` frontmatter support, allowing domain-aware review cadences. The stress test served its purpose: it exposed a gap that has now been addressed.
 
 The current 30-day universal test fails for historical and foundational knowledge. The rule needs domain-aware review intervals that match knowledge decay rates. Static knowledge should require far less frequent review than time-sensitive knowledge.

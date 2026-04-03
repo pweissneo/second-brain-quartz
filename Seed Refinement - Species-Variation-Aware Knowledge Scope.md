@@ -20,6 +20,8 @@ links-to:
 
 # Seed Refinement - Species-Variation-Aware Knowledge Scope
 
+This refinement builds on the [[Knowledge Base Schema Design]] principles for scope metadata, extending them for [[Frontier Exploration - Multi-Modal Knowledge]] domains like veterinary medicine.
+
 ## Trigger
 
 Stress test analysis of `Seed Stress Test - Veterinary Medicine Knowledge Base.md` revealed that the Seed's `scope` metadata is insufficient for domains where knowledge validity varies across species, variants, or subtypes.

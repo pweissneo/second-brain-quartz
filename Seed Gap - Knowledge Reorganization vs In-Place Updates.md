@@ -1,10 +1,18 @@
 ---
-last-reviewed: 2026-03-24
-last-updated: 2026-03-24
-lifecycle: seed-extension
-confidence: emerging
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
+lifecycle: seed-gap
+confidence: established
 author-type: ai-assisted
-tags: [knowledge-reorganization, vault-maintenance, refactoring, structure-evolution]
+tags:
+  - seed-gap
+  - knowledge-reorganization
+  - vault-maintenance
+gap-type: seed-missing
+gap-status: resolved
+resolved-by: Seed integration 2026-04-03
+discovered: 2026-03-24
+resolved: 2026-04-03
 schema-version: 1.0
 ---
 
@@ -179,9 +187,3 @@ Can you:
 5. Track outcomes to learn from reorganization decisions?
 
 If yes to all 5, the gap is closed.
-
-## See Also
-
-- [[Frontier Exploration - Knowledge Reorganization Strategies]]
-- [[Seed Stress Test - Structure Evolution in Mature Vaults]]
-- [[Graph Maintenance]] — Current structural health rules

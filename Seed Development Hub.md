@@ -20,8 +20,6 @@ This hub organizes notes about Seed rules, gaps identified, stress tests perform
 Notes documenting gaps in the Seed that need to be addressed.
 
 - [[Seed Gap - AI Agent Behavior Patterns in Knowledge Management]]
-- [[Seed Gap - AI-Generated Content Provenance and Hallucination Detection]] ⚠️ DEPRECATED (redundant with AI-Synthesized Knowledge Provenance)
-- [[Seed Gap - AI-Synthesized Knowledge Provenance]] ✅ RESOLVED
 - [[Seed Gap - Access-Pattern-Aware Knowledge Organization]]
 - [[Seed Gap - Analysis-Sensitive Knowledge]]
 - [[Seed Gap - Collaborative Knowledge Base Governance]]
@@ -33,7 +31,6 @@ Notes documenting gaps in the Seed that need to be addressed.
 - [[Seed Gap - Domain-Velocity Confidence Decay]]
 - [[Seed Gap - Dual-Nature Domain Handling]]
 - [[Seed Gap - Empirically Validatable Knowledge]]
-- [[Seed Gap - Equipment Scope in Verification Status]] ✅ MERGED → [[Seed Refinement - Equipment Scope in Verification Status]]
 - [[Seed Gap - Evolving Terminology in Fast-Moving Domains]]
 - [[Seed Gap - Functional Threshold for Knowledge Bases]]
 - [[Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge]]
@@ -60,7 +57,16 @@ Notes documenting gaps in the Seed that need to be addressed.
 - [[Seed Gap - Topic Splitting Decision Framework]]
 - [[Seed Gap - Vault Self-Monitoring and Health Intelligence]]
 - [[Seed Gap - Verification Timeline Management]]
+
+### Deprecated Seed Gaps
+Deprecated Seed Gaps have been resolved or merged. See individual notes for resolution details.
+
+- [[Seed Gap - AI-Generated Content Provenance and Hallucination Detection]] ✅ RESOLVED (redundant with AI-Synthesized Knowledge Provenance)
+- [[Seed Gap - Domain-Level Resource Allocation]] ✅ MERGED → [[Seed Gap - Knowledge Domain Allocation Strategy]]
+- [[Seed Gap - Knowledge Deprecation and Obsolescence Management]] ✅ RESOLVED (Seed updated 2026-04-02)
+- [[Seed Gap - Original Knowledge Citation Requirements]] ✅ RESOLVED (Seed updated 2026-03-31)
 - [[Seed Gap - Verification Timeline for High-Iteration Domains]] ✅ MERGED → [[Seed Gap - Verification Timeline Management]]
+- [[Seed Gap - Equipment Scope in Verification Status]] ✅ MERGED → [[Seed Refinement - Equipment Scope in Verification Status]]
 
 ### Seed Refinements
 Notes refining specific Seed rules based on domain testing.
@@ -85,6 +91,8 @@ Notes refining specific Seed rules based on domain testing.
 - [[Seed Refinement - Sparse Knowledge Epistemic Markers]]
 - [[Seed Refinement - Temporal Validity Bounds Rule]]
 - [[Seed Refinement - Unified Diminishing Returns Rule]]
+- [[Seed Refinement - Verification Method Availability Tracking]] — RESOLVED (2026-04-03)
+- [[Seed Refinement - Knowledge Presentation Calibration]] — PROPOSED (2026-04-03)
 - [[Seed Refinement - Vault Guidance Taxonomy]]
 
 ### Seed Stress Tests

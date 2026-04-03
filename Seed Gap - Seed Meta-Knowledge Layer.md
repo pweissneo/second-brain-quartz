@@ -1,13 +1,13 @@
 ---
-last-reviewed: 2026-04-02
 lifecycle: seed-gap
 confidence: medium
 author-type: ai-assisted
-gap-status: identified
+gap-status: proposed
 gap-priority: medium
 gap-type: seed-missing
 discovered: 2026-04-02
-gap-phase: discovery
+gap-phase: implementation
+last-reviewed: 2026-04-03
 analysis-notes: "While Section 9 (Self-Improvement) covers vault-level improvement, it doesn't address SEED-SPECIFIC lifecycle management - how to track, audit, consolidate, and evolve the Seed's rules as a distinct meta-layer. General vault self-improvement ≠ Seed rule lifecycle management."
 tags:
   - seed-gap
@@ -82,9 +82,34 @@ The Seed has grown organically from ~50 rules to 100+ rules over months. Without
 
 ## Gap Status
 
-**Status:** identified  
+**Status:** analyzed  
 **Priority:** medium  
-**Next step:** Move to "analyzed" phase with specific implementation approach
+**Gap-phase:** analysis
+**Analysis completed:** 2026-04-02
+
+### Implementation Approach
+
+To move from "analyzed" to "proposed", the following implementation is needed:
+
+1. **Provenance tracking:** Add frontmatter fields to each Seed rule:
+   - `rule-added: YYYY-MM-DD`
+   - `rule-trigger: gap-analysis|stress-test|conflict|manual`
+   - `rule-status: active|deprecated|superseded`
+
+2. **Quarterly audit script:** Create automated check for:
+   - Rules with >80% keyword overlap (consolidation candidates)
+   - Contradictory rule pairs (detected via semantic similarity)
+   - Rules unchanged for >180 days (staleness flag)
+
+3. **Consolidation criteria:** Merge when:
+   - Two rules cover identical use cases
+   - One rule's test is subset of another's
+   - Domain-specific extensions make general rule redundant
+
+4. **Deprecation pathway:** Follow note lifecycle but add:
+   - Migration target (which rule replaces it)
+   - Deprecation date
+   - Sunset timeline (when fully removed from Seed)
 
 ---
 

@@ -66,6 +66,45 @@ author-type: ai-assisted
 **Edge case (stress test 2026-03-30):** For safety-critical procedural knowledge (aviation checklists, emergency medicine protocols, critical infrastructure operations), keep complete procedures together even if >300 words. Split ONLY if parts are independently executable AND safety-independent. The risk of fragmented safety procedures outweighs reusability benefits.
 **Edge case:** Recipes, code samples, and technical specs must stay together for usability, even when >300 words. Splitting them breaks the workflow.
 
+**Rule (NEW - 2026-04-03):** Define and apply a Knowledge Type Taxonomy — classify every note by its primary knowledge type and apply type-specific storage, retrieval, and verification rules.
+**Why:** Knowledge types are fundamental — they determine how knowledge should be captured, organized, verified, and retrieved. Without explicit type taxonomy, AI agents must infer these distinctions imperfectly, leading to suboptimal knowledge base structure. Type-aware organization enables retrieval optimization for realistic use cases.
+**Test:** (1) Can you classify each note by knowledge type (procedural/conceptual/factual/experiential/relational/meta)? (2) Does each type follow type-specific organization? (3) Can you answer "what knowledge type answers this question?" for 5 common queries? (4) Are retrieval paths optimized for the knowledge type's natural query pattern?
+
+**Knowledge Type Definitions:**
+| Type | Description | Storage Pattern | Retrieval Mode | Verification Approach |
+|------|-------------|-----------------|---------------|---------------------|
+| Procedural | How to do something | Sequential, complete workflows | Sequential browse | Empirical (does it work?) |
+| Conceptual | Understanding why | Atomic, highly linked | Cross-reference search | Logical consistency |
+| Factual | Discrete facts/data | Compact, reference-linked | Exact-match search | Source reliability |
+| Experiential | Personal experience | Context-rich, reflection-linked | Browse + temporal | Self-consistency |
+| Relational | Relationships between things | Network, bidirectional links | Graph traversal | Logical relationships |
+| Meta-Knowledge | Knowledge about knowledge | Principles + examples | Hybrid search+browse | Self-referential |
+
+**Implementation:**
+```yaml
+knowledge-type: procedural|conceptual|factual|experiential|relational|meta
+retrieval-mode: search|browse|hybrid
+storage-pattern: atomic|sequential|compact|network
+verification-approach: empirical|source|social|self-consistency
+```
+
+**Query Type Recognition:**
+```yaml
+query-patterns:
+  "how do I X": procedural
+  "why does X": conceptual  
+  "what is X": factual
+  "what happened when I X": experiential
+  "X vs Y": relational
+  "how to learn X": meta
+```
+
+**Multi-type notes:** Primary type determines storage; secondary types get explicit sections.
+**Type migration:** Track `knowledge-type-history` in frontmatter when type changes.
+**Domain-specific types:** Extend base taxonomy with domain types when needed.
+
+**See also:** [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]]
+
 **Rule:** Organize creative composition knowledge (recipe design, artistic creation, creative writing craft) as principles connected to examples, not as standalone procedures.
 **Why:** Composition knowledge is about relationships between elements that can be recombined. Organizing by principles creates reusable frameworks; organizing by specific outputs creates collections that don't transfer. Technical procedures stay together as atomic units; composition principles should be broken into reusable components.
 **Test:** For notes about creative composition: (1) Does this express a principle that could apply to multiple creations? (2) Does it connect to examples showing the principle in action? (3) Could someone use this to create something new? If yes to 1 and 2, organize as principle+examples; if yes to 3, it's a reusable component, not a single-use procedure.
@@ -395,6 +434,12 @@ export-excluded: true  # exclude from vault exports
 **Edge case:** Domain-critical knowledge (safety procedures, legal requirements) may warrant exemption — tag with criticality: high to allow exception.
 **Edge case:** Staging notes (whisper/draft/probe) don't count toward unverified — they have explicit uncertainty markers.
 
+**Edge case (stress test 2026-04-02):** In automated vaults managed by AI agents (heartbeat-style automation), verification has different constraints:
+- **Agent verification limitations:** AI agents can verify source quality, consistency, and structural correctness but cannot perform embodied verification (taste food, test physical skills) or empirical validation (user testing, playtesting)
+- **Verification-mode tagging:** Distinguish what agents CAN verify vs. what requires human verification — use `verification-mode: agent-verifiable|human-required`
+- **Test for automated vaults:** Can you identify which notes require human verification vs. agent verification? Are verification expectations appropriate to who/what performs them?
+- **Implication:** Verification ratios in automated vaults measure agent-verifiable knowledge only; human-verification-dependent notes may remain perpetually unverified by agents but are not indicators of vault health issues
+
 **Rule (NEW - 2026-04-01):** Apply verification priority hierarchy when verification resources are limited — prioritize in order: (1) safety-critical knowledge, (2) decision-critical knowledge, (3) frequently-referenced knowledge, (4) verification cost-effective knowledge.
 **Why:** The Seed enforces verification ratios (50%+ within 30 days) and ceilings (pause at 40% unverified) but provides no guidance on *which* notes to verify first. Without priority hierarchy, AI agents verify randomly or default to easiest, wasting effort on low-value items while high-impact items remain unverified.
 **Test:** For your verification backlog: (1) Can you identify notes tagged `criticality: high` or `safety-critical: true`? (2) Do these have `verification-status: verified`? (3) Are hub notes (high backlink count) verified before peripheral notes? (4) Does your verification history prioritize in Level 1→4 order?
@@ -463,6 +508,29 @@ confidence: speculative
 - **Philosophical**: Claims that are framework-dependent rather than empirically resolvable
 **Note:** This is distinct from unverified — unverified means "not yet checked but checkable," unverifiable means "cannot be checked by any known method." Use `verification-pathway: none` for unverifiable knowledge, not verification-status fields.
 **See also:** [[Frontier Exploration - Unverifiable Knowledge Handling]]
+
+**Rule (NEW - 2026-04-03):** Track verification method availability separately from verification status — distinguish between knowledge that cannot be verified (method doesn't exist) vs. knowledge where the verification method exists but is currently unavailable (equipment missing, access revoked, credentials expired, verification window missed).
+**Why:** The Seed covers unverifiable knowledge but not verification method unavailability. When knowledge is accurate but the verifier lacks access to the verification method, treating it as "unverified" creates different maintenance actions than "unverifiable." The former can be verified later when access is restored; the latter may never be verifiable. This distinction enables appropriate tracking and future verification planning.
+**Test:** Can you categorize each unverified note as: (1) unverifiable (method doesn't exist), (2) verification method unavailable (method exists but currently inaccessible), or (3) verification pending (method available, just not yet done)? For category 2, is there an alternative verification method documented?
+**Implementation:** Use frontmatter:
+```yaml
+verification-status: unverified|verified|unverifiable|method-unavailable
+verification-method-unavailable-since: 2026-04-03
+verification-method-unavailable-reason: equipment-missing|access-revoked|credentials-expired|window-missed
+verification-method-alternatives: ["alternative-method-1", "alternative-method-2"]
+```
+**Verification workflow update:**
+1. Assess: Can this be verified? Through what method?
+2. Check availability: Is the method currently accessible?
+3. Tag: Set appropriate verification-status and availability
+4. Execute: Perform verification when method becomes available
+5. Update: Change status based on result
+
+**Edge cases:**
+- **Partial availability:** Some verification methods available, others not. Tag with `verification-methods:` array showing each method's status.
+- **Time-bounded unavailability:** Access might return at known time. Add `verification-method-available-when: 2026-05-01` (e.g., equipment returns from repair).
+- **Alternative methods exist:** When primary method unavailable but alternatives exist. Document alternatives in frontmatter.
+**See also:** [[Seed Refinement - Verification Method Availability Tracking]]
 
 **Rule (NEW - 2026-03-26):** For knowledge claims requiring external tools or specialized equipment to verify (not code execution, but physical measurement devices, test kits, or expert consultation), tag with `verification-mode: tool-dependent` and document the required verification tool.
 **Why:** The Seed covers tool-executable knowledge (running code/commands) but misses knowledge requiring physical tools to verify (water quality test, multimeter, lab equipment, expert eye). Without explicit tagging, AI agents may mark knowledge as "source verified" when the source itself might be wrong (counterfeit product, mislabeled substance, corrupted file). Tool-dependent verification requires external equipment not part of the vault.
@@ -1446,6 +1514,40 @@ exclusion-categories:
 **Rule:** Evaluate multi-vault architecture when vaults exceed 200 notes — consider splitting when purposes, audiences, or conventions diverge significantly.
 **Why:** Beyond 200 notes, reorganization becomes expensive. It's cheaper to split early based on explicit criteria than migrate later. Different purposes, audiences, or required conventions signal that separate vaults may serve better than one mega-vault.
 **Test:** If vault exceeds 200 notes: (1) Can you state a single unified purpose? (2) Do all notes serve that purpose? (3) Are there domains that require different conventions? (4) Do different audiences need different structures? Split if yes to 3-4; reconsider if no to 1-2.
+
+**Rule:** Assess reorganization need when structural symptoms appear — track hop depth trends, hub utilization, link coherence, and category relevance quarterly.
+**Why:** Without explicit reorganization assessment, structural debt accumulates until it becomes paralyzing. Explicit triggers make reorganization proactive rather than reactive. Structural decay is silent unlike broken links or missing frontmatter.
+**Test:** Can you identify 3+ structural symptoms that would trigger reorganization assessment? Do you track structural health over time, not just current state?
+**Trigger thresholds:** Hop depth trend increased >1 hop over 6 months; Hub utilization dropped >30%; Link coherence score declined significantly; Category no longer reflects current interests.
+
+**Rule:** Use reorganization scope to determine approach — categorize as local (1-3 hubs), regional (3-10 hubs), or global (entire structure).
+**Why:** Not all reorganization is equal. Matching approach to scope prevents over-reaction to local problems and under-reaction to systemic issues.
+**Test:** For reorganization need, can you categorize scope as local/regional/global? Does your approach match the scope?
+**Approach mapping:** Local scope → gradual migration, one hub at a time; Regional scope → plan migration sequence, execute in phases; Global scope → consider rebuild instead (full reorganization rarely worth the cost).
+
+**Rule:** Calculate reorganization cost before committing — estimate notes affected, links to rewire, time required, and rollback complexity.
+**Why:** Reorganization has a cost in broken links, time, and rollback risk. Without explicit cost calculation, AI agents either avoid necessary reorganization or perform unnecessary reorganization.
+**Test:** Before reorganizing, can you estimate: (1) notes affected, (2) links to rewire, (3) time required, (4) rollback complexity? Is cost < benefit threshold before proceeding?
+**Cost-benefit formula:** Cost = notes_affected × avg_links_per_note × time_to_rewire; Benefit = expected_improvement_in_navigability × expected_usage_frequency; Proceed if benefit > cost × safety_factor (1.5).
+
+**Rule:** Prefer gradual reorganization for local scope — evolve structure piece by piece, maintain dual-link period, remove old only after 30+ day validation.
+**Why:** Radical reorganization creates large commits, risks broken links, and makes rollback difficult. Gradual reorganization allows learning, reduces risk, and maintains vault continuity.
+**Test:** For local-scope reorganization, does your approach evolve structure over time rather than in one pass? Do you maintain backward compatibility during migration?
+**Implementation:** Create new structure alongside old; Add dual-link period (links to both old and new locations); Monitor usage to verify new structure works; Remove old structure only after validation period (30+ days).
+
+**Rule:** Track structural decisions as explicit knowledge — use frontmatter to document rationale, scope, and outcomes for reorganization decisions.
+**Why:** Reorganization decisions are structural trade-offs. Without explicit capture, the vault cannot learn from structural choices or review them later.
+**Test:** Can you identify 3+ reorganization decisions made in your vault? Are they documented with rationale, scope, and outcomes?
+**Implementation:** Use frontmatter:
+```yaml
+structural-decision: true
+reorganization-type: local|regional|global
+scope: affected_hubs_or_notes
+decision-rationale: why_this_approach
+decision-date: 2026-04-03
+rollback-plan: how_to_reverse_if_needed
+outcome-tracked: true|false
+```
 
 **Rule:** Use cross-vault links sparingly — if >1% of links cross vaults, consider merging or clarifying boundaries.
 **Why:** Cross-vault links are harder to maintain, don't benefit from shared conventions, and often signal unclear vault boundaries. Most knowledge should live in one vault.

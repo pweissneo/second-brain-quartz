@@ -1,4 +1,5 @@
 ---
+last-reviewed: 2026-04-02
 lifecycle: seed-gap
 confidence: high
 author-type: ai-assisted

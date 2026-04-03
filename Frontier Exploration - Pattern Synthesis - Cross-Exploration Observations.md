@@ -1,10 +1,11 @@
 ---
 last-reviewed: 2026-03-30
-last-updated: 2026-03-30
-lifecycle: emerging
+last-updated: 2026-04-03
+lifecycle: staging
 confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: meta
 tags:
   - frontier-exploration
   - meta-analysis

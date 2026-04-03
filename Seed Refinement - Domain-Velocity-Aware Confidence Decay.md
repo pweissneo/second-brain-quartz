@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-03-27
+last-reviewed: 2026-04-02
+last-updated: 2026-04-02
 lifecycle: seed-refinement
 confidence: emerging
 author-type: ai-assisted
@@ -30,14 +31,10 @@ source-stress-tests:
 
 ## Gap Identification
 
-The Seed covers:
-- `review-interval` frontmatter for individual notes
-- `decay-rate` field for time-sensitive vs static knowledge
-- Domain-specific decay rates mentioned in edge cases
+**Original Gap Identification (from Seed Gap - Domain-Velocity Confidence Decay.md):**
+The Seed's confidence markers and review intervals don't account for domain velocity — how quickly knowledge becomes outdated varies dramatically by domain, but the Seed treats confidence uniformly across domains.
 
-**What's missing:** Explicit systematic guidance that domains have inherent "velocity" - how fast knowledge typically becomes stale - and that confidence assignment should account for this domain velocity.
-
-### Evidence from Stress Tests
+**Evidence from Stress Tests:**
 
 **Photography (from Seed Stress Test - Photography Knowledge Base):**
 - Camera technology evolves rapidly - knowledge about autofocus systems from 2018 may be obsolete by 2026
@@ -154,3 +151,4 @@ Existing vaults should:
 - [[Seed Stress Test - Photography Knowledge Base]] — Identified confidence decay gap
 - [[Seed Stress Test - Music Performance Knowledge Base]] — Verified gap across domains
 - [[Stress Test - Confidence Markers Rule Across Domains]] — Related stress test
+- [[Seed Gap - Domain-Velocity Confidence Decay]] — Original gap identification (merged 2026-04-02)
