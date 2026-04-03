@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Ratio-Adaptation-for-Creative-Writing</guid>
     <description><![CDATA[ Seed Refinement: Verification Ratio Adaptation for Creative Writing Documenting a gap found during frontier exploration: the Seed’s verification-ratio rule (50% within 30 days) fails in creative writing domains due to inherently long feedback cycles and subjective verification criteria. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 14:34:14 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 14:51:25 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Foundational vs Hub</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Foundational-vs-Hub</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy - Foundational vs Hub Distinction Date: 2026-04-03 Method: SEED_STRESS_TEST Source: Seed Stress Test - Verification Priority in Physics.md Rule Refined: Verification Priority Hierarchy (lines 404-441) Problem Identified The current Verification Priori... ]]></description>
-    <pubDate>Fri, 03 Apr 2026 14:34:14 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 14:51:25 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Cross-Domain Synthesis</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Cross-Domain-Synthesis</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy Cross-Domain Synthesis Synthesizing verification priority refinements from physics, woodworking, and cooking domain stress tests. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 14:34:14 GMT</pubDate>
+    <pubDate>Fri, 03 Apr 2026 14:51:25 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Knowledge Type and Process Type Taxonomy Interaction</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Knowledge-Type-and-Process-Type-Taxonomy-Interaction</guid>
+    <description><![CDATA[ Frontier Exploration: Knowledge Type and Process Type Interaction Gaps The Gap The Seed now has two taxonomies: Knowledge Type Taxonomy (added 2026-04-03) — classifies notes by primary knowledge type: Procedural, Conceptual, Factual, Experiential, Relational, Meta-Knowledge Process Type Taxonomy — c... ]]></description>
+    <pubDate>Fri, 03 Apr 2026 14:51:25 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cross-Domain Knowledge Synthesis</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cross-Domain-Knowledge-Synthesis</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/AGENTS</link>
     <guid>https://quartz.jzhao.xyz/AGENTS</guid>
     <description><![CDATA[ AGENTS.md - Your Workspace This folder is home. Treat it that way. First Run If BOOTSTRAP.md exists, that’s your birth certificate. ]]></description>
-    <pubDate>Fri, 03 Apr 2026 10:22:58 GMT</pubDate>
-  </item><item>
-    <title>AI-Assisted Knowledge Management Seed</title>
-    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
-    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
-    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
     <pubDate>Fri, 03 Apr 2026 10:22:58 GMT</pubDate>
   </item>
     </channel>
