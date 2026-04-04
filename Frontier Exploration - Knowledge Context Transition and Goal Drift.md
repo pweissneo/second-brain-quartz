@@ -17,6 +17,11 @@ proposed-rule: |
   **Why:** Without goal tracking, AI agents cannot distinguish between stale (time), obsolete (reality), or goal-transitioned (priorities changed) knowledge. Goal-transitioned knowledge wastes maintenance effort and creates retrieval noise.
   
   **Test:** For purpose-specific notes: (1) Can you identify the goal that made this relevant? (2) Is there mechanism to detect goal changes? (3) Does vault reflect current vs abandoned goals? (4) Is there a goal-transition workflow?
+tags:
+  - frontier-exploration
+  - goal-drift
+  - context-transition
+  - lifecycle
 ---
 
 # Frontier Exploration - Knowledge Context Transition and Goal Drift

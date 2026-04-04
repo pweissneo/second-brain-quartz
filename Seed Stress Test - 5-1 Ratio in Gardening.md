@@ -1,7 +1,8 @@
 ---
-last-reviewed: 2026-03-27
+last-reviewed: 2026-04-04
 lifecycle: evergreen
 confidence: emerging
+verification-status: verified
 author-type: ai-assisted
 knowledge-type: analysis
 tags:
@@ -9,6 +10,7 @@ tags:
   - 5-1-ratio
   - gardening-domain
   - edge-case
+schema-version: "1.0"
 ---
 
 # Seed Stress Test: 5:1 Ratio in Gardening Knowledge Base

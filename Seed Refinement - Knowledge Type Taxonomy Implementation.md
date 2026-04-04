@@ -1,15 +1,19 @@
 ---
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+integrated: 2026-04-04
+integration-note: Implementation guidance integrated. Core taxonomy now in Seed. This note provides supplementary implementation details.
 tags:
   - seed-refinement
   - knowledge-type
   - taxonomy
   - implementation
 ---
+
+> **Integration Note (2026-04-04):** The core Knowledge Type Taxonomy is now in the Seed (2026-04-03). This note provides supplementary implementation details.
 
 # Seed Refinement: Knowledge Type Taxonomy Implementation
 

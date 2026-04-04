@@ -1,10 +1,13 @@
 ---
 last-reviewed: 2026-03-12
-last-updated: 2026-03-12
+last-updated: 2026-04-04
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: meta
+access-pattern: decision
+schema-version: "2026-04-03"
 tags:
   - seed-extension
   - utility

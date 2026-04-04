@@ -22,7 +22,7 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 
 | Anti-Pattern | Best Practice | Status |
 |--------------|---------------|--------|
-| Link Inflation | [[Best Practice - Link Quality]] | ✅ Merged (2026-03-29) |
+| Link Inflation | [[Linking Principle]] | ✅ Merged (2026-03-29) |
 | Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Merged (2026-03-30) |
 | Note Hoarding | [[Best Practice - Selective Capture]] | ✅ Merged (2026-03-30) |
 | Waiting for Perfection | [[Best Practice - Progress Over Perfection]] | ✅ Merged (2026-03-29) |

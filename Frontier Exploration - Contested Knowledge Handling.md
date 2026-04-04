@@ -8,6 +8,10 @@ gap-priority: medium
 gap-phase: discovery
 gap-source: manual
 discovered: 2026-04-01
+tags:
+  - frontier-exploration
+  - contested-knowledge
+  - conflict-resolution
 ---
 
 # Frontier Exploration - Contested Knowledge Handling

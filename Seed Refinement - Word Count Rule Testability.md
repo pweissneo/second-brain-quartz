@@ -121,6 +121,9 @@ This refinement:
 - [[Seed Refinement - Test Executability in Seed Stress Tests]] — Related refinement
 - Seed rule: "Notes should be 100-300 words"
 - Edge cases for procedural, reference, domain pattern, technique content
+- [[Atomic Note Principle]] — Core atomicity guidance
+- [[Seed Stress Test - Atomicity Rule Across Domains]] — Domain stress tests
+- [[Frontier Exploration - Multi-Representation Knowledge]] — Alternative structure approaches
 
 ## Source
 

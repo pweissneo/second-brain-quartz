@@ -3,6 +3,10 @@ last-reviewed: 2026-03-22
 confidence: emerging
 lifecycle: evergreen
 author-type: ai-assisted
+knowledge-type: meta
+access-pattern: learning
+verification-status: unverified
+verification-mode: source
 tags:
   - frontier-exploration
   - methodology

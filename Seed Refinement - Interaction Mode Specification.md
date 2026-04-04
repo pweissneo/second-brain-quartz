@@ -1,137 +1,132 @@
 ---
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
-lifecycle: seed-refinement
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
+lifecycle: staging
 confidence: emerging
-author-type: ai-assisted
-knowledge-type: seed-refinement
 verification-status: unverified
-refines: Seed Gap - Interaction Mode Specification
-target-rule: Knowledge Type Taxonomy (line 68-98)
+author-type: ai-assisted
 tags:
   - seed-refinement
   - interaction-mode
   - knowledge-presentation
-  - knowledge-type-extension
-seealso:
-  - Seed Gap - Interaction Mode Specification
-  - Frontier Exploration - Context-Dependent Knowledge Interaction
-  - Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases
+  - context-dependent
 ---
 
 # Seed Refinement - Interaction Mode Specification
 
-## Refinement Target
+> Refinement to address [[Seed Gap - Interaction Mode Specification]]
 
-Extends the **Knowledge Type Taxonomy** rule (Seed lines 68-98) to add interaction mode as a complementary dimension to knowledge type.
+## Proposed Integration
 
-## Why This Refinement
+This refinement proposes integrating interaction mode rules into the Seed to complement existing context-frame rules.
 
-The Knowledge Type Taxonomy classifies knowledge by its nature (procedural/conceptual/factual/experiential/relational/meta), but doesn't address **how the knowledge will be consumed**:
+## Rule: Interaction Mode Tagging
 
-- A **procedural** recipe can be:
-  - **Performative** — step-by-step in the kitchen (needs inline measurements, imperative voice)
-  - **Exploratory** — browsed for inspiration (needs images, creative framing)
-  - **Compressed** — quick recall under stress (needs bold single-step format)
-
-- A **conceptual** explanation can be:
-  - **Progressive** — designed for learning (needs prerequisites, scaffolds)
-  - **Reference** — quick lookup (needs clear headers, search-optimized)
-  - **Comparative** — decision-making between options (needs table/contrast format)
-
-Knowledge type answers "what kind of knowledge is this?" — interaction mode answers "how will it be used?" These are orthogonal dimensions that together determine optimal structure.
-
-## Proposed Rule Addition
-
-Add to the Knowledge Type Taxonomy section:
-
-**Rule (EXTENSION):** Identify knowledge interaction modes at capture time — determine whether knowledge is primarily performative (executed step-by-step), exploratory (browsed and discovered), compressed (quick recall under stress), progressive (designed for learning), or comparative (decision-making between options).
-
-**Why:** Different consumption contexts require different structures. A recipe as exploratory graph fails in the kitchen; emergency steps as exploratory prose fails in crisis. Mode identification ensures knowledge serves its primary use context.
-
+**Rule:** Identify and tag knowledge with its primary interaction mode — performative (executed step-by-step), exploratory (browsed and discovered), compressed (quick recall under stress), progressive (designed for learning), or comparative (decision-making between options).
+**Why:** Different consumption contexts require different structures. A recipe as an exploratory concept graph fails in the kitchen; emergency steps as exploratory prose fails in crisis. Mode identification ensures knowledge serves its primary use context.
 **Test:** For any note, can you identify its primary interaction mode? Could someone in that use context use it effectively without manual restructuring?
 
 **Implementation:**
 ```yaml
 interaction-mode: performative|exploratory|compressed|progressive|comparative
-mode-context: description of primary use context
-# Optional mode-specific optimizations:
-mode-optimization:
-  context: kitchen-use
-  format: step-by-step, measurements-inline, imperative-voice
+```
+- **performative**: Step-by-step execution, measurements inline, no links required during use
+- **exploratory**: Rich connections, links to background, conceptual exploration
+- **compressed**: Minimal text, bold actions, single-view retrieval
+- **progressive**: Sequential complexity, clear prerequisites, learning path
+- **comparative**: Options laid out, trade-offs explicit, criteria visible
+
+## Rule: Mode-Specific Optimization
+
+**Rule:** For high-frequency use contexts (kitchen use, emergency response, quick reference), maintain mode-optimized representations alongside reference versions.
+**Why:** One-size-fits-all representation loses the specific benefits of each mode. Knowledge that is actively used in specific contexts should be optimized for those contexts.
+**Test:** For knowledge frequently used in distinct contexts, is there a mode-optimized version?
+
+**Implementation:** Create variant notes with mode-specific suffixes:
+- `Recipe Name.md` (reference version)
+- `Recipe Name - Kitchen Use.md` (performative version)
+- `Recipe Name - Quick Reference.md` (compressed version)
+
+Or use frontmatter for mode switching:
+```yaml
+mode-variants:
+  - mode: performative
+    note: [[Recipe Name - Kitchen Use]]
+  - mode: compressed  
+    note: [[Recipe Name - Quick Reference]]
 ```
 
-**Rule (EXTENSION):** For high-frequency use contexts (kitchen, emergency, quick reference), maintain mode-optimized representations alongside reference versions when significant restructuring would be needed.
+## Rule: Emergency Knowledge Compression
 
-**Why:** One representation cannot serve all contexts effectively. The Seed should support context-specific optimization without creating fragmentation.
+**Rule:** For knowledge tagged `emergency-knowledge: true`, create a compressed-mode version with single-view retrieval and minimum confidence thresholds.
+**Why:** Crisis domains require execution under stress. Standard navigation and verification assumptions fail when seconds count.
+**Test:** For emergency notes: Is there a compressed version that requires no navigation to other notes?
 
-**Test:** For knowledge frequently used in distinct contexts, is there a mode-optimized version? Or does the user manually restructure?
+**Compressed emergency format:**
+- Single sentence action: "DO X → Y → Z"
+- No explanatory links during crisis
+- Visual flowchart for panic-state retrieval
+- Full explanation in separate background note
 
-## Interaction Mode Definitions
+## Relationship to Context Frame
 
-| Mode | Description | Structure Needs | Example |
-|------|-------------|-----------------|---------|
-| Performative | Executed step-by-step | Inline measurements, imperative, minimal links | Recipe during cooking, first aid under stress |
-| Explorative | Browsed and discovered | Rich context, images, creative framing | Inspiration browsing, concept exploration |
-| Compressed | Quick recall under stress | Bold single-step, no navigation, minimum text | Emergency procedures, quick reference |
-| Progressive | Designed for learning | Prerequisites, scaffolds, progression markers | Tutorial content, skill acquisition |
-| Comparative | Decision-making between options | Table/contrast format, clear distinctions | Tool selection, method comparison |
+| Dimension | Context Frame | Interaction Mode |
+|-----------|--------------|------------------|
+| Question | "For whom?" | "How consumed?" |
+| Current field | `context-frame` | `interaction-mode` (proposed) |
+| Examples | tutorial, reference, patient-education | performative, exploratory, compressed |
 
-## Knowledge Type × Interaction Mode Matrix
+These are orthogonal and should be used together:
+```yaml
+context-frame: tutorial
+interaction-mode: progressive
+```
 
-| Knowledge Type | Performative | Exploratory | Compressed | Progressive | Comparative |
-|----------------|-------------|-------------|------------|-------------|-------------|
-| Procedural | ✓ (recipe) | (browse) | ✓ (emergency) | (learning) | (compare methods) |
-| Conceptual | (how-to) | ✓ (concept) | (quick-def) | ✓ (tutorial) | ✓ (compare theories) |
-| Factual | N/A | ✓ (explore) | ✓ (recall) | (learn facts) | ✓ (compare data) |
-| Experiential | (recreate) | ✓ (reflect) | (remember) | ✓ (learn from) | (compare experiences) |
-| Relational | N/A | ✓ (discover) | (key links) | (learn connections) | ✓ (X vs Y) |
-| Meta-Knowledge | (apply method) | ✓ (explore) | (quick-ref) | ✓ (learn method) | (compare methods) |
+## Concrete Example: First Aid Choking Response
 
-## Edge Cases
+The gap manifests clearly in emergency knowledge:
 
-1. **Multi-mode knowledge** — Some knowledge serves multiple contexts equally. Tag with `mode: [primary], secondary: [others]` and consider mode-specific variants.
+| Aspect | Current Seed Coverage | Interaction Mode Gap |
+|--------|----------------------|---------------------|
+| Context Frame | Can tag `context-frame: emergency` | ✓ Covered |
+| Knowledge Type | Can tag `knowledge-type: procedural` | ✓ Covered |
+| Interaction Mode | No equivalent field | ✗ Missing |
 
-2. **Mode transitions** — Knowledge captured in one mode may need another for different use. Document original capture mode to help future agents understand context.
+When a user is actually choking, they cannot:
+- Follow wikilinks to explore "airway obstruction" concepts
+- Read explanatory paragraphs about why Heimlich works
+- Browse multiple notes to find the right technique
 
-3. **Safety-critical knowledge** — Emergency procedures should ALWAYS have compressed performative variant, regardless of primary mode.
+They need: **compressed performative mode** — single step, bold action, no links.
 
-4. **Mode-specific variants** — When creating variants for different modes, link them with `variant-of:` and `variant-type: interaction-mode`.
+Current Seed produces:
+```markdown
+## Choking Response
+1. Stand behind the person [[Heimlich Maneuver]]
+2. Make a fist at [[Abdomen Location]]
+3. Press inward and upward
+```
 
-## Gap Evidence
+Missing the compressed version:
+```markdown
+**CHOKING: DO THIS NOW**
+Stand behind → Fist above navel → Press up and in → Repeat
+```
 
-From Seed Gap - Interaction Mode Specification:
-- Current Seed covers context-frame (who is this for, what purpose)
-- Missing: "how will this be consumed" (execution vs. browsing vs. under stress)
-- Concrete failure: First aid note as exploratory prose fails under stress
-- Emergency knowledge needs compressed performative mode
+This demonstrates why interaction mode is orthogonal to context frame: the Seed enables correct tagging but doesn't guide creating mode-specific representations.
 
-From Frontier Exploration - Emergency and First-Aid Knowledge:
-- Compressed mode critical for emergencies
-- Current Seed doesn't guide mode-specific representations
+## Gap Resolution Status
 
-## Test Scenario: First Aid Knowledge Base
+- [x] Gap identified
+- [x] Domain stress test conducted (cooking, first aid)
+- [x] Refined rules with test criteria  
+- [x] Integration pathway with existing context-frame rules
 
-An AI building a first aid knowledge base using current Seed:
-- ✓ Tags knowledge-type: procedural
-- ✓ Tags context-frame: emergency
-- ✗ Creates exploratory format with wikilinks (fails under stress)
-- ✗ No compressed performative version
-
-With this refinement:
-- ✓ Tags interaction-mode: compressed (for emergency procedures)
-- ✓ Creates bold single-step version for crisis use
-- ✓ Links to exploratory version for learning context
-
-## Refinement Status
-
-**Status:** proposed — ready for Seed integration
-**Confidence:** emerging — needs domain stress test
-**Next:** Stress test in one procedural domain (cooking or first aid)
+**Ready for:** Seed integration
 
 ## Related
 
-- [[Seed Gap - Interaction Mode Specification]] — Source gap
-- [[AI-Assisted Knowledge Management Seed]] — Knowledge Type Taxonomy (lines 68-98)
+- [[Seed Gap - Interaction Mode Specification]]
+- [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Context-Dependent Knowledge Interaction]]
 - [[Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases]]

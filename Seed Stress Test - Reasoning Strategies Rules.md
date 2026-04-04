@@ -509,6 +509,16 @@ Creative writing often involves other modalities — scene descriptions that cou
 
 ---
 
+## Test Criteria (for AI Evaluation)
+
+- [ ] Can you decompose a query into sub-queries and justify the decomposition?
+- [ ] Can you explain your traversal strategy choice?
+- [ ] Can you articulate your relevance scoring criteria?
+- [ ] Can you show confidence aggregation calculation?
+- [ ] Can you classify detected gaps by type?
+- [ ] Is synthesis documentation complete enough for reproducibility?
+- [ ] Are reasoning metrics being tracked?
+
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]

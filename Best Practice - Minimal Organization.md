@@ -1,10 +1,12 @@
 ---
 last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-updated: 2026-04-04
 lifecycle: evergreen
 confidence: high
 verification-status: verified
 author-type: ai-assisted
+knowledge-type: conceptual
+access-pattern: learning
 tags:
   - best-practice
   - organization

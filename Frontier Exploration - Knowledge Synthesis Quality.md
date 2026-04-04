@@ -1,8 +1,13 @@
 ---
-last-reviewed: 2026-03-29
+last-reviewed: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+verification-status: superseded
+gap-status: resolved
+gap-resolution: seed-integrated
+gap-resolution-date: 2026-04-04
+note: "This frontier exploration is now largely covered by Seed rules (lines 1121-1144). The proposed synthesis quality rule is redundant with existing synthesis metadata requirements."
 tags:
   - frontier-exploration
   - quality
@@ -28,7 +33,7 @@ But it lacks explicit guidance for evaluating whether a synthesis actually impro
 - [[Frontier Exploration - Knowledge Cascade Effects]] - how knowledge propagates through the vault
 - [[Frontier Exploration - Knowledge Originality Assessment]] - evaluating if knowledge adds something new
 - [[Frontier Exploration - Knowledge Provenance Chains]] - tracking derived knowledge sources
-- [[Best Practice - Link Quality]] - quality criteria for individual links (apply the "why follow?" test)
+- [[Linking Principle]] - quality criteria for individual links (apply the "why follow?" test)
 
 ## The Gap
 
@@ -65,7 +70,7 @@ For a note marked `derived-from-vault: true`:
 3. Does the synthesis introduce new relationships not present in sources? → If yes, additive or better
 4. Is the synthesis referenced by other notes (demonstrating utility)? → Confirms value
 
-Apply the **"Why follow?" test** (same as [[Best Practice - Link Quality]]): Can you write one sentence explaining why a reader should follow from source A to source B through this synthesis? If not, remove the synthesis.
+Apply the **"Why follow?" test** (same as [[Linking Principle]]): Can you write one sentence explaining why a reader should follow from source A to source B through this synthesis? If not, remove the synthesis.
 
 **Rule:** Before creating a synthesis note, verify it passes at least the additive threshold. Trivial synthesis notes should be skipped — links between sources suffice without an intermediate note.
 

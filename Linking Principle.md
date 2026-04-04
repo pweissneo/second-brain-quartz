@@ -75,10 +75,14 @@ Linking because you "should" not because it makes sense.
 "See also" without context.
 
 ### 3. Over-Connecting
-Every note → every note.
+Every note → every note. Signs: notes have 10+ outgoing links, links use generic "see also", links are added to meet quotas.
 
 ### 4. Keyword Matching
 Links that only match words, not concepts.
+
+### 5. Link Inflation
+Linking everything to everything dilutes meaning and creates navigational noise. When every note links to 10+ others with generic "see also" text, the graph becomes meaningless noise.
+**Rule of thumb:** Prefer 2-3 meaningful links over 10 decorative ones.
 
 ## The Connection Test
 

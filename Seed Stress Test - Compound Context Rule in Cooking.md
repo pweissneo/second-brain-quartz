@@ -1,10 +1,12 @@
 ---
-last-reviewed: 2026-03-22
-last-updated: 2026-03-22
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: meta
+access-pattern: decision
 tags:
   - seed-stress-test
   - compound-context

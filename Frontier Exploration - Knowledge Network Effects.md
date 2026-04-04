@@ -1,13 +1,20 @@
 ---
-last-reviewed: 2026-04-01
+last-reviewed: 2026-04-04
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
-gap-status: identified
+gap-status: integrated
 gap-priority: medium
 gap-phase: discovery
 gap-source: frontier-exploration
 discovered: 2026-04-01
+resolved: 2026-04-04
+resolved-by: [[AI-Assisted Knowledge Management Seed]]
+tags:
+  - frontier-exploration
+  - network-effects
+  - knowledge-value
+  - non-linear
 ---
 
 # Frontier Exploration: Knowledge Network Effects

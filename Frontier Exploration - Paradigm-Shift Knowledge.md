@@ -1,12 +1,12 @@
 ---
-gap-status: identified
+gap-status: analyzed
 gap-priority: medium
-gap-phase: discovery
+gap-phase: implementation
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-03-27
-last-reviewed: 2026-03-27
-last-updated: 2026-03-27
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -15,9 +15,12 @@ tags:
   - paradigm-shift
   - knowledge-organization
   - contradiction-handling
+  - seed-gap
 ---
 
-# Frontier Exploration: Paradigm-Shift Knowledge in Knowledge Bases
+# Seed Refinement: Paradigm-Level Knowledge Organization
+
+> Proposed Seed rule for organizing knowledge spanning competing scientific paradigms.
 
 > When your knowledge base spans domains with competing scientific paradigms (e.g., Newtonian physics vs. Quantum mechanics, classical economics vs. behavioral economics), how do you organize knowledge that exists in fundamentally different worldviews?
 
@@ -56,9 +59,7 @@ But there's no explicit guidance for **paradigm-level knowledge** — where two 
 - Different meta-methodology (what counts as "evidence")
 - Can't be synthesized — one must be "wrong" by the other's standards
 
-## How Should an AI Handle This?
-
-### Rule Proposal: Paradigm-Aware Knowledge Organization
+## Proposed Seed Rule: Paradigm-Aware Knowledge Organization
 
 **Rule:** For knowledge bases spanning multiple paradigms, explicitly tag paradigm affiliation and avoid synthesis that implies false equivalence.
 
@@ -68,6 +69,10 @@ But there's no explicit guidance for **paradigm-level knowledge** — where two 
 1. Can you identify which paradigm each note belongs to?
 2. Do synthesis notes explicitly acknowledge paradigm differences?
 3. Are cross-paradigm links tagged with appropriate caution?
+
+**Integration point:** Add to Seed section on "Handling Contradictory Sources" (around line ~12846) or create new section on "Paradigm-Level Knowledge Organization."
+
+**Status (2026-04-04):** Gap identified 2026-03-27. Analyzed as medium priority. This note is now a Seed Refinement (converted from Frontier Exploration). The proposed rule extends existing Seed guidance on contradictions and framework-dependent knowledge to cover the paradigm-level case that those rules miss.
 
 ### Implementation
 
@@ -110,15 +115,14 @@ cross-paradigm-caution: true|false  # true when linking across paradigms
 - Teaching often mixes paradigms for accessibility
 - Distinguish "pedagogical simplification" from "accurate representation"
 
-## What This Means for the Seed
-
-The Seed should add:
-1. A rule about paradigm-level knowledge organization
-2. Frontmatter fields for paradigm tracking
-3. Guidance on when synthesis is appropriate vs. when to keep separate
-
 ## Related Notes
 
-- [[Frontier Exploration - Competing Organizational Structures]] (different angle)
-- [[Frontier Exploration - Framework-Dependent Knowledge]] (related but distinct)
-- [[Handling Contradictory Sources]] (handles source-level, not paradigm-level)
+- [[Handling Contradictory Sources]] — Source-level contradiction handling (this note addresses paradigm-level)
+- [[Frontier Exploration - Framework-Dependent Knowledge]] — Related but covers framework, not paradigm
+- [[Frontier Exploration - Competing Organizational Structures]] — Different angle on organizational conflicts
+- [[Seed Stress Test - Contradiction Rule in Philosophy]] — Domain stress test for contradiction handling
+- [[AI-Assisted Knowledge Management Seed]] — Where this rule should be integrated
+
+---
+
+**Note (2026-04-04):** This note was upgraded from Frontier Exploration to Seed Refinement after gap analysis. The proposed rule fills a specific gap in the Seed's contradiction-handling coverage: while the Seed handles source-level contradictions and framework-dependent knowledge, it lacks explicit guidance for paradigm-level knowledge where frameworks operate on incompatible foundational assumptions.

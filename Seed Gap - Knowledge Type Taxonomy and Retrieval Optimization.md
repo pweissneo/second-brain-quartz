@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
-lifecycle: deprecated
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
+lifecycle: archived
 confidence: medium
 author-type: ai-assisted
 knowledge-type: principle
@@ -14,13 +14,18 @@ analyzed: 2026-04-02
 resolved-by: Seed
 resolved: 2026-04-03
 gap-phase: integrated
+archived: 2026-04-04
+archive-note: Content integrated into [[AI-Assisted Knowledge Management Seed]] (2026-04-03). See Seed rule "Knowledge Type Taxonomy" for the resolved guidance.
 tags:
   - seed-gap
   - knowledge-type
   - taxonomy
   - retrieval
   - organization
+  - archived
 ---
+
+> **ARCHIVED (2026-04-04):** This gap has been resolved. The recommended rule has been integrated into the Seed. See [[AI-Assisted Knowledge Management Seed]] — search for "Knowledge Type Taxonomy".
 
 # Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization
 

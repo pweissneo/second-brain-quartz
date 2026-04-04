@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-03-24
+last-reviewed: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+access-pattern: mixed
+knowledge-type: relational
 tags:
   - frontier-exploration
   - multi-modal

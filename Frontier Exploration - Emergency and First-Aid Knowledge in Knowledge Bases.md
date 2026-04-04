@@ -5,6 +5,13 @@ confidence: emerging
 author-type: ai-assisted
 gap-status: identified
 lifecycle: experimental
+knowledge-type: conceptual
+access-pattern: decision
+tags:
+  - frontier-exploration
+  - emergency-knowledge
+  - first-aid
+  - safety-critical
 ---
 
 # Frontier Exploration - Emergency and First-Aid Knowledge in Knowledge Bases

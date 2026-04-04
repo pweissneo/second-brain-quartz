@@ -132,7 +132,7 @@ relationships:
 - [[Graph Traversal Efficiency]] — Navigating relationships
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]] — Related but focuses on cross-domain
 - [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]] — Similar but focuses on choice
-- [[Best Practice - Link Quality]] — When links become decorative rather than meaningful
+- [[Linking Principle]] — When links become decorative rather than meaningful
 
 ## Open Questions
 

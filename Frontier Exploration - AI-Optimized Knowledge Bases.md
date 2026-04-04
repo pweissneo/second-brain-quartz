@@ -1,10 +1,12 @@
 ---
-last-reviewed: 2026-03-24
-last-updated: 2026-03-24
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: conceptual
+access-pattern: decision
 tags:
   - frontier-exploration
   - ai-optimization

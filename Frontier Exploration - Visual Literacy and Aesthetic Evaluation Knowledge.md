@@ -3,6 +3,10 @@ last-reviewed: 2026-03-30
 lifecycle: seed-extension
 confidence: high
 author-type: ai-assisted
+knowledge-type: conceptual
+access-pattern: learning
+verification-status: verified
+verification-mode: source
 tags:
   - frontier-exploration
   - visual-knowledge

@@ -1,19 +1,24 @@
 ---
-last-reviewed: 2026-04-03
+last-reviewed: 2026-04-04
 lifecycle: frontier-exploration
 confidence: emerging
 author-type: ai-assisted
 verification-status: draft
+integrated: 2026-04-04
+integration-note: Knowledge Type Taxonomy now in Seed (2026-04-03). This note now focuses on taxonomy interaction gaps.
 tags:
   - frontier-exploration
   - knowledge-types
   - verification
   - taxonomy
   - process-type
+  - integrated
 gap-status: identified
 gap-type: seed-missing
 gap-source: frontier-exploration
 ---
+
+> **Note (2026-04-04):** Knowledge Type Taxonomy is now in the Seed. This frontier exploration focuses on interaction gaps between Knowledge Type and Process Type taxonomies.
 
 # Frontier Exploration: Knowledge Type and Process Type Interaction Gaps
 

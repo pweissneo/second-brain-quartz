@@ -116,6 +116,23 @@ geographic-scope:
 
 See [[Frontier Exploration - Geographically-Constrained Knowledge]] for detailed implementation.
 
+### For Expertise-Level Dependent Knowledge
+
+| Field | Values | Description |
+|-------|--------|-------------|
+| `expertise-level` | beginner, intermediate, advanced, universal | Skill level for which advice is appropriate |
+
+**Why:** Advice that's correct for beginners can be wrong for experts. Without expertise-level metadata, readers cannot assess applicability. This is distinct from `difficulty` (how hard to understand) — it's about who the advice is for.
+
+**Test:** Pick 10 notes with absolute statements (always/never/you should/don't). Can you categorize each as universal, beginner-only, intermediate-only, or advanced-only?
+
+| expertise-level | When to use |
+|----------------|-------------|
+| `beginner` | Advice appropriate for someone new to the domain |
+| `intermediate` | Advice for learners who've grasped fundamentals |
+| `advanced` | Advice for practitioners with deep experience |
+| `universal` | Applies to all levels (default if no tag) |
+
 ## Knowledge Type Tags
 
 Used to categorize what type of knowledge a note contains:

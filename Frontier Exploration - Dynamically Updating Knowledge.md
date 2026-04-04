@@ -1,9 +1,13 @@
 ---
-last-reviewed: 2026-03-31
 last-updated: 2026-03-28
+last-reviewed: 2026-03-31
 confidence: medium
 lifecycle: experimental
 author-type: ai-assisted
+tags:
+  - frontier-exploration
+  - dynamic-knowledge
+  - updates
 ---
 
 # Frontier Exploration - Dynamically Updating Knowledge

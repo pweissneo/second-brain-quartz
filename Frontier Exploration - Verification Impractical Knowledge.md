@@ -1,18 +1,22 @@
 ---
 created: 2026-04-03
-updated: 2026-04-03
+updated: 2026-04-04
 confidence: medium
 type: frontier-exploration
 author-type: ai-assisted
-lifecycle: draft
+lifecycle: deprecated
 gap-severity: useful
 tags:
   - verification
   - frontier-exploration
   - edge-case
+deprecated: 2026-04-04
+redirect: Seed Gap - Verification Impractical Knowledge Handling
 ---
 
 # Frontier Exploration - Verification Impractical Knowledge
+
+> **DEPRECATED (2026-04-04):** Content merged into [[Seed Gap - Verification Impractical Knowledge Handling]]. This note is kept for reference but no longer maintained.
 
 ## The Problem
 

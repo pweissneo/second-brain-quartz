@@ -5,6 +5,8 @@ confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
 specialized: true
+knowledge-type: meta
+access-pattern: decision
 tags:
   - seed-stress-test
   - equipment-tier

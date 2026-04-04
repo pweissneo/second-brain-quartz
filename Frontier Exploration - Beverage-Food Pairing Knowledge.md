@@ -4,6 +4,11 @@ confidence: emerging
 last-reviewed: 2026-03-28
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: conceptual
+access-pattern: learning
+retrieval-mode: browse
+storage-pattern: atomic
+verification-approach: social
 tags:
   - frontier-exploration
   - knowledge-type

@@ -7,6 +7,10 @@ author-type: ai-assisted
 knowledge-type: conceptual
 gap-status: identified
 gap-priority: medium
+tags:
+  - frontier-exploration
+  - temporal-knowledge
+  - validity-window
 ---
 
 # Frontier Exploration - Knowledge Validity Window Handling

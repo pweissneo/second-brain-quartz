@@ -10,6 +10,11 @@ gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-03-26
 schema-version: "1.0"
+tags:
+  - frontier-exploration
+  - habit-change
+  - behavior
+  - psychology
 ---
 
 # Frontier Exploration - Habit and Behavior Change Knowledge Organization

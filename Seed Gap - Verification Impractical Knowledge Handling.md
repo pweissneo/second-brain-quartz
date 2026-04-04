@@ -4,7 +4,14 @@ updated: 2026-04-03
 confidence: medium
 type: seed-gap
 author-type: ai-assisted
-lifecycle: identified
+lifecycle: seed-gap
+gap-status: proposed
+gap-priority: medium
+gap-type: seed-missing
+gap-phase: implementation
+discovered: 2026-04-03
+gap-source: frontier-exploration
+gap-review-date: 2026-04-04
 gap-severity: useful
 tags:
   - verification
@@ -13,6 +20,8 @@ tags:
 ---
 
 # Seed Gap - Verification Impractical Knowledge Handling
+
+> **Note (2026-04-04):** Content from [[Frontier Exploration - Verification Impractical Knowledge]] has been merged here. The frontier exploration note is now deprecated — see the redirect in that file.
 
 ## Gap Identification
 

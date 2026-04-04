@@ -1,9 +1,11 @@
 ---
-last-reviewed: 2026-03-10
-last-updated: 2026-03-10
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+access-pattern: learning
+knowledge-type: conceptual
 tags:
   - frontier-exploration
   - creative-knowledge

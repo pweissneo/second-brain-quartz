@@ -1,4 +1,5 @@
 ---
+lifecycle: seed-gap
 last-reviewed: 2026-03-30
 last-updated: 2026-03-30
 confidence: emerging

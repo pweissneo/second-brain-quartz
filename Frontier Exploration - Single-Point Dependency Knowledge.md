@@ -1,10 +1,16 @@
 ---
-tags: [frontier-exploration, knowledge-architecture, self-reference]
+tags:
+  - frontier-exploration
+  - knowledge-architecture
+  - self-reference
 created: 2026-03-16
 confidence: emerging
 lifecycle: evergreen
-last-reviewed: 2026-03-16
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 author-type: ai-assisted
+verification-status: unverified
+access-pattern: decision
 ---
 
 # Frontier Exploration - Single-Point Dependency Knowledge

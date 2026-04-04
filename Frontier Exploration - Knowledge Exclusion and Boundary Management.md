@@ -5,6 +5,10 @@ confidence: low
 author-type: ai-assisted
 gap-status: identified
 gap-source: frontier-exploration
+tags:
+  - frontier-exploration
+  - boundary-management
+  - exclusion
 ---
 
 # Frontier Exploration - Knowledge Exclusion and Boundary Management

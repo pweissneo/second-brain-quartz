@@ -56,13 +56,15 @@ Created this structural health note to document findings.
 
 ## Seed Rule Gap Identified
 
-The Seed has a rule about ignoring generated files (line 65), but it doesn't explicitly exclude **workspace system files** that are accidentally added to the vault. These files (AGENTS.md, SOUL.md, etc.) are operational for OpenClaw but don't belong in the knowledge vault.
+~~The Seed has a rule about ignoring generated files (line 65), but it doesn't explicitly exclude **workspace system files** that are accidentally added to the vault. These files (AGENTS.md, SOUL.md, etc.) are operational for OpenClaw but don't belong in the knowledge vault.~~
 
-Proposed new rule text for Seed at line ~65:
+> **UPDATE 2026-04-04:** This gap is NOT APPLICABLE. The vault directory does NOT contain AGENTS.md, HEARTBEAT.md, IDENTITY.md, SOUL.md, TOOLS.md, or USER.md. Only `_root.md` is present (and it has `protected: true`). The Structural Health Check note incorrectly flagged these as issues — they were never in the vault.
 
-> **Rule:** Exclude workspace system files from the vault — files like AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md are operational, not content.
+~~Proposed new rule text for Seed at line ~65:~~
+
+~~> **Rule:** Exclude workspace system files from the vault — files like AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md are operational, not content.
 > **Why:** System files bloat the vault and create noise in structural analysis. They are not knowledge base content.
-> **Test:** Check that AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are NOT in the vault directory.
+> **Test:** Check that AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are NOT in the vault directory.~~
 
 ## Related
 - [[AI-Assisted Knowledge Management Seed]]

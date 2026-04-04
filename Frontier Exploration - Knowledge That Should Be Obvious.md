@@ -8,6 +8,10 @@ gap-priority: medium
 gap-phase: discovery
 gap-source: frontier-exploration
 discovered: 2026-04-04
+tags:
+  - frontier-exploration
+  - obvious-knowledge
+  - curation
 ---
 
 # Frontier Exploration - Knowledge That Should Be Obvious

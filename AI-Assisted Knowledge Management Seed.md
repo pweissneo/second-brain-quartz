@@ -66,6 +66,10 @@ access-pattern: lookup|learning|decision|inspiration|mixed
 **Why:** Generated files bloat the repository and cause merge conflicts.
 **Test:** Does `.gitignore` exclude cache directories, logs, and build output?
 
+**Rule (NEW - 2026-04-04):** Exclude workspace system files from the vault — files like AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are operational, not content.
+**Why:** System files bloat the vault and create noise in structural analysis. They are not knowledge base content — they are workspace operational files that happen to have .md extension.
+**Test:** Verify AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are NOT in the vault directory. Check that they exist in workspace state/ or other operational location instead.
+
 **Rule:** Use consistent note naming — descriptive noun phrases, title case, kebab-case for filenames.
 **Why:** Inconsistent naming hurts search accuracy and graph readability.
 **Test:** Do note titles follow a consistent pattern? Can you predict a new note's title?
@@ -450,6 +454,31 @@ export-excluded: true  # exclude from vault exports
 **Edge case:** Experiential domains require even more stringent tracking — "verified" means actually tested, not just source-checked. Require verification-status: verified, not just review completion.
 **Edge case (NEW - 2026-03-18):** In domains with seasonal or cyclical verification constraints, the 30-day verification window may unfairly penalize valid captures. Cooking recipes with seasonal ingredients (pumpkin in fall, strawberries in summer), gardening knowledge that can only be verified during growing seasons, or holiday-specific traditions may be captured months before they can be practically tested. Apply domain-aware verification windows: (1) Use `verification-cycle:` field with values `seasonal|annual|circular` for notes that can only be verified at specific times, (2) Track `verification-season:` or `verification-window:` to specify when verification is possible, (3) Count these notes as "pending verification" rather than "unverified" during off-seasons, (4) Set verification ratio targets based on capture timing — a pumpkin recipe captured in March has 6 months to be verified before the next pumpkin season, not 30 days.
 **Edge case (NEW - 2026-04-03):** In creative writing and other subjective-domain knowledge bases (art criticism, aesthetic evaluation, creative craft), the verification-ratio rule fails due to dual challenges: (1) feedback cycles exceed 30 days by nature (beta readers: 2-8 weeks, workshop: monthly, publication: weeks to months), (2) "verified" is ambiguous — craft advice is subjective with no objective pass/fail. Apply creative-domain verification: (1) Use `verification-cycle: long-horizon` field for notes requiring extended feedback, (2) Track separate `verification-mode:` (craft-practice|workshop|beta-reader|publication), (3) Apply modified ratio: (notes verified OR notes with verification-in-progress) / notes added in last 90 days ≥0.5, (4) Use alternative status values: `practice-validated`, `workshop-validated`, `beta-validated`, `published-validated`. The standard 30-day ratio will produce false negatives in creative vaults — the vault may be high-quality but inherently slow to verify.
+
+**Edge case (NEW - 2026-04-04):** For fitness/exercise domains where verification requires 4-12 weeks (longer than standard 30-day but shorter than long-horizon), apply medium-horizon verification parameters: (1) Use `verification-cycle: medium-horizon` field for notes requiring extended practice verification, (2) Set `verification-minimum: 8-weeks` as baseline for strength/hypertrophy protocols, (3) Use `verification-cycle: monthly` for progress tracking, (4) Mark notes as `verification-status: testing` until minimum period completes, (5) Apply modified verification ratio: (notes verified OR notes-in-progress) / notes added in last 90 days ≥0.5, (6) Allow higher unverified backlog during capture phase (up to 40%). This addresses the gap where fitness protocols cannot be verified in 30 days but don't fit long-horizon (years) category — strength gains take 4-8 weeks, muscle hypertrophy 8-12 weeks, endurance adaptation 4-12 weeks. This approach also works for habit formation (4-8 weeks to establish, 12+ weeks to confirm) and personal development domains.
+
+**Rule (NEW - 2026-04-04):** Capture validity scope for context-conditional knowledge — explicitly document the contexts where captured knowledge is true, not just where it has been verified.
+**Why:** Knowledge that is factually true in one context but false in another (tap water safe in most developed countries but not in many developing countries; home brewing legal in most US states but not Utah) differs from time-bound knowledge (becomes false over time) and from context-gated knowledge (only relevant in certain contexts). Without validity scope tracking, knowledge bases make false universal claims based on local truth. The verification rule verifies accuracy but doesn't capture applicability boundaries.
+**Test:** For factual claims: (1) Can you identify at least one context where the claim would NOT hold? (2) Does frontmatter include `validity-scopes:` or equivalent? (3) Can you filter notes by geographic jurisdiction, expertise level, or equipment tier? (4) Do newly captured claims include scope documentation?
+
+**Edge case:** Unknown contexts — when you don't know where knowledge is FALSE, document what's KNOWN rather than unknown: `validity-scopes-known: [contexts where verified true]` vs. `validity-scopes-unknown: [contexts not yet assessed]`.
+
+**Edge case:** Equivalent alternatives are NOT context-switch validity — all alternatives can be valid in all contexts; context determines fit but not validity. Context-switch validity is when the claim itself changes truth value.
+
+**Implementation:**
+```yaml
+validity-scopes:
+  - context: geographic
+    regions: [US, CA, UK, AU]
+    note: Not applicable in EU regions with different standards
+  - context: expertise-level
+    levels: [intermediate, advanced]
+    note: Not applicable for beginners
+validity-scopes-known: [list of verified contexts]
+validity-scopes-unknown: [list of unverified contexts]
+```
+
+**See also:** [[Frontier Exploration - Context-Switch Validity]] (new note with detailed analysis)
 
 **Rule:** Enforce verification ceiling — when unverified notes exceed 40% of total vault, pause exploration and prioritize verification until ratio drops below 30%.
 **Why:** An unverified-heavy vault misleads about its reliability. Users and AI agents cannot distinguish verified from unverified knowledge without explicit status tracking. The vault becomes unreliable as a decision-support tool.
@@ -1138,6 +1167,36 @@ experiment-context: controlled|field|observational  # for experiment
 **Synthesis reliability heuristic:** Synthesis is more reliable when: (1) Sources are independent (not citing each other), (2) Reasoning chain is explicit and traceable, (3) Multiple synthesis paths converge on same conclusion, (4) Sources are current (no outdated information). Synthesis is less reliable when: (1) Sources are not independent (circular citations), (2) Reasoning chain is implicit or missing, (3) Single synthesis path, (4) Any source is known to be outdated or contested.
 
 **Synthesis metadata requirements:** For notes tagged with `knowledge-source-type: synthesis`, include:
+```yaml
+synthesis-sources: [list of source note references]
+synthesis-method: [cross-source|inductive|deductive|analogical]
+synthesis-date: YYYY-MM-DD
+synthesis-validates: [what this synthesis confirms or contradicts]
+```
+
+**Rule (NEW - 2026-04-04):** Track knowledge representation style separately from source type — representation style describes how knowledge "feels" when accessed (intuitive vs analytical), while source type describes how knowledge was acquired.
+**Why:** Source (how acquired) and representation (how it feels when accessed) are distinct dimensions. Analytical knowledge can feel intuitive after repetition; intuitive knowledge can be analytically reconstructed. Without tracking both, AI agents cannot distinguish between "knowledge I learned analytically but now use intuitively" vs "knowledge I learned through experience." This causes transfer failures where analytically-reconstructed knowledge looks transferable but isn't.
+**Test:** For key knowledge: (1) Can you identify both source type AND representation style? (2) Does the source-representation relationship match? (3) Are conflicts between intuition-feeling and analysis-based knowledge documented?
+**Implementation:**
+```yaml
+knowledge-representation-style: intuitive-analytical|analytical-intuitive|balanced|mixed
+# intuitive-analytical: acquired analytically, now feels intuitive through practice
+# analytical-intuitive: acquired through experience, analytically reconstructed
+# balanced: both representations available
+# mixed: some aspects intuitive, some analytical
+source-representation-gap: true|false  # true if feels different from how learned
+```
+
+**Representation-style conflict handling:** When intuition and analysis disagree, preserve both with explicit conflict notation:
+```yaml
+conflict-status: active|resolved|superseded
+intuition-position: "What gut feeling says"
+analysis-position: "What analysis shows"
+resolution-context: "When analysis wins vs when intuition wins"
+resolution-evidence: "What evidence would change your mind"
+```
+
+**Transfer reliability:** Knowledge with source-representation gap (e.g., analytically-reconstructed experience knowledge) is less transferable — the representation feels articulate but the underlying knowledge depends on tacit dimensions. Tag with `transfer-reliability: reduced` when this gap exists.
 - `synthesis-sources:` — list of 2+ notes/sources combined
 - `reasoning-chain:` — brief explanation of how sources combine
 - `last-synthesized:` — date of synthesis (important for re-synthesis checking)
@@ -2198,6 +2257,42 @@ prerequisites:
 **Why:** Gateway notes serve as navigation landmarks that help readers and AIs find entry points into complex topic areas.
 **Test:** Run a hub analysis. Are the top 5 hubs also marked with `gateway: true` in their frontmatter?
 
+**Rule (NEW - 2026-04-04):** Track knowledge network effects — recognize that note value scales non-linearly based on graph position and combination effects.
+**Why:** Individual note quality optimization misses graph-level value creation. Prerequisite notes unlock multiple dependent notes; bridge nodes connect previously separate clusters; outdated notes cascade decay to dependents. Without network effect awareness, agents optimize per-note quality but miss network-level optimization opportunities.
+**Test:** (1) Can you identify notes with high unlock potential (adding them makes multiple other notes more actionable)? (2) Do you track bridge nodes that connect separate topic clusters? (3) Is cascade risk assessed for high-dependency notes? (4) Do capture priorities consider network effect potential?
+
+**Implementation:** Use frontmatter to track network effects:
+```yaml
+network-effect-type: prerequisite-unlock|bridge-node|contradiction-catalyst|verification-multiplier|standalone
+unlock-potential: low|medium|high  # How many other notes become more actionable
+cluster-bridge: [cluster-a, cluster-b]  # If bridging clusters
+dependency-count: 15  # How many notes depend on this
+cascade-risk: low|medium|high  # If outdated, how many notes affected
+```
+
+**Network effect types:**
+- **Prerequisite unlock** (strong positive): When adding a foundational note makes multiple dependent notes more valuable
+- **Bridge node** (strong positive): Note connecting previously separate clusters, enabling new synthesis paths
+- **Contradiction catalyst** (moderate positive): Coexisting opposing views create productive tension generating new understanding
+- **Verification multiplier** (moderate positive): When a note's verification improves confidence in all notes that reference it
+- **Decay cascade** (negative): When one note becomes outdated, it undermines confidence in all dependent notes
+
+**Capture strategy implications:**
+| Effect | Priority Strategy |
+|--------|------------------|
+| Prerequisite unlock | Prioritize foundational notes first |
+| Bridge nodes | Explicitly seek cross-cluster connections |
+| Contradiction catalysts | Keep conflicting views, don't resolve prematurely |
+| Verification multipliers | Verify high-dependency notes first |
+| Decay cascades | Monitor dependency chains for cascading outdatedness |
+
+**Metrics beyond density:**
+- **Unlock ratio**: Notes that became more actionable after recent captures / total captures
+- **Bridge utilization**: Percentage of cluster-bridge notes actually used as bridges
+- **Cascade incident rate**: How often does one note's decay cascade to dependents
+
+**See also:** [[Frontier Exploration - Knowledge Network Effects]] (gap identification)
+
 **Rule:** For vaults serving multiple expertise levels, create audience-specific entry points rather than duplicating atomic notes.
 **Why:** Duplication fragments knowledge and creates maintenance burden; tiered entry points preserve atomicity while serving diverse audiences.
 **Test:** Can a beginner find accessible entry points? Can an expert find deep dives without wading through basics?
@@ -2221,6 +2316,15 @@ prerequisites:
 **Test:** For a complex query, can you: (1) decompose it into atomic sub-questions? (2) plan traversal paths before executing? (3) score note relevance using explicit criteria? (4) aggregate confidence from component notes? (5) detect and flag knowledge gaps encountered during reasoning?
 **Edge case:** Different vault purposes require different reasoning strategies — reference KBs favor precision over breadth, learning KBs include path construction. Let query intent determine strategy.
 
+**Rule (REFINEMENT 2026-04-04):** Apply implementation-specific reasoning strategies:
+- **Query decomposition** by type: procedural→steps, conceptual→causes, relational→attributes, recommendation→criteria, troubleshooting→hypothesis-test
+- **Traversal strategy** by intent: breadth-first for overview, depth-first for analysis, hub-first for structured domains, link-hop for discovery
+- **Relevance scoring** with explicit formula: 0.3×keyword + 0.3×connectivity + 0.2×type_match + 0.2×recency
+- **Confidence aggregation** by dependency: average for independent, minimum for dependent, weighted for contradictory
+- **Gap classification** by type: missing-note/incomplete/outdated/contradictory/unverified with specific actions
+**Why:** The base rule exists but lacks implementation guidance. Without explicit strategies, agents improvise inconsistent approaches. This refinement makes the rule testable and actionable.
+**Test:** For any query: (1) Can you identify query type and apply appropriate decomposition? (2) Can you select traversal strategy and justify it? (3) Can you write down your relevance scoring formula? (4) Can you justify your confidence aggregation method? (5) Can you classify any gaps found?
+
 **Rule:** Document synthesis logic for complex answers — when combining multiple notes, track which notes contributed, how synthesis was performed, and any assumptions made.
 **Why:** Reproducibility matters for AI-generated answers. Without synthesis documentation, future queries cannot verify or improve the reasoning path.
 **Test:** Can another agent reproduce your answer by following the same synthesis logic? Are synthesis sources and methods documented?
@@ -2228,6 +2332,13 @@ prerequisites:
 **Rule:** Track reasoning success rate as a proxy for vault usability — monitor query completion, gap detection frequency, and answer quality.
 **Why:** Vault health isn't just about structure — it's about usability. Reasoning metrics reveal whether the knowledge base actually serves its purpose.
 **Test:** Can you calculate: (1) What percentage of queries complete successfully? (2) How often do queries reveal knowledge gaps? (3) Do reasoning failures correlate with specific structural issues?
+
+**Rule (REFINEMENT 2026-04-04):** Apply synthesis documentation format and quality metrics schema:
+- **Synthesis format** requires: sources (list of notes consulted), method (cross-reference/inductive/deductive/analogical), assumptions (explicit), confidence-inherited (per-note), final-confidence (cannot exceed lowest inherited), gaps-identified (with severity and action)
+- **Quality metrics** track: queries-total, queries-completed, completion-rate, queries-with-gaps, gaps-resolved, gap-resolution-rate
+- **Rule interaction** follows decision tree: query→decompose→traverse→score→detect gaps→aggregate→synthesize→document→update metrics
+**Why:** The base rules exist but lack required documentation format and metrics schema. Without explicit format, agents improvise inconsistent approaches. This refinement makes the rules testable and actionable.
+**Test:** For complex answers: (1) Can you document all sources with their confidence levels? (2) Can you write down your synthesis method and assumptions? (3) Can you calculate query completion rate and gap resolution rate?
 
 **Rule:** Add decision threshold guidance for actionable knowledge — when knowledge recommends a decision, include explicit criteria for when to stop gathering information and act.
 **Why:** Without decision thresholds, users face analysis paralysis. The Seed covers what to decide and how to verify, but not when "enough is enough" to make the call. This creates real-world friction where knowledge is captured but not applied because users keep looking for more information.
