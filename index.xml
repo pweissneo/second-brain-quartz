@@ -10,19 +10,25 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Iterative-Verification-for-Craft-Domains</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Iterative-Verification-for-Craft-Domains</guid>
     <description><![CDATA[ Seed Refinement - Iterative Verification for Craft Domains Integrating findings from Seed Stress Test - Pottery and Ceramics Knowledge Base Gap Identified The pottery stress test revealed that pottery and ceramics require multi-cycle iterative verification that isn’t captured by the existing verific... ]]></description>
-    <pubDate>Sat, 04 Apr 2026 22:11:47 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 22:20:48 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Generic Principle Boundaries</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Generic-Principle-Boundaries</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Generic-Principle-Boundaries</guid>
     <description><![CDATA[ Seed Refinement - Generic Principle Boundaries Context Gap identified via REDUNDANCY_SCAN heartbeat (2026-04-05). ]]></description>
-    <pubDate>Sat, 04 Apr 2026 22:11:47 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 22:20:48 GMT</pubDate>
   </item><item>
     <title>Seed Gap - Language Learning Knowledge Base Organization</title>
     <link>https://quartz.jzhao.xyz/Seed-Gap---Language-Learning-Knowledge-Base-Organization</link>
     <guid>https://quartz.jzhao.xyz/Seed-Gap---Language-Learning-Knowledge-Base-Organization</guid>
     <description><![CDATA[ Seed Gap - Language Learning Knowledge Base Organization Identified Gap The Seed lacks explicit guidance for organizing knowledge bases in language learning domains — a distinct domain with unique characteristics not fully addressed by current rules. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 22:11:47 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 22:20:48 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Progression-Aware Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Progression-Aware-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Progression-Aware-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration - Progression-Aware Knowledge Organization The Gap The Seed handles expertise levels through the expertise-level rule and domain-specific variations, but lacks guidance for knowledge bases where the learner moves through distinct competency states over time. ]]></description>
+    <pubDate>Sat, 04 Apr 2026 22:20:48 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -58,12 +64,6 @@
     <link>https://quartz.jzhao.xyz/Best-Practice---Multi-Path-Knowledge-Discovery</link>
     <guid>https://quartz.jzhao.xyz/Best-Practice---Multi-Path-Knowledge-Discovery</guid>
     <description><![CDATA[ knowledge-type: meta Best Practice - Multi-Path Knowledge Discovery For every note, ensure at least 3 distinct pathways to discovery: search, backlink traversal, and tag filtering. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 21:05:53 GMT</pubDate>
-  </item><item>
-    <title>Best Practice - Multi-Source Synthesis</title>
-    <link>https://quartz.jzhao.xyz/Best-Practice---Multi-Source-Synthesis</link>
-    <guid>https://quartz.jzhao.xyz/Best-Practice---Multi-Source-Synthesis</guid>
-    <description><![CDATA[ knowledge-type: meta Best Practice - Multi-Source Synthesis Synthesize across sources, don’t depend on one. Your synthesis is the value. ]]></description>
     <pubDate>Sat, 04 Apr 2026 21:05:53 GMT</pubDate>
   </item>
     </channel>
