@@ -11,7 +11,7 @@ gap-priority: high
 gap-type: seed-missing
 discovered: 2026-04-02
 analyzed: 2026-04-02
-resolved-by: [[AI-Assisted Knowledge Management Seed]]
+resolved-by: Seed
 resolved: 2026-04-03
 gap-phase: integrated
 tags:

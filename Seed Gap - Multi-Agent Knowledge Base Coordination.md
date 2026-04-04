@@ -4,11 +4,11 @@ lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: structural
-gap-status: identified
+gap-status: proposed
 gap-priority: medium
-gap-type: seed-missing
 discovered: 2026-04-02
-gap-source: frontier-exploration
+proposed: 2026-04-04
+resolved-by:
 tags:
   - seed-gap
   - multi-agent

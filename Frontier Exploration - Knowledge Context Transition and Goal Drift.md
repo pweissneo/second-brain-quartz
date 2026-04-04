@@ -1,4 +1,6 @@
 ---
+author-type: ai-assisted
+confidence: emerging
 gap-status: proposed
 gap-priority: high
 gap-phase: implementation

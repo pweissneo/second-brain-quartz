@@ -9,13 +9,9 @@ tags:
   - access-pattern
   - organization
 schema-version: "1.0"
-gap-status: proposed
-gap-priority: medium
-gap-source: redundancy-scan-2026-03-25
-discovered: 2026-03-25
-analyzed: 2026-04-01
-proposed: 2026-04-01
-analysis-notes: "Partially addressed in Seed (access-pattern frontmatter at line ~1681). Missing: use-case-specific entry points guidance (reference indexes, learning paths)."
+gap-status: integrated
+resolved: 2026-04-03
+resolved-by: Seed (line ~52-72 added access-pattern guidance)
 ---
 
 # Seed Gap - Access-Pattern-Aware Knowledge Organization

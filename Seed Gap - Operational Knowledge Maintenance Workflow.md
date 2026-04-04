@@ -1,22 +1,20 @@
 ---
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 lifecycle: seed-gap
-confidence: emerging
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-gap
   - maintenance
   - workflow
   - operations
-  - archived
 gap-type: seed-missing
-gap-status: resolved
-gap-resolution-note: Resolved by Seed Refinement - Operational Knowledge Maintenance Workflow
-resolved-by: [[Seed Refinement - Operational Knowledge Maintenance Workflow]]
+gap-status: merged
+gap-resolution-note: Merged into Seed Refinement - Operational Knowledge Maintenance Workflow (2026-04-04)
 discovered: 2026-04-02
-resolved: 2026-04-03
-analysis-conclusion: "Clear operational gap in Seed - rules exist for maintenance burden evaluation and version control, but no guidance on operational maintenance workflow. Ready for proposed rule integration."
+resolved: 2026-04-04
+analysis-conclusion: "Gap resolved through consolidation. Refinement note contains comprehensive operational maintenance workflow rules that should be integrated into Seed. The Seed now has scattered coverage but lacks a consolidated rule — this gap note is now redundant with the refinement note."
 ---
 
 # Seed Gap: Operational Knowledge Maintenance Workflow

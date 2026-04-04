@@ -1,4 +1,13 @@
 ---
+last-reviewed: 2026-04-03
+lifecycle: seed-gap
+confidence: emerging
+author-type: ai-assisted
+tags:
+  - seed-gap
+  - legal-knowledge
+  - temporal
+  - law
 gap-status: proposed
 gap-priority: medium
 gap-phase: resolution
@@ -8,6 +17,7 @@ discovered: 2026-04-01
 gap-review-date: 2026-04-01
 resolution-target: 2026-04-07
 ---
+
 # Seed Gap - Temporal Legal Knowledge Handling
 
 ## The Gap

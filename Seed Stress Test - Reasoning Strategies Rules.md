@@ -489,11 +489,30 @@ Creative writing often involves other modalities — scene descriptions that cou
 
 ---
 
+### Edge Case 7: Therapeutic Psychology Domain (High-Stakes)
+
+**Domain:** Therapeutic psychology (counseling, psychotherapy) presents unique reasoning challenges: multiple competing frameworks, evidence tiers, client-specific factors, high stakes, temporal dimensions, and ethical constraints.
+
+**Proposed Refinements:**
+
+1. **Framework-Aware Reasoning:** For domains with competing frameworks, identify which framework each recommendation comes from and present alternatives when frameworks conflict.
+
+2. **Evidence Tier Integration:** For therapeutic/medical domains, include evidence-tier metadata and weight recommendations accordingly (gold-standard RCT vs. emerging vs. insufficient).
+
+3. **Required Factor Detection:** For recommendations depending on client factors, identify missing required factors and flag them (age, culture, comorbidities, preferences).
+
+4. **Credential Constraint Checking:** For domains with professional licensing requirements, check user credentials before recommending specialized interventions.
+
+5. **Phase/Stage Awareness:** For temporal processes (therapy phases: assessment → early → middle → late → termination), consider process phase when making recommendations.
+
+6. **Harm Potential Weighting:** For high-stakes domains, check harm potential and require safety information before recommending interventions.
+
+---
+
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — Understanding KB value propositions
 - [[Frontier Exploration - Learning Progression and Curriculum Design]] — Learning-specific traversal
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] — Understanding actual query patterns
-- [[Seed Stress Test - Reasoning Strategies in Therapeutic Psychology]] — Domain-specific reasoning test for high-stakes therapeutic domains
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]]

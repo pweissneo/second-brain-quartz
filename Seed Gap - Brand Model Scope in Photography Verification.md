@@ -1,5 +1,6 @@
 ---
-last-reviewed: 2026-04-02
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -10,6 +11,9 @@ tags:
   - photography
   - verification
   - brand-specific
+gap-status: integrated
+resolved: 2026-04-03
+resolved-by: Seed (line ~4153 expanded with photography/audio examples)
 ---
 
 # Seed Gap: Brand/Model Scope in Photography Verification
@@ -70,9 +74,19 @@ equipment-scope-note: "Tested on Canon ecosystem; Sony/Nikon behavior may differ
 
 ## Gap Status
 
-- **Status:** identified
+- **Status:** RESOLVED (2026-04-03)
 - **Priority:** medium
-- **Phase:** analysis
+- **Phase:** implementation
 - **Discovered:** 2026-04-02
-- **Resolved by:** [[Seed Gap - Brand/Model Scope in Photography Verification]] (this note)
+- **Discovered by:** Seed Stress Test - Photography Knowledge Base
+- **Resolved by:** Seed edge case expanded (line ~4153) with photography/audio equipment examples
+- **Resolution notes:** The Seed's equipment-scope guidance now explicitly includes photography (brand, model, lens) and audio equipment (brand, model, firmware) as examples. Gap is now addressed via expanded edge cases.
 - **Review date:** 2026-05-02
+
+---
+
+## Resolution Notes (2026-04-03)
+
+This gap was identified during SEED_STRESS_TEST. The Seed's equipment-scope edge case (formerly automotive/electronics only) has been expanded to explicitly include photography and audio equipment examples. The gap is now resolved — the Seed now provides explicit guidance for camera brand/model scope in verification-status.
+
+The gap note is kept as documentation of the identification-resolution process but is now marked resolved.

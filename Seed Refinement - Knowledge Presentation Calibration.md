@@ -1,16 +1,19 @@
 ---
 last-reviewed: 2026-03-31
-last-updated: 2026-03-31
+last-updated: 2026-04-03
 confidence: emerging
 author-type: ai-assisted
 lifecycle: seed-refinement
 level: seed-refinement
-verification-status: unverified
+verification-status: draft
 tags:
   - seed-refinement
   - knowledge-presentation
   - communication
   - uncertainty
+knowledge-type: meta
+retrieval-mode: hybrid
+storage-pattern: atomic
 ---
 
 # Seed Refinement - Knowledge Presentation Calibration

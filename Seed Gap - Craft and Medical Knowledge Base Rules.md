@@ -5,6 +5,7 @@ last-updated: 2026-03-25
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
 tags:
   - seed-gap
   - craft-knowledge

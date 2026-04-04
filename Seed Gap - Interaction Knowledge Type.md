@@ -12,7 +12,7 @@ gap-type: seed-missing
 gap-status: resolved
 gap-priority: high
 resolved: 2026-03-28
-resolved-by: [[AI-Assisted Knowledge Management Seed]]
+resolved-by: Seed
 gap-resolution-note: "Added rule for interaction knowledge type to Seed section 6 (Knowledge Processing) on 2026-03-28"
 ---
 

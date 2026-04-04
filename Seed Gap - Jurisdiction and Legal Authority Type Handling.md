@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-28
-last-updated: 2026-03-29
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -9,11 +9,13 @@ tags:
   - legal-knowledge
   - jurisdiction
   - knowledge-type
-gap-status: analyzed
+gap-status: integrated
 gap-priority: high
-gap-phase: implementation
+gap-phase: integrated
 gap-type: seed-missing
 discovered: 2026-03-28
+resolved: 2026-04-03
+resolved-by: [[Seed Refinement - Legal Authority Type Distinction]]
 ---
 
 # Seed Gap: Jurisdiction and Legal Authority Type Handling

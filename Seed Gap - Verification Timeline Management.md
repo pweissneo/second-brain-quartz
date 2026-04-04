@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-04-02
-last-updated: 2026-04-02
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -10,12 +10,14 @@ tags:
   - temporal-knowledge
   - workflow
 gap-type: seed-missing
-gap-phase: analysis
-gap-status: proposed
+gap-phase: resolved
+gap-status: integrated
 gap-source: stress-test
 discovered: 2026-03-28
 proposed-date: 2026-03-29
 merged-from: [[Seed Gap - Verification Timeline for High-Iteration Domains]]
+integrated-date: 2026-04-03
+integration-note: "Verification timeline types (standard, seasonal, long-horizon) are now covered through verification-cycle edge cases in the Seed (lines 451, 452, 1061-1071). The medium-long timeline (2-8 weeks) is covered in Seed Refinement - Long-Horizon Verification Timeline.md. A unified verification-timeline field is not explicitly added but the concept is embedded across domain-specific edge cases."
 ---
 
 # Seed Gap: Verification Timeline Management

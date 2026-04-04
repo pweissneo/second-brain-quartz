@@ -2,6 +2,7 @@
 last-reviewed: 2026-04-02
 last-updated: 2026-04-02
 lifecycle: resolved
+confidence: low
 author-type: ai-assisted
 tags:
   - seed-gap
@@ -12,7 +13,7 @@ gap-priority: n/a
 gap-phase: verification
 gap-type: seed-incomplete
 resolved: 2026-04-02
-resolved-by: "[[AI-Assisted Knowledge Management Seed]] (line 1808 expanded)"
+resolved-by: "Seed (line 1808 expanded)"
 resolution: seed-extension
 resolution-note: "Seed includes full decision-type rule at line 1808: diagnostic|setup|troubleshooting|selection|prioritization|context-dependent. Gap fully resolved."
 ---

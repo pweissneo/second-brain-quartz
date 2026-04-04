@@ -4,6 +4,7 @@ last-updated: 2026-04-01
 lifecycle: frontier-exploration
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: conceptual
 tags:
   - frontier-exploration
   - seed-gap

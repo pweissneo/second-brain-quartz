@@ -1,8 +1,8 @@
 ---
 last-reviewed: 2026-04-01
-last-updated: 2026-04-01
-lifecycle: seed-gap
-confidence: emerging
+last-updated: 2026-04-03
+lifecycle: deprecated
+confidence: high
 author-type: ai-assisted
 tags:
   - seed-gap
@@ -17,10 +17,17 @@ gap-phase: implementation
 analyzed: 2026-04-01
 resolved: 2026-04-01
 resolved-by: [[AI-Assisted Knowledge Management Seed]]
-integration-notes: "Rule added to Seed section 5 (Quality Maintenance) after 'Never delete notes' rule. Anti-Pattern - Over-Organization also merged on 2026-04-01."
+redirect_to: [[Seed Refinement - Anti-Pattern Merge Pattern]]
+correction-type: merged
+correction-date: 2026-04-03
+deprecation-note: "Rule integrated into Seed at line 2337. Pattern documented in Seed Refinement note. This gap note is now redundant."
 ---
 
-# Seed Gap: Anti-Pattern to Best Practice Merge Criteria
+# DEPRECATED: Seed Gap - Anti-Pattern to Best Practice Merge Criteria
+
+> **STATUS: DEPRECATED (2026-04-03)** — This gap has been resolved. The rule is now in the Seed at line 2337. See [[Seed Refinement - Anti-Pattern Merge Pattern]] for pattern documentation.
+
+> Identified gap: The Seed lacks explicit guidance on when to merge an anti-pattern into its corresponding best practice vs. when to keep them as separate notes.
 
 > Identified gap: The Seed lacks explicit guidance on when to merge an anti-pattern into its corresponding best practice vs. when to keep them as separate notes.
 

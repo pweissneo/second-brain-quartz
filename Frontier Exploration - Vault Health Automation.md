@@ -1,6 +1,8 @@
 ---
+author-type: ai-assisted
 redirect_to: [[Frontier Exploration - Automated Vault Health Monitoring]]
 lifecycle: deprecated
+confidence: low
 correction-type: merged
 correction-date: 2026-03-31
 ---

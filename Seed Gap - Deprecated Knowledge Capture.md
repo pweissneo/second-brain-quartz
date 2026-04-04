@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 gap-status: resolved
 last-reviewed: 2026-04-02
 lifecycle: exploratory

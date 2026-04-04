@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-24
+last-reviewed: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -8,6 +8,8 @@ tags:
 - knowledge-presentation
 - communication
 - domain-conventions
+knowledge-type: meta
+retrieval-mode: hybrid
 ---
 
 # Frontier Exploration: Domain-Specific Communication Styles and Norms

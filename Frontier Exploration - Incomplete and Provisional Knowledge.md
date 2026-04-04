@@ -3,6 +3,7 @@ last-reviewed: 2026-03-27
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
 schema-version: "1.0"
 gap-status: identified
 gap-priority: medium

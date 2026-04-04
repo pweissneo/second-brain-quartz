@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-16
-lifecycle: evergreen
+last-reviewed: 2026-04-04
+lifecycle: deprecated
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
@@ -10,13 +10,25 @@ tags:
 - edge-case
 - psychology
 - therapeutic
+redirect_to: [[Seed Stress Test - Reasoning Strategies Rules]]
+correction-type: merged
+correction-date: 2026-04-04
+corrected_by: [[Seed Stress Test - Reasoning Strategies Rules]]
 ---
 
-# Stress Test: Reasoning Strategies in Therapeutic Psychology
+# ⚠️ DEPRECATED: Reasoning Strategies in Therapeutic Psychology
+
+> **Status:** This note has been merged into [[Seed Stress Test - Reasoning Strategies Rules]]
+> 
+> All content from this note has been integrated into the main reasoning strategies stress test (Edge Case 7). This file is kept as a redirect.
+
+---
 
 > Testing Seed rule: "Define reasoning strategies for query answering — include explicit rules for query decomposition, traversal planning, relevance scoring, confidence aggregation, and gap detection."
 
-This note explores how reasoning strategies apply to therapeutic psychology knowledge - a domain with unique challenges: multiple competing frameworks, evidence tiers, high-stakes decision making, and complex client-specific factors.
+This note explored how reasoning strategies apply to therapeutic psychology knowledge - a domain with unique challenges: multiple competing frameworks, evidence tiers, high-stakes decision making, and complex client-specific factors.
+
+**All therapeutic psychology edge cases have been integrated into [[Seed Stress Test - Reasoning Strategies Rules]].**
 
 ## The Rule
 

@@ -19,7 +19,7 @@ gap-priority: high
 gap-source: frontier-exploration
 discovered: 2026-03-28
 resolved: 2026-03-28
-resolved-by: "[[AI-Assisted Knowledge Management Seed]]"  # Rule added 2026-03-28, lines 1881-1884
+resolved-by: "Seed"  # Rule added 2026-03-28, lines 1881-1884
 ---
 
 # Seed Gap: Evolving Terminology in Fast-Moving Domains

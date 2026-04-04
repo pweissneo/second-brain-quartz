@@ -4,6 +4,7 @@ last-updated: 2026-04-02
 lifecycle: evergreen
 confidence: medium
 author-type: ai-assisted
+knowledge-type: conceptual
 gap-status: identified
 gap-priority: medium
 ---

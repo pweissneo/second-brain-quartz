@@ -110,30 +110,11 @@ Capture knowledge that:
 | Duplicate | Already exists | Update existing note |
 | Momentum capture | Breaks flow | Jot quick note, process later |
 
-## Capture the Negative Too
-
-For every "how to X" note, consider adding:
-- A note about what doesn't work when trying X
-- Context about when X doesn't apply
-- Failed experiments and why they failed
-
-This makes your knowledge base complete, not just positive. Complete knowledge includes failures — they often teach more than successes.
-
-Document negative knowledge with:
-```yaml
-experiment: What you tried
-outcome: What happened  
-reason-for-failure: Why it didn't work
-context: Your specific situation
-```
-
-See [[Best Practice - Balanced Capture]] for more on capturing negative knowledge.
-
 ## Related
 
 - [[Atomic Note Principle]]
 - [[Note Lifecycle Management]]
-- [[Best Practice - Balanced Capture]]
+- [[Best Practice - Balanced Capture]] — For capturing negative knowledge (what doesn't work)
 - [[Graph Maintenance]]
 - [[Self-Improvement Cycle]]
 - [[Anti-Pattern - Note Hoarding]] — The failure case this best practice prevents (merged, file removed)

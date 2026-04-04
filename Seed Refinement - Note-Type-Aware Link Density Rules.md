@@ -1,20 +1,25 @@
 ---
-last-reviewed: 2026-04-02
-last-updated: 2026-04-02
-lifecycle: seed-refinement
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
+lifecycle: deprecated
 confidence: high
 author-type: ai-assisted
 knowledge-type: analysis
 verification-status: verified
+gap-status: deprecated
+deprecation-note: "Content fully integrated into the Seed (lines ~1732, ~4442). Retained as historical record."
+redirect_to:
+  - [[AI-Assisted Knowledge Management Seed]]
+  - [[Linking Principle]]
 tags:
   - seed-refinement
   - link-density
   - structural-health
   - edge-case
-  - merged
+  - deprecated
 ---
 
-# Seed Refinement: Note-Type-Aware Link Density Rules
+# DEPRECATED: Seed Refinement - Note-Type-Aware Link Density Rules
 
 > **STATUS: INTEGRATED INTO SEED (2026-04-02)** — The refinement rule has been added to the Seed at line 1884. This note serves as documentation of the discovery process.
 

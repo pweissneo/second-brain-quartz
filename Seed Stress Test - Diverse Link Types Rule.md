@@ -1,18 +1,23 @@
 ---
-last-reviewed: 2026-03-14
-last-updated: 2026-03-24
-lifecycle: evergreen
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
+lifecycle: deprecated
 confidence: emerging
 verification-status: verified
 author-type: ai-assisted
+gap-status: deprecated
+deprecation-note: "Stress test results incorporated into the Seed. See Seed and Linking Principle."
+redirect_to:
+  - [[AI-Assisted Knowledge Management Seed]]
+  - [[Linking Principle]]
 tags:
   - seed-stress-test
   - linking
   - graph-structure
-integrated: true
+  - deprecated
 ---
 
-# Stress Test: Diverse Link Types Rule
+# DEPRECATED: Seed Stress Test - Diverse Link Types Rule
 
 > **Status:** INTEGRATED — Edge cases merged into Seed. This note retained as historical record.
 

@@ -1,18 +1,23 @@
 ---
 protected: false
-last-reviewed: 2026-03-21
-last-updated: 2026-03-21
-lifecycle: seed-extension
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
+lifecycle: deprecated
 confidence: high
 author-type: ai-assisted
+gap-status: deprecated
+deprecation-note: "Stress test results incorporated into the Seed. See Seed for integrated edge cases."
+redirect_to:
+  - [[AI-Assisted Knowledge Management Seed]]
 tags:
   - seed-stress-test
   - 2-plus-links
   - linking-rules
   - domain-adaptation
+  - deprecated
 ---
 
-# Seed Stress Test: 2+ Links Rule Across Multiple Domains
+# DEPRECATED: Seed Stress Test - 2+ Links Rule Across Multiple Domains
 
 **Tested Rule:** Every note must link to at least 2 other notes OR be tagged with `foundational: true` OR be tagged with `specialized: true`.
 

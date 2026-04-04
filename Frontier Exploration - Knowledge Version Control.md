@@ -1,4 +1,5 @@
 ---
+author-type: ai-assisted
 last-updated: 2026-04-01
 confidence: emerging
 verification-status: unverified

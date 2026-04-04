@@ -1,7 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-03-27
-last-updated: 2026-03-27
+last-reviewed: 2026-04-03
+last-updated: 2026-04-03
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -11,6 +11,7 @@ author-type: ai-assisted
 > Drop this file into any vault to bootstrap a healthy, self-improving knowledge base.
 > Every rule is testable by an AI agent — no human judgment required.
 > Every rule is domain-agnostic — works for any topic.
+> Latest update: 2026-04-03 — access-pattern tagging and knowledge type taxonomy added
 
 ---
 
@@ -30,7 +31,28 @@ author-type: ai-assisted
 **Why:** AI agents need graph navigation tools to evaluate and improve the vault programmatically.
 **Test:** Does the config file exist? Can an AI agent query the graph structure?
 
-**Rule:** Use flat file structure with wikilinks — no nested folders.
+**Rule (NEW - 2026-04-03):** Tag notes by primary access pattern and create use-case-specific entry points for reference-optimized lookup.
+
+**Why:** The same knowledge needs different organization depending on whether someone is learning, looking up a fact, making a decision, or seeking inspiration. Default organization assumptions hurt specific use cases.
+
+**Test:** (1) Can you filter notes by access-pattern tag? (2) Does the vault have reference indexes for lookup use cases? (3) Are learning paths available for understanding use cases? (4) Are decision trees available for choice-making use cases?
+
+**Implementation:** Use frontmatter:
+```yaml
+access-pattern: lookup|learning|decision|inspiration|mixed
+```
+- **Lookup-optimized notes:** Concise, complete in single view, minimal navigation required
+- **Learning-optimized notes:** Progressive complexity, clear prerequisites, connected concepts
+- **Decision-optimized notes:** Options clearly laid out, trade-offs explicit, criteria visible
+- **Inspiration-optimized notes:** Rich connections, examples from multiple domains, creative recombination-friendly
+
+**Entry point types:**
+- Reference indexes: Alphabetical/category lookup for fact retrieval
+- Learning paths: Sequential progression for understanding
+- Decision trees: Branching structure for choice-making
+- Inspiration hubs: Cross-domain connections for creative recombination
+
+**See also:** [[Seed Gap - Access-Pattern-Aware Knowledge Organization]] (gap now integrated)
 **Why:** Folders impose hierarchy that constrains discovery; links create organic, multi-dimensional structure.
 **Test:** Are all notes in a single directory? Are connections made via `[[Wikilinks]]`, not folder paths?
 **Edge case (stress test 2026-04-02):** In domains where the knowledge itself has inherent hierarchical structure (legal codes, technical standards, regulatory frameworks, academic curricula), pure flat-file organization loses important context. Apply modified approach:
@@ -427,6 +449,7 @@ export-excluded: true  # exclude from vault exports
 **Edge case:** High-stakes domains (medical, legal, financial) should maintain higher ratios (≥0.7) — unverified knowledge can cause real harm.
 **Edge case:** Experiential domains require even more stringent tracking — "verified" means actually tested, not just source-checked. Require verification-status: verified, not just review completion.
 **Edge case (NEW - 2026-03-18):** In domains with seasonal or cyclical verification constraints, the 30-day verification window may unfairly penalize valid captures. Cooking recipes with seasonal ingredients (pumpkin in fall, strawberries in summer), gardening knowledge that can only be verified during growing seasons, or holiday-specific traditions may be captured months before they can be practically tested. Apply domain-aware verification windows: (1) Use `verification-cycle:` field with values `seasonal|annual|circular` for notes that can only be verified at specific times, (2) Track `verification-season:` or `verification-window:` to specify when verification is possible, (3) Count these notes as "pending verification" rather than "unverified" during off-seasons, (4) Set verification ratio targets based on capture timing — a pumpkin recipe captured in March has 6 months to be verified before the next pumpkin season, not 30 days.
+**Edge case (NEW - 2026-04-03):** In creative writing and other subjective-domain knowledge bases (art criticism, aesthetic evaluation, creative craft), the verification-ratio rule fails due to dual challenges: (1) feedback cycles exceed 30 days by nature (beta readers: 2-8 weeks, workshop: monthly, publication: weeks to months), (2) "verified" is ambiguous — craft advice is subjective with no objective pass/fail. Apply creative-domain verification: (1) Use `verification-cycle: long-horizon` field for notes requiring extended feedback, (2) Track separate `verification-mode:` (craft-practice|workshop|beta-reader|publication), (3) Apply modified ratio: (notes verified OR notes with verification-in-progress) / notes added in last 90 days ≥0.5, (4) Use alternative status values: `practice-validated`, `workshop-validated`, `beta-validated`, `published-validated`. The standard 30-day ratio will produce false negatives in creative vaults — the vault may be high-quality but inherently slow to verify.
 
 **Rule:** Enforce verification ceiling — when unverified notes exceed 40% of total vault, pause exploration and prioritize verification until ratio drops below 30%.
 **Why:** An unverified-heavy vault misleads about its reliability. Users and AI agents cannot distinguish verified from unverified knowledge without explicit status tracking. The vault becomes unreliable as a decision-support tool.
@@ -442,13 +465,18 @@ export-excluded: true  # exclude from vault exports
 
 **Rule (NEW - 2026-04-01):** Apply verification priority hierarchy when verification resources are limited — prioritize in order: (1) safety-critical knowledge, (2) decision-critical knowledge, (3) frequently-referenced knowledge, (4) verification cost-effective knowledge.
 **Why:** The Seed enforces verification ratios (50%+ within 30 days) and ceilings (pause at 40% unverified) but provides no guidance on *which* notes to verify first. Without priority hierarchy, AI agents verify randomly or default to easiest, wasting effort on low-value items while high-impact items remain unverified.
-**Test:** For your verification backlog: (1) Can you identify notes tagged `criticality: high` or `safety-critical: true`? (2) Do these have `verification-status: verified`? (3) Are hub notes (high backlink count) verified before peripheral notes? (4) Does your verification history prioritize in Level 1→4 order?
+**Test:** For your verification backlog: (1) Can you identify notes tagged `criticality: high` or `safety-critical: true`? (2) Do these have `verification-status: verified`? (3) Can you distinguish foundational notes (low backlinks, high forward references) from hub notes (high backlinks)? (4) Are foundational notes verified for correctness before hubs are verified for completeness? (5) For small vaults: does expected-frequency scoring replace historical usage? (6) Does your verification history prioritize in Level 1→4 order?
 
 **Priority categories:**
 - **Level 1 (Critical):** Knowledge that could cause harm if wrong — medical advice, safety procedures, legal guidance, financial decisions, technical configurations. Requires `criticality: high` AND human expert review before marking verified.
-- **Level 2 (High):** Hub notes, core principles, foundational definitions — errors propagate widely. Requires verification before building dependent notes.
-- **Level 3 (Medium):** Frequently-searched notes, entry points, high-backlink notes — high traffic means outsized impact from errors.
+- **Level 2 (High):** Foundational notes (core equations, fundamental laws, base definitions) — errors propagate to everything built upon them. Requires correctness verification before dependent notes are verified. Detection: notes with low backlink counts but high forward references.
+- **Level 3 (Medium):** Hub notes (high backlink counts), frequently-searched notes, entry points — high traffic means outsized impact from errors. Requires completeness verification (links valid, content current).
 - **Level 4 (Low):** Expensive-to-verify knowledge (long-horizon, experiential requiring specific conditions), redundant notes (delete instead), deprecated knowledge (skip).
+
+**Edge case (NEW - 2026-04-03):** Foundational notes require different verification approach than hub notes. A wrong foundational note corrupts everything built upon it; a wrong hub note is annoying but correctable. Distinguish by:
+- **Foundational:** low backlinks, high forward references (everything builds FROM it) → verify correctness first
+- **Hub:** high backlinks (many things link TO it) → verify completeness (links valid, content current)
+- **Small vault adaptation:** use expected-frequency scoring as proxy for usage history. Foundational notes (fundamental laws, core principles) get priority even with zero backlinks.
 
 **Edge case (NEW - 2026-04-01):** In cooking domain, safety-critical knowledge is often embedded in non-safety notes — a note titled "Sautéing Fundamentals" contains Level 1 knowledge (oil temperature → fire hazard, food safety) but might not have safety-related frontmatter. Additionally, food safety has dual nature: general food safety rules (cross-contamination, temperature control) apply universally and are centralized, while ingredient-specific safety (toxic mushrooms, undercooked fish, bean toxicity) is scattered across ingredient notes and harder to identify.
 
@@ -4272,12 +4300,22 @@ safety-mandatory: true
 **Edge case:** Equipment cost can be a vault boundary criterion — if equipment cost excludes certain users, consider this when capturing knowledge.
 **Edge case (refined):** For domains where software is as critical as hardware (music production, video editing, design), distinguish `equipment:` (physical tools) from `software:` (digital tools), or use `equipment:` with `type: physical|software` sub-field.
 **Edge case (refined):** For domains with wide quality spectrums (free to professional-grade), add `quality-tier:` or `entry-level-alternative:` to help beginners determine what they can START with, not just what professionals use.
-**Edge case (expanded):** For domains requiring make/model/year specificity (automotive repair, electronics, appliances), equipment varies by specific vehicle/device:
+**Edge case (expanded):** For domains requiring make/model/year specificity (automotive repair, electronics, appliances, photography), equipment varies by specific vehicle/device:
 ```yaml
 equipment-scope:
   make: [Toyota, Honda]
   year: [2015-2022]
   model: [Camry, Accord]
+# Photography examples:
+equipment-scope:
+  brand: Canon
+  model: [EOS R5, EOS R6]
+  lens: [RF 50mm f/1.2L, RF 85mm f/1.2L]
+# Audio equipment examples:
+equipment-scope:
+  brand: Universal Audio
+  model: [Apollo Twin, Apollo X6]
+  firmware: ["1.2.3", "2.0.0"]
 ```
 When equipment varies by model, either: (1) create separate notes per model, (2) use conditional equipment lists, or (3) link to a "Required Tools" hub rather than inlining.
 **Edge case (expanded):** Safety-critical equipment in domains like automotive, construction, or medicine cannot be marked "optional" — use explicit `safety-mandatory: true` for equipment where skipping causes harm.

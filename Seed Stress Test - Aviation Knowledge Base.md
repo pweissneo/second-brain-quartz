@@ -1,7 +1,8 @@
 ---
- lifecycle: staging
- confidence: low
- last-updated: 2026-03-29
+author-type: ai-assisted
+lifecycle: staging
+confidence: low
+last-updated: 2026-03-29
 ---
 # Seed Stress Test - Aviation Knowledge Base
 

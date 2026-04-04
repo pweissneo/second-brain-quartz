@@ -4,6 +4,7 @@ last-updated: 2026-03-28
 lifecycle: staging
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: procedural
 tags:
   - seed-refinement
   - process-type

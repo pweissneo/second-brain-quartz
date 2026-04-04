@@ -1,8 +1,10 @@
 ---
 last-reviewed: 2026-03-14
+last-updated: 2026-04-03
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: draft
 tags:
   - frontier-exploration
   - knowledge-types
@@ -10,6 +12,10 @@ tags:
   - arrangement
   - cyclic-knowledge
 domain: music
+knowledge-type: conceptual
+retrieval-mode: browse
+storage-pattern: atomic
+process-type: cyclic-branching
 ---
 
 # Frontier Exploration: Musical Arrangement Knowledge

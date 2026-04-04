@@ -4,7 +4,12 @@ confidence: emerging
 last-reviewed: 2026-03-16
 lifecycle: evergreen
 author-type: ai-assisted
+last-updated: 2026-04-03
+verification-status: draft
 review-after: 2026-04-16
+knowledge-type: conceptual
+retrieval-mode: browse
+storage-pattern: atomic
 tags:
   - knowledge-management
   - frontier-exploration

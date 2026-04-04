@@ -10,7 +10,7 @@ gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-03-27
 resolved: 2026-03-28
-resolved-by: "[[AI-Assisted Knowledge Management Seed]] — rules added 2026-03-16 and 2026-03-22"
+resolved-by: "Seed (rules added 2026-03-16 and 2026-03-22)"
 deprecated-date: 2026-03-28
 deprecated-reason: superseded
 ---

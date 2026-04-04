@@ -1,4 +1,6 @@
 ---
+author-type: ai-assisted
+confidence: low
 gap-status: resolved
 gap-priority: n/a
 gap-phase: verification
@@ -6,7 +8,7 @@ gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-04-02
 resolved: 2026-04-02
-resolved-by: "[[AI-Assisted Knowledge Management Seed]] (line 2929)"
+resolved-by: "Seed (line 2929)"
 resolution: seed-extension
 resolution-note: "Seed includes geographic-scope rule at line 2929 and context-gate rules. Astronomy-specific edge cases (hemisphere-dependent sky maps, celestial object visibility by latitude) could be added as extensions but core rule exists."
 domain: astronomy

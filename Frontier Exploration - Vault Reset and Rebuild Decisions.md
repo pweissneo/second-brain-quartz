@@ -9,6 +9,7 @@ tags:
   - structural
 level: frontier
 schema-version: "1.0"
+knowledge-type: conceptual
 ---
 
 # Frontier Exploration: Vault Reset and Rebuild Decisions

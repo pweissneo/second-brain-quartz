@@ -9,7 +9,7 @@ gap-priority: medium
 gap-type: seed-missing
 discovered: 2026-03-26
 resolved: 2026-03-29
-resolved-by: [[AI-Assisted Knowledge Management Seed]]
+resolved-by: Seed
 gap-source: REDUNDANCY_SCAN
 tags:
   - seed-gap

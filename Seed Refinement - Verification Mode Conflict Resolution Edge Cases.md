@@ -78,6 +78,15 @@ integration-type: clinical-synthesis
 
 ---
 
+## Resolution Strategies
+
+| Strategy | Use When | Result |
+|----------|----------|--------|
+| mode-priority | No domain context | Higher mode wins |
+| domain-priority | Domain has established standards | Domain-appropriate wins |
+| preservation | Both modes valid but context differs | Both preserved with conflict note |
+| escalation | Truly ambiguous, requires human judgment | Mark as disputed, defer |
+
 ## Refinement 4: Drill-to-Real Transfer Risk
 
 **Problem:** Drill-verified certification indicates competence, but doesn't guarantee effectiveness in every real scenario.
@@ -163,7 +172,7 @@ seed-gap-type: verification-mode-gap
 
 - [[Seed Stress Test - Verification Mode Conflict Resolution in Medical Knowledge]] — Edge case documentation
 - [[Seed Gap - Verification Mode Conflict Resolution]] — Original gap analysis
-- [[Seed Refinement - Verification Mode Conflict Resolution]] — Earlier refinement (2026-03-30)
+- [[Seed Refinement - Verification Mode Conflict Resolution]] — Earlier refinement (superseded by this note)
 
 ---
 

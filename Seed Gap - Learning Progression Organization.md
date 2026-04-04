@@ -8,13 +8,15 @@ tags:
   - learning
   - progression
   - curriculum
-gap-status: proposed
+gap-status: deprecated
 gap-priority: medium
 gap-phase: implementation
 resolution-target: 2026-04-10
 gap-severity: useful
 gap-source: frontier-exploration
 discovered: 2026-04-03
+resolved: 2026-04-03
+resolved-by: [[Seed Refinement - Learning Progression Organization]]
 ---
 
 # Seed Gap - Learning Progression Organization

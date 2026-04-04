@@ -1,101 +1,67 @@
 ---
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
-lifecycle: frontier-exploration
+created: 2026-04-03
+updated: 2026-04-03
 confidence: medium
-gap-type: frontier-exploration
-domain-applicability: universal
+type: frontier-exploration
 author-type: ai-assisted
+lifecycle: draft
+gap-severity: useful
 tags:
-  - frontier-exploration
   - verification
-  - epistemic-uncertainty
+  - frontier-exploration
+  - edge-case
 ---
 
 # Frontier Exploration - Verification Impractical Knowledge
 
-> When building a knowledge base in domains where verification is expensive, dangerous, or simply impractical, how should an AI agent decide what to capture and how to flag knowledge appropriately?
-
 ## The Problem
 
-The Seed's verification rules assume verification is achievable:
-- Check sources
-- Cross-reference claims
-- Seek multiple perspectives
-- Verify through experimentation
+The Seed provides verification mode rules (empirical, source, social, self-consistency) but assumes verification is possible. What about knowledge where verification methods are impractical, unavailable, or impossible?
 
-But some knowledge domains make verification extremely impractical:
+**Examples of verification-impractical knowledge:**
 
-### Verification-Unfriendly Domains
+1. **Historical events with destroyed records** - Primary sources lost to war, fire, or censorship
+2. **Personal experiences of deceased people** - No longer verifiable by the individual
+3. **Proprietary or classified information** - Sources won't share evidence
+4. **Knowledge that would require destruction to verify** - "Does this burn at 400°F?" requires destroying the sample
+5. **Time-delayed verification** - Knowledge that can only be verified in the future (predictions, long-horizon outcomes)
+6. **Extremely rare events** - Can't reproduce, only observed once
+7. **Knowledge dependent on specific individuals** - Verification requires a specific person who's unavailable
 
-1. **Long-horizon knowledge** - Effects that take decades to manifest (climate change, infrastructure lifespan, medical long-term drug trials)
-2. **Expensive experimentation** - Fields requiring expensive equipment, rare materials, or specialized facilities
-3. **Dangerous/harmful verification** - Would cause harm to verify (emergency procedures, safety-critical failures)
-4. **Single-opportunity events** - Historical events that cannot be repeated
-5. **Personal/subjective knowledge** - Where verification means personal experience
-6. **Novel/emerging domains** - Where no verification methodology exists yet
+## Current Seed Gaps
 
-## The Gap
+The Seed's verification rules don't explicitly address:
+1. What to do when NO verification method is available
+2. How to categorize unverifiable knowledge
+3. When to exclude knowledge because verification is impossible
+4. How to communicate verification limitations to users
 
-The Seed covers "what to verify" but not:
-- **When verification is impractical** - How to recognize verification-expensive knowledge
-- **Alternative assurance mechanisms** - What to do when you cannot verify
-- **Confidence calibration** - How to flag knowledge appropriately when verification is blocked
-- **When to skip capture entirely** - When unverifiable knowledge creates more noise than value
+## Proposed Approach
 
-## Research Questions
+### Tier 0: Verification Impractical
 
-1. What alternative assurance mechanisms exist for verification-impractical knowledge?
-   - Proportional verification (verify a sample rather than all)
-   - Expert consensus proxies (what do experts trust without direct verification?)
-   - Historical accuracy track records (has the source been reliable in verifiable areas?)
-   - Structural reasonableness (does the claim contradict known frameworks?)
-   - Source reputation and credentialing
+When verification is genuinely impractical:
+- Mark with `verification-approach: impractical`
+- Add `impractical-reason:` (destroyed-sources|proprietary|time-delayed|rare-events|deceased-source)
+- Set `confidence: low` or `confidence: unknown`
+- Document what WOULD verify it if constraints were removed
 
-2. How should confidence be calibrated for unverifiable knowledge?
-   - Explicit confidence markers for unverifiable status
-   - Provenance transparency (where did this come from?)
-   - Epistemic humility (what would change this knowledge?)
-   - Temporal bounds (how current is this?)
+### Usage Guidelines
 
-3. When should capture be skipped?
-   - When unverifiable claims contradict verifiable ones
-   - When unverifiable adds no value beyond verifiable
-   - When unverifiable creates false confidence
+- Don't exclude impractical knowledge automatically — some knowledge is valuable even with unknown validity
+- Distinguish "not yet verified" from "practically unverifiable"
+- Make verification impracticality explicit to users
+- Consider whether the knowledge is worth storing given verification limitations
 
-## Seed Rule Proposal
+## Questions for Seed
 
-**Rule:** For knowledge in verification-impractical domains, use alternative assurance mechanisms and explicit confidence calibration rather than treating unverifiable as equivalent to verified.
+- Should the Seed include a rule for handling verification-impractical knowledge?
+- What's the minimum confidence threshold for including unverifiable knowledge?
+- Should impractical knowledge be segmented (separate vault/folder)?
 
-**Why:** Verification-impractical knowledge that pretends to be verified creates false confidence. Users treat uncalibrated knowledge as verified, leading to poor decisions. Alternative assurance (proportional verification, reputation tracking, structural reasonableness) provides useful signal without the cost of direct verification.
+## Related Notes
 
-**Test:** For knowledge that cannot be directly verified:
-1. Can you identify it as verification-impractical?
-2. Has an alternative assurance mechanism been applied?
-3. Is confidence explicitly calibrated to unverifiable status?
-4. Is provenance documented (source, methodology, date)?
-5. Are epistemic markers present (what would change this?)?
-
-## Implementation
-
-Frontmatter for verification-impractical knowledge:
-```yaml
-verification-status: impractical  # vs verified|pending|failed
-verification-blocked-by: cost|danger|time-horizon|single-opportunity|no-methodology
-alternative-assurance: proportional|consensus|reputation|structural-reasonableness
-confidence: low|medium  # calibrated lower than verified
-provenance:来源
-last-verification-attempt: 2026-04-03
-epistemic-markers:
-  - what-would-change: "What experiment would validate this?"
-  - reliability-history: "Has source been reliable in verifiable areas?"
-  - expert-consensus: "Do experts in this domain trust this?"
-```
-
-## Related
-
+- [[Verification Workflow]]
+- [[Seed Gap - Verification Method Unavailability]]
 - [[Seed Gap - Verification Timeline Management]]
-- [[Seed Gap - Verification Mode Conflict Resolution]]
-- [[Seed Stress Test - Verification Priority Hierarchy in Woodworking]]
-- [[Frontier Exploration - Unverifiable Knowledge Handling]]
 - [[Confidence Markers]]

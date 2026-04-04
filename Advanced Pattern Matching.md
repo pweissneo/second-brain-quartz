@@ -6,7 +6,11 @@ confidence: high
 author-type: ai-assisted
 schema-version: "1.0"
 knowledge-type: procedural
+retrieval-mode: browse
+storage-pattern: sequential
+verification-approach: source
 verification-status: verified
+access-pattern: learning
 tags:
   - graph-analysis
   - vault-health

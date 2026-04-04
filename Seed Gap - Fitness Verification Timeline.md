@@ -3,6 +3,7 @@ last-reviewed: 2026-04-03
 lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
 verification-status: testing
 tags:
   - seed-gap

@@ -1,10 +1,13 @@
 ---
 last-reviewed: 2026-04-02
-last-updated: 2026-04-02
+last-updated: 2026-04-03
 lifecycle: evergreen
 confidence: high
 verification-status: verified
 author-type: ai-assisted
+knowledge-type: meta
+retrieval-mode: hybrid
+storage-pattern: atomic
 tags:
   - best-practice
   - anti-pattern
