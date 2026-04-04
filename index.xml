@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Structural-Health-Check---2026-04-04</link>
     <guid>https://quartz.jzhao.xyz/Structural-Health-Check---2026-04-04</guid>
     <description><![CDATA[ Structural Health Check - 2026-04-04 Vault Status: HEALTHY This check performed using STRUCTURAL_HEALTH discovery method. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Rule Addition - Multi-Person Coordination</title>
     <link>https://quartz.jzhao.xyz/Seed-Rule-Addition---Multi-Person-Coordination</link>
     <guid>https://quartz.jzhao.xyz/Seed-Rule-Addition---Multi-Person-Coordination</guid>
     <description><![CDATA[ Seed Rule Addition: Multi-Person Knowledge Coordination Rule: For knowledge requiring coordinated execution by multiple people (crew operations, team sports, pair programming, surgical teams), organize notes for both individual understanding AND team coordination — include role definitions, communic... ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Tacit Knowledge Transfer Mechanism Documentation</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Tacit-Knowledge-Transfer-Mechanism-Documentation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Tacit-Knowledge-Transfer-Mechanism-Documentation</guid>
     <description><![CDATA[ Seed Refinement - Tacit Knowledge Transfer Mechanism Documentation How should knowledge bases document HOW tacit knowledge transfers between people? The Gap The Seed covers embodied knowledge capture and sensory anchors, but lacks explicit guidance for transfer mechanisms — the different ways tacit ... ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Reasoning Success Rate Implementation</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Success-Rate-Implementation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Success-Rate-Implementation</guid>
     <description><![CDATA[ Seed Refinement: Reasoning Success Rate Implementation Overview The Seed includes a rule for reasoning success rate at line 2266-2268: Rule: Track reasoning success rate as a proxy for vault usability — monitor query completion, gap detection frequency, and answer quality. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Reasoning Strategy Implementation Guidance</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation-Guidance</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation-Guidance</guid>
     <description><![CDATA[ Seed Refinement: Reasoning Strategy Implementation Guidance Overview The Seed includes a rule for reasoning strategies at line 2223-2226: Rule: Define reasoning strategies for query answering — include explicit rules for query decomposition, traversal planning, relevance scoring, confidence aggregat... ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Reasoning Strategy Implementation Gaps</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation-Gaps</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation-Gaps</guid>
     <description><![CDATA[ Seed Refinement: Reasoning Strategy Implementation Gaps Overview The Seed includes rules for reasoning strategies and query answering, but lacks explicit implementation guidance for key components. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Reasoning Strategy Implementation - Synthesis and Metrics</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation---Synthesis-and-Metrics</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Reasoning-Strategy-Implementation---Synthesis-and-Metrics</guid>
     <description><![CDATA[ Seed Refinement: Reasoning Strategy Implementation — Synthesis &amp; Metrics Refining the reasoning strategies rules with explicit synthesis documentation format and quality metrics schema. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Query Answering Reasoning Strategy Gaps</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Query-Answering-Reasoning-Strategy-Gaps</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Query-Answering-Reasoning-Strategy-Gaps</guid>
     <description><![CDATA[ Seed Refinement: Query Answering Reasoning Strategy Gaps Overview During SEED_STRESS_TEST on 2026-04-04, the Seed’s reasoning strategy rules (query answering) were tested against a cooking knowledge base. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Performance Psychology Knowledge Capture</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Performance-Psychology-Knowledge-Capture</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Performance-Psychology-Knowledge-Capture</guid>
     <description><![CDATA[ Seed Refinement - Performance Psychology Knowledge Capture Stress test of Seed rules against Music Performance Knowledge Base (2026-03-24) identified gaps in capturing mental preparation, stage fright management, and performance psychology knowledge. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Note Type-Aware Structural Auditing</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Note-Type-Aware-Structural-Auditing</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Note-Type-Aware-Structural-Auditing</guid>
     <description><![CDATA[ Seed Refinement: Note Type-Aware Structural Auditing Status: Seed refinement proposal (pending integration) Rule Proposal Rule: Distinguish note types when performing structural health audits — apply different link thresholds based on note category. ]]></description>
-    <pubDate>Sat, 04 Apr 2026 16:33:53 GMT</pubDate>
+    <pubDate>Sat, 04 Apr 2026 17:12:01 GMT</pubDate>
   </item>
     </channel>
   </rss>
