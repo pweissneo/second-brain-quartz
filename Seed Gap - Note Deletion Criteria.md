@@ -1,11 +1,23 @@
 ---
-gap-status: identified
+lifecycle: seed-gap
+confidence: emerging
+author-type: ai-assisted
+gap-status: integrated
 gap-priority: medium
-gap-phase: analysis
+gap-phase: implementation
 gap-severity: nice-to-have
 gap-source: frontier-exploration
 discovered: 2026-04-04
+resolved: 2026-04-04
+integrated: 2026-04-04
+resolution-type: rule-integration
+integrated-into: AI-Assisted Knowledge Management Seed.md
+integration-details: "Rule added at line ~1595: Apply explicit deletion criteria for low-value notes"
 title: "Seed Gap - Note Deletion Criteria"
+tags:
+  - seed-gap
+  - note-lifecycle
+  - vault-maintenance
 ---
 
 # Seed Gap - Note Deletion Criteria

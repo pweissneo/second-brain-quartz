@@ -6,6 +6,7 @@ confidence: emerging
 author-type: ai-assisted
 schema-version: "2026-03"
 verification-status: unverified
+knowledge-type: meta
 tags:
   - frontier-exploration
   - knowledge-type

@@ -22,6 +22,7 @@ The following notes explore specific edge cases and emerging patterns:
 - [[Frontier Exploration - Intergenerational Knowledge Transfer]] — Knowledge across generations
 - [[Frontier Exploration - Knowledge Access Pattern Optimization]] — Usage-driven organization (merged with Knowledge Access Patterns)
 - [[Frontier Exploration - Knowledge Consistency Across Vaults]] — Multi-vault consistency
+- [[Frontier Exploration - Multi-Vault Knowledge Management]] — Managing multiple vaults
 - [[Frontier Exploration - Negative-Space Knowledge]] — Defined by what it excludes
 - [[Frontier Exploration - Open Question Knowledge]] — Tracking unknowns
 - [[Frontier Exploration - Home Repair and DIY Knowledge Bases]] — Physical craft knowledge

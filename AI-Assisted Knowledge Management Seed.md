@@ -1,7 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-04-03
-last-updated: 2026-04-03
+last-reviewed: 2026-04-05
+last-updated: 2026-04-05
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -129,7 +129,21 @@ query-patterns:
 **Type migration:** Track `knowledge-type-history` in frontmatter when type changes.
 **Domain-specific types:** Extend base taxonomy with domain types when needed.
 
-**See also:** [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]]
+**Rule (NEW - 2026-04-05):** For creative-aesthetic hybrid domains, add `knowledge-intent:` tagging to distinguish technical execution from aesthetic intent.
+**Why:** In creative domains (audio production, visual arts, creative writing, photography), the same technique can serve different purposes — some verifiable (technical correctness), some subjective (aesthetic judgment). Without intent tagging, AI agents optimize for technical correctness while missing the artistic dimension. Aesthetic decisions sometimes intentionally break technical rules, and this should be explicit.
+**Test:** (1) Can you filter notes by knowledge-intent (technical/aesthetic/hybrid)? (2) For aesthetic notes, does verification acknowledge subjectivity? (3) Do hybrid notes link to both technical basis and aesthetic rationale?
+
+**Implementation:**
+```yaml
+knowledge-intent: technical|aesthetic|hybrid
+# For hybrid notes (technical means to aesthetic ends):
+aesthetic-basis:
+  - technical-principle: "[[Technical Note]]"
+  - aesthetic-intent: "what this achieves"
+  - when-to-break: "conditions where rule should be deliberately bent"
+```
+
+**See also:** [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]], [[Seed Refinement - Technical vs Aesthetic Knowledge in Creative Domains]]
 
 **Rule:** Organize creative composition knowledge (recipe design, artistic creation, creative writing craft) as principles connected to examples, not as standalone procedures.
 **Why:** Composition knowledge is about relationships between elements that can be recombined. Organizing by principles creates reusable frameworks; organizing by specific outputs creates collections that don't transfer. Technical procedures stay together as atomic units; composition principles should be broken into reusable components.
@@ -797,6 +811,34 @@ incorrect-because: "..."
 lesson-learned: "..."
 ```
 **Preservation principle:** Keep the history, not just the correction. A note showing "I used to think X" is valuable meta-knowledge. Create corrected version, mark original with correction metadata, link between them.
+
+**Rule (NEW - 2026-04-04):** Apply explicit deletion criteria for low-value notes — delete notes that have no current utility, no historical value, no reconnection potential, and where deprecation adds maintenance burden without commensurate benefit.
+
+**Why:** Deprecation assumes someone might reference the note later. But notes with zero incoming links, no historical significance, no reconnection pathway, and ongoing maintenance needs bloat the vault without providing value. Deletion preserves clarity while deprecation preserves noise.
+
+**Test:** Can you identify notes meeting ALL deletion criteria (no links, no historical value, no reconnection, maintenance burden > utility)? Are these explicitly handled differently from deprecated notes?
+
+**Deletion criteria:** A note is a deletion candidate when ALL of these are true: (1) No incoming links (0 backlinks), (2) No historical value (not a record of what you thought), (3) No reconnection potential (can't link to active content), (4) Maintenance burden > utility. OR when ANY of these: true duplicate, factually incorrect with correction lost, violates privacy, ephemeral by design.
+
+**Distinction from deprecation:**
+| Scenario | Action |
+|----------|--------|
+| Note was correct, now superseded | Deprecate (preserve history) |
+| Note correct, context changed, might be useful | Archive (mark as-of) |
+| Note has 0 links, no significance, no future use | Delete (remove noise) |
+| Note wrong, correction captured elsewhere | Delete (preserve correction, not error) |
+
+**Implementation:**
+```yaml
+deletion-criteria-met: true
+deletion-reason: zero-links|no-value|ephemeral|privacy
+deletion-date: 2026-04-04
+```
+**Verification after deletion:** (1) Verify no broken links remain, (2) Check if hubs lost significant connections, (3) Document what was deleted and why.
+
+**Edge cases:** Never delete `protected: true` notes. Foundational notes may have latent value. Seed Gap notes: deprecate when resolved, don't delete.
+
+**See also:** [[Seed Gap - Note Deletion Criteria]] (gap now addressed)
 **Edge case:** For fast-moving domains (tech, science), consider a "knowledge corrections log" hub note tracking all corrections chronologically.
 
 **Rule (NEW - 2026-03-22):** Tag and track conventional wisdom explicitly — when capturing knowledge that represents the generally accepted view, add `conventional-wisdom: true` frontmatter and document known challenges or update signals.
@@ -1470,6 +1512,24 @@ capture_urgency: now|when_convenient|defer
 
 **Modified test for woodworking:** For woodworking notes: (1) Does this include YOUR specific adaptation or technique modification? (2) Does this document a project-specific lesson or mistake? (3) Is this tool-specific (scoped to hand/power/CNC)? (4) Does this include material-specific experience (specific wood species, YOUR conditions)? Count as personal if yes to any. Exclude purely foundational technique notes from ratio calculations — they enable personal knowledge but don't replace it.
 
+**Edge case (stress test 2026-04-05):** In gardening and other highly context-dependent domains (agriculture, permaculture, beekeeping, tree fruits), the 5:1 ratio needs domain-specific calibration due to extreme context-dependence:
+
+- **Context-dependence multiplier:** General horticultural advice has LIMITED utility without local adaptation — soil, climate, microclimate, and local pest/disease pressure vary dramatically even within a neighborhood. Unlike woodworking where general techniques apply broadly, gardening advice from one zone often fails in another. This means general gardening advice WITHOUT personal adaptation has lower value than in most other domains.
+
+- **Foundational horticultural science exemption:** Plant biology, soil chemistry fundamentals, botany nomenclature, and basic plant physiology are prerequisites for personal application, not personal knowledge themselves. Exempt pure horticultural science from ratio calculations — they function as reference material.
+
+- **Local experimentation as gold standard:** Personal results in YOUR specific conditions (soil type, microclimate, local pest pressure) are the highest-value gardening knowledge. "What worked in my garden" is inherently personal even if similar experiments exist in literature.
+
+- **Timing knowledge is inherently personal:** Frost dates, soil temperature thresholds, and seasonal timing vary by location. Your specific planting date based on YOUR soil temperature is personal knowledge — the general principle "plant after last frost" exists everywhere but YOUR specific threshold is unique.
+
+- **Variety-specific experience is unique:** With 10,000+ tomato varieties alone, your experience with a specific variety in YOUR conditions is personal by definition — no one else has grown that exact variety in your exact conditions.
+
+- **Utility exception is narrow:** Unlike domains where general knowledge saves lookup time, in gardening general advice without local context has LIMITED practical value. The utility of "rotate crops" depends on YOUR specific crops, YOUR disease pressure, YOUR soil conditions.
+
+**Modified test for gardening:** For gardening notes: (1) Is this pure foundational horticultural science (not application)? If yes → exempt from ratio. (2) Does this include YOUR specific context adaptation (frost date, microclimate, soil type, hardiness zone)? (3) Does this document YOUR specific growing results (success or failure)? (4) Does this include YOUR specific date/temperature threshold for timing decisions? (5) Does this document YOUR experience with a specific variety? (6) For any general advice: Does this include YOUR specific why (adaptation rationale), not just the general what? Count as personal if yes to any of tests 2-6.
+
+**See also:** [[Seed Stress Test - 5-1 Ratio in Gardening]] (detailed stress test with additional edge cases)
+
 **Rule:** Treat meta-learning (learning how to learn) as a foundational skill to develop actively, not a passive ability.
 **Why:** Meta-learning skills compound across all domains — investing in them provides returns everywhere. A second brain is a concrete implementation of this skill.
 **Test:** Can you explain your learning process for a recent topic? Do you have a system for improving how you acquire, organize, and use knowledge?
@@ -2083,6 +2143,22 @@ next-decisions:
 
 **Equipment-tier connectivity test:** For equipment-dependent notes: Does frontmatter include `equipment-tier:`? Is there a tier-agnostic hub note that users with different equipment can navigate to?
 **Cross-domain bridging test:** For notes that reference adjacent domains: Is there a bridging hub note that connects the domain to adjacent domains?
+
+**Rule:** Every link must be explainable — content notes require >=2 outgoing links, while gap documentation notes, refinements, and stress tests have 0-1 links by design.
+**Why:** Uniform link requirements incorrectly flag structural components as unhealthy. Gap documentation and stress tests serve meta-functions (documenting gaps, testing rules) not building interconnected content. Treating them the same creates noise in health checks.
+**Test:**
+1. Can you classify notes by function (content|gap-documentation|stress-test|refinement)?
+2. Do health checks apply different thresholds based on function?
+3. Are gap/refinement/stress-test notes exempted from standard link count requirements?
+
+**Implementation:** Add `note-function:` frontmatter field with values:
+- `content` — Core knowledge requiring 2+ outgoing links
+- `gap-documentation` — Seed gaps documenting missing rules (0-1 links acceptable)
+- `stress-test` — Domain-specific rule tests (0-1 links acceptable)
+- `refinement` — Proposed rule changes (0-1 links acceptable)
+- `hub` — Aggregation nodes (5+ links expected)
+
+This complements `note-type:` (content purpose) with `note-function:` (structural vault role). Both can coexist: `note-type: exploratory` AND `note-function: gap-documentation`.
 
 **Rule:** Every link must be explainable in one sentence — no decorative or keyword-match links.
 **Why:** Meaningless links inflate the graph without adding navigational or conceptual value.

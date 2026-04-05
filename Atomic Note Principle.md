@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 protected: true
 last-reviewed: 2026-03-26
 last-updated: 2026-03-19
@@ -11,6 +12,7 @@ tags:
   - principle
   - core-rules
 ---
+knowledge-type: meta
 
 # Atomic Note Principle
 

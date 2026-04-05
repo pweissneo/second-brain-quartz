@@ -1,13 +1,15 @@
 ---
-last-reviewed: 2026-04-04
+last-reviewed: 2026-04-05
 lifecycle: frontier-exploration
-confidence: emerging
+confidence: established
 author-type: ai-assisted
-gap-status: identified
-gap-priority: medium
-gap-phase: discovery
+gap-status: analyzed
+gap-priority: low
+gap-phase: analysis
 gap-source: frontier-exploration
 discovered: 2026-04-04
+resolved: 2026-04-05
+resolution-type: addressed-by-existing-rules
 tags:
   - frontier-exploration
   - obvious-knowledge
@@ -16,7 +18,48 @@ tags:
 
 # Frontier Exploration - Knowledge That Should Be Obvious
 
-> The gap: The Seed doesn't address how to capture knowledge that experts consider "obvious" but novices genuinely don't know.
+> ✅ **ANALYZED 2026-04-05** — Gap addressed by existing Seed rules
+
+## Resolution
+
+After analysis, this is **NOT a Seed gap** — the issue is already covered by existing rules:
+
+1. **Target User Expertise** — The Seed already requires documenting target user expertise level:
+   ```yaml
+   target-user-expertise: beginner|intermediate|advanced|variable
+   ```
+
+2. **User Context Documentation** — The Seed requires explicit user context assumptions:
+   ```yaml
+   assumed-context:
+     expertise-level: beginner|intermediate|advanced|variable
+     terminology-preference: technical|plain|both
+   ```
+
+3. **Knowledge Type Taxonomy** — The Seed's knowledge-type system can distinguish:
+   ```yaml
+   knowledge-type: conceptual|factual|procedural|experiential
+   ```
+
+The "obvious knowledge" problem is solved by:
+- **Entry points for different expertise levels** — Multiple starting points for beginners vs. experts
+- **Terminology preferences** — `terminology-preference: plain` for novices, `technical` for experts
+- **Onboarding guidance** — Required for vaults built for others
+
+## Why This Was Misidentified as a Gap
+
+The note conflated two separate issues:
+1. **Expert authors assume baseline knowledge** — This is a content authoring issue, not a Seed rule gap
+2. **Novice readers lack foundational context** — This is addressed by user-context documentation requirements
+
+## What to Do Instead
+
+For vaults where this is a practical problem:
+1. Add onboarding notes for each expertise level
+2. Create "prerequisites" notes that document assumed baseline knowledge
+3. Use the `assumed-context` frontmatter on domain notes
+
+This is a **vault-specific implementation** issue, not a **Seed rule** gap.
 
 ## The Gap
 

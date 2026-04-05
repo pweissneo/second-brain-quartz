@@ -10,6 +10,8 @@ tags:
   - inverse-authority
   - personal-finance
   - domain-adaptation
+access-pattern: decision
+knowledge-type: meta
 ---
 
 # Seed Stress Test: Inverse Authority Rule in Personal Finance

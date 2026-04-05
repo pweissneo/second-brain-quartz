@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-16
-last-updated: 2026-03-29
+last-reviewed: 2026-04-05
+last-updated: 2026-04-05
 confidence: emerging
 level: frontier
 lifecycle: seed-gap
@@ -10,8 +10,11 @@ tags:
   - assembly
   - process-type
   - knowledge-structure
-verification-status: unverified
-schema-version: "1.0"
+gap-status: resolved
+gap-priority: medium
+gap-phase: resolved
+resolved: 2026-04-05
+resolved-by: "[[AI-Assisted Knowledge Management Seed]] (process-type: assembly rules integrated at lines ~3718-3778)"
 ---
 
 # Frontier Gap: Assembly and Kit-Based Knowledge

@@ -35,6 +35,7 @@ Notes documenting gaps in the Seed that need to be addressed.
 - [[Seed Gap - Functional Threshold for Knowledge Bases]]
 - [[Seed Gap - General Evidence Hierarchy for Non-Domain-Specific Knowledge]]
 - [[Seed Gap - Interaction Knowledge Type]]
+- [[Seed Gap - Language Learning Knowledge Base Organization]] — PROPOSED (2026-04-04)
 - [[Seed Gap - Jurisdiction and Legal Authority Type Handling]]
 - [[Seed Gap - Knowledge Modality Rule Refinements]]
 - [[Seed Gap - Knowledge Prioritization Decision Framework]]
@@ -61,6 +62,7 @@ Notes documenting gaps in the Seed that need to be addressed.
 ### Deprecated Seed Gaps
 Deprecated Seed Gaps have been resolved or merged. See individual notes for resolution details.
 
+- [[Seed Gap - Note Deletion Criteria]] ✅ RESOLVED (2026-04-04, rule added: "Apply explicit deletion criteria for low-value notes")
 - [[Seed Gap - AI-Generated Content Provenance and Hallucination Detection]] ✅ RESOLVED (redundant with AI-Synthesized Knowledge Provenance)
 - [[Seed Gap - Domain-Level Resource Allocation]] ✅ MERGED → [[Seed Gap - Knowledge Domain Allocation Strategy]]
 - [[Seed Gap - Knowledge Deprecation and Obsolescence Management]] ✅ RESOLVED (Seed updated 2026-04-02)

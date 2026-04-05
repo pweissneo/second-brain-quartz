@@ -3,7 +3,7 @@ last-reviewed: 2026-04-04
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
-gap-status: identified
+gap-status: proposed
 gap-priority: medium
 gap-phase: discovery
 gap-severity: useful

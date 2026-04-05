@@ -181,6 +181,33 @@ For staleness-aware retrieval:
 - [[Confidence Markers]] — confidence scoring system (target for decay)
 - [[Seed Gap - Knowledge Staleness Detection and Automatic Confidence Decay]] — this gap's discovery note (separate, precursor)
 
+### Unique Automation Extensions
+
+The following content was merged from redundant note **Frontier Exploration - Knowledge Freshness.md (2026-04-04):
+
+#### Rule: Implement automated freshness verification triggers based on knowledge type
+
+**Why:** Passive verification waits for human initiative, causing knowledge drift. The Seed tells what to verify but not when to trigger verification automatically.
+
+**Test:** (1) Can the vault automatically surface knowledge exceeding freshness thresholds? (2) Is verification frequency differentiated by knowledge type? (3) Does automation respect resource constraints?
+
+**Implementation by knowledge type:**
+```yaml
+# Verification trigger frequencies by knowledge type
+verification-frequency:
+  factual: 90d    # Quarterly review
+  procedural: 365d   # Annual review
+  experiential: as-needed  # Based on context change
+  conceptual: minimal  # Stable over time
+```
+
+**Trigger automation:**
+```yaml
+# Heartbeat/cron integration
+auto-verify-trigger: true
+verification-queue: stale-notes  # Priority queue for automated surfacing
+```
+
 ## Gap Lifecycle
 
 - **Status**: integrated

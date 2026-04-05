@@ -100,7 +100,9 @@ The difference is **content**, not structure.
 
 ## Trading & Finance
 
-**Focus:** Strategies, indicators, market analysis
+> **Note:** The Seed now includes specific guidance for personal finance (cash flow, expenses, savings goals). See the Seed's "Personal Finance" rule (2026-03-22) for the recommended approach. This section provides historical context only.
+
+**Legacy focus:** Strategies, indicators, market analysis
 
 **Additions:**
 - Link indicators to strategies

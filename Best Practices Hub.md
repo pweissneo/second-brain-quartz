@@ -1,6 +1,7 @@
 ---
-last-reviewed: 2026-03-30
-last-updated: 2026-03-30
+knowledge-type: meta
+last-reviewed: 2026-04-05
+last-updated: 2026-04-05
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
@@ -11,6 +12,7 @@ tags:
   - positive-knowledge
   - structural-balance
 ---
+knowledge-type: meta
 
 # Best Practices Hub
 
@@ -23,7 +25,7 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 | Anti-Pattern | Best Practice | Status |
 |--------------|---------------|--------|
 | Link Inflation | [[Linking Principle]] | ✅ Merged (2026-03-29) |
-| Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Merged (2026-03-30) |
+| Over-Organization | [[Best Practice - Minimal Organization]] | ✅ Merged (2026-03-30) — anti-pattern content merged into best practice note |
 | Note Hoarding | [[Best Practice - Selective Capture]] | ✅ Merged (2026-03-30) |
 | Waiting for Perfection | [[Best Practice - Progress Over Perfection]] | ✅ Merged (2026-03-29) |
 | Single-Source Dependency | [[Best Practice - Multi-Source Synthesis]] | ✅ Merged (2026-04-02) |
@@ -33,50 +35,28 @@ The vault documents anti-patterns (what NOT to do) but balanced knowledge manage
 
 ## Core Best Practices
 
-### 1. Link Quality Over Quantity
+> Each best practice has a dedicated note with detailed guidance. This section maps them to their anti-pattern counterparts and provides quick reference.
 
-**Instead of:** Linking to everything (Link Inflation)
-**Do:** Link only when you can explain WHY in one sentence.
+| Best Practice | Focus | Anti-Pattern Counterpart |
+|---------------|-------|-------------------------|
+| [[Best Practice - Selective Capture]] | Capture less, capture better | Note Hoarding |
+| [[Best Practice - Minimal Organization]] | Let structure emerge | Over-Organization |
+| [[Best Practice - Progress Over Perfection]] | Capture now, refine later | Perfectionism |
+| [[Best Practice - Outcome Over Tool]] | Focus on goals, not tools | Tool Overfocus |
+| [[Best Practice - Multi-Source Synthesis]] | Verify through multiple sources | Single-Source Dependency |
+| [[Best Practice - Balanced Capture]] | Capture negative knowledge too | Missing Negative Knowledge |
+| [[Best Practice - Regular Review]] | Systematic maintenance | Neglecting Maintenance |
 
-Every link should pass the "why follow?" test:
-- Can you explain why this connection matters?
-- Does the link add genuine value?
-- Is there substantive content, not just keyword matching?
+### Quick Reference: Diminishing Returns Test
 
-**Test:** Can you write a one-sentence explanation for each link in your note?
+Before capturing any note, evaluate:
 
-### 2. Selective Capture
+1. **Utility** — Does this improve vault answers?
+2. **Connection** — Does this connect to 2+ existing notes?
+3. **Uniqueness** — Does this add new knowledge?
+4. **Effort** — Is maintenance worth the value?
 
-**Instead of:** Saving everything (Note Hoarding)
-**Do:** Capture only knowledge that meets the diminishing returns test.
-
-Before capturing, ask:
-- Does this improve vault answers? (utility)
-- Does this connect to 2+ existing notes? (connection)
-- Is this add new knowledge? (uniqueness)
-- Is maintenance worth the value? (effort)
-
-Skip if it fails 2+ criteria.
-
-### 3. Minimal Organization
-
-**Instead of:** Over-organizing with rigid hierarchies (Over-Organization)
-**Do:** Let organic structure emerge through linking.
-
-Flat file structure with wikilinks creates multi-dimensional organization that folders cannot. Trust the graph to develop natural structure.
-
-**Test:** Can you reach any note from root in ≤3 hops? That's enough organization.
-
-### 4. Regular Review
-
-**Instead of:** Neglecting maintenance (Neglecting Maintenance)
-**Do:** Apply systematic review cycles.
-
-- Weekly: Process inbox, verify recent captures
-- Monthly: Graph health check, orphan detection
-- Quarterly: Schema review, gap analysis
-
-**Test:** Is your verification ratio >50%? Do unverified notes stay below 40%?
+**Skip if it fails 2+ criteria.**
 
 ## Best Practices for Creating Best Practices
 
@@ -96,5 +76,6 @@ When creating best practice notes:
 - [[Graph Maintenance]] — Health checks
 
 ---
+knowledge-type: meta
 
 **Note:** This hub is a starting point. Best practices should be added or refined as the vault matures. The goal is to ensure every anti-pattern has a corresponding positive guidance note.

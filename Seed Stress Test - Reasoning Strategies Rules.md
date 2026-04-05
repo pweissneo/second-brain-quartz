@@ -1,13 +1,15 @@
 ---
-last-reviewed: 2026-03-18
+last-reviewed: 2026-04-04
 lifecycle: evergreen
-confidence: emerging
+confidence: high
 author-type: ai-assisted
 knowledge-type: analysis
 tags:
   - seed-stress-test
   - reasoning-strategies
   - domain-agnostic
+status: superseded-by-seed-refinement
+related-seed-refinement: 2026-04-04
 ---
 
 # Seed Stress Test: Reasoning Strategies Rules

@@ -4,6 +4,7 @@ last-reviewed: 2026-04-02
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
+knowledge-type: meta
 tags:
   - anti-pattern
   - quality

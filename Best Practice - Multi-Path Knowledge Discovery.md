@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 last-reviewed: 2026-03-27
 last-updated: 2026-03-28
 lifecycle: evergreen
@@ -13,6 +14,7 @@ tags:
 level: pattern
 schema-version: "1.0"
 ---
+knowledge-type: meta
 
 # Best Practice - Multi-Path Knowledge Discovery
 

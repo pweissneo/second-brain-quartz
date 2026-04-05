@@ -9,6 +9,7 @@ tags:
   - gardening-domain
   - edge-case
   - long-horizon
+access-pattern: decision
 ---
 
 # Seed Stress Test: Gardening Knowledge Base

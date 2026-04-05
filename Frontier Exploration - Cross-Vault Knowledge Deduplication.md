@@ -9,6 +9,8 @@ tags:
   - deduplication
   - migration
 domain: knowledge-management
+access-pattern: decision
+knowledge-type: conceptual
 ---
 
 # Frontier Exploration - Cross-Vault Knowledge Deduplication

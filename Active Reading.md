@@ -5,6 +5,7 @@ lifecycle: evergreen
 confidence: high
 verification-status: verified
 author-type: ai-assisted
+knowledge-type: meta
 tags:
   - methodology
   - capture

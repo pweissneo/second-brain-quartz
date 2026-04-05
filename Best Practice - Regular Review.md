@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 last-reviewed: 2026-03-26
 last-updated: 2026-03-28
 lifecycle: evergreen
@@ -12,6 +13,7 @@ tags:
 schema-version: "1.0"
 # This note now includes what was covered in Anti-Pattern - Neglecting Maintenance
 ---
+knowledge-type: meta
 
 # Best Practice - Regular Review
 
@@ -104,9 +106,11 @@ Insights: [Brief notes]
 Track with frontmatter:
 ```yaml
 ---
+knowledge-type: meta
 last-reviewed: 2026-03-29
 review-count: N
 ---
+knowledge-type: meta
 ```
 
 ## Adjust to Your Pace

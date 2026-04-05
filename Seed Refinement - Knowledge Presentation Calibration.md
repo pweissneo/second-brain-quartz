@@ -1,6 +1,6 @@
 ---
-last-reviewed: 2026-03-31
-last-updated: 2026-04-03
+last-reviewed: 2026-04-04
+last-updated: 2026-04-04
 confidence: emerging
 author-type: ai-assisted
 lifecycle: seed-refinement
@@ -14,11 +14,24 @@ tags:
 knowledge-type: meta
 retrieval-mode: hybrid
 storage-pattern: atomic
+links-to:
+  - Seed Development Hub
+  - AI-Assisted Knowledge Management Seed
+  - Confidence Markers
+  - Verification Workflow
+  - Frontier Exploration - Knowledge Presentation Calibration
 ---
 
 # Seed Refinement - Knowledge Presentation Calibration
 
 This refinement proposes adding a rule to [[AI-Assisted Knowledge Management Seed]] for calibrating presentation language based on quality dimensions.
+
+## Related Concepts
+
+- [[Confidence Markers]] — Track confidence levels that should influence presentation
+- [[Verification Workflow]] — Verification status that should affect certainty language
+- [[Frontier Exploration - Knowledge Presentation Calibration]] — Original exploration note
+- [[Seed Rule - Vault Change Tracking]] — Tracking changes in knowledge quality
 
 ## Summary
 

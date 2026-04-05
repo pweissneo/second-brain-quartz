@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 last-reviewed: 2026-03-26
 last-updated: 2026-03-29
 lifecycle: evergreen
@@ -13,6 +14,7 @@ tags:
 schema-version: "1.0"
 counterpart-antipattern: "[[Anti-Pattern - Note Hoarding]] (merged 2026-03-30, file removed)"
 ---
+knowledge-type: meta
 
 # Best Practice: Selective Capture
 
@@ -120,5 +122,6 @@ Capture knowledge that:
 - [[Anti-Pattern - Note Hoarding]] — The failure case this best practice prevents (merged, file removed)
 
 ---
+knowledge-type: meta
 
 **Note:** This best practice and Anti-Pattern - Note Hoarding (merged, file removed) share substantial content (two-phase workflow, diminishing returns test). The anti-pattern covers the failure mode; this note covers the solution. See [[Note Lifecycle Management]] for the refinement cycle that prevents perfectionism-driven hoarding.

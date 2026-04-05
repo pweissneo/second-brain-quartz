@@ -164,5 +164,5 @@ For AI-suspected content from unknown sources: default to verification burden = 
 - [[Confidence Markers]] — confidence levels and calibration
 - [[Handling Contradictory Sources]] — AI content may contain systematic errors
 - [[Best Practice - Multi-Source Synthesis]] — synthesis best practices
-- [[Frontier Exploration - Knowledge Freshness]] — AI knowledge ages differently
+- [[Seed Gap - Staleness Detection vs. Staleness Computation]] — AI knowledge ages differently
 - [[Verification Hierarchy]] — verification priority system

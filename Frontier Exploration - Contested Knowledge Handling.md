@@ -1,13 +1,15 @@
 ---
-last-reviewed: 2026-04-01
+last-reviewed: 2026-04-04
 lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
 gap-status: identified
 gap-priority: medium
-gap-phase: discovery
 gap-source: manual
 discovered: 2026-04-01
+knowledge-type: meta
+consensus-level: emerging
+access-pattern: decision
 tags:
   - frontier-exploration
   - contested-knowledge

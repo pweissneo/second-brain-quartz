@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 last-reviewed: 2026-03-29
 last-updated: 2026-03-29
 lifecycle: evergreen
@@ -12,6 +13,7 @@ tags:
 schema-version: "1.0"
 counterpart-antipattern: _Tool overfocus (anti-pattern removed — merged)_
 ---
+knowledge-type: meta
 
 # Best Practice - Outcome Over Tool
 

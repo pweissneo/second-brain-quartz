@@ -1,9 +1,14 @@
 ---
 last-reviewed: 2026-03-29
+last-updated: 2026-04-04
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 specialized: true
+knowledge-type: conceptual
+access-pattern: learning
+verification-status: unverified
+verification-mode: source
 tags:
   - frontier-exploration
   - music

@@ -1,4 +1,5 @@
 ---
+knowledge-type: meta
 last-reviewed: 2026-04-02
 last-updated: 2026-04-02
 lifecycle: evergreen
@@ -13,6 +14,7 @@ tags:
 schema-version: "1.0"
 counterpart-antipattern: _Anti-Pattern - Single-Source Dependency (merged 2026-04-02)_
 ---
+knowledge-type: meta
 
 # Best Practice - Multi-Source Synthesis
 
@@ -82,5 +84,6 @@ Your knowledge base should contain YOUR synthesis, not just copied sources. That
 - [[Anti-Patterns in Knowledge Management]]
 
 ---
+knowledge-type: meta
 
 **Note (2026-04-02):** Content from Anti-Pattern - Single-Source Dependency has been merged here. The anti-pattern note has been deprecated with a redirect. See [[Seed Gap - Anti-Pattern Best Practice Merge Criteria]] for merge criteria.
