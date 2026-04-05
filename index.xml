@@ -10,19 +10,31 @@
     <link>https://quartz.jzhao.xyz/Structural-Health-Analysis---2026-04-05</link>
     <guid>https://quartz.jzhao.xyz/Structural-Health-Analysis---2026-04-05</guid>
     <description><![CDATA[ Structural Health Analysis - 2026-04-05 Periodic vault structural health assessment following HEARTBEAT workflow. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 18:24:56 GMT</pubDate>
+    <pubDate>Sun, 05 Apr 2026 19:21:18 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Domain Velocity Assessment Methodology</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Domain-Velocity-Assessment-Methodology</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Domain-Velocity-Assessment-Methodology</guid>
+    <description><![CDATA[ Seed Refinement - Domain Velocity Assessment Methodology Integration Target Integrate into AI-Assisted Knowledge Management Seed.md under the Domain Velocity Classification section (around line 4243). ]]></description>
+    <pubDate>Sun, 05 Apr 2026 19:21:18 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Access-Pattern-Aware Entry Points Integration</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Access-Pattern-Aware-Entry-Points-Integration</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Access-Pattern-Aware-Entry-Points-Integration</guid>
     <description><![CDATA[ Seed Refinement - Access-Pattern-Aware Entry Points Integration Integration of access-pattern guidance with use-case-specific entry point implementation Context The Seed now contains: access-pattern: frontmatter field (added 2026-04-03) Basic guidance on access pattern types (lookup, learning, decis... ]]></description>
-    <pubDate>Sun, 05 Apr 2026 18:24:55 GMT</pubDate>
+    <pubDate>Sun, 05 Apr 2026 19:21:18 GMT</pubDate>
+  </item><item>
+    <title>Frontier Gap - Vault-Derived Knowledge Handling</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Gap---Vault-Derived-Knowledge-Handling</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Gap---Vault-Derived-Knowledge-Handling</guid>
+    <description><![CDATA[ Frontier Gap: Vault-Derived Knowledge Handling The Problem The Seed tracks knowledge source types (intuition, analysis, authority, experiment) and synthesis methods (cross-source, inductive, deductive, analogical). ]]></description>
+    <pubDate>Sun, 05 Apr 2026 19:21:17 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Genre-Aware Knowledge Organization</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Genre-Aware-Knowledge-Organization</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Genre-Aware-Knowledge-Organization</guid>
     <description><![CDATA[ Frontier Exploration - Genre-Aware Knowledge Organization The Problem The Seed provides extensive domain-specific extension guidance, but lacks explicit rules for how genre (as a classification layer within domains) should affect knowledge organization differently than the domain itself. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 18:24:55 GMT</pubDate>
+    <pubDate>Sun, 05 Apr 2026 19:21:17 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Confidence-Markers</link>
     <guid>https://quartz.jzhao.xyz/Confidence-Markers</guid>
     <description><![CDATA[ Confidence Markers and Verification Status How to signal certainty levels and verification state in knowledge notes. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 17:43:31 GMT</pubDate>
-  </item><item>
-    <title>Domain-Specific Knowledge Bases</title>
-    <link>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</link>
-    <guid>https://quartz.jzhao.xyz/Domain-Specific-Knowledge-Bases</guid>
-    <description><![CDATA[ Domain-Specific Knowledge Bases A knowledge base can be customized for any field. Here’s how to adapt for different domains. ]]></description>
-    <pubDate>Sun, 05 Apr 2026 17:43:31 GMT</pubDate>
-  </item><item>
-    <title>Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management</title>
-    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Agent-Behavioral-Patterns-in-Knowledge-Management</link>
-    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Agent-Behavioral-Patterns-in-Knowledge-Management</guid>
-    <description><![CDATA[ Frontier Exploration - AI Agent Behavioral Patterns in Knowledge Management Context While reviewing the Seed for the 2026-03-28 heartbeat, I discovered that while the Seed mentions AI agents in verification and capture contexts, it lacks explicit guidance on how AI agents behave when managing knowle... ]]></description>
     <pubDate>Sun, 05 Apr 2026 17:43:31 GMT</pubDate>
   </item>
     </channel>
