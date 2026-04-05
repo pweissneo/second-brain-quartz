@@ -2095,7 +2095,7 @@ Edge case: Mutually-supporting knowledge (like vocabulary and grammar in languag
 </ul>
 <p><strong>Equipment-tier connectivity test:</strong> For equipment-dependent notes: Does frontmatter include <code>equipment-tier:</code>? Is there a tier-agnostic hub note that users with different equipment can navigate to?
 <strong>Cross-domain bridging test:</strong> For notes that reference adjacent domains: Is there a bridging hub note that connects the domain to adjacent domains?</p>
-<p><strong>Rule:</strong> Every link must be explainable — content notes require >=2 outgoing links, while gap documentation notes, refinements, and stress tests have 0-1 links by design.
+<p><strong>Rule (NEW - 2026-04-05):</strong> Add note-function taxonomy to complement note-type — content notes require >=2 outgoing links, while gap documentation notes, refinements, and stress tests have 0-1 links by design.
 <strong>Why:</strong> Uniform link requirements incorrectly flag structural components as unhealthy. Gap documentation and stress tests serve meta-functions (documenting gaps, testing rules) not building interconnected content. Treating them the same creates noise in health checks.
 <strong>Test:</strong></p>
 <ol>
@@ -2111,7 +2111,7 @@ Edge case: Mutually-supporting knowledge (like vocabulary and grammar in languag
 <li><code>refinement</code> — Proposed rule changes (0-1 links acceptable)</li>
 <li><code>hub</code> — Aggregation nodes (5+ links expected)</li>
 </ul>
-<p>This complements <code>note-type:</code> (content purpose) with <code>note-function:</code> (structural vault role). Both can coexist: <code>note-type: exploratory</code> AND <code>note-function: gap-documentation</code>.</p>
+<p>This complements <code>note-type:</code> (which covers content purpose) with <code>note-function:</code> (structural vault role). Both can coexist: <code>note-type: exploratory</code> AND <code>note-function: gap-documentation</code>.</p>
 <p><strong>Rule:</strong> Every link must be explainable in one sentence — no decorative or keyword-match links.
 <strong>Why:</strong> Meaningless links inflate the graph without adding navigational or conceptual value.
 <strong>Test:</strong> For each link in a note, can you state why the reader should follow it? Remove any link where you cannot.
