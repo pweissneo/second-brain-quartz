@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>index</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ Knowledge Base Vault “Knowledge is only as valuable as the connections it enables.” Purpose This vault demonstrates AI-Assisted Knowledge Management — an AI agent autonomously collects, processes, and structures data into atomic knowledge nodes connected in an interconnected graph. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:46 GMT</pubDate>
+    <title>Seed Refinement - Access Pattern Dominance Threshold</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Access-Pattern-Dominance-Threshold</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Access-Pattern-Dominance-Threshold</guid>
+    <description><![CDATA[ Seed Refinement - Access Pattern Dominance Threshold Proposing integration of query-pattern dominance threshold into the Seed’s access-pattern rule Context The Seed’s access-pattern rule (added 2026-04-03) includes: Frontmatter tagging for access pattern (lookup/learning/decision/inspiration/mixed) ... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 03:41:04 GMT</pubDate>
   </item><item>
-    <title>Zettelkasten Method</title>
-    <link>https://quartz.jzhao.xyz/Zettelkasten-Method</link>
-    <guid>https://quartz.jzhao.xyz/Zettelkasten-Method</guid>
-    <description><![CDATA[ Zettelkasten Method The Zettelkasten (German for “slip box”) method is a foundational approach to networked knowledge management. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Seed Gap - Vault Integrity and Disaster Recovery</title>
+    <link>https://quartz.jzhao.xyz/Seed-Gap---Vault-Integrity-and-Disaster-Recovery</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Gap---Vault-Integrity-and-Disaster-Recovery</guid>
+    <description><![CDATA[ Seed Gap - Vault Integrity and Disaster Recovery The Problem The Seed covers individual note lifecycle management and even has basic version control guidance for knowledge with dependencies. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 03:41:04 GMT</pubDate>
   </item><item>
-    <title>Writing as Thinking</title>
-    <link>https://quartz.jzhao.xyz/Writing-as-Thinking</link>
-    <guid>https://quartz.jzhao.xyz/Writing-as-Thinking</guid>
-    <description><![CDATA[ Writing as Thinking Writing is not just recording — it’s a tool for thinking itself. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>AI-Assisted Knowledge Management Seed</title>
+    <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
+    <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>Wikilinks</title>
-    <link>https://quartz.jzhao.xyz/Wikilinks</link>
-    <guid>https://quartz.jzhao.xyz/Wikilinks</guid>
-    <description><![CDATA[ Wikilinks Wikilinks (also called internal links or bidilinks) are inline links using double square bracket syntax: [[Atomic Note Principle]]. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Best Practices Hub</title>
+    <link>https://quartz.jzhao.xyz/Best-Practices-Hub</link>
+    <guid>https://quartz.jzhao.xyz/Best-Practices-Hub</guid>
+    <description><![CDATA[ Best Practices Hub Practical implementation guide for capturing knowledge effectively — what TO do, not just what to avoid. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>Verification Workflow</title>
-    <link>https://quartz.jzhao.xyz/Verification-Workflow</link>
-    <guid>https://quartz.jzhao.xyz/Verification-Workflow</guid>
-    <description><![CDATA[ Verification Workflow How to verify knowledge and when to use each verification mode. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>CLAUDE</title>
+    <link>https://quartz.jzhao.xyz/CLAUDE</link>
+    <guid>https://quartz.jzhao.xyz/CLAUDE</guid>
+    <description><![CDATA[ AI-Assisted Knowledge Management Vault Purpose This vault develops and refines a universal “Seed” — a portable ruleset that lets an AI agent build a high-quality knowledge base on ANY topic from scratch. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>Types of Applicability Boundaries</title>
-    <link>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</link>
-    <guid>https://quartz.jzhao.xyz/Types-of-Applicability-Boundaries</guid>
-    <description><![CDATA[ Types of Applicability Boundaries Categorization of how knowledge boundaries can be documented Knowledge doesn’t apply in different ways. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Frontier Exploration - AI Vault Construction Decision Framework</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Vault-Construction-Decision-Framework</guid>
+    <description><![CDATA[ Frontier Exploration - AI Vault Construction Decision Framework How AI agents should make structural decisions when building knowledge bases from scratch The Problem The Seed provides extensive guidance on: How to structure individual notes (atomicity, size, formatting) How to link notes together (m... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>Tool Replacement Decisions</title>
-    <link>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</link>
-    <guid>https://quartz.jzhao.xyz/Tool-Replacement-Decisions</guid>
-    <description><![CDATA[ Tool Replacement Decisions When to switch knowledge management tools vs. when to migrate content. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Frontier Exploration - Decision Framework Selection Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Framework-Selection-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Decision Framework Selection Knowledge How should a knowledge base structure knowledge about choosing between different decision-making approaches? The Problem The Seed covers: Thinking tools and metacognitive strategies Framework-dependent knowledge (different frameworks prod... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>The Ultimate Goal</title>
-    <link>https://quartz.jzhao.xyz/The-Ultimate-Goal</link>
-    <guid>https://quartz.jzhao.xyz/The-Ultimate-Goal</guid>
-    <description><![CDATA[ The Ultimate Goal The self-referential purpose of a knowledge base that documents how to build knowledge bases. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Frontier Exploration - Decision-Tree Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Decision-Tree-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration: Decision-Tree Knowledge Organization Identifying how to organize knowledge that’s about making choices — choosing between options, troubleshooting, diagnostic reasoning. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>The Ownership Mindset</title>
-    <link>https://quartz.jzhao.xyz/The-Ownership-Mindset</link>
-    <guid>https://quartz.jzhao.xyz/The-Ownership-Mindset</guid>
-    <description><![CDATA[ The Ownership Mindset Taking full responsibility for your knowledge — and letting it transform who you are. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Frontier Exploration - Domain Velocity Assessment for Unknown Domains</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Velocity-Assessment-for-Unknown-Domains</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Domain-Velocity-Assessment-for-Unknown-Domains</guid>
+    <description><![CDATA[ Frontier Exploration - Domain Velocity Assessment for Unknown Domains The Gap The Seed provides velocity classifications for known domains: Technology, finance, medical research → fast (30-90 day review) Philosophy, history, mathematics → slow (180-365 day review) But when bootstrapping a knowledge ... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item><item>
-    <title>The Last Skill</title>
-    <link>https://quartz.jzhao.xyz/The-Last-Skill</link>
-    <guid>https://quartz.jzhao.xyz/The-Last-Skill</guid>
-    <description><![CDATA[ The Last Skill The meta-skill that makes all others easier. ]]></description>
-    <pubDate>Mon, 06 Apr 2026 03:04:41 GMT</pubDate>
+    <title>Frontier Exploration - Genre-Aware Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Genre-Aware-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Genre-Aware-Knowledge-Organization</guid>
+    <description><![CDATA[ Frontier Exploration - Genre-Aware Knowledge Organization The Problem The Seed provides extensive domain-specific extension guidance, but lacks explicit rules for how genre (as a classification layer within domains) should affect knowledge organization differently than the domain itself. ]]></description>
+    <pubDate>Mon, 06 Apr 2026 02:36:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
