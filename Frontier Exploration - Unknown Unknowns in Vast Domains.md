@@ -1,0 +1,108 @@
+---
+last-reviewed: 2026-03-26
+lifecycle: seed-extension
+confidence: emerging
+author-type: ai-assisted
+status: seed-extension
+review-by: 2026-04-15
+level: frontier-exploration
+tags:
+  - frontier-exploration
+  - unknown-unknowns
+  - domain-discovery
+---
+
+# Frontier Exploration - Unknown Unknowns in Vast Domains
+
+> Notes on discovering knowledge gaps in domains where you don't know what you don't know.
+
+## The Challenge
+
+In vast domains (medicine, law, engineering, history), the space of possible knowledge exceeds what any single vault can capture. More importantly, it's impossible to know what you don't know — the gaps are invisible.
+
+## Why Standard Gap-Finding Fails
+
+Current approaches assume you know what questions to ask:
+- Retrieval analysis finds known unknowns (what you looked for but didn't find)
+- Link analysis finds structural gaps (missing connections)
+- But neither finds unknown unknowns — the questions you'd ask if you knew to ask them
+
+## Approaches to Discover Unknown Unknowns
+
+### 1. Domain Expert Consultation
+- Ask: "What should I know that I don't have?"
+- Problem: Experts can't easily identify what laypeople don't know
+
+### 2. Failure Analysis
+- Document what went wrong or was missing
+- Work backward to identify unknown unknowns
+- Useful but reactive, not proactive
+
+### 3. Analogical Transfer
+- Study similar domains and extract patterns
+- What's unknown in medicine? Law? Science?
+- Look for cross-domain commonalities
+
+### 4. Boundary Exploration
+- Deliberately probe the edges of your knowledge
+- What happens at the margins?
+- Edge cases often reveal unknown unknowns
+
+## The Seed Gap
+
+The Seed has rules for:
+- Tracking known knowledge gaps
+- Filling gaps through exploration
+- Prioritizing capture
+
+But it lacks:
+- Methods for discovering unknown unknowns
+- Signals that indicate hidden gaps
+- Meta-cognitive approaches to gap detection
+
+## Proposed Seed Rules (Draft)
+
+### Rule: Unknown Unknown Discovery Protocol
+
+**Rule:** For vast domains, actively probe for unknown unknowns using failure analysis, boundary exploration, and analogical transfer.
+
+**Why:** Without active discovery, vaults in complex domains will have invisible gaps that never get filled because they're never identified.
+
+**Test:** Can you identify 3 unknown unknowns in your primary domain? Have you documented them?
+
+### Rule: Signal Detection for Knowledge Gaps
+
+**Rule:** Track signals that indicate hidden knowledge gaps: repeated questions without answers, circular explanations, unexplained assumptions.
+
+**Why:** Unknown unknowns often leave traces before they can be identified. Detecting these signals enables proactive discovery.
+
+**Test:** In your vault logs or usage patterns, can you identify recurring indicators of missing knowledge?
+
+## Status
+
+This note has been reviewed and represents the current state of unknown unknown discovery in knowledge management. The approaches documented are the core methods known; further development belongs in the Seed.
+
+## Practical Protocol
+
+For AI agents applying this note:
+1. **On first use** — Run failure analysis on recent vault queries; document gaps found
+2. **Ongoing** — Track "questions without answers" as unknown unknown candidates
+3. **Reporting** — Document discovered unknown unknowns with "unknown-unknown: true" tag for tracking
+
+## Seed Contribution
+
+The Seed should incorporate unknown unknown discovery as a phase in gap analysis. Recommend adding to Section 3 (Growth & Expansion):
+- After gap audit runs, run unknown unknown discovery protocol
+- Track discovered unknowns separately from known gaps
+- Review discovery quarterly
+
+---
+**Reviewed:** 2026-04-02
+**Confidence:** medium (methods established, implementation pending)
+
+## Related
+
+- [[Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains]] — Parent exploration
+- [[AI-Assisted Knowledge Management Seed]] — Seed rules on knowledge gaps
+- [[Frontier Exploration - Knowledge Base Utility Assessment]] — Finding gaps through retrieval patterns
+- [[Confidence Markers]] — Prioritizing what needs attention (merged from Knowledge Attention Signals)
