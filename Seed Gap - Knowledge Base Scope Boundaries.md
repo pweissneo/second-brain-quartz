@@ -89,7 +89,7 @@ last-identity-review: 2026-04-03
 - [[Frontier Exploration - Knowledge Exclusion and Boundary Management]] — existing frontier note on boundaries
 - [[Frontier Exploration - Domain-Specific Knowledge Bases]] — multi-domain scope handling
 - [[The Knowledge Portfolio]] — portfolio-level allocation as boundary mechanism
-- [[Best Practice - Selective Capture]] — capture boundaries (operational, not scope-defining)
+- [[Best Practice - Progress Over Perfection]] — capture boundaries (operational, not scope-defining)
 
 ## Stress Test Scenarios
 

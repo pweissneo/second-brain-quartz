@@ -16,6 +16,7 @@ knowledge-type: conceptual
 retrieval-mode: browse
 storage-pattern: atomic
 process-type: cyclic-branching
+access-pattern: learning
 ---
 
 # Frontier Exploration: Musical Arrangement Knowledge

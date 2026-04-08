@@ -5,6 +5,7 @@ confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
 verification-status: verified
+knowledge-type: conceptual
 tags:
   - frontier-exploration
   - advisory-level

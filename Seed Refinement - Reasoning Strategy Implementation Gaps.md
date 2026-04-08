@@ -11,6 +11,10 @@ tags:
   - domain-agnostic
 resolution-status: resolved
 resolved-date: 2026-04-06
+merged-notes:
+  - Seed Refinement - Reasoning Strategy Implementation Guidance (merged 2026-04-07)
+  - Seed Refinement - Reasoning Strategy Implementation - Synthesis and Metrics (merged 2026-04-07)
+merge-type: redundancy
 ---
 
 # Seed Refinement: Reasoning Strategy Implementation Gaps
@@ -175,3 +179,81 @@ All gaps identified in this note have been resolved. The Seed now includes:
 The Seed rule "Define reasoning strategies for query answering" (line 120) now provides explicit guidance for all components identified in this gap analysis.
 
 **Status: RESOLVED** — All proposed rules integrated into Seed (2026-04-06)
+
+---
+
+## Extended Refinement: Synthesis Documentation & Metrics (2026-04-07)
+
+*Additional implementation guidance merged from [[Seed Refinement - Reasoning Strategy Implementation - Synthesis and Metrics]]*
+
+### Synthesis Documentation Format
+
+Required frontmatter fields for synthesized answers:
+
+```yaml
+synthesis:
+  sources: [[Note A]], [[Note B]], [[Note C]]
+  method: cross-reference|inductive|deductive|analogical
+  assumptions:
+    - "Assumption 1 (explicit)"
+    - "Assumption 2 (explicit)"
+  confidence-inherited:
+    - note: [[Note A]]
+      confidence: high
+    - note: [[Note B]]
+      confidence: medium
+  final-confidence: medium  # Cannot exceed lowest inherited
+  gaps-identified:
+    - gap: "Missing context about X"
+      severity: blocking
+      action: note-and-continue
+```
+
+**Test:** Can another agent reproduce your answer by following your synthesis documentation? Are all sources, assumptions, and confidence inheritances explicitly documented?
+
+### Reasoning Quality Metrics Schema
+
+Standard tracking schema for vault-level reasoning health:
+
+```yaml
+reasoning-metrics:
+  queries-total: 100
+  queries-completed: 85
+  queries-abandoned: 15
+  completion-rate: 0.85
+  
+  queries-with-gaps: 23
+  gap-types-identified:
+    missing-note: 12
+    incomplete: 7
+    outdated: 4
+  gaps-resolved: 15
+  gap-resolution-rate: 0.65
+  
+  quality-reviews-received: 20
+  quality-scores:
+    accurate: 15
+    partially-accurate: 4
+    incorrect: 1
+  quality-rate: 0.75
+```
+
+**Test:** Can you calculate: (1) What percentage of queries complete successfully? (2) How often do queries reveal knowledge gaps? (3) Do reasoning failures correlate with specific structural issues?
+
+### Rule Interaction Decision Tree
+
+```
+Query Received → Classify Query Type → Decompose by Type → Select Traversal Strategy → Execute Traversal → Detect Gaps → Aggregate Confidence → Synthesize Answer → Document Synthesis → Update Metrics
+```
+
+Decision rules:
+- Simple query (single note sufficient): Skip decomposition, use direct retrieval
+- Gap found during traversal: Option A (note and continue) or Option B (abort if blocking)
+- Conflicting notes: Use minimum confidence aggregation, document conflict
+- No notes found: Log as gap, suggest creation
+
+**Test:** For any complex query, can you trace through this decision tree and justify each choice?
+
+---
+
+*Extended with synthesis & metrics guidance (2026-04-07)*

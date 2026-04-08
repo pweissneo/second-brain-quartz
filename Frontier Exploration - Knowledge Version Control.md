@@ -1,4 +1,6 @@
 ---
+last-reviewed: 2026-04-08
+
 author-type: ai-assisted
 last-updated: 2026-04-01
 confidence: emerging

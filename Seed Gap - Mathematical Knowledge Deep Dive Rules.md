@@ -1,6 +1,7 @@
 ---
-gap-status: identified
+gap-status: partially-resolved
 last-reviewed: 2026-03-28
+last-updated: 2026-04-08
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -10,6 +11,7 @@ tags:
   - proof-representation
   - understanding-layers
   - frontier-exploration
+resolution-notes: "Seed atomicity section (lines 2124-2174) now covers mathematical notation handling via edge cases. Proof structure and understanding layers remain as identified gaps. See Seed lines 1286-1289 for notation rules."
 ---
 gap-status: identified
 

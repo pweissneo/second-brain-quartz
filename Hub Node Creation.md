@@ -71,5 +71,5 @@ Brief description of what this hub covers.
 - [[Knowledge Graph Structure]]
 - [[Frontier Exploration - System Interactions and Cross-Domain Knowledge]]
 - [[Frontier Exploration - Topic Emergence and Hub Creation Threshold]] — refined guidance on when to create hubs
-- [[Advanced Pattern Matching]]
+ - [[Graph Maintenance]] (pattern detection techniques)
 - [[AI-Assisted Knowledge Management Seed]] — Foundation rules for hub creation and graph navigation

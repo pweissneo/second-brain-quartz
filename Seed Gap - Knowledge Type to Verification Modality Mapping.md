@@ -103,13 +103,25 @@ verification-modes:
     verified-by: null
 ```
 
+## Additional Edge Cases
+
+### Modality Conflicts
+When verification methods conflict (e.g., a factual claim about whether a procedure works), prioritize the stricter modality. "Does this recipe work?" requires execution, not just source verification.
+
+### Agent vs. Human Verification
+Some modalities require human verification (execution, aesthetic judgment). Verification rules should distinguish:
+- **Agent-verifiable:** source, consistency, structure
+- **Human-required:** execution, replication, aesthetic judgment
+
+### Verification Cost Tracking
+Different modalities have different costs. Source verification is cheap; execution testing is expensive. Prioritize verification by both priority level AND modality cost.
+
 ## Related Notes
 
 - [[AI-Assisted Knowledge Management Seed]] (line 95-135): Knowledge Type Taxonomy
 - [[AI-Assisted Knowledge Management Seed]] (line 463-481): Verification rules
-- [[Frontier Exploration - Knowledge Type-Verification Modality Mapping]]
 - [[Seed Refinement - Verification Mode Conflict Resolution Edge Cases]]
 
 ---
 
-*Gap identified 2026-04-06 during FRONTIER_EXPLORATION heartbeat. Domain: language learning. Combined two related gaps into unified gap note.*
+*Consolidated from redundant note [[Frontier Exploration - Knowledge Type-Verification Modality Mapping.md]] (deleted 2026-04-08). Gap originally identified 2026-04-06 during FRONTIER_EXPLORATION heartbeat. Domain: language learning.*

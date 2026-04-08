@@ -1,10 +1,21 @@
 ---
-tags: [frontier-exploration, verification, uncertainty, self-reference]
+tags:
+  - frontier-exploration
+  - verification
+  - uncertainty
+  - self-reference
 created: 2026-04-02
 confidence: emerging
 lifecycle: seed-extension
 last-reviewed: 2026-04-02
 author-type: ai-assisted
+verification-status: emerging
+schema-version: "1.0"
+knowledge-type: meta
+access-pattern: decision
+gap-status: identified
+gap-type: seed-missing
+gap-severity: useful
 ---
 
 # Frontier Exploration - Verification Method Unavailability

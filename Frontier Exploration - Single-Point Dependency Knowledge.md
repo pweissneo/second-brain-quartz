@@ -6,8 +6,8 @@ tags:
 created: 2026-03-16
 confidence: emerging
 lifecycle: evergreen
-last-reviewed: 2026-04-04
-last-updated: 2026-04-06
+last-reviewed: 2026-04-08
+last-updated: 2026-04-08
 author-type: ai-assisted
 verification-status: unverified
 access-pattern: decision
@@ -63,12 +63,60 @@ invalidation_threshold: 1  # How many new discoveries would change this
 
 **Test:** Can you identify knowledge in your vault that would be fundamentally changed by a single new piece of information? Do you track what that information would be?
 
+## Concrete Examples Across Domains
+
+### Scientific Research
+- "No known cure exists for this disease" — invalidated by a single successful treatment
+- "This species has never been observed in the wild" — invalidated by one sighting
+- "This chemical reaction has never been documented" — invalidated by one experiment
+
+### Technical Knowledge
+- "This API endpoint has no rate limit" — invalidated by one documentation update
+- "This library has no known security vulnerabilities" — invalidated by one CVE
+- "This combination of tools has never been tested" — invalidated by one test attempt
+
+### Historical/Literary
+- "This is the only surviving manuscript of this work" — invalidated by one discovery
+- "No primary source exists for this event" — invalidated by one document discovery
+- "This author never visited this location" — invalidated by one letter or record
+
+### Personal Knowledge
+- "I've never tried this restaurant" — invalidated by one visit
+- "This route is the fastest" — invalidated by one traffic pattern
+- "No one in my network knows about X" — invalidated by one introduction
+
+## Proposed Seed Rule
+
+**Rule:** For knowledge that depends on a single piece of missing information for its validity, document the dependency explicitly with `dependency-type: single-point` and `invalidation-condition:` frontmatter.
+
+**Why:** Single-point dependency knowledge is uniquely fragile — unlike multi-point (requires multiple discoveries to invalidate) or robust knowledge (no single discovery changes it), single-point knowledge can be invalidated by one new piece of information. Without explicit tracking, AI agents cannot:
+1. Recognize this fragility
+2. Prioritize finding the invalidating information
+3. Automatically revisit when new information arrives
+4. Distinguish from robust knowledge when answering queries
+
+**Test:**
+1. Can you identify knowledge in your vault that would be fundamentally changed by a single new piece of information?
+2. Does that knowledge explicitly document what would invalidate it?
+3. Is there a mechanism to flag these notes for periodic re-evaluation?
+4. Do you treat single-point dependency knowledge differently from robust knowledge in query responses?
+
+**Implementation:**
+```yaml
+dependency-type: single-point  # single-point | multi-point | robust
+invalidation-condition: "What single discovery would change this"
+invalidation-source-type: experiment | document | observation | source | record
+priority: high | medium | low  # how urgent to resolve
+last-checked: 2026-04-08
+```
+
 ## Related Notes
 
-- [[Frontier Exploration - Incomplete and Provisional Knowledge]]
-- [[Handling Contradictory Sources]]
-- [[Frontier Exploration - Unknown Unknowns in Vast Domains]]
-- [[Confidence Markers]]
+- [[Frontier Exploration - Incomplete and Provisional Knowledge]] — overlaps with provisional knowledge
+- [[Handling Contradictory Sources]] — different from contradictory (we have conflicting evidence)
+- [[Frontier Exploration - Unknown Unknowns in Vast Domains]] — related but broader (includes what we don't know we don't know)
+- [[Confidence Markers]] — confidence should be lower for single-point dependency knowledge
+- [[Frontier Exploration - Knowledge Re-Evaluation Triggers]] — when to revisit notes
 
 ## Questions to Explore
 

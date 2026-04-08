@@ -1,7 +1,7 @@
 ---
-last-reviewed: 2026-04-06
-last-updated: 2026-04-06
-lifecycle: seed-refinement
+last-reviewed: 2026-04-08
+last-updated: 2026-04-08
+lifecycle: deprecated
 confidence: high
 author-type: ai-assisted
 tags:
@@ -9,13 +9,18 @@ tags:
   - verification
   - knowledge-type
   - verification-modality
+  - archived
 access-pattern: decision
 knowledge-type: meta
 gap-source: frontier-exploration
 integrated-by: self
-source-gap: Seed Gap - Multi-Modal Verification Tracking (related)
-gap-status: identified
-proposed: 2026-04-06
+gap-status: integrated
+discovered: 2026-04-06
+resolved: 2026-04-08
+resolved-by: [[AI-Assisted Knowledge Management Seed.md]]
+integration-point: "Seed Gap - Knowledge Type to Verification Modality Mapping.md (deprecated, merged)"
+integration-status: complete
+redundant-with: [[Seed Gap - Knowledge Type to Verification Modality Mapping.md]]
 ---
 
 # Frontier Exploration - Knowledge Type-Verification Modality Mapping

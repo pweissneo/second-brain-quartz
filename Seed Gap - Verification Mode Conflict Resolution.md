@@ -158,7 +158,7 @@ verification-conflict:
 - [[Verification Workflow]] - existing verification process with mode descriptions
 - [[Frontier Exploration - Knowledge Consensus Level Tracking]] - consensus as a dimension
 - [[Seed Stress Test - Source Quality Hierarchy in Medical Knowledge]] - evidence tier conflicts in medical domain
-- [[Seed Refinement - Enhanced Note Lifecycle Model]] - lifecycle for conflicting knowledge
+- [[Note Lifecycle Management]] - lifecycle for conflicting knowledge
 - [[AI-Assisted Knowledge Management Seed]] - core verification rules and Seed rule conflict resolution (analogous pattern)
 
 ---

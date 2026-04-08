@@ -3,9 +3,11 @@ last-reviewed: 2026-04-02
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
-gap-status: proposed
+gap-status: deprecated
 gap-priority: medium
 gap-phase: implementation
+resolved: 2026-04-07
+resolved-by: Seed rule added (see Seed line ~95)
 gap-source: frontier-exploration
 discovered: 2026-04-02
 ---

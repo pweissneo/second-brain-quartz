@@ -1,8 +1,11 @@
 ---
 last-reviewed: 2026-04-04
-last-updated: 2026-04-04
+last-updated: 2026-04-07
 lifecycle: frontier
 confidence: medium
+knowledge-type: meta
+verification-status: unverified
+access-pattern: decision
 author-type: ai-assisted
 tags:
   - frontier-exploration

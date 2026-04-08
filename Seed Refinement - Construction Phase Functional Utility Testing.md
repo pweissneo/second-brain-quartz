@@ -53,3 +53,7 @@ Both must pass before transition to maintenance mode.
 **See also:** 
 - [[Seed Stress Test - Woodworking Knowledge Base]] (identifies gap)
 - [[Frontier Exploration - Knowledge Base Utility Assessment]] (existing utility exploration)
+- [[Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains]] (when utility testing matters most)
+- [[Note Lifecycle Management]] (where construction vs maintenance transition occurs)
+- [[Seed Stress Test - Note Lifecycle Rule Across Domains]] (cross-domain validation)
+- [[Confidence Markers]] (confidence levels needed for question-answering test)

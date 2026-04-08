@@ -130,7 +130,7 @@ This refinement should be integrated into the Seed at line 2266-2268 as expanded
 ## Related Notes
 
 - [[Seed Stress Test - Reasoning Strategies Rules]] - Full stress test with cooking domain
-- [[Seed Refinement - Reasoning Strategy Implementation Guidance]] - Related refinement for reasoning strategies
+- [[Seed Refinement - Reasoning Strategy Implementation Gaps]] - Related refinement for reasoning strategies
 - [[AI-Assisted Knowledge Management Seed]] - Original rule (line 2266-2268)
 - [[Seed Gap - Reasoning Trace Documentation]] - Related gap (now resolved)
 

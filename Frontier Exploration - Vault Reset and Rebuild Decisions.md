@@ -35,7 +35,7 @@ What's missing: **guidance for the inverse scenario** — when a vault has degra
 - Hop depth from root exceeds 5 for more than 20% of notes
 - No clear purpose coherence remains
 
-**Test:** Run `graph_isolated_nodes` and `graph_hubs`. If orphan rate >30% or if hubs have less than 3 connections each, structural rot is advanced.
+**Test:** Run `graph_hubs` to assess hub connectivity. If orphan rate >30% or if hubs have less than 3 connections each, structural rot is advanced.
 
 ### Symptom 2: Schema Collapse
 

@@ -1,4 +1,6 @@
 ---
+last-reviewed: 2026-04-08
+
 author-type: ai-assisted
 gap-status: partially-resolved
 gap-priority: low

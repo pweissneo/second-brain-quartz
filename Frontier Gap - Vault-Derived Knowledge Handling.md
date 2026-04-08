@@ -1,4 +1,6 @@
 ---
+last-reviewed: 2026-04-08
+
 knowledge-type: meta
 access-pattern: decision
 retrieval-mode: hybrid

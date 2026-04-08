@@ -3,6 +3,7 @@ last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: conceptual
 tags:
   - frontier-exploration
   - ai-interaction

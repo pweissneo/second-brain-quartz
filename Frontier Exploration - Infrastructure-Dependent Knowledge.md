@@ -3,6 +3,12 @@ last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
+knowledge-type: conceptual
+access-pattern: decision
+retrieval-mode: browse
+storage-pattern: atomic
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - domain-specific

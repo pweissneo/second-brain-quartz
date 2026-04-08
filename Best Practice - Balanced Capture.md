@@ -102,7 +102,7 @@ For every "how to X" note, consider adding:
 
 This makes your knowledge base complete, not just positive.
 
-See [[Best Practice - Selective Capture]] for how to apply the diminishing returns test to ensure every capture is worth maintaining.
+See [[Best Practice - Progress Over Perfection]] for how to apply the diminishing returns test to ensure every capture is worth maintaining.
 
 ## Test Criteria (for AI Evaluation)
 

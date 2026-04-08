@@ -220,7 +220,7 @@ Traditional knowledge management assumes knowledge comes from external sources: 
 - [[Frontier Exploration - Personal Health Metrics and Body Knowledge]] — Similar privacy considerations
 - [[Frontier Exploration - User Situational Constraints]] — May include relationship context
 - [[AI-Assisted Knowledge Management Seed]] — Foundation rules
-- [[Best Practice - Selective Capture]] — Related to over-collecting people information
+- [[Best Practice - Progress Over Perfection]] — Related to over-collecting people information
 
 ## Test Case: Building a Personal Network Knowledge Base
 

@@ -1,24 +1,26 @@
 ---
-gap-status: identified
-lifecycle: seed-gap
+last-reviewed: 2026-04-08
+last-updated: 2026-04-08
+lifecycle: archived
 confidence: high
-last-reviewed: 2026-04-04
 author-type: ai-assisted
-status: resolved
-resolved-date: 2026-04-04
-resolved-by: "Seed rule integrated (line 2030+, 2026-04-02)"
+gap-status: integrated
+gap-type: seed-missing
+gap-source: domain-analysis
+gap-severity: useful
+discovered: 2026-04-04
+resolved: 2026-04-04
+resolved-by: "Seed rule integrated (link density note-type-aware rules, 2026-04-02)"
 tags:
   - seed-gap
   - link-density
   - knowledge-type
-  - taxonomy
-  - correlation
+  - archived
 ---
-gap-status: identified
 
 # Seed Gap: Knowledge Type and Link Density Correlation
 
-> **STATUS: RESOLVED** — The Seed now includes note-type-aware link density rules that address this gap (2026-04-02). This note is kept for historical documentation.
+> **STATUS: RESOLVED (2026-04-08)** — The Seed includes note-type-aware link density rules that address this gap. This note is archived for historical reference.
 
 ## The Problem (Documented for Reference)
 

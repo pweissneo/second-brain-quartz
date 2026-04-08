@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-26
+last-reviewed: 2026-04-08
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
@@ -71,4 +71,4 @@ This finding suggests the diminishing returns test should align with **late fles
 - [[AI-Assisted Knowledge Management Seed]] (original rules)
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]] (domain-specific modifications)
 - Construction phase rules (lines 95-104)
-- [[_root]]
+- [[_root.md]]

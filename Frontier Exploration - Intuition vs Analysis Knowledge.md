@@ -4,6 +4,10 @@ last-updated: 2026-03-22
 confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
+knowledge-type: conceptual
+verification-status: emerging
+verification-modality: passive
+access-pattern: learning
 tags: [frontier-exploration, decision-making, intuition, reasoning]
 ---
 

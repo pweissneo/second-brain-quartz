@@ -8,6 +8,10 @@ tags:
   - verification
   - workflow
   - quality
+knowledge-type: procedural
+verification-mode: source
+verification-status: verified
+access-pattern: lookup
 ---
 
 # Verification Workflow

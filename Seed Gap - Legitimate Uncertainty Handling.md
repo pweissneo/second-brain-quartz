@@ -4,6 +4,7 @@ lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
 gap-status: proposed
+refinement-note: "[[Seed Refinement - Legitimate Uncertainty Handling]] created 2026-04-07"
 gap-priority: medium
 gap-phase: discovery
 gap-severity: useful

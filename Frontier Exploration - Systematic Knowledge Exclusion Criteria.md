@@ -176,7 +176,7 @@ A knowledge base using ONLY the current Seed rules would:
 - [[Frontier Exploration - Knowledge Maintenance]] — Related but focuses on maintenance, not initial exclusion
 - [[Anti-Pattern - Note Hoarding]] — The inverse problem: what happens when you capture too much
 - [[Seed Stress Test - Diminishing Returns Rule Across Domains]] — Tests utility of captures
-- [[Best Practice - Selective Capture]] — What to prioritize in capture decisions
+- [[Best Practice - Progress Over Perfection]] — What to prioritize in capture decisions
 
 ### 9. Ethical Exclusion
 

@@ -143,11 +143,11 @@ When multiple AI agents access the vault:
 ## Related
 
 - [[AI-Assisted Knowledge Management Seed]]
-- [[Stress Test - Atomicity Rule Across Domains]]
+- [[Seed Stress Test - Atomicity Rule Across Domains]]
 - [[AI-Assisted Knowledge Management Seed]] — verification-status rule for procedural content
 - [[AI-Assisted Knowledge Management Seed]] — verification-status field
 - [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Skill-level tagging for AI content serving
-- [[Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
+- [[Seed Stress Test - Expertise Level Rule in Foreign Language Learning]] — Example of expertise-level testing
 
 ---
 

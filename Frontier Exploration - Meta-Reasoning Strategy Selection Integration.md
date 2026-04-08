@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-04-06
+last-reviewed: 2026-04-08
 lifecycle: frontier-exploration
 confidence: emerging
 author-type: ai-assisted
@@ -9,13 +9,15 @@ tags:
   - reasoning-strategy
   - query-processing
   - seed-gap-identified
-gap-status: identified
-gap-priority: high
+gap-status: partially-resolved
+gap-priority: medium
 gap-phase: analysis
 gap-source: frontier-exploration
 discovered: 2026-04-06
-resolved: 2026-04-06
+resolved: 2026-04-08
 resolved-by: [[Frontier Exploration - Meta-Reasoning Strategy Selection Integration]]
+coverage-status: partial
+coverage-detail: "Edge case under query processing rule covers query-type-to-strategy mapping (line ~2400). This note proposes comprehensive checklist + matrix for full meta-reasoning integration."
 ---
 
 # Frontier Exploration: Meta-Reasoning Strategy Selection Integration
@@ -127,7 +129,7 @@ The Seed's reasoning strategy rules (line 2464+) provide implementation without 
 
 ## Relationship to Seed
 
-This extends [[Seed Refinement - Reasoning Strategy Implementation Guidance]] with a meta-layer. The existing rules tell HOW; this meta-rule tells WHEN.
+This extends [[Seed Refinement - Reasoning Strategy Implementation Gaps]] with a meta-layer. The existing rules tell HOW; this meta-rule tells WHEN.
 
 ## Seed Draft
 

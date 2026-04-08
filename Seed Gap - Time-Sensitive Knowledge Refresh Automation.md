@@ -1,4 +1,6 @@
 ---
+last-reviewed: 2026-04-08
+
 id: seed-gap-time-sensitive-knowledge-automation
 title: Seed Gap - Time-Sensitive Knowledge Refresh Automation
 note-type: exploratory

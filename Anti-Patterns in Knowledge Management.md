@@ -1,10 +1,11 @@
 ---
 protected: true
-last-reviewed: 2026-04-02
+last-reviewed: 2026-04-08
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
 knowledge-type: meta
+access-pattern: lookup
 tags:
   - anti-pattern
   - quality
@@ -23,8 +24,7 @@ Common mistakes that undermine a second brain's effectiveness. Each anti-pattern
 ## The Anti-Patterns
 
 ### Workflow Anti-Patterns
-- [[Best Practice - Selective Capture]] (anti-pattern merged here 2026-03-30) — Saving everything without processing
-- [[Best Practice - Progress Over Perfection]] (anti-pattern consolidated here 2026-03-29) — Waiting for perfect notes instead of capturing good ones
+- [[Best Practice - Progress Over Perfection]] (anti-patterns Note Hoarding + Perfectionism merged here 2026-04-08) — Saving everything without processing; Waiting for perfect notes instead of capturing good ones
 
 ### Structure Anti-Patterns
 - [[Best Practice - Minimal Organization]] (anti-pattern merged here 2026-03-30, redirect note added 2026-04-01) — Spending more time organizing than learning
@@ -69,7 +69,7 @@ For every dedicated negative knowledge note, there should be a corresponding pos
 The vault provides complementary best practice notes for each anti-pattern. The complete mapping with status tracking is maintained in this note.
 
 For quick reference, the pairs are:
-- Note Hoarding → [[Best Practice - Selective Capture]]
+- Note Hoarding → [[Best Practice - Progress Over Perfection]]
 - Over-Organization → [[Best Practice - Minimal Organization]]
 - Perfectionism → [[Best Practice - Progress Over Perfection]]
 - Tool Overfocus → [[Best Practice - Outcome Over Tool]]
@@ -95,16 +95,15 @@ When creating best practice notes:
 
 | Anti-Pattern | Best Practice Solution |
 |-----------|----------------|
-| Note Hoarding | [[Best Practice - Selective Capture]] |
+| Note Hoarding → Perfectionism | [[Best Practice - Progress Over Perfection]] (consolidated 2026-04-08) |
 | Over-Organization | [[Best Practice - Minimal Organization]] |
-| Perfectionism | [[Best Practice - Progress Over Perfection]] |
 | Tool Overfocus | [[Best Practice - Outcome Over Tool]] |
 | Single-Source Dependency | [[Best Practice - Multi-Source Synthesis]] |
 | Missing Negative Knowledge | [[Best Practice - Balanced Capture]] |
 
 ### Hub Note Status (2026-04-07)
 
-[[Best Practices Hub]] has been consolidated into this note. The separate hub file is now redundant — this note contains both the anti-pattern list and their corresponding best practice solutions.
+The best practices are consolidated in this note and the individual best practice notes. No separate hub file exists — the anti-patterns note serves as the hub.
 
 ## Merged Anti-Patterns
 

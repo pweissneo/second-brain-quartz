@@ -3,6 +3,12 @@ last-reviewed: 2026-04-04
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
+knowledge-type: meta
+access-pattern: decision
+retrieval-mode: browse
+storage-pattern: atomic
+schema-version: "1.0"
 tags:
   - frontier-exploration
   - reasoning-strategies
@@ -187,7 +193,7 @@ deference-rationale: "This decision involves..."
 This note extends Seed Section 4 (Reasoning Strategies):
 
 - [[AI-Assisted Knowledge Management Seed]] — Query decomposition (line 2223+), traversal strategy selection, relevance scoring, confidence aggregation, gap classification
-- [[Seed Refinement - Reasoning Strategy Implementation Guidance]] — Implementation guidance for reasoning strategies
+- [[Seed Refinement - Reasoning Strategy Implementation Gaps]] — Implementation guidance for reasoning strategies
 - [[Confidence Markers]] — Confidence tracking and communication
 
 ## Stress Test Examples
@@ -203,4 +209,4 @@ This note extends Seed Section 4 (Reasoning Strategies):
 ---
 
 *This note is a seed extension for Section 4 (Reasoning Strategies).*
-*Related: [[Seed Refinement - Reasoning Strategy Implementation Guidance]]*
+*Related: [[Seed Refinement - Reasoning Strategy Implementation Gaps]]*

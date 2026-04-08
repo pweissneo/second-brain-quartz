@@ -84,7 +84,17 @@ original-author: human|ai-synthesized|ai-assisted
 ### Voice Consistency Rules
 
 **Rule:** Maintain consistent voice across AI-generated notes — define a vault voice standard and apply it to all AI-assisted or AI-synthesized content.
-**Test:** Can you distinguish AI-generated notes from human notes by tone alone? Should you be able to?
+
+**Why:** Inconsistent voice creates jarring user experience and signals chaotic creation process rather than intentional design. Voice consistency enables coherent knowledge base identity.
+
+**Test:** (1) Can you identify the vault's defined voice (formal/technical/casual/friendly/academic)? (2) Do AI-generated notes consistently follow this voice? (3) Is there a mechanism to detect voice drift across notes?
+
+**Implementation:**
+```yaml
+vault-voice: formal|technical|casual|friendly|academic
+voice-enforcement: strict|moderate|flexible
+ai-generated-tone: matching|distinct|subtle
+```
 
 ## Related Notes
 

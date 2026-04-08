@@ -3,12 +3,8 @@ last-reviewed: 2026-03-21
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-knowledge-type: analysis
-tags:
-  - seed-stress-test
-  - source-quality
-  - verification
-  - medical-domain
+knowledge-type: meta
+access-pattern: decision
 ---
 
 # Seed Stress Test: Source Reliability vs Verification Status in Medical Domain

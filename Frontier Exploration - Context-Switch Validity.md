@@ -1,8 +1,8 @@
 ---
-last-reviewed: 2026-04-04
-last-updated: 2026-04-04
-lifecycle: emerging
+last-reviewed: 2026-04-07
+last-updated: 2026-04-07
 confidence: emerging
+lifecycle: staging
 author-type: ai-assisted
 knowledge-type: conceptual
 gap-status: identified
@@ -12,6 +12,8 @@ tags:
   - context-validity
   - contextual-truth
   - equivalence
+  - context-modes
+  - context-gates
 ---
 
 # Frontier Exploration - Context-Switch Validity
@@ -25,8 +27,31 @@ The Seed covers:
 - **Temporal validity bounds** — "true until event X"
 - **Context-gated knowledge** — knowledge that requires certain context to be relevant
 
-But it does NOT cover:
+But it does NOT adequately cover:
 - **Context-switch validity** — knowledge that is factually TRUE in one context but FALSE in another, independent of time
+- **Interaction modes** — how knowledge is *presented* for different use contexts (performative, exploratory, compressed)
+
+This exploration merges related notes on context handling into a unified framework.
+
+## Three Types of Context in Knowledge Bases
+
+### Type 1: Context-Gated Knowledge (applies vs irrelevant)
+
+> Knowledge that is factually correct but only applies in specific contexts.
+
+Some knowledge is **conditionally true** — it depends on context that may not be obvious:
+- "The subway runs 24/7" — true in NYC, false in most cities
+- "You need a visa for entry" — depends on your citizenship
+- "This library works in browsers" — depends on build configuration
+
+Without explicit context gating:
+1. **False applicability** — Users assume knowledge applies to them when it doesn't
+2. **Silent failures** — Actions fail because preconditions aren't met
+3. **Context blindness** — Notes don't signal what context is needed
+
+### Type 2: Context-Switch Validity (true vs false)
+
+> Knowledge that is TRUE in some contexts but FALSE in others, independent of time.
 
 This is distinct from:
 - Contradictory sources (one is wrong)
@@ -34,19 +59,83 @@ This is distinct from:
 - Equivalent alternatives (all valid in all contexts)
 - Context-gated knowledge (only relevant in certain contexts)
 
-## The Core Problem
-
-Some knowledge looks like a fact but is actually a context-conditional fact:
-
 | Statement | True In | False In |
 |-----------|--------|----------|
 | "Tap water is safe to drink" | Most developed countries | Many developing countries |
-| "You can legally brew beer at home" | Most US states, UK, Germany | Utah, Norway, some US localities |
-| "This recipe makes 5% ABV beer" | With typical ingredients | At high altitudes, with different yeast |
+| "You can legally brew beer at home" | Most US states, UK, Germany | Utah, Norway, some localities |
+| "This recipe makes 5% ABV beer" | With typical ingredients | At high altitudes |
 | "Standard voltage is 120V" | US, Japan | EU, UK, Australia |
-| "You need a license to drive" | Most jurisdictions | Some countries for certain vehicles |
+| "You need a license to drive" | Most jurisdictions | Some countries |
 
-The knowledge itself is accurate — but only in certain contexts. Without tracking this, knowledge bases make false universal claims.
+### Type 3: Interaction Modes (how knowledge is presented)
+
+> Knowledge that requires different representations for different use contexts.
+
+The same knowledge needs different structures depending on HOW it's being used:
+
+| Context | Same Knowledge Needs... |
+|---------|------------------------|
+| Kitchen (cooking) | Step-by-step, measurement-heavy, actionable |
+| Reference (planning) | Overview, high-level, explorable links |
+| Emergency (stressed) | Critical warnings, simplified, bolded |
+| Learning (practicing) | Progressive, scaffolded, self-testing |
+
+Current Seed rules treat knowledge as something to be read, linked, verified, updated. But some knowledge fundamentally changes based on HOW it's being used.
+
+## Unified Solution Framework
+
+### Frontmatter Fields
+
+For context-gated and context-switch knowledge:
+
+```yaml
+context-gate: true
+context-type: geographic|temporal|identity|technical|resource
+context-conditions:
+  - condition: "location"
+    values: ["NYC Metro Area"]
+    note: "Only applies to NYC subway"
+context-validity:
+  - scope: geographic
+    true-in: ["US", "CA", "UK"]
+    false-in: ["EU", "AU"]
+    note: "Voltage standards differ"
+interaction-mode: performative|exploratory|compressed|progressive|comparative
+```
+
+### Proposed Seed Rules
+
+**Rule:** Tag context-dependent knowledge with explicit gate conditions — knowledge that is true but only applies in specific contexts must be labeled with `context-gate: true` and context conditions.
+
+**Why:** Without explicit context gates, users and AI agents assume applicability broader than warranted.
+
+**Test:** For notes with context-dependent applicability: (1) Is there a `context-gate: true` tag? (2) Are all conditions explicitly listed? (3) Can a reader determine if this knowledge applies to them?
+
+---
+
+**Rule:** Identify knowledge validity scopes — explicitly state all contexts where a claim is TRUE and where it is FALSE or unknown.
+
+**Why:** Knowledge that is true in one context but false in another has bounded applicability. Without scope, knowledge bases universalize locally true claims.
+
+**Test:** Can you identify at least one context where this claim would NOT hold?
+
+---
+
+**Rule:** Identify knowledge interaction modes at capture time — determine whether knowledge is primarily performative, exploratory, compressed, progressive, or comparative, and structure accordingly.
+
+**Why:** Knowledge has different optimal structures for different uses. A recipe as a linked concept graph fails in the kitchen; emergency steps as exploratory prose fail in crisis.
+
+**Test:** For any note, can you identify its primary interaction mode? Could someone in that mode use it effectively without restructuring?
+
+### Interaction Mode Definitions
+
+| Mode | Description | Characteristics | Example |
+|------|------------|-----------------|----------|
+| Performative | Execute step-by-step | Numbered steps, imperative voice, no branching | Recipes, instructions |
+| Exploratory | Browse and discover | Rich links, non-linear, examples | Concept explanations |
+| Compressed | Quick recall under stress | Keywords, warnings, critical paths only | Emergency procedures |
+| Progressive | Learning over time | Prerequisite chains, scaffolding | Tutorials, curricula |
+| Comparative | Decision-making | Tables, trade-offs, context factors | Tool selection, framework comparison |
 
 ## Why This Matters for Seed Construction
 
@@ -55,93 +144,41 @@ When an AI builds a knowledge base from scratch using only Seed rules:
 1. **False universalization risk**: Capturing "tap water is safe" without context makes it look universally true
 2. **Verification without scope**: Verifying the fact doesn't capture its bounded applicability
 3. **Cross-context transfer errors**: Knowledge from one context applied to another produces failures
-4. **No validity scope**: The Seed has no field or rule for "applies in context X, Y"
+4. **Mode mismatch**: Creates beautiful concept graphs useless when actually cooking
+5. **No validity scope**: The Seed has no field or rule for "applies in context X, Y"
 
 ## Domain Examples
 
-### Brewing Beer (Home Brewing)
-- "All-grain brewing produces better beer" — TRUE for experienced brewers, FALSE for beginners (mash efficiency issues)
-- "You can bottle carbonate with sugar" — TRUE in most contexts, FALSE in some jurisdictions (different carbonation methods required)
-- "High altitude requires flavor adjustments" — TRUE above 3000ft, FALSE at sea level
+### Cooking
+- Kitchen mode → Step-by-step recipe with precise measurements
+- Planning mode → Overview, ingredients list, timing
+- Shopping mode → Quantities, store-specific items
+- Current Seed: Creates linked atomic notes but doesn't support context-optimized views
+
+### First Aid / Emergency
+- Normal Seed: Creates well-linked knowledge graph
+- Emergency context: Requires compressed mode, bold warnings, offline capability
+- Could be life-threatening if wrong mode used
 
 ### Legal Knowledge
-- "You can record a conversation without consent" — True in single-party consent states (US), false in two-party consent states
-- "This business structure limits liability" — True in most jurisdictions, false where specific structures aren't recognized
+- Context-switch: "You can record without consent" — True in single-party consent states, false in two-party
+- Context-gate: Professional role requirements vary by jurisdiction
 
-### Health & Safety
-- "Seat belt angles differ by vehicle" — Critical for safety, varies by car model
-- "This medication is available over the counter" — Varies by jurisdiction
+## Connections to Existing Seed Work
 
-### Technology
-- "This adapter works" — Varies by region (power standards), device model, protocol version
-- "This file format is supported" — Varies by software version, OS
-
-### Knowledge Base Construction
-- "2+ outgoing links is sufficient" �� True for most domains, false for highly technical domains needing more context
-
-## The Challenge
-
-Context-switch validity creates several challenges:
-
-1. **Implicit context assumptions**: Authors capture knowledge assuming their context is universal
-2. **Scope detection difficulty**: Without explicit marking, AI can't detect context-conditional facts
-3. **Verification limitations**: Verifying in one context doesn't validate across all contexts
-4. **Cross-context application failures**: Users apply knowledge from wrong context
-
-## Proposed Solution Patterns
-
-### 1. Validity Scope Field
-
-For knowledge with context boundaries:
-
-```yaml
----
-validity-scopes:
-  - context: geographic
-    regions: [US, CA, UK, AU]
-    note: Not applicable in EU regions with different standards
-  - context: expertise-level
-    levels: [intermediate, advanced]
-    note: Not applicable for beginners
-```
-
-### 2. Contextual Fact Note Template
-
-When capturing potentially context-conditional facts:
-
-```markdown
-# Fact Name
-
-## The Claim
-[Precise statement]
-
-## Validity Contexts
-- **True in contexts**: [A, B, C]
-- **False/unknown in contexts**: [D, E, F]
-
-## Why Context Matters
-[Explanation of what changes between contexts]
-```
-
-### 3. Seed Rule Addition
-
-**Proposed Rule:**
-> When capturing factual knowledge, explicitly state the validity scope — all contexts where the claim is true, not just where it has been verified.
-
-**Why:** Knowledge that is true in one context but false in another is not partially true — it has bounded applicability. Without scope, knowledge bases universalize locally true claims.
-
-**Test:** Can you identify at least one context where this claim would NOT hold?
-
-## Connection to Existing Seed Work
-
-This connects to:
 - [[Frontier Exploration - Knowledge Validity Window Handling]] — extends temporal validity to context validity
 - [[Frontier Exploration - Equivalent Alternatives and Contextual Selection]] — extends alternative context-sensitivity
 - [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]] — context-switch could be a distinct knowledge type
+- [[Note Types and Templates]] — Could extend with mode specification
 
 ## Open Questions
 
-- How should the Seed test for context-switch validity during verification?
-- Should context-scopes be searchable/filterable in knowledge bases?
-- How do we handle unknown contexts (we don't know where it ISN'T true)?
-- Should context-switch validity be distinguished from context-gated (applicability vs relevance)?
+1. How should the Seed test for context-switch validity during verification?
+2. Should context-scopes be searchable/filterable?
+3. How do we handle unknown contexts (we don't know where it ISN'T true)?
+4. How do we handle notes that serve multiple modes? Multiple representations?
+5. What's the minimum viable set of modes to optimize for?
+
+---
+
+*This note was created during frontier exploration and merged from related notes on context handling. It captures an emerging concept about context-dependent knowledge representation that could become future Seed rules.*

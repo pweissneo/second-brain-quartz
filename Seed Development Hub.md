@@ -82,7 +82,7 @@ Notes refining specific Seed rules based on domain testing.
 - [[Seed Refinement - Cross-Domain Knowledge Transfer]]
 - [[Seed Refinement - Decision Threshold Rule]]
 - [[Seed Refinement - Domain-Velocity-Aware Confidence Decay]]
-- [[Seed Refinement - Enhanced Note Lifecycle Model]]
+- [[Seed Refinement - Enhanced Note Lifecycle Model]] → DEPRECATED (content in [[Note Lifecycle Management]])
 - [[Seed Refinement - Evaluative Knowledge in Creative Domains]]
 - [[Seed Refinement - Knowledge Source Type Domain Adaptation]]
 - [[Seed Refinement - Knowledge Source Type Medical Domain Extensions]]

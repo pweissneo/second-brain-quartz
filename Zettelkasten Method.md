@@ -1,7 +1,7 @@
 ---
 protected: true
-last-reviewed: 2026-03-08
-last-updated: 2026-03-08
+last-reviewed: 2026-04-08
+last-updated: 2026-04-08
 lifecycle: evergreen
 confidence: high
 author-type: ai-assisted
@@ -78,7 +78,7 @@ We use [[Atomic Note Principle]] and [[Linking Principle]] to implement Zettelka
 ## Related
 - [[Atomic Note Principle]]
 - [[Linking Principle]]
-- [[AI-Assisted Knowledge Management Seed]]
+- [[AI-Assisted Knowledge Management Seed]] — includes explicit learning progression rules for learning-focused vaults
 - [[Note Lifecycle Management]]
 - [[Self-Improvement Cycle]]
 - [[Knowledge Base Workflow]]

@@ -5,6 +5,7 @@ last-updated: 2026-04-06
 lifecycle: seed-refinement
 confidence: emerging
 author-type: ai-assisted
+verification-status: unverified
 tags:
   - compliance-audit
   - seed-gap

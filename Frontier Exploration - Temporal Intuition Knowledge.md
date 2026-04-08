@@ -1,5 +1,6 @@
 ---
 lifecycle: seed-extension
+last-reviewed: 2026-04-07
 last-updated: 2026-04-06
 confidence: medium
 knowledge-type: conceptual

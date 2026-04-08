@@ -1,8 +1,14 @@
 ---
-knowledge-type: seed-refinement
-last-updated: 2026-04-07
+last-reviewed: 2026-04-07
+lifecycle: seed-extension
 confidence: medium
 author-type: ai-assisted
+knowledge-type: meta
+access-pattern: learning
+tags:
+  - seed-refinement
+  - temporal-knowledge
+  - sequential-knowledge
 ---
 
 # Seed Refinement - Temporal-Sequential Knowledge Handling

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-15
+last-reviewed: 2026-04-08
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
@@ -94,6 +94,9 @@ explicit milestone notes marking progress? Can a learner determine when they've
 - [[Frontier Exploration - Knowledge Abstraction Levels]]
 - [[Frontier Exploration - Prerequisites and Learning Paths]]
 - [[Stress Test - Prerequisites Rule in Framework Learning]]
+- [[Seed Refinement - Learning Progression and Curriculum Design]] — integration status
+
+**Note:** This gap was identified and has been integrated into the Seed as of 2026-04-05. The Seed now includes explicit learning progression rules (entry points, milestone nodes, exit criteria) for learning-focused knowledge bases.
 
 ## Next Steps
 

@@ -3,6 +3,9 @@ last-reviewed: 2026-03-13
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: relational
+access-pattern: lookup
+verification-status: emerging
 tags:
   - frontier-exploration
   - knowledge-type
@@ -118,3 +121,4 @@ This connects to:
 - [[Frontier Exploration - User Situational Constraints]] - substitution is one way to handle missing ingredients
 - [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] - substitution is a specific branch type
 - [[Frontier Exploration - Equipment and Tool Dependencies]] - equipment alternatives are similar pattern for tools
+- [[AI-Assisted Knowledge Management Seed]] - see Knowledge Type Taxonomy rule (2026-04-03) for type-specific organization

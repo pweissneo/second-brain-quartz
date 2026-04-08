@@ -4,6 +4,7 @@ last-updated: 2026-04-06
 lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: conceptual
 tags:
   - frontier-exploration
   - bootstrap

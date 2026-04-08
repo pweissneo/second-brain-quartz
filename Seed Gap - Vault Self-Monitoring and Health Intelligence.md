@@ -1,10 +1,10 @@
 ---
 last-reviewed: 2026-04-01
-last-updated: 2026-04-01
+last-updated: 2026-04-07
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
-gap-status: proposed
+gap-status: merged
 gap-priority: medium
 gap-type: seed-missing
 discovered: 2026-03-26
@@ -12,6 +12,13 @@ gap-source: frontier-exploration
 gap-phase: analysis
 gap-review-date: 2026-04-01
 analysis-notes: "Seed contains scattered health metrics (verification ratio, orphan rate, schema stability) but lacks unified programmatic framework. Valid gap - need to add vault self-monitoring framework to Seed."
+merged-from:
+  - Frontier Exploration - Automated Vault Health Monitoring
+tags:
+  - seed-gap
+  - health-monitoring
+  - vault-maintenance
+  - merged
 ---
 
 # Seed Gap - Vault Self-Monitoring and Health Intelligence
@@ -185,6 +192,41 @@ trends:
 - Complements: Schema review quarterly (stability tracking)
 - Complements: Self-Improvement Cycle (overall vault improvement)
 - Distinct from: Note-level quality metrics (individual note health)
+
+### Automated Implementation Details
+
+The Seed should include specific guidance on automated monitoring implementation:
+
+**Check Frequency:**
+- Orphan rate: weekly
+- Verification debt: daily
+- Broken links: daily
+- Average note age: weekly
+
+**Alert Channels:**
+- Console output for AI agents
+- Log entries for audit trails
+- Optional: external webhook for critical alerts
+
+**Trend Detection:**
+- Store weekly snapshots
+- Detect degradation: metric worsens 20%+ over 30 days
+- Detect improvement: metric improves 20%+ over 30 days
+
+**Health Snapshot Format:**
+```yaml
+health-snapshot:
+  timestamp: 2026-03-27T14:40:00Z
+  orphan-rate: 0.08
+  verification-debt: 0.22
+  broken-links: 2
+  average-note-age: 67
+  debt-score: 0.18
+  notes-count: 247
+  links-count: 892
+```
+
+This extends the manual "run consistency scans quarterly" rule to include automated monitoring between scans.
 
 ## Edge Cases
 

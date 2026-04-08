@@ -1,96 +1,128 @@
 ---
-last-updated: 2026-04-07
-knowledge-type: conceptual
-retrieval-mode: hybrid
-access-pattern: decision
+last-reviewed: 2026-04-08
 confidence: medium
-lifecycle: draft
+lifecycle: seedling
 author-type: ai-assisted
 tags:
 - frontier-exploration
-- reasoning-structure
-- hypothesis-management
+- differential-reasoning
+- knowledge-structure
 - diagnostic-knowledge
-- decision-knowledge
-seealso:
-- "[[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]"
-- "[[Frontier Exploration - Ambiguous Query Handling and Uncertainty Communication]]"
-- "[[Frontier Exploration - Decision-Tree Knowledge Organization]]"
-- "[[Handling Contradictory Sources]]"
+- troubleshooting
 ---
 
 # Frontier Exploration - Differential Knowledge Organization
 
-> How should a knowledge base structure knowledge when multiple competing possibilities exist?
-
-## The Gap
-
-The Seed provides rules for:
-- Atomic note creation
-- Knowledge type classification
-- Source evaluation
-- Linking principles
-
-But it lacks guidance for **structural knowledge organization when multiple hypotheses compete for a single answer**. This appears in:
-
-- **Medical diagnosis** — "chest pain could be cardiac, pulmonary, GI, or musculoskeletal"
-- **Troubleshooting** — "printer won't print could be driver, cable, hardware, or software"
-- **Decision analysis** — "strategic options A, B, or C each has trade-offs"
-- **Technical debugging** — "system crash could be memory, CPU, storage, or thermal"
-
-Current rules treat knowledge as statements to capture, not structures to organize around competing possibilities.
+> How to structure knowledge around competing possibilities, hypotheses, or alternatives when multiple valid options exist for a single problem or question.
 
 ## The Problem
 
-When a knowledge base consumer faces a decision point needing differential reasoning:
+In many domains, knowledge isn't about finding a single right answer — it's about systematically evaluating multiple possibilities:
 
-1. **Fragmented hypotheses** — Each possible cause/option exists as separate notes without guidance on how they relate to each other
-2. **No prioritization framework** — Notes don't explain how to rank alternatives (likelihood? severity? reversibility?)
-3. **Missing decision criteria** — Trade-offs exist as separate notes but criteria for choosing aren't made explicit
-4. **No escalation paths** — No guidance on when to narrow to single hypothesis vs. keep differential open
+- **Medical diagnosis:** "Could be pneumonia, could be bronchitis, could be pleurisy"
+- **Troubleshooting:** "Could be power supply, could be motherboard, could be software"
+- **Decision analysis:** "Option A vs Option B vs Option C"
+- **Prognostic:** "These are the likely outcomes and their probabilities"
 
-## What a Seed Rule Would Need
+Without structured differential organization, consumers face:
+- Unorganized option lists without comparison criteria
+- No way to systematically eliminate possibilities
+- Lost learning from ruled-out alternatives
 
-**Rule:** Structure differential knowledge as explicit option sets with shared criteria.
+## Core Insight
 
-**Why:** Differential reasoning requires comparing like with like. Without shared evaluation criteria, consumers get unorganized options. Structured differentials enable systematic comparison.
+**Differential reasoning requires comparing like with like.** The key is shared evaluation criteria that apply to all alternatives equally. Without this, you're just listing options — not reasoning differentially.
 
-**Test:** Can you identify a differential (3+ alternatives for single problem)? Do all alternatives reference common evaluation criteria? Can you explain the prioritization framework?
+## Structural Requirements
 
-**Implementation:**
-```yaml
-differential-type: diagnostic|troubleshooting|decision|prognostic
-prioritization-framework: likelihood|severity|cost|reversibility|time-urgency
-common-criteria:
-  - criterion: "likelihood"
-    evaluation: "frequency in population/experience"
-  - criterion: "severity"
-    evaluation: "worst-case if missed"
-  - criterion: "reversibility"
-    evaluation: "ease of intervention"
-escalation-condition: "when single option emerges above threshold"
+### Shared Criteria First
+
+All alternatives in a differential should be evaluated against the **same** criteria:
+
+```
+Differential: Root Cause Analysis for System Failure
+├── Option A: Power supply failure
+├── Option B: Software crash  
+├── Option C: Hardware malfunction
+
+Evaluation Criteria (shared by all):
+├── Likelihood: How common is this cause?
+├── Severity: Worst-case impact if missed?
+├── Reversibility: Can it be easily corrected?
+├── Testability: Can we verify this quickly?
 ```
 
-## Distinction from Existing Notes
+### Document Eliminated Options
 
-- **[[Handling Contradictory Sources]]** — Source evaluation (which source is reliable)
-- **[[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]]** — General diagnostic approach
-- **[[Frontier Exploration - Decision-Tree Knowledge Organization]]** — Sequential choice structure
-- **This note** — How to organize a SET of competing possibilities as a cohesive reasoning structure
+Keep ruled-out alternatives with their elimination rationale:
 
-## Edge Cases to Consider
+```
+Option B: Software crash - ELIMINATED
+├── Elimination rationale: "System logs show power fluctuation 0.5s before crash"
+├── Evidence: "[[System Log Analysis]]"
+├── Lesson learned: "Power fluctuations preceded all three incidents"
+```
 
-1. When should differential be narrowed? (threshold criteria)
-2. When should alternatives be kept open deliberately? (ambiguity intentional)
-3. How to handle overlapping but not identical alternatives? (differential subsets)
-4. How to document eliminated hypotheses? (learning from ruled-out options)
+This is valuable learning that would be lost if you just "narrowed to the answer."
 
-## Questions for Seed Integration
+### Threshold-Based Narrowing
 
-- Should differential structure be a separate knowledge type?
-- How does this interact with decision-optimized access pattern?
-- What's the relationship to hypothesis confidence calibration?
+Don't narrow prematurely. Use explicit confidence thresholds:
+
+```yaml
+differential-narrowing:
+  threshold: 0.8  # 80% confidence before narrowing
+  minimum-evidence: 3  # At least 3 data points
+  keep-open-conditions:
+    - "Time-constrained situation"
+    - "Reversibility favors trying multiple paths"
+    - "Evidence insufficient for any option"
+```
+
+## Relationship to Existing Seed Rules
+
+| Related Rule | Relationship |
+|--------------|--------------|
+| [[Handling Contradictory Sources]] | Source evaluation (which source is reliable), NOT structural organization of options |
+| [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] | General diagnostic approach, but doesn't cover option-set structure |
+| [[Frontier Exploration - Decision-Tree Knowledge Organization]] | Sequential choice structure, but doesn't address competing alternatives at same level |
+| [[Frontier Exploration - Threshold Knowledge]] | Related - threshold-based narrowing applies here too |
+
+## Domains Where This Matters Most
+
+1. **Medical/Clinical:** Differential diagnosis is foundational
+2. **Technical Troubleshooting:** Root cause analysis
+3. **Decision Analysis:** Multi-criteria decision making
+4. **Legal:** Alternative legal theories/strategies
+5. **Financial Planning:** Investment alternatives, retirement scenarios
+6. **Creative Problem-Solving:** Multiple approaches to a creative challenge
+
+## Test Criteria
+
+A well-structured differential:
+
+- [ ] Has 3+ alternatives for a single problem/question
+- [ ] All alternatives reference common evaluation criteria
+- [ ] Has explicit prioritization framework (likelihood, severity, cost, etc.)
+- [ ] Documents eliminated options with rationale
+- [ ] Uses threshold-based narrowing logic
+- [ ] Keeps differential open when evidence is insufficient
+
+## Open Questions
+
+1. **How many alternatives is too many?** Is there a cognitive load threshold?
+2. **When to use differential vs. decision tree?** Sequential vs. simultaneous options
+3. **Probability vs. possibility?** Should differentials include probability estimates?
+4. **Group vs. individual context?** Do shared criteria need personalization?
+
+## Seed Integration
+
+See [[AI-Assisted Knowledge Management Seed]] — Differential Knowledge Organization rule (added 2026-04-07).
 
 ---
 
-*This note explores whether differential knowledge organization warrants a Seed rule. The concept is distinct from existing guidance on source contradiction handling or sequential decision trees.*
+## Related Notes
+- [[AI-Assisted Knowledge Management Seed]] - The Seed file
+- [[Frontier Exploration - Troubleshooting and Diagnostic Knowledge]] - General diagnostic approaches
+- [[Frontier Exploration - Decision-Tree Knowledge Organization]] - Sequential structure
+- [[Frontier Exploration - Threshold Knowledge]] - Threshold concepts

@@ -1,20 +1,15 @@
 ---
-last-updated: 2026-04-05
-last-reviewed: 2026-04-05
-author-type: ai-assisted
+last-updated: 2026-04-08
+last-reviewed: 2026-04-08
 lifecycle: seed-extension
-verification-status: unverified
 confidence: emerging
-evidence-tier: reasoning-from-first-principles
-knowledge-source-type: analysis
-analysis-type: deductive
-applicability: universal
-recurring: true
-utility-type: potential
+author-type: ai-assisted
+knowledge-type: meta
+access-pattern: decision
 tags:
   - knowledge-management
-  - capture-decision
-  - frontier
+  - capture-strategy
+  - frontier-exploration
   - resource-allocation
   - timing
 seealso:
@@ -22,16 +17,23 @@ seealso:
   - Note Creation Decision Framework
   - Frontier Exploration - Systematic Knowledge Exclusion Criteria
   - Best Practice - Selective Capture
+  - Knowledge Base Workflow
 ---
 
 # Frontier Exploration - Knowledge Capture Strategy
 
-> How should an AI agent decide what to capture, when to capture it, and how to allocate resources between capturing new knowledge and verifying existing knowledge?
+> How should an AI agent decide what to capture, when to capture it, how to capture it, and how to allocate resources between capturing new knowledge and verifying existing knowledge?
 
-This note consolidates guidance on three related but distinct aspects of knowledge capture:
+> **Note (2026-04-08):** This note consolidates three related frontier explorations:
+> - Frontier Exploration - Knowledge Capture Strategy (capture prioritization, timing, resource allocation)
+> - Frontier Exploration - Knowledge Capture Threshold Determination (how much is enough, when to stop)
+> - Frontier Exploration - Capture Method Optimization (how to capture, methods and trade-offs)
+
+This consolidated note covers four related aspects of knowledge capture:
 1. **Capture prioritization** — what to capture now vs. later vs. never
 2. **Capture timing** — when in the learning lifecycle to capture
-3. **Resource allocation** — how to balance capture vs. verification vs. deepening
+3. **Capture method** — how to capture (speed vs. quality trade-offs, method-to-type matching)
+4. **Resource allocation** — how to balance capture vs. verification vs. deepening
 
 ---
 
@@ -39,7 +41,7 @@ This note consolidates guidance on three related but distinct aspects of knowled
 
 ### The Problem
 
-The Seed covers what to capture (priority signals, diminishing returns, exploration/exploitation) and when to create new notes (Note Creation Decision Framework). But there's a temporal gap: when an AI agent is actively working through a domain, it encounters a continuous stream of knowledge items. The Seed doesn't tell it how to prioritize capture in real-time.
+The Seed covers what to capture (priority signals, diminishing returns, exploration/exploitation) and when to create notes (Note Creation Decision Framework). But there's a temporal gap: when an AI agent is actively working through a domain, it encounters a continuous stream of knowledge items. The Seed doesn't tell it how to prioritize capture in real-time.
 
 ### Real-World Scenario
 
@@ -180,7 +182,93 @@ Capture meta-knowledge about what works:
 
 ---
 
-## Part 3: Resource Allocation Between Capture and Verification
+## Part 3: Capture Method Optimization
+
+### The Gap
+
+The Seed covers what knowledge to capture (diminishing returns, priority signals, 5:1 ratio) and how to organize it (atomicity, linking, schema). However, it lacks explicit guidance for **how to capture** knowledge optimally — which methods work for different knowledge types, the mechanics of capture-to-integration flow, and how capture method choice affects knowledge quality.
+
+### Problems Where Capture Method Choice Matters
+
+1. **Transient ideas captured via voice vs. text** — Voice capture is faster but loses detail; text capture is slower but enables editing. The Seed doesn't guide which to use when.
+
+2. **Research capture during active reading vs. post-reading synthesis** — Capturing as you read creates more complete notes but interrupts flow; capturing after creates synthesis but loses ephemeral insights. No guidance exists.
+
+3. **Error capture immediately after encountering vs. later** — Immediate capture preserves context but interrupts work; later capture may lose details but allows reflection. Timing trade-offs unaddressed.
+
+4. **Multi-source synthesis during capture vs. after collection** — Synthesizing during capture (comparing sources as you go) creates integrated notes but slows capture; collecting first creates raw material that can be synthesized later. The Seed mentions synthesis but not timing trade-offs.
+
+5. **Capture in domain-native format vs. neutral format** — Some knowledge (code snippets, formulas) is best captured in native format; other knowledge (concepts, insights) is better in neutral format. No guidance on format selection.
+
+### Why This Matters
+
+Without capture method optimization:
+- Fast capture methods (voice, quick notes) may result in lower quality notes that require extensive cleanup
+- Slow capture methods (full writing) may cause knowledge to be lost before capture
+- The vault accumulates capture artifacts rather than usable knowledge
+- Time spent capturing doesn't correlate with knowledge value produced
+- Different knowledge types may benefit from different capture methods but this is unrecognized
+
+### Capture Method Selection Guidance
+
+#### Speed vs. Quality Trade-off
+
+- **Fast capture methods** (voice, quick notes, screenshots): sacrifice detail/explicitness for speed
+- **Slow capture methods** (full writing, structured templates): produce higher quality but risk losing transient knowledge
+
+**Rule:** Match capture method to knowledge type.
+
+| Knowledge Type | Recommended Method | Timing | Rationale |
+|---------------|-------------------|--------|-----------|
+| Error/issue | Quick note or voice | Immediate | Context decays fastest |
+| Transient idea | Voice or quick note | Immediate | May forget entirely |
+| Insight/reflection | Quick note, expand later | Immediate capture, delayed expansion | Quality requires reflection |
+| Research source | Batch capture | After reading session | Synthesis requires multiple sources |
+| Reference/fact | Direct to structured note | When needed | No time pressure |
+| Experiential result | Structured capture | After execution | Need results context |
+| Meeting/discussion | Quick note | During or immediate after | Details decay quickly |
+
+#### Context Preservation
+
+**What context should be captured at capture time:**
+- Task or goal at time of capture
+- Emotional state if relevant
+- Time constraints
+- Source and why it was being reviewed
+
+**What can be reconstructed later:**
+- Background information
+- Related concepts
+- Alternative perspectives
+
+#### Capture-to-Integration Flow
+
+- **Staging (inbox):** 48-hour maximum before processing
+- **Immediate capture:** For time-sensitive knowledge
+- **Delayed expansion:** For insights that need reflection time
+- **Batch processing:** For research that benefits from multi-source synthesis
+
+### Implementation
+
+```yaml
+capture-method: voice|quick-note|structured-writing|batch-research|reference-capture
+capture-timing: immediate|delayed|batch
+knowledge-type-match: appropriate|mismatched
+capture-quality: high|medium|low
+post-capture-processing: needed|none
+```
+
+### Capture Quality Indicators
+
+Evaluate capture method effectiveness by:
+- **Completeness**: Does the note contain what's needed to be useful later?
+- **Context preservation**: Can you reconstruct why you captured this?
+- **Findability**: Will you be able to find this when needed?
+- **Integration readiness**: Does the note need significant cleanup before linking?
+
+---
+
+## Part 4: Resource Allocation Between Capture and Verification
 
 ### The Problem
 
@@ -189,6 +277,19 @@ The Seed emphasizes capture (adding new notes) but doesn't set boundaries. This 
 - More topics = more surface area to verify
 - More links = more potential broken connections
 - No stopping rule = infinite growth with no quality guarantee
+
+### Capture Threshold Determination
+
+The Seed provides clear guidance on:
+- **What to capture** (utility, connection, uniqueness)
+- **When to create notes** (Note Creation Decision Framework)
+- **How to organize** (atomicity, linking, taxonomy)
+- **How to verify** (confidence markers, verification modes)
+
+But it lacks explicit guidance on:
+- **How much** is enough for a given topic
+- **When** to stop capturing and start verifying
+- **How to determine** if a piece of knowledge is "notable" enough to warrant its own note
 
 ### The Capture-Verify Balance
 
@@ -211,6 +312,28 @@ vault-metrics:
   verification-backlog: 23  # notes pending verification
   capture-pause-threshold: 40  # pause capture at 40% unverified
 ```
+
+### Notability Threshold
+
+**Rule:** Use the "3-strike" rule — if the same piece of knowledge is needed 3+ times across different contexts, it warrants its own note. Until then, keep it as part of another note.
+
+**Why:** Notability should be driven by actual utility, not speculation. Waiting for 3-use pattern ensures the note will actually be retrieved.
+
+**Test:**
+1. Can you track knowledge fragments needed across your vault?
+2. Do any fragments appear 3+ times?
+3. Have you created notes for high-frequency fragments?
+
+### Domain-Velocity-Aware Thresholds
+
+**Rule:** Define explicit capture thresholds based on domain velocity — low-velocity domains require fewer but higher-quality notes (minimum 15-20 foundational notes before verification), high-velocity domains allow more shallow notes but require faster verification cycles.
+
+**Why:** Domain velocity determines how quickly knowledge changes, which affects capture density. Static domains need deep, few notes; rapidly evolving domains need shallow, numerous notes with faster refresh.
+
+**Test:**
+1. Can you classify your domain's velocity as low/medium/high?
+2. Does your note count match the expected range for your velocity?
+3. Are you capturing at the right depth for your domain?
 
 ### Calculate Marginal Capture Value
 
@@ -253,34 +376,66 @@ vault-metrics:
 ## Integration with Seed
 
 This framework complements:
+
 - **[[Note Creation Decision Framework]]** — When to create new notes (but doesn't cover when or how to prioritize)
 - **[[Frontier Exploration - Systematic Knowledge Exclusion Criteria]]** — What NOT to capture (but doesn't cover when)
-- **[[Best Practice - Selective Capture]]** — Capture selection criteria
+- **[[Best Practice - Progress Over Perfection]]** — Capture selection criteria
 - **[[Best Practice - Regular Review]]** — Maintenance and verification scheduling
 - **[[Seed Gap - Note Deletion Criteria]]** — Low-value note handling
+- **[[Knowledge Base Workflow]]** — End-to-end workflow (covers capture phase)
 
-## Test for the Seed
+### What the Seed Covers vs. This Note
 
 A knowledge base using ONLY the current Seed rules would know:
-- What to capture (diminishing returns, priority signals)
-- When to create (note creation framework)
-- What to exclude (systematic exclusions)
-- How to find gaps (gap identification)
+- **What to capture** — diminishing returns, priority signals
+- **When to create** — note creation framework
+- **What to exclude** — systematic exclusions
+- **How to find gaps** — gap identification
+- **How to verify** — confidence markers, verification modes
+- **How to organize** — atomicity, linking, taxonomy
 
-BUT: Would NOT have guidance for:
-- Real-time capture prioritization during active learning
-- Capture timing during learning lifecycle
-- Resource allocation between capture and verification
-- Completion thresholds with verification requirements
-- Marginal value assessment before capture
+BUT would NOT have guidance for:
+- **Real-time capture prioritization** during active learning
+- **Capture timing** during learning lifecycle
+- **Capture method selection** (speed vs. quality trade-offs)
+- **Resource allocation** between capture and verification
+- **Completion thresholds** with verification requirements
+- **Marginal value assessment** before capture
 
 ---
 
-**Status:** Exploratory note (consolidated from three notes 2026-04-05)
+## Test Criteria (for AI Evaluation)
 
-**Deprecation Notice:** This note replaces:
-- Frontier Exploration - Knowledge Capture Prioritization During Active Learning (merged)
-- Frontier Exploration - Knowledge Capture Resource Allocation (merged)
-- Frontier Exploration - Knowledge Capture Timing Optimization (merged)
+- [ ] Can you calculate your current capture-to-verify ratio?
+- [ ] Do you have a process to shift from capture to verify when thresholds are hit?
+- [ ] Can you apply the 3-strike rule for notability decisions?
+- [ ] Can you classify your domain's velocity and adjust capture accordingly?
+- [ ] Can you match capture methods to knowledge types appropriately?
+- [ ] Can you calculate marginal value before adding new notes?
+- [ ] Can you define "complete enough" for your knowledge domains?
 
-Use this note for all future reference.
+---
+
+## Related Notes
+
+- [[Frontier Exploration - Knowledge Dependency Mapping]] — Bootstrapping sequencing
+- [[Frontier Exploration - Note Completion Criteria]] — When notes are complete
+- [[Frontier Exploration - Domain Velocity Assessment for Unknown Domains]] — Velocity classification
+- [[Seed Refinement - Domain-Velocity-Aware Confidence Decay]] — Confidence decay by velocity
+- [[AI-Assisted Knowledge Management Seed]] — Core Seed rules
+
+---
+
+**Status:** Exploratory note (consolidated 2026-04-08)
+
+**Deprecation Notice:** This note replaces and consolidates:
+- Frontier Exploration - Knowledge Capture Strategy (original)
+- Frontier Exploration - Knowledge Capture Threshold Determination (merged 2026-04-08)
+- Frontier Exploration - Capture Method Optimization (merged 2026-04-08)
+
+Also absorbed content from:
+- Frontier Exploration - Knowledge Capture Prioritization During Active Learning (deprecated)
+- Frontier Exploration - Knowledge Capture Resource Allocation (deprecated)
+- Frontier Exploration - Knowledge Capture Timing Optimization (deprecated)
+
+Use this consolidated note for all future reference.

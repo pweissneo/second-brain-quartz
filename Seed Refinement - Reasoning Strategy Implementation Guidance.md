@@ -135,13 +135,16 @@ Testing these implementations against cooking domain (from Seed Stress Test - Re
 
 This refinement should be merged into the Seed at line 2223-2226 as expanded implementation guidance, replacing the current test with more specific criteria.
 
+**Note:** Extended implementation details (synthesis documentation format, reasoning metrics schema, rule interaction decision tree) have been merged into [[Seed Refinement - Reasoning Strategy Implementation Gaps]] for consolidated reference.
+
 ## Related Notes
 
 - [[Seed Stress Test - Reasoning Strategies Rules]] - Full stress test with cooking domain
 - [[Seed Stress Test - Reasoning Strategies in Therapeutic Psychology]] - Psychology domain test
+- [[Seed Refinement - Reasoning Strategy Implementation Gaps]] - Consolidated refinement with synthesis & metrics
 - [[AI-Assisted Knowledge Management Seed]] - Original rule (line 2223-2226)
 
 ---
 
 *Refinement generated during: SEED_STRESS_TEST heartbeat (2026-04-04)*
-*Stress test domain: cooking (varied from previous psychology test)*
+*Extended with synthesis & metrics guidance (2026-04-07)*

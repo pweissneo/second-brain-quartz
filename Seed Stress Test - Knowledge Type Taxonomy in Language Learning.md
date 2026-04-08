@@ -4,10 +4,15 @@ lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: analysis
+verification-mode: source
+verification-status: verified
+access-pattern: learning
 tags:
   - seed-stress-test
   - knowledge-type-taxonomy
   - language-learning
+gap-status: identified
+gap-source: stress-test
 ---
 
 # Seed Stress Test: Knowledge Type Taxonomy in Language Learning

@@ -154,4 +154,4 @@ Quarterly check that:
 - [[Seed Refinement - Multi-Framework Domain Reasoning]] — reasoning consistency
 - [[Seed Stress Test - Confidence Markers Rule Across Domains]] — confidence calibration
 - [[Linking Principle]] — link quality standards
-- [[Best Practice - Selective Capture]] — capture threshold guidance
+- [[Best Practice - Progress Over Perfection]] — capture threshold guidance

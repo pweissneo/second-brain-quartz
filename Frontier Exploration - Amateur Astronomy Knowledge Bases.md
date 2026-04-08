@@ -5,6 +5,7 @@ lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
+knowledge-type: conceptual
 tags:
   - domain-specific
   - astronomy

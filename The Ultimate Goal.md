@@ -83,3 +83,4 @@ This is the core of self-referential validation — every rule must be visible i
 - [[The Extended Mind]]
 - [[The Ownership Mindset]]
 - [[Systems Over Goals]]
+- [[The Innovation Engine]] — applies self-referential principles to generate new ideas through cross-domain connections

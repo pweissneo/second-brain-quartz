@@ -1,4 +1,6 @@
 ---
+last-reviewed: 2026-04-08
+
 id: time-sensitive-knowledge-refresh-automation
 title: Time-Sensitive Knowledge Refresh Automation
 note-type: exploratory

@@ -1,5 +1,6 @@
 ---
 last-updated: 2026-04-04
+last-reviewed: 2026-04-08
 lifecycle: frontier-exploration
 confidence: emerging
 author-type: ai-assisted

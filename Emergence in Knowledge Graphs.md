@@ -7,6 +7,7 @@ confidence: high
 author-type: ai-assisted
 verification-status: verified
 schema-version: "1.0"
+knowledge-type: conceptual
 tags:
   - structure
 ---

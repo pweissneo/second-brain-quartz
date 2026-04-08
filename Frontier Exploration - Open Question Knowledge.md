@@ -1,17 +1,34 @@
 ---
-lifecycle: evergreen
+lifecycle: seed-extension
 confidence: emerging
 level: frontier
 last-reviewed: 2026-03-18
-last-updated: 2026-03-18
+last-updated: 2026-04-07
 author-type: ai-assisted
 verification-status: unverified
 schema-version: "1.0"
+knowledge-type: meta
+retrieval-mode: search
+storage-pattern: atomic
+verification-approach: self-consistency
+gap-status: integrated
+gap-priority: medium
+gap-phase: integration
+gap-source: frontier-exploration
+discovered: 2026-03-18
+resolved: 2026-04-07
+resolved-by: [[AI-Assisted Knowledge Management Seed]]
+integration-target: [[AI-Assisted Knowledge Management Seed]]
 tags:
   - frontier-exploration
   - open-question
   - uncertainty
   - knowledge-management
+related:
+  - "[[AI-Assisted Knowledge Management Seed]]"
+  - "[[Confidence Markers]]"
+  - "[[Handling Contradictory Sources]]"
+  - "[[Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains]]"
 ---
 
 # Frontier Exploration - Open Question Knowledge

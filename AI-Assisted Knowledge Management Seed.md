@@ -35,7 +35,7 @@ author-type: ai-assisted
 
 **Why:** The same knowledge needs different organization depending on whether someone is learning, looking up a fact, making a decision, or seeking inspiration. Default organization assumptions hurt specific use cases.
 
-**Test:** (1) Can you filter notes by access-pattern tag? (2) Does the vault have reference indexes for lookup use cases? (3) Are learning paths available for understanding use cases? (4) Are decision trees available for choice-making use cases?
+**Test:** (1) Can you filter notes by access-pattern tag? (2) Does the vault have reference indexes for lookup use cases? (3) Are learning paths available for understanding use cases? (4) Are decision trees available for choice-making use cases? (5) For vaults >200 notes: What percentage of queries follow each access pattern? (6) If >60% follow one pattern, are there dedicated entry points optimized for it? (7) Is the dominant pattern documented in vault config?
 
 **Implementation:** Use frontmatter:
 ```yaml
@@ -51,6 +51,31 @@ access-pattern: lookup|learning|decision|inspiration|mixed
 - Learning paths: Sequential progression for understanding
 - Decision trees: Branching structure for choice-making
 - Inspiration hubs: Cross-domain connections for creative recombination
+
+**When to create dedicated entry points:**
+- Small vaults (<200 notes): Generic linking sufficient, no dedicated entry points needed
+- Large vaults (>200 notes): Query pattern analysis becomes valuable
+- **Threshold:** When >60% of queries follow one access pattern, create dedicated structure optimized for that pattern
+- Track query patterns for 30+ days before deciding
+
+```yaml
+# Threshold for dedicated entry points (add to vault config)
+access-pattern-threshold: 0.60  # 60% = create dedicated structure
+query-tracking-period: 30  # days
+entry-point-optimization:
+  lookup:
+    max-hop-depth: 2
+    require-reference-index: true
+  learning:
+    require-prerequisite-chains: true
+    require-learning-path: true
+  decision:
+    require-trade-off-tables: true
+    require-decision-tree: true
+  inspiration:
+    require-cross-domain-links: true
+    min-connections-per-note: 3
+```
 
 **See also:** [[Seed Gap - Access-Pattern-Aware Knowledge Organization]] (gap now integrated)
 **Why:** Folders impose hierarchy that constrains discovery; links create organic, multi-dimensional structure.
@@ -69,6 +94,35 @@ access-pattern: lookup|learning|decision|inspiration|mixed
 **Rule (NEW - 2026-04-04):** Exclude workspace system files from the vault — files like AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are operational, not content.
 **Why:** System files bloat the vault and create noise in structural analysis. They are not knowledge base content — they are workspace operational files that happen to have .md extension.
 **Test:** Verify AGENTS.md, SOUL.md, USER.md, IDENTITY.md, TOOLS.md, HEARTBEAT.md are NOT in the vault directory. Check that they exist in workspace state/ or other operational location instead.
+
+**Rule (NEW - 2026-04-08):** For knowledge that applies differently based on the user's current cognitive or physical state, use `cognitive-state-aware` tagging to indicate state-dependent validity.
+
+**Why:** The same person at different times (rested vs. fatigued, alert vs. depleted) has different decision quality, learning capacity, and risk tolerance. Knowledge that works when alert may produce suboptimal or dangerous results when fatigued. Without state-aware tagging, the vault assumes consistent cognitive capacity across all retrieval contexts.
+
+**Test:** (1) For critical decision knowledge, can you identify which cognitive states the knowledge applies to? (2) Does the note include warnings for inappropriate states? (3) For safety-critical content, are there state restrictions (valid-states/invalid-states)? (4) Is there a state-restriction flag for high-risk content?
+
+**Implementation:**
+```yaml
+cognitive-state-aware: true
+cognitive-state-type: alertness|decision-quality|risk-tolerance|learning-mode|creative-output
+state-sensitivity: high|medium|low
+valid-states: [alert, rested, caffeinated]
+invalid-states: [fatigued, depleted, distracted]
+state-interaction-notes: "How this knowledge changes by cognitive state"
+```
+
+**When to apply:**
+- High state-sensitivity: Decision-making, risk assessment, critical actions
+- Medium state-sensitivity: Learning complex concepts, creative work, problem-solving
+- Low state-sensitivity: Reference lookup, factual retrieval, routine tasks
+
+**Retrieval implications:**
+- Morning queries (alert): Show comprehensive, nuanced knowledge
+- Evening queries (fatigued): Show simplified, action-oriented knowledge
+- State-aware retrieval is aspirational; implement based on query patterns
+
+**See also:** [[Frontier Exploration - Cognitive State-Dependent Knowledge]] (exploration that prompted this rule)
+**See also:** [[Seed Refinement - Cognitive State-Aware Knowledge Organization]] (refinement tracking)
 
 **Rule:** Use consistent note naming — descriptive noun phrases, title case, kebab-case for filenames.
 **Why:** Inconsistent naming hurts search accuracy and graph readability.
@@ -165,7 +219,32 @@ aesthetic-basis:
   - when-to-break: "conditions where rule should be deliberately bent"
 ```
 
-**See also:** [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]], [[Seed Refinement - Technical vs Aesthetic Knowledge in Creative Domains]]
+**Rule (NEW - 2026-04-08):** For notes with knowledge-intent, add `verification-basis:` to specify how verification should work for that knowledge type.
+**Why:** Verification methodology depends on knowledge intent. Technical knowledge is verified objectively (measurement, external standards). Aesthetic knowledge requires different verification — alignment with tradition or context rather than "correctness." Without verification-basis, AI agents apply objective verification to aesthetic knowledge, which is inappropriate.
+
+**Test:** (1) For notes with `knowledge-intent: technical`, does verification-basis default to "objective"? (2) For notes with `knowledge-intent: aesthetic` or `hybrid`, is verification-basis set to "subjective" or "taste-based"? (3) Does verification-outcome match the basis type (verified/unverified for objective; aligned/not-aligned for taste-based)?
+
+**Implementation:**
+```yaml
+verification-basis: objective|subjective|taste-based
+# objective: claims verifiable through measurement or external standards
+# subjective: claims reflect personal judgment varying by individual preference  
+# taste-based: claims are tradition-dependent (what sounds "right" in Baroque vs Romantic)
+verification-outcome: verified|unverified|aligned|not-aligned|context-dependent
+# objective → verified/unverified
+# subjective → context-dependent
+# taste-based → aligned/not-aligned with tradition
+```
+
+**Examples:**
+- Cooking: "sear at 400°F for 2 minutes" → knowledge-intent: technical, verification-basis: objective
+- Cooking: "plate with sauce artistically draped" → knowledge-intent: aesthetic, verification-basis: taste-based (culinary tradition)
+- Music: "correct left hand position" → knowledge-intent: technical, verification-basis: objective
+- Music: "emotionally engaging phrasing" → knowledge-intent: aesthetic, verification-basis: taste-based (style tradition)
+- Photography: "expose for the highlights" → knowledge-intent: technical, verification-basis: objective
+- Photography: "moody, desaturated look" → knowledge-intent: aesthetic, verification-basis: subjective
+
+**See also:** [[Seed Gap - Knowledge Type Taxonomy and Retrieval Optimization]], [[Seed Refinement - Technical vs Aesthetic Knowledge in Creative Domains]], [[Seed Refinement - Knowledge Intent and Verification Basis Integration]]
 
 **Rule:** Organize creative composition knowledge (recipe design, artistic creation, creative writing craft) as principles connected to examples, not as standalone procedures.
 **Why:** Composition knowledge is about relationships between elements that can be recombined. Organizing by principles creates reusable frameworks; organizing by specific outputs creates collections that don't transfer. Technical procedures stay together as atomic units; composition principles should be broken into reusable components.
@@ -2100,13 +2179,34 @@ behavioral-metrics:
 
 *One idea per note, properly sized.*
 
+> **Frontier Exploration (2026-04-08):** See [[Frontier Exploration - Context-Window-Aware Knowledge Organization]] for emerging rules about organizing knowledge for AI agents with limited context windows. This exploration addresses how to structure knowledge when token budgets constrain retrieval.
+
 **Rule:** Every note must contain exactly one idea, summarizable in one sentence.
 **Why:** Multi-idea notes are hard to link, hard to find, and impossible to reuse in new contexts.
 **Test:** Can the note be summarized in one sentence that captures its core purpose? If the summary requires multiple sentences or fundamentally different topics, split it. (Note: the presence of "and" in a summary does NOT indicate multiple ideas — comparative notes, relationship notes, and hub notes may legitimately use "and" while remaining atomic.)
 
 **Rule:** Notes should be 100-300 words. Under 100 is too thin; over 300 likely contains multiple ideas.
 **Why:** Size is a reliable proxy for atomicity — oversized notes almost always bundle concepts.
-**Test:** Count words. Flag notes outside the 100-300 range for review. For notes >300 words: (1) Is this an executable procedure (recipe, code, tutorial, technical spec)? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Do NOT flag if yes to 1-2; flag for potential split only if yes to 3. For notes <100 words: verify it has a stub marker OR is a hub/redirect note OR is complete short procedural content (can be executed as-is).
+**Test:** Count words. Apply categorical exemptions for automatic pass/fail; flag only ambiguous cases for review.
+
+**Categorical Exemptions (>300 words, automatically PASS):**
+- Procedural content (recipes, code, tutorials, technical specs)
+- Reference content (encyclopedia entries, drug monographs, specifications)
+- Domain patterns (musical forms, architectural styles, design patterns)
+- Stress test notes, Frontier exploration notes, Seed gap notes
+
+**Categorical Exemptions (<100 words, automatically PASS):**
+- Hub notes (pure navigation) under 200 words
+- Redirect notes
+- Complete short procedural content (can be executed as-is)
+- Technique definitions (name + action + outcome)
+- Notation elements (π, ∞, Σ), abbreviation definitions, theorem statements
+
+**Notes requiring review (no categorical exemption):**
+- Notes <50 words without stub marker → flag for completeness
+- Notes >300 words without exemption → flag for atomicity review
+
+**Original test (for ambiguous cases):** For notes >300 words: (1) Is this an executable procedure? (2) Would splitting make it harder to use? (3) Are parts independently reusable? Do NOT flag if yes to 1-2; flag for potential split only if yes to 3. For notes <100 words: verify it has a stub marker OR is a hub/redirect note OR is complete short procedural content (can be executed as-is).
 **Edge case:** Procedural content (recipes, tutorials, code samples, technical specs, reference tables, legal documents) may legitimately exceed 300 words. Use atomicity test (one idea per note) as the primary check; word count is secondary for procedural formats.
 **Edge case (NEW - stress test 2026-03-20):** Reference content — drug monographs, device specifications, encyclopedia entries, taxonomic classifications, legal instruments — may legitimately exceed 300 words when covering one complete reference unit. The test: (1) Is this a single reference entity? (2) Would splitting make it harder to look up? (3) Are parts not independently reusable? Keep together if yes to 1-2.
 **Edge case (NEW - stress test 2026-03-20):** Domain patterns (musical forms, architectural styles, design patterns, methodological frameworks) are valid atomic units even when exceeding 300 words. These are reusable patterns, not single instances. The test: (1) Is this a reusable pattern rather than a single instance? (2) Does the pattern have multiple components that must be understood together? Keep together if yes.
@@ -3062,6 +3162,8 @@ danger-consequence: "foodborne-illness"
 See also: [[Frontier Exploration - Safety-Critical Knowledge Thresholds]] for detailed exploration of this gap.
 
 See also: [[Frontier Exploration - Bootstrapping Knowledge Bases in Unfamiliar Domains]] for strategies when the AI doesn't understand the topic and how to bootstrap a knowledge base from zero domain knowledge.
+
+See also: [[Seed Refinement - Domain Adaptation Checklist Template]] for a systematic checklist to adapt Seed rules to new domains.
 
 **Rule:** AI-generated content must have at least one spot-verified source before marking as verified.
 **Why:** AI can hallucinate citations that appear real. Spot-verification (opening the URL, confirming the claim exists) prevents false attribution.
@@ -5185,6 +5287,41 @@ examples:
 
 **Distinction:** Acceptable meta-knowledge includes conventions, operational reminders, retrieval paths. Reject meta-knowledge that explains "what knowledge IS" vs. "how to use this vault."
 
+**Rule (NEW - 2026-04-08):** Establish domain adaptation consolidation — when 3+ stress tests in different domains identify the same type of modification, elevate it to a general Seed rule with domain parameters.
+
+**Why:** Domain-specific adaptations appearing repeatedly across unrelated domains represent fundamental rule limitations, not domain differences. Without consolidation guidance, insights stay trapped in individual test notes. A threshold-based mechanism (3+ domains = general rule) ensures only truly universal adaptations become Seed rules while preserving genuinely domain-specific nuances.
+
+**Test:** (1) Can you identify adaptations appearing in 3+ unrelated domains? (2) Do repeated adaptations have corresponding general rules? (3) Is there a tracking mechanism for adaptation-to-rule conversion? (4) Are domain-specific tests archived after consolidation?
+
+**Implementation:**
+```yaml
+adaptation-tracking:
+  track: true
+  consolidation-threshold: 3  # 3+ domains triggers consolidation
+  unrelated-domains-required: true  # must be different domain families
+```
+
+**Consolidation criteria:**
+- Same modification type appears in 3+ **unrelated** domains (not same domain family)
+- Modification addresses a Seed **rule limitation** (not domain-specific content)
+- Proposed rule has **domain parameters** (not one-size-fits-all)
+- Edge cases are documented in the consolidated rule
+
+**Consolidation workflow:**
+1. **Track** adaptations across stress tests (use frontmatter `adaptation-type:`)
+2. **Identify** when 3+ domains show same adaptation type
+3. **Propose** general rule with domain parameters in Seed
+4. **Archive** domain-specific test notes (keep link for reference)
+5. **Update** stress test index to reference consolidated rule
+
+**Keep adaptations domain-specific when:**
+- Modification applies to only one domain family (e.g., all music-related)
+- Domain has fundamentally different knowledge characteristics (safety-critical vs creative)
+- Adaptation is content-specific, not structure-specific
+
+**See also:** [[Seed Refinement - Domain Adaptation Consolidation Framework]] (this note triggered integration)
+**See also:** [[Seed Gap - Domain-Specific Stress Test Consolidation Framework]] (original gap note)
+
 ### Implementation Roadmap
 
 **Week 1 Targets:**
@@ -5796,7 +5933,7 @@ esclation-threshold: 0.8  # confidence threshold for narrowing
 - [[Seed Stress Test - Decision Threshold Rule in Software Architecture]] — Testing decision thresholds in technical domains
 - [[Seed Stress Test - Veterinary Medicine Knowledge Base]] — Testing Seed rules in medical domain
 
-- [[Seed Gap - Functional Threshold for Knowledge Bases]] — Missing: functional readiness test beyond structural metrics — when is a vault actually usable?
+- [[Seed Gap - Functional Threshold for Knowledge Bases]] — ✅ RESOLVED (2026-04-01): Merged into Seed Gap - Knowledge Base Completion Thresholds; MVKB criteria integrated into Seed
 - [[Seed Gap - Multi-Vault Migration Knowledge]] — New gap: migration between vaults, platform transitions, and vault merging
 
 - [[Frontier Exploration - Crisis and Emergency Response Knowledge]] — Handling time-critical, high-stakes knowledge requiring single-view retrieval and panic-optimized formatting

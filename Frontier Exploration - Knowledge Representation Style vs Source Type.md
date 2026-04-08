@@ -5,6 +5,7 @@ author-type: ai-assisted
 knowledge-type: conceptual
 access-pattern: learning
 last-updated: 2026-04-04
+last-reviewed: 2026-04-08
 ---
 
 # Frontier Exploration - Knowledge Representation Style vs Source Type

@@ -1,5 +1,5 @@
 ---
-last-reviewed: 2026-03-21
+last-reviewed: 2026-04-08
 last-updated: 2026-03-21
 lifecycle: seed-extension
 confidence: emerging

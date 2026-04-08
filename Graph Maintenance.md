@@ -64,4 +64,66 @@ Each maintenance cycle:
 - [[Frontier Exploration - Vault Health Automation]]
 - [[Self-Improvement Cycle]]
 - [[Best Practice - Regular Review]] — Weekly Review Process merged here (2026-04-05)
-- [[Advanced Pattern Matching]]
+- [[Advanced Pattern Matching]] — Pattern detection techniques (merged 2026-04-07)
+
+---
+
+## Appendix: Pattern Detection Techniques
+
+> Content merged from [[Advanced Pattern Matching]] (2026-04-07)
+
+Beyond basic health checks (orphans, broken links), advanced pattern detection can reveal:
+- Emerging topic clusters before they become hubs
+- Isolation patterns that indicate gaps
+- Over-linking that dilutes meaning
+- Missing bidirectional connections
+
+### Patterns to Detect
+
+#### 1. Star Patterns
+A note links to many but is linked from few.
+```
+A → B, C, D, E, F
+```
+**Interpretation:** A might be over-connected or acting as a poor hub.
+
+#### 2. Chain Patterns
+Linear sequences without cross-connections.
+```
+A → B → C → D
+```
+**Interpretation:** May indicate missing lateral links.
+
+#### 3. Dense Subgraphs
+Clusters of highly interconnected notes.
+```
+A ↔ B, C ↔ B, A ↔ C
+```
+**Interpretation:** Natural topic cluster or potential redundancy.
+
+#### 4. Bridge Notes
+Notes that connect otherwise separate clusters.
+```
+Cluster 1 — A — Cluster 2
+```
+**Interpretation:** Critical navigation points.
+
+#### 5. Orphan Clusters
+Small groups of 2-3 notes isolated from the main graph.
+**Interpretation:** May indicate a nascent topic or missing links.
+
+### When to Act
+
+| Pattern | Action |
+|---------|--------|
+| Star | Review if links are meaningful |
+| Chain | Add lateral connections |
+| Dense | Consider merging or splitting |
+| Bridge | Ensure bridge is well-linked |
+| Orphan Cluster | Find natural integration point |
+
+### Limitations
+
+- Patterns are not always problems
+- Context matters — some domains have natural chains
+- Human judgment required for nuanced decisions

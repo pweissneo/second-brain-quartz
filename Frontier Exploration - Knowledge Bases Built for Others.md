@@ -1,15 +1,18 @@
 ---
-last-reviewed: 2026-03-20
+last-reviewed: 2026-04-08
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
 verification-status: unverified
-knowledge-type: frontier-exploration
+knowledge-type: conceptual
+access-pattern: learning
 tags:
   - frontier-exploration
   - knowledge-management
   - user-centered-design
   - vault-architecture
+gap-status: identified
+gap-source: manual
 ---
 
 # Frontier Exploration: Knowledge Bases Built for Others
