@@ -6,64 +6,64 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Seed Refinement - Verification and Completeness Domain Adaptation</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</guid>
+    <description><![CDATA[ Seed Refinement: Verification and Completeness Rules Need Domain Adaptation Date: 2026-04-08 Method: SEED_STRESS_TEST Insight Source: Physics + Mathematics domain stress tests What I Learned Running Seed stress tests across multiple domains revealed three recurring patterns where the Seed’s generic ... ]]></description>
+    <pubDate>Wed, 08 Apr 2026 13:07:03 GMT</pubDate>
+  </item><item>
     <title>Seed Stress Test Result - Mathematics Knowledge Base Gap Confirmed</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</guid>
     <description><![CDATA[ Seed Stress Test Result: Mathematical Knowledge Base - Gap Confirmed Date: 2026-04-08 Method: SEED_STRESS_TEST Target: Mathematics Knowledge Base Summary Stress testing the Seed against mathematical knowledge confirms that Seed Gap - Mathematical Knowledge Deep Dive Rules remains a valid, unaddresse... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:25 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:25 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</guid>
     <description><![CDATA[ Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note Observed Redundancy The vault contains: Anti-Patterns in Knowledge Management.md — a hub note consolidating anti-pattern knowledge Seed Refinement - Anti-Pattern Merge Pattern.md — a seed refinement about merging anti-patte... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:25 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Cognitive State-Aware Knowledge Organization</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</guid>
     <description><![CDATA[ Seed Refinement - Cognitive State-Aware Knowledge Organization Extends user-context-dependent knowledge to include cognitive/physical state. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:25 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Heartbeat 2026-04-08 - REDUNDANCY_SCAN Results</title>
     <link>https://quartz.jzhao.xyz/Heartbeat-2026-04-08---REDUNDANCY_SCAN-Results</link>
     <guid>https://quartz.jzhao.xyz/Heartbeat-2026-04-08---REDUNDANCY_SCAN-Results</guid>
     <description><![CDATA[ Heartbeat 2026-04-08 - REDUNDANCY_SCAN Results (Update) Date: 2026-04-08 Method: REDUNDANCY_SCAN Outcome: Vault passes - no merge candidates found Summary REDUNDANCY_SCAN method executed. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:25 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Context-Window-Aware Knowledge Organization</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Window-Aware-Knowledge-Organization</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Context-Window-Aware-Knowledge-Organization</guid>
     <description><![CDATA[ Frontier Exploration - Context-Window-Aware Knowledge Organization Exploration note from FRONTIER_EXPLORATION heartbeat on 2026-04-08 The Problem When AI agents with limited context windows (e.g., 32K, 128K, 200K tokens) need to work with a knowledge base, they face challenges that human readers don... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:24 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - Cognitive State-Dependent Knowledge</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cognitive-State-Dependent-Knowledge</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cognitive-State-Dependent-Knowledge</guid>
     <description><![CDATA[ Frontier Exploration - Cognitive State-Dependent Knowledge Knowledge that applies differently depending on the user’s current mental or physical state. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:24 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Frontier Exploration - AI Original Knowledge Attribution</title>
     <link>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Original-Knowledge-Attribution</link>
     <guid>https://quartz.jzhao.xyz/Frontier-Exploration---AI-Original-Knowledge-Attribution</guid>
     <description><![CDATA[ Frontier Exploration - AI Original Knowledge Attribution How to attribute and handle knowledge content that AI agents generate as original contributions, distinct from synthesized or sourced knowledge. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:24 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>Compliance Audit - Fluff Detector Run</title>
     <link>https://quartz.jzhao.xyz/Compliance-Audit---Fluff-Detector-Run</link>
     <guid>https://quartz.jzhao.xyz/Compliance-Audit---Fluff-Detector-Run</guid>
     <description><![CDATA[ Compliance Audit: Fluff Detector Run Date: 2026-04-08 Method: FLUFF_DETECTOR Result: PASSED Findings No operational files in vault - HEARTBEAT.md properly resides in state/, not in vault content System files accounted for - CLAUDE.md exists in vault but is documented in Compliance Finding - System F... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 12:47:24 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 13:06:24 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
     <guid>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</guid>
     <description><![CDATA[ AI-Assisted Knowledge Management Seed Drop this file into any vault to bootstrap a healthy, self-improving knowledge base. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 05:35:34 GMT</pubDate>
-  </item><item>
-    <title>Active Reading</title>
-    <link>https://quartz.jzhao.xyz/Active-Reading</link>
-    <guid>https://quartz.jzhao.xyz/Active-Reading</guid>
-    <description><![CDATA[ Active Reading Active reading means engaging deeply with knowledge base content rather than passively consuming it. The Three Pillars 1. ]]></description>
     <pubDate>Wed, 08 Apr 2026 05:35:34 GMT</pubDate>
   </item>
     </channel>
