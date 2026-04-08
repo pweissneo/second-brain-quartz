@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Structural-Health---Graph-Connectivity</link>
     <guid>https://quartz.jzhao.xyz/Structural-Health---Graph-Connectivity</guid>
     <description><![CDATA[ Structural Health - Graph Connectivity Documented structural issues found during STRUCTURAL_HEALTH check Current State (2026-04-08) MetricValueTotal Notes320+Notes linking to Seed353Isolated (&lt;3 links)0Notes unreachable from _rootMinimal (Seed-related notes expected) Updated Findings 1. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test Result - Mathematics Knowledge Base Gap Confirmed</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</guid>
     <description><![CDATA[ Seed Stress Test Result: Mathematical Knowledge Base - Gap Confirmed Date: 2026-04-08 Method: SEED_STRESS_TEST Target: Mathematics Knowledge Base Summary Stress testing the Seed against mathematical knowledge confirms that Seed Gap - Mathematical Knowledge Deep Dive Rules remains a valid, unaddresse... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test Result - Cooking Knowledge Base</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Cooking-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Cooking-Knowledge-Base</guid>
     <description><![CDATA[ Seed Stress Test: Cooking Knowledge Base Result of applying Seed rules to a cooking knowledge base domain Domain: Cooking Applied the following Seed rules to a hypothetical cooking knowledge base (200+ notes): Note atomicity rules Knowledge type taxonomy Verification and completeness rules Access pa... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification and Completeness Domain Adaptation</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</guid>
     <description><![CDATA[ Seed Refinement: Verification and Completeness Rules Need Domain Adaptation Date: 2026-04-08 Method: SEED_STRESS_TEST Insight Source: Physics + Mathematics domain stress tests What I Learned Running Seed stress tests across multiple domains revealed three recurring patterns where the Seed’s generic ... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</guid>
     <description><![CDATA[ Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note Observed Redundancy The vault contains: Anti-Patterns in Knowledge Management.md — a hub note consolidating anti-pattern knowledge Seed Refinement - Anti-Pattern Merge Pattern.md — a seed refinement about merging anti-patte... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Safety Type Distinction for Verification Priority</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Safety-Type-Distinction-for-Verification-Priority</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Safety-Type-Distinction-for-Verification-Priority</guid>
+    <description><![CDATA[ Seed Refinement: Safety Type Distinction in Verification Priority Rule Add safety-type frontmatter field to distinguish between different categories of safety knowledge, each with different verification priority levels and timeframes. ]]></description>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Multi-Priority Tag Handling</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Priority-Tag-Handling</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Multi-Priority-Tag-Handling</guid>
+    <description><![CDATA[ Seed Refinement: Multi-Priority Tag Handling Rule When a note spans multiple verification priority levels, default to the highest priority level for verification purposes. ]]></description>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Mathematical Knowledge Deep Dive Rules Integration</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Mathematical-Knowledge-Deep-Dive-Rules-Integration</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Mathematical-Knowledge-Deep-Dive-Rules-Integration</guid>
     <description><![CDATA[ Seed Refinement - Mathematical Knowledge Deep Dive Rules Integration Refinement to integrate mathematical domain knowledge handling into the Seed Source Gap Seed Gap - Mathematical Knowledge Deep Dive Rules — identified gap for mathematical proof handling Proposed Seed Addition Add to Section 2 (Ato... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Knowledge Graph Retrieval Optimization</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Graph-Retrieval-Optimization</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Knowledge-Graph-Retrieval-Optimization</guid>
     <description><![CDATA[ Seed Refinement - Knowledge Graph Retrieval Optimization Date: 2026-04-08 Method: REDUNDANCY_SCAN (gap convergence detection) Discovery: Gap identified independently by both frontier exploration (2026-04-06) and compliance audit (2026-04-08) Summary The Seed includes guidance on storage optimization... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Cognitive State-Aware Knowledge Organization</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</guid>
     <description><![CDATA[ Seed Refinement - Cognitive State-Aware Knowledge Organization Extends user-context-dependent knowledge to include cognitive/physical state. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
-  </item><item>
-    <title>Seed Gap - Knowledge Base Voice and Persona Consistency</title>
-    <link>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Voice-and-Persona-Consistency</link>
-    <guid>https://quartz.jzhao.xyz/Seed-Gap---Knowledge-Base-Voice-and-Persona-Consistency</guid>
-    <description><![CDATA[ Seed Gap - Knowledge Base Voice and Persona Consistency Context The Seed addresses knowledge organization, verification, and structural patterns — but lacks explicit rules for how a knowledge base should present itself. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
-  </item><item>
-    <title>Heartbeat 2026-04-08 - REDUNDANCY_SCAN</title>
-    <link>https://quartz.jzhao.xyz/Heartbeat-2026-04-08---REDUNDANCY_SCAN</link>
-    <guid>https://quartz.jzhao.xyz/Heartbeat-2026-04-08---REDUNDANCY_SCAN</guid>
-    <description><![CDATA[ Heartbeat 2026-04-08 - REDUNDANCY_SCAN (Second Pass) Method: REDUNDANCY_SCAN Vault: ai-assisted-knowledge-management-vault Date: 2026-04-08 19:50 UTC Status: PASSED - No merge candidates found Scan Results Anti-Pattern ↔ Best Practice Pairs All pairs already consolidated in Anti-Patterns in Knowledg... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 18:43:10 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 18:51:12 GMT</pubDate>
   </item>
     </channel>
   </rss>
