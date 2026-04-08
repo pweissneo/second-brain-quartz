@@ -10,7 +10,19 @@
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</guid>
     <description><![CDATA[ Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note Observed Redundancy The vault contains: Anti-Patterns in Knowledge Management.md — a hub note consolidating anti-pattern knowledge Seed Refinement - Anti-Pattern Merge Pattern.md — a seed refinement about merging anti-patte... ]]></description>
-    <pubDate>Wed, 08 Apr 2026 06:12:25 GMT</pubDate>
+    <pubDate>Wed, 08 Apr 2026 07:53:03 GMT</pubDate>
+  </item><item>
+    <title>Seed Refinement - Cognitive State-Aware Knowledge Organization</title>
+    <link>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</link>
+    <guid>https://quartz.jzhao.xyz/Seed-Refinement---Cognitive-State-Aware-Knowledge-Organization</guid>
+    <description><![CDATA[ Seed Refinement - Cognitive State-Aware Knowledge Organization Extends user-context-dependent knowledge to include cognitive/physical state. ]]></description>
+    <pubDate>Wed, 08 Apr 2026 07:53:03 GMT</pubDate>
+  </item><item>
+    <title>Frontier Exploration - Cognitive State-Dependent Knowledge</title>
+    <link>https://quartz.jzhao.xyz/Frontier-Exploration---Cognitive-State-Dependent-Knowledge</link>
+    <guid>https://quartz.jzhao.xyz/Frontier-Exploration---Cognitive-State-Dependent-Knowledge</guid>
+    <description><![CDATA[ Frontier Exploration - Cognitive State-Dependent Knowledge Knowledge that applies differently depending on the user’s current mental or physical state. ]]></description>
+    <pubDate>Wed, 08 Apr 2026 07:53:02 GMT</pubDate>
   </item><item>
     <title>AI-Assisted Knowledge Management Seed</title>
     <link>https://quartz.jzhao.xyz/AI-Assisted-Knowledge-Management-Seed</link>
@@ -52,18 +64,6 @@
     <link>https://quartz.jzhao.xyz/Best-Practice---Multi-Path-Knowledge-Discovery</link>
     <guid>https://quartz.jzhao.xyz/Best-Practice---Multi-Path-Knowledge-Discovery</guid>
     <description><![CDATA[ knowledge-type: meta Best Practice - Multi-Path Knowledge Discovery For every note, ensure at least 3 distinct pathways to discovery: search, backlink traversal, and tag filtering. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 05:35:34 GMT</pubDate>
-  </item><item>
-    <title>Best Practice - Multi-Source Synthesis</title>
-    <link>https://quartz.jzhao.xyz/Best-Practice---Multi-Source-Synthesis</link>
-    <guid>https://quartz.jzhao.xyz/Best-Practice---Multi-Source-Synthesis</guid>
-    <description><![CDATA[ knowledge-type: meta Best Practice - Multi-Source Synthesis Synthesize across sources, don’t depend on one. Your synthesis is the value. ]]></description>
-    <pubDate>Wed, 08 Apr 2026 05:35:34 GMT</pubDate>
-  </item><item>
-    <title>Best Practice - Outcome Over Tool</title>
-    <link>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</link>
-    <guid>https://quartz.jzhao.xyz/Best-Practice---Outcome-Over-Tool</guid>
-    <description><![CDATA[ Best Practice - Outcome Over Tool The tool serves the goal, not the reverse. Focus on what you achieve, not what you use. ]]></description>
     <pubDate>Wed, 08 Apr 2026 05:35:34 GMT</pubDate>
   </item>
     </channel>
