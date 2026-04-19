@@ -1,9 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-01
 lifecycle: merged
 confidence: high
-author-type: ai-assisted
-knowledge-type: seed-refinement
 gap-resolution: 2026-04-01 - Merged into Seed as verification priority cooking edge case
 tags:
   - seed-refinement
