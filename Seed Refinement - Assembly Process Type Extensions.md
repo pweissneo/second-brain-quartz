@@ -1,17 +1,19 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-03-28
 last-updated: 2026-03-28
 lifecycle: staging
 confidence: emerging
-author-type: ai-assisted
-knowledge-type: procedural
 tags:
   - seed-refinement
   - process-type
   - assembly
   - home-repair
   - extensions
-schema-version: "1.0"
 ---
 
 # Seed Refinement: Assembly Process Type Extensions for Safety-Critical Domains

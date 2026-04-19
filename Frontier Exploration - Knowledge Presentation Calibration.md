@@ -1,4 +1,5 @@
 ---
+title: Knowledge Presentation Calibration
 last-reviewed: 2026-03-25
 last-updated: 2026-03-25
 confidence: emerging
@@ -6,6 +7,7 @@ author-type: ai-assisted
 lifecycle: evergreen
 level: frontier-exploration
 verification-status: unverified
+knowledge-type: meta
 tags:
   - frontier-exploration
   - knowledge-presentation

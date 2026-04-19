@@ -10,6 +10,7 @@ verification-status: verified
 level: principle
 thinking-tool: true
 thinking-tool-type: cognitive-strategy
+access-pattern: learning
 tags:
   - methodology
   - strategy

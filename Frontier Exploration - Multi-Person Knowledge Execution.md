@@ -1,4 +1,5 @@
 ---
+last-reviewed: 2026-03-31
 author-type: ai-assisted
 lifecycle: archived
 confidence: low

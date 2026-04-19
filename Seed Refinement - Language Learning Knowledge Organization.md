@@ -1,174 +1,159 @@
 ---
-last-reviewed: 2026-04-06
-last-updated: 2026-04-06
-lifecycle: seed-refinement
+last-reviewed: 2026-04-09
+lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
-gap-status: integrated
-gap-priority: high
-gap-source: frontier-exploration
-discovered: 2026-04-04
-resolved: 2026-04-06
-resolved-by: [[Seed Refinement - Language Learning Knowledge Organization]]
 tags:
   - seed-refinement
   - language-learning
   - progression-aware
   - multi-modal
-  - vocabulary
-knowledge-type: meta
-source-gap: Seed Gap - Language Learning Knowledge Base Organization.md
+  - knowledge-organization
+schema-version: "1.0"
 ---
 
-# Seed Refinement - Language Learning Knowledge Organization
+# Seed Refinement: Language Learning Knowledge Organization
 
-> Integration from Seed Gap - Language Learning Knowledge Base Organization (identified → integrated)
+> Integrating findings from [[Frontier Exploration - Language Learning Knowledge Base Gaps]]
 
-## Background
+## The Gap
 
-This Seed Refinement addresses gaps in organizing language learning knowledge bases — a domain with unique characteristics not fully covered by existing Seed rules.
+The Seed provides limited guidance for language learning as a knowledge domain. While there are mentions of sequential-skill domains and multilingual handling, the unique challenges of language learning are not fully addressed.
 
-**Original gap analysis (2026-04-04):**
-- Progression-Aware Knowledge Organization: NOT fully covered
-- Multi-Modal Verification Requirements: NOT fully covered
-- Context-Register Vocabulary Management: NOT fully covered
-- Immersive vs. Structured Methodology Alignment: NOT fully covered
+## Proposed Integration
 
-**Existing Seed coverage:**
-- Lines ~429: Sequential-skill domain edge case (language learning needs 75-100 notes in skeleton phase)
-- Lines ~1858-1893: Multi-language vault conventions (translation relationships, cognitive models)
-- Line ~4385: Multi-modal domain edge case (provide text summaries alongside media)
+### New Rule: Progression-Aware Knowledge Organization
 
-## Integrated Rules
+**Rule (NEW):** For language learning knowledge bases, organize notes by learner competency state and include explicit progression metadata.
 
-### Rule 1: Progression-Aware Knowledge Organization
-
-**Rule (NEW - 2026-04-06):** For language learning vaults, structure knowledge by learner competency level and create content variants when explanations significantly differ across levels.
-
-**Why:** A grammar explanation optimal for beginners may confuse advanced learners. Without progression-aware organization, vaults provide inconsistent value across learner stages. The Seed's atomicity rule assumes notes are complete, standalone ideas — but language learning notes may need state-dependent variants.
-
-**Test:**
-1. Can you identify which notes have content that differs significantly across proficiency levels?
-2. Are there entry-point notes for complete beginners (assume zero prior knowledge)?
-3. Can learners find appropriately-leveled explanations for their current stage?
-4. Do milestone notes define what competence looks like at each stage?
+**Why:** Language learning knowledge applies differently at different proficiency levels. A grammar explanation appropriate for beginners may confuse advanced learners, and vice versa. Without progression awareness, notes become bloated with attempts to serve all levels or serve none well.
 
 **Implementation:**
 ```yaml
+progression-state: novice|intermediate|advanced|fluent
 progression-aware: true
-competency-levels:
-  novice: A1-A2
-  intermediate: B1-B2  
-  advanced: C1-C2
-content-variant: primary-level-this-note-applies-to
-entry-point: true  # for beginner-friendly notes
-milestone: true  # for progress marker notes
-exit-criteria: "What basic competence looks like"
+progression-metadata:
+  target-level: intermediate
+  prerequisites: ["Basic vocabulary (100 words)", "Pronunciation basics"]
+  enables: ["Reading simple texts", "Basic conversation"]
 ```
 
-**Entry point requirements:**
-- Assume zero prior knowledge
-- Define prerequisites explicitly
-- Include self-assessment criteria
-- Link to first milestone
+**When to apply:** Notes about grammar, vocabulary usage, cultural concepts, or learning strategies where explanation depth depends on learner level.
 
-**Milestone design:**
-- What the learner can do after completing
-- Links to prerequisite milestones
-- Progress indicators
+**Test:** (1) Does the note specify which proficiency level it serves? (2) Are prerequisites appropriate for that level? (3) Does the note avoid serving multiple levels in a way that confuses each?
 
-### Rule 2: Multi-Modal Verification by Skill Type
-
-**Rule (NEW - 2026-04-06):** For language learning knowledge, verify each skill type through appropriate modality — reading through text, listening through audio, speaking through production, writing through output.
-
-**Why:** Language skills require different verification modes. Text-based verification cannot confirm speaking ability. The Seed's verification rules assume source-based verification but language skills require execution-based verification.
-
-**Test:**
-1. Can you identify which verification modality applies to each knowledge note?
-2. Are pronunciation notes tagged for audio verification?
-3. Are speaking notes tagged for production verification?
-4. Is there a framework for verifying receptive (passive) vs. productive (active) skills?
-
-**Implementation:**
-```yaml
-skill-modality: listening|speaking|reading|writing
-verification-mode: production|receptive|comprehension
-active-passive: active|passive|both
-verification-approach: empirical  # requires practice, not just source check
-```
-
-### Rule 3: Context-Register Vocabulary Organization
-
-**Rule (NEW - 2026-04-06):** For vocabulary notes with context-dependent meanings, include explicit register, dialect, and formality metadata. Track active (can produce) vs. passive (can recognize) separately.
-
-**Why:** "Fuck" in British English differs from American English; "you" differs in formal vs. informal contexts. Without register tracking, vocabulary notes provide incomplete guidance. The Seed's general terminology rules don't address the specific challenges of context-dependent vocabulary.
-
-**Test:**
-1. Can you filter vocabulary by register (formal, informal, slang, dialect)?
-2. Is there explicit tracking for active vs. passive vocabulary?
-3. Do context-dependent terms include scope metadata?
-4. Can you answer "what's the formal/informal variant for this word?"
-
-**Implementation:**
-```yaml
-vocabulary-type: lexical|grammatical|pronunciation|idiomatic
-register: formal|informal|slang|dialect|archaic
-dialect: american|british|au|canadian|etc
-active-vocabulary: true|false
-passive-vocabulary: true|false
-register-note: "When to use this variant"
-```
-
-### Rule 4: Methodology-Aligned Organization
-
-**Rule (NEW - 2026-04-06):** For language learning vaults, align knowledge organization with primary learning methodology — immersion-focused vaults favor native-content structure, structured-focused vaults favor textbook-aligned structure.
-
-**Why:** Immersion learners navigate differently than textbook users. The same vocabulary is organized differently in frequency-based (immersion) vs. curriculum-based (textbook) approaches. The Seed's general organization rules don't account for this methodological difference.
-
-**Test:**
-1. Is the vault's learning methodology explicit (immersion, structured, hybrid)?
-2. Does vocabulary organization align with the stated methodology?
-3. Can users filter content by their learning approach?
-4. Are there entry points appropriate for the methodology?
-
-**Implementation:**
-```yaml
-learning-methodology: immersion|structured|hybrid
-content-alignment: frequency-based|curriculum-based|topic-based
-entry-point-type: native-content|textbook-aligned|mixed
-```
-
-## Edge Cases
-
-### Heritage learners
-Different entry point than complete beginners — may skip foundation content but need cultural context
-
-### Multi-language vaults (L1 influence)
-Handling L1 (first language) influence — positive and negative transfer notes
-
-### Dead languages
-Different verification (no speaking partner) — rely on written records and scholarly consensus
-
-### Writing systems
-Scripts differ fundamentally from alphabets — may need separate progression tracks
-
-## Gap Resolution Status
-
-✓ NEW: Progression-aware knowledge organization added
-✓ NEW: Multi-modal verification by skill type added  
-✓ NEW: Context-register vocabulary organization added
-✓ NEW: Methodology-aligned organization added
-
-## Related Seed Rules
-
-- [[Seed Gap - Language Learning Knowledge Base Organization]] (source gap)
-- [[Frontier Exploration - Language Learning Knowledge Base Gaps]] (comprehensive analysis)
-- [[Frontier Exploration - Language Learning Vocabulary Organization]] (vocabulary-specific)
-- [[Seed Stress Test - Expertise Level Rule in Foreign Language Learning]] (stress test)
-- [[Seed Stress Test - Knowledge Type Taxonomy in Language Learning]] (knowledge type application)
-- [[Seed Refinement - Learning Progression Organization]] (related, integrated 2026-04-03)
-- [[AI-Assisted Knowledge Management Seed]] (lines ~1858-1893): Multi-language vault conventions
+**Edge case:** Some knowledge is level-agnostic (historical facts about the language, cultural facts). Tag these with `progression-agnostic: true`.
 
 ---
 
-*Refinement note created during FRONTIER_EXPLORATION heartbeat (2026-04-06)*
+### New Rule: Multi-Modal Knowledge Type Handling
+
+**Rule (NEW):** Distinguish language learning knowledge by skill modality — reading, writing, speaking, listening require different knowledge types and verification approaches.
+
+**Why:** A note about pronunciation differs fundamentally from one about written grammar. Speaking ability cannot be verified by reading alone. Treating all language knowledge as equivalent loses critical distinctions.
+
+**Implementation:**
+```yaml
+language-skill-modality: reading|writing|speaking|listening|integrated
+verification-mode: passive|practice-required|embodied
+# speaking/listening require embodied verification
+# reading/writing can use passive verification
+```
+
+**Test:** (1) Is each language note tagged with its primary modality? (2) Does verification-mode match the modality requirements? (3) Can you identify which notes require practice/embodied verification?
+
+---
+
+### New Rule: Context-Register Vocabulary Management
+
+**Rule (NEW):** For vocabulary knowledge with context-dependent meanings, use register-specific variants and explicit context framing.
+
+**Why:** Word meanings shift dramatically by register (formal vs. informal), dialect, and context. The same term means different things in different situations. Notes that try to capture all meanings in one place become bloated.
+
+**Implementation:**
+```yaml
+vocabulary-context: formal|informal|technical|colloquial|archaic|regional
+register-variants:
+  - form: "word"
+    context: formal
+    example: "In business writing..."
+  - form: "word"
+    context: informal  
+    example: "In casual conversation..."
+```
+
+**Test:** (1) For context-dependent vocabulary, are register variants documented? (2) Can users find the variant appropriate for their context? (3) Are examples provided for each register?
+
+---
+
+### New Rule: Active vs. Passive Knowledge Distinction
+
+**Rule (NEW):** Track language knowledge by activation level — passive (recognition) vs. active (production) knowledge requires different verification.
+
+**Why:** Knowing a word passively (can recognize in context) vs. actively (can use in speech/writing) are different knowledge types. A vault that only tests recognition cannot verify active production ability.
+
+**Implementation:**
+```yaml
+activation-level: passive|active|both
+passive-tests: ["recognition quizzes", "reading comprehension"]
+active-tests: ["production exercises", "speaking tests", "writing tasks"]
+```
+
+**Test:** (1) Is each vocabulary/grammar note tagged with activation level? (2) Can you verify active knowledge through appropriate testing? (3) Are verification approaches aligned with activation goals?
+
+---
+
+### New Rule: Cross-Language Transfer Knowledge
+
+**Rule (NEW):** For multilingual learners, document transfer knowledge — how learning one language affects another (positive/negative transfer).
+
+**Why:** Learning a second language affects (helps or hinders) third language acquisition. This transfer knowledge is unique to the individual and highly valuable for optimizing learning paths.
+
+**Implementation:**
+```yaml
+transfer-type: positive|negative|neutral
+transfer-from: [language]
+transfer-to: [language]
+transfer-mechanism: "grammatical similarity|vocabulary overlap|phonological interference"
+```
+
+**Test:** (1) For multilingual notes, is transfer impact documented? (2) Can you identify positive vs. negative transfer patterns? (3) Does transfer knowledge inform learning recommendations?
+
+---
+
+### New Rule: Immersive vs. Structured Methodology Alignment
+
+**Rule (NEW):** Align note organization with the learner's methodology — immersive (native content) vs. structured (textbooks, apps) approaches require different knowledge structures.
+
+**Why:** Immersive learners need contentorganized by topic/interest, while structured learners need content organized by textbook chapter/level. The same language knowledge is organized differently.
+
+**Implementation:**
+```yaml
+learning-methodology: immersive|structured|hybrid
+content-organization: by-topic|by-skill-level|by-context
+alignment-note: "Methodology determines structure, not content"
+```
+
+**Test:** (1) Is the learning methodology defined for the vault? (2) Does note organization align with stated methodology? (3) For hybrid approaches, are both structures accommodated?
+
+---
+
+## Unified Test for Language Learning Vaults
+
+For a language learning knowledge base:
+1. Do notes include progression-state metadata?
+2. Is language-skill-modality distinguished (reading/writing/speaking/listening)?
+3. For vocabulary with context-dependent meanings, are register variants documented?
+4. Is activation level tracked (passive vs. active)?
+5. Is cross-language transfer documented for multilingual learners?
+6. Does organization align with stated learning methodology?
+
+## Implementation Note
+
+These rules should be referenced in the Seed under domain-specific knowledge base guidance, with cross-references to this note for language learning implementation.
+
+## Related
+- [[Frontier Exploration - Language Learning Knowledge Base Gaps]] — Source of refinements
+- [[Frontier Exploration - Language Learning Vocabulary Organization]] — Related
+- [[Seed Gap - Multi-Language Knowledge Bases]] — Related
+- [[Frontier Exploration - Expertise-Level Dependent Knowledge]] — Partial overlap

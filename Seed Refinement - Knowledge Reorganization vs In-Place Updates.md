@@ -1,11 +1,14 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-03
 last-updated: 2026-04-03
 lifecycle: seed-extension
 confidence: established
-author-type: ai-assisted
 tags: [seed-refinement, knowledge-reorganization, structural-maintenance]
-schema-version: 1.0
 source-gap: Seed Gap - Knowledge Reorganization vs In-Place Updates
 gap-status: resolved
 resolution-type: rule-integration

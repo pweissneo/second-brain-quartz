@@ -1,18 +1,20 @@
 ---
-last-reviewed: 2026-03-27
-lifecycle: seed-rule-proposal
-confidence: emerging
-author-type: ai-assisted
-knowledge-type: structural
-gap-status: proposed
-gap-priority: medium
-gap-phase: analysis
-gap-type: seed-missing
-gap-source: compliance-audit
-discovered: 2026-03-29
+last-reviewed: 2026-04-09
+lifecycle: redirect
+redirect: true
+redirect-target: Voice and Persona Consistency - Consolidated
+tags:
+  - redirect
+  - voice-consistency
+  - consolidated
+---
+
+# Redirect
+
+This proposal has been superseded by the integrated Seed rule. See [[Voice and Persona Consistency - Consolidated]] for the consolidated exploration.
 related:
   - "[[AI-Assisted Knowledge Management Seed]]"
-  - "[[Frontier Exploration - Knowledge Base Persona and Voice Consistency]]"
+  - "[[Frontier Exploration - Knowledge Base Voice and Persona Consistency]]"
 tags:
   - seed-rule-proposal
   - voice-consistency
@@ -62,6 +64,6 @@ This proposal was identified through **compliance audit** — the Seed currently
 
 ## Related
 
-- [[Frontier Exploration - Knowledge Base Persona and Voice Consistency]]
+- [[Frontier Exploration - Knowledge Base Voice and Persona Consistency]]
 - [[AI-Assisted Knowledge Management Seed]]
 - [[Schema]]

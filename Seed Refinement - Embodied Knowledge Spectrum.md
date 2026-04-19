@@ -1,9 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-05
 lifecycle: emerging
 confidence: medium
-author-type: ai-assisted
-verification-status: unverified
 tags:
   - seed-refinement
   - embodied-knowledge

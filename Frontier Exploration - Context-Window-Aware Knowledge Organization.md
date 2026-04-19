@@ -1,152 +1,103 @@
 ---
 last-reviewed: 2026-04-08
 last-updated: 2026-04-08
-lifecycle: emerging
 confidence: emerging
 author-type: ai-assisted
-tags:
-  - frontier-exploration
-  - context-window
-  - ai-optimization
-  - chunking
-  - retrieval
+tags: [frontier-exploration, context-window, token-budget, retrieval-optimization, ai-optimization]
 ---
 
 # Frontier Exploration - Context-Window-Aware Knowledge Organization
 
-> Exploration note from FRONTIER_EXPLORATION heartbeat on 2026-04-08
+> How should knowledge be structured for AI agents with limited context windows? What rules help maximize useful retrieval within token budgets?
 
 ## The Problem
 
-When AI agents with limited context windows (e.g., 32K, 128K, 200K tokens) need to work with a knowledge base, they face challenges that human readers don't:
+Modern AI models have finite context windows (4K to 128K tokens). When building knowledge bases for AI-assisted retrieval, the question becomes: **how should knowledge be structured so that the most useful pieces fit within available context?**
 
-1. **Token budget constraints** — Can't load entire vaults; must prioritize what to include
-2. **Chunking decisions** — What makes a "good chunk" for AI retrieval vs. human readability?
-3. **Hierarchical summarization** — Need multi-level summaries (high-level → detailed → source)
-4. **Context-dependent relevance** — Same knowledge chunk may be relevant or irrelevant depending on current task
+This differs from human navigation (where we click through links) and from traditional search (where we retrieve single answers). In AI-assisted retrieval:
+- The vault passes context to the AI
+- The AI reasons over all provided context simultaneously
+- Token budget constrains how much can be passed
+- Better structure = better reasoning within budget
 
-The Seed has rules for atomic notes, linking, and graph structure — but assumes infinite human attention, not token-constrained AI processing.
+## What's Missing from the Seed
 
-## Where Current Rules Fail
+The Seed covers:
+- Atomicity (one idea per note)
+- Linking (meaningful connections)
+- Navigation (traversal paths)
+- Access patterns (lookup vs learning vs decision)
 
-### Example: Large Vault Retrieval
+But it lacks guidance on:
+- **Context budget optimization** — how to structure for limited token budgets
+- **Priority tiering for context** — what's essential vs supplementary vs referencable
+- **Retrieval unit sizing** — how large should each retrieval chunk be?
+- **Cross-reference compression** — when to inline vs link vs summarize
 
-**Scenario:** An AI agent with 32K context window needs to answer a question about "software architecture patterns." The vault has 500 notes on architecture with deep interconnections.
+## Key Questions to Explore
 
-**Current Seed approach:**
-- Notes should be atomic (~100-300 words)
-- Each note should have 2+ outgoing links
-- Knowledge types should be explicit
+1. **Retrieval unit sizing**: Given a 32K context window, what's the optimal note size for retrieval? Too small = many notes needed. Too large = limited diversity.
 
-**AI context problem:**
-- To get full context, the agent might need to traverse 20+ notes = 4000+ words just for background
-- Graph traversal becomes expensive in tokens
-- Must choose between shallow breadth or deep depth — both suboptimal
+2. **Essential vs supplementary**: For any piece of knowledge, what's the minimum viable context to understand it, and what's deferrable to follow-up?
 
-### Example: Cross-Domain Synthesis
+3. **Compression vs inline**: When should knowledge be inlined into higher-level notes vs kept separate with links?
 
-**Scenario:** A question requires synthesizing knowledge from three different domains (e.g., "how does musical rhythm theory apply to dance choreography and beat detection in audio engineering?")
+4. **Priority ordering**: What determines what gets included in the first retrieval pass vs later passes?
 
-**Current Seed approach:**
-- Cross-domain links are encouraged
-- Knowledge types distinguish different domains
+## Hypotheses to Test
 
-**AI context problem:**
-- Each domain may have its own vocabulary and conventions
-- Synthesizing requires loading vocabulary notes from each domain
-- Token budget exhausted before synthesis can happen
+- **Hypothesis 1**: Retrieval-optimized notes should aim for 200-400 words (fits in ~50-100 tokens of context + reasoning room)
+- **Hypothesis 2**: Every important note should have a one-sentence "summary" variant for quick inclusion
+- **Hypothesis 3**: Hub notes should be smaller (<150 words) since they're navigation, not knowledge
+- **Hypothesis 4**: Cross-references should be compressible: `[[Note Name]]` rather than full description
 
-## Potential Seed Rules
+## Test Scenarios
 
-### Rule: Context-Window-Optimized Summaries
+### Test 1: Medical knowledge base
+- Context window: 16K tokens
+- Query: "patient presents with chest pain, what do I need?"
+- Test: Can relevant knowledge fit? What's the minimum viable set?
 
-**Proposed Rule:** Each hub note and high-connectivity node should have a one-paragraph summary (<100 words) that captures the essence for context-limited retrieval.
+### Test 2: Cooking recipe retrieval
+- Context window: 8K tokens  
+- Query: "explain sous-vide chicken breast"
+- Test: Can technique + timing + temp all fit with room for AI reasoning?
 
-**Why:** AI agents can quickly determine relevance by reading summaries without loading full note chains. Human readers also benefit from quick overviews.
+### Test 3: Troubleshooting tree
+- Context window: 12K tokens
+- Query: "network connectivity issue"
+- Test: Can diagnostic tree fit with decision context?
 
-**Test:** 
-1. Can you understand a note's relevance from its summary alone?
-2. Are hub notes' summaries <100 words?
-3. Do summaries explicitly link to the key concepts?
+## Edge Cases to Map
 
-### Rule: Tiered Context Layers
+- **Dense domains** (medicine, law): High information density per concept
+- **Sparse domains** (philosophy, creative): Lower density, more context needed for reasoning
+- **Multi-step procedures**: Sequential knowledge that needs full chain
+- **Prerequisite chains**: What must precede what
 
-**Proposed Rule:** Structure knowledge in explicit tiers:
-- **Tier 1 (metadata):** Title, one-liner, key links (<50 tokens)
-- **Tier 2 (summary):** Concise explanation, key decisions, prerequisites (100-200 tokens)
-- **Tier 3 (full):** Complete note content
+## Implementation Sketch
 
-**Why:** AI agents can load just Tier 1 for broad relevance checking, Tier 2 for decision-making, and Tier 3 only when deep understanding needed.
-
-**Test:**
-1. Do high-value notes have explicit tier structures?
-2. Can you determine relevance at Tier 1?
-3. Is Tier 2 sufficient for most decisions?
-
-### Rule: Context-Expensive Patterns
-
-**Proposed Rule:** Flag and document patterns that are "expensive" in context terms:
-- Heavy prerequisite chains (>5 deep)
-- Cross-domain references requiring vocabulary loading
-- Verification chains requiring source documents
-
-**Why:** Some knowledge structures are beautiful for humans but costly for AI. Making this explicit helps prioritize simplification.
-
-**Test:**
-1. Can you identify the most context-expensive note chains?
-2. Are there simplified entry points for common queries?
-3. Do expensive chains have summarization alternatives?
-
-### Rule: Retrieval-Optimized Entry Points
-
-**Proposed Rule:** Create explicit entry points for common query patterns — each entry point should be self-contained enough to answer frequent questions without extensive graph traversal.
-
-**Why:** Instead of forcing AI to traverse the graph, provide pre-packaged answers to common questions.
-
-**Test:**
-1. Can frequent questions be answered from entry points alone?
-2. Are entry points documented in a registry?
-3. Do entry points link to deeper content for edge cases?
-
-## Domains Where This Matters Most
-
-- **Large vaults (>500 notes)** — Context management becomes critical
-- **Cross-domain vaults** — Multiple vocabularies compete for context
-- **Highly interconnected knowledge** — Graph depth amplifies token costs
-- **Automated AI agents** — Heartbeat/cron agents operate with tight budgets
-
-## Implementation Ideas
-
+Frontmatter for context-window optimization:
 ```yaml
-context-tier:
-  level: 1  # 1 = metadata, 2 = summary, 3 = full
-  summary: "One-paragraph summary for Tier 2"
-  one-liner: "One-sentence for Tier 1"
-context-cost: low|medium|high  # estimated tokens to fully understand
-entry-point-for:
-  - query-pattern: "how do I X"
-  - query-pattern: "what is X"
+context-optimized: true
+context-tier: essential|supplemental|reference
+context-summary: "One-sentence summary for quick inclusion"
+context-size-notes: 250  # approximate tokens when included
+requires-context-tier: essential  # minimum tier for usefulness
 ```
+
+## Related Seed Rules
+
+- [[Frontier Exploration - Knowledge Graph Query Optimization]] — addresses related retrieval questions
+- [[Frontier Exploration - Context-Switch Validity]] — context dependencies
+- [[Seed Refinement - Knowledge Graph Retrieval Optimization]] — April 8, 2026 refinement
 
 ## Open Questions
 
-1. Should context-window awareness influence note atomicity decisions?
-2. How do you balance normalization (small atomic notes) with context efficiency (larger self-contained chunks)?
-3. Should vaults target specific context window sizes?
-
-## Related Notes
-
-- [[Seed Gap - Context Window-Aware Knowledge Organization]] (if created)
-- [[Knowledge Graph Structure]]
-- [[Note Creation Decision Framework]]
-- [[Frontier Exploration - Multi-Vault Knowledge Coordination]]
-
-## Next Steps
-
-1. Test these concepts on a large vault (>500 notes)
-2. Measure actual token costs for different graph traversal patterns
-3. Develop heuristics for context-cost optimization
+1. Should the Seed include explicit context-budget tests?
+2. What's the minimum viable summary length per knowledge type?
+3. How do we handle domains with inherently high information density?
 
 ---
 
-[[_root]] | [[Frontier Exploration Hub]] | [[AI-Assisted Knowledge Management Seed]]
+**This is frontier exploration** — testing hypotheses about context-window-aware organization. The goal is to eventually add a Seed rule if the hypotheses hold.

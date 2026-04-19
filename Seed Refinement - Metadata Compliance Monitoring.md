@@ -1,11 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-06
 last-updated: 2026-04-06
 lifecycle: evergreen
 confidence: high
-author-type: ai-assisted
-verification-status: verified
-knowledge-type: meta
 tags:
   - seed-refinement
   - metadata

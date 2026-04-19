@@ -1,10 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-07
 lifecycle: seed-extension
 confidence: emerging
-author-type: ai-assisted
-knowledge-type: meta
-access-pattern: decision
 tags:
   - seed-refinement
   - time-constraints
@@ -72,7 +74,7 @@ This is an integration proposal. The frontier exploration note contains the deta
 
 ## Related Notes
 
-- [[Frontier Exploration - Time-Constrained Knowledge Capture]] — Source frontier exploration
+- [[Frontier Exploration - Time-Constrained Knowledge Capture]] — Source frontier exploration (consolidated 2026-04-08)
 - [[Best Practice - Progress Over Perfection]] — Related quality tradeoff guidance
 - [[Frontier Exploration - Anticipatory Knowledge Capture]] — Related future-needs capture
 - [[Note Lifecycle Management]] — Incomplete note lifecycle

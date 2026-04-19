@@ -1,18 +1,19 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-07
 last-updated: 2026-04-07
 lifecycle: seed-refinement
 confidence: medium
-author-type: ai-assisted
-knowledge-type: meta
-verification-status: verified
 tags:
   - seed-refinement
   - domain-adaptation
   - methodology
   - process
   - bootstrap
-access-pattern: decision
 ---
 
 # Seed Refinement - Domain Adaptation Checklist Template

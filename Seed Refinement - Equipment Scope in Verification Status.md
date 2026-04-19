@@ -1,8 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-01
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
 tags:
   - seed-refinement
   - equipment
@@ -13,7 +17,6 @@ related-seed-gaps:
 related-seed-rules:
   - Edge case (NEW - 2026-03-23): In workshop-dependent craft domains
   - Rule (NEW - 2026-03-26): verification-mode tool-dependent
-schema-version: "1.0"
 ---
 
 # Seed Refinement - Equipment Scope in Verification Status

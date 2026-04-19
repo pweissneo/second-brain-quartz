@@ -1,18 +1,19 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-04
 last-updated: 2026-04-04
 confidence: emerging
-author-type: ai-assisted
 lifecycle: seed-refinement
 level: seed-refinement
-verification-status: draft
-access-pattern: learning
 tags:
   - seed-refinement
   - knowledge-presentation
   - communication
   - uncertainty
-knowledge-type: meta
 retrieval-mode: hybrid
 storage-pattern: atomic
 links-to:

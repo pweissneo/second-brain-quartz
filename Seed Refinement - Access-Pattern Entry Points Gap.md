@@ -1,10 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-06
 lifecycle: seed-refinement
 confidence: established
-author-type: ai-assisted
-knowledge-type: meta
-access-pattern: decision
 gap-status: identified
 gap-priority: high
 gap-phase: implementation

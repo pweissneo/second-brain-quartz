@@ -1,15 +1,18 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-03-30
 last-updated: 2026-03-30
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
 tags:
   - seed-refinement
   - anti-pattern
   - best-practice
   - merge-pattern
-verification-status: verified
 ---
 
 # Seed Refinement: Anti-Pattern to Best Practice Merge Pattern

@@ -1,14 +1,17 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-02
 lifecycle: seed-extension
 confidence: emerging
-author-type: ai-assisted
 tags:
   - seed-refinement
   - location-dependent
   - geographic
   - domain-extension
-schema-version: "1.0"
 ---
 
 # Seed Refinement - Location-Dependent Knowledge Handling

@@ -1,17 +1,19 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-06
 last-updated: 2026-04-06
 lifecycle: seed-gap-resolved
 confidence: emerging
-author-type: ai-assisted
-verification-status: unverified
 tags:
   - knowledge-evolution
   - self-contradiction
   - seed-gap
   - temporal-knowledge
   - resolved
-schema-version: "1.0"
 ---
 
 # Seed Refinement - Self-Contradiction and Evolved Perspective Handling

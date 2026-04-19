@@ -4,6 +4,9 @@ last-updated: 2026-03-30
 confidence: emerging
 lifecycle: seed-extension
 author-type: ai-assisted
+knowledge-type: meta
+access-pattern: learning
+verification-status: emerging
 tags: [frontier-exploration, knowledge-verification, tool-execution]
 related-seed-rules: [verification, experiential-knowledge]
 ---

@@ -1,4 +1,5 @@
 ---
+last-reviewed: 2026-04-07
 knowledge-type: frontier-exploration
 last-updated: 2026-04-07
 confidence: medium

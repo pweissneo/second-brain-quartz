@@ -1,9 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-05
 lifecycle: seed-refinement
 confidence: established
-author-type: ai-assisted
-verification-status: verified
 verification-mode: reasoning
 tags:
   - seed-refinement

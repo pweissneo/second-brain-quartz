@@ -4,6 +4,7 @@ last-reviewed: 2026-03-18
 lifecycle: evergreen
 confidence: high
 verification-status: verified
+access-pattern: learning
 tags:
   - workflow
   - process

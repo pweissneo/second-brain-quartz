@@ -1,11 +1,14 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-03
 last-updated: 2026-04-03
 lifecycle: proposed
 confidence: high
-author-type: ai-assisted
 gap-status: integrated
-verification-status: pending
 tags:
   - seed-refinement
   - thinking-tools

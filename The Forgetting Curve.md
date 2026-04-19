@@ -3,6 +3,7 @@ protected: true
 last-reviewed: 2026-03-20
 last-updated: 2026-03-24
 lifecycle: evergreen
+access-pattern: learning
 tags:
   - structure
 confidence: high

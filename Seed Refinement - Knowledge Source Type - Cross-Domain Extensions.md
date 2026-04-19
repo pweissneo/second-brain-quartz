@@ -1,15 +1,18 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-01
 last-updated: 2026-04-01
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
 tags:
   - seed-refinement
   - knowledge-source-type
   - domain-adaptation
   - cross-domain
-schema-version: "1.0"
 related-seed-rules:
   - knowledge-source-type
   - evidence-tier

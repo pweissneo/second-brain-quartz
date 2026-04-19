@@ -4,6 +4,12 @@ last-updated: 2026-03-24
 lifecycle: seed-extension
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
+access-pattern: learning
+verification-status: unverified
+retrieval-mode: hybrid
+storage-pattern: atomic
+verification-approach: self-consistency
 ---
 
 # Frontier Exploration - Memorization vs. Retrieval Strategy in Knowledge Bases

@@ -8,6 +8,7 @@ tags:
   - dependencies
   - learning-paths
 author-type: ai-assisted
+verification-status: unverified
 ---
 
 # Prerequisite Knowledge Tracking

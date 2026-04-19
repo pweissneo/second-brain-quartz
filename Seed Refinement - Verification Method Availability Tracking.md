@@ -1,11 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-03
 last-updated: 2026-04-03
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
-knowledge-type: principle
-verification-status: verified
 gap-resolution: resolved
 tags:
   - seed-refinement

@@ -1,10 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-04
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
-knowledge-type: structural
-verification-status: verified
 status: resolved
 resolved-date: 2026-04-04
 resolved-by: "Seed rule integrated (line 2030+, 2026-04-02)"

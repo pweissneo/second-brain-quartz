@@ -1,10 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-07
 last-updated: 2026-04-07
 lifecycle: seed-refinement
 confidence: emerging
-author-type: ai-assisted
-verification-status: draft
 tags:
   - seed-refinement
   - music-performance
@@ -12,7 +15,6 @@ tags:
   - performance-psychology
   - repertoire
   - domain-specific
-knowledge-type: meta
 process-type: iterative
 ---
 

@@ -1,9 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-03-28
 last-updated: 2026-03-28
 lifecycle: historical
 confidence: high
-author-type: ai-assisted
 tags:
   - seed-refinement
   - schema

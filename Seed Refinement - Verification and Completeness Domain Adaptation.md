@@ -1,10 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-updated: 2026-04-08
 lifecycle: seed-refinement
 confidence: high
-author-type: ai-assisted
-knowledge-type: meta
-verification-status: verified
 evidence-tier: stress-test-derived
 knowledge-source-type: deductive
 applicability: universal

@@ -84,7 +84,6 @@ A note about "how to find M31 in binoculars" might only link to "M31" and "binoc
 
 ## Edge Case 4: Location-Dependent Knowledge
 
-**Problem:** Astronomy knowledge depends heavily on:
 - Latitude/longitude (what's visible from your location)
 - Light pollution levels
 - Weather patterns
@@ -92,9 +91,7 @@ A note about "how to find M31 in binoculars" might only link to "M31" and "binoc
 
 A note about "best observation times for [local galaxy]" from a specific site might only link to the galaxy and the site.
 
-**Seed Edge Case:** Already covered by "Context-Gated Knowledge" rules.
 
-**Analysis:** The existing context-gated rules should handle this, but link density expectations might need adjustment for highly location-specific notes.
 
 ---
 

@@ -10,6 +10,7 @@ tags:
   - sources
 author-type: ai-assisted
 level: principle
+verification-status: verified
 ---
 
 # Handling Contradictory Sources

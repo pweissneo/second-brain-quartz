@@ -9,6 +9,7 @@ tags:
   - workflow
 thinking-tool: true
 thinking-tool-type: cognitive-strategy
+verification-status: verified
 ---
 
 # Tool Replacement Decisions

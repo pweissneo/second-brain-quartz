@@ -1,10 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-04
 last-updated: 2026-04-04
 lifecycle: staging
 confidence: emerging
-verification-status: unverified
-author-type: ai-assisted
 tags:
   - seed-refinement
   - interaction-mode

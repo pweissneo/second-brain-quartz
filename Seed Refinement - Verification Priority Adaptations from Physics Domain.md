@@ -1,12 +1,14 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-08
 
 last-updated: 2026-04-06
 lifecycle: seed-refinement
 confidence: emerging
-author-type: ai-assisted
-knowledge-type: structural
-verification-status: unverified
 gap-status: proposed
 knowledge-source-type: deductive
 domain-scope: physics

@@ -1,9 +1,13 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-03
 last-updated: 2026-04-03
 lifecycle: seed-refinement
 confidence: medium
-author-type: ai-assisted
 gap-status: integrated
 resolved-by: [[Seed Refinement - Learning Progression Organization]]
 resolved: 2026-04-03

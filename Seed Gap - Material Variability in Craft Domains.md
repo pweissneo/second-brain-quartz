@@ -1,8 +1,8 @@
 ---
-gap-status: identified
+gap-status: proposed
 protected: false
-last-reviewed: 2026-03-26
-last-updated: 2026-03-26
+last-reviewed: 2026-04-08
+last-updated: 2026-04-08
 lifecycle: seed-gap
 confidence: emerging
 author-type: ai-assisted
@@ -12,9 +12,10 @@ tags:
   - material-variability
   - woodworking
   - craft-knowledge
-gap-type: seed-missing
+  - gap-type: seed-missing
+  - resolved-by: [[Seed Refinement - Material Variability Handling]]
 ---
-gap-status: identified
+gap-status: proposed
 
 # Seed Gap: Material Variability Handling in Craft Domains
 

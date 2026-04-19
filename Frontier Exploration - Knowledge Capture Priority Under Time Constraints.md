@@ -1,7 +1,7 @@
 ---
 last-reviewed: 2026-04-08
 last-updated: 2026-04-08
-lifecycle: frontier-exploration
+lifecycle: deprecated
 confidence: emerging
 author-type: ai-assisted
 knowledge-type: meta
@@ -10,7 +10,12 @@ tags:
   - seed-gap
   - capture-priority
   - decision-framework
+  - deprecated
+deprecated: 2026-04-08
+redirect: Frontier Exploration - Time-Constrained Knowledge Capture
 ---
+
+> **DEPRECATED (2026-04-08):** Content merged into [[Frontier Exploration - Time-Constrained Knowledge Capture]]. This note is kept for reference but no longer maintained.
 
 # Frontier Exploration - Knowledge Capture Priority Under Time Constraints
 

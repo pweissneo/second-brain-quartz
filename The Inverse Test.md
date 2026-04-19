@@ -4,6 +4,9 @@ last-updated: 2026-03-22
 lifecycle: evergreen
 confidence: emerging
 author-type: ai-assisted
+knowledge-type: meta
+access-pattern: learning
+verification-status: verified
 tags:
   - frontier-exploration
   - applicability

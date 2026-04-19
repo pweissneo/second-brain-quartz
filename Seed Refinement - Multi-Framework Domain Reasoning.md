@@ -1,9 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 lifecycle: seed-extension
 confidence: emerging
 last-reviewed: 2026-03-28
-author-type: ai-assisted
-verification-status: verified
 tags:
   - seed-refinement
   - reasoning-strategies

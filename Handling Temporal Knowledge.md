@@ -3,6 +3,7 @@ last-reviewed: 2026-03-12
 lifecycle: evergreen
 confidence: high
 verification-status: verified
+access-pattern: lookup
 tags:
   - seed-extension
   - temporal

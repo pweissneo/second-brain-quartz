@@ -1,8 +1,10 @@
 ---
-last-reviewed: 2026-04-08
+last-reviewed: 2026-04-09
 
-status: identified
+status: resolved
 last-identified: 2026-04-07
+last-resolved: 2026-04-09
+resolution: Seed already handles this scenario through correction metadata (line ~3100), verification mode conflict resolution, and unlearning-required frontmatter. The distinction between fact-update, belief-revision, and model-unlearning is captured by verification-status (unverified→verified→discredited) and confidence markers. Unlearning pathway preservation is covered by correction metadata fields. No new rule needed.
 lifecycle: seed-gap
 confidence: medium
 author-type: ai-assisted

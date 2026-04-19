@@ -1,9 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-07
 confidence: emerging
-author-type: ai-assisted
 lifecycle: seedling
-knowledge-type: synthesis
 tags:
   - seed-refinement
   - abstraction-levels

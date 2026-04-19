@@ -1,8 +1,12 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-04-06
 lifecycle: refinement
 confidence: high
-author-type: ai-assisted
 tags:
   - seed-refinement
   - link-density

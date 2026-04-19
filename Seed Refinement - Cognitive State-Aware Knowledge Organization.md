@@ -1,8 +1,11 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-updated: 2026-04-08
 confidence: emerging
-knowledge-type: meta
-verification-status: unverified
 verification-modality: passive
 ---
 

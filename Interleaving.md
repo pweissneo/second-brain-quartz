@@ -11,6 +11,7 @@ tags:
   - concept
 thinking-tool: true
 thinking-tool-type: cognitive-strategy
+verification-status: verified
 ---
 
 # Interleaving

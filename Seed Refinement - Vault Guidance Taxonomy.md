@@ -1,16 +1,18 @@
 ---
+knowledge-type: meta
+access-pattern: lookup
+verification-status: unverified
+author-type: ai-assisted
+schema-version: "1.0"
 last-reviewed: 2026-03-29
 last-updated: 2026-03-29
 lifecycle: evergreen
 confidence: high
-author-type: ai-assisted
-knowledge-type: analysis
 tags:
   - seed-refinement
   - taxonomy
   - structure
 level: principle
-schema-version: "1.0"
 ---
 
 # Seed Refinement - Vault Guidance Taxonomy
@@ -27,8 +29,6 @@ schema-version: "1.0"
 
 **Purpose:** Core principles that apply broadly across vaults
 
-**Count:** ~100 rules in AI-Assisted Knowledge Management Seed.md
-
 ### 2. Frontier Explorations
 - Emerging concepts not yet mature enough for Seed
 - Gap identification and proposed rules
@@ -36,16 +36,12 @@ schema-version: "1.0"
 
 **Purpose:** Document what's being discovered but not yet resolved
 
-**Count:** 164 frontier exploration notes
-
 ### 3. Seed Stress Tests
 - Domain-specific validation of main rules
 - Edge cases discovered through application
 - Includes edge case modifications
 
 **Purpose:** Validate rules work in specific contexts, refine when they don't
-
-**Count:** 97 seed stress test notes
 
 ## The Gap
 
