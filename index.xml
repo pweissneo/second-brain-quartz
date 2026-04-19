@@ -10,61 +10,61 @@
     <link>https://quartz.jzhao.xyz/Voice-and-Persona-Consistency---Consolidated</link>
     <guid>https://quartz.jzhao.xyz/Voice-and-Persona-Consistency---Consolidated</guid>
     <description><![CDATA[ Voice and Persona Consistency in Knowledge Bases The Seed tracks knowledge provenance but doesn’t address knowledge presentation — how the knowledge base “sounds” to users. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:15 GMT</pubDate>
   </item><item>
     <title>Structural Health - Graph Connectivity</title>
     <link>https://quartz.jzhao.xyz/Structural-Health---Graph-Connectivity</link>
     <guid>https://quartz.jzhao.xyz/Structural-Health---Graph-Connectivity</guid>
     <description><![CDATA[ Structural Health - Graph Connectivity Documented structural issues found during STRUCTURAL_HEALTH check Current State (2026-04-08) MetricValueTotal Notes320+Notes linking to Seed353Isolated (&lt;3 links)0Notes unreachable from _rootMinimal (Seed-related notes expected) Updated Findings 1. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test Result - Mathematics Knowledge Base Gap Confirmed</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Mathematics-Knowledge-Base-Gap-Confirmed</guid>
     <description><![CDATA[ Seed Stress Test Result: Mathematical Knowledge Base - Gap Confirmed Date: 2026-04-08 Method: SEED_STRESS_TEST Target: Mathematics Knowledge Base Summary Stress testing the Seed against mathematical knowledge confirms that Seed Gap - Mathematical Knowledge Deep Dive Rules remains a valid, unaddresse... ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test Result - Cooking Knowledge Base</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Cooking-Knowledge-Base</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test-Result---Cooking-Knowledge-Base</guid>
     <description><![CDATA[ Seed Stress Test: Cooking Knowledge Base Result of applying Seed rules to a cooking knowledge base domain Domain: Cooking Applied the following Seed rules to a hypothetical cooking knowledge base (200+ notes): Note atomicity rules Knowledge type taxonomy Verification and completeness rules Access pa... ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Verification Priority Rule in Game Design</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Rule-in-Game-Design</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Verification-Priority-Rule-in-Game-Design</guid>
     <description><![CDATA[ Seed Stress Test: Verification Priority Rule in Game Design Rule Under Test Priority categories: Level 1 (Critical): Knowledge that could cause harm if wrong — medical advice, safety procedures, legal guidance, financial decisions, technical configurations. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Stress Test - Knowledge Base Voice and Persona Consistency</title>
     <link>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Base-Voice-and-Persona-Consistency</link>
     <guid>https://quartz.jzhao.xyz/Seed-Stress-Test---Knowledge-Base-Voice-and-Persona-Consistency</guid>
     <description><![CDATA[ Redirect This stress test has been consolidated into Voice and Persona Consistency - Consolidated, which contains the refined rule and test. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification and Completeness Domain Adaptation</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-and-Completeness-Domain-Adaptation</guid>
     <description><![CDATA[ Seed Refinement: Verification and Completeness Rules Need Domain Adaptation Date: 2026-04-08 Method: SEED_STRESS_TEST Insight Source: Physics + Mathematics domain stress tests What I Learned Running Seed stress tests across multiple domains revealed three recurring patterns where the Seed’s generic ... ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Verification Priority Hierarchy - Cross-Domain Edge Cases</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Hierarchy---Cross-Domain-Edge-Cases</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Verification-Priority-Hierarchy---Cross-Domain-Edge-Cases</guid>
     <description><![CDATA[ Seed Refinement: Verification Priority Hierarchy — Cross-Domain Edge Cases Status: Draft — consolidated from multi-domain stress tests Date: 2026-04-09 Source: Consolidated from physics, woodworking, cooking, creative-performance stress tests Method: REDUNDANCY_SCAN Background The Verification Prior... ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Time-Constrained Capture Test Executability</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Time-Constrained-Capture-Test-Executability</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Time-Constrained-Capture-Test-Executability</guid>
     <description><![CDATA[ Seed Refinement: Time-Constrained Capture Rule - Music Performance Stress Test Testing the time-constrained capture rule against a music performance knowledge base reveals significant test executability issues. ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item><item>
     <title>Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note</title>
     <link>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</link>
     <guid>https://quartz.jzhao.xyz/Seed-Refinement---Terminology-Consistency-Anti-Pattern-vs-Anti-Patterns-Note</guid>
     <description><![CDATA[ Seed Refinement - Terminology Consistency Anti-Pattern vs Anti-Patterns Note Observed Redundancy The vault contains: Anti-Patterns in Knowledge Management.md — a hub note consolidating anti-pattern knowledge Seed Refinement - Anti-Pattern Merge Pattern.md — a seed refinement about merging anti-patte... ]]></description>
-    <pubDate>Sun, 19 Apr 2026 14:06:31 GMT</pubDate>
+    <pubDate>Sun, 19 Apr 2026 14:17:14 GMT</pubDate>
   </item>
     </channel>
   </rss>
